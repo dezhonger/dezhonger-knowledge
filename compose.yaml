@@ -1,0 +1,13 @@
+name: dezhonger-knowledge
+
+services:
+  knowledge:
+    container_name: knowledge
+    build: .
+    restart: unless-stopped
+    networks: [edge]
+
+networks:
+  edge:
+    name: dezhonger-edge
+    external: true
