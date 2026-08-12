@@ -5,7 +5,7 @@ description: Dezhonger 知识库的建立目的与维护方式。
 
 # 关于本站
 
-Dezhonger 知识库是由 Dezhonger 编写的中英文原创技术笔记。它与[在线工具和个人服务](https://150.109.77.66/?lang=zh)互相补充，但代码仓库和发布周期相互独立。
+Dezhonger 知识库是由 Dezhonger 编写的中英文原创技术笔记。它与[在线工具和个人服务](https://dezhonger.com/?lang=zh)互相补充，但代码仓库和发布周期相互独立。
 
 ## 内容原则
 

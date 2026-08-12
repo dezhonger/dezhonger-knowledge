@@ -2,8 +2,8 @@ import { defineConfig, type DefaultTheme } from 'vitepress'
 
 const repository = 'https://github.com/dezhonger/dezhonger-knowledge'
 const service = {
-  en: 'https://150.109.77.66/?lang=en',
-  zh: 'https://150.109.77.66/?lang=zh',
+  en: 'https://dezhonger.com/?lang=en',
+  zh: 'https://dezhonger.com/?lang=zh',
 }
 
 const englishSidebar: DefaultTheme.SidebarItem[] = [
@@ -72,7 +72,7 @@ export default defineConfig({
   base: '/knowledge/',
   cleanUrls: true,
   lastUpdated: true,
-  sitemap: { hostname: 'https://150.109.77.66/knowledge/' },
+  sitemap: { hostname: 'https://dezhonger.com/knowledge/' },
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/knowledge/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
