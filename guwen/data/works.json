@@ -1801,10 +1801,19 @@
     "author": "陈毅",
     "book": "九年级下册",
     "stage": "junior",
-    "dynasty": "现代",
-    "genre": "诗词曲",
-    "paragraphs": [],
-    "copyrightProtected": true,
+    "dynasty": "近现代",
+    "genre": "文言文",
+    "paragraphs": [
+      "【其一】",
+      "断头今日意如何？创业艰难百战多。",
+      "此去泉台招旧部，旌旗十万斩阎罗。",
+      "【其二】",
+      "南国烽烟正十年，此头须向国门悬。",
+      "后死诸君多努力，捷报飞来当纸钱。",
+      "【其三】",
+      "投生革命即为家，血雨腥风应有涯。",
+      "取义成仁今日事，人间遍种自由花。"
+    ],
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/57d4d5c/",
     "slug": "57d4d5c",
     "link": "/junior/works/57d4d5c"

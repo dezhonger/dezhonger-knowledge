@@ -32,7 +32,7 @@ const dynastyAliases = {
 }
 
 const proseHints = /记|表|论|序|传|书|说|疏|赋|宴|事|章|四章|十二章|解牛|劝学|兼爱|北冥有鱼|濠梁|不能淫|忧患|嘉肴|大道|军细柳|石兽|世家|冤|促织|五石之瓠|大学之道|侍坐|不忍人之心|穿井|杞人忧天|狼|咏雪|陈太丘/
-const protectedAuthors = new Set(['毛泽东', '陈毅'])
+const protectedAuthors = new Set(['毛泽东'])
 
 function decodeHtml(value) {
   const entities = {
