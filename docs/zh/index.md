@@ -12,7 +12,7 @@ hero:
       link: /zh/guide
     - theme: alt
       text: 打开工具站
-      link: https://150.109.77.66/
+      link: https://150.109.77.66/?lang=zh
 
 features:
   - icon: "01 · 后端"

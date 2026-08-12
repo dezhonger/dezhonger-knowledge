@@ -5,7 +5,7 @@ description: Why Dezhonger Knowledge exists and how its content is maintained.
 
 # About this site
 
-Dezhonger Knowledge is a bilingual collection of original technical notes by Dezhonger. It complements the [interactive tools and personal service](https://150.109.77.66/) without sharing their application code or release cycle.
+Dezhonger Knowledge is a bilingual collection of original technical notes by Dezhonger. It complements the [interactive tools and personal service](https://150.109.77.66/?lang=en) without sharing their application code or release cycle.
 
 ## Editorial principles
 

@@ -12,7 +12,7 @@ hero:
       link: /guide
     - theme: alt
       text: Open tools
-      link: https://150.109.77.66/
+      link: https://150.109.77.66/?lang=en
 
 features:
   - icon: "01 · BACKEND"

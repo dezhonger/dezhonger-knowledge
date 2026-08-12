@@ -1,7 +1,10 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 
 const repository = 'https://github.com/dezhonger/dezhonger-knowledge'
-const service = 'https://150.109.77.66/'
+const service = {
+  en: 'https://150.109.77.66/?lang=en',
+  zh: 'https://150.109.77.66/?lang=zh',
+}
 
 const englishSidebar: DefaultTheme.SidebarItem[] = [
   {
@@ -88,7 +91,7 @@ export default defineConfig({
           { text: 'Backend', link: '/backend/' },
           { text: 'Systems', link: '/systems/' },
           { text: 'AI', link: '/ai/' },
-          { text: 'Tools', link: service },
+          { text: 'Tools', link: service.en },
         ],
         sidebar: englishSidebar,
         outline: { level: [2, 3], label: 'On this page' },
@@ -117,7 +120,7 @@ export default defineConfig({
           { text: '后端', link: '/zh/backend/' },
           { text: '系统', link: '/zh/systems/' },
           { text: 'AI', link: '/zh/ai/' },
-          { text: '工具站', link: service },
+          { text: '工具站', link: service.zh },
         ],
         sidebar: chineseSidebar,
         outline: { level: [2, 3], label: '本页内容' },
