@@ -5,7 +5,10 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs --host 127.0.0.1",
+    "dev:guwen": "vitepress dev guwen --host 127.0.0.1 --port 5174",
     "build": "vitepress build docs",
+    "build:guwen": "vitepress build guwen",
+    "build:all": "npm run build && npm run build:guwen",
     "preview": "vitepress preview docs --host 127.0.0.1"
   },
   "devDependencies": {

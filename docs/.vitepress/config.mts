@@ -69,12 +69,12 @@ const chineseSidebar: DefaultTheme.SidebarItem[] = [
 ]
 
 export default defineConfig({
-  base: '/knowledge/',
+  base: '/',
   cleanUrls: true,
   lastUpdated: true,
-  sitemap: { hostname: 'https://dezhonger.com/knowledge/' },
+  sitemap: { hostname: 'https://knowledge.dezhonger.com/' },
   head: [
-    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/knowledge/logo.svg' }],
+    ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
   locales: {

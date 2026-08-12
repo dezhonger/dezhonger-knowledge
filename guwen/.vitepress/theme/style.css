@@ -1,0 +1,30 @@
+:root {
+  --vp-c-brand-1: #8b3e2e;
+  --vp-c-brand-2: #a6503c;
+  --vp-c-brand-3: #bd6851;
+  --vp-c-bg: #fbf8f1;
+  --vp-c-bg-alt: #f3ede1;
+  --vp-c-bg-soft: #f5efe5;
+  --vp-font-family-base: "Noto Serif SC", "Songti SC", STSong, serif;
+  --vp-font-family-mono: ui-monospace, SFMono-Regular, Menlo, monospace;
+}
+
+.VPNavBarTitle .title { letter-spacing: .06em; }
+.VPHero .name, .VPHero .text { letter-spacing: -.04em; }
+.VPHero .image-src { width: 620px; max-width: none; border-radius: 28px; box-shadow: 0 24px 70px rgba(64, 48, 30, .16); }
+.VPFeature { border-color: rgba(83, 66, 43, .12) !important; background: rgba(255, 253, 248, .7) !important; }
+.vp-doc h1, .vp-doc h2, .vp-doc h3 { font-weight: 700; }
+.vp-doc p { line-height: 2; }
+.vp-doc blockquote { color: var(--vp-c-text-2); border-left-color: #b98b67; background: rgba(185, 139, 103, .08); padding: 12px 20px; }
+.work-meta { display: flex; gap: 8px; flex-wrap: wrap; margin: -8px 0 28px; }
+.work-meta span { padding: 4px 10px; border: 1px solid rgba(139, 62, 46, .2); border-radius: 999px; color: #7b493d; font-size: 13px; }
+
+@media (max-width: 960px) {
+  .VPHero .image-src { width: 100%; max-width: 580px; }
+}
+
+.dark {
+  --vp-c-bg: #171613;
+  --vp-c-bg-alt: #201e1a;
+  --vp-c-bg-soft: #24211d;
+}

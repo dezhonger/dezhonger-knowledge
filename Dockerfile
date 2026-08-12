@@ -5,10 +5,20 @@ WORKDIR /src
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY docs ./docs
-RUN npm run build
+COPY guwen ./guwen
+RUN npm run build:all
 
 FROM nginx:1.29-alpine
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /src/docs/.vitepress/dist/ /usr/share/nginx/html/knowledge/
+COPY --from=builder /src/guwen/.vitepress/dist/ /usr/share/nginx/html/guwen/
+COPY sites/zmq/ /usr/share/nginx/html/zmq/
+COPY sites/rby/ /usr/share/nginx/html/rby/
+COPY sites/math/ /usr/share/nginx/html/math/
+COPY sites/algo/ /usr/share/nginx/html/algo/
+COPY sites/shared/base.css /usr/share/nginx/html/zmq/base.css
+COPY sites/shared/base.css /usr/share/nginx/html/rby/base.css
+COPY sites/shared/base.css /usr/share/nginx/html/math/base.css
+COPY sites/shared/base.css /usr/share/nginx/html/algo/base.css
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
-  CMD wget -q -O - http://127.0.0.1/knowledge/ >/dev/null || exit 1
+  CMD wget -q --header='Host: knowledge.dezhonger.com' -O - http://127.0.0.1/ >/dev/null || exit 1

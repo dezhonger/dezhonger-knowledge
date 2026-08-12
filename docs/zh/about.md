@@ -16,7 +16,7 @@ Dezhonger 知识库是由 Dezhonger 编写的中英文原创技术笔记。它�
 
 ## 技术实现
 
-网站使用 Markdown 编写，通过 VitePress 构建，并作为独立的静态 Docker 容器部署。搜索索引在浏览器本地运行。公网 Nginx 将 `/knowledge/` 转发到知识库容器，工具、API、备忘录和数据库仍由独立的 `dezhonger-service` 服务管理。
+网站使用 Markdown 编写，通过 VitePress 构建，并作为独立的静态 Docker 容器部署。搜索索引在浏览器本地运行。公网 Nginx 将 `knowledge.dezhonger.com` 转发到知识库容器，工具、API、备忘录和数据库仍由独立的 `dezhonger-service` 服务管理。
 
 ## 参与修改
 

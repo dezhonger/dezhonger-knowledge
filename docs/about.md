@@ -16,7 +16,7 @@ Dezhonger Knowledge is a bilingual collection of original technical notes by Dez
 
 ## Technology
 
-The site is written in Markdown, built with VitePress, and deployed as an independent static Docker container. Search runs locally in the browser. The public web server routes `/knowledge/` to this container while the tools, API, memo, and database remain in the separate `dezhonger-service` deployment.
+The site is written in Markdown, built with VitePress, and deployed as an independent static Docker container. Search runs locally in the browser. The public web server routes `knowledge.dezhonger.com` to this container while the tools, API, memo, and database remain in the separate `dezhonger-service` deployment.
 
 ## Contributions
 
