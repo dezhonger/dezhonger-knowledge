@@ -142,10 +142,6 @@ function indexMarkdown(stage, works) {
   const stageText = stage === 'junior' ? '初中' : '高中'
   const bookOrder = Object.values(bookLabels).filter((book) => works.some((work) => work.book === book))
   const availableCount = works.filter((work) => !work.copyrightProtected).length
-  const sections = bookOrder.map((book) => {
-    const items = works.filter((work) => work.book === book)
-    return `## ${book}\n\n${items.map((work) => `- [${work.title}](${work.link}) · ${work.author} · ${work.genre}${work.copyrightProtected ? ' · 版权保护期内' : ''}`).join('\n')}`
-  }).join('\n\n')
   return `---
 title: ${stageText}古诗文
 description: 按教材分册整理的${stageText}古诗文完整目录。
@@ -157,7 +153,7 @@ description: 按教材分册整理的${stageText}古诗文完整目录。
 
 按教材分册收录，每篇均有独立、可检索的页面。公共领域作品提供完整原文；仍在著作权保护期内的作品只提供目录信息。页面上方可以使用本地全文搜索；下方目录可按分册浏览。
 
-${sections}
+<GuwenCatalog stage="${stage}" />
 `
 }
 
