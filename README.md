@@ -5,7 +5,8 @@ A single repository for Dezhonger's independently addressed content sites:
 - `knowledge.dezhonger.com`: bilingual technical knowledge, powered by VitePress.
 - `guwen.dezhonger.com`: Chinese classical literature, powered by VitePress.
 - `zmq.dezhonger.com` and `rby.dezhonger.com`: original illustrated theme pages.
-- `math.dezhonger.com` and `algo.dezhonger.com`: subject indexes and future article entry points.
+- `math.dezhonger.com` and `algo.dezhonger.com`: mathematics, algorithms, machine learning and LLM learning paths.
+- `english.dezhonger.com`, `biology.dezhonger.com`, `geography.dezhonger.com`, `physics.dezhonger.com`, `chemistry.dezhonger.com` and `history.dezhonger.com`: junior/senior subject learning sites; science sites include competition paths and Chemistry includes an interactive periodic table.
 
 ## Local development
 
@@ -55,7 +56,7 @@ The textbook catalog and original texts are stored in `guwen/data/works.json`.
 2. Run `npm run build:guwen`; individual Markdown pages, book indexes, sidebars, and local full-text search are regenerated automatically.
 3. Run `npm run sync:guwen` only when the complete textbook catalog needs to be refreshed, then review the generated diff before committing.
 
-The four simple sites live under `sites/`. Each hostname keeps its own `index.html`; ZMQ/RBY use `sites/shared/base.css`, while Math/Algorithms share the searchable catalog assets.
+The static subject sites live under `sites/`. Each hostname keeps its generated `index.html`; the source curriculum map is in `scripts/subject-data.mjs`. Run `npm run generate:subjects` after editing the map. All subject pages share `sites/shared/subject.css` and `subject.js`; Chemistry additionally loads `elements.js`. The checked-in element data was generated from PubChem's public periodic-table JSON with `npm run generate:elements`.
 
 ## Deployment
 

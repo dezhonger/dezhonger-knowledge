@@ -3,128 +3,168 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="数据结构与算法的完整二级分类目录。">
-  <title>算法知识目录 · Dezhonger</title>
-  <link rel="stylesheet" href="/catalog.css">
+  <meta name="description" content="把算法竞赛、工程算法与机器学习、大模型分成两条清晰路径，同时保留模型、证明、复杂度和实现边界。">
+  <title>算法知识体系</title>
+  <link rel="stylesheet" href="subject.css">
 </head>
-<body>
+<body data-subject="algo">
   <header class="site-header">
-    <a class="site-name" href="/">Dezhonger Algorithms</a>
-    <nav aria-label="站点导航">
-      <a href="https://math.dezhonger.com">数学</a>
-      <a aria-current="page" href="https://algo.dezhonger.com">算法</a>
-      <a href="https://knowledge.dezhonger.com/zh/">知识库</a>
-      <a href="https://dezhonger.com/?lang=zh">工具</a>
-    </nav>
+    <a class="site-name" href="/">算法</a>
+    <nav aria-label="学科导航"><a href="https://math.dezhonger.com">数学</a><a aria-current="page" href="https://algo.dezhonger.com">算法</a><a href="https://english.dezhonger.com">英语</a><a href="https://biology.dezhonger.com">生物</a><a href="https://geography.dezhonger.com">地理</a><a href="https://physics.dezhonger.com">物理</a><a href="https://chemistry.dezhonger.com">化学</a><a href="https://history.dezhonger.com">历史</a><a href="https://guwen.dezhonger.com">古文</a><a href="https://knowledge.dezhonger.com/zh/">知识库</a></nav>
   </header>
-
   <div class="page-shell">
     <aside class="sidebar" aria-label="算法目录筛选">
-      <div class="side-title">算法主题</div>
-      <button class="filter-button active" data-filter="all">全部主题 <span>14</span></button>
-      <button class="filter-button" data-filter="foundation">基础与分析</button>
-      <button class="filter-button" data-filter="structure">数据结构</button>
-      <button class="filter-button" data-filter="paradigm">算法范式</button>
-      <button class="filter-button" data-filter="graph">图与树</button>
-      <button class="filter-button" data-filter="advanced">进阶专题</button>
+      <div class="side-title">算法学习路径</div>
+      <button class="filter-button active" data-filter="all">全部章节<span>14</span></button>
+      <button class="filter-button" data-filter="competitive">算法与数据结构<span>8</span></button><button class="filter-button" data-filter="ai">机器学习与大模型<span>6</span></button>
       <div class="side-divider"></div>
-      <a class="side-link" href="https://knowledge.dezhonger.com/zh/">阅读技术知识库 ↗</a>
-      <p class="side-note">每个一级主题已展开到可以直接规划文章的二级知识点。</p>
+      <p class="side-note">算法与数据结构体系、机器学习与大模型基础。页面提供知识框架与学习提示，不替代正式教材。</p>
     </aside>
-
     <main>
-      <div class="title-row">
-        <div>
-          <p class="breadcrumb">HOME / ALGORITHMS / TOPICS</p>
-          <h1>算法知识目录</h1>
-          <p class="intro">按问题模型查找算法，并把正确性、复杂度和实现边界放在同一条学习路径中。</p>
-        </div>
-        <label class="search-box">
-          <span>搜索目录</span>
-          <input id="catalog-search" type="search" placeholder="例如：最短路、KMP、线段树" autocomplete="off">
-        </label>
-      </div>
+      <section class="hero-row">
+        <div><p class="breadcrumb">ALGORITHMS / MODELS & SYSTEMS</p><h1>算法知识体系</h1><p class="intro">把算法竞赛、工程算法与机器学习、大模型分成两条清晰路径，同时保留模型、证明、复杂度和实现边界。</p></div>
+        <label class="search-box"><span>搜索章节和知识点</span><input id="subject-search" type="search" placeholder="输入关键词" autocomplete="off"></label>
+      </section>
+      <div class="overview"><strong id="visible-count">14</strong><span>章内容</span><strong>2</strong><span>条学习路径</span><p>每章均包含核心内容和方法边界，所有结果直接展示在页面中。</p></div>
 
-      <div class="catalog-panel">
-        <div class="panel-rule"></div>
-        <div class="result-summary" aria-live="polite"><strong id="visible-count">14</strong> 个主题目录</div>
-
-        <section class="catalog-section" data-groups="foundation">
-          <div class="section-heading"><h2>复杂度与正确性</h2><span>12 个知识点</span></div>
-          <ul class="topic-list"><li>渐近记号 O、Ω、Θ</li><li>时间复杂度</li><li>空间复杂度</li><li>最好、最坏与平均复杂度</li><li>递归式分析</li><li>主定理</li><li>摊还分析</li><li>势能法</li><li>循环不变量</li><li>数学归纳法证明</li><li>反证法与构造性证明</li><li>上下界分析</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="structure foundation">
-          <div class="section-heading"><h2>基础数据结构</h2><span>17 个知识点</span></div>
-          <ul class="topic-list"><li>数组与动态数组</li><li>单链表与双链表</li><li>栈</li><li>队列</li><li>双端队列</li><li>循环队列</li><li>哈希表</li><li>哈希冲突处理</li><li>布隆过滤器</li><li>位图</li><li>堆与优先队列</li><li>二叉搜索树</li><li>AVL 树</li><li>红黑树</li><li>跳表</li><li>并查集</li><li>路径压缩与按秩合并</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="structure advanced">
-          <div class="section-heading"><h2>区间与高级数据结构</h2><span>15 个知识点</span></div>
-          <ul class="topic-list"><li>前缀和</li><li>差分数组</li><li>稀疏表 ST</li><li>树状数组</li><li>线段树</li><li>延迟标记</li><li>动态开点线段树</li><li>可持久化线段树</li><li>扫描线与线段树</li><li>笛卡尔树</li><li>平衡树 Treap</li><li>Splay</li><li>可持久化数据结构</li><li>分块与莫队</li><li>二维数据结构</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="foundation paradigm">
-          <div class="section-heading"><h2>排序、查找与选择</h2><span>19 个知识点</span></div>
-          <ul class="topic-list"><li>冒泡排序</li><li>选择排序</li><li>插入排序</li><li>归并排序</li><li>快速排序</li><li>堆排序</li><li>希尔排序</li><li>计数排序</li><li>桶排序</li><li>基数排序</li><li>排序稳定性</li><li>二分查找</li><li>二分答案</li><li>三分搜索</li><li>快速选择</li><li>第 k 小问题</li><li>双指针</li><li>滑动窗口</li><li>折半搜索 Meet-in-the-middle</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="paradigm">
-          <div class="section-heading"><h2>动态规划</h2><span>19 个知识点</span></div>
-          <ul class="topic-list"><li>状态与状态转移</li><li>记忆化搜索</li><li>线性动态规划</li><li>最长递增子序列</li><li>最长公共子序列</li><li>0-1 背包</li><li>完全背包</li><li>多重背包</li><li>分组背包</li><li>区间动态规划</li><li>树形动态规划</li><li>DAG 上的动态规划</li><li>数位动态规划</li><li>状态压缩动态规划</li><li>概率与期望动态规划</li><li>滚动数组优化</li><li>单调队列优化</li><li>斜率优化</li><li>分治优化</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="paradigm foundation">
-          <div class="section-heading"><h2>贪心与搜索</h2><span>17 个知识点</span></div>
-          <ul class="topic-list"><li>贪心选择性质</li><li>交换论证</li><li>区间选择</li><li>区间覆盖</li><li>任务调度</li><li>霍夫曼编码</li><li>拟阵与贪心</li><li>深度优先搜索</li><li>广度优先搜索</li><li>双向搜索</li><li>迭代加深搜索</li><li>A* 搜索</li><li>回溯法</li><li>剪枝</li><li>分支限界</li><li>舞蹈链</li><li>启发式搜索</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="graph foundation">
-          <div class="section-heading"><h2>图论基础</h2><span>18 个知识点</span></div>
-          <ul class="topic-list"><li>邻接矩阵与邻接表</li><li>图的 DFS 与 BFS</li><li>连通分量</li><li>拓扑排序</li><li>有向无环图</li><li>欧拉路径与欧拉回路</li><li>哈密顿路径</li><li>二分图判定</li><li>割点与桥</li><li>点双连通分量</li><li>边双连通分量</li><li>强连通分量</li><li>Tarjan 算法</li><li>Kosaraju 算法</li><li>缩点</li><li>2-SAT</li><li>图的生成树计数</li><li>支配树</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="graph">
-          <div class="section-heading"><h2>最短路与生成树</h2><span>14 个知识点</span></div>
-          <ul class="topic-list"><li>无权图最短路</li><li>0-1 BFS</li><li>Dijkstra 算法</li><li>Bellman-Ford 算法</li><li>SPFA 与适用边界</li><li>Floyd-Warshall 算法</li><li>Johnson 全源最短路</li><li>差分约束</li><li>最短路计数</li><li>次短路</li><li>Kruskal 算法</li><li>Prim 算法</li><li>最小生成树唯一性</li><li>次小生成树</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="graph advanced">
-          <div class="section-heading"><h2>网络流与匹配</h2><span>14 个知识点</span></div>
-          <ul class="topic-list"><li>最大流最小割定理</li><li>Ford-Fulkerson 方法</li><li>Edmonds-Karp 算法</li><li>Dinic 算法</li><li>ISAP</li><li>最小费用最大流</li><li>上下界网络流</li><li>最小割建模</li><li>二分图最大匹配</li><li>匈牙利算法</li><li>Hopcroft-Karp 算法</li><li>二分图最小点覆盖</li><li>KM 算法</li><li>稳定匹配</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="graph structure advanced">
-          <div class="section-heading"><h2>树上算法</h2><span>18 个知识点</span></div>
-          <ul class="topic-list"><li>树的遍历</li><li>树的直径与中心</li><li>最近公共祖先 LCA</li><li>倍增</li><li>欧拉序</li><li>树上差分</li><li>子树信息维护</li><li>重链剖分</li><li>树上倍增查询</li><li>树形动态规划</li><li>换根动态规划</li><li>DSU on Tree</li><li>点分治</li><li>边分治</li><li>虚树</li><li>树上启发式合并</li><li>最小生成树重构树</li><li>基环树</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="advanced">
-          <div class="section-heading"><h2>字符串算法</h2><span>19 个知识点</span></div>
-          <ul class="topic-list"><li>朴素模式匹配</li><li>KMP 算法</li><li>Z 函数</li><li>字符串哈希</li><li>Trie 字典树</li><li>AC 自动机</li><li>Manacher 算法</li><li>最小表示法</li><li>Lyndon 分解</li><li>后缀数组</li><li>最长公共前缀 LCP</li><li>后缀树</li><li>后缀自动机</li><li>回文树</li><li>编辑距离</li><li>最长公共子串</li><li>通配符匹配</li><li>正则表达式匹配</li><li>字符串周期与 border</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="advanced foundation">
-          <div class="section-heading"><h2>数论与组合</h2><span>22 个知识点</span></div>
-          <ul class="topic-list"><li>最大公约数与最小公倍数</li><li>扩展欧几里得算法</li><li>素数筛</li><li>欧拉筛</li><li>质因数分解</li><li>快速幂</li><li>模逆元</li><li>费马小定理</li><li>欧拉定理</li><li>中国剩余定理</li><li>线性同余方程</li><li>欧拉函数</li><li>莫比乌斯反演</li><li>容斥原理</li><li>排列组合</li><li>卡特兰数</li><li>生成函数</li><li>Miller-Rabin 素性测试</li><li>Pollard Rho 分解</li><li>快速傅里叶变换 FFT</li><li>数论变换 NTT</li><li>多项式算法</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="advanced">
-          <div class="section-heading"><h2>计算几何</h2><span>16 个知识点</span></div>
-          <ul class="topic-list"><li>点与向量</li><li>点积与叉积</li><li>直线与线段相交</li><li>点到直线的距离</li><li>多边形面积</li><li>点在多边形内判定</li><li>凸包</li><li>旋转卡壳</li><li>扫描线</li><li>半平面交</li><li>最近点对</li><li>圆与直线、圆与圆</li><li>圆的反演</li><li>三角剖分</li><li>浮点误差处理</li><li>整数几何</li></ul>
-        </section>
-
-        <section class="catalog-section" data-groups="paradigm advanced">
-          <div class="section-heading"><h2>设计范式与专题</h2><span>18 个知识点</span></div>
-          <ul class="topic-list"><li>分治法</li><li>递归与迭代</li><li>离线算法</li><li>在线算法</li><li>随机化算法</li><li>Monte Carlo 算法</li><li>Las Vegas 算法</li><li>蓄水池抽样</li><li>随机哈希</li><li>启发式合并</li><li>并行算法</li><li>近似算法</li><li>字符串与图的建模</li><li>矩阵快速幂</li><li>倍增思想</li><li>单调栈</li><li>单调队列</li><li>计算问题的规约</li></ul>
-        </section>
-
-        <p id="empty-state" class="empty-state" hidden>没有匹配的知识点，请尝试更短的关键词。</p>
-      </div>
+      <div id="subject-content"><section class="subject-group" id="competitive" data-group="competitive">
+    <div class="group-head"><div><p class="section-kicker">COMPETITIVE</p><h2>算法与数据结构</h2><p>竞赛与工程中的经典问题模型。</p></div><span>8 章</span></div>
+    <div class="module-grid"><article class="learning-module" data-search="复杂度与正确性 回答算法为什么正确，以及规模增长时需要多少时间和空间。 O、Ω、Θ 与复杂度模型 递归式、主定理与摊还分析 循环不变量、归纳与交换论证 随机化算法与上下界">
+    <div class="module-index">01</div>
+    <div class="module-body">
+      <h3>复杂度与正确性</h3>
+      <p class="module-summary">回答算法为什么正确，以及规模增长时需要多少时间和空间。</p>
+      <h4>本章内容</h4>
+      <ul><li>O、Ω、Θ 与复杂度模型</li><li>递归式、主定理与摊还分析</li><li>循环不变量、归纳与交换论证</li><li>随机化算法与上下界</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>先定义规模 n 和基本操作；哈希表“均摊 O(1)”不代表每次操作都恒定。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="基础与高级数据结构 选择与操作需求匹配的数据组织方式。 数组、链表、栈、队列与哈希 堆、并查集和平衡树 树状数组、线段树与稀疏表 可持久化、分块与莫队">
+    <div class="module-index">02</div>
+    <div class="module-body">
+      <h3>基础与高级数据结构</h3>
+      <p class="module-summary">选择与操作需求匹配的数据组织方式。</p>
+      <h4>本章内容</h4>
+      <ul><li>数组、链表、栈、队列与哈希</li><li>堆、并查集和平衡树</li><li>树状数组、线段树与稀疏表</li><li>可持久化、分块与莫队</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>区间查询前先确认是否有修改、运算是否可结合，以及是否需要离线处理。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="排序、查找与搜索 从有序性和状态空间中减少无效工作。 比较排序与线性排序 二分查找、二分答案与快速选择 DFS、BFS、双向与启发式搜索 回溯、剪枝与分支限界">
+    <div class="module-index">03</div>
+    <div class="module-body">
+      <h3>排序、查找与搜索</h3>
+      <p class="module-summary">从有序性和状态空间中减少无效工作。</p>
+      <h4>本章内容</h4>
+      <ul><li>比较排序与线性排序</li><li>二分查找、二分答案与快速选择</li><li>DFS、BFS、双向与启发式搜索</li><li>回溯、剪枝与分支限界</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>二分必须明确单调谓词、闭开区间和循环不变量，避免边界死循环。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="贪心与动态规划 区分局部选择可证明最优的问题与需要保存子问题状态的问题。 贪心选择性质与交换论证 背包、区间、树形和状态压缩 DP 数位、概率与期望 DP 单调队列、斜率与分治优化">
+    <div class="module-index">04</div>
+    <div class="module-body">
+      <h3>贪心与动态规划</h3>
+      <p class="module-summary">区分局部选择可证明最优的问题与需要保存子问题状态的问题。</p>
+      <h4>本章内容</h4>
+      <ul><li>贪心选择性质与交换论证</li><li>背包、区间、树形和状态压缩 DP</li><li>数位、概率与期望 DP</li><li>单调队列、斜率与分治优化</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>写 DP 时依次说明状态含义、转移来源、初值、遍历顺序和答案位置。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="图论、网络流与树 把关系、依赖、路径、分配和层次结构统一为图模型。 遍历、拓扑序、连通性与 2-SAT 最短路与最小生成树 最大流最小割、费用流与匹配 LCA、树链剖分、点分治与虚树">
+    <div class="module-index">05</div>
+    <div class="module-body">
+      <h3>图论、网络流与树</h3>
+      <p class="module-summary">把关系、依赖、路径、分配和层次结构统一为图模型。</p>
+      <h4>本章内容</h4>
+      <ul><li>遍历、拓扑序、连通性与 2-SAT</li><li>最短路与最小生成树</li><li>最大流最小割、费用流与匹配</li><li>LCA、树链剖分、点分治与虚树</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>Dijkstra 要求边权非负；建图时先说明顶点、边、容量或权值分别代表什么。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="字符串算法 利用前后缀、自动机和后缀结构处理文本匹配与重复。 KMP、Z 函数与字符串哈希 Trie 与 AC 自动机 Manacher 与回文树 后缀数组、后缀自动机与周期">
+    <div class="module-index">06</div>
+    <div class="module-body">
+      <h3>字符串算法</h3>
+      <p class="module-summary">利用前后缀、自动机和后缀结构处理文本匹配与重复。</p>
+      <h4>本章内容</h4>
+      <ul><li>KMP、Z 函数与字符串哈希</li><li>Trie 与 AC 自动机</li><li>Manacher 与回文树</li><li>后缀数组、后缀自动机与周期</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>字符串哈希存在碰撞；安全敏感场景要双哈希或最终做字符比较。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="数论、组合与多项式 在整除、同余、计数和卷积结构上设计高效算法。 筛法、扩展欧几里得与中国剩余定理 模逆元、欧拉函数与莫比乌斯反演 组合数、容斥与生成函数 FFT、NTT 与多项式算法">
+    <div class="module-index">07</div>
+    <div class="module-body">
+      <h3>数论、组合与多项式</h3>
+      <p class="module-summary">在整除、同余、计数和卷积结构上设计高效算法。</p>
+      <h4>本章内容</h4>
+      <ul><li>筛法、扩展欧几里得与中国剩余定理</li><li>模逆元、欧拉函数与莫比乌斯反演</li><li>组合数、容斥与生成函数</li><li>FFT、NTT 与多项式算法</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>模逆元存在需要互质或模数为素数等条件，不能机械套用费马小定理。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="计算几何与专题 在精度、退化情况和几何谓词之间取得可靠实现。 叉积、相交、面积与点包含 凸包、旋转卡壳与扫描线 半平面交、圆和最近点对 离线、随机化、近似与并行算法">
+    <div class="module-index">08</div>
+    <div class="module-body">
+      <h3>计算几何与专题</h3>
+      <p class="module-summary">在精度、退化情况和几何谓词之间取得可靠实现。</p>
+      <h4>本章内容</h4>
+      <ul><li>叉积、相交、面积与点包含</li><li>凸包、旋转卡壳与扫描线</li><li>半平面交、圆和最近点对</li><li>离线、随机化、近似与并行算法</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>几何判断应统一 EPS 策略，并单独测试共线、重合、端点相交和空集合。</span></div>
+    </div>
+  </article></div>
+  </section><section class="subject-group" id="ai" data-group="ai">
+    <div class="group-head"><div><p class="section-kicker">AI</p><h2>机器学习与大模型</h2><p>数据驱动算法、深度神经网络和生成式模型。</p></div><span>6 章</span></div>
+    <div class="module-grid"><article class="learning-module" data-search="机器学习基础 从数据、目标函数和泛化能力理解监督学习与无监督学习。 线性/逻辑回归与损失函数 决策树、随机森林与梯度提升 SVM、朴素贝叶斯和 kNN 聚类、PCA、数据划分与评价指标">
+    <div class="module-index">01</div>
+    <div class="module-body">
+      <h3>机器学习基础</h3>
+      <p class="module-summary">从数据、目标函数和泛化能力理解监督学习与无监督学习。</p>
+      <h4>本章内容</h4>
+      <ul><li>线性/逻辑回归与损失函数</li><li>决策树、随机森林与梯度提升</li><li>SVM、朴素贝叶斯和 kNN</li><li>聚类、PCA、数据划分与评价指标</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>准确率不适合严重类别不平衡的数据；应同时检查精确率、召回率、PR-AUC 与混淆矩阵。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="优化与泛化 通过梯度优化参数，并用正则化和验证控制过拟合。 梯度下降、动量与 Adam L1/L2、早停与数据增强 偏差—方差与交叉验证 学习率计划和超参数搜索">
+    <div class="module-index">02</div>
+    <div class="module-body">
+      <h3>优化与泛化</h3>
+      <p class="module-summary">通过梯度优化参数，并用正则化和验证控制过拟合。</p>
+      <h4>本章内容</h4>
+      <ul><li>梯度下降、动量与 Adam</li><li>L1/L2、早停与数据增强</li><li>偏差—方差与交叉验证</li><li>学习率计划和超参数搜索</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>训练损失下降而验证损失上升通常是过拟合信号，不应继续只增加训练轮数。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="深度学习 用可微分计算图和反向传播训练多层表示。 MLP 与反向传播 CNN、RNN、LSTM 与序列建模 注意力与 Transformer 归一化、残差连接和初始化">
+    <div class="module-index">03</div>
+    <div class="module-body">
+      <h3>深度学习</h3>
+      <p class="module-summary">用可微分计算图和反向传播训练多层表示。</p>
+      <h4>本章内容</h4>
+      <ul><li>MLP 与反向传播</li><li>CNN、RNN、LSTM 与序列建模</li><li>注意力与 Transformer</li><li>归一化、残差连接和初始化</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>残差连接要求张量形状兼容；训练不稳定时同时检查数值范围、初始化和学习率。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="大语言模型 理解语言模型从文本表示到自回归生成的完整链路。 Tokenization、Embedding 与位置编码 Decoder-only Transformer 与因果掩码 预训练目标、Scaling 与数据治理 采样、Beam Search、KV Cache 与上下文窗口">
+    <div class="module-index">04</div>
+    <div class="module-body">
+      <h3>大语言模型</h3>
+      <p class="module-summary">理解语言模型从文本表示到自回归生成的完整链路。</p>
+      <h4>本章内容</h4>
+      <ul><li>Tokenization、Embedding 与位置编码</li><li>Decoder-only Transformer 与因果掩码</li><li>预训练目标、Scaling 与数据治理</li><li>采样、Beam Search、KV Cache 与上下文窗口</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>温度改变分布尖锐程度，top-p 限制累计概率；二者不能替代事实校验。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="对齐、微调与推理 让基础模型适应任务、偏好和有限计算资源。 SFT、RLHF 与 DPO PEFT、LoRA 与提示学习 量化、蒸馏、并行和 MoE 工具调用、结构化输出和 Agent 循环">
+    <div class="module-index">05</div>
+    <div class="module-body">
+      <h3>对齐、微调与推理</h3>
+      <p class="module-summary">让基础模型适应任务、偏好和有限计算资源。</p>
+      <h4>本章内容</h4>
+      <ul><li>SFT、RLHF 与 DPO</li><li>PEFT、LoRA 与提示学习</li><li>量化、蒸馏、并行和 MoE</li><li>工具调用、结构化输出和 Agent 循环</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>微调前先建立可复现评测集；否则模型风格变化容易被误判为能力提升。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="检索、评测与安全 把外部知识接入模型，并系统衡量质量、成本和风险。 Embedding、向量检索、重排与 RAG 离线基准、人工评测与 LLM-as-judge 幻觉、提示注入与数据泄露 延迟、吞吐、Token 成本与可观测性">
+    <div class="module-index">06</div>
+    <div class="module-body">
+      <h3>检索、评测与安全</h3>
+      <p class="module-summary">把外部知识接入模型，并系统衡量质量、成本和风险。</p>
+      <h4>本章内容</h4>
+      <ul><li>Embedding、向量检索、重排与 RAG</li><li>离线基准、人工评测与 LLM-as-judge</li><li>幻觉、提示注入与数据泄露</li><li>延迟、吞吐、Token 成本与可观测性</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>RAG 失败要区分召回失败、排序失败、上下文截断和生成阶段忽略证据。</span></div>
+    </div>
+  </article></div>
+  </section></div>
+      <p id="empty-state" class="empty-state" hidden>没有匹配的内容，请尝试更短的关键词。</p>
     </main>
   </div>
+  <footer>算法 · 课程框架、核心概念与学习方法</footer>
+  <script src="subject.js"></script>
 
-  <footer>Dezhonger Algorithms · 模型、证明、复杂度与实现</footer>
-  <script src="/catalog.js"></script>
 </body>
 </html>

@@ -7,10 +7,12 @@
     "dev": "vitepress dev docs --host 127.0.0.1",
     "sync:guwen": "node scripts/sync-guwen.mjs",
     "generate:guwen": "node scripts/sync-guwen.mjs --from-cache",
+    "generate:elements": "node scripts/generate-elements.mjs",
+    "generate:subjects": "node scripts/generate-subject-sites.mjs",
     "dev:guwen": "npm run generate:guwen && vitepress dev guwen --host 127.0.0.1 --port 5174",
     "build": "vitepress build docs",
     "build:guwen": "npm run generate:guwen && vitepress build guwen",
-    "build:all": "npm run build && npm run build:guwen",
+    "build:all": "npm run generate:subjects && npm run build && npm run build:guwen",
     "preview": "vitepress preview docs --host 127.0.0.1"
   },
   "devDependencies": {

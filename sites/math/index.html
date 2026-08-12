@@ -3,136 +3,198 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="按人教版初高中教材与数学主题整理的知识点目录。">
-  <title>数学知识目录 · Dezhonger</title>
-  <link rel="stylesheet" href="/catalog.css">
+  <meta name="description" content="从教材主线走向极坐标、微积分、线性代数和竞赛拓展；每章都包含概念、方法、例子与边界。">
+  <title>数学知识体系</title>
+  <link rel="stylesheet" href="subject.css">
 </head>
-<body>
+<body data-subject="math">
   <header class="site-header">
-    <a class="site-name" href="/">Dezhonger Math</a>
-    <nav aria-label="站点导航">
-      <a aria-current="page" href="https://math.dezhonger.com">数学</a>
-      <a href="https://algo.dezhonger.com">算法</a>
-      <a href="https://guwen.dezhonger.com">古文</a>
-      <a href="https://knowledge.dezhonger.com/zh/">知识库</a>
-      <a href="https://dezhonger.com/tools/?lang=zh">计算工具</a>
-    </nav>
+    <a class="site-name" href="/">数学</a>
+    <nav aria-label="学科导航"><a aria-current="page" href="https://math.dezhonger.com">数学</a><a href="https://algo.dezhonger.com">算法</a><a href="https://english.dezhonger.com">英语</a><a href="https://biology.dezhonger.com">生物</a><a href="https://geography.dezhonger.com">地理</a><a href="https://physics.dezhonger.com">物理</a><a href="https://chemistry.dezhonger.com">化学</a><a href="https://history.dezhonger.com">历史</a><a href="https://guwen.dezhonger.com">古文</a><a href="https://knowledge.dezhonger.com/zh/">知识库</a></nav>
   </header>
-
   <div class="page-shell">
     <aside class="sidebar" aria-label="数学目录筛选">
-      <div class="side-title">数学主题</div>
-      <button class="filter-button active" data-filter="all">全部目录 <span>11</span></button>
-      <button class="filter-button" data-filter="junior">初中数学 <span>6</span></button>
-      <button class="filter-button" data-filter="senior">高中数学 <span>5</span></button>
+      <div class="side-title">数学学习路径</div>
+      <button class="filter-button active" data-filter="all">全部章节<span>17</span></button>
+      <button class="filter-button" data-filter="junior">初中<span>4</span></button><button class="filter-button" data-filter="senior">高中<span>7</span></button><button class="filter-button" data-filter="extension">高中拓展<span>6</span></button>
       <div class="side-divider"></div>
-      <button class="filter-button" data-filter="algebra">数与代数</button>
-      <button class="filter-button" data-filter="function">函数与分析</button>
-      <button class="filter-button" data-filter="geometry">图形与几何</button>
-      <button class="filter-button" data-filter="probability">统计与概率</button>
-      <p class="side-note">目录按现行人教版初高中数学教材整理。不同地区教材编排可能略有差异。</p>
+      <p class="side-note">现行初高中数学课程标准与数学拓展专题。页面提供知识框架与学习提示，不替代正式教材。</p>
     </aside>
-
     <main>
-      <div class="title-row">
-        <div>
-          <p class="breadcrumb">HOME / MATHEMATICS / TOPICS</p>
-          <h1>数学知识目录</h1>
-          <p class="intro">从教材章节进入，也可以按主题或关键词快速定位知识点。</p>
-        </div>
-        <label class="search-box">
-          <span>搜索目录</span>
-          <input id="catalog-search" type="search" placeholder="例如：二次函数、圆、概率" autocomplete="off">
-        </label>
-      </div>
+      <section class="hero-row">
+        <div><p class="breadcrumb">MATHEMATICS / STRUCTURE & PROOF</p><h1>数学知识体系</h1><p class="intro">从教材主线走向极坐标、微积分、线性代数和竞赛拓展；每章都包含概念、方法、例子与边界。</p></div>
+        <label class="search-box"><span>搜索章节和知识点</span><input id="subject-search" type="search" placeholder="输入关键词" autocomplete="off"></label>
+      </section>
+      <div class="overview"><strong id="visible-count">17</strong><span>章内容</span><strong>3</strong><span>条学习路径</span><p>每章均包含核心内容和方法边界，所有结果直接展示在页面中。</p></div>
 
-      <div class="catalog-panel">
-        <div class="panel-rule"></div>
-        <div class="result-summary" aria-live="polite"><strong id="visible-count">11</strong> 个教材目录</div>
-
-        <section class="catalog-section" data-groups="junior algebra">
-          <div class="section-heading"><h2>七年级上册</h2><span>22 个知识点</span></div>
-          <ul class="topic-list">
-            <li>正数和负数</li><li>有理数</li><li>数轴</li><li>相反数</li><li>绝对值</li><li>有理数的加法</li><li>有理数的减法</li><li>有理数的乘法</li><li>有理数的除法</li><li>有理数的乘方</li><li>科学记数法</li><li>近似数</li><li>代数式与整式</li><li>单项式与多项式</li><li>合并同类项</li><li>去括号</li><li>一元一次方程</li><li>等式的性质</li><li>解一元一次方程</li><li>实际问题与方程</li><li>直线、射线、线段</li><li>角及角的比较与运算</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="junior algebra geometry probability">
-          <div class="section-heading"><h2>七年级下册</h2><span>24 个知识点</span></div>
-          <ul class="topic-list">
-            <li>相交线与对顶角</li><li>垂线与垂线段</li><li>同位角、内错角、同旁内角</li><li>平行线的判定</li><li>平行线的性质</li><li>命题、定理与证明</li><li>平移</li><li>平方根</li><li>立方根</li><li>实数与无理数</li><li>平面直角坐标系</li><li>坐标方法的简单应用</li><li>二元一次方程组</li><li>代入消元法</li><li>加减消元法</li><li>实际问题与二元一次方程组</li><li>三元一次方程组</li><li>不等式及其性质</li><li>一元一次不等式</li><li>一元一次不等式组</li><li>数据的收集</li><li>抽样调查</li><li>频数分布表</li><li>统计图的选择与解读</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="junior algebra geometry">
-          <div class="section-heading"><h2>八年级上册</h2><span>24 个知识点</span></div>
-          <ul class="topic-list">
-            <li>三角形的边</li><li>三角形的高、中线与角平分线</li><li>三角形内角和</li><li>多边形及其内角和</li><li>全等三角形</li><li>边边边判定</li><li>边角边判定</li><li>角边角与角角边判定</li><li>直角三角形全等判定</li><li>角平分线的性质</li><li>轴对称</li><li>线段垂直平分线</li><li>等腰三角形</li><li>等边三角形</li><li>整式的乘法</li><li>同底数幂运算</li><li>平方差公式</li><li>完全平方公式</li><li>因式分解</li><li>提公因式法</li><li>公式法分解因式</li><li>分式及其基本性质</li><li>分式运算</li><li>分式方程</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="junior algebra function geometry probability">
-          <div class="section-heading"><h2>八年级下册</h2><span>23 个知识点</span></div>
-          <ul class="topic-list">
-            <li>二次根式</li><li>二次根式的乘除</li><li>二次根式的加减</li><li>勾股定理</li><li>勾股定理的逆定理</li><li>平行四边形的性质</li><li>平行四边形的判定</li><li>三角形中位线</li><li>矩形</li><li>菱形</li><li>正方形</li><li>函数的概念</li><li>函数的图象</li><li>正比例函数</li><li>一次函数</li><li>一次函数与方程、不等式</li><li>平均数</li><li>加权平均数</li><li>中位数</li><li>众数</li><li>极差</li><li>方差</li><li>数据分析与决策</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="junior algebra function geometry probability">
-          <div class="section-heading"><h2>九年级上册</h2><span>25 个知识点</span></div>
-          <ul class="topic-list">
-            <li>一元二次方程</li><li>配方法</li><li>公式法</li><li>因式分解法解方程</li><li>根的判别式</li><li>根与系数的关系</li><li>实际问题与一元二次方程</li><li>二次函数</li><li>二次函数的图象和性质</li><li>二次函数图象的平移</li><li>二次函数的最值</li><li>二次函数与一元二次方程</li><li>旋转</li><li>中心对称</li><li>中心对称图形</li><li>圆的有关概念</li><li>垂径定理</li><li>弧、弦、圆心角</li><li>圆周角</li><li>点和圆、直线和圆的位置关系</li><li>切线的性质与判定</li><li>正多边形和圆</li><li>弧长与扇形面积</li><li>随机事件与概率</li><li>用列举法求概率</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="junior function geometry probability">
-          <div class="section-heading"><h2>九年级下册</h2><span>19 个知识点</span></div>
-          <ul class="topic-list">
-            <li>反比例函数</li><li>反比例函数的图象和性质</li><li>反比例函数的实际应用</li><li>图形的相似</li><li>相似多边形</li><li>平行线分线段成比例</li><li>相似三角形的判定</li><li>相似三角形的性质</li><li>相似三角形的应用</li><li>位似</li><li>锐角三角函数</li><li>正弦</li><li>余弦</li><li>正切</li><li>解直角三角形</li><li>解直角三角形的应用</li><li>投影</li><li>三视图</li><li>由三视图确定几何体</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="senior algebra function geometry probability">
-          <div class="section-heading"><h2>高中数学 · 必修第一册</h2><span>31 个知识点</span></div>
-          <ul class="topic-list">
-            <li>集合及其表示</li><li>集合间的基本关系</li><li>集合的基本运算</li><li>充分条件与必要条件</li><li>全称量词与存在量词</li><li>等式性质与不等式性质</li><li>基本不等式</li><li>二次函数与一元二次方程、不等式</li><li>函数的概念</li><li>函数的表示法</li><li>函数的单调性</li><li>函数的最大值与最小值</li><li>函数的奇偶性</li><li>幂函数</li><li>函数的应用</li><li>指数</li><li>指数函数</li><li>对数</li><li>对数函数</li><li>不同函数增长的差异</li><li>函数零点</li><li>二分法</li><li>任意角与弧度制</li><li>三角函数的概念</li><li>同角三角函数基本关系</li><li>诱导公式</li><li>三角函数图象和性质</li><li>三角函数图象变换</li><li>三角恒等变换</li><li>三角函数应用</li><li>数学建模基础</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="senior algebra geometry probability">
-          <div class="section-heading"><h2>高中数学 · 必修第二册</h2><span>29 个知识点</span></div>
-          <ul class="topic-list">
-            <li>平面向量的概念</li><li>向量的线性运算</li><li>平面向量基本定理</li><li>平面向量的坐标表示</li><li>向量的数量积</li><li>正弦定理</li><li>余弦定理</li><li>解三角形</li><li>复数的概念</li><li>复数的四则运算</li><li>复数的三角表示</li><li>立体图形直观图</li><li>空间点、直线、平面的位置关系</li><li>直线与平面平行</li><li>平面与平面平行</li><li>直线与平面垂直</li><li>平面与平面垂直</li><li>柱、锥、台、球的表面积和体积</li><li>随机抽样</li><li>分层随机抽样</li><li>用样本估计总体</li><li>百分位数</li><li>总体离散程度的估计</li><li>随机事件</li><li>事件的关系与运算</li><li>古典概型</li><li>频率与概率</li><li>事件的独立性</li><li>有限样本空间概率模型</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="senior algebra geometry">
-          <div class="section-heading"><h2>高中数学 · 选择性必修第一册</h2><span>24 个知识点</span></div>
-          <ul class="topic-list">
-            <li>空间向量及其线性运算</li><li>空间向量基本定理</li><li>空间向量的坐标表示</li><li>空间向量的应用</li><li>空间中直线、平面的平行</li><li>空间中直线、平面的垂直</li><li>空间角</li><li>空间距离</li><li>直线的倾斜角与斜率</li><li>直线的方程</li><li>两条直线的位置关系</li><li>点到直线的距离</li><li>圆的方程</li><li>直线与圆的位置关系</li><li>圆与圆的位置关系</li><li>椭圆的定义</li><li>椭圆的标准方程</li><li>椭圆的几何性质</li><li>双曲线的定义与标准方程</li><li>双曲线的几何性质</li><li>抛物线的定义与标准方程</li><li>抛物线的几何性质</li><li>直线与圆锥曲线</li><li>圆锥曲线的综合应用</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="senior algebra function">
-          <div class="section-heading"><h2>高中数学 · 选择性必修第二册</h2><span>21 个知识点</span></div>
-          <ul class="topic-list">
-            <li>数列的概念</li><li>数列的递推公式</li><li>等差数列</li><li>等差数列前 n 项和</li><li>等比数列</li><li>等比数列前 n 项和</li><li>数列求和</li><li>数学归纳法</li><li>变化率问题</li><li>导数的概念</li><li>导数的几何意义</li><li>基本初等函数的导数</li><li>导数的四则运算法则</li><li>复合函数的导数</li><li>导数与函数的单调性</li><li>函数的极值</li><li>函数的最大值与最小值</li><li>利用导数研究不等式</li><li>利用导数研究恒成立问题</li><li>函数构造与零点</li><li>导数的实际应用</li>
-          </ul>
-        </section>
-
-        <section class="catalog-section" data-groups="senior algebra probability">
-          <div class="section-heading"><h2>高中数学 · 选择性必修第三册</h2><span>25 个知识点</span></div>
-          <ul class="topic-list">
-            <li>分类加法计数原理</li><li>分步乘法计数原理</li><li>排列</li><li>组合</li><li>二项式定理</li><li>二项式系数的性质</li><li>条件概率</li><li>全概率公式</li><li>贝叶斯公式</li><li>离散型随机变量</li><li>分布列</li><li>数学期望</li><li>方差</li><li>伯努利试验</li><li>二项分布</li><li>超几何分布</li><li>正态分布</li><li>成对数据的统计相关性</li><li>相关系数</li><li>一元线性回归模型</li><li>最小二乘法</li><li>回归模型的评价</li><li>列联表</li><li>独立性检验</li><li>统计案例分析</li>
-          </ul>
-        </section>
-
-        <p id="empty-state" class="empty-state" hidden>没有匹配的知识点，请尝试更短的关键词。</p>
-      </div>
+      <div id="subject-content"><section class="subject-group" id="junior" data-group="junior">
+    <div class="group-head"><div><p class="section-kicker">JUNIOR</p><h2>初中</h2><p>数与代数、图形与几何、统计与概率。</p></div><span>4 章</span></div>
+    <div class="module-grid"><article class="learning-module" data-search="数与代数 从有理数、实数和代数式建立符号运算能力，并用方程与不等式表达数量关系。 数轴、绝对值与实数运算 整式、因式分解与分式 一元一次与一元二次方程 不等式、方程组与实际建模">
+    <div class="module-index">01</div>
+    <div class="module-body">
+      <h3>数与代数</h3>
+      <p class="module-summary">从有理数、实数和代数式建立符号运算能力，并用方程与不等式表达数量关系。</p>
+      <h4>本章内容</h4>
+      <ul><li>数轴、绝对值与实数运算</li><li>整式、因式分解与分式</li><li>一元一次与一元二次方程</li><li>不等式、方程组与实际建模</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>把“总价 = 单价 × 数量”翻译为方程，先说明未知量，再检验解是否符合实际。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="函数 把变量之间的对应关系同时表示为解析式、表格和图象。 正比例与一次函数 反比例函数 二次函数的图象、零点与最值 函数、方程与不等式的联系">
+    <div class="module-index">02</div>
+    <div class="module-body">
+      <h3>函数</h3>
+      <p class="module-summary">把变量之间的对应关系同时表示为解析式、表格和图象。</p>
+      <h4>本章内容</h4>
+      <ul><li>正比例与一次函数</li><li>反比例函数</li><li>二次函数的图象、零点与最值</li><li>函数、方程与不等式的联系</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>研究二次函数时依次确定开口、对称轴、顶点、与坐标轴交点和实际定义域。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="图形与几何 从基本图形、变换和推理三条线理解平面与空间。 三角形全等与相似 四边形与圆 勾股定理和锐角三角函数 平移、旋转、轴对称与投影">
+    <div class="module-index">03</div>
+    <div class="module-body">
+      <h3>图形与几何</h3>
+      <p class="module-summary">从基本图形、变换和推理三条线理解平面与空间。</p>
+      <h4>本章内容</h4>
+      <ul><li>三角形全等与相似</li><li>四边形与圆</li><li>勾股定理和锐角三角函数</li><li>平移、旋转、轴对称与投影</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>几何证明先写已知和目标，再寻找定义、判定定理与性质定理之间的桥梁。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="统计与概率 用样本认识总体，用随机模型描述不确定性。 抽样、统计图和集中趋势 方差与数据比较 随机事件与频率 列举法与简单概率模型">
+    <div class="module-index">04</div>
+    <div class="module-body">
+      <h3>统计与概率</h3>
+      <p class="module-summary">用样本认识总体，用随机模型描述不确定性。</p>
+      <h4>本章内容</h4>
+      <ul><li>抽样、统计图和集中趋势</li><li>方差与数据比较</li><li>随机事件与频率</li><li>列举法与简单概率模型</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>评价两组成绩不能只比较平均数，还要结合方差和样本来源。</span></div>
+    </div>
+  </article></div>
+  </section><section class="subject-group" id="senior" data-group="senior">
+    <div class="group-head"><div><p class="section-kicker">SENIOR</p><h2>高中</h2><p>必修第一、二册与选择性必修第一至三册的高考核心知识。</p></div><span>7 章</span></div>
+    <div class="module-grid"><article class="learning-module" data-search="集合、逻辑与不等式 建立高中数学的语言基础，理解条件、量词和等价转化。 集合关系与运算 充分条件、必要条件与量词 基本不等式 一元二次不等式与恒成立问题">
+    <div class="module-index">01</div>
+    <div class="module-body">
+      <h3>集合、逻辑与不等式</h3>
+      <p class="module-summary">建立高中数学的语言基础，理解条件、量词和等价转化。</p>
+      <h4>本章内容</h4>
+      <ul><li>集合关系与运算</li><li>充分条件、必要条件与量词</li><li>基本不等式</li><li>一元二次不等式与恒成立问题</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>证明恒成立不等式时先确认变量范围，再选择配方、基本不等式或函数单调性。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="函数与三角函数 围绕定义域、单调性、奇偶性、周期性、零点和最值研究函数。 幂、指数、对数函数 函数零点与二分法 任意角、弧度制与诱导公式 三角恒等变换与图象变换">
+    <div class="module-index">02</div>
+    <div class="module-body">
+      <h3>函数与三角函数</h3>
+      <p class="module-summary">围绕定义域、单调性、奇偶性、周期性、零点和最值研究函数。</p>
+      <h4>本章内容</h4>
+      <ul><li>幂、指数、对数函数</li><li>函数零点与二分法</li><li>任意角、弧度制与诱导公式</li><li>三角恒等变换与图象变换</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>参数改变三角函数图象时，先处理横向伸缩和平移，再处理纵向变化。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="向量、复数与立体几何 用代数语言描述平面和空间中的方向、距离与位置关系。 平面向量与数量积 正弦、余弦定理 复数及其几何意义 空间线面关系、表面积与体积">
+    <div class="module-index">03</div>
+    <div class="module-body">
+      <h3>向量、复数与立体几何</h3>
+      <p class="module-summary">用代数语言描述平面和空间中的方向、距离与位置关系。</p>
+      <h4>本章内容</h4>
+      <ul><li>平面向量与数量积</li><li>正弦、余弦定理</li><li>复数及其几何意义</li><li>空间线面关系、表面积与体积</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>空间证明应明确使用的是判定还是性质；求角和距离时优先建立向量或坐标模型。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="解析几何 通过坐标和方程研究直线、圆与圆锥曲线。 直线与圆的方程 椭圆、双曲线、抛物线 直线与圆锥曲线的位置关系 弦长、中点、切线与最值模型">
+    <div class="module-index">04</div>
+    <div class="module-body">
+      <h3>解析几何</h3>
+      <p class="module-summary">通过坐标和方程研究直线、圆与圆锥曲线。</p>
+      <h4>本章内容</h4>
+      <ul><li>直线与圆的方程</li><li>椭圆、双曲线、抛物线</li><li>直线与圆锥曲线的位置关系</li><li>弦长、中点、切线与最值模型</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>联立直线与曲线方程后，判别式、韦达定理和几何约束必须同时检查。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="数列与导数 用离散和连续两种变化率研究规律与优化问题。 等差、等比数列及求和 递推数列与数学归纳法 导数、切线与单调性 极值、最值与实际优化">
+    <div class="module-index">05</div>
+    <div class="module-body">
+      <h3>数列与导数</h3>
+      <p class="module-summary">用离散和连续两种变化率研究规律与优化问题。</p>
+      <h4>本章内容</h4>
+      <ul><li>等差、等比数列及求和</li><li>递推数列与数学归纳法</li><li>导数、切线与单调性</li><li>极值、最值与实际优化</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>用导数求最值时必须核对定义域、驻点、不可导点和端点。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="计数、概率与统计 从计数原理走向随机变量、统计推断和模型评价。 排列组合与二项式定理 条件概率、全概率与贝叶斯公式 常见离散分布与正态分布 回归、相关与独立性检验">
+    <div class="module-index">06</div>
+    <div class="module-body">
+      <h3>计数、概率与统计</h3>
+      <p class="module-summary">从计数原理走向随机变量、统计推断和模型评价。</p>
+      <h4>本章内容</h4>
+      <ul><li>排列组合与二项式定理</li><li>条件概率、全概率与贝叶斯公式</li><li>常见离散分布与正态分布</li><li>回归、相关与独立性检验</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>条件概率中样本空间已经改变；先写条件事件，再计算新的分母。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="数学建模与探究 经历提出问题、作出假设、建立模型、求解、验证和修正的完整过程。 函数与几何模型 抽样调查与数据分析 敏感性分析 建模报告与结果解释">
+    <div class="module-index">07</div>
+    <div class="module-body">
+      <h3>数学建模与探究</h3>
+      <p class="module-summary">经历提出问题、作出假设、建立模型、求解、验证和修正的完整过程。</p>
+      <h4>本章内容</h4>
+      <ul><li>函数与几何模型</li><li>抽样调查与数据分析</li><li>敏感性分析</li><li>建模报告与结果解释</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>一个数值答案只有在单位、误差、假设和适用范围都说明后才是完整结论。</span></div>
+    </div>
+  </article></div>
+  </section><section class="subject-group" id="extension" data-group="extension">
+    <div class="group-head"><div><p class="section-kicker">EXTENSION</p><h2>高中拓展</h2><p>极坐标、参数方程、微积分、线性代数与竞赛先修。</p></div><span>6 章</span></div>
+    <div class="module-grid"><article class="learning-module" data-search="极坐标系 用距离 r 与方向角 θ 描述平面上的点，适合具有旋转或中心对称的曲线。 极坐标与直角坐标互化：x = r cosθ，y = r sinθ 极径允许多种表示，原点处角度不唯一 直线、圆、玫瑰线和螺线的极坐标方程 图形对称性与取值区间">
+    <div class="module-index">01</div>
+    <div class="module-body">
+      <h3>极坐标系</h3>
+      <p class="module-summary">用距离 r 与方向角 θ 描述平面上的点，适合具有旋转或中心对称的曲线。</p>
+      <h4>本章内容</h4>
+      <ul><li>极坐标与直角坐标互化：x = r cosθ，y = r sinθ</li><li>极径允许多种表示，原点处角度不唯一</li><li>直线、圆、玫瑰线和螺线的极坐标方程</li><li>图形对称性与取值区间</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>圆 x²+y²=2ax 可写成 r=2a cosθ；作图前应检查 r 的符号和 θ 的范围。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="参数方程 引入参数描述点的运动，使复杂曲线转化为两个较简单的函数。 参数消去与参数范围 直线、圆与椭圆的参数方程 摆线、渐开线与运动轨迹 参数方程下的切线、弧长和面积">
+    <div class="module-index">02</div>
+    <div class="module-body">
+      <h3>参数方程</h3>
+      <p class="module-summary">引入参数描述点的运动，使复杂曲线转化为两个较简单的函数。</p>
+      <h4>本章内容</h4>
+      <ul><li>参数消去与参数范围</li><li>直线、圆与椭圆的参数方程</li><li>摆线、渐开线与运动轨迹</li><li>参数方程下的切线、弧长和面积</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>椭圆 x=a cos t、y=b sin t 中，t 是参数而不一定是几何极角。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="微积分初步 在极限基础上统一理解连续变化、局部变化率和累积量。 数列极限、函数极限与连续 导数、微分和中值定理 定积分与微积分基本定理 面积、体积与简单微分方程模型">
+    <div class="module-index">03</div>
+    <div class="module-body">
+      <h3>微积分初步</h3>
+      <p class="module-summary">在极限基础上统一理解连续变化、局部变化率和累积量。</p>
+      <h4>本章内容</h4>
+      <ul><li>数列极限、函数极限与连续</li><li>导数、微分和中值定理</li><li>定积分与微积分基本定理</li><li>面积、体积与简单微分方程模型</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>定积分表示带符号累积量；求几何面积时要按函数交点分段并处理正负。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="矩阵与线性代数 用矩阵表达线性方程组、线性变换和空间结构。 矩阵运算与逆矩阵 行列式与线性方程组 向量空间、基与维数 特征值、特征向量与正交变换">
+    <div class="module-index">04</div>
+    <div class="module-body">
+      <h3>矩阵与线性代数</h3>
+      <p class="module-summary">用矩阵表达线性方程组、线性变换和空间结构。</p>
+      <h4>本章内容</h4>
+      <ul><li>矩阵运算与逆矩阵</li><li>行列式与线性方程组</li><li>向量空间、基与维数</li><li>特征值、特征向量与正交变换</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>矩阵乘法通常不可交换；先核对维数，再解释变换的先后顺序。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="概率统计拓展 从离散模型扩展到连续分布和统计推断。 连续型与二维随机变量 协方差与联合分布 参数估计与置信区间 假设检验、聚类和实验设计">
+    <div class="module-index">05</div>
+    <div class="module-body">
+      <h3>概率统计拓展</h3>
+      <p class="module-summary">从离散模型扩展到连续分布和统计推断。</p>
+      <h4>本章内容</h4>
+      <ul><li>连续型与二维随机变量</li><li>协方差与联合分布</li><li>参数估计与置信区间</li><li>假设检验、聚类和实验设计</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>统计显著不等于实际影响很大；报告应同时给出效应量、区间和样本限制。</span></div>
+    </div>
+  </article><article class="learning-module" data-search="竞赛与大学先修 连接高中课程、数学竞赛与大学数学的核心思想。 经典不等式与函数方程 初等数论与组合数学 平面几何和解析几何专题 群与对称、球面几何、概率论先修">
+    <div class="module-index">06</div>
+    <div class="module-body">
+      <h3>竞赛与大学先修</h3>
+      <p class="module-summary">连接高中课程、数学竞赛与大学数学的核心思想。</p>
+      <h4>本章内容</h4>
+      <ul><li>经典不等式与函数方程</li><li>初等数论与组合数学</li><li>平面几何和解析几何专题</li><li>群与对称、球面几何、概率论先修</li></ul>
+      <div class="example"><strong>方法与边界</strong><span>竞赛解答不仅要得到结果，还要证明构造覆盖全部情况，并清楚写出等号或边界条件。</span></div>
+    </div>
+  </article></div>
+  </section></div>
+      <p id="empty-state" class="empty-state" hidden>没有匹配的内容，请尝试更短的关键词。</p>
     </main>
   </div>
+  <footer>数学 · 课程框架、核心概念与学习方法</footer>
+  <script src="subject.js"></script>
 
-  <footer>Dezhonger Math · 教材目录、概念与工具</footer>
-  <script src="/catalog.js"></script>
 </body>
 </html>

@@ -8,12 +8,12 @@ type Work = {
   dynasty: string
   book: string
   genre: string
-  stage: 'junior' | 'senior'
+  stage: 'junior' | 'senior' | 'classic'
   link: string
   copyrightProtected?: boolean
 }
 
-const props = defineProps<{ stage: 'junior' | 'senior' }>()
+const props = defineProps<{ stage: 'junior' | 'senior' | 'classic' }>()
 const query = ref('')
 const selectedBook = ref('')
 const selectedGenre = ref('')

@@ -17,6 +17,12 @@ COPY sites/zmq/ /usr/share/nginx/html/zmq/
 COPY sites/rby/ /usr/share/nginx/html/rby/
 COPY sites/math/ /usr/share/nginx/html/math/
 COPY sites/algo/ /usr/share/nginx/html/algo/
+COPY sites/english/ /usr/share/nginx/html/english/
+COPY sites/biology/ /usr/share/nginx/html/biology/
+COPY sites/geography/ /usr/share/nginx/html/geography/
+COPY sites/physics/ /usr/share/nginx/html/physics/
+COPY sites/chemistry/ /usr/share/nginx/html/chemistry/
+COPY sites/history/ /usr/share/nginx/html/history/
 COPY sites/shared/base.css /usr/share/nginx/html/zmq/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/rby/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/math/base.css

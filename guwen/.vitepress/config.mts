@@ -21,6 +21,11 @@ function workGroups(stage: 'junior' | 'senior'): DefaultTheme.SidebarItem[] {
     }))
 }
 
+function classicGroups(): DefaultTheme.SidebarItem[] {
+  const classicWorks = (works as Work[]).filter((work) => work.stage === 'classic')
+  return [{ text: '经典名篇', collapsed: false, items: classicWorks.map((work) => ({ text: work.title, link: work.link })) }]
+}
+
 const commonSidebar: DefaultTheme.SidebarItem[] = [
   {
     text: '开始阅读',
@@ -28,6 +33,7 @@ const commonSidebar: DefaultTheme.SidebarItem[] = [
       { text: '古文首页', link: '/' },
       { text: '初中篇目', link: '/junior/' },
       { text: '高中篇目', link: '/senior/' },
+      { text: '经典名篇', link: '/classic/' },
       { text: '关于本站', link: '/about' },
     ],
   },
@@ -36,13 +42,14 @@ const commonSidebar: DefaultTheme.SidebarItem[] = [
 const sidebar: DefaultTheme.Sidebar = {
   '/junior/': [...commonSidebar, ...workGroups('junior')],
   '/senior/': [...commonSidebar, ...workGroups('senior')],
+  '/classic/': [...commonSidebar, ...classicGroups()],
   '/': commonSidebar,
 }
 
 export default defineConfig({
   lang: 'zh-CN',
-  title: 'Dezhonger 古文',
-  titleTemplate: ':title · Dezhonger 古文',
+  title: '古文',
+  titleTemplate: ':title · 古文',
   description: '按学段与体裁整理的古诗文阅读站。',
   cleanUrls: true,
   lastUpdated: true,
@@ -52,10 +59,11 @@ export default defineConfig({
     ['meta', { name: 'color-scheme', content: 'light dark' }],
   ],
   themeConfig: {
-    siteTitle: 'Dezhonger 古文',
+    siteTitle: '古文',
     nav: [
       { text: '初中', link: '/junior/' },
       { text: '高中', link: '/senior/' },
+      { text: '经典', link: '/classic/' },
       { text: '技术知识库', link: 'https://knowledge.dezhonger.com/zh/' },
       { text: '主站', link: 'https://dezhonger.com/?lang=zh' },
     ],
@@ -76,6 +84,6 @@ export default defineConfig({
     lastUpdated: { text: '更新时间' },
     docFooter: { prev: '上一篇', next: '下一篇' },
     socialLinks: [{ icon: 'github', link: repository }],
-    footer: { message: '古诗文原文属于公共领域；整理与校读持续进行。', copyright: '© 2026 Dezhonger' },
+    footer: { message: '古诗文原文属于公共领域；整理与校读持续进行。', copyright: '© 2026 古文' },
   },
 })

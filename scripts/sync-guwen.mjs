@@ -9,6 +9,8 @@ const collections = [
   { stage: 'senior', path: '/xuanji/gaozhong-gushi/' },
 ]
 
+const classicBook = '经典名篇'
+
 const bookLabels = {
   '七年级上册': '七年级上册',
   '七年级下册': '七年级下册',
@@ -110,7 +112,7 @@ function parseWork(html, work) {
 }
 
 function markdown(work) {
-  const stageText = work.stage === 'junior' ? '初中' : '高中'
+  const stageText = work.stage === 'junior' ? '初中' : work.stage === 'senior' ? '高中' : '课外经典'
   const body = work.copyrightProtected
     ? `## 阅读说明
 
@@ -119,7 +121,7 @@ function markdown(work) {
 
 ${work.paragraphs.join('\n\n')}
 
-<p class="source-note">原文校录参考：<a href="${work.sourceUrl}" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>`
+<p class="source-note">原文校录参考：<a href="${work.sourceUrl}" target="_blank" rel="noreferrer">${work.stage === 'classic' ? '维基文库条目' : '古诗文库条目'}</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>`
   return `---
 title: ${safeYaml(work.title)}
 description: ${safeYaml(`${work.book} ${work.author}《${work.title}》原文。`)}
@@ -154,6 +156,22 @@ description: 按教材分册整理的${stageText}古诗文完整目录。
 按教材分册收录，每篇均有独立、可检索的页面。公共领域作品提供完整原文；仍在著作权保护期内的作品只提供目录信息。页面上方可以使用本地全文搜索；下方目录可按分册浏览。
 
 <GuwenCatalog stage="${stage}" />
+`
+}
+
+function classicsIndexMarkdown(works) {
+  return `---
+title: 经典名篇
+description: 教材之外值得反复阅读的古代诗文经典。
+---
+
+# 经典名篇
+
+<div class="catalog-stats"><strong>${works.length}</strong><span>篇课外经典</span><strong>${new Set(works.map((work) => work.dynasty)).size}</strong><span>个时代</span><strong>${new Set(works.map((work) => work.author)).size}</strong><span>位作者</span></div>
+
+这里收录不在现行初高中教材目录中、但具有长期文学与文化价值的公共领域名篇。它们与“教材篇目”分开标注，不会被误认为当前教材课文。
+
+<GuwenCatalog stage="classic" />
 `
 }
 
@@ -192,6 +210,8 @@ async function main() {
       }
       return { ...parseWork(await fetchText(sourceUrl), work), sourceUrl }
     })
+    const existingClassics = JSON.parse(await readFile(manifestPath, 'utf8')).filter((work) => work.stage === 'classic')
+    works.push(...existingClassics)
   }
 
   const usedSlugs = new Set()
@@ -202,7 +222,7 @@ async function main() {
     return { ...work, slug, link: `/${work.stage}/works/${slug}` }
   })
 
-  for (const stage of ['junior', 'senior']) {
+  for (const stage of ['junior', 'senior', 'classic']) {
     await rm(resolve(root, `guwen/${stage}/works`), { recursive: true, force: true })
   }
   await mkdir(resolve(root, 'guwen/data'), { recursive: true })
@@ -221,9 +241,13 @@ async function main() {
     await writeFile(path, indexMarkdown(stage, stageWorks))
   }
 
+  const classicWorks = works.filter((work) => work.stage === 'classic')
+  await mkdir(resolve(root, 'guwen/classic'), { recursive: true })
+  await writeFile(resolve(root, 'guwen/classic/index.md'), classicsIndexMarkdown(classicWorks))
+
   const juniorCount = works.filter((work) => work.stage === 'junior').length
   const seniorCount = works.filter((work) => work.stage === 'senior').length
-  console.log(`Generated ${works.length} works: junior ${juniorCount}, senior ${seniorCount}`)
+  console.log(`Generated ${works.length} works: junior ${juniorCount}, senior ${seniorCount}, classics ${classicWorks.length}`)
 }
 
 await main()
