@@ -5,9 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vitepress dev docs --host 127.0.0.1",
-    "dev:guwen": "vitepress dev guwen --host 127.0.0.1 --port 5174",
+    "sync:guwen": "node scripts/sync-guwen.mjs",
+    "generate:guwen": "node scripts/sync-guwen.mjs --from-cache",
+    "dev:guwen": "npm run generate:guwen && vitepress dev guwen --host 127.0.0.1 --port 5174",
     "build": "vitepress build docs",
-    "build:guwen": "vitepress build guwen",
+    "build:guwen": "npm run generate:guwen && vitepress build guwen",
     "build:all": "npm run build && npm run build:guwen",
     "preview": "vitepress preview docs --host 127.0.0.1"
   },

@@ -1,8 +1,27 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
+import works from '../data/works.json'
 
 const repository = 'https://github.com/dezhonger/dezhonger-knowledge'
 
-const sidebar: DefaultTheme.SidebarItem[] = [
+type Work = { title: string; author: string; book: string; genre: string; stage: string; link: string }
+
+const bookOrder = [
+  '七年级上册', '七年级下册', '八年级上册', '八年级下册', '九年级上册', '九年级下册',
+  '必修上册', '必修下册', '选择性必修上册', '选择性必修中册', '选择性必修下册',
+]
+
+function workGroups(stage: 'junior' | 'senior'): DefaultTheme.SidebarItem[] {
+  const stageWorks = (works as Work[]).filter((work) => work.stage === stage)
+  return bookOrder
+    .filter((book) => stageWorks.some((work) => work.book === book))
+    .map((book) => ({
+      text: book,
+      collapsed: true,
+      items: stageWorks.filter((work) => work.book === book).map((work) => ({ text: work.title, link: work.link })),
+    }))
+}
+
+const commonSidebar: DefaultTheme.SidebarItem[] = [
   {
     text: '开始阅读',
     items: [
@@ -12,49 +31,13 @@ const sidebar: DefaultTheme.SidebarItem[] = [
       { text: '关于本站', link: '/about' },
     ],
   },
-  {
-    text: '初中 · 文言文',
-    collapsed: false,
-    items: [
-      { text: '桃花源记', link: '/junior/classical/taohuayuanji' },
-      { text: '三峡', link: '/junior/classical/sanxia' },
-      { text: '陋室铭', link: '/junior/classical/loushiming' },
-      { text: '爱莲说', link: '/junior/classical/ailianshuo' },
-      { text: '岳阳楼记', link: '/junior/classical/yueyanglouji' },
-    ],
-  },
-  {
-    text: '初中 · 诗词曲',
-    collapsed: false,
-    items: [
-      { text: '观沧海', link: '/junior/poetry/guancanghai' },
-      { text: '木兰诗', link: '/junior/poetry/mulanshi' },
-      { text: '饮酒（其五）', link: '/junior/poetry/yinjiu' },
-      { text: '望岳', link: '/junior/poetry/wangyue' },
-      { text: '水调歌头', link: '/junior/poetry/shuidiaogetou' },
-    ],
-  },
-  {
-    text: '高中 · 文言文',
-    collapsed: false,
-    items: [
-      { text: '劝学（节选）', link: '/senior/classical/quanxue' },
-      { text: '师说', link: '/senior/classical/shishuo' },
-      { text: '赤壁赋', link: '/senior/classical/chibifu' },
-      { text: '六国论', link: '/senior/classical/liuguolun' },
-    ],
-  },
-  {
-    text: '高中 · 诗词',
-    collapsed: false,
-    items: [
-      { text: '短歌行', link: '/senior/poetry/duangexing' },
-      { text: '梦游天姥吟留别', link: '/senior/poetry/mengyou' },
-      { text: '登高', link: '/senior/poetry/denggao' },
-      { text: '念奴娇·赤壁怀古', link: '/senior/poetry/nianjiaochibi' },
-    ],
-  },
 ]
+
+const sidebar: DefaultTheme.Sidebar = {
+  '/junior/': [...commonSidebar, ...workGroups('junior')],
+  '/senior/': [...commonSidebar, ...workGroups('senior')],
+  '/': commonSidebar,
+}
 
 export default defineConfig({
   lang: 'zh-CN',
@@ -90,7 +73,6 @@ export default defineConfig({
         },
       },
     },
-    editLink: { pattern: `${repository}/edit/main/guwen/:path`, text: '在 GitHub 上编辑此页' },
     lastUpdated: { text: '更新时间' },
     docFooter: { prev: '上一篇', next: '下一篇' },
     socialLinks: [{ icon: 'github', link: repository }],

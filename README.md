@@ -49,11 +49,13 @@ The local search index is regenerated automatically during `npm run build`; no d
 
 ## Add a classical Chinese article
 
-1. Add one Markdown file under `guwen/junior/` or `guwen/senior/`, grouped by `classical` and `poetry`.
-2. Add its title and link to `guwen/.vitepress/config.mts`.
-3. Run `npm run build:guwen`; the page and local full-text search index are generated automatically.
+The textbook catalog and original texts are stored in `guwen/data/works.json`.
 
-The four simple sites live under `sites/`. Each hostname keeps its own `index.html`, while all four share `sites/shared/base.css`.
+1. Edit the matching work in `guwen/data/works.json`.
+2. Run `npm run build:guwen`; individual Markdown pages, book indexes, sidebars, and local full-text search are regenerated automatically.
+3. Run `npm run sync:guwen` only when the complete textbook catalog needs to be refreshed, then review the generated diff before committing.
+
+The four simple sites live under `sites/`. Each hostname keeps its own `index.html`; ZMQ/RBY use `sites/shared/base.css`, while Math/Algorithms share the searchable catalog assets.
 
 ## Deployment
 

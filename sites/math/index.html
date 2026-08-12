@@ -1,13 +1,138 @@
-<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="Dezhonger 数学知识索引：不等式、数论、线性代数、图论等。"><title>数学 · Dezhonger</title><link rel="stylesheet" href="/base.css"><style>:root{--paper:#f5f7ff;--accent:#4c5bd4;--accent-soft:#e5e9ff}body{background-image:radial-gradient(circle at 80% 10%,#e7eaff 0,transparent 32%),linear-gradient(rgba(76,91,212,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(76,91,212,.035) 1px,transparent 1px);background-size:auto,32px 32px,32px 32px}</style></head><body>
-<header class="shell topbar"><a class="brand" href="/">Dezhonger Math</a><nav class="nav" aria-label="站点导航"><a aria-current="page" href="https://math.dezhonger.com">数学</a><a href="https://algo.dezhonger.com">算法</a><a href="https://knowledge.dezhonger.com/zh/">知识库</a><a href="https://dezhonger.com/tools/?lang=zh">计算工具</a></nav></header>
-<main class="shell"><section class="subject-hero"><p class="eyebrow">Mathematical notes</p><h1>把公式背后的<br>结构讲清楚。</h1><p class="lead">数学内容的长期入口。现在先建立分类，之后每一类都可以在这个仓库里继续加入定义、证明、例题和可交互工具。</p><div class="actions"><a class="button" href="#topics">浏览分类</a><a class="button secondary" href="https://dezhonger.com/tools/?lang=zh">打开数学工具</a></div></section>
-<section class="section" id="topics"><div class="section-head"><h2>主题索引</h2><p class="section-copy">从离散结构到连续变化，从计算技巧到严格证明。标记“规划中”的分类已建立入口，文章将持续补充。</p></div><div class="grid subject-grid">
-<article class="card subject-card"><span class="card-number">01 · INEQUALITY</span><h3>不等式</h3><p>均值不等式、柯西不等式、凸性与常见放缩方法。</p><span class="tag">规划中</span></article>
-<article class="card subject-card"><span class="card-number">02 · NUMBER THEORY</span><h3>数论</h3><p>整除、同余、素数、丢番图方程与算术函数。</p><span class="tag">可配合工具</span></article>
-<article class="card subject-card"><span class="card-number">03 · LINEAR ALGEBRA</span><h3>线性代数</h3><p>向量空间、线性映射、矩阵分解与谱理论。</p><span class="tag">可配合工具</span></article>
-<article class="card subject-card"><span class="card-number">04 · GRAPH THEORY</span><h3>图论</h3><p>连通性、树、匹配、网络流与图的结构性质。</p><span class="tag">规划中</span></article>
-<article class="card subject-card"><span class="card-number">05 · CALCULUS</span><h3>微积分</h3><p>极限、导数、积分、级数与多变量分析。</p><span class="tag">规划中</span></article>
-<article class="card subject-card"><span class="card-number">06 · PROBABILITY</span><h3>概率统计</h3><p>随机变量、常见分布、估计、检验与直觉误区。</p><span class="tag">规划中</span></article>
-<article class="card subject-card"><span class="card-number">07 · COMBINATORICS</span><h3>组合数学</h3><p>计数原理、生成函数、递推与极值组合。</p><span class="tag">规划中</span></article>
-<article class="card subject-card"><span class="card-number">08 · GEOMETRY</span><h3>几何</h3><p>平面几何、解析几何、变换与空间直觉。</p><span class="tag">规划中</span></article>
-</div></section></main><footer class="shell footer"><span>Dezhonger Math</span><span>定义 · 证明 · 例题 · 工具</span></footer></body></html>
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="按人教版初高中教材与数学主题整理的知识点目录。">
+  <title>数学知识目录 · Dezhonger</title>
+  <link rel="stylesheet" href="/catalog.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="site-name" href="/">Dezhonger Math</a>
+    <nav aria-label="站点导航">
+      <a aria-current="page" href="https://math.dezhonger.com">数学</a>
+      <a href="https://algo.dezhonger.com">算法</a>
+      <a href="https://guwen.dezhonger.com">古文</a>
+      <a href="https://knowledge.dezhonger.com/zh/">知识库</a>
+      <a href="https://dezhonger.com/tools/?lang=zh">计算工具</a>
+    </nav>
+  </header>
+
+  <div class="page-shell">
+    <aside class="sidebar" aria-label="数学目录筛选">
+      <div class="side-title">数学主题</div>
+      <button class="filter-button active" data-filter="all">全部目录 <span>11</span></button>
+      <button class="filter-button" data-filter="junior">初中数学 <span>6</span></button>
+      <button class="filter-button" data-filter="senior">高中数学 <span>5</span></button>
+      <div class="side-divider"></div>
+      <button class="filter-button" data-filter="algebra">数与代数</button>
+      <button class="filter-button" data-filter="function">函数与分析</button>
+      <button class="filter-button" data-filter="geometry">图形与几何</button>
+      <button class="filter-button" data-filter="probability">统计与概率</button>
+      <p class="side-note">目录按现行人教版初高中数学教材整理。不同地区教材编排可能略有差异。</p>
+    </aside>
+
+    <main>
+      <div class="title-row">
+        <div>
+          <p class="breadcrumb">HOME / MATHEMATICS / TOPICS</p>
+          <h1>数学知识目录</h1>
+          <p class="intro">从教材章节进入，也可以按主题或关键词快速定位知识点。</p>
+        </div>
+        <label class="search-box">
+          <span>搜索目录</span>
+          <input id="catalog-search" type="search" placeholder="例如：二次函数、圆、概率" autocomplete="off">
+        </label>
+      </div>
+
+      <div class="catalog-panel">
+        <div class="panel-rule"></div>
+        <div class="result-summary" aria-live="polite"><strong id="visible-count">11</strong> 个教材目录</div>
+
+        <section class="catalog-section" data-groups="junior algebra">
+          <div class="section-heading"><h2>七年级上册</h2><span>22 个知识点</span></div>
+          <ul class="topic-list">
+            <li>正数和负数</li><li>有理数</li><li>数轴</li><li>相反数</li><li>绝对值</li><li>有理数的加法</li><li>有理数的减法</li><li>有理数的乘法</li><li>有理数的除法</li><li>有理数的乘方</li><li>科学记数法</li><li>近似数</li><li>代数式与整式</li><li>单项式与多项式</li><li>合并同类项</li><li>去括号</li><li>一元一次方程</li><li>等式的性质</li><li>解一元一次方程</li><li>实际问题与方程</li><li>直线、射线、线段</li><li>角及角的比较与运算</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="junior algebra geometry probability">
+          <div class="section-heading"><h2>七年级下册</h2><span>24 个知识点</span></div>
+          <ul class="topic-list">
+            <li>相交线与对顶角</li><li>垂线与垂线段</li><li>同位角、内错角、同旁内角</li><li>平行线的判定</li><li>平行线的性质</li><li>命题、定理与证明</li><li>平移</li><li>平方根</li><li>立方根</li><li>实数与无理数</li><li>平面直角坐标系</li><li>坐标方法的简单应用</li><li>二元一次方程组</li><li>代入消元法</li><li>加减消元法</li><li>实际问题与二元一次方程组</li><li>三元一次方程组</li><li>不等式及其性质</li><li>一元一次不等式</li><li>一元一次不等式组</li><li>数据的收集</li><li>抽样调查</li><li>频数分布表</li><li>统计图的选择与解读</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="junior algebra geometry">
+          <div class="section-heading"><h2>八年级上册</h2><span>24 个知识点</span></div>
+          <ul class="topic-list">
+            <li>三角形的边</li><li>三角形的高、中线与角平分线</li><li>三角形内角和</li><li>多边形及其内角和</li><li>全等三角形</li><li>边边边判定</li><li>边角边判定</li><li>角边角与角角边判定</li><li>直角三角形全等判定</li><li>角平分线的性质</li><li>轴对称</li><li>线段垂直平分线</li><li>等腰三角形</li><li>等边三角形</li><li>整式的乘法</li><li>同底数幂运算</li><li>平方差公式</li><li>完全平方公式</li><li>因式分解</li><li>提公因式法</li><li>公式法分解因式</li><li>分式及其基本性质</li><li>分式运算</li><li>分式方程</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="junior algebra function geometry probability">
+          <div class="section-heading"><h2>八年级下册</h2><span>23 个知识点</span></div>
+          <ul class="topic-list">
+            <li>二次根式</li><li>二次根式的乘除</li><li>二次根式的加减</li><li>勾股定理</li><li>勾股定理的逆定理</li><li>平行四边形的性质</li><li>平行四边形的判定</li><li>三角形中位线</li><li>矩形</li><li>菱形</li><li>正方形</li><li>函数的概念</li><li>函数的图象</li><li>正比例函数</li><li>一次函数</li><li>一次函数与方程、不等式</li><li>平均数</li><li>加权平均数</li><li>中位数</li><li>众数</li><li>极差</li><li>方差</li><li>数据分析与决策</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="junior algebra function geometry probability">
+          <div class="section-heading"><h2>九年级上册</h2><span>25 个知识点</span></div>
+          <ul class="topic-list">
+            <li>一元二次方程</li><li>配方法</li><li>公式法</li><li>因式分解法解方程</li><li>根的判别式</li><li>根与系数的关系</li><li>实际问题与一元二次方程</li><li>二次函数</li><li>二次函数的图象和性质</li><li>二次函数图象的平移</li><li>二次函数的最值</li><li>二次函数与一元二次方程</li><li>旋转</li><li>中心对称</li><li>中心对称图形</li><li>圆的有关概念</li><li>垂径定理</li><li>弧、弦、圆心角</li><li>圆周角</li><li>点和圆、直线和圆的位置关系</li><li>切线的性质与判定</li><li>正多边形和圆</li><li>弧长与扇形面积</li><li>随机事件与概率</li><li>用列举法求概率</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="junior function geometry probability">
+          <div class="section-heading"><h2>九年级下册</h2><span>19 个知识点</span></div>
+          <ul class="topic-list">
+            <li>反比例函数</li><li>反比例函数的图象和性质</li><li>反比例函数的实际应用</li><li>图形的相似</li><li>相似多边形</li><li>平行线分线段成比例</li><li>相似三角形的判定</li><li>相似三角形的性质</li><li>相似三角形的应用</li><li>位似</li><li>锐角三角函数</li><li>正弦</li><li>余弦</li><li>正切</li><li>解直角三角形</li><li>解直角三角形的应用</li><li>投影</li><li>三视图</li><li>由三视图确定几何体</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="senior algebra function geometry probability">
+          <div class="section-heading"><h2>高中数学 · 必修第一册</h2><span>31 个知识点</span></div>
+          <ul class="topic-list">
+            <li>集合及其表示</li><li>集合间的基本关系</li><li>集合的基本运算</li><li>充分条件与必要条件</li><li>全称量词与存在量词</li><li>等式性质与不等式性质</li><li>基本不等式</li><li>二次函数与一元二次方程、不等式</li><li>函数的概念</li><li>函数的表示法</li><li>函数的单调性</li><li>函数的最大值与最小值</li><li>函数的奇偶性</li><li>幂函数</li><li>函数的应用</li><li>指数</li><li>指数函数</li><li>对数</li><li>对数函数</li><li>不同函数增长的差异</li><li>函数零点</li><li>二分法</li><li>任意角与弧度制</li><li>三角函数的概念</li><li>同角三角函数基本关系</li><li>诱导公式</li><li>三角函数图象和性质</li><li>三角函数图象变换</li><li>三角恒等变换</li><li>三角函数应用</li><li>数学建模基础</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="senior algebra geometry probability">
+          <div class="section-heading"><h2>高中数学 · 必修第二册</h2><span>29 个知识点</span></div>
+          <ul class="topic-list">
+            <li>平面向量的概念</li><li>向量的线性运算</li><li>平面向量基本定理</li><li>平面向量的坐标表示</li><li>向量的数量积</li><li>正弦定理</li><li>余弦定理</li><li>解三角形</li><li>复数的概念</li><li>复数的四则运算</li><li>复数的三角表示</li><li>立体图形直观图</li><li>空间点、直线、平面的位置关系</li><li>直线与平面平行</li><li>平面与平面平行</li><li>直线与平面垂直</li><li>平面与平面垂直</li><li>柱、锥、台、球的表面积和体积</li><li>随机抽样</li><li>分层随机抽样</li><li>用样本估计总体</li><li>百分位数</li><li>总体离散程度的估计</li><li>随机事件</li><li>事件的关系与运算</li><li>古典概型</li><li>频率与概率</li><li>事件的独立性</li><li>有限样本空间概率模型</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="senior algebra geometry">
+          <div class="section-heading"><h2>高中数学 · 选择性必修第一册</h2><span>24 个知识点</span></div>
+          <ul class="topic-list">
+            <li>空间向量及其线性运算</li><li>空间向量基本定理</li><li>空间向量的坐标表示</li><li>空间向量的应用</li><li>空间中直线、平面的平行</li><li>空间中直线、平面的垂直</li><li>空间角</li><li>空间距离</li><li>直线的倾斜角与斜率</li><li>直线的方程</li><li>两条直线的位置关系</li><li>点到直线的距离</li><li>圆的方程</li><li>直线与圆的位置关系</li><li>圆与圆的位置关系</li><li>椭圆的定义</li><li>椭圆的标准方程</li><li>椭圆的几何性质</li><li>双曲线的定义与标准方程</li><li>双曲线的几何性质</li><li>抛物线的定义与标准方程</li><li>抛物线的几何性质</li><li>直线与圆锥曲线</li><li>圆锥曲线的综合应用</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="senior algebra function">
+          <div class="section-heading"><h2>高中数学 · 选择性必修第二册</h2><span>21 个知识点</span></div>
+          <ul class="topic-list">
+            <li>数列的概念</li><li>数列的递推公式</li><li>等差数列</li><li>等差数列前 n 项和</li><li>等比数列</li><li>等比数列前 n 项和</li><li>数列求和</li><li>数学归纳法</li><li>变化率问题</li><li>导数的概念</li><li>导数的几何意义</li><li>基本初等函数的导数</li><li>导数的四则运算法则</li><li>复合函数的导数</li><li>导数与函数的单调性</li><li>函数的极值</li><li>函数的最大值与最小值</li><li>利用导数研究不等式</li><li>利用导数研究恒成立问题</li><li>函数构造与零点</li><li>导数的实际应用</li>
+          </ul>
+        </section>
+
+        <section class="catalog-section" data-groups="senior algebra probability">
+          <div class="section-heading"><h2>高中数学 · 选择性必修第三册</h2><span>25 个知识点</span></div>
+          <ul class="topic-list">
+            <li>分类加法计数原理</li><li>分步乘法计数原理</li><li>排列</li><li>组合</li><li>二项式定理</li><li>二项式系数的性质</li><li>条件概率</li><li>全概率公式</li><li>贝叶斯公式</li><li>离散型随机变量</li><li>分布列</li><li>数学期望</li><li>方差</li><li>伯努利试验</li><li>二项分布</li><li>超几何分布</li><li>正态分布</li><li>成对数据的统计相关性</li><li>相关系数</li><li>一元线性回归模型</li><li>最小二乘法</li><li>回归模型的评价</li><li>列联表</li><li>独立性检验</li><li>统计案例分析</li>
+          </ul>
+        </section>
+
+        <p id="empty-state" class="empty-state" hidden>没有匹配的知识点，请尝试更短的关键词。</p>
+      </div>
+    </main>
+  </div>
+
+  <footer>Dezhonger Math · 教材目录、概念与工具</footer>
+  <script src="/catalog.js"></script>
+</body>
+</html>

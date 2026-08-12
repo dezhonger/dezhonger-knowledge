@@ -18,6 +18,11 @@
 .vp-doc blockquote { color: var(--vp-c-text-2); border-left-color: #b98b67; background: rgba(185, 139, 103, .08); padding: 12px 20px; }
 .work-meta { display: flex; gap: 8px; flex-wrap: wrap; margin: -8px 0 28px; }
 .work-meta span { padding: 4px 10px; border: 1px solid rgba(139, 62, 46, .2); border-radius: 999px; color: #7b493d; font-size: 13px; }
+.catalog-stats { display: flex; align-items: baseline; gap: 10px; flex-wrap: wrap; margin: 0 0 24px; padding: 18px 20px; border: 1px solid rgba(139, 62, 46, .13); border-radius: 12px; background: rgba(185, 139, 103, .07); }
+.catalog-stats strong { color: var(--vp-c-brand-1); font-size: 28px; }
+.catalog-stats span { margin-right: 16px; color: var(--vp-c-text-2); font-size: 14px; }
+.source-note { margin-top: 38px !important; padding-top: 18px; border-top: 1px solid rgba(139, 62, 46, .14); color: var(--vp-c-text-3); font-size: 12px; }
+.vp-doc > h2 { scroll-margin-top: 90px; }
 
 @media (max-width: 960px) {
   .VPHero .image-src { width: 100%; max-width: 580px; }

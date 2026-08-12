@@ -6,6 +6,7 @@ COPY package.json package-lock.json ./
 RUN npm ci
 COPY docs ./docs
 COPY guwen ./guwen
+COPY scripts ./scripts
 RUN npm run build:all
 
 FROM nginx:1.29-alpine
@@ -20,5 +21,9 @@ COPY sites/shared/base.css /usr/share/nginx/html/zmq/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/rby/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/math/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/algo/base.css
+COPY sites/shared/catalog.css /usr/share/nginx/html/math/catalog.css
+COPY sites/shared/catalog.css /usr/share/nginx/html/algo/catalog.css
+COPY sites/shared/catalog.js /usr/share/nginx/html/math/catalog.js
+COPY sites/shared/catalog.js /usr/share/nginx/html/algo/catalog.js
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
   CMD wget -q --header='Host: knowledge.dezhonger.com' -O - http://127.0.0.1/ >/dev/null || exit 1
