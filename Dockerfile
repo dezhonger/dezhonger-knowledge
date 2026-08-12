@@ -7,6 +7,7 @@ RUN npm ci
 COPY docs ./docs
 COPY guwen ./guwen
 COPY scripts ./scripts
+COPY sites ./sites
 RUN npm run build:all
 
 FROM nginx:1.29-alpine
