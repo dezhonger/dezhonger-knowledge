@@ -1,0 +1,40 @@
+:root { --accent:#166a54; --soft:#eaf5f0; --line:#d4ddd8; }
+body[data-subject="math"] { background:#f4f6f4; }
+body[data-subject="math"] .site-header { color:#eef8f3; border-color:#2c5b4b; background:#173c31; }
+body[data-subject="math"] .site-header nav a { color:#c2d8d0; }
+body[data-subject="math"] .site-header nav a:hover,body[data-subject="math"] .site-header nav a[aria-current="page"] { color:#fff; background:#ffffff16; }
+.math-layout { display:grid; grid-template-columns:280px minmax(0,1fr); width:min(1640px,100%); margin:auto; }
+.math-toc { position:sticky; top:64px; height:calc(100vh - 64px); overflow:auto; padding:28px 20px; border-right:1px solid var(--line); background:#eef2ef; }
+.math-toc strong { display:block; margin:0 8px 15px; color:#385046; font:700 12px Georgia,serif; letter-spacing:.12em; }
+.math-toc a { display:block; padding:8px; border-left:2px solid transparent; color:#53665e; font-size:12px; line-height:1.4; text-decoration:none; }
+.math-toc a:hover { color:var(--accent); border-left-color:var(--accent); background:#fff9; }
+.math-main { min-width:0; padding:48px clamp(22px,4vw,68px) 90px; background:#fff; }
+.math-main .hero { grid-template-columns:1fr minmax(250px,.38fr); }
+.math-main h1 { color:#164839; font:500 clamp(42px,6vw,72px) Georgia,"Songti SC",serif; }
+.math-main .stats { padding:17px; border-top:4px solid var(--accent); background:#f7faf8; }
+.math-section { margin-top:52px; scroll-margin-top:90px; }
+.math-section-head { display:flex; align-items:end; justify-content:space-between; gap:18px; padding-bottom:14px; border-bottom:2px solid #315e4f; }
+.math-section-head h2 { margin:0; color:#24493d; font:500 31px Georgia,"Songti SC",serif; }
+.math-section-head span { color:#6d7b76; font-size:12px; }
+.math-chapter { margin-top:28px; }
+.math-chapter h3 { margin:0; color:#233b33; font:600 25px Georgia,"Songti SC",serif; }
+.chapter-summary { margin:8px 0 16px; color:#66736e; line-height:1.7; }
+.topic-index { display:grid; grid-template-columns:repeat(2,minmax(0,1fr)); gap:10px; }
+.topic-link { display:grid; grid-template-columns:34px minmax(0,1fr); gap:10px; padding:13px 15px; border:1px solid var(--line); background:#fff; text-decoration:none; }
+.topic-link:hover { border-color:var(--accent); background:var(--soft); }
+.topic-link b { color:var(--accent); font:600 11px Georgia,serif; }
+.topic-link span { font-size:14px; font-weight:700; }
+.math-topic-page { max-width:1040px; margin:auto; padding:52px clamp(20px,5vw,72px) 90px; }
+.back-link { color:var(--accent); font-size:13px; text-decoration:none; }
+.math-topic-page h1 { margin-top:28px; color:#173f33; font:500 clamp(38px,6vw,64px) Georgia,"Songti SC",serif; }
+.topic-meta { margin:12px 0 34px; color:#74817c; }
+.topic-section { margin-top:26px; padding:23px 25px; border:1px solid var(--line); border-left:4px solid var(--accent); background:#fff; }
+.topic-section h2 { margin:0 0 12px; color:#234b3e; font:600 18px Georgia,"Songti SC",serif; }
+.topic-section p { margin:0; color:#354841; font-size:16px; line-height:1.9; }
+.topic-section.formula { background:#f2f8f5; }
+.topic-section.formula p { color:#143f32; font:600 19px Georgia,"Times New Roman",serif; }
+.topic-section.warning { border-left-color:#b27828; background:#fff9ec; }
+.topic-nav { display:flex; justify-content:space-between; gap:16px; margin-top:38px; }
+.topic-nav a { padding:12px 15px; border:1px solid var(--line); color:var(--accent); text-decoration:none; }
+@media(max-width:900px){.math-layout{display:block}.math-toc{position:static;width:100%;height:auto;display:flex;overflow-x:auto;padding:14px;border-right:0;border-bottom:1px solid var(--line)}.math-toc strong{display:none}.math-toc a{flex:0 0 auto;border-left:0;border-bottom:2px solid transparent}.math-main{padding-top:30px}.topic-index{grid-template-columns:1fr}}
+@media(max-width:520px){.math-toc{display:grid;grid-template-columns:1fr 1fr;overflow:visible}.math-toc a{min-width:0;white-space:normal}.math-main .hero{display:block}.math-main .search-box{width:100%;margin-top:22px}.math-section-head{align-items:flex-start;flex-direction:column}.topic-link{grid-template-columns:30px minmax(0,1fr);padding:12px}}

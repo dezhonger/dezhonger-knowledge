@@ -1,0 +1,52 @@
+body[data-subject="algo"] { --accent:#57d4ff; --soft:#10283a; --line:#28445a; color:#dceaf2; background:#07131d; font-family:"SFMono-Regular",Consolas,monospace; }
+body[data-subject="algo"] .site-header { color:#eaf8ff; border-color:#28445a; background:#081722f2; }
+body[data-subject="algo"] .site-header nav a { color:#89a8ba; } body[data-subject="algo"] .site-header nav a:hover,body[data-subject="algo"] .site-header nav a[aria-current="page"] { color:#07131d; background:#57d4ff; }
+body[data-subject="algo"] .site-main { background:radial-gradient(circle at 80% 0,#153148 0,transparent 33%); }
+body[data-subject="algo"] h1 { color:#e8f8ff; } body[data-subject="algo"] .lead,body[data-subject="algo"] .group-head p { color:#92acba; }
+body[data-subject="algo"] .learning-module,body[data-subject="algo"] .stat,body[data-subject="algo"] .search-box { border-radius:4px; background:#0b1d29; box-shadow:inset 0 0 0 1px #ffffff05; }
+body[data-subject="algo"] .learning-module h3,body[data-subject="algo"] .concept-copy { color:#dceaf2; } body[data-subject="algo"] .module-summary { color:#8fa9b7; }
+body[data-subject="algo"] .learning-module::before { content:"> run module"; display:block; margin-bottom:9px; color:#57d4ff; font-size:10px; }
+body[data-subject="algo"] .concept-detail { border-color:#28445a; } body[data-subject="algo"] .method { color:#a7c4d3; background:#10283a; }
+body[data-subject="algo"] footer { border-color:#28445a; background:#061019; }
+
+body[data-subject="biology"] { --accent:#3f7d3b; --soft:#eef6e8; --line:#d7e1ce; background:#edf3e9; }
+body[data-subject="biology"] .site-header { color:#f4f7ea; background:#294b2c; }
+body[data-subject="biology"] .site-header nav a { color:#ccddc4; } body[data-subject="biology"] .site-header nav a:hover,body[data-subject="biology"] .site-header nav a[aria-current="page"] { color:#294b2c; background:#dbe9cf; }
+body[data-subject="biology"] .site-main { background:radial-gradient(circle at 86% 4%,#c8dfb9 0 8%,transparent 8.2%),linear-gradient(#f8faf4,#eef5e9); }
+body[data-subject="biology"] h1 { color:#2f6632; font-family:Georgia,"Songti SC",serif; }
+body[data-subject="biology"] .learning-module { border-radius:28px 8px 28px 8px; box-shadow:0 12px 28px #305a2510; }
+body[data-subject="biology"] .module-index::before { content:"◉ "; } body[data-subject="biology"] .method { border-radius:0 18px 18px 0; }
+
+body[data-subject="geography"] { --accent:#1f6e8a; --soft:#e8f4f5; --line:#cedde1; background:#e9f1f2; }
+body[data-subject="geography"] .site-header { color:#eef9fa; background:#163f50; }
+body[data-subject="geography"] .site-header nav a { color:#c1dce5; } body[data-subject="geography"] .site-header nav a:hover,body[data-subject="geography"] .site-header nav a[aria-current="page"] { color:#163f50;background:#d8eef1; }
+body[data-subject="geography"] .site-main { background:linear-gradient(135deg,#fff 0 47%,#eef7f6 47% 48%,#fff 48% 62%,#e7f0f4 62% 63%,#fff 63%); }
+body[data-subject="geography"] h1 { color:#184d63; font-family:Georgia,"Songti SC",serif; }
+body[data-subject="geography"] .learning-module { border-radius:2px; border-top:5px solid var(--accent); box-shadow:7px 7px 0 #dcebed; }
+body[data-subject="geography"] .module-index::before { content:"⌖ "; }
+
+body[data-subject="physics"] { --accent:#2c62c8; --soft:#edf3ff; --line:#cdd8ee; color:#15213a; background:#eaf0fb; }
+body[data-subject="physics"] .site-header { color:#edf5ff; background:#0c2246; }
+body[data-subject="physics"] .site-header nav a { color:#b8cae9; } body[data-subject="physics"] .site-header nav a:hover,body[data-subject="physics"] .site-header nav a[aria-current="page"] { color:#0c2246;background:#d8e6ff; }
+body[data-subject="physics"] .site-main { background-color:#fff;background-image:linear-gradient(#dfe7f720 1px,transparent 1px),linear-gradient(90deg,#dfe7f720 1px,transparent 1px);background-size:24px 24px; }
+body[data-subject="physics"] h1 { color:#173d80; font-family:"Avenir Next",Arial,sans-serif; }
+body[data-subject="physics"] .learning-module { border-radius:0; box-shadow:inset 0 0 0 3px #fff,0 8px 20px #1b3e7810; }
+body[data-subject="physics"] .module-index { display:inline-block;padding:4px 8px;color:#fff;background:#2c62c8; }
+
+body[data-subject="chemistry"] { --accent:#8b4f20; --soft:#fbf0e6; --line:#e3d6ca; background:#f2ede8; }
+body[data-subject="chemistry"] .site-header { color:#fff7ed;background:#3d291f; }
+body[data-subject="chemistry"] .site-header nav a { color:#dbc9bb; } body[data-subject="chemistry"] .site-header nav a:hover,body[data-subject="chemistry"] .site-header nav a[aria-current="page"] { color:#3d291f;background:#f5dec8; }
+body[data-subject="chemistry"] .site-main { background:linear-gradient(90deg,#fbf9f6 49.7%,#eadfd5 50%,#fbf9f6 50.3%); }
+body[data-subject="chemistry"] h1 { color:#6e3c1a; font-family:Georgia,"Songti SC",serif; }
+body[data-subject="chemistry"] .learning-module { border-radius:8px 8px 24px 24px; border-top:6px solid var(--accent); }
+body[data-subject="chemistry"] .module-index::before { content:"⚗ "; }
+
+body[data-subject="history"] { --accent:#8c352d; --soft:#f8ece7; --line:#ddcec4; background:#eee7dd; }
+body[data-subject="history"] .site-header { color:#fff7ed;background:#412822; }
+body[data-subject="history"] .site-header nav a { color:#dfc9bb; } body[data-subject="history"] .site-header nav a:hover,body[data-subject="history"] .site-header nav a[aria-current="page"] { color:#412822;background:#f1ded0; }
+body[data-subject="history"] .site-main { background:#fcfaf5; }
+body[data-subject="history"] h1 { color:#71302a; font-family:"Songti SC",Georgia,serif; }
+body[data-subject="history"] .group-head { position:relative;border-bottom:2px solid #8c352d; }
+body[data-subject="history"] .group-head::before { content:"";width:14px;height:14px;border:3px solid #8c352d;border-radius:50%;background:#fcfaf5;position:absolute;left:-7px;bottom:-9px; }
+body[data-subject="history"] .learning-module { border-radius:0;border-left:7px double #8c352d;background:#fffdf8;box-shadow:4px 4px 0 #eadfd2; }
+body[data-subject="history"] .module-index::before { content:"ARCHIVE "; }

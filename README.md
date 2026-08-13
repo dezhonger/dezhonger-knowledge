@@ -56,7 +56,21 @@ The textbook catalog and original texts are stored in `guwen/data/works.json`.
 2. Run `npm run build:guwen`; individual Markdown pages, book indexes, sidebars, and local full-text search are regenerated automatically.
 3. Run `npm run sync:guwen` only when the complete textbook catalog needs to be refreshed, then review the generated diff before committing.
 
-The static subject sites live under `sites/`. Each hostname keeps its generated `index.html`; the source curriculum map is in `scripts/subject-data.mjs`. Run `npm run generate:subjects` after editing the map. All subject pages share `sites/shared/subject.css` and `subject.js`; Chemistry additionally loads `elements.js`. The checked-in element data was generated from PubChem's public periodic-table JSON with `npm run generate:elements`.
+The static subject sites live under `sites/`. Each hostname keeps its generated `index.html` and independent topic pages. Run `npm run generate:subjects` after editing the curriculum sources.
+
+- Mathematics is defined in `scripts/math-curriculum.mjs`: 7 paths, 31 chapters and 227 detailed topics.
+- The other subjects use `scripts/subject-data.mjs` plus `scripts/subject-expansions.mjs`.
+- Each subject has its own visual language. Shared files only provide navigation, accessibility and responsive foundations.
+- Chemistry additionally loads `elements.js`; the checked-in element data was generated from PubChem's public periodic-table JSON with `npm run generate:elements`.
+- English includes a static vocabulary review tool for CET-4, CET-6, IELTS, TOEFL, TEM-4 and TEM-8. Review progress stays in browser `localStorage` and does not use the server database.
+
+The compact English vocabulary JSON is generated from the MIT-licensed [ECDICT](https://github.com/skywind3000/ECDICT) dataset. The repository contains the runtime subset and license, not the upstream 60 MB CSV. To refresh it:
+
+```bash
+npm run generate:vocabulary -- /path/to/ecdict.csv
+```
+
+CET-4, CET-6, IELTS and TOEFL use ECDICT's source tags. TEM-4 and TEM-8 are explicitly described in the UI as non-official review pools derived from licensed entries and corpus frequency.
 
 ## Deployment
 

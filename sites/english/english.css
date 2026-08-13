@@ -1,0 +1,34 @@
+:root { --accent:#3f4f9b; --soft:#eef0fb; --line:#d8dbee; color:#20243a; background:#f2f1ec; }
+body[data-subject="english"] { background:#f2f1ec; }
+body[data-subject="english"] .site-header { color:#fff; border:0; background:#272d63; }
+body[data-subject="english"] .site-header nav a { color:#cbd0ec; } body[data-subject="english"] .site-header nav a:hover,body[data-subject="english"] .site-header nav a[aria-current="page"] { color:#272d63;background:#f1df9b; }
+.english-main { background:linear-gradient(90deg,#fdfcf8 0 69%,#f2eee2 69% 100%); }
+.english-main h1 { color:#293271; font-family:Georgia,"Times New Roman",serif; }
+.english-main .hero { grid-template-columns:minmax(0,1.1fr) minmax(300px,.9fr); }
+.english-main .lead { color:#646984; }
+.notebook { padding:20px 22px; border:1px solid #d7cfb9; border-radius:3px; background:repeating-linear-gradient(#fffdf8 0 31px,#e7e2d5 32px); box-shadow:8px 8px 0 #ded8c8; }
+.notebook strong { display:block;color:#293271;font:700 18px Georgia,serif; }
+.notebook p { margin:8px 0 0;color:#656b81;line-height:1.7; }
+.vocab-lab { margin:28px 0 48px; padding:clamp(20px,4vw,36px); border:1px solid #cfd3e8; border-top:8px solid #3f4f9b; background:#fff; box-shadow:0 20px 60px #33395d12; }
+.vocab-head { display:flex;justify-content:space-between;gap:24px;align-items:end;margin-bottom:22px; }
+.vocab-head h2 { margin:0;color:#293271;font:700 clamp(28px,4vw,42px) Georgia,serif; }
+.vocab-head p { max-width:650px;margin:8px 0 0;color:#676e8b;line-height:1.65; }
+.vocab-source { color:#7c82a0;font-size:11px; }
+.vocab-controls { display:grid;grid-template-columns:minmax(280px,1fr) auto auto;gap:14px;align-items:end;padding:18px;border:1px solid #dfe1ef;background:#f7f8fd; }
+.exam-tabs { display:flex;flex-wrap:wrap;gap:7px; }
+.exam-tab { padding:9px 12px;border:1px solid #c9cde2;color:#464e7e;background:#fff;cursor:pointer; }
+.exam-tab.active,.exam-tab:hover { color:#fff;border-color:#3f4f9b;background:#3f4f9b; }
+.count-field span { display:block;margin-bottom:6px;color:#6e7490;font-size:11px;font-weight:700; }.count-field input { width:95px;height:40px;padding:0 10px;border:1px solid #bfc4db;background:#fff; }
+.draw-button { height:40px;padding:0 18px;border:0;color:#fff;background:#d55c45;font-weight:800;cursor:pointer; }.draw-button:hover{background:#b84432}
+.study-toolbar { display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:16px 0; }
+.study-toolbar button { padding:8px 11px;border:1px solid #c9cde2;color:#4a527f;background:#fff;cursor:pointer; }.study-toolbar button:hover{border-color:#3f4f9b}.study-toolbar span{margin-left:auto;color:#737a96;font-size:12px}
+.word-list { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:12px; }
+.word-card { min-width:0;display:grid;grid-template-columns:42px minmax(0,1fr);gap:14px;padding:18px;border:1px solid #dddfea;background:#fff; }
+.word-number { display:grid;place-items:center;width:36px;height:36px;border-radius:50%;color:#fff;background:#3f4f9b;font:700 11px Georgia,serif; }
+.word-title { display:flex;flex-wrap:wrap;align-items:baseline;gap:9px; }.word-title h3 { margin:0;color:#262d66;font:700 23px Georgia,serif; }.phonetic{color:#7a809a;font-size:13px}.pos{padding:3px 6px;color:#8b4a38;background:#faece7;font-size:10px;font-weight:800}
+.word-translation { margin:9px 0;color:#444b6a;line-height:1.6; }.word-translation.concealed { filter:blur(7px);user-select:none; }
+.word-tags { display:flex;flex-wrap:wrap;gap:5px;margin-top:10px; }.word-tags span{padding:3px 6px;color:#69708b;background:#f0f1f7;font-size:9px;text-transform:uppercase}
+.word-actions { display:flex;gap:6px;margin-top:12px; }.word-actions button { padding:6px 8px;border:1px solid #d3d6e5;color:#5d6483;background:#fff;font-size:11px;cursor:pointer; }.word-actions button.active{color:#fff;border-color:#d55c45;background:#d55c45}.word-actions button:hover{border-color:#3f4f9b}
+.learning-section .learning-module { border-radius:0;border-left:6px solid #3f4f9b;box-shadow:6px 6px 0 #e4e1d7; }
+.disclaimer { margin:14px 0 0;color:#80869d;font-size:11px;line-height:1.6; }
+@media(max-width:840px){.english-main{background:#fdfcf8}.vocab-controls{grid-template-columns:1fr}.count-field input{width:100%}.word-list{grid-template-columns:1fr}.vocab-head{align-items:flex-start;flex-direction:column}.english-main .hero{grid-template-columns:1fr}}
