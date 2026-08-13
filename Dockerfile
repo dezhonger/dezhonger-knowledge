@@ -8,6 +8,7 @@ COPY docs ./docs
 COPY guwen ./guwen
 COPY scripts ./scripts
 COPY sites ./sites
+COPY LICENSES ./LICENSES
 RUN npm run build:all
 
 FROM nginx:1.29-alpine
