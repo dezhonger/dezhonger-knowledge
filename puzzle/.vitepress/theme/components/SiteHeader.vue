@@ -2,23 +2,26 @@
 import { computed, ref } from 'vue'
 import { useData, useRoute } from 'vitepress'
 import SearchPalette from './SearchPalette.vue'
+import { usePuzzleLocale } from '../i18n'
 
 const route = useRoute()
 const { isDark } = useData()
 const menuOpen = ref(false)
 const searchOpen = ref(false)
+const { copy, pathFor, alternatePath } = usePuzzleLocale()
 
-const links = [
-  { label: 'Puzzles', href: '/puzzles/' },
-  { label: 'Collections', href: '/collections/' },
-  { label: 'Notes', href: '/notes/' },
-  { label: 'About', href: '/about' },
-]
+const links = computed(() => [
+  { label: copy.value.nav.puzzles, href: pathFor('/puzzles/') },
+  { label: copy.value.nav.collections, href: pathFor('/collections/') },
+  { label: copy.value.nav.notes, href: pathFor('/notes/') },
+  { label: copy.value.nav.timeline, href: pathFor('/timeline/') },
+  { label: copy.value.nav.about, href: pathFor('/about') },
+])
 
 const currentPath = computed(() => route.path)
 
 function isActive(href: string) {
-  return href === '/about' ? currentPath.value === '/about' : currentPath.value.startsWith(href)
+  return href.endsWith('/about') ? currentPath.value === href : currentPath.value.startsWith(href)
 }
 
 function closeMenu() {
@@ -29,9 +32,9 @@ function closeMenu() {
 <template>
   <header class="site-header">
     <div class="site-header__inner shell-width">
-      <a class="wordmark" href="/" aria-label="ZWL Puzzle Library home">ZWL</a>
+      <a class="wordmark" :href="pathFor('/')" :aria-label="copy.homeLabel">{{ copy.brand }}</a>
 
-      <nav class="desktop-nav" aria-label="Primary navigation">
+      <nav class="desktop-nav" :aria-label="copy.navLabel">
         <a
           v-for="link in links"
           :key="link.href"
@@ -43,9 +46,9 @@ function closeMenu() {
       </nav>
 
       <div class="header-actions">
-        <button class="search-trigger" type="button" aria-label="Search the library" @click="searchOpen = true">
+        <button class="search-trigger" type="button" :aria-label="copy.searchLabel" @click="searchOpen = true">
           <span class="search-icon" aria-hidden="true"></span>
-          <span class="search-label">Search</span>
+          <span class="search-label">{{ copy.search }}</span>
           <kbd>⌘K</kbd>
         </button>
         <button
@@ -53,17 +56,18 @@ function closeMenu() {
           type="button"
           role="switch"
           :aria-checked="isDark"
-          :aria-label="isDark ? 'Use light theme' : 'Use dark theme'"
+          :aria-label="isDark ? copy.useLight : copy.useDark"
           @click="isDark = !isDark"
         >
           <span class="theme-toggle__icon" aria-hidden="true"></span>
         </button>
+        <a class="language-toggle" :href="alternatePath" :aria-label="copy.languageLabel">{{ copy.language }}</a>
         <button
           class="menu-toggle"
           type="button"
           :aria-expanded="menuOpen"
           aria-controls="mobile-navigation"
-          aria-label="Toggle navigation"
+          :aria-label="copy.menu"
           @click="menuOpen = !menuOpen"
         >
           <span></span><span></span>
@@ -71,7 +75,7 @@ function closeMenu() {
       </div>
     </div>
 
-    <nav v-if="menuOpen" id="mobile-navigation" class="mobile-nav" aria-label="Mobile navigation">
+    <nav v-if="menuOpen" id="mobile-navigation" class="mobile-nav" :aria-label="copy.mobileNavLabel">
       <a
         v-for="link in links"
         :key="link.href"

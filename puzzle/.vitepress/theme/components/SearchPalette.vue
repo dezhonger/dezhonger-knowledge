@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
-import { collections, notes, puzzles, puzzleUrl } from '../data/catalog'
+import { collections, localizeCollection, localizeNote, localizePuzzle, notes, puzzles, puzzleUrl } from '../data/catalog'
+import { usePuzzleLocale } from '../i18n'
 
 const props = defineProps<{ open: boolean }>()
 const emit = defineEmits<{ 'update:open': [value: boolean] }>()
@@ -8,45 +9,57 @@ const emit = defineEmits<{ 'update:open': [value: boolean] }>()
 const query = ref('')
 const input = ref<HTMLInputElement | null>(null)
 const activeIndex = ref(0)
+const { locale, copy, pathFor } = usePuzzleLocale()
 const puzzleSources = import.meta.glob('../../../puzzles/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 const noteSources = import.meta.glob('../../../notes/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const zhPuzzleSources = import.meta.glob('../../../zh/puzzles/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
+const zhNoteSources = import.meta.glob('../../../zh/notes/*.md', { query: '?raw', import: 'default', eager: true }) as Record<string, string>
 
 function sourceFor(sources: Record<string, string>, slug: string) {
   return Object.entries(sources).find(([path]) => path.endsWith(`/${slug}.md`))?.[1] || ''
 }
 
-const items = [
-  ...puzzles.map((puzzle) => ({
-    type: 'Puzzle',
-    eyebrow: `#${puzzle.id}`,
-    title: puzzle.title,
-    description: puzzle.categories.join(' · '),
-    href: puzzleUrl(puzzle),
-    haystack: `${puzzle.id} ${puzzle.title} ${puzzle.summary} ${puzzle.searchText} ${puzzle.categories.join(' ')} ${sourceFor(puzzleSources, puzzle.slug)}`,
-  })),
-  ...collections.map((collection) => ({
-    type: 'Collection',
-    eyebrow: collection.cover,
-    title: collection.title,
-    description: `${collection.problemCount} problems`,
-    href: `/collections/${collection.slug}`,
-    haystack: `${collection.title} ${collection.description}`,
-  })),
-  ...notes.map((note) => ({
-    type: 'Note',
-    eyebrow: 'NOTE',
-    title: note.title,
-    description: note.readingTime,
-    href: `/notes/${note.slug}`,
-    haystack: `${note.title} ${note.summary} ${note.searchText} ${sourceFor(noteSources, note.slug)}`,
-  })),
-]
+const items = computed(() => [
+  ...puzzles.map((sourcePuzzle) => {
+    const puzzle = localizePuzzle(sourcePuzzle, locale.value)
+    return {
+      type: copy.value.puzzleType,
+      eyebrow: `#${puzzle.id}`,
+      title: puzzle.title,
+      description: puzzle.categories.join(' · '),
+      href: pathFor(puzzleUrl(puzzle)),
+      haystack: `${puzzle.id} ${puzzle.title} ${puzzle.summary} ${puzzle.searchText} ${puzzle.categories.join(' ')} ${sourceFor(locale.value === 'zh' ? zhPuzzleSources : puzzleSources, puzzle.slug)}`,
+    }
+  }),
+  ...collections.map((sourceCollection) => {
+    const collection = localizeCollection(sourceCollection, locale.value)
+    return {
+      type: copy.value.collections,
+      eyebrow: collection.cover,
+      title: collection.title,
+      description: `${collection.problemCount} ${copy.value.problems}`,
+      href: pathFor(`/collections/${collection.slug}`),
+      haystack: `${collection.title} ${collection.description}`,
+    }
+  }),
+  ...notes.map((sourceNote) => {
+    const note = localizeNote(sourceNote, locale.value)
+    return {
+      type: copy.value.noteType,
+      eyebrow: copy.value.noteType.toUpperCase(),
+      title: note.title,
+      description: note.readingTime,
+      href: pathFor(`/notes/${note.slug}`),
+      haystack: `${note.title} ${note.summary} ${note.searchText} ${sourceFor(locale.value === 'zh' ? zhNoteSources : noteSources, note.slug)}`,
+    }
+  }),
+])
 
 const results = computed(() => {
   const normalized = query.value.trim().toLowerCase()
-  if (!normalized) return items.slice(0, 7)
+  if (!normalized) return items.value.slice(0, 7)
   const terms = normalized.split(/\s+/)
-  return items.filter((item) => terms.every((term) => item.haystack.toLowerCase().includes(term))).slice(0, 12)
+  return items.value.filter((item) => terms.every((term) => item.haystack.toLowerCase().includes(term))).slice(0, 12)
 })
 
 function close() {
@@ -102,23 +115,23 @@ onBeforeUnmount(() => {
   <Teleport to="body">
     <Transition name="palette">
       <div v-if="open" class="search-backdrop" role="presentation" @mousedown.self="close">
-        <section class="search-palette" role="dialog" aria-modal="true" aria-label="Search Puzzle Library">
+        <section class="search-palette" role="dialog" aria-modal="true" :aria-label="copy.searchLabel">
           <div class="search-field">
             <span class="search-icon" aria-hidden="true"></span>
             <input
               ref="input"
               v-model="query"
               type="search"
-              placeholder="Search puzzles, collections, and notes…"
-              aria-label="Search query"
+              :placeholder="copy.searchPlaceholder"
+              :aria-label="copy.searchLabel"
               @keydown.down.prevent="moveActive(1)"
               @keydown.up.prevent="moveActive(-1)"
               @keydown.enter.prevent="openActive"
             />
-            <button type="button" aria-label="Close search" @click="close">ESC</button>
+            <button type="button" :aria-label="copy.closeSearch" @click="close">ESC</button>
           </div>
           <div class="search-results" aria-live="polite">
-            <p class="search-caption">{{ query ? `${results.length} results` : 'Suggested' }}</p>
+            <p class="search-caption">{{ query ? `${results.length} ${copy.results}` : copy.suggested }}</p>
             <a
               v-for="(item, index) in results"
               :key="`${item.type}-${item.href}`"
@@ -135,9 +148,9 @@ onBeforeUnmount(() => {
               </span>
               <span class="row-arrow" aria-hidden="true">→</span>
             </a>
-            <p v-if="results.length === 0" class="search-empty">No matching entry. Try a title, number, or idea.</p>
+            <p v-if="results.length === 0" class="search-empty">{{ copy.noResults }}</p>
           </div>
-          <footer class="search-footer"><span><kbd>↑</kbd><kbd>↓</kbd> browse</span><span><kbd>↵</kbd> open</span></footer>
+          <footer class="search-footer"><span><kbd>↑</kbd><kbd>↓</kbd> {{ copy.browse }}</span><span><kbd>↵</kbd> {{ copy.open }}</span></footer>
         </section>
       </div>
     </Transition>

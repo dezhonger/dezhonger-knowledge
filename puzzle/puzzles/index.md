@@ -1,6 +1,6 @@
 ---
 title: All Puzzles
-description: Browse every puzzle in the ZWL Puzzle Library.
+description: Browse every puzzle in the Puzzle Library.
 ---
 
 <PuzzlesArchive />

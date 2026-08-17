@@ -19,6 +19,7 @@ export interface Puzzle {
   cover: 'prisoners' | 'lattice' | 'numbers' | 'chessboard' | 'geometry' | 'doors' | 'pegs'
   categories: string[]
   searchText: string
+  zh: Pick<Puzzle, 'title' | 'summary' | 'hints' | 'source' | 'categories' | 'searchText'>
 }
 
 export interface Collection {
@@ -29,6 +30,7 @@ export interface Collection {
   cover: string
   problemCount: number
   noteCount: number
+  zh: Pick<Collection, 'title' | 'description'>
 }
 
 export interface Note {
@@ -41,6 +43,7 @@ export interface Note {
   updatedAt: string
   readingTime: string
   searchText: string
+  zh: Pick<Note, 'title' | 'summary' | 'readingTime' | 'searchText'>
 }
 
 export const collections: Collection[] = [
@@ -52,6 +55,10 @@ export const collections: Collection[] = [
     cover: '∑',
     problemCount: 3,
     noteCount: 1,
+    zh: {
+      title: 'Project Euler',
+      description: '同时奖励数学证明与编程实现的数学和计算问题。',
+    },
   },
   {
     id: 'collection-geometry',
@@ -61,6 +68,10 @@ export const collections: Collection[] = [
     cover: '△',
     problemCount: 2,
     noteCount: 1,
+    zh: {
+      title: '几何',
+      description: '图形、作图，以及让证明豁然开朗的微小观察。',
+    },
   },
   {
     id: 'collection-games-logic',
@@ -70,6 +81,10 @@ export const collections: Collection[] = [
     cover: '♜',
     problemCount: 3,
     noteCount: 1,
+    zh: {
+      title: '游戏与逻辑',
+      description: '策略、不变量、棋盘，以及那些真正问题藏在规则之下的谜题。',
+    },
   },
   {
     id: 'collection-probability',
@@ -79,6 +94,49 @@ export const collections: Collection[] = [
     cover: '∞',
     problemCount: 2,
     noteCount: 0,
+    zh: {
+      title: '反直觉概率',
+      description: '先让直觉失足，再用清晰模型恢复秩序的概率问题。',
+    },
+  },
+  {
+    id: 'collection-ibm-research',
+    slug: 'ibm-research',
+    title: 'IBM Research',
+    description: 'Monthly challenges and elegant problems from IBM Research, including Ponder This.',
+    cover: 'IBM',
+    problemCount: 0,
+    noteCount: 0,
+    zh: {
+      title: 'IBM Research',
+      description: '来自 IBM Research 的每月挑战与精巧问题，包括 Ponder This 系列。',
+    },
+  },
+  {
+    id: 'collection-jane-street',
+    slug: 'jane-street-puzzles',
+    title: 'Jane Street’s Puzzles',
+    description: 'Mathematical, logical, and computational puzzles published by Jane Street.',
+    cover: '◇',
+    problemCount: 0,
+    noteCount: 0,
+    zh: {
+      title: 'Jane Street’s Puzzles',
+      description: '由 Jane Street 发布的数学、逻辑与计算型谜题。',
+    },
+  },
+  {
+    id: 'collection-sequences',
+    slug: 'sequences',
+    title: 'Sequences',
+    description: 'Interesting integer sequences, recurrences, patterns, and the ideas they encode.',
+    cover: '1,1,2',
+    problemCount: 0,
+    noteCount: 0,
+    zh: {
+      title: 'Sequences',
+      description: '记录有趣的整数数列、递推关系、模式，以及它们所承载的思想。',
+    },
   },
 ]
 
@@ -106,6 +164,14 @@ export const puzzles: Puzzle[] = [
     cover: 'prisoners',
     categories: ['Probability', 'Logic'],
     searchText: 'permutation cycles drawers prisoners strategy chance harmonic probability',
+    zh: {
+      title: '100 名囚徒问题',
+      summary: '沿置换环行走的策略，把几乎不可能的搜索变成了颇有希望的尝试。',
+      hints: ['不要让每名囚徒独立随机选择抽屉。', '把抽屉中的数字视为一个置换，并沿它的环前进。', '所有人成功，当且仅当置换中没有长度超过 50 的环。'],
+      source: '经典概率谜题',
+      categories: ['概率', '逻辑'],
+      searchText: '置换 环 抽屉 囚徒 策略 成功率 调和级数 概率',
+    },
   },
   {
     id: '0186',
@@ -126,6 +192,14 @@ export const puzzles: Puzzle[] = [
     cover: 'pegs',
     categories: ['Game', 'Invariant'],
     searchText: 'peg solitaire golden ratio pagoda function invariant jump army',
+    zh: {
+      title: '康威的士兵',
+      summary: '当每一步都必须跳过一枚棋子时，一支木钉军队能前进多远？',
+      hints: ['尝试给每个格子赋予一个权重。', '选择权重，使任意合法跳跃都不会增加总和。'],
+      source: '约翰·霍顿·康威',
+      categories: ['游戏', '不变量'],
+      searchText: '孔明棋 黄金分割 宝塔函数 不变量 跳跃 军队',
+    },
   },
   {
     id: '0185',
@@ -146,6 +220,14 @@ export const puzzles: Puzzle[] = [
     cover: 'chessboard',
     categories: ['Invariant', 'Chessboard'],
     searchText: 'domino tiling black white squares opposite corners coloring parity',
+    zh: {
+      title: '残缺的棋盘',
+      summary: '去掉两个角、放下三十一块多米诺骨牌，一种染色方式就能决定答案。',
+      hints: ['像普通国际象棋棋盘一样黑白染色。', '数一数剩下的两种颜色各有多少格。'],
+      source: '经典不变量谜题',
+      categories: ['不变量', '棋盘'],
+      searchText: '多米诺 铺砖 黑白 对角 染色 奇偶性 棋盘',
+    },
   },
   {
     id: '0142',
@@ -166,6 +248,14 @@ export const puzzles: Puzzle[] = [
     cover: 'doors',
     categories: ['Probability', 'Conditional'],
     searchText: 'three doors host goat car switch conditional probability bayes',
+    zh: {
+      title: '蒙提霍尔悖论',
+      summary: '一份奖品、三扇门和一位知道答案的主持人：应该换门吗？',
+      hints: ['留意主持人知道什么。', '你第一次选错的概率是 2/3。'],
+      source: '经典条件概率谜题',
+      categories: ['概率', '条件概率'],
+      searchText: '三扇门 主持人 山羊 汽车 换门 条件概率 贝叶斯',
+    },
   },
   {
     id: '0118',
@@ -186,6 +276,14 @@ export const puzzles: Puzzle[] = [
     cover: 'geometry',
     categories: ['Geometry', 'Circle'],
     searchText: 'triangle midpoint altitude orthocenter feet circle euler geometry',
+    zh: {
+      title: '九点圆',
+      summary: '任意三角形中的九个特殊点，安静地共圆。',
+      hints: ['从中点三角形开始。', '寻找由直角产生的圆内接四边形。'],
+      source: '经典欧氏几何',
+      categories: ['几何', '圆'],
+      searchText: '三角形 中点 高 垂心 垂足 圆 欧拉 几何',
+    },
   },
   {
     id: '0117',
@@ -206,6 +304,14 @@ export const puzzles: Puzzle[] = [
     cover: 'geometry',
     categories: ['Geometry', 'Construction'],
     searchText: 'triangle angle trisectors equilateral theorem construction proof',
+    zh: {
+      title: '莫雷奇迹',
+      summary: '任意三角形中，相邻角的三等分线交点构成等边三角形。',
+      hints: ['可以直接追角，但构造一个等边三角形更干净。', '把原三角形的三个角分别写成三倍角。'],
+      source: '弗兰克·莫雷',
+      categories: ['几何', '作图'],
+      searchText: '三角形 角三等分线 等边三角形 定理 构造 证明',
+    },
   },
   {
     id: '0091',
@@ -226,6 +332,14 @@ export const puzzles: Puzzle[] = [
     cover: 'numbers',
     categories: ['Probability', 'Paradox'],
     searchText: 'two envelopes expected value switching prior distribution paradox',
+    zh: {
+      title: '两个信封问题',
+      summary: '一个诱人的期望值计算，似乎说无论何时换信封都更好。',
+      hints: ['问一问：同一个符号能否同时表示固定观察值和随机量？', '计算期望值需要一个先验分布。'],
+      source: '经典概率悖论',
+      categories: ['概率', '悖论'],
+      searchText: '两个信封 期望值 交换 先验分布 悖论',
+    },
   },
   {
     id: '0015',
@@ -246,6 +360,14 @@ export const puzzles: Puzzle[] = [
     cover: 'lattice',
     categories: ['Combinatorics', 'Grid'],
     searchText: 'lattice grid paths binomial coefficient choose right down combinatorics',
+    zh: {
+      title: '格子路径',
+      summary: '忘掉图形，只记住每一步的方向，就能计数网格中的路径。',
+      hints: ['每条路径使用的向右和向下步数都一样。', '在整个步骤序列中，选择哪些位置放向右移动。'],
+      source: 'Project Euler · 第 15 题',
+      categories: ['组合数学', '网格'],
+      searchText: '格子 网格 路径 二项式系数 组合 向右 向下',
+    },
   },
   {
     id: '0003',
@@ -266,6 +388,14 @@ export const puzzles: Puzzle[] = [
     cover: 'numbers',
     categories: ['Number Theory', 'Algorithm'],
     searchText: 'prime factor trial division integer algorithm factorization code',
+    zh: {
+      title: '最大质因数',
+      summary: '每找到一个因数就立即缩小剩余问题，一个简短的连续除法循环就足够了。',
+      hints: ['继续除以每个小因数，直到它不再整除剩余值。', '循环结束时，剩下的数本身可能就是质数。'],
+      source: 'Project Euler · 第 3 题',
+      categories: ['数论', '算法'],
+      searchText: '质因数 试除法 整数 算法 分解 代码',
+    },
   },
   {
     id: '0001',
@@ -286,6 +416,14 @@ export const puzzles: Puzzle[] = [
     cover: 'numbers',
     categories: ['Arithmetic', 'Inclusion–Exclusion'],
     searchText: 'multiples arithmetic series inclusion exclusion sum natural numbers',
+    zh: {
+      title: '3 或 5 的倍数',
+      summary: '把遍历改写成等差数列求和，是练习容斥原理的第一步。',
+      hints: ['分别计算 3 的倍数和 5 的倍数之和。', '修正被重复计数的项。'],
+      source: 'Project Euler · 第 1 题',
+      categories: ['算术', '容斥原理'],
+      searchText: '倍数 等差数列 容斥原理 求和 自然数',
+    },
   },
 ]
 
@@ -300,6 +438,12 @@ export const notes: Note[] = [
     updatedAt: '2026-08-16',
     readingTime: '6 min read',
     searchText: 'invariant monovariant coloring parity conservation game moves proof',
+    zh: {
+      title: '把不变量看作守恒律',
+      summary: '一种实用方法：寻找合法操作无法改变的量。',
+      readingTime: '阅读约 6 分钟',
+      searchText: '不变量 单调量 染色 奇偶性 守恒 游戏 操作 证明',
+    },
   },
   {
     id: 'note-002',
@@ -311,6 +455,12 @@ export const notes: Note[] = [
     updatedAt: '2026-08-12',
     readingTime: '8 min read',
     searchText: 'symmetry orbit burnside lemma fixed points combinatorics counting',
+    zh: {
+      title: '对称性何时会多算',
+      summary: '轨道视角、Burnside 引理，以及意外重复计数的警告信号。',
+      readingTime: '阅读约 8 分钟',
+      searchText: '对称 轨道 Burnside 引理 不动点 组合数学 计数',
+    },
   },
   {
     id: 'note-003',
@@ -322,6 +472,12 @@ export const notes: Note[] = [
     updatedAt: '2026-08-09',
     readingTime: '5 min read',
     searchText: 'geometry diagram auxiliary line construction cyclic quadrilateral visual proof',
+    zh: {
+      title: '画对那张图',
+      summary: '为什么一条辅助线可能比一页代数推导更有价值。',
+      readingTime: '阅读约 5 分钟',
+      searchText: '几何 图形 辅助线 作图 圆内接四边形 可视化证明',
+    },
   },
 ]
 
@@ -347,4 +503,25 @@ export function difficultyStars(difficulty: number) {
 
 export function statusLabel(status: PuzzleStatus) {
   return status === 'solved' ? 'Solved' : status === 'studying' ? 'Studying' : 'Open'
+}
+
+export type PuzzleLocale = 'en' | 'zh'
+
+export function localizePuzzle(puzzle: Puzzle, locale: PuzzleLocale) {
+  return locale === 'zh'
+    ? { ...puzzle, ...puzzle.zh, content: `zh/${puzzle.content}`, solution: `zh/${puzzle.solution}` }
+    : puzzle
+}
+
+export function localizeCollection(collection: Collection, locale: PuzzleLocale) {
+  return locale === 'zh' ? { ...collection, ...collection.zh } : collection
+}
+
+export function localizeNote(note: Note, locale: PuzzleLocale) {
+  return locale === 'zh' ? { ...note, ...note.zh, content: `zh/${note.content}` } : note
+}
+
+export function localizedStatusLabel(status: PuzzleStatus, locale: PuzzleLocale) {
+  if (locale === 'en') return statusLabel(status)
+  return status === 'solved' ? '已解决' : status === 'studying' ? '研究中' : '待解'
 }

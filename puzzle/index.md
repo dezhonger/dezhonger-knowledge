@@ -1,7 +1,7 @@
 ---
-title: ZWL Puzzle Library
+title: Puzzle Library
 titleTemplate: false
-description: A personal archive of curious problems, puzzles, and beautiful ideas.
+description: A personal library of curious problems, puzzles, and beautiful ideas.
 layout: home
 ---
 

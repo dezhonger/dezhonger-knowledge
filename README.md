@@ -34,10 +34,11 @@ The generated VitePress sites are written to `docs/.vitepress/dist`, `guwen/.vit
 
 Puzzle and note content is intentionally static and versioned with the repository.
 
-1. Add a Markdown page under `puzzle/puzzles/` or `puzzle/notes/`.
-2. Add its structured metadata to `puzzle/.vitepress/theme/data/catalog.ts`.
-3. Use the `puzzle` or `note` layout in frontmatter.
-4. Run `npm run build:puzzle` and browse the archive, detail page, search, hints, solution, light mode, and dark mode.
+1. Add the English Markdown page under `puzzle/puzzles/` or `puzzle/notes/`.
+2. Add the matching Chinese Markdown page under `puzzle/zh/puzzles/` or `puzzle/zh/notes/`.
+3. Add English and Chinese structured metadata to `puzzle/.vitepress/theme/data/catalog.ts`.
+4. Use the `puzzle` or `note` layout in frontmatter and keep the same slug in both languages.
+5. Run `npm run build:puzzle` and browse both locales, the timeline, search, hints, solution, light mode, and dark mode.
 
 ## Add an article
 

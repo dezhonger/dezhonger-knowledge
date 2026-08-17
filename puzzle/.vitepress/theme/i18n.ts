@@ -1,0 +1,207 @@
+import { computed } from 'vue'
+import { useRoute } from 'vitepress'
+import type { PuzzleLocale } from './data/catalog'
+
+export const messages = {
+  en: {
+    brand: 'Puzzle Library',
+    homeLabel: 'Puzzle Library home',
+    navLabel: 'Primary navigation',
+    mobileNavLabel: 'Mobile navigation',
+    contentTypeLabel: 'Filter by content type',
+    nav: { puzzles: 'Puzzles', collections: 'Collections', notes: 'Notes', timeline: 'Timeline', about: 'About' },
+    search: 'Search',
+    searchLabel: 'Search the library',
+    searchPlaceholder: 'Search puzzles, collections, and notes…',
+    closeSearch: 'Close search',
+    suggested: 'Suggested',
+    results: 'results',
+    noResults: 'No matching entry. Try a title, number, or idea.',
+    browse: 'browse',
+    open: 'open',
+    useLight: 'Use light theme',
+    useDark: 'Use dark theme',
+    menu: 'Toggle navigation',
+    language: '中文',
+    languageLabel: 'Switch to Chinese',
+    skip: 'Skip to content',
+    footer: 'A quiet place for problems worth keeping.',
+    footerMark: 'PUZZLE LIBRARY',
+    homeEyebrow: 'A PERSONAL PUZZLE LIBRARY',
+    homeTitle: 'A collection of curious problems, puzzles, and beautiful ideas.',
+    homeSubtitle: 'Things I’ve found worth thinking about.',
+    featured: 'Featured puzzle',
+    puzzle: 'PUZZLE',
+    explore: 'Explore',
+    collections: 'Collections',
+    viewAll: 'View all',
+    problems: 'Problems',
+    recentlyAdded: 'Recently Added',
+    completeIndex: 'THE COMPLETE INDEX',
+    allPuzzles: 'All Puzzles',
+    puzzleCount: 'puzzles',
+    puzzleIntro: 'Problems collected for the idea inside them, not merely for the answer at the end.',
+    filters: { all: 'All', math: 'Math', logic: 'Logic', geometry: 'Geometry', games: 'Games' },
+    searchPuzzles: 'Search puzzles…',
+    noPuzzles: 'No puzzles match this search.',
+    curatedShelves: 'CURATED SHELVES',
+    collectionIntro: 'Some are established problem series. Others are themes I want to keep returning to.',
+    personalShelves: 'Future shelves',
+    problemSingular: 'Problem',
+    solved: 'solved',
+    number: 'Number',
+    noEntries: 'No entries yet. This shelf is ready for its first problem or note.',
+    backCollections: 'Collections',
+    marginalia: 'MARGINALIA & WORKING NOTES',
+    noteCount: 'notes',
+    noteIntro: 'Ideas that sit beside the puzzles: techniques, proofs, diagrams, and questions worth extending.',
+    backNotes: 'Notes',
+    hints: 'Hints',
+    hintsSubtitle: 'Open one at a time',
+    hint: 'Hint',
+    hide: 'Hide',
+    reveal: 'Reveal',
+    solution: 'Solution',
+    solutionSubtitle: 'Best opened after a real attempt',
+    showSolution: 'Show Solution',
+    tried: 'Have you tried it yourself?',
+    notYet: 'Not yet',
+    showSolutionConfirm: 'Show solution',
+    hideSolution: 'Hide solution',
+    source: 'Source',
+    backTo: 'Back to',
+    previous: 'Previous',
+    next: 'Next',
+    timelineEyebrow: 'BY DATE',
+    timelineTitle: 'Timeline',
+    timelineIntro: 'Puzzles and notes in the order they entered the library.',
+    contentType: { all: 'All', puzzles: 'Puzzles', notes: 'Notes' },
+    allMonths: 'All months',
+    newest: 'Newest first',
+    oldest: 'Oldest first',
+    published: 'Published',
+    puzzleType: 'Puzzle',
+    noteType: 'Note',
+    noTimeline: 'No entries match these filters.',
+  },
+  zh: {
+    brand: '谜题库',
+    homeLabel: '谜题库首页',
+    navLabel: '主导航',
+    mobileNavLabel: '移动端导航',
+    contentTypeLabel: '按内容类型筛选',
+    nav: { puzzles: '谜题', collections: '题集', notes: '笔记', timeline: '时间线', about: '关于' },
+    search: '搜索',
+    searchLabel: '搜索谜题库',
+    searchPlaceholder: '搜索谜题、题集和笔记…',
+    closeSearch: '关闭搜索',
+    suggested: '建议',
+    results: '条结果',
+    noResults: '没有匹配内容，可以尝试标题、题号或关键词。',
+    browse: '选择',
+    open: '打开',
+    useLight: '使用浅色模式',
+    useDark: '使用深色模式',
+    menu: '切换导航',
+    language: 'EN',
+    languageLabel: 'Switch to English',
+    skip: '跳到主要内容',
+    footer: '一个安静收藏值得保留的问题的地方。',
+    footerMark: '谜题库',
+    homeEyebrow: '个人谜题库',
+    homeTitle: '收藏好奇的问题、谜题与美丽的思想。',
+    homeSubtitle: '这些是我觉得值得思考的东西。',
+    featured: '精选谜题',
+    puzzle: '谜题',
+    explore: '查看',
+    collections: '题集',
+    viewAll: '查看全部',
+    problems: '道题',
+    recentlyAdded: '最近添加',
+    completeIndex: '完整索引',
+    allPuzzles: '全部谜题',
+    puzzleCount: '道谜题',
+    puzzleIntro: '这里收藏问题，是为了它们背后的思想，而不只是最后的答案。',
+    filters: { all: '全部', math: '数学', logic: '逻辑', geometry: '几何', games: '游戏' },
+    searchPuzzles: '搜索谜题…',
+    noPuzzles: '没有匹配的谜题。',
+    curatedShelves: '精心整理的书架',
+    collectionIntro: '其中既有成熟的问题系列，也有我想反复回顾的主题。',
+    personalShelves: '未来题集',
+    problemSingular: '道题',
+    solved: '已解决',
+    number: '题号',
+    noEntries: '这个题集还没有内容，已经为第一道题或第一篇笔记留好位置。',
+    backCollections: '题集',
+    marginalia: '旁注与思考笔记',
+    noteCount: '篇笔记',
+    noteIntro: '与谜题并排放置的思想：技巧、证明、图形与值得延伸的问题。',
+    backNotes: '笔记',
+    hints: '提示',
+    hintsSubtitle: '每次打开一个',
+    hint: '提示',
+    hide: '收起',
+    reveal: '展开',
+    solution: '解答',
+    solutionSubtitle: '认真尝试后再打开',
+    showSolution: '显示解答',
+    tried: '你已经自己尝试过了吗？',
+    notYet: '还没有',
+    showSolutionConfirm: '继续显示',
+    hideSolution: '收起解答',
+    source: '来源',
+    backTo: '返回',
+    previous: '上一题',
+    next: '下一题',
+    timelineEyebrow: '按日期查看',
+    timelineTitle: '时间线',
+    timelineIntro: '按进入谜题库的时间，查看全部谜题与笔记。',
+    contentType: { all: '全部', puzzles: '谜题', notes: '笔记' },
+    allMonths: '全部月份',
+    newest: '最新优先',
+    oldest: '最早优先',
+    published: '发布于',
+    puzzleType: '谜题',
+    noteType: '笔记',
+    noTimeline: '没有符合当前条件的内容。',
+  },
+} as const
+
+export function usePuzzleLocale() {
+  const route = useRoute()
+  const locale = computed<PuzzleLocale>(() => (route.path === '/zh/' || route.path.startsWith('/zh/') ? 'zh' : 'en'))
+  const copy = computed(() => messages[locale.value])
+
+  function pathFor(path: string) {
+    if (locale.value === 'en') return path
+    if (path === '/') return '/zh/'
+    return `/zh${path.startsWith('/') ? path : `/${path}`}`
+  }
+
+  const alternatePath = computed(() => {
+    if (locale.value === 'zh') {
+      const path = route.path.replace(/^\/zh(?=\/|$)/, '')
+      return path || '/'
+    }
+    return route.path === '/' ? '/zh/' : `/zh${route.path}`
+  })
+
+  return { locale, copy, pathFor, alternatePath }
+}
+
+export function formatDate(date: string, locale: PuzzleLocale) {
+  return new Intl.DateTimeFormat(locale === 'zh' ? 'zh-CN' : 'en-US', {
+    year: 'numeric',
+    month: locale === 'zh' ? 'numeric' : 'short',
+    day: 'numeric',
+    timeZone: 'UTC',
+  }).format(new Date(`${date}T00:00:00Z`))
+}
+
+export function formatMonth(month: string, locale: PuzzleLocale) {
+  return new Intl.DateTimeFormat(locale === 'zh' ? 'zh-CN' : 'en-US', {
+    year: 'numeric',
+    month: 'long',
+    timeZone: 'UTC',
+  }).format(new Date(`${month}-01T00:00:00Z`))
+}

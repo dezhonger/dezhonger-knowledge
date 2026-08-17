@@ -1,6 +1,6 @@
 ---
 title: About
-description: About ZWL Puzzle Library and why it exists.
+description: About Puzzle Library and why it exists.
 ---
 
 <div class="reading-page about-page">
@@ -9,7 +9,7 @@ description: About ZWL Puzzle Library and why it exists.
 
 # A place for problems that stay with you.
 
-I am Weilong. I like problems that are easy to state, difficult to see through, and satisfying to understand. This library is where I keep the ones I want to revisit.
+I am ZhangWeilong. I like problems that are easy to state, difficult to see through, and satisfying to understand. This library is where I keep the ones I want to revisit.
 
 It is not a catalogue of everything I have solved. Some entries are complete, some are working notes, and some remain deliberately open. The common thread is that each contains an idea worth remembering.
 
@@ -23,9 +23,8 @@ Mathematical puzzles, logic games, geometry, probability, number theory, algorit
 
 That is why this site is quiet, mostly typographic, and intentionally light on decoration.
 
-## Elsewhere
+## Contact
 
-- [GitHub](https://github.com/dezhonger)
-- [Main site](https://dezhonger.com/)
+[csdisassembly@gmail.com](mailto:csdisassembly@gmail.com)
 
 </div>
