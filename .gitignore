@@ -3,5 +3,7 @@ docs/.vitepress/cache/
 docs/.vitepress/dist/
 guwen/.vitepress/cache/
 guwen/.vitepress/dist/
+puzzle/.vitepress/cache/
+puzzle/.vitepress/dist/
 .DS_Store
 *.log

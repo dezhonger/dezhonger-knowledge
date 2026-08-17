@@ -3,6 +3,7 @@
 A single repository for Dezhonger's independently addressed content sites:
 
 - `knowledge.dezhonger.com`: bilingual technical knowledge, powered by VitePress.
+- `puzzle.dezhonger.com`: personal puzzle library and mathematical problem notebook, powered by VitePress.
 - `guwen.dezhonger.com`: Chinese classical literature, powered by VitePress.
 - `zmq.dezhonger.com` and `rby.dezhonger.com`: original illustrated theme pages.
 - `math.dezhonger.com` and `algo.dezhonger.com`: mathematics, algorithms, machine learning and LLM learning paths.
@@ -15,18 +16,28 @@ npm ci
 npm run dev
 ```
 
-The Knowledge dev server runs at `/`. Run `npm run dev:guwen` for the classical literature site.
+The Knowledge dev server runs at `/`. Run `npm run dev:guwen` for the classical literature site or `npm run dev:puzzle` for the Puzzle Library.
 
 ## Build
 
 ```bash
 npm run build
 npm run build:guwen
-# or build both
+npm run build:puzzle
+# or build every site
 npm run build:all
 ```
 
-The generated sites are written to `docs/.vitepress/dist` and `guwen/.vitepress/dist`.
+The generated VitePress sites are written to `docs/.vitepress/dist`, `guwen/.vitepress/dist`, and `puzzle/.vitepress/dist`.
+
+## Add a puzzle
+
+Puzzle and note content is intentionally static and versioned with the repository.
+
+1. Add a Markdown page under `puzzle/puzzles/` or `puzzle/notes/`.
+2. Add its structured metadata to `puzzle/.vitepress/theme/data/catalog.ts`.
+3. Use the `puzzle` or `note` layout in frontmatter.
+4. Run `npm run build:puzzle` and browse the archive, detail page, search, hints, solution, light mode, and dark mode.
 
 ## Add an article
 
