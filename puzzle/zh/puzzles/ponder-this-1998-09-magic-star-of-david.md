@@ -21,6 +21,10 @@ $$
 \boxed{\text{每条线上的四个数字之和}=26}.
 $$
 
-这可以看成一个小型约束满足问题：6 个线性约束必须与 $1$ 到 $12$ 的一个排列同时成立。既可以手工推理，也可以使用回溯搜索，或把方程与枚举结合起来。
+<PuzzleSolution>
 
-[查看 IBM Research 官方题目](https://research.ibm.com/blog/ponder-this-september-1998){target="_blank" rel="noreferrer"}
+## 题解
+
+_待补充。_
+
+</PuzzleSolution>

@@ -15,6 +15,10 @@ For example, when $k=2$, six distinct bucket counts can achieve a common row sum
 
 > For an arbitrary number of rows $k$, construct an arrangement that always attains the minimum possible common row sum.
 
-This is not only a feasibility question: a complete answer needs both a construction and a proof of optimality.
+<PuzzleSolution>
 
-[Read the original IBM Research problem](https://research.ibm.com/blog/ponder-this-july-1998){target="_blank" rel="noreferrer"}
+## Solution
+
+_To be added._
+
+</PuzzleSolution>

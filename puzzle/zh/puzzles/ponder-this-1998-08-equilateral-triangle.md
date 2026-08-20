@@ -21,6 +21,10 @@ $$
 
 > 证明 $ABC$ 也是等边三角形。
 
-题面很短，看起来甚至有些“显然”，但 IBM 当时特别指出，他们拥有的证明并不简单。此后多年不断有人提交更漂亮的证明，因此它也是一个简洁几何命题能持续激发研究的好例子。
+<PuzzleSolution>
 
-[查看 IBM Research 官方题目](https://research.ibm.com/blog/ponder-this-august-1998){target="_blank" rel="noreferrer"}
+## 题解
+
+_待补充。_
+
+</PuzzleSolution>

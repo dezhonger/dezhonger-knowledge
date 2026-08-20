@@ -29,6 +29,10 @@ $$
 
 > 一般的 $g(N)$ 如何增长？IBM 给出 $g(5)=5$ 作为起点。
 
-这就是经典的煎饼排序问题。若把所有排列视为图的顶点、一次前缀翻转视为一条边，那么 $g(N)$ 就是 pancake graph 的直径。
+<PuzzleSolution>
 
-[查看 IBM Research 官方题目](https://research.ibm.com/blog/ponder-this-october-1998){target="_blank" rel="noreferrer"}
+## 题解
+
+_待补充。_
+
+</PuzzleSolution>

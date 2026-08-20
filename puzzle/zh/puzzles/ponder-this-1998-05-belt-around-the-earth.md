@@ -13,8 +13,10 @@ puzzle: ponder-this-1998-05-belt-around-the-earth
 
 > 这个点最终离地球表面多高？
 
-这题最有趣之处在于答案与地球半径无关，也与人的直觉很不一样。完整分析会涉及圆、切线、弧长与一个超越方程；还可以进一步研究小角度近似和 Taylor 展开。
+<PuzzleSolution>
 
-本页保留题目与思考方向，原题及官方解答请见 IBM 页面。
+## 题解
 
-[查看 IBM Research 官方题目](https://research.ibm.com/blog/ponder-this-may-1998){target="_blank" rel="noreferrer"}
+_待补充。_
+
+</PuzzleSolution>

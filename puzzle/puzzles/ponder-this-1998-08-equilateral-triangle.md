@@ -21,6 +21,10 @@ $$
 
 > Prove that $ABC$ is also equilateral.
 
-The statement is short enough to look obvious, but the original IBM discussion notes that the available proof was not simple. Over the years, the challenge attracted increasingly elegant proofs, making it a particularly nice example of how a compact geometry claim can remain fertile for decades.
+<PuzzleSolution>
 
-[Read the original IBM Research problem](https://research.ibm.com/blog/ponder-this-august-1998){target="_blank" rel="noreferrer"}
+## Solution
+
+_To be added._
+
+</PuzzleSolution>

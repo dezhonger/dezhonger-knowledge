@@ -15,6 +15,10 @@ One of the married couples is Pat and Chris. You are told that you shook hands w
 
 > Did your spouse shake hands with Pat? Did your spouse shake hands with Chris?
 
-The natural model is a graph: people are vertices, handshakes are edges, and each answer is a vertex degree. The distinct answers constrain the degree sequence far more tightly than first appears.
+<PuzzleSolution>
 
-[Read the original IBM Research problem](https://research.ibm.com/blog/ponder-this-june-1998){target="_blank" rel="noreferrer"}
+## Solution
+
+_To be added._
+
+</PuzzleSolution>

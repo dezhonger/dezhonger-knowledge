@@ -15,6 +15,10 @@ puzzle: ponder-this-1998-06-shaking-hands-in-a-party
 
 > 你的配偶是否和 Pat 握过手？是否和 Chris 握过手？
 
-这是一道很典型的逻辑与图论题。把每个人视为顶点、每次握手视为边，回答的数就是顶点的度数；互不相同的度数序列会带来远超直觉的约束。
+<PuzzleSolution>
 
-[查看 IBM Research 官方题目](https://research.ibm.com/blog/ponder-this-june-1998){target="_blank" rel="noreferrer"}
+## 题解
+
+_待补充。_
+
+</PuzzleSolution>

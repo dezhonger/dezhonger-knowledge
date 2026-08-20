@@ -29,6 +29,10 @@ $$
 
 > How does $g(N)$ grow? IBM gives $g(5)=5$ as a starting point.
 
-The problem is the classic pancake-sorting problem. If every permutation is a vertex and one prefix reversal is an edge, then $g(N)$ is the diameter of the pancake graph.
+<PuzzleSolution>
 
-[Read the original IBM Research problem](https://research.ibm.com/blog/ponder-this-october-1998){target="_blank" rel="noreferrer"}
+## Solution
+
+_To be added._
+
+</PuzzleSolution>

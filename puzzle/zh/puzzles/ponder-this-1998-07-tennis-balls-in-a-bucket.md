@@ -15,6 +15,10 @@ Wimbledon 刚刚结束，要把剩余的网球放入桶中。每行有 **3 个�
 
 > 对任意行数 $k$，构造一个始终达到最小可能公共行和的方案。
 
-这不仅是“找到一种合法摆法”的问题；完整答案需要同时给出构造与最优性证明。
+<PuzzleSolution>
 
-[查看 IBM Research 官方题目](https://research.ibm.com/blog/ponder-this-july-1998){target="_blank" rel="noreferrer"}
+## 题解
+
+_待补充。_
+
+</PuzzleSolution>

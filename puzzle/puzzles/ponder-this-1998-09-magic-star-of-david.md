@@ -21,6 +21,10 @@ $$
 \boxed{\text{sum on each line}=26}.
 $$
 
-This is a small constraint-satisfaction problem: six linear conditions must coexist with a permutation of $1$ through $12$. It is approachable by hand, by backtracking, or by combining equations with a careful enumeration.
+<PuzzleSolution>
 
-[Read the original IBM Research problem](https://research.ibm.com/blog/ponder-this-september-1998){target="_blank" rel="noreferrer"}
+## Solution
+
+_To be added._
+
+</PuzzleSolution>
