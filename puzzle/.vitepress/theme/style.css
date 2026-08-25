@@ -2666,21 +2666,33 @@ button {
   grid-template-columns: repeat(4, 1fr);
 }
 
-.pe-stat-grid > div {
+.pe-stat-grid > * {
   display: flex;
   min-height: 118px;
   padding: 24px;
   flex-direction: column;
   justify-content: center;
   border-right: 1px solid var(--line);
+  color: inherit;
 }
 
-.pe-stat-grid > div:first-child {
+.pe-stat-grid > :first-child {
   padding-left: 0;
 }
 
-.pe-stat-grid > div:last-child {
+.pe-stat-grid > :last-child {
   border-right: 0;
+}
+
+.pe-stat-grid > a {
+  transition: color var(--ease), background-color var(--ease);
+}
+
+.pe-stat-grid > a:hover,
+.pe-stat-grid > a:focus-visible {
+  outline: none;
+  color: var(--pe-article);
+  background: var(--pe-article-soft);
 }
 
 .pe-stat-grid strong {
@@ -2694,9 +2706,9 @@ button {
   margin-top: 12px;
   color: var(--muted);
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 12px;
   text-transform: uppercase;
-  letter-spacing: 0.08em;
+  letter-spacing: 0.055em;
 }
 
 .pe-completion {
@@ -2716,9 +2728,11 @@ button {
   background: var(--pe-solved);
 }
 
+.pe-writeup-section,
 .pe-chart-section,
 .pe-problem-section {
   margin-top: 92px;
+  scroll-margin-top: 92px;
 }
 
 .pe-section-heading {
@@ -2761,13 +2775,13 @@ button {
 
 .pe-segmented-controls button {
   min-height: 31px;
-  padding: 0 11px;
+  padding: 0 13px;
   border: 0;
   border-radius: 4px;
   color: var(--muted);
   background: transparent;
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 12px;
   cursor: pointer;
 }
 
@@ -2788,7 +2802,7 @@ button {
 
 .pe-chart-milestones > div {
   display: flex;
-  min-height: 74px;
+  min-height: 86px;
   padding: 16px 20px;
   flex-direction: column;
   justify-content: center;
@@ -2801,7 +2815,7 @@ button {
 
 .pe-chart-milestones span,
 .pe-chart-milestones strong {
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .pe-chart-milestones span {
@@ -2811,6 +2825,7 @@ button {
 
 .pe-chart-milestones strong {
   font-family: var(--mono);
+  font-size: 14px;
   font-weight: 500;
 }
 
@@ -2829,7 +2844,7 @@ button {
 .pe-chart text {
   fill: var(--muted);
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
 }
 
 .pe-chart__grid line {
@@ -2868,7 +2883,7 @@ button {
   flex: 0 0 auto;
   color: var(--muted);
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12px;
   text-transform: uppercase;
   letter-spacing: 0.06em;
 }
@@ -2894,6 +2909,11 @@ button {
 
 .pe-filter-toolbar .pe-filter--open.active {
   color: var(--pe-open);
+}
+
+.pe-filter-toolbar .filter-pills button {
+  min-height: 36px;
+  font-size: 13px;
 }
 
 .pe-filter-fields {
@@ -2925,7 +2945,7 @@ button {
   outline: 0;
   color: var(--ink);
   background: transparent;
-  font-size: 11px;
+  font-size: 13px;
 }
 
 .pe-filter-fields select {
@@ -2936,7 +2956,7 @@ button {
   color: var(--muted);
   background: var(--surface);
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .pe-legend {
@@ -2945,7 +2965,7 @@ button {
   align-items: center;
   gap: 24px;
   color: var(--muted);
-  font-size: 10px;
+  font-size: 12px;
 }
 
 .pe-legend span {
@@ -2976,8 +2996,8 @@ button {
   position: relative;
   display: flex;
   min-width: 0;
-  min-height: 102px;
-  padding: 16px;
+  min-height: 116px;
+  padding: 18px;
   flex-direction: column;
   border-right: 1px solid var(--line);
   border-bottom: 1px solid var(--line);
@@ -2995,14 +3015,15 @@ a.pe-problem-card:focus-visible {
 .pe-problem-card__number {
   margin-bottom: 10px;
   font-family: var(--mono);
-  font-size: 9px;
+  font-size: 11px;
+  line-height: 1.4;
   letter-spacing: 0.04em;
 }
 
 .pe-problem-card strong {
   overflow: hidden;
   font-family: var(--serif);
-  font-size: 13px;
+  font-size: 15px;
   font-weight: 500;
   line-height: 1.35;
   text-overflow: ellipsis;
@@ -3014,7 +3035,8 @@ a.pe-problem-card:focus-visible {
   padding-top: 8px;
   color: var(--muted);
   font-family: var(--mono);
-  font-size: 8px;
+  font-size: 11px;
+  line-height: 1.4;
 }
 
 .pe-problem-card__mark {
@@ -3053,12 +3075,74 @@ a.pe-problem-card:focus-visible {
 .pe-source-note {
   margin: 56px 0 0;
   color: var(--muted);
-  font-size: 11px;
+  font-size: 13px;
   line-height: 1.6;
 }
 
 .pe-source-note a {
   color: var(--accent);
+}
+
+.pe-writeup-grid {
+  display: grid;
+  border-top: 1px solid var(--line);
+  border-left: 1px solid var(--line);
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+.pe-writeup-grid > a {
+  position: relative;
+  display: flex;
+  min-height: 210px;
+  padding: 28px;
+  flex-direction: column;
+  border-right: 1px solid var(--line);
+  border-bottom: 1px solid var(--line);
+  background: var(--pe-article-soft);
+  transition: color var(--ease), transform var(--ease), background-color var(--ease);
+}
+
+.pe-writeup-grid > a:hover,
+.pe-writeup-grid > a:focus-visible {
+  z-index: 1;
+  outline: 1px solid var(--pe-article);
+  outline-offset: -1px;
+  color: var(--pe-article);
+  transform: translateY(-2px);
+}
+
+.pe-writeup-grid span,
+.pe-writeup-grid small,
+.pe-writeup-grid em {
+  font-family: var(--mono);
+  font-style: normal;
+}
+
+.pe-writeup-grid span {
+  color: var(--pe-article);
+  font-size: 12px;
+  letter-spacing: 0.05em;
+}
+
+.pe-writeup-grid strong {
+  margin-top: 22px;
+  font-family: var(--serif);
+  font-size: 25px;
+  font-weight: 500;
+  line-height: 1.25;
+}
+
+.pe-writeup-grid small {
+  margin-top: 10px;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.pe-writeup-grid em {
+  margin-top: auto;
+  padding-top: 22px;
+  color: var(--pe-article);
+  font-size: 12px;
 }
 
 /* Password-protected puzzle answers */
@@ -3212,27 +3296,28 @@ a.pe-problem-card:focus-visible {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .pe-stat-grid > div {
+  .pe-stat-grid > * {
     min-height: 96px;
     padding: 20px 0;
     border-bottom: 1px solid var(--line);
   }
 
-  .pe-stat-grid > div:nth-child(2) {
+  .pe-stat-grid > :nth-child(2) {
     padding-left: 18px;
     border-right: 0;
   }
 
-  .pe-stat-grid > div:nth-child(3) {
+  .pe-stat-grid > :nth-child(3) {
     border-bottom: 0;
   }
 
-  .pe-stat-grid > div:nth-child(4) {
+  .pe-stat-grid > :nth-child(4) {
     padding-left: 18px;
     border-right: 0;
     border-bottom: 0;
   }
 
+  .pe-writeup-section,
   .pe-chart-section,
   .pe-problem-section {
     margin-top: 68px;
@@ -3283,8 +3368,17 @@ a.pe-problem-card:focus-visible {
   }
 
   .pe-problem-card {
-    min-height: 94px;
-    padding: 13px;
+    min-height: 108px;
+    padding: 15px;
+  }
+
+  .pe-writeup-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .pe-writeup-grid > a {
+    min-height: 170px;
+    padding: 24px;
   }
 
   .protected-answer {
@@ -3303,5 +3397,9 @@ a.pe-problem-card:focus-visible {
 
   .pe-problem-grid {
     grid-template-columns: 1fr;
+  }
+
+  .pe-stat-grid span {
+    font-size: 11px;
   }
 }

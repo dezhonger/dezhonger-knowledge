@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
+import { getPuzzle, localizePuzzle } from '../data/catalog'
 import { projectEulerProblems, projectEulerSnapshot, type ProjectEulerProblem } from '../data/project-euler'
 import { usePuzzleLocale } from '../i18n'
 
@@ -24,6 +25,9 @@ const words = computed(() =>
         solved: '已解决',
         published: '站内题解',
         completion: '完成率',
+        writeups: 'PE 题解博文',
+        writeupsDescription: '当前已经整理到本站的完整题解。点击卡片进入题目原文、形式化题意、解题思路和密码保护的代码与结果。',
+        writeupCount: '篇站内题解',
         journey: '解题轨迹',
         journeyDescription: '切换时间粒度，观察每期新增题数或累计完成数。',
         cumulative: '累计完成',
@@ -56,6 +60,9 @@ const words = computed(() =>
         solved: 'Solved',
         published: 'On-site write-ups',
         completion: 'Completion',
+        writeups: 'Project Euler write-ups',
+        writeupsDescription: 'Complete solutions currently published on this site, including the original problem, formal statement, approach, and protected code and result.',
+        writeupCount: 'on-site write-ups',
         journey: 'Solving journey',
         journeyDescription: 'Change the time scale to compare new solves with cumulative progress.',
         cumulative: 'Cumulative',
@@ -95,6 +102,9 @@ const counts = computed(() => ({
 }))
 
 const completionRate = computed(() => ((projectEulerSnapshot.solved / projectEulerSnapshot.total) * 100).toFixed(1))
+const publishedProblems = projectEulerProblems.filter(
+  (problem): problem is ProjectEulerProblem & { articleSlug: string; solvedAt: string } => Boolean(problem.articleSlug && problem.solvedAt),
+)
 const ranges = computed(() =>
   Array.from({ length: Math.ceil(projectEulerSnapshot.total / 100) }, (_, index) => {
     const start = index * 100 + 1
@@ -116,6 +126,12 @@ function problemHref(problem: ProjectEulerProblem) {
   if (problem.articleSlug) return pathFor(`/puzzles/${problem.articleSlug}`)
   if (!problem.solvedAt) return `https://projecteuler.net/problem=${problem.id}`
   return undefined
+}
+
+function localizedProblemTitle(problem: ProjectEulerProblem) {
+  if (!problem.articleSlug) return problem.title
+  const puzzle = getPuzzle(problem.articleSlug)
+  return puzzle ? localizePuzzle(puzzle, locale.value).title : problem.title
 }
 
 function formatDate(value: string) {
@@ -241,7 +257,7 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
     <section class="pe-stat-grid" :aria-label="words.solved">
       <div><strong>{{ projectEulerSnapshot.total }}</strong><span>{{ words.total }}</span></div>
       <div><strong>{{ projectEulerSnapshot.solved }}</strong><span>{{ words.solved }}</span></div>
-      <div><strong>{{ projectEulerSnapshot.publishedSolutions }}</strong><span>{{ words.published }}</span></div>
+      <a href="#write-ups"><strong>{{ projectEulerSnapshot.publishedSolutions }}</strong><span>{{ words.published }} ↓</span></a>
       <div><strong>{{ completionRate }}%</strong><span>{{ words.completion }}</span></div>
     </section>
 
@@ -249,6 +265,21 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
       <span class="pe-completion__article" :style="{ width: `${(counts.article / projectEulerSnapshot.total) * 100}%` }"></span>
       <span class="pe-completion__solved" :style="{ width: `${(counts.solved / projectEulerSnapshot.total) * 100}%` }"></span>
     </div>
+
+    <section id="write-ups" class="pe-writeup-section">
+      <div class="pe-section-heading">
+        <div><h2>{{ words.writeups }}</h2><p>{{ words.writeupsDescription }}</p></div>
+        <span class="pe-showing-count">{{ publishedProblems.length }} {{ words.writeupCount }}</span>
+      </div>
+      <div class="pe-writeup-grid">
+        <a v-for="problem in publishedProblems" :key="problem.id" :href="problemHref(problem)">
+          <span>#PE {{ String(problem.id).padStart(3, '0') }}</span>
+          <strong>{{ localizedProblemTitle(problem) }}</strong>
+          <small>{{ formatDate(problem.solvedAt) }}</small>
+          <em>{{ words.readArticle }} →</em>
+        </a>
+      </div>
+    </section>
 
     <section class="pe-chart-section">
       <div class="pe-section-heading">
@@ -293,7 +324,7 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
       </div>
     </section>
 
-    <section class="pe-problem-section">
+    <section id="problem-index" class="pe-problem-section">
       <div class="pe-section-heading">
         <div><h2>{{ words.problems }}</h2><p>{{ words.problemsDescription }}</p></div>
         <span class="pe-showing-count">{{ words.showing }} {{ visibleProblems.length }} / {{ projectEulerSnapshot.total }}</span>
