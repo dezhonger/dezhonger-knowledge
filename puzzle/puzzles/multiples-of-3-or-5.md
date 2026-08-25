@@ -1,39 +1,51 @@
 ---
 title: Multiples of 3 or 5
-description: A first exercise in turning iteration into arithmetic with inclusion–exclusion.
+description: Project Euler Problem 1, stated precisely and solved with arithmetic progressions and inclusion–exclusion.
 layout: puzzle
 puzzle: multiples-of-3-or-5
+projectEuler: 1
 ---
 
-Among the natural numbers below 10, the multiples of 3 or 5 are $3,5,6,$ and $9$. Their sum is $23$.
+## Original problem
 
-**Find the sum of all multiples of 3 or 5 below 1000.**
+If we list all the natural numbers below $10$ that are multiples of $3$ or $5$, we get $3, 5, 6$ and $9$. The sum of these multiples is $23$.
 
-<PuzzleVisual variant="numbers" label="A multiplication of small prime numbers" />
+**Find the sum of all the multiples of $3$ or $5$ below $1000$.**
 
-An ordinary loop works. The more interesting solution asks how to remove the loop entirely.
+## Formal statement
+
+Let
+
+$$
+A=\{n\in\mathbb Z\mid 1\le n<1000,\;3\mid n\text{ or }5\mid n\}.
+$$
+
+Compute the finite sum
+
+$$
+S=\sum_{n\in A}n.
+$$
 
 <PuzzleHints />
 
 <PuzzleSolution>
 
-## Arithmetic series and inclusion–exclusion
+## Approach
 
-The sum of positive multiples of $k$ below a limit $N$ is
-
-$$
-k\frac{m(m+1)}2,\qquad m=\left\lfloor\frac{N-1}{k}\right\rfloor.
-$$
-
-Add the multiples of 3 and 5, then subtract the multiples of 15 that were counted twice:
+For any positive integer $k$, the positive multiples of $k$ below a limit $N$ are
 
 $$
-3\frac{333\cdot334}{2}
-+5\frac{199\cdot200}{2}
--15\frac{66\cdot67}{2}
-=\boxed{233168}.
+k,2k,\ldots,mk,
+\qquad
+m=\left\lfloor\frac{N-1}{k}\right\rfloor.
 $$
 
-This small problem introduces a durable habit: identify overlap explicitly before adding counts or sums.
+Their sum is therefore $k\,m(m+1)/2$. Apply this formula to the multiples of $3$ and $5$. Multiples of $15$ occur in both groups, so subtract their sum once by inclusion–exclusion.
+
+This turns a linear scan into a constant-size calculation and makes the overlap explicit.
+
+<ProtectedPuzzleAnswer problem="1" />
 
 </PuzzleSolution>
+
+> The original problem is reproduced from [Project Euler Problem 1](https://projecteuler.net/problem=1) under [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/).

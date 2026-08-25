@@ -9,6 +9,8 @@ import PuzzlesArchive from './components/PuzzlesArchive.vue'
 import PuzzleHints from './components/PuzzleHints.vue'
 import PuzzleSolution from './components/PuzzleSolution.vue'
 import PuzzleVisual from './components/PuzzleVisual.vue'
+import ProtectedPuzzleAnswer from './components/ProtectedPuzzleAnswer.vue'
+import ProjectEulerDashboard from './components/ProjectEulerDashboard.vue'
 import TimelinePage from './components/TimelinePage.vue'
 import './style.css'
 
@@ -25,6 +27,8 @@ export default {
     context.app.component('PuzzleHints', PuzzleHints)
     context.app.component('PuzzleSolution', PuzzleSolution)
     context.app.component('PuzzleVisual', PuzzleVisual)
+    context.app.component('ProtectedPuzzleAnswer', ProtectedPuzzleAnswer)
+    context.app.component('ProjectEulerDashboard', ProjectEulerDashboard)
     context.app.component('TimelinePage', TimelinePage)
   },
 } satisfies Theme

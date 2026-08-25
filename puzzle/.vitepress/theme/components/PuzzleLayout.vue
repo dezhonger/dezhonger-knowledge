@@ -25,7 +25,9 @@ const previousPuzzle = computed(() => (currentIndex.value > 0 ? collectionPuzzle
 const nextPuzzle = computed(() => (currentIndex.value >= 0 ? collectionPuzzles.value[currentIndex.value + 1] : undefined))
 const licenseText = computed(() => {
   if (!puzzle.value || locale.value === 'en') return puzzle.value?.license
-  return puzzle.value.license.startsWith('Project Euler') ? '原始题目适用 Project Euler 的使用条款' : '为展示目的改写的摘要'
+  return puzzle.value.license.includes('Project Euler')
+    ? 'Project Euler 原题依据 CC BY-NC-SA 4.0 使用'
+    : '为展示目的改写的摘要'
 })
 </script>
 
