@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: 识别菜品
 description: 五人如何在三顿饭后认出九种陌生菜品？为什么十种菜不可能做到？
 layout: puzzle

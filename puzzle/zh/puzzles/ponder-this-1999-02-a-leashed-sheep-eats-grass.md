@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: 拴着绳子的羊吃草
 description: 羊拴在圆形草地边缘时，绳长多长才能恰好吃掉一半的草？
 layout: puzzle

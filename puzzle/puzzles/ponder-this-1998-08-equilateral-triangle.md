@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: Equilateral triangle
 description: A small equilateral triangle with cyclically equal offsets forces the outer triangle to be equilateral too.
 layout: puzzle

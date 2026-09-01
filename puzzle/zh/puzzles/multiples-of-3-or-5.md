@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 3 或 5 的倍数
 description: Project Euler 第 1 题：形式化描述，并使用等差数列与容斥原理解答。
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-26
 title: Even Fibonacci Numbers
 description: Project Euler Problem 2, formalized as a bounded sequence sum and solved by advancing directly between even terms.
 layout: puzzle

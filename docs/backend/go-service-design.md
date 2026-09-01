@@ -1,4 +1,5 @@
 ---
+date: 2026-08-12
 title: Designing a small Go service
 description: A minimal Go service architecture that keeps transport, rules, persistence, and runtime concerns explicit.
 ---

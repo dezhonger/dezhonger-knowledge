@@ -55,6 +55,14 @@ export default defineConfig({
       ['link', { rel: 'alternate', hreflang: 'en', href: `https://puzzle.dezhonger.com${englishPath}` }],
       ['link', { rel: 'alternate', hreflang: 'zh-CN', href: `https://puzzle.dezhonger.com${chinesePath}` }],
       ['link', { rel: 'alternate', hreflang: 'x-default', href: `https://puzzle.dezhonger.com${englishPath}` }],
+      ['link', {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: isChinese ? '谜题库' : 'Puzzle Library',
+        href: isChinese
+          ? 'https://puzzle.dezhonger.com/zh/feed.xml'
+          : 'https://puzzle.dezhonger.com/feed.xml',
+      }],
       ['meta', { property: 'og:locale', content: isChinese ? 'zh_CN' : 'en_US' }],
       ['meta', { property: 'og:title', content: pageTitle }],
       ['meta', { property: 'og:description', content: pageDescription }],

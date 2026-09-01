@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 把不变量看作守恒律
 description: 一种实用方法：寻找合法操作无法改变的量。
 layout: note

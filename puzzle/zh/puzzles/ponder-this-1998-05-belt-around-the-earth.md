@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: 地球上的腰带
 description: 多出 6 米、抬起一个点，答案会颠覆最初的直觉。
 layout: puzzle

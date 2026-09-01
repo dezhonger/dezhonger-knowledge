@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: Labeling bowling pins
 description: Label ten triangularly arranged pins with 0 through 9 under a modular adjacent-sum rule.
 layout: puzzle

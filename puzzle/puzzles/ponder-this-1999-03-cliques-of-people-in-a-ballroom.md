@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: Cliques of people in a ballroom
 description: How does a minimum acquaintance count force, or fail to force, a four-person clique?
 layout: puzzle

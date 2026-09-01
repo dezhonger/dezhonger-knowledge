@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: 等边三角形
 description: 内部等边三角形与循环相等的边上距离，迫使外部三角形也成为等边。
 layout: puzzle

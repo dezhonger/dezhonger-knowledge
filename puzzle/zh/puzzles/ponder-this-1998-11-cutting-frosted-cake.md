@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: 糖霜蛋糕的切分
 description: 把正方形或矩形糖霜蛋糕分给 N 位客人，让蛋糕与糖霜都完全均分。
 layout: puzzle

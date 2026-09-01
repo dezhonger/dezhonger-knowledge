@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 对称性何时会多算
 description: 轨道视角、Burnside 引理，以及意外重复计数的警告信号。
 layout: note

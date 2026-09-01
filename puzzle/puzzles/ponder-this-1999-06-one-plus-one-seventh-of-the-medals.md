@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: 1 plus 1/7 of the medals
 description: A competition distributes a day number plus one seventh of the remaining medals each day. How long does it last?
 layout: puzzle

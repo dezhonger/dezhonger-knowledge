@@ -1,4 +1,5 @@
 ---
+date: 2026-08-12
 title: A network request, end to end
 description: A stage-by-stage model for diagnosing DNS, routes, proxies, TCP, TLS, HTTP, and application behavior.
 ---

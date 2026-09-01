@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: 煎饼排序
 description: 对不同大小的煎饼做前缀翻转，最难的排列需要多少次操作？
 layout: puzzle

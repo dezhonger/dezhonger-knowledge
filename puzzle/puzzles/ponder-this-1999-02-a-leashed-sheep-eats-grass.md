@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: A leashed sheep eats grass
 description: Find the leash length that lets a sheep tied at a circular field’s edge graze exactly half its grass.
 layout: puzzle

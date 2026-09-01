@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: When Symmetry Counts Too Much
 description: Orbit thinking, Burnside’s lemma, and the warning signs of accidental overcounting.
 layout: note

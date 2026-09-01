@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: Recognizing dishes
 description: Can five diners identify all nine unknown dishes after three meals, and why does ten make this impossible?
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: Wally's Rock Permuting (WRP)
 description: A paid service can swap any collection of disjoint rock pairs in one call. What is the worst-case cost to sort N rocks?
 layout: puzzle

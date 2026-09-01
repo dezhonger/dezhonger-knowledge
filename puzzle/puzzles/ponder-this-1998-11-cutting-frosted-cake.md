@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: Cutting frosted cake
 description: Divide a square or rectangular frosted cake among N guests with cake and frosting equal for everyone.
 layout: puzzle

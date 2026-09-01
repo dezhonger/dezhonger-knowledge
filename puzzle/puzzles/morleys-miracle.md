@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: Morley's Miracle
 description: Adjacent angle trisectors of an arbitrary triangle form an equilateral triangle.
 layout: puzzle

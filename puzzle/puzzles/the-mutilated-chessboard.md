@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: The Mutilated Chessboard
 description: Two missing corners, thirty-one dominoes, and one coloring that settles everything.
 layout: puzzle

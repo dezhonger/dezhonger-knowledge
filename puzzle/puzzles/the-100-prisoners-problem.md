@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: The 100 Prisoners Problem
 description: A cycle-following strategy turns an almost impossible search into a surprisingly hopeful one.
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: Seating people on N+M tables
 description: How many meals let every pair among M+N people share a table at least once?
 layout: puzzle

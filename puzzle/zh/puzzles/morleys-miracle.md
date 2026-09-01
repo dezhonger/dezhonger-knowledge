@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 莫雷奇迹
 description: 任意三角形中，相邻角的三等分线交点构成等边三角形。
 layout: puzzle

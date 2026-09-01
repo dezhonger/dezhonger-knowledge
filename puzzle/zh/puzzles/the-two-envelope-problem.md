@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 两个信封问题
 description: 一个诱人的期望值计算，似乎说无论何时换信封都更好。
 layout: puzzle

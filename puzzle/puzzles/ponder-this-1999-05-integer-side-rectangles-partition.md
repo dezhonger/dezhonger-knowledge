@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: Integer side rectangles partition
 description: If every aligned small rectangle has an integer side, must the large rectangle have an integer side too?
 layout: puzzle

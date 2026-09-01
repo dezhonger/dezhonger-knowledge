@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: 保龄球瓶编号
 description: 给三角形排列的十个球瓶标上 0 到 9，并满足相邻和的模 10 规则。
 layout: puzzle

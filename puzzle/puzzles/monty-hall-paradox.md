@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: The Monty Hall Paradox
 description: "One prize, three doors, and an informed host: should you switch?"
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: Conway's Soldiers
 description: How far can an army of pegs advance when every move must be a jump?
 layout: puzzle

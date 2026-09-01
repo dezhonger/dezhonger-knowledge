@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: The Nine-Point Circle
 description: Nine distinguished points of every triangle quietly share a single circle.
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: The Two Envelope Problem
 description: A seductive expected-value argument seems to say that switching is always better.
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: Invariants as Conservation Laws
 description: A practical way to search for the quantity a legal move cannot change.
 layout: note

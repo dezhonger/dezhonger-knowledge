@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: 大卫之星幻方
 description: 把 1 到 12 放上六芒星，使六条直线的和全部相同。
 layout: puzzle

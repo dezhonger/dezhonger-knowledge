@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: Removing snow
 description: Two distance observations of a constant-rate snowplow determine when the steady snowfall began.
 layout: puzzle

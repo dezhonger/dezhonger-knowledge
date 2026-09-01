@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 蒙提霍尔悖论
 description: "一份奖品、三扇门和一位知道答案的主持人：应该换门吗？"
 layout: puzzle

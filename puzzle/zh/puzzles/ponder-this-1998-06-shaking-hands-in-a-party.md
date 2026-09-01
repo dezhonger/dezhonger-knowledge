@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: 聚会握手问题
 description: 七个互不相同的握手次数，揭示四对夫妻间隐藏的结构。
 layout: puzzle

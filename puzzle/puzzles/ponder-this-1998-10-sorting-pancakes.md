@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: Sorting pancakes
 description: How many prefix reversals can the hardest permutation of differently sized pancakes require?
 layout: puzzle

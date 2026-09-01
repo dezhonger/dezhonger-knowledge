@@ -77,6 +77,20 @@ export default defineConfig({
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/logo.svg' }],
     ['meta', { name: 'theme-color', content: '#ffffff' }],
   ],
+  transformHead({ pageData }) {
+    const isChinese = pageData.relativePath.startsWith('zh/')
+    return [[
+      'link',
+      {
+        rel: 'alternate',
+        type: 'application/rss+xml',
+        title: isChinese ? 'Dezhonger 知识库' : 'Dezhonger Knowledge',
+        href: isChinese
+          ? 'https://knowledge.dezhonger.com/zh/feed.xml'
+          : 'https://knowledge.dezhonger.com/feed.xml',
+      },
+    ]]
+  },
   locales: {
     root: {
       label: 'English',
@@ -91,6 +105,7 @@ export default defineConfig({
           { text: 'Backend', link: '/backend/' },
           { text: 'Systems', link: '/systems/' },
           { text: 'AI', link: '/ai/' },
+          { text: 'RSS', link: 'https://knowledge.dezhonger.com/feed.xml' },
           { text: 'Tools', link: service.en },
         ],
         sidebar: englishSidebar,
@@ -120,6 +135,7 @@ export default defineConfig({
           { text: '后端', link: '/zh/backend/' },
           { text: '系统', link: '/zh/systems/' },
           { text: 'AI', link: '/zh/ai/' },
+          { text: '订阅', link: 'https://knowledge.dezhonger.com/zh/feed.xml' },
           { text: '工具站', link: service.zh },
         ],
         sidebar: chineseSidebar,

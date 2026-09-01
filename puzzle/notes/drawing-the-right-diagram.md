@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: Drawing the Right Diagram
 description: Why one auxiliary line can be more valuable than a page of algebra.
 layout: note

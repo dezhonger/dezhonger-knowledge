@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: 铲雪车与降雪时间
 description: 根据恒定清雪速率下的两次路程观测，确定持续降雪何时开始。
 layout: puzzle

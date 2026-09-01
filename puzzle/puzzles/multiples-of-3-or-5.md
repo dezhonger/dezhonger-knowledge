@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: Multiples of 3 or 5
 description: Project Euler Problem 1, stated precisely and solved with arithmetic progressions and inclusion–exclusion.
 layout: puzzle

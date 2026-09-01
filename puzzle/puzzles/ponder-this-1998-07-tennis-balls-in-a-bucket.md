@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: Tennis balls in a bucket
 description: Arrange distinct positive counts in rows of three while making their common sum as small as possible.
 layout: puzzle

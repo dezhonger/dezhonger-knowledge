@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: 整数边长矩形的分割
 description: 若每个对齐的小矩形至少有一条整数边，大矩形也必有一条整数边吗？
 layout: puzzle

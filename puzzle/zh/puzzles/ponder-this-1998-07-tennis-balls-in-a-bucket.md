@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: 桶中的网球
 description: 把互不相同的正整数排入每行三个桶，并让公共和尽可能小。
 layout: puzzle

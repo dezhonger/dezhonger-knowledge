@@ -1,4 +1,5 @@
 ---
+date: 2026-08-12
 title: 一次网络请求的完整旅程
 description: 用分阶段模型诊断 DNS、路由、代理、TCP、TLS、HTTP 与应用行为。
 ---

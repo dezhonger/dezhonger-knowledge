@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: 舞厅中的完全子图
 description: 最少认识人数何时能强迫、又何时不能强迫出现一个四人完全子图？
 layout: puzzle

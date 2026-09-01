@@ -1,4 +1,5 @@
 ---
+date: 2026-08-12
 title: Embedding search in practice
 description: A production model for vector compatibility, candidate retrieval, filtering, ranking, and evaluation.
 ---

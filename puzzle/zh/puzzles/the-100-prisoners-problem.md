@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 100 名囚徒问题
 description: 沿置换环行走的策略，把几乎不可能的搜索变成了颇有希望的尝试。
 layout: puzzle

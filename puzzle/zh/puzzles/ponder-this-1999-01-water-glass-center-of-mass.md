@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: 水杯与水的质心
 description: 总质心最低时的水深，反推出圆柱形玻璃杯自身的质量。
 layout: puzzle

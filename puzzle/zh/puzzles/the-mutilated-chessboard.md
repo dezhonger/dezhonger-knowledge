@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 残缺的棋盘
 description: 去掉两个角、放下三十一块多米诺骨牌，一种染色方式就能决定答案。
 layout: puzzle

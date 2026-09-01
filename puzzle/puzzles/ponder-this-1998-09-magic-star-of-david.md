@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: Magic Star of David
 description: Place 1 through 12 on a six-pointed star so every one of its six lines has the same sum.
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 康威的士兵
 description: 当每一步都必须跳过一枚棋子时，一支木钉军队能前进多远？
 layout: puzzle

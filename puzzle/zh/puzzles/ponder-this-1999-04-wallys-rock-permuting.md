@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: Wally 的石块置换
 description: 一次服务可交换任意多对互不重叠的石块；将 N 块石头排好序的最坏花费是多少？
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-26
 title: 偶数斐波那契数
 description: Project Euler 第 2 题：形式化为有界数列求和，并直接在偶数项之间递推。
 layout: puzzle

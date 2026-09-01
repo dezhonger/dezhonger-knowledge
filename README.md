@@ -37,7 +37,7 @@ Puzzle and note content is intentionally static and versioned with the repositor
 1. Add the English Markdown page under `puzzle/puzzles/` or `puzzle/notes/`.
 2. Add the matching Chinese Markdown page under `puzzle/zh/puzzles/` or `puzzle/zh/notes/`.
 3. Add English and Chinese structured metadata to `puzzle/.vitepress/theme/data/catalog.ts`.
-4. Use the `puzzle` or `note` layout in frontmatter and keep the same slug in both languages.
+4. Use the `puzzle` or `note` layout in frontmatter, include the original publication `date`, and keep the same slug in both languages.
 5. Run `npm run build:puzzle` and browse both locales, the timeline, search, hints, solution, light mode, and dark mode.
 
 ## Add an article
@@ -53,12 +53,24 @@ Each article starts with VitePress frontmatter:
 ---
 title: Article title
 description: A short description used by the page metadata and search index.
+date: 2026-09-01
 ---
 
 # Article title
 ```
 
 The local search index is regenerated automatically during `npm run build`; no database or manual indexing step is required.
+
+## RSS feeds
+
+Knowledge and Puzzle Library publish separate English and Chinese RSS 2.0 feeds:
+
+- `https://knowledge.dezhonger.com/feed.xml`
+- `https://knowledge.dezhonger.com/zh/feed.xml`
+- `https://puzzle.dezhonger.com/feed.xml`
+- `https://puzzle.dezhonger.com/zh/feed.xml`
+
+The feeds include every non-index Markdown page under the Knowledge article sections and the Puzzle `puzzles` and `notes` sections. Each entry contains its title, description, permanent URL, and original publication date. Set `feed: false` in a page's frontmatter only when a leaf page should be excluded intentionally. Knowledge and Puzzle builds regenerate their respective feeds automatically.
 
 ## Add a classical Chinese article
 

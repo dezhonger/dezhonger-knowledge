@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: Shaking hands in a party
 description: Seven distinct answers about handshakes reveal a hidden structure among four couples.
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-20
 title: A belt around the earth
 description: Six extra metres, one lifted point, and a height that defies first intuition.
 layout: puzzle

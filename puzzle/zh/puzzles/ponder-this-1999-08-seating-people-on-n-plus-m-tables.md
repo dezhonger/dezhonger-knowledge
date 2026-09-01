@@ -1,4 +1,5 @@
 ---
+date: 2026-08-31
 title: 在 N+M 两张桌子上安排座位
 description: 让 M+N 人中每一对至少同桌一次，最少需要安排多少顿饭？
 layout: puzzle

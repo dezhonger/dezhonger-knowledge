@@ -1,4 +1,5 @@
 ---
+date: 2026-08-12
 title: Embedding 检索实践
 description: 面向生产环境的向量兼容、候选检索、过滤、排序与评估模型。
 ---

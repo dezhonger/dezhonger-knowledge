@@ -8,7 +8,7 @@ const route = useRoute()
 const { isDark } = useData()
 const menuOpen = ref(false)
 const searchOpen = ref(false)
-const { copy, pathFor, alternatePath } = usePuzzleLocale()
+const { locale, copy, pathFor, alternatePath } = usePuzzleLocale()
 
 const links = computed(() => [
   { label: copy.value.nav.puzzles, href: pathFor('/puzzles/') },
@@ -16,6 +16,12 @@ const links = computed(() => [
   { label: copy.value.nav.notes, href: pathFor('/notes/') },
   { label: copy.value.nav.timeline, href: pathFor('/timeline/') },
   { label: copy.value.nav.about, href: pathFor('/about') },
+  {
+    label: copy.value.nav.rss,
+    href: locale.value === 'zh'
+      ? 'https://puzzle.dezhonger.com/zh/feed.xml'
+      : 'https://puzzle.dezhonger.com/feed.xml',
+  },
 ])
 
 const currentPath = computed(() => route.path)

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 九点圆
 description: 任意三角形中的九个特殊点，安静地共圆。
 layout: puzzle

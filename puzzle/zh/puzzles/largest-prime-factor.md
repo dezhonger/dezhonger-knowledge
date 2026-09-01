@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 最大质因数
 description: Project Euler 第 3 题：形式化为质因数集合上的最大值，并使用连续试除法求解。
 layout: puzzle

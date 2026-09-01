@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: Largest Prime Factor
 description: Project Euler Problem 3, formalized as a maximization over prime divisors and solved by repeated trial division.
 layout: puzzle

@@ -1,4 +1,5 @@
 ---
+date: 2026-08-17
 title: 画对那张图
 description: 为什么一条辅助线可能比一页代数推导更有价值。
 layout: note

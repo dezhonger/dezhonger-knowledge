@@ -1,4 +1,5 @@
 ---
+date: 2026-08-25
 title: Water glass center of mass
 description: The water depth at the lowest center of mass reveals the mass of a cylindrical tumbler.
 layout: puzzle
