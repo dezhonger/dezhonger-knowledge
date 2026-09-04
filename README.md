@@ -40,6 +40,8 @@ Puzzle and note content is intentionally static and versioned with the repositor
 4. Use the `puzzle` or `note` layout in frontmatter, include the original publication `date`, and keep the same slug in both languages.
 5. Run `npm run build:puzzle` and browse both locales, the timeline, search, hints, solution, light mode, and dark mode.
 
+Standard collection pages use the shared `CollectionDetail` component. The component filters and sorts the full collection before paginating the result at 10 puzzles per page. Changing the category or number order returns the collection to page 1, while later pages keep their position in the `page` URL query parameter.
+
 ## Add an article
 
 1. Add the English Markdown source under `docs/<section>/<slug>.md`.
