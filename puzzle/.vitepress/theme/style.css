@@ -2714,22 +2714,24 @@ button {
 }
 
 /* Project Euler collection */
-.pe-dashboard {
+.pe-dashboard,
+.pe-detail {
   --pe-article: #7655c7;
   --pe-article-soft: #eee9fa;
-  --pe-solved: #32866a;
+  --pe-solved: #236c53;
   --pe-solved-soft: #e4f2ec;
-  --pe-open: #8a8a84;
-  --pe-open-soft: #efeee9;
+  --pe-open: #356e9f;
+  --pe-open-soft: #e9f1f9;
 }
 
-.dark .pe-dashboard {
+.dark .pe-dashboard,
+.pe-detail {
   --pe-article: #a891e6;
   --pe-article-soft: #302944;
   --pe-solved: #62b997;
   --pe-solved-soft: #20372f;
-  --pe-open: #9a9992;
-  --pe-open-soft: #292925;
+  --pe-open: #86b6df;
+  --pe-open-soft: #223244;
 }
 
 .pe-dashboard__hero {
@@ -2968,6 +2970,7 @@ button {
 
 .pe-filter-toolbar {
   display: flex;
+  flex-wrap: wrap;
   min-height: 62px;
   padding: 10px 0;
   align-items: center;
@@ -3099,13 +3102,16 @@ a.pe-problem-card:focus-visible {
 }
 
 .pe-problem-card strong {
+  display: -webkit-box;
   overflow: hidden;
   font-family: var(--serif);
   font-size: 15px;
   font-weight: 500;
   line-height: 1.35;
   text-overflow: ellipsis;
-  white-space: nowrap;
+  white-space: normal;
+  -webkit-line-clamp: 2;
+  -webkit-box-orient: vertical;
 }
 
 .pe-problem-card small {
@@ -3136,7 +3142,7 @@ a.pe-problem-card:focus-visible {
 
 .pe-problem-card--open {
   color: var(--pe-open);
-  background: var(--surface);
+  background: var(--pe-open-soft);
 }
 
 .pe-problem-card--article strong,
@@ -3480,4 +3486,58 @@ a.pe-problem-card:focus-visible {
   .pe-stat-grid span {
     font-size: 11px;
   }
+}
+
+/* Full Project Euler statements share the collection's three explicit states. */
+.pe-problem-card__status { margin-top: 10px; font-size: 12px; font-weight: 600; line-height: 1.5; }
+.pe-detail__english-title { margin: 18px 0; color: var(--muted); font-size: 18px; }
+.pe-detail__meta { display: flex; align-items: center; flex-wrap: wrap; gap: 18px; margin-top: 24px; font-size: 14px; }
+.pe-detail__meta > a { color: var(--muted); }
+.pe-status { display: inline-flex; align-items: center; gap: 8px; padding: 7px 12px; border-radius: 5px; font-size: 13px; font-weight: 600; }
+.pe-status::before { content: ''; width: 7px; height: 7px; border-radius: 50%; background: currentColor; }
+.pe-status--article { color: var(--pe-article); background: var(--pe-article-soft); }
+.pe-status--solved { color: var(--pe-solved); background: var(--pe-solved-soft); }
+.pe-status--open { color: var(--pe-open); background: var(--pe-open-soft); }
+.pe-writeup-entry { margin-top: 48px; padding-top: 28px; border-top: 1px solid var(--line); }
+.pe-writeup-entry h2 { margin: 0 0 14px; font-family: var(--serif); font-size: 24px; }
+.pe-writeup-entry p { color: var(--muted); line-height: 1.8; }
+.pe-writeup-entry__link { color: var(--pe-article); font-weight: 600; }
+.pe-statement { overflow-x: auto; overflow-wrap: anywhere; font-size: 18px; line-height: 1.85; }
+.pe-statement > p { margin: 0 0 24px; font-size: inherit; line-height: inherit; }
+.pe-statement img { display: inline-block; max-width: 100%; height: auto; vertical-align: middle; }
+.dark .pe-statement img.dark_img { filter: invert(1) hue-rotate(180deg); }
+.pe-statement .center { text-align: center; }
+.pe-statement .right { text-align: right; }
+.pe-statement .margin_left { margin-left: 2em; }
+.pe-statement .monospace { display: block; max-width: 100%; overflow-x: auto; font-family: var(--mono); }
+.pe-statement .pe-monospace-content { display: inline-block; min-width: 100%; width: max-content; white-space: nowrap; }
+.pe-statement .break_word { white-space: normal; overflow-wrap: anywhere; }
+.pe-statement .strong { font-weight: 700; }
+.pe-statement .smaller, .pe-statement .small_notice { font-size: .9em; }
+.pe-statement .smallest { font-size: .8em; }
+.pe-statement .red { color: #c33b3b; }
+.pe-statement .blue { color: #286ab4; }
+.pe-statement .green { color: #218340; }
+.pe-statement .orange { color: #a95b0b; }
+.pe-statement .float_right { float: right; margin: 0 0 20px 20px; }
+.pe-statement .note { margin-top: 24px; font-size: .9em; }
+.pe-statement .tooltip { text-decoration: underline dotted; cursor: help; }
+.pe-statement .tooltiptext { display: inline; font-size: .9em; font-weight: 400; color: var(--muted); }
+.pe-statement .tooltiptext::before { content: '（'; }
+.pe-statement .tooltiptext::after { content: '）'; }
+.pe-statement table { display: block; max-width: 100%; width: max-content; margin: 24px auto; overflow-x: auto; }
+.pe-statement .grid td { border: 1px solid var(--muted); padding: 4px 10px; text-align: center; }
+.pe-statement .w25 { width: 25px; }
+.pe-statement .w50 { width: 50px; }
+.pe-statement mjx-container, .pe-math-title mjx-container { display: inline-block; max-width: 100%; direction: ltr; text-indent: 0; }
+.pe-statement mjx-container:not([display="true"]), .pe-math-title mjx-container { overflow: visible; padding: 0; line-height: 0; }
+.pe-statement mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; text-align: center; margin: 1em 0; padding: 5px 0; }
+.pe-statement mjx-container[display="true"] svg { display: block; margin: 0 auto; }
+.pe-retry { color: var(--accent); text-decoration: underline; cursor: pointer; }
+.pe-statement mjx-container svg, .pe-math-title mjx-container svg { display: inline-block; max-width: none; overflow: visible; min-height: 1px; }
+.pe-statement mjx-assistive-mml, .pe-math-title mjx-assistive-mml { position: absolute !important; top: 0; left: 0; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); white-space: nowrap; }
+@media (max-width: 760px) {
+  .pe-statement { font-size: 16px; }
+  .pe-legend { flex-wrap: wrap; gap: 12px 20px; }
+  .pe-statement .float_right { float: none; display: block; margin: 20px auto; }
 }

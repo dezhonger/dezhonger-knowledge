@@ -1,6 +1,8 @@
 import { defineConfig } from 'vitepress'
+import { projectEulerStatementsPlugin } from '../../scripts/project-euler-pages.mjs'
 
 export default defineConfig({
+  vite: { plugins: [projectEulerStatementsPlugin()] },
   title: 'Puzzle Library',
   titleTemplate: ':title · Puzzle Library',
   description: 'A personal library of curious problems, puzzles, and beautiful ideas.',

@@ -3,15 +3,18 @@
 export interface ProjectEulerProblem {
   id: number
   title: string
+  titleZh: string
+  titleHtml?: string
+  titleZhHtml?: string
   solvedAt?: string
   articleSlug?: string
 }
 
 export const projectEulerSnapshot = {
-  generatedAt: '2026-08-25T16:07:34.800Z',
-  total: 1007,
-  solved: 522,
-  publishedSolutions: 3,
+  "generatedAt": "2026-09-05T10:58:56.133Z",
+  "total": 1007,
+  "solved": 522,
+  "publishedSolutions": 3
 } as const
 
 export const projectEulerProblems: ProjectEulerProblem[] = [
@@ -19,4553 +22,5630 @@ export const projectEulerProblems: ProjectEulerProblem[] = [
     "id": 1,
     "title": "Multiples of 3 or 5",
     "solvedAt": "2013-02-21T11:43:00+08:00",
-    "articleSlug": "multiples-of-3-or-5"
+    "articleSlug": "multiples-of-3-or-5",
+    "titleZh": "3 或 5 的倍数"
   },
   {
     "id": 2,
     "title": "Even Fibonacci Numbers",
     "solvedAt": "2013-02-21T13:43:00+08:00",
-    "articleSlug": "even-fibonacci-numbers"
+    "articleSlug": "even-fibonacci-numbers",
+    "titleZh": "偶数斐波那契数"
   },
   {
     "id": 3,
     "title": "Largest Prime Factor",
     "solvedAt": "2013-02-22T08:22:00+08:00",
-    "articleSlug": "largest-prime-factor"
+    "articleSlug": "largest-prime-factor",
+    "titleZh": "最大质因数"
   },
   {
     "id": 4,
     "title": "Largest Palindrome Product",
-    "solvedAt": "2013-03-01T16:27:00+08:00"
+    "solvedAt": "2013-03-01T16:27:00+08:00",
+    "titleZh": "最大的回文乘积"
   },
   {
     "id": 5,
     "title": "Smallest Multiple",
-    "solvedAt": "2013-02-21T18:03:00+08:00"
+    "solvedAt": "2013-02-21T18:03:00+08:00",
+    "titleZh": "最小公倍数"
   },
   {
     "id": 6,
     "title": "Sum Square Difference",
-    "solvedAt": "2013-02-21T18:00:00+08:00"
+    "solvedAt": "2013-02-21T18:00:00+08:00",
+    "titleZh": "平方和与和的平方之差"
   },
   {
     "id": 7,
     "title": "10 001st Prime",
-    "solvedAt": "2013-02-22T08:25:00+08:00"
+    "solvedAt": "2013-02-22T08:25:00+08:00",
+    "titleZh": "第 10001 个质数"
   },
   {
     "id": 8,
     "title": "Largest Product in a Series",
-    "solvedAt": "2013-03-01T16:34:00+08:00"
+    "solvedAt": "2013-03-01T16:34:00+08:00",
+    "titleZh": "数列中的最大乘积"
   },
   {
     "id": 9,
     "title": "Special Pythagorean Triplet",
-    "solvedAt": "2013-03-01T16:47:00+08:00"
+    "solvedAt": "2013-03-01T16:47:00+08:00",
+    "titleZh": "特殊的勾股数"
   },
   {
     "id": 10,
     "title": "Summation of Primes",
-    "solvedAt": "2013-06-01T05:40:00+08:00"
+    "solvedAt": "2013-06-01T05:40:00+08:00",
+    "titleZh": "质数之和"
   },
   {
     "id": 11,
     "title": "Largest Product in a Grid",
-    "solvedAt": "2014-02-20T11:41:00+08:00"
+    "solvedAt": "2014-02-20T11:41:00+08:00",
+    "titleZh": "网格中的最大乘积"
   },
   {
     "id": 12,
     "title": "Highly Divisible Triangular Number",
-    "solvedAt": "2013-06-01T05:51:00+08:00"
+    "solvedAt": "2013-06-01T05:51:00+08:00",
+    "titleZh": "因数众多的三角数"
   },
   {
     "id": 13,
     "title": "Large Sum",
-    "solvedAt": "2014-02-20T11:45:00+08:00"
+    "solvedAt": "2014-02-20T11:45:00+08:00",
+    "titleZh": "大数相加"
   },
   {
     "id": 14,
     "title": "Longest Collatz Sequence",
-    "solvedAt": "2013-06-01T06:02:00+08:00"
+    "solvedAt": "2013-06-01T06:02:00+08:00",
+    "titleZh": "最长的柯拉茨序列"
   },
   {
     "id": 15,
     "title": "Lattice Paths",
-    "solvedAt": "2013-08-08T03:21:00+08:00"
+    "solvedAt": "2013-08-08T03:21:00+08:00",
+    "titleZh": "格点路径"
   },
   {
     "id": 16,
     "title": "Power Digit Sum",
-    "solvedAt": "2013-08-08T03:29:00+08:00"
+    "solvedAt": "2013-08-08T03:29:00+08:00",
+    "titleZh": "幂的数位之和"
   },
   {
     "id": 17,
     "title": "Number Letter Counts",
-    "solvedAt": "2014-09-04T05:12:00+08:00"
+    "solvedAt": "2014-09-04T05:12:00+08:00",
+    "titleZh": "数字英文名称的字母数"
   },
   {
     "id": 18,
     "title": "Maximum Path Sum I",
-    "solvedAt": "2013-08-14T13:03:00+08:00"
+    "solvedAt": "2013-08-14T13:03:00+08:00",
+    "titleZh": "最大路径和 I"
   },
   {
     "id": 19,
     "title": "Counting Sundays",
-    "solvedAt": "2014-02-07T15:29:00+08:00"
+    "solvedAt": "2014-02-07T15:29:00+08:00",
+    "titleZh": "星期日计数"
   },
   {
     "id": 20,
     "title": "Factorial Digit Sum",
-    "solvedAt": "2013-08-08T03:45:00+08:00"
+    "solvedAt": "2013-08-08T03:45:00+08:00",
+    "titleZh": "阶乘的数位之和"
   },
   {
     "id": 21,
     "title": "Amicable Numbers",
-    "solvedAt": "2013-08-08T04:04:00+08:00"
+    "solvedAt": "2013-08-08T04:04:00+08:00",
+    "titleZh": "亲和数"
   },
   {
     "id": 22,
     "title": "Names Scores",
-    "solvedAt": "2014-02-20T12:19:00+08:00"
+    "solvedAt": "2014-02-20T12:19:00+08:00",
+    "titleZh": "姓名得分"
   },
   {
     "id": 23,
     "title": "Non-Abundant Sums",
-    "solvedAt": "2014-02-07T15:45:00+08:00"
+    "solvedAt": "2014-02-07T15:45:00+08:00",
+    "titleZh": "不能表示为两个富数之和的数"
   },
   {
     "id": 24,
     "title": "Lexicographic Permutations",
-    "solvedAt": "2014-02-20T12:32:00+08:00"
+    "solvedAt": "2014-02-20T12:32:00+08:00",
+    "titleZh": "字典序排列"
   },
   {
     "id": 25,
     "title": "$1000$-digit Fibonacci Number",
-    "solvedAt": "2013-08-08T04:17:00+08:00"
+    "solvedAt": "2013-08-08T04:17:00+08:00",
+    "titleZh": "$1000$位斐波那契数",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.525ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-f71a5da7b581-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-f71a5da7b581-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-f71a5da7b581-MJX-1-TEX-N-31\"></use><use data-c=\"30\" xlink:href=\"#pe-f71a5da7b581-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-f71a5da7b581-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-f71a5da7b581-MJX-1-TEX-N-30\" transform=\"translate(1500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn></math></mjx-assistive-mml></mjx-container>-digit Fibonacci Number",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.525ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d03d489d0833-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-d03d489d0833-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-d03d489d0833-MJX-1-TEX-N-31\"></use><use data-c=\"30\" xlink:href=\"#pe-d03d489d0833-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-d03d489d0833-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-d03d489d0833-MJX-1-TEX-N-30\" transform=\"translate(1500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn></math></mjx-assistive-mml></mjx-container>位斐波那契数"
   },
   {
     "id": 26,
     "title": "Reciprocal Cycles",
-    "solvedAt": "2014-02-20T12:50:00+08:00"
+    "solvedAt": "2014-02-20T12:50:00+08:00",
+    "titleZh": "循环小数"
   },
   {
     "id": 27,
     "title": "Quadratic Primes",
-    "solvedAt": "2014-02-20T13:16:00+08:00"
+    "solvedAt": "2014-02-20T13:16:00+08:00",
+    "titleZh": "二次质数"
   },
   {
     "id": 28,
     "title": "Number Spiral Diagonals",
-    "solvedAt": "2014-02-24T13:27:00+08:00"
+    "solvedAt": "2014-02-24T13:27:00+08:00",
+    "titleZh": "数字螺旋的对角线"
   },
   {
     "id": 29,
     "title": "Distinct Powers",
-    "solvedAt": "2014-02-27T15:30:00+08:00"
+    "solvedAt": "2014-02-27T15:30:00+08:00",
+    "titleZh": "不同的幂"
   },
   {
     "id": 30,
     "title": "Digit Fifth Powers",
-    "solvedAt": "2013-08-08T04:45:00+08:00"
+    "solvedAt": "2013-08-08T04:45:00+08:00",
+    "titleZh": "数位的五次方"
   },
   {
     "id": 31,
     "title": "Coin Sums",
-    "solvedAt": "2013-08-08T04:50:00+08:00"
+    "solvedAt": "2013-08-08T04:50:00+08:00",
+    "titleZh": "硬币分拆"
   },
   {
     "id": 32,
     "title": "Pandigital Products",
-    "solvedAt": "2014-08-16T13:50:00+08:00"
+    "solvedAt": "2014-08-16T13:50:00+08:00",
+    "titleZh": "全数字乘积"
   },
   {
     "id": 33,
     "title": "Digit Cancelling Fractions",
-    "solvedAt": "2014-02-24T13:21:00+08:00"
+    "solvedAt": "2014-02-24T13:21:00+08:00",
+    "titleZh": "消去数字的分数"
   },
   {
     "id": 34,
     "title": "Digit Factorials",
-    "solvedAt": "2014-02-27T14:09:00+08:00"
+    "solvedAt": "2014-02-27T14:09:00+08:00",
+    "titleZh": "数位阶乘"
   },
   {
     "id": 35,
     "title": "Circular Primes",
-    "solvedAt": "2013-08-28T14:08:00+08:00"
+    "solvedAt": "2013-08-28T14:08:00+08:00",
+    "titleZh": "循环质数"
   },
   {
     "id": 36,
     "title": "Double-base Palindromes",
-    "solvedAt": "2013-08-28T14:44:00+08:00"
+    "solvedAt": "2013-08-28T14:44:00+08:00",
+    "titleZh": "双进制回文数"
   },
   {
     "id": 37,
     "title": "Truncatable Primes",
-    "solvedAt": "2014-02-20T14:02:00+08:00"
+    "solvedAt": "2014-02-20T14:02:00+08:00",
+    "titleZh": "截断质数"
   },
   {
     "id": 38,
     "title": "Pandigital Multiples",
-    "solvedAt": "2014-08-16T14:39:00+08:00"
+    "solvedAt": "2014-08-16T14:39:00+08:00",
+    "titleZh": "全数字倍数"
   },
   {
     "id": 39,
     "title": "Integer Right Triangles",
-    "solvedAt": "2014-02-20T14:09:00+08:00"
+    "solvedAt": "2014-02-20T14:09:00+08:00",
+    "titleZh": "整数边长的直角三角形"
   },
   {
     "id": 40,
     "title": "Champernowne's Constant",
-    "solvedAt": "2014-02-20T14:39:00+08:00"
+    "solvedAt": "2014-02-20T14:39:00+08:00",
+    "titleZh": "Champernowne 常数"
   },
   {
     "id": 41,
     "title": "Pandigital Prime",
-    "solvedAt": "2013-10-13T16:41:00+08:00"
+    "solvedAt": "2013-10-13T16:41:00+08:00",
+    "titleZh": "全数字质数"
   },
   {
     "id": 42,
     "title": "Coded Triangle Numbers",
-    "solvedAt": "2014-02-24T12:15:00+08:00"
+    "solvedAt": "2014-02-24T12:15:00+08:00",
+    "titleZh": "编码三角数"
   },
   {
     "id": 43,
     "title": "Sub-string Divisibility",
-    "solvedAt": "2014-02-24T12:56:00+08:00"
+    "solvedAt": "2014-02-24T12:56:00+08:00",
+    "titleZh": "子串的整除性"
   },
   {
     "id": 44,
     "title": "Pentagon Numbers",
-    "solvedAt": "2014-02-23T07:08:00+08:00"
+    "solvedAt": "2014-02-23T07:08:00+08:00",
+    "titleZh": "五边形数"
   },
   {
     "id": 45,
     "title": "Triangular, Pentagonal, and Hexagonal",
-    "solvedAt": "2014-02-23T07:54:00+08:00"
+    "solvedAt": "2014-02-23T07:54:00+08:00",
+    "titleZh": "三角数、五边形数与六边形数"
   },
   {
     "id": 46,
     "title": "Goldbach's Other Conjecture",
-    "solvedAt": "2014-02-22T13:30:00+08:00"
+    "solvedAt": "2014-02-22T13:30:00+08:00",
+    "titleZh": "哥德巴赫的另一个猜想"
   },
   {
     "id": 47,
     "title": "Distinct Primes Factors",
-    "solvedAt": "2014-02-24T13:05:00+08:00"
+    "solvedAt": "2014-02-24T13:05:00+08:00",
+    "titleZh": "不同的质因数"
   },
   {
     "id": 48,
     "title": "Self Powers",
-    "solvedAt": "2014-02-12T17:59:00+08:00"
+    "solvedAt": "2014-02-12T17:59:00+08:00",
+    "titleZh": "自幂之和"
   },
   {
     "id": 49,
     "title": "Prime Permutations",
-    "solvedAt": "2014-02-23T07:25:00+08:00"
+    "solvedAt": "2014-02-23T07:25:00+08:00",
+    "titleZh": "质数排列"
   },
   {
     "id": 50,
     "title": "Consecutive Prime Sum",
-    "solvedAt": "2014-02-22T13:08:00+08:00"
+    "solvedAt": "2014-02-22T13:08:00+08:00",
+    "titleZh": "连续质数之和"
   },
   {
     "id": 51,
     "title": "Prime Digit Replacements",
-    "solvedAt": "2019-03-08T18:40:00+08:00"
+    "solvedAt": "2019-03-08T18:40:00+08:00",
+    "titleZh": "替换质数的数位"
   },
   {
     "id": 52,
     "title": "Permuted Multiples",
-    "solvedAt": "2014-02-27T14:22:00+08:00"
+    "solvedAt": "2014-02-27T14:22:00+08:00",
+    "titleZh": "排列倍数"
   },
   {
     "id": 53,
     "title": "Combinatoric Selections",
-    "solvedAt": "2014-02-23T08:08:00+08:00"
+    "solvedAt": "2014-02-23T08:08:00+08:00",
+    "titleZh": "组合选择"
   },
   {
     "id": 54,
     "title": "Poker Hands",
-    "solvedAt": "2021-12-21T08:59:00+08:00"
+    "solvedAt": "2021-12-21T08:59:00+08:00",
+    "titleZh": "扑克手牌"
   },
   {
     "id": 55,
     "title": "Lychrel Numbers",
-    "solvedAt": "2014-06-15T17:21:00+08:00"
+    "solvedAt": "2014-06-15T17:21:00+08:00",
+    "titleZh": "利克雷尔数"
   },
   {
     "id": 56,
     "title": "Powerful Digit Sum",
-    "solvedAt": "2014-06-15T17:47:00+08:00"
+    "solvedAt": "2014-06-15T17:47:00+08:00",
+    "titleZh": "幂的最大数位和"
   },
   {
     "id": 57,
     "title": "Square Root Convergents",
-    "solvedAt": "2014-08-17T20:21:00+08:00"
+    "solvedAt": "2014-08-17T20:21:00+08:00",
+    "titleZh": "平方根的连分数渐近分数"
   },
   {
     "id": 58,
     "title": "Spiral Primes",
-    "solvedAt": "2015-03-16T07:14:00+08:00"
+    "solvedAt": "2015-03-16T07:14:00+08:00",
+    "titleZh": "螺旋质数"
   },
   {
     "id": 59,
     "title": "XOR Decryption",
-    "solvedAt": "2021-12-23T07:07:00+08:00"
+    "solvedAt": "2021-12-23T07:07:00+08:00",
+    "titleZh": "异或解密"
   },
   {
     "id": 60,
     "title": "Prime Pair Sets",
-    "solvedAt": "2015-03-11T07:07:00+08:00"
+    "solvedAt": "2015-03-11T07:07:00+08:00",
+    "titleZh": "质数对集合"
   },
   {
     "id": 61,
     "title": "Cyclical Figurate Numbers",
-    "solvedAt": "2017-12-09T02:59:00+08:00"
+    "solvedAt": "2017-12-09T02:59:00+08:00",
+    "titleZh": "循环多边形数"
   },
   {
     "id": 62,
     "title": "Cubic Permutations",
-    "solvedAt": "2015-03-16T08:04:00+08:00"
+    "solvedAt": "2015-03-16T08:04:00+08:00",
+    "titleZh": "立方数的排列"
   },
   {
     "id": 63,
     "title": "Powerful Digit Counts",
-    "solvedAt": "2014-06-13T18:19:00+08:00"
+    "solvedAt": "2014-06-13T18:19:00+08:00",
+    "titleZh": "幂的位数计数"
   },
   {
     "id": 64,
     "title": "Odd Period Square Roots",
-    "solvedAt": "2017-02-07T07:27:00+08:00"
+    "solvedAt": "2017-02-07T07:27:00+08:00",
+    "titleZh": "奇数周期平方根"
   },
   {
     "id": 65,
     "title": "Convergents of $e$",
-    "solvedAt": "2018-12-11T15:34:00+08:00"
+    "solvedAt": "2018-12-11T15:34:00+08:00",
+    "titleZh": "$e$ 的连分数渐近分数",
+    "titleHtml": "Convergents of <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.054ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 466 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-3cea4f7f12dc-MJX-1-TEX-I-1D452\" d=\"M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D452\" xlink:href=\"#pe-3cea4f7f12dc-MJX-1-TEX-I-1D452\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.054ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 466 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d493522a0120-MJX-1-TEX-I-1D452\" d=\"M39 168Q39 225 58 272T107 350T174 402T244 433T307 442H310Q355 442 388 420T421 355Q421 265 310 237Q261 224 176 223Q139 223 138 221Q138 219 132 186T125 128Q125 81 146 54T209 26T302 45T394 111Q403 121 406 121Q410 121 419 112T429 98T420 82T390 55T344 24T281 -1T205 -11Q126 -11 83 42T39 168ZM373 353Q367 405 305 405Q272 405 244 391T199 357T170 316T154 280T149 261Q149 260 169 260Q282 260 327 284T373 353Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D452\" xlink:href=\"#pe-d493522a0120-MJX-1-TEX-I-1D452\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>e</mi></math></mjx-assistive-mml></mjx-container> 的连分数渐近分数"
   },
   {
     "id": 66,
     "title": "Diophantine Equation",
-    "solvedAt": "2017-02-07T08:21:00+08:00"
+    "solvedAt": "2017-02-07T08:21:00+08:00",
+    "titleZh": "丢番图方程"
   },
   {
     "id": 67,
     "title": "Maximum Path Sum II",
-    "solvedAt": "2014-02-24T13:35:00+08:00"
+    "solvedAt": "2014-02-24T13:35:00+08:00",
+    "titleZh": "最大路径和 II"
   },
   {
     "id": 68,
     "title": "Magic 5-gon Ring",
-    "solvedAt": "2017-11-29T03:21:00+08:00"
+    "solvedAt": "2017-11-29T03:21:00+08:00",
+    "titleZh": "魔法五角环"
   },
   {
     "id": 69,
     "title": "Totient Maximum",
-    "solvedAt": "2014-02-24T13:40:00+08:00"
+    "solvedAt": "2014-02-24T13:40:00+08:00",
+    "titleZh": "欧拉函数的最大比值"
   },
   {
     "id": 70,
     "title": "Totient Permutation",
-    "solvedAt": "2015-07-01T16:10:00+08:00"
+    "solvedAt": "2015-07-01T16:10:00+08:00",
+    "titleZh": "欧拉函数值的数位排列"
   },
   {
     "id": 71,
     "title": "Ordered Fractions",
-    "solvedAt": "2015-06-26T20:36:00+08:00"
+    "solvedAt": "2015-06-26T20:36:00+08:00",
+    "titleZh": "有序分数"
   },
   {
     "id": 72,
     "title": "Counting Fractions",
-    "solvedAt": "2017-07-04T08:12:00+08:00"
+    "solvedAt": "2017-07-04T08:12:00+08:00",
+    "titleZh": "分数计数"
   },
   {
     "id": 73,
     "title": "Counting Fractions in a Range",
-    "solvedAt": "2017-07-04T08:08:00+08:00"
+    "solvedAt": "2017-07-04T08:08:00+08:00",
+    "titleZh": "区间内的分数计数"
   },
   {
     "id": 74,
     "title": "Digit Factorial Chains",
-    "solvedAt": "2014-08-23T16:04:00+08:00"
+    "solvedAt": "2014-08-23T16:04:00+08:00",
+    "titleZh": "数位阶乘链"
   },
   {
     "id": 75,
     "title": "Singular Integer Right Triangles",
-    "solvedAt": "2017-04-24T09:32:00+08:00"
+    "solvedAt": "2017-04-24T09:32:00+08:00",
+    "titleZh": "具有唯一解的整数直角三角形"
   },
   {
     "id": 76,
     "title": "Counting Summations",
-    "solvedAt": "2014-05-20T15:16:00+08:00"
+    "solvedAt": "2014-05-20T15:16:00+08:00",
+    "titleZh": "求和方式计数"
   },
   {
     "id": 77,
     "title": "Prime Summations",
-    "solvedAt": "2014-08-23T16:34:00+08:00"
+    "solvedAt": "2014-08-23T16:34:00+08:00",
+    "titleZh": "质数求和"
   },
   {
     "id": 78,
     "title": "Coin Partitions",
-    "solvedAt": "2014-08-23T17:18:00+08:00"
+    "solvedAt": "2014-08-23T17:18:00+08:00",
+    "titleZh": "硬币分拆"
   },
   {
     "id": 79,
     "title": "Passcode Derivation",
-    "solvedAt": "2024-08-30T03:43:00+08:00"
+    "solvedAt": "2024-08-30T03:43:00+08:00",
+    "titleZh": "密码推导"
   },
   {
     "id": 80,
     "title": "Square Root Digital Expansion",
-    "solvedAt": "2016-05-26T21:20:00+08:00"
+    "solvedAt": "2016-05-26T21:20:00+08:00",
+    "titleZh": "平方根的小数展开"
   },
   {
     "id": 81,
     "title": "Path Sum: Two Ways",
-    "solvedAt": "2014-05-13T19:16:00+08:00"
+    "solvedAt": "2014-05-13T19:16:00+08:00",
+    "titleZh": "路径和：两种方式"
   },
   {
     "id": 82,
     "title": "Path Sum: Three Ways",
-    "solvedAt": "2014-08-18T06:24:00+08:00"
+    "solvedAt": "2014-08-18T06:24:00+08:00",
+    "titleZh": "路径和：三种方式"
   },
   {
     "id": 83,
     "title": "Path Sum: Four Ways",
-    "solvedAt": "2014-08-18T07:46:00+08:00"
+    "solvedAt": "2014-08-18T07:46:00+08:00",
+    "titleZh": "路径和：四种方式"
   },
   {
     "id": 84,
     "title": "Monopoly Odds",
-    "solvedAt": "2024-09-03T10:13:00+08:00"
+    "solvedAt": "2024-09-03T10:13:00+08:00",
+    "titleZh": "大富翁中的概率"
   },
   {
     "id": 85,
     "title": "Counting Rectangles",
-    "solvedAt": "2014-08-18T08:14:00+08:00"
+    "solvedAt": "2014-08-18T08:14:00+08:00",
+    "titleZh": "矩形计数"
   },
   {
     "id": 86,
     "title": "Cuboid Route",
-    "solvedAt": "2014-05-20T04:54:00+08:00"
+    "solvedAt": "2014-05-20T04:54:00+08:00",
+    "titleZh": "长方体路线"
   },
   {
     "id": 87,
     "title": "Prime Power Triples",
-    "solvedAt": "2014-08-18T15:40:00+08:00"
+    "solvedAt": "2014-08-18T15:40:00+08:00",
+    "titleZh": "质数幂三元组"
   },
   {
     "id": 88,
     "title": "Product-sum Numbers",
-    "solvedAt": "2018-12-11T14:08:00+08:00"
+    "solvedAt": "2018-12-11T14:08:00+08:00",
+    "titleZh": "积和数"
   },
   {
     "id": 89,
     "title": "Roman Numerals",
-    "solvedAt": "2024-08-30T07:10:00+08:00"
+    "solvedAt": "2024-08-30T07:10:00+08:00",
+    "titleZh": "罗马数字"
   },
   {
     "id": 90,
     "title": "Cube Digit Pairs",
-    "solvedAt": "2018-12-11T16:07:00+08:00"
+    "solvedAt": "2018-12-11T16:07:00+08:00",
+    "titleZh": "立方体数字对"
   },
   {
     "id": 91,
     "title": "Right Triangles with Integer Coordinates",
-    "solvedAt": "2014-06-13T17:20:00+08:00"
+    "solvedAt": "2014-06-13T17:20:00+08:00",
+    "titleZh": "具有整数坐标的直角三角形"
   },
   {
     "id": 92,
     "title": "Square Digit Chains",
-    "solvedAt": "2014-06-13T17:10:00+08:00"
+    "solvedAt": "2014-06-13T17:10:00+08:00",
+    "titleZh": "数位平方链"
   },
   {
     "id": 93,
     "title": "Arithmetic Expressions",
-    "solvedAt": "2019-03-08T19:35:00+08:00"
+    "solvedAt": "2019-03-08T19:35:00+08:00",
+    "titleZh": "算术表达式"
   },
   {
     "id": 94,
     "title": "Almost Equilateral Triangles",
-    "solvedAt": "2017-02-07T06:51:00+08:00"
+    "solvedAt": "2017-02-07T06:51:00+08:00",
+    "titleZh": "几乎等边三角形"
   },
   {
     "id": 95,
     "title": "Amicable Chains",
-    "solvedAt": "2018-12-11T14:26:00+08:00"
+    "solvedAt": "2018-12-11T14:26:00+08:00",
+    "titleZh": "亲和数链"
   },
   {
     "id": 96,
     "title": "Su Doku",
-    "solvedAt": "2014-02-12T18:13:00+08:00"
+    "solvedAt": "2014-02-12T18:13:00+08:00",
+    "titleZh": "数独"
   },
   {
     "id": 97,
     "title": "Large Non-Mersenne Prime",
-    "solvedAt": "2014-02-12T18:15:00+08:00"
+    "solvedAt": "2014-02-12T18:15:00+08:00",
+    "titleZh": "巨大的非梅森质数"
   },
   {
     "id": 98,
     "title": "Anagramic Squares",
-    "solvedAt": "2024-08-30T06:44:00+08:00"
+    "solvedAt": "2024-08-30T06:44:00+08:00",
+    "titleZh": "字母重排与平方数"
   },
   {
     "id": 99,
     "title": "Largest Exponential",
-    "solvedAt": "2014-08-18T05:19:00+08:00"
+    "solvedAt": "2014-08-18T05:19:00+08:00",
+    "titleZh": "最大的幂"
   },
   {
     "id": 100,
     "title": "Arranged Probability",
-    "solvedAt": "2014-08-24T17:02:00+08:00"
+    "solvedAt": "2014-08-24T17:02:00+08:00",
+    "titleZh": "排列概率"
   },
   {
     "id": 101,
     "title": "Optimum Polynomial",
-    "solvedAt": "2016-05-26T21:53:00+08:00"
+    "solvedAt": "2016-05-26T21:53:00+08:00",
+    "titleZh": "最优多项式"
   },
   {
     "id": 102,
     "title": "Triangle Containment",
-    "solvedAt": "2016-07-11T02:32:00+08:00"
+    "solvedAt": "2016-07-11T02:32:00+08:00",
+    "titleZh": "三角形包含关系"
   },
   {
     "id": 103,
     "title": "Special Subset Sums: Optimum",
-    "solvedAt": "2018-01-02T11:23:00+08:00"
+    "solvedAt": "2018-01-02T11:23:00+08:00",
+    "titleZh": "特殊子集和：最优"
   },
   {
     "id": 104,
     "title": "Pandigital Fibonacci Ends",
-    "solvedAt": "2015-01-12T12:23:00+08:00"
+    "solvedAt": "2015-01-12T12:23:00+08:00",
+    "titleZh": "首尾均为全数字的斐波那契数"
   },
   {
     "id": 105,
     "title": "Special Subset Sums: Testing",
-    "solvedAt": "2018-01-02T12:30:00+08:00"
+    "solvedAt": "2018-01-02T12:30:00+08:00",
+    "titleZh": "特殊子集和：检验"
   },
   {
     "id": 106,
     "title": "Special Subset Sums: Meta-testing",
-    "solvedAt": "2018-01-02T13:53:00+08:00"
+    "solvedAt": "2018-01-02T13:53:00+08:00",
+    "titleZh": "特殊子集和：检验次数"
   },
   {
     "id": 107,
     "title": "Minimal Network",
-    "solvedAt": "2014-08-18T16:12:00+08:00"
+    "solvedAt": "2014-08-18T16:12:00+08:00",
+    "titleZh": "最小网络"
   },
   {
     "id": 108,
     "title": "Diophantine Reciprocals I",
-    "solvedAt": "2014-06-12T19:14:00+08:00"
+    "solvedAt": "2014-06-12T19:14:00+08:00",
+    "titleZh": "丢番图倒数 I"
   },
   {
     "id": 109,
     "title": "Darts",
-    "solvedAt": "2024-09-03T02:51:00+08:00"
+    "solvedAt": "2024-09-03T02:51:00+08:00",
+    "titleZh": "飞镖"
   },
   {
     "id": 110,
     "title": "Diophantine Reciprocals II",
-    "solvedAt": "2018-01-06T16:05:00+08:00"
+    "solvedAt": "2018-01-06T16:05:00+08:00",
+    "titleZh": "丢番图倒数 II"
   },
   {
     "id": 111,
     "title": "Primes with Runs",
-    "solvedAt": "2018-11-23T17:31:00+08:00"
+    "solvedAt": "2018-11-23T17:31:00+08:00",
+    "titleZh": "含重复数位的质数"
   },
   {
     "id": 112,
     "title": "Bouncy Numbers",
-    "solvedAt": "2015-07-01T16:39:00+08:00"
+    "solvedAt": "2015-07-01T16:39:00+08:00",
+    "titleZh": "跳跃数"
   },
   {
     "id": 113,
     "title": "Non-bouncy Numbers",
-    "solvedAt": "2015-07-01T17:33:00+08:00"
+    "solvedAt": "2015-07-01T17:33:00+08:00",
+    "titleZh": "非跳跃数"
   },
   {
     "id": 114,
     "title": "Counting Block Combinations I",
-    "solvedAt": "2016-07-20T07:01:00+08:00"
+    "solvedAt": "2016-07-20T07:01:00+08:00",
+    "titleZh": "方块组合计数 I"
   },
   {
     "id": 115,
     "title": "Counting Block Combinations II",
-    "solvedAt": "2016-07-20T07:12:00+08:00"
+    "solvedAt": "2016-07-20T07:12:00+08:00",
+    "titleZh": "方块组合计数 II"
   },
   {
     "id": 116,
     "title": "Red, Green or Blue Tiles",
-    "solvedAt": "2015-07-01T17:56:00+08:00"
+    "solvedAt": "2015-07-01T17:56:00+08:00",
+    "titleZh": "红、绿或蓝色砖块"
   },
   {
     "id": 117,
     "title": "Red, Green, and Blue Tiles",
-    "solvedAt": "2015-07-01T18:03:00+08:00"
+    "solvedAt": "2015-07-01T18:03:00+08:00",
+    "titleZh": "红、绿和蓝色砖块"
   },
   {
     "id": 118,
     "title": "Pandigital Prime Sets",
-    "solvedAt": "2015-07-01T18:55:00+08:00"
+    "solvedAt": "2015-07-01T18:55:00+08:00",
+    "titleZh": "全数字质数集合"
   },
   {
     "id": 119,
     "title": "Digit Power Sum",
-    "solvedAt": "2016-07-11T02:55:00+08:00"
+    "solvedAt": "2016-07-11T02:55:00+08:00",
+    "titleZh": "数位和的幂"
   },
   {
     "id": 120,
     "title": "Square Remainders",
-    "solvedAt": "2018-01-06T14:48:00+08:00"
+    "solvedAt": "2018-01-06T14:48:00+08:00",
+    "titleZh": "平方余数"
   },
   {
     "id": 121,
     "title": "Disc Game Prize Fund",
-    "solvedAt": "2018-01-02T15:32:00+08:00"
+    "solvedAt": "2018-01-02T15:32:00+08:00",
+    "titleZh": "圆片游戏的奖金"
   },
   {
     "id": 122,
     "title": "Efficient Exponentiation",
-    "solvedAt": "2016-05-27T21:39:00+08:00"
+    "solvedAt": "2016-05-27T21:39:00+08:00",
+    "titleZh": "高效求幂"
   },
   {
     "id": 123,
     "title": "Prime Square Remainders",
-    "solvedAt": "2018-01-06T16:30:00+08:00"
+    "solvedAt": "2018-01-06T16:30:00+08:00",
+    "titleZh": "质数平方余数"
   },
   {
     "id": 124,
     "title": "Ordered Radicals",
-    "solvedAt": "2015-07-02T17:28:00+08:00"
+    "solvedAt": "2015-07-02T17:28:00+08:00",
+    "titleZh": "根基排序"
   },
   {
     "id": 125,
     "title": "Palindromic Sums",
-    "solvedAt": "2015-03-17T14:48:00+08:00"
+    "solvedAt": "2015-03-17T14:48:00+08:00",
+    "titleZh": "回文和"
   },
   {
     "id": 126,
     "title": "Cuboid Layers",
-    "solvedAt": "2024-08-30T04:33:00+08:00"
+    "solvedAt": "2024-08-30T04:33:00+08:00",
+    "titleZh": "长方体层"
   },
   {
     "id": 127,
     "title": "abc-hits",
-    "solvedAt": "2017-04-18T06:07:00+08:00"
+    "solvedAt": "2017-04-18T06:07:00+08:00",
+    "titleZh": "abc 命中三元组"
   },
   {
     "id": 128,
     "title": "Hexagonal Tile Differences",
-    "solvedAt": "2024-09-03T09:11:00+08:00"
+    "solvedAt": "2024-09-03T09:11:00+08:00",
+    "titleZh": "六边形砖块的差"
   },
   {
     "id": 129,
     "title": "Repunit Divisibility",
-    "solvedAt": "2016-07-11T13:40:00+08:00"
+    "solvedAt": "2016-07-11T13:40:00+08:00",
+    "titleZh": "全1数的整除性"
   },
   {
     "id": 130,
     "title": "Composites with Prime Repunit Property",
-    "solvedAt": "2016-07-11T13:50:00+08:00"
+    "solvedAt": "2016-07-11T13:50:00+08:00",
+    "titleZh": "具有质数型全1数性质的合数"
   },
   {
     "id": 131,
     "title": "Prime Cube Partnership",
-    "solvedAt": "2018-01-05T11:04:00+08:00"
+    "solvedAt": "2018-01-05T11:04:00+08:00",
+    "titleZh": "质数与立方数的关系"
   },
   {
     "id": 132,
     "title": "Large Repunit Factors",
-    "solvedAt": "2018-11-23T18:31:00+08:00"
+    "solvedAt": "2018-11-23T18:31:00+08:00",
+    "titleZh": "巨大全1数的因数"
   },
   {
     "id": 133,
     "title": "Repunit Nonfactors",
-    "solvedAt": "2019-03-22T09:28:00+08:00"
+    "solvedAt": "2019-03-22T09:28:00+08:00",
+    "titleZh": "不是全1数因数的质数"
   },
   {
     "id": 134,
     "title": "Prime Pair Connection",
-    "solvedAt": "2017-02-06T08:44:00+08:00"
+    "solvedAt": "2017-02-06T08:44:00+08:00",
+    "titleZh": "质数对的连接"
   },
   {
     "id": 135,
     "title": "Same Differences",
-    "solvedAt": "2015-07-02T01:13:00+08:00"
+    "solvedAt": "2015-07-02T01:13:00+08:00",
+    "titleZh": "相同差异"
   },
   {
     "id": 136,
     "title": "Singleton Difference",
-    "solvedAt": "2021-12-20T07:53:00+08:00"
+    "solvedAt": "2021-12-20T07:53:00+08:00",
+    "titleZh": "唯一的差"
   },
   {
     "id": 137,
     "title": "Fibonacci Golden Nuggets",
-    "solvedAt": "2014-08-24T17:31:00+08:00"
+    "solvedAt": "2014-08-24T17:31:00+08:00",
+    "titleZh": "斐波那契金块"
   },
   {
     "id": 138,
     "title": "Special Isosceles Triangles",
-    "solvedAt": "2017-06-20T15:46:00+08:00"
+    "solvedAt": "2017-06-20T15:46:00+08:00",
+    "titleZh": "特殊等腰三角形"
   },
   {
     "id": 139,
     "title": "Pythagorean Tiles",
-    "solvedAt": "2018-12-19T15:48:00+08:00"
+    "solvedAt": "2018-12-19T15:48:00+08:00",
+    "titleZh": "勾股三角形铺砖"
   },
   {
     "id": 140,
     "title": "Modified Fibonacci Golden Nuggets",
-    "solvedAt": "2019-10-07T17:00:00+08:00"
+    "solvedAt": "2019-10-07T17:00:00+08:00",
+    "titleZh": "修正斐波那契金块"
   },
   {
     "id": 141,
     "title": "Square Progressive Numbers",
-    "solvedAt": "2019-03-06T13:25:00+08:00"
+    "solvedAt": "2019-03-06T13:25:00+08:00",
+    "titleZh": "为平方数的渐进数"
   },
   {
     "id": 142,
     "title": "Perfect Square Collection",
-    "solvedAt": "2017-12-05T13:38:00+08:00"
+    "solvedAt": "2017-12-05T13:38:00+08:00",
+    "titleZh": "完全平方数集合"
   },
   {
     "id": 143,
     "title": "Torricelli Triangles",
-    "solvedAt": "2024-09-01T16:02:00+08:00"
+    "solvedAt": "2024-09-01T16:02:00+08:00",
+    "titleZh": "托里拆利三角形"
   },
   {
     "id": 144,
     "title": "Laser Beam Reflections",
-    "solvedAt": "2024-09-03T02:04:00+08:00"
+    "solvedAt": "2024-09-03T02:04:00+08:00",
+    "titleZh": "激光束反射"
   },
   {
     "id": 145,
     "title": "Reversible Numbers",
-    "solvedAt": "2015-07-02T16:49:00+08:00"
+    "solvedAt": "2015-07-02T16:49:00+08:00",
+    "titleZh": "可逆数"
   },
   {
     "id": 146,
     "title": "Investigating a Prime Pattern",
-    "solvedAt": "2019-03-06T16:18:00+08:00"
+    "solvedAt": "2019-03-06T16:18:00+08:00",
+    "titleZh": "研究质数模式"
   },
   {
     "id": 147,
     "title": "Rectangles in Cross-hatched Grids",
-    "solvedAt": "2024-09-01T16:09:00+08:00"
+    "solvedAt": "2024-09-01T16:09:00+08:00",
+    "titleZh": "交叉阴影网格中的矩形"
   },
   {
     "id": 148,
     "title": "Exploring Pascal's Triangle",
-    "solvedAt": "2019-10-14T15:19:00+08:00"
+    "solvedAt": "2019-10-14T15:19:00+08:00",
+    "titleZh": "探索帕斯卡三角形"
   },
   {
     "id": 149,
     "title": "Maximum-sum Subsequence",
-    "solvedAt": "2024-08-30T08:11:00+08:00"
+    "solvedAt": "2024-08-30T08:11:00+08:00",
+    "titleZh": "最大和子序列"
   },
   {
     "id": 150,
     "title": "Sub-triangle Sums",
-    "solvedAt": "2019-10-20T11:36:00+08:00"
+    "solvedAt": "2019-10-20T11:36:00+08:00",
+    "titleZh": "子三角形之和"
   },
   {
     "id": 151,
     "title": "A Preference for A5",
-    "solvedAt": "2018-01-02T04:36:00+08:00"
+    "solvedAt": "2018-01-02T04:36:00+08:00",
+    "titleZh": "偏爱 A5 纸张"
   },
   {
     "id": 152,
     "title": "Sums of Square Reciprocals",
-    "solvedAt": "2018-12-13T12:26:00+08:00"
+    "solvedAt": "2018-12-13T12:26:00+08:00",
+    "titleZh": "倒数平方和"
   },
   {
     "id": 153,
     "title": "Investigating Gaussian Integers",
-    "solvedAt": "2019-10-21T13:43:00+08:00"
+    "solvedAt": "2019-10-21T13:43:00+08:00",
+    "titleZh": "研究高斯整数"
   },
   {
     "id": 154,
     "title": "Exploring Pascal's Pyramid",
-    "solvedAt": "2016-07-11T06:38:00+08:00"
+    "solvedAt": "2016-07-11T06:38:00+08:00",
+    "titleZh": "探索帕斯卡金字塔"
   },
   {
     "id": 155,
     "title": "Counting Capacitor Circuits",
-    "solvedAt": "2021-12-20T08:57:00+08:00"
+    "solvedAt": "2021-12-20T08:57:00+08:00",
+    "titleZh": "电容电路计数"
   },
   {
     "id": 156,
     "title": "Counting Digits",
-    "solvedAt": "2024-09-03T09:08:00+08:00"
+    "solvedAt": "2024-09-03T09:08:00+08:00",
+    "titleZh": "数位计数"
   },
   {
     "id": 157,
     "title": "Base-10 Diophantine Reciprocal",
-    "solvedAt": "2021-12-22T03:05:00+08:00"
+    "solvedAt": "2021-12-22T03:05:00+08:00",
+    "titleZh": "10 进制丢番图倒数"
   },
   {
     "id": 158,
     "title": "Lexicographical Neighbours",
-    "solvedAt": "2024-08-30T11:04:00+08:00"
+    "solvedAt": "2024-08-30T11:04:00+08:00",
+    "titleZh": "字典序中的相邻元素"
   },
   {
     "id": 159,
     "title": "Digital Root Sums of Factorisations",
-    "solvedAt": "2018-11-27T14:39:00+08:00"
+    "solvedAt": "2018-11-27T14:39:00+08:00",
+    "titleZh": "因式分解的数根之和"
   },
   {
     "id": 160,
     "title": "Factorial Trailing Digits",
-    "solvedAt": "2018-12-19T15:53:00+08:00"
+    "solvedAt": "2018-12-19T15:53:00+08:00",
+    "titleZh": "阶乘的末尾数位"
   },
   {
     "id": 161,
     "title": "Triominoes",
-    "solvedAt": "2024-09-01T16:22:00+08:00"
+    "solvedAt": "2024-09-01T16:22:00+08:00",
+    "titleZh": "三联骨牌"
   },
   {
     "id": 162,
     "title": "Hexadecimal Numbers",
-    "solvedAt": "2017-03-24T09:54:00+08:00"
+    "solvedAt": "2017-03-24T09:54:00+08:00",
+    "titleZh": "十六进制数"
   },
   {
     "id": 163,
     "title": "Cross-hatched Triangles",
-    "solvedAt": "2024-09-01T16:19:00+08:00"
+    "solvedAt": "2024-09-01T16:19:00+08:00",
+    "titleZh": "交叉网格中的三角形"
   },
   {
     "id": 164,
     "title": "Three Consecutive Digital Sum Limit",
-    "solvedAt": "2015-07-03T15:35:00+08:00"
+    "solvedAt": "2015-07-03T15:35:00+08:00",
+    "titleZh": "连续三位数位和的限制"
   },
   {
     "id": 165,
     "title": "Intersections",
-    "solvedAt": "2024-09-01T17:17:00+08:00"
+    "solvedAt": "2024-09-01T17:17:00+08:00",
+    "titleZh": "交点"
   },
   {
     "id": 166,
     "title": "Criss Cross",
-    "solvedAt": "2017-11-29T08:57:00+08:00"
+    "solvedAt": "2017-11-29T08:57:00+08:00",
+    "titleZh": "十字交叉"
   },
   {
     "id": 167,
     "title": "Investigating Ulam Sequences",
-    "solvedAt": "2024-09-03T10:37:00+08:00"
+    "solvedAt": "2024-09-03T10:37:00+08:00",
+    "titleZh": "研究乌拉姆数列"
   },
   {
     "id": 168,
     "title": "Number Rotations",
-    "solvedAt": "2018-12-19T13:11:00+08:00"
+    "solvedAt": "2018-12-19T13:11:00+08:00",
+    "titleZh": "数位轮换"
   },
   {
     "id": 169,
     "title": "Sums of Powers of Two",
-    "solvedAt": "2017-12-18T14:35:00+08:00"
+    "solvedAt": "2017-12-18T14:35:00+08:00",
+    "titleZh": "2 的幂之和"
   },
   {
     "id": 170,
     "title": "Pandigital Concatenating Products",
-    "solvedAt": "2020-05-27T17:54:00+08:00"
+    "solvedAt": "2020-05-27T17:54:00+08:00",
+    "titleZh": "全数字拼接乘积"
   },
   {
     "id": 171,
     "title": "Square Sum of the Digital Squares",
-    "solvedAt": "2018-11-21T17:31:00+08:00"
+    "solvedAt": "2018-11-21T17:31:00+08:00",
+    "titleZh": "数位平方和为平方数"
   },
   {
     "id": 172,
     "title": "Few Repeated Digits",
-    "solvedAt": "2019-03-06T14:58:00+08:00"
+    "solvedAt": "2019-03-06T14:58:00+08:00",
+    "titleZh": "限制重复数位"
   },
   {
     "id": 173,
     "title": "Hollow Square Laminae I",
-    "solvedAt": "2016-09-08T09:29:00+08:00"
+    "solvedAt": "2016-09-08T09:29:00+08:00",
+    "titleZh": "空心正方形框 I"
   },
   {
     "id": 174,
     "title": "Hollow Square Laminae II",
-    "solvedAt": "2018-11-27T14:10:00+08:00"
+    "solvedAt": "2018-11-27T14:10:00+08:00",
+    "titleZh": "空心正方形框 II"
   },
   {
     "id": 175,
     "title": "Fractions and Sum of Powers of Two",
-    "solvedAt": "2024-09-03T10:07:00+08:00"
+    "solvedAt": "2024-09-03T10:07:00+08:00",
+    "titleZh": "分数与二的幂之和"
   },
   {
     "id": 176,
     "title": "Common Cathetus Right-angled Triangles",
-    "solvedAt": "2024-08-30T05:42:00+08:00"
+    "solvedAt": "2024-08-30T05:42:00+08:00",
+    "titleZh": "共用直角边的直角三角形"
   },
   {
     "id": 177,
     "title": "Integer Angled Quadrilaterals",
-    "solvedAt": "2024-09-01T16:33:00+08:00"
+    "solvedAt": "2024-09-01T16:33:00+08:00",
+    "titleZh": "整数角四边形"
   },
   {
     "id": 178,
     "title": "Step Numbers",
-    "solvedAt": "2015-06-21T17:10:00+08:00"
+    "solvedAt": "2015-06-21T17:10:00+08:00",
+    "titleZh": "步进数"
   },
   {
     "id": 179,
     "title": "Consecutive Positive Divisors",
-    "solvedAt": "2015-03-18T05:36:00+08:00"
+    "solvedAt": "2015-03-18T05:36:00+08:00",
+    "titleZh": "连续正因数"
   },
   {
     "id": 180,
     "title": "Golden Triplets",
-    "solvedAt": "2024-09-01T16:45:00+08:00"
+    "solvedAt": "2024-09-01T16:45:00+08:00",
+    "titleZh": "黄金三元组"
   },
   {
     "id": 181,
     "title": "Grouping Two Different Coloured Objects",
-    "solvedAt": "2017-12-18T17:15:00+08:00"
+    "solvedAt": "2017-12-18T17:15:00+08:00",
+    "titleZh": "为两种颜色的物体分组"
   },
   {
     "id": 182,
     "title": "RSA Encryption",
-    "solvedAt": "2024-09-03T11:25:00+08:00"
+    "solvedAt": "2024-09-03T11:25:00+08:00",
+    "titleZh": "RSA 加密"
   },
   {
     "id": 183,
     "title": "Maximum Product of Parts",
-    "solvedAt": "2015-06-21T10:22:00+08:00"
+    "solvedAt": "2015-06-21T10:22:00+08:00",
+    "titleZh": "分拆后各部分的最大乘积"
   },
   {
     "id": 184,
     "title": "Triangles Containing the Origin",
-    "solvedAt": "2024-09-03T08:51:00+08:00"
+    "solvedAt": "2024-09-03T08:51:00+08:00",
+    "titleZh": "包含原点的三角形"
   },
   {
     "id": 185,
     "title": "Number Mind",
-    "solvedAt": "2021-12-03T07:28:00+08:00"
+    "solvedAt": "2021-12-03T07:28:00+08:00",
+    "titleZh": "数字猜谜"
   },
   {
     "id": 186,
     "title": "Connectedness of a Network",
-    "solvedAt": "2024-09-01T17:13:00+08:00"
+    "solvedAt": "2024-09-01T17:13:00+08:00",
+    "titleZh": "网络的连通性"
   },
   {
     "id": 187,
     "title": "Semiprimes",
-    "solvedAt": "2015-03-18T05:45:00+08:00"
+    "solvedAt": "2015-03-18T05:45:00+08:00",
+    "titleZh": "半质数"
   },
   {
     "id": 188,
     "title": "Hyperexponentiation",
-    "solvedAt": "2018-11-16T18:04:00+08:00"
+    "solvedAt": "2018-11-16T18:04:00+08:00",
+    "titleZh": "超幂运算"
   },
   {
     "id": 189,
     "title": "Tri-colouring a Triangular Grid",
-    "solvedAt": "2024-09-01T17:08:00+08:00"
+    "solvedAt": "2024-09-01T17:08:00+08:00",
+    "titleZh": "将三角形网格涂成三色"
   },
   {
     "id": 190,
     "title": "Maximising a Weighted Product",
-    "solvedAt": "2018-01-07T06:29:00+08:00"
+    "solvedAt": "2018-01-07T06:29:00+08:00",
+    "titleZh": "最大化加权乘积"
   },
   {
     "id": 191,
     "title": "Prize Strings",
-    "solvedAt": "2015-07-04T19:53:00+08:00"
+    "solvedAt": "2015-07-04T19:53:00+08:00",
+    "titleZh": "获奖字符串"
   },
   {
     "id": 192,
     "title": "Best Approximations",
-    "solvedAt": "2024-08-30T08:01:00+08:00"
+    "solvedAt": "2024-08-30T08:01:00+08:00",
+    "titleZh": "最佳近似值"
   },
   {
     "id": 193,
     "title": "Squarefree Numbers",
-    "solvedAt": "2015-07-04T20:27:00+08:00"
+    "solvedAt": "2015-07-04T20:27:00+08:00",
+    "titleZh": "无平方因子数"
   },
   {
     "id": 194,
     "title": "Coloured Configurations",
-    "solvedAt": "2024-09-01T17:00:00+08:00"
+    "solvedAt": "2024-09-01T17:00:00+08:00",
+    "titleZh": "着色配置"
   },
   {
     "id": 195,
     "title": "$60$-degree Triangle Inscribed Circles",
-    "solvedAt": "2024-08-29T15:45:00+08:00"
+    "solvedAt": "2024-08-29T15:45:00+08:00",
+    "titleZh": "$60$度三角形内切圆",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-0f5cafccef82-MJX-1-TEX-N-36\" d=\"M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z\"></path><path id=\"pe-0f5cafccef82-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"36\" xlink:href=\"#pe-0f5cafccef82-MJX-1-TEX-N-36\"></use><use data-c=\"30\" xlink:href=\"#pe-0f5cafccef82-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn></math></mjx-assistive-mml></mjx-container>-degree Triangle Inscribed Circles",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-c52cf01fa890-MJX-1-TEX-N-36\" d=\"M42 313Q42 476 123 571T303 666Q372 666 402 630T432 550Q432 525 418 510T379 495Q356 495 341 509T326 548Q326 592 373 601Q351 623 311 626Q240 626 194 566Q147 500 147 364L148 360Q153 366 156 373Q197 433 263 433H267Q313 433 348 414Q372 400 396 374T435 317Q456 268 456 210V192Q456 169 451 149Q440 90 387 34T253 -22Q225 -22 199 -14T143 16T92 75T56 172T42 313ZM257 397Q227 397 205 380T171 335T154 278T148 216Q148 133 160 97T198 39Q222 21 251 21Q302 21 329 59Q342 77 347 104T352 209Q352 289 347 316T329 361Q302 397 257 397Z\"></path><path id=\"pe-c52cf01fa890-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"36\" xlink:href=\"#pe-c52cf01fa890-MJX-1-TEX-N-36\"></use><use data-c=\"30\" xlink:href=\"#pe-c52cf01fa890-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>60</mn></math></mjx-assistive-mml></mjx-container>度三角形内切圆"
   },
   {
     "id": 196,
     "title": "Prime Triplets",
-    "solvedAt": "2017-03-24T09:02:00+08:00"
+    "solvedAt": "2017-03-24T09:02:00+08:00",
+    "titleZh": "质数三元组"
   },
   {
     "id": 197,
     "title": "A Recursively Defined Sequence",
-    "solvedAt": "2016-09-08T09:39:00+08:00"
+    "solvedAt": "2016-09-08T09:39:00+08:00",
+    "titleZh": "递推定义的数列"
   },
   {
     "id": 198,
     "title": "Ambiguous Numbers",
-    "solvedAt": "2024-09-03T08:54:00+08:00"
+    "solvedAt": "2024-09-03T08:54:00+08:00",
+    "titleZh": "歧义数"
   },
   {
     "id": 199,
     "title": "Iterative Circle Packing",
-    "solvedAt": "2024-08-30T10:35:00+08:00"
+    "solvedAt": "2024-08-30T10:35:00+08:00",
+    "titleZh": "迭代圆填充"
   },
   {
     "id": 200,
     "title": "Prime-proof Squbes",
-    "solvedAt": "2023-08-04T20:28:00+08:00"
+    "solvedAt": "2023-08-04T20:28:00+08:00",
+    "titleZh": "避质的平方立方积"
   },
   {
     "id": 201,
     "title": "Subsets with a Unique Sum",
-    "solvedAt": "2015-06-21T09:48:00+08:00"
+    "solvedAt": "2015-06-21T09:48:00+08:00",
+    "titleZh": "具有唯一和的子集"
   },
   {
     "id": 202,
     "title": "Laserbeam",
-    "solvedAt": "2025-06-06T08:27:00+08:00"
+    "solvedAt": "2025-06-06T08:27:00+08:00",
+    "titleZh": "激光束"
   },
   {
     "id": 203,
     "title": "Squarefree Binomial Coefficients",
-    "solvedAt": "2016-09-23T09:46:00+08:00"
+    "solvedAt": "2016-09-23T09:46:00+08:00",
+    "titleZh": "无平方因子的二项式系数"
   },
   {
     "id": 204,
     "title": "Generalised Hamming Numbers",
-    "solvedAt": "2017-04-19T08:50:00+08:00"
+    "solvedAt": "2017-04-19T08:50:00+08:00",
+    "titleZh": "广义汉明数"
   },
   {
     "id": 205,
     "title": "Dice Game",
-    "solvedAt": "2016-07-11T05:49:00+08:00"
+    "solvedAt": "2016-07-11T05:49:00+08:00",
+    "titleZh": "骰子游戏"
   },
   {
     "id": 206,
     "title": "Concealed Square",
-    "solvedAt": "2014-06-08T15:46:00+08:00"
+    "solvedAt": "2014-06-08T15:46:00+08:00",
+    "titleZh": "隐藏的平方数"
   },
   {
     "id": 207,
     "title": "Integer Partition Equations",
-    "solvedAt": "2017-06-30T05:12:00+08:00"
+    "solvedAt": "2017-06-30T05:12:00+08:00",
+    "titleZh": "整数分拆方程"
   },
   {
     "id": 208,
     "title": "Robot Walks",
-    "solvedAt": "2025-09-08T17:13:00+08:00"
+    "solvedAt": "2025-09-08T17:13:00+08:00",
+    "titleZh": "机器人行走"
   },
   {
     "id": 209,
     "title": "Circular Logic",
-    "solvedAt": "2019-10-01T15:57:00+08:00"
+    "solvedAt": "2019-10-01T15:57:00+08:00",
+    "titleZh": "循环逻辑"
   },
   {
     "id": 210,
     "title": "Obtuse Angled Triangles",
-    "solvedAt": "2025-02-14T18:29:00+08:00"
+    "solvedAt": "2025-02-14T18:29:00+08:00",
+    "titleZh": "钝角三角形"
   },
   {
     "id": 211,
     "title": "Divisor Square Sum",
-    "solvedAt": "2015-07-05T18:41:00+08:00"
+    "solvedAt": "2015-07-05T18:41:00+08:00",
+    "titleZh": "因数平方和"
   },
   {
     "id": 212,
     "title": "Combined Volume of Cuboids",
-    "solvedAt": "2025-12-09T10:21:00+08:00"
+    "solvedAt": "2025-12-09T10:21:00+08:00",
+    "titleZh": "长方体的总体积"
   },
   {
     "id": 213,
     "title": "Flea Circus",
-    "solvedAt": "2024-09-04T16:19:00+08:00"
+    "solvedAt": "2024-09-04T16:19:00+08:00",
+    "titleZh": "跳蚤马戏团"
   },
   {
     "id": 214,
     "title": "Totient Chains",
-    "solvedAt": "2017-01-17T10:32:00+08:00"
+    "solvedAt": "2017-01-17T10:32:00+08:00",
+    "titleZh": "欧拉函数链"
   },
   {
     "id": 215,
     "title": "Crack-free Walls",
-    "solvedAt": "2017-12-18T15:52:00+08:00"
+    "solvedAt": "2017-12-18T15:52:00+08:00",
+    "titleZh": "无贯通裂缝的墙"
   },
   {
     "id": 216,
     "title": "The Primality of $2n^2 - 1$",
-    "solvedAt": "2015-12-22T12:03:00+08:00"
+    "solvedAt": "2015-12-22T12:03:00+08:00",
+    "titleZh": "$2n^2 - 1$ 的素性",
+    "titleHtml": "The Primality of <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.186ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"7.373ex\" height=\"2.072ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 3259 915.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-1d78b1292b41-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-1d78b1292b41-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-1d78b1292b41-MJX-1-TEX-N-2212\" d=\"M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z\"></path><path id=\"pe-1d78b1292b41-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-1d78b1292b41-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"msup\" transform=\"translate(500,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-1d78b1292b41-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"mn\" transform=\"translate(633,363) scale(0.707)\"><use data-c=\"32\" xlink:href=\"#pe-1d78b1292b41-MJX-1-TEX-N-32\"></use></g></g><g data-mml-node=\"mo\" transform=\"translate(1758.8,0)\"><use data-c=\"2212\" xlink:href=\"#pe-1d78b1292b41-MJX-1-TEX-N-2212\"></use></g><g data-mml-node=\"mn\" transform=\"translate(2759,0)\"><use data-c=\"31\" xlink:href=\"#pe-1d78b1292b41-MJX-1-TEX-N-31\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.186ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"7.373ex\" height=\"2.072ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 3259 915.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-4efb94cc0fe8-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-4efb94cc0fe8-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-4efb94cc0fe8-MJX-1-TEX-N-2212\" d=\"M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z\"></path><path id=\"pe-4efb94cc0fe8-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-4efb94cc0fe8-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"msup\" transform=\"translate(500,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-4efb94cc0fe8-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"mn\" transform=\"translate(633,363) scale(0.707)\"><use data-c=\"32\" xlink:href=\"#pe-4efb94cc0fe8-MJX-1-TEX-N-32\"></use></g></g><g data-mml-node=\"mo\" transform=\"translate(1758.8,0)\"><use data-c=\"2212\" xlink:href=\"#pe-4efb94cc0fe8-MJX-1-TEX-N-2212\"></use></g><g data-mml-node=\"mn\" transform=\"translate(2759,0)\"><use data-c=\"31\" xlink:href=\"#pe-4efb94cc0fe8-MJX-1-TEX-N-31\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup><mo>−</mo><mn>1</mn></math></mjx-assistive-mml></mjx-container> 的素性"
   },
   {
     "id": 217,
     "title": "Balanced Numbers",
-    "solvedAt": "2018-01-01T11:07:00+08:00"
+    "solvedAt": "2018-01-01T11:07:00+08:00",
+    "titleZh": "平衡数字"
   },
   {
     "id": 218,
     "title": "Perfect Right-angled Triangles",
-    "solvedAt": "2024-07-02T08:11:00+08:00"
+    "solvedAt": "2024-07-02T08:11:00+08:00",
+    "titleZh": "完美直角三角形"
   },
   {
     "id": 219,
     "title": "Skew-cost Coding",
-    "solvedAt": "2025-09-09T18:10:00+08:00"
+    "solvedAt": "2025-09-09T18:10:00+08:00",
+    "titleZh": "不等成本编码"
   },
   {
     "id": 220,
     "title": "Heighway Dragon",
-    "solvedAt": "2026-03-27T06:36:00+08:00"
+    "solvedAt": "2026-03-27T06:36:00+08:00",
+    "titleZh": "海威龙曲线"
   },
   {
     "id": 221,
     "title": "Alexandrian Integers",
-    "solvedAt": "2017-12-18T16:33:00+08:00"
+    "solvedAt": "2017-12-18T16:33:00+08:00",
+    "titleZh": "亚历山大整数"
   },
   {
     "id": 222,
     "title": "Sphere Packing",
-    "solvedAt": "2025-12-10T14:34:00+08:00"
+    "solvedAt": "2025-12-10T14:34:00+08:00",
+    "titleZh": "球体堆积"
   },
   {
     "id": 223,
     "title": "Almost Right-angled Triangles I",
-    "solvedAt": "2019-10-13T16:37:00+08:00"
+    "solvedAt": "2019-10-13T16:37:00+08:00",
+    "titleZh": "几乎直角三角形 I"
   },
   {
     "id": 224,
     "title": "Almost Right-angled Triangles II",
-    "solvedAt": "2024-09-04T16:33:00+08:00"
+    "solvedAt": "2024-09-04T16:33:00+08:00",
+    "titleZh": "几乎直角三角形 II"
   },
   {
     "id": 225,
     "title": "Tribonacci Non-divisors",
-    "solvedAt": "2017-11-29T15:50:00+08:00"
+    "solvedAt": "2017-11-29T15:50:00+08:00",
+    "titleZh": "三阶斐波那契数列的非因数"
   },
   {
     "id": 226,
     "title": "A Scoop of Blancmange",
-    "solvedAt": "2025-12-17T03:11:00+08:00"
+    "solvedAt": "2025-12-17T03:11:00+08:00",
+    "titleZh": "一勺布朗芒吉曲线"
   },
   {
     "id": 227,
     "title": "The Chase",
-    "solvedAt": "2025-09-09T12:00:00+08:00"
+    "solvedAt": "2025-09-09T12:00:00+08:00",
+    "titleZh": "追逐"
   },
   {
     "id": 228,
     "title": "Minkowski Sums",
-    "solvedAt": "2025-12-09T10:37:00+08:00"
+    "solvedAt": "2025-12-09T10:37:00+08:00",
+    "titleZh": "闵可夫斯基和"
   },
   {
     "id": 229,
     "title": "Four Representations Using Squares",
-    "solvedAt": "2015-06-22T02:51:00+08:00"
+    "solvedAt": "2015-06-22T02:51:00+08:00",
+    "titleZh": "用平方数表示的四种方式"
   },
   {
     "id": 230,
     "title": "Fibonacci Words",
-    "solvedAt": "2025-06-29T02:28:00+08:00"
+    "solvedAt": "2025-06-29T02:28:00+08:00",
+    "titleZh": "斐波那契词"
   },
   {
     "id": 231,
     "title": "Prime Factorisation of Binomial Coefficients",
-    "solvedAt": "2019-03-08T17:55:00+08:00"
+    "solvedAt": "2019-03-08T17:55:00+08:00",
+    "titleZh": "二项式系数的质因数分解"
   },
   {
     "id": 232,
     "title": "The Race",
-    "solvedAt": "2025-10-17T03:54:00+08:00"
+    "solvedAt": "2025-10-17T03:54:00+08:00",
+    "titleZh": "比赛"
   },
   {
     "id": 233,
     "title": "Lattice Points on a Circle",
-    "solvedAt": "2025-02-16T13:19:00+08:00"
+    "solvedAt": "2025-02-16T13:19:00+08:00",
+    "titleZh": "圆上的格点"
   },
   {
     "id": 234,
     "title": "Semidivisible Numbers",
-    "solvedAt": "2019-10-13T15:52:00+08:00"
+    "solvedAt": "2019-10-13T15:52:00+08:00",
+    "titleZh": "半可整除数"
   },
   {
     "id": 235,
     "title": "An Arithmetic Geometric Sequence",
-    "solvedAt": "2017-01-17T13:09:00+08:00"
+    "solvedAt": "2017-01-17T13:09:00+08:00",
+    "titleZh": "等差与等比混合数列"
   },
   {
     "id": 236,
     "title": "Luxury Hampers",
-    "solvedAt": "2025-12-16T12:31:00+08:00"
+    "solvedAt": "2025-12-16T12:31:00+08:00",
+    "titleZh": "豪华礼篮"
   },
   {
     "id": 237,
     "title": "Tours on a $4 \\times N$ Playing Board",
-    "solvedAt": "2021-12-22T08:11:00+08:00"
+    "solvedAt": "2021-12-22T08:11:00+08:00",
+    "titleZh": "在 $4 \\times N$ 棋盘上的巡游",
+    "titleHtml": "Tours on a <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"5.906ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 2610.4 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d0a20f1f5e38-MJX-1-TEX-N-34\" d=\"M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z\"></path><path id=\"pe-d0a20f1f5e38-MJX-1-TEX-N-D7\" d=\"M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z\"></path><path id=\"pe-d0a20f1f5e38-MJX-1-TEX-I-1D441\" d=\"M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"34\" xlink:href=\"#pe-d0a20f1f5e38-MJX-1-TEX-N-34\"></use></g><g data-mml-node=\"mo\" transform=\"translate(722.2,0)\"><use data-c=\"D7\" xlink:href=\"#pe-d0a20f1f5e38-MJX-1-TEX-N-D7\"></use></g><g data-mml-node=\"mi\" transform=\"translate(1722.4,0)\"><use data-c=\"1D441\" xlink:href=\"#pe-d0a20f1f5e38-MJX-1-TEX-I-1D441\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>×</mo><mi>N</mi></math></mjx-assistive-mml></mjx-container> Playing Board",
+    "titleZhHtml": "在 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"5.906ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 2610.4 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d8a6b4b1f79f-MJX-1-TEX-N-34\" d=\"M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z\"></path><path id=\"pe-d8a6b4b1f79f-MJX-1-TEX-N-D7\" d=\"M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z\"></path><path id=\"pe-d8a6b4b1f79f-MJX-1-TEX-I-1D441\" d=\"M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"34\" xlink:href=\"#pe-d8a6b4b1f79f-MJX-1-TEX-N-34\"></use></g><g data-mml-node=\"mo\" transform=\"translate(722.2,0)\"><use data-c=\"D7\" xlink:href=\"#pe-d8a6b4b1f79f-MJX-1-TEX-N-D7\"></use></g><g data-mml-node=\"mi\" transform=\"translate(1722.4,0)\"><use data-c=\"1D441\" xlink:href=\"#pe-d8a6b4b1f79f-MJX-1-TEX-I-1D441\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>4</mn><mo>×</mo><mi>N</mi></math></mjx-assistive-mml></mjx-container> 棋盘上的巡游"
   },
   {
     "id": 238,
     "title": "Infinite String Tour",
-    "solvedAt": "2025-12-10T15:12:00+08:00"
+    "solvedAt": "2025-12-10T15:12:00+08:00",
+    "titleZh": "无限字符串之旅"
   },
   {
     "id": 239,
     "title": "Twenty-two Foolish Primes",
-    "solvedAt": "2019-04-02T09:56:00+08:00"
+    "solvedAt": "2019-04-02T09:56:00+08:00",
+    "titleZh": "二十二个愚蠢质数"
   },
   {
     "id": 240,
     "title": "Top Dice",
-    "solvedAt": "2019-04-12T05:32:00+08:00"
+    "solvedAt": "2019-04-12T05:32:00+08:00",
+    "titleZh": "顶级骰子"
   },
   {
     "id": 241,
     "title": "Perfection Quotients",
-    "solvedAt": "2019-10-28T16:39:00+08:00"
+    "solvedAt": "2019-10-28T16:39:00+08:00",
+    "titleZh": "完美度之商"
   },
   {
     "id": 242,
     "title": "Odd Triplets",
-    "solvedAt": "2025-02-16T14:38:00+08:00"
+    "solvedAt": "2025-02-16T14:38:00+08:00",
+    "titleZh": "奇数三元组"
   },
   {
     "id": 243,
     "title": "Resilience",
-    "solvedAt": "2018-12-07T11:22:00+08:00"
+    "solvedAt": "2018-12-07T11:22:00+08:00",
+    "titleZh": "不可约率"
   },
   {
     "id": 244,
     "title": "Sliders",
-    "solvedAt": "2025-11-12T11:40:00+08:00"
+    "solvedAt": "2025-11-12T11:40:00+08:00",
+    "titleZh": "滑块"
   },
   {
     "id": 245,
     "title": "Coresilience",
-    "solvedAt": "2025-12-10T03:15:00+08:00"
+    "solvedAt": "2025-12-10T03:15:00+08:00",
+    "titleZh": "可约率"
   },
   {
     "id": 246,
     "title": "Tangents to an Ellipse",
-    "solvedAt": "2026-02-17T16:47:00+08:00"
+    "solvedAt": "2026-02-17T16:47:00+08:00",
+    "titleZh": "椭圆的切线"
   },
   {
     "id": 247,
     "title": "Squares Under a Hyperbola",
-    "solvedAt": "2025-06-30T14:15:00+08:00"
+    "solvedAt": "2025-06-30T14:15:00+08:00",
+    "titleZh": "双曲线下的正方形"
   },
   {
     "id": 248,
     "title": "Euler's Totient Function Equals 13!",
-    "solvedAt": "2025-05-22T16:59:00+08:00"
+    "solvedAt": "2025-05-22T16:59:00+08:00",
+    "titleZh": "欧拉函数值等于 13!"
   },
   {
     "id": 249,
     "title": "Prime Subset Sums",
-    "solvedAt": "2016-09-21T14:34:00+08:00"
+    "solvedAt": "2016-09-21T14:34:00+08:00",
+    "titleZh": "质数子集和"
   },
   {
     "id": 250,
     "title": "$250250$",
-    "solvedAt": "2019-03-05T16:22:00+08:00"
+    "solvedAt": "2019-03-05T16:22:00+08:00",
+    "titleZh": "$250250$",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"6.787ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 3000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-306ee8377af8-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-306ee8377af8-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path><path id=\"pe-306ee8377af8-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-306ee8377af8-MJX-1-TEX-N-32\"></use><use data-c=\"35\" xlink:href=\"#pe-306ee8377af8-MJX-1-TEX-N-35\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-306ee8377af8-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use><use data-c=\"32\" xlink:href=\"#pe-306ee8377af8-MJX-1-TEX-N-32\" transform=\"translate(1500,0)\"></use><use data-c=\"35\" xlink:href=\"#pe-306ee8377af8-MJX-1-TEX-N-35\" transform=\"translate(2000,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-306ee8377af8-MJX-1-TEX-N-30\" transform=\"translate(2500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250250</mn></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"6.787ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 3000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-b037786875ef-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-b037786875ef-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path><path id=\"pe-b037786875ef-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-b037786875ef-MJX-1-TEX-N-32\"></use><use data-c=\"35\" xlink:href=\"#pe-b037786875ef-MJX-1-TEX-N-35\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-b037786875ef-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use><use data-c=\"32\" xlink:href=\"#pe-b037786875ef-MJX-1-TEX-N-32\" transform=\"translate(1500,0)\"></use><use data-c=\"35\" xlink:href=\"#pe-b037786875ef-MJX-1-TEX-N-35\" transform=\"translate(2000,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-b037786875ef-MJX-1-TEX-N-30\" transform=\"translate(2500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>250250</mn></math></mjx-assistive-mml></mjx-container>"
   },
   {
     "id": 251,
     "title": "Cardano Triplets",
-    "solvedAt": "2015-06-26T21:02:00+08:00"
+    "solvedAt": "2015-06-26T21:02:00+08:00",
+    "titleZh": "卡尔达诺三元组"
   },
   {
     "id": 252,
     "title": "Convex Holes",
-    "solvedAt": "2026-01-11T14:34:00+08:00"
+    "solvedAt": "2026-01-11T14:34:00+08:00",
+    "titleZh": "凸空穴"
   },
   {
     "id": 253,
     "title": "Tidying Up A",
-    "solvedAt": "2026-01-12T12:34:00+08:00"
+    "solvedAt": "2026-01-12T12:34:00+08:00",
+    "titleZh": "整理 A"
   },
   {
     "id": 254,
     "title": "Sums of Digit Factorials",
-    "solvedAt": "2025-02-13T13:36:00+08:00"
+    "solvedAt": "2025-02-13T13:36:00+08:00",
+    "titleZh": "数位阶乘之和"
   },
   {
     "id": 255,
     "title": "Rounded Square Roots",
-    "solvedAt": "2025-12-18T16:05:00+08:00"
+    "solvedAt": "2025-12-18T16:05:00+08:00",
+    "titleZh": "舍入平方根"
   },
   {
     "id": 256,
     "title": "Tatami-Free Rooms",
-    "solvedAt": "2026-04-12T17:30:00+08:00"
+    "solvedAt": "2026-04-12T17:30:00+08:00",
+    "titleZh": "无法铺设榻榻米的房间"
   },
   {
     "id": 257,
     "title": "Angular Bisectors",
-    "solvedAt": "2026-02-14T14:27:00+08:00"
+    "solvedAt": "2026-02-14T14:27:00+08:00",
+    "titleZh": "角平分线"
   },
   {
     "id": 258,
     "title": "A Lagged Fibonacci Sequence",
-    "solvedAt": "2018-11-16T14:28:00+08:00"
+    "solvedAt": "2018-11-16T14:28:00+08:00",
+    "titleZh": "滞后斐波那契数列"
   },
   {
     "id": 259,
     "title": "Reachable Numbers",
-    "solvedAt": "2025-02-14T10:04:00+08:00"
+    "solvedAt": "2025-02-14T10:04:00+08:00",
+    "titleZh": "可达数"
   },
   {
     "id": 260,
     "title": "Stone Game",
-    "solvedAt": "2025-02-19T16:16:00+08:00"
+    "solvedAt": "2025-02-19T16:16:00+08:00",
+    "titleZh": "石子游戏"
   },
   {
     "id": 261,
     "title": "Pivotal Square Sums",
-    "solvedAt": "2023-07-21T21:51:00+08:00"
+    "solvedAt": "2023-07-21T21:51:00+08:00",
+    "titleZh": "关键平方和"
   },
   {
     "id": 262,
-    "title": "Mountain Range"
+    "title": "Mountain Range",
+    "titleZh": "山脉"
   },
   {
     "id": 263,
     "title": "An Engineers' Dream Come True",
-    "solvedAt": "2025-12-09T04:16:00+08:00"
+    "solvedAt": "2025-12-09T04:16:00+08:00",
+    "titleZh": "工程师的梦想成真"
   },
   {
     "id": 264,
     "title": "Triangle Centres",
-    "solvedAt": "2025-06-30T15:46:00+08:00"
+    "solvedAt": "2025-06-30T15:46:00+08:00",
+    "titleZh": "三角形的中心"
   },
   {
     "id": 265,
     "title": "Binary Circles",
-    "solvedAt": "2017-04-19T10:01:00+08:00"
+    "solvedAt": "2017-04-19T10:01:00+08:00",
+    "titleZh": "二进制环"
   },
   {
     "id": 266,
     "title": "Pseudo Square Root",
-    "solvedAt": "2017-07-04T08:37:00+08:00"
+    "solvedAt": "2017-07-04T08:37:00+08:00",
+    "titleZh": "伪平方根"
   },
   {
     "id": 267,
     "title": "Billionaire",
-    "solvedAt": "2025-02-18T10:44:00+08:00"
+    "solvedAt": "2025-02-18T10:44:00+08:00",
+    "titleZh": "亿万富翁"
   },
   {
     "id": 268,
     "title": "At Least Four Distinct Prime Factors Less Than 100",
-    "solvedAt": "2018-11-29T15:49:00+08:00"
+    "solvedAt": "2018-11-29T15:49:00+08:00",
+    "titleZh": "至少四个小于 100 的不同质因数"
   },
   {
     "id": 269,
     "title": "Polynomials with at Least One Integer Root",
-    "solvedAt": "2026-02-22T06:41:00+08:00"
+    "solvedAt": "2026-02-22T06:41:00+08:00",
+    "titleZh": "至少有一个整数根的多项式"
   },
   {
     "id": 270,
     "title": "Cutting Squares",
-    "solvedAt": "2026-02-22T05:59:00+08:00"
+    "solvedAt": "2026-02-22T05:59:00+08:00",
+    "titleZh": "切割正方形"
   },
   {
     "id": 271,
     "title": "Modular Cubes, Part 1",
-    "solvedAt": "2023-08-18T16:40:00+08:00"
+    "solvedAt": "2023-08-18T16:40:00+08:00",
+    "titleZh": "立方同余 I"
   },
   {
     "id": 272,
     "title": "Modular Cubes, Part 2",
-    "solvedAt": "2025-08-11T10:59:00+08:00"
+    "solvedAt": "2025-08-11T10:59:00+08:00",
+    "titleZh": "立方同余 II"
   },
   {
     "id": 273,
     "title": "Sum of Squares",
-    "solvedAt": "2025-02-18T03:28:00+08:00"
+    "solvedAt": "2025-02-18T03:28:00+08:00",
+    "titleZh": "平方和"
   },
   {
     "id": 274,
     "title": "Divisibility Multipliers",
-    "solvedAt": "2025-08-11T11:27:00+08:00"
+    "solvedAt": "2025-08-11T11:27:00+08:00",
+    "titleZh": "可整除乘数"
   },
   {
     "id": 275,
     "title": "Balanced Sculptures",
-    "solvedAt": "2025-12-15T15:29:00+08:00"
+    "solvedAt": "2025-12-15T15:29:00+08:00",
+    "titleZh": "平衡的雕塑"
   },
   {
     "id": 276,
     "title": "Primitive Triangles",
-    "solvedAt": "2025-12-08T14:08:00+08:00"
+    "solvedAt": "2025-12-08T14:08:00+08:00",
+    "titleZh": "本原三角形"
   },
   {
     "id": 277,
     "title": "A Modified Collatz Sequence",
-    "solvedAt": "2020-07-08T18:28:00+08:00"
+    "solvedAt": "2020-07-08T18:28:00+08:00",
+    "titleZh": "修改后的柯拉茨数列"
   },
   {
     "id": 278,
     "title": "Linear Combinations of Semiprimes",
-    "solvedAt": "2025-02-18T11:05:00+08:00"
+    "solvedAt": "2025-02-18T11:05:00+08:00",
+    "titleZh": "半质数的线性组合"
   },
   {
     "id": 279,
     "title": "Triangles with Integral Sides and an Integral Angle",
-    "solvedAt": "2025-09-09T09:20:00+08:00"
+    "solvedAt": "2025-09-09T09:20:00+08:00",
+    "titleZh": "边长与一个角均为整数的三角形"
   },
   {
     "id": 280,
     "title": "Ant and Seeds",
-    "solvedAt": "2025-06-04T02:52:00+08:00"
+    "solvedAt": "2025-06-04T02:52:00+08:00",
+    "titleZh": "蚂蚁和种子"
   },
   {
     "id": 281,
     "title": "Pizza Toppings",
-    "solvedAt": "2025-12-11T09:11:00+08:00"
+    "solvedAt": "2025-12-11T09:11:00+08:00",
+    "titleZh": "披萨配料"
   },
   {
     "id": 282,
-    "title": "The Ackermann Function"
+    "title": "The Ackermann Function",
+    "titleZh": "阿克曼函数"
   },
   {
     "id": 283,
     "title": "Integer Sided Triangles with Integral Area/perimeter Ratio",
-    "solvedAt": "2025-12-13T16:39:00+08:00"
+    "solvedAt": "2025-12-13T16:39:00+08:00",
+    "titleZh": "面积与周长之比为整数的整数边长三角形"
   },
   {
     "id": 284,
     "title": "Steady Squares",
-    "solvedAt": "2025-02-21T19:05:00+08:00"
+    "solvedAt": "2025-02-21T19:05:00+08:00",
+    "titleZh": "稳定平方数"
   },
   {
     "id": 285,
     "title": "Pythagorean Odds",
-    "solvedAt": "2025-12-17T04:17:00+08:00"
+    "solvedAt": "2025-12-17T04:17:00+08:00",
+    "titleZh": "勾股概率"
   },
   {
     "id": 286,
     "title": "Scoring Probabilities",
-    "solvedAt": "2016-07-19T16:08:00+08:00"
+    "solvedAt": "2016-07-19T16:08:00+08:00",
+    "titleZh": "得分概率"
   },
   {
     "id": 287,
     "title": "Quadtree Encoding (a Simple Compression Algorithm)",
-    "solvedAt": "2026-04-16T16:51:00+08:00"
+    "solvedAt": "2026-04-16T16:51:00+08:00",
+    "titleZh": "四叉树编码（一种简单的压缩算法）"
   },
   {
     "id": 288,
     "title": "An Enormous Factorial",
-    "solvedAt": "2025-02-18T12:08:00+08:00"
+    "solvedAt": "2025-02-18T12:08:00+08:00",
+    "titleZh": "一个巨大的阶乘"
   },
   {
     "id": 289,
-    "title": "Eulerian Cycles"
+    "title": "Eulerian Cycles",
+    "titleZh": "欧拉回路"
   },
   {
     "id": 290,
     "title": "Digital Signature",
-    "solvedAt": "2016-07-20T21:38:00+08:00"
+    "solvedAt": "2016-07-20T21:38:00+08:00",
+    "titleZh": "数字签名"
   },
   {
     "id": 291,
     "title": "Panaitopol Primes",
-    "solvedAt": "2024-08-29T15:28:00+08:00"
+    "solvedAt": "2024-08-29T15:28:00+08:00",
+    "titleZh": "帕奈托波尔质数"
   },
   {
     "id": 292,
     "title": "Pythagorean Polygons",
-    "solvedAt": "2026-01-12T09:24:00+08:00"
+    "solvedAt": "2026-01-12T09:24:00+08:00",
+    "titleZh": "勾股多边形"
   },
   {
     "id": 293,
     "title": "Pseudo-Fortunate Numbers",
-    "solvedAt": "2025-02-10T13:30:00+08:00"
+    "solvedAt": "2025-02-10T13:30:00+08:00",
+    "titleZh": "伪幸运数"
   },
   {
     "id": 294,
     "title": "Sum of Digits - Experience #23",
-    "solvedAt": "2025-02-18T16:41:00+08:00"
+    "solvedAt": "2025-02-18T16:41:00+08:00",
+    "titleZh": "数位和实验 23"
   },
   {
     "id": 295,
-    "title": "Lenticular Holes"
+    "title": "Lenticular Holes",
+    "titleZh": "透镜状孔"
   },
   {
     "id": 296,
     "title": "Angular Bisector and Tangent",
-    "solvedAt": "2026-02-22T05:01:00+08:00"
+    "solvedAt": "2026-02-22T05:01:00+08:00",
+    "titleZh": "角平分线和切线"
   },
   {
     "id": 297,
     "title": "Zeckendorf Representation",
-    "solvedAt": "2023-09-05T16:24:00+08:00"
+    "solvedAt": "2023-09-05T16:24:00+08:00",
+    "titleZh": "泽肯多夫表示"
   },
   {
     "id": 298,
     "title": "Selective Amnesia",
-    "solvedAt": "2026-04-29T16:44:00+08:00"
+    "solvedAt": "2026-04-29T16:44:00+08:00",
+    "titleZh": "选择性失忆症"
   },
   {
     "id": 299,
     "title": "Three Similar Triangles",
-    "solvedAt": "2026-02-22T11:41:00+08:00"
+    "solvedAt": "2026-02-22T11:41:00+08:00",
+    "titleZh": "三个相似三角形"
   },
   {
     "id": 300,
     "title": "Protein Folding",
-    "solvedAt": "2026-01-14T08:50:00+08:00"
+    "solvedAt": "2026-01-14T08:50:00+08:00",
+    "titleZh": "蛋白质折叠"
   },
   {
     "id": 301,
     "title": "Nim",
-    "solvedAt": "2014-02-27T14:39:00+08:00"
+    "solvedAt": "2014-02-27T14:39:00+08:00",
+    "titleZh": "尼姆游戏"
   },
   {
     "id": 302,
     "title": "Strong Achilles Numbers",
-    "solvedAt": "2025-06-19T08:58:00+08:00"
+    "solvedAt": "2025-06-19T08:58:00+08:00",
+    "titleZh": "强阿喀琉斯数"
   },
   {
     "id": 303,
     "title": "Multiples with Small Digits",
-    "solvedAt": "2017-06-29T08:25:00+08:00"
+    "solvedAt": "2017-06-29T08:25:00+08:00",
+    "titleZh": "仅含小数位的倍数"
   },
   {
     "id": 304,
     "title": "Primonacci",
-    "solvedAt": "2024-06-09T10:03:00+08:00"
+    "solvedAt": "2024-06-09T10:03:00+08:00",
+    "titleZh": "普里莫纳奇"
   },
   {
     "id": 305,
     "title": "Reflexive Position",
-    "solvedAt": "2025-12-09T03:00:00+08:00"
+    "solvedAt": "2025-12-09T03:00:00+08:00",
+    "titleZh": "自指位置"
   },
   {
     "id": 306,
     "title": "Paper-strip Game",
-    "solvedAt": "2024-06-09T09:47:00+08:00"
+    "solvedAt": "2024-06-09T09:47:00+08:00",
+    "titleZh": "纸条游戏"
   },
   {
     "id": 307,
     "title": "Chip Defects",
-    "solvedAt": "2025-02-20T15:13:00+08:00"
+    "solvedAt": "2025-02-20T15:13:00+08:00",
+    "titleZh": "芯片缺陷"
   },
   {
     "id": 308,
-    "title": "An Amazing Prime-generating Automaton"
+    "title": "An Amazing Prime-generating Automaton",
+    "titleZh": "生成质数的奇妙自动机"
   },
   {
     "id": 309,
     "title": "Integer Ladders",
-    "solvedAt": "2017-07-03T13:24:00+08:00"
+    "solvedAt": "2017-07-03T13:24:00+08:00",
+    "titleZh": "整数长度的梯子"
   },
   {
     "id": 310,
     "title": "Nim Square",
-    "solvedAt": "2024-06-09T08:38:00+08:00"
+    "solvedAt": "2024-06-09T08:38:00+08:00",
+    "titleZh": "平方尼姆游戏"
   },
   {
     "id": 311,
-    "title": "Biclinic Integral Quadrilaterals"
+    "title": "Biclinic Integral Quadrilaterals",
+    "titleZh": "双斜整数四边形"
   },
   {
     "id": 312,
-    "title": "Cyclic Paths on Sierpiński Graphs"
+    "title": "Cyclic Paths on Sierpiński Graphs",
+    "titleZh": "谢尔宾斯基图上的循环路径"
   },
   {
     "id": 313,
     "title": "Sliding Game",
-    "solvedAt": "2015-12-10T06:37:00+08:00"
+    "solvedAt": "2015-12-10T06:37:00+08:00",
+    "titleZh": "滑动游戏"
   },
   {
     "id": 314,
-    "title": "The Mouse on the Moon"
+    "title": "The Mouse on the Moon",
+    "titleZh": "月球上的老鼠"
   },
   {
     "id": 315,
     "title": "Digital Root Clocks",
-    "solvedAt": "2026-03-31T00:26:00+08:00"
+    "solvedAt": "2026-03-31T00:26:00+08:00",
+    "titleZh": "数根时钟"
   },
   {
     "id": 316,
-    "title": "Numbers in Decimal Expansions"
+    "title": "Numbers in Decimal Expansions",
+    "titleZh": "十进制展开式中的数字"
   },
   {
     "id": 317,
     "title": "Firecracker",
-    "solvedAt": "2018-07-03T16:32:00+08:00"
+    "solvedAt": "2018-07-03T16:32:00+08:00",
+    "titleZh": "鞭炮"
   },
   {
     "id": 318,
     "title": "2011 Nines",
-    "solvedAt": "2018-11-16T17:32:00+08:00"
+    "solvedAt": "2018-11-16T17:32:00+08:00",
+    "titleZh": "2011 个九"
   },
   {
     "id": 319,
     "title": "Bounded Sequences",
-    "solvedAt": "2026-04-04T11:18:00+08:00"
+    "solvedAt": "2026-04-04T11:18:00+08:00",
+    "titleZh": "有界序列"
   },
   {
     "id": 320,
     "title": "Factorials Divisible by a Huge Integer",
-    "solvedAt": "2025-12-09T03:15:00+08:00"
+    "solvedAt": "2025-12-09T03:15:00+08:00",
+    "titleZh": "可被大整数整除的阶乘"
   },
   {
     "id": 321,
     "title": "Swapping Counters",
-    "solvedAt": "2025-02-20T15:59:00+08:00"
+    "solvedAt": "2025-02-20T15:59:00+08:00",
+    "titleZh": "交换棋子"
   },
   {
     "id": 322,
-    "title": "Binomial Coefficients Divisible by 10"
+    "title": "Binomial Coefficients Divisible by 10",
+    "titleZh": "可被 10 整除的二项式系数"
   },
   {
     "id": 323,
     "title": "Bitwise-OR Operations on Random Integers",
-    "solvedAt": "2026-03-31T15:42:00+08:00"
+    "solvedAt": "2026-03-31T15:42:00+08:00",
+    "titleZh": "随机整数的按位或运算"
   },
   {
     "id": 324,
-    "title": "Building a Tower"
+    "title": "Building a Tower",
+    "titleZh": "建造一座塔"
   },
   {
     "id": 325,
     "title": "Stone Game II",
-    "solvedAt": "2025-07-24T06:09:00+08:00"
+    "solvedAt": "2025-07-24T06:09:00+08:00",
+    "titleZh": "石子游戏 II"
   },
   {
     "id": 326,
-    "title": "Modulo Summations"
+    "title": "Modulo Summations",
+    "titleZh": "模意义下的求和"
   },
   {
     "id": 327,
-    "title": "Rooms of Doom"
+    "title": "Rooms of Doom",
+    "titleZh": "末日房间"
   },
   {
     "id": 328,
-    "title": "Lowest-cost Search"
+    "title": "Lowest-cost Search",
+    "titleZh": "最低代价搜索"
   },
   {
     "id": 329,
-    "title": "Prime Frog"
+    "title": "Prime Frog",
+    "titleZh": "质数青蛙"
   },
   {
     "id": 330,
     "title": "Euler's Number",
-    "solvedAt": "2017-07-04T13:06:00+08:00"
+    "solvedAt": "2017-07-04T13:06:00+08:00",
+    "titleZh": "欧拉数"
   },
   {
     "id": 331,
-    "title": "Cross Flips"
+    "title": "Cross Flips",
+    "titleZh": "交叉翻转"
   },
   {
     "id": 332,
-    "title": "Spherical Triangles"
+    "title": "Spherical Triangles",
+    "titleZh": "球面三角形"
   },
   {
     "id": 333,
     "title": "Special Partitions",
-    "solvedAt": "2025-06-26T11:33:00+08:00"
+    "solvedAt": "2025-06-26T11:33:00+08:00",
+    "titleZh": "特殊分拆"
   },
   {
     "id": 334,
-    "title": "Spilling the Beans"
+    "title": "Spilling the Beans",
+    "titleZh": "洒落豆子"
   },
   {
     "id": 335,
-    "title": "Gathering the Beans"
+    "title": "Gathering the Beans",
+    "titleZh": "收集豆子"
   },
   {
     "id": 336,
     "title": "Maximix Arrangements",
-    "solvedAt": "2025-06-25T04:09:00+08:00"
+    "solvedAt": "2025-06-25T04:09:00+08:00",
+    "titleZh": "Maximix 排列"
   },
   {
     "id": 337,
-    "title": "Totient Stairstep Sequences"
+    "title": "Totient Stairstep Sequences",
+    "titleZh": "欧拉函数阶梯数列"
   },
   {
     "id": 338,
-    "title": "Cutting Rectangular Grid Paper"
+    "title": "Cutting Rectangular Grid Paper",
+    "titleZh": "切割矩形网格纸"
   },
   {
     "id": 339,
-    "title": "Peredur Fab Efrawg"
+    "title": "Peredur Fab Efrawg",
+    "titleZh": "Peredur Fab Efrawg 的故事"
   },
   {
     "id": 340,
-    "title": "Crazy Function"
+    "title": "Crazy Function",
+    "titleZh": "疯狂函数"
   },
   {
     "id": 341,
-    "title": "Golomb's Self-describing Sequence"
+    "title": "Golomb's Self-describing Sequence",
+    "titleZh": "戈隆布自描述数列"
   },
   {
     "id": 342,
     "title": "The Totient of a Square Is a Cube",
-    "solvedAt": "2025-02-21T09:50:00+08:00"
+    "solvedAt": "2025-02-21T09:50:00+08:00",
+    "titleZh": "平方数的欧拉函数值为立方数"
   },
   {
     "id": 343,
     "title": "Fractional Sequences",
-    "solvedAt": "2019-03-02T08:16:00+08:00"
+    "solvedAt": "2019-03-02T08:16:00+08:00",
+    "titleZh": "分数序列"
   },
   {
     "id": 344,
-    "title": "Silver Dollar Game"
+    "title": "Silver Dollar Game",
+    "titleZh": "银元游戏"
   },
   {
     "id": 345,
     "title": "Matrix Sum",
-    "solvedAt": "2016-05-24T23:45:00+08:00"
+    "solvedAt": "2016-05-24T23:45:00+08:00",
+    "titleZh": "矩阵和"
   },
   {
     "id": 346,
     "title": "Strong Repunits",
-    "solvedAt": "2016-05-25T01:00:00+08:00"
+    "solvedAt": "2016-05-25T01:00:00+08:00",
+    "titleZh": "强全1数"
   },
   {
     "id": 347,
     "title": "Largest Integer Divisible by Two Primes",
-    "solvedAt": "2019-01-29T06:31:00+08:00"
+    "solvedAt": "2019-01-29T06:31:00+08:00",
+    "titleZh": "可被两个质数整除的最大整数"
   },
   {
     "id": 348,
     "title": "Sum of a Square and a Cube",
-    "solvedAt": "2015-07-01T06:08:00+08:00"
+    "solvedAt": "2015-07-01T06:08:00+08:00",
+    "titleZh": "平方和立方之和"
   },
   {
     "id": 349,
     "title": "Langton's Ant",
-    "solvedAt": "2026-03-21T05:09:00+08:00"
+    "solvedAt": "2026-03-21T05:09:00+08:00",
+    "titleZh": "兰顿的蚂蚁"
   },
   {
     "id": 350,
-    "title": "Constraining the Least Greatest and the Greatest Least"
+    "title": "Constraining the Least Greatest and the Greatest Least",
+    "titleZh": "约束最小公倍数与最大公约数"
   },
   {
     "id": 351,
     "title": "Hexagonal Orchards",
-    "solvedAt": "2025-02-10T12:21:00+08:00"
+    "solvedAt": "2025-02-10T12:21:00+08:00",
+    "titleZh": "六边形果园"
   },
   {
     "id": 352,
-    "title": "Blood Tests"
+    "title": "Blood Tests",
+    "titleZh": "血液检测"
   },
   {
     "id": 353,
-    "title": "Risky Moon"
+    "title": "Risky Moon",
+    "titleZh": "月球上的风险"
   },
   {
     "id": 354,
-    "title": "Distances in a Bee's Honeycomb"
+    "title": "Distances in a Bee's Honeycomb",
+    "titleZh": "蜜蜂蜂巢中的距离"
   },
   {
     "id": 355,
     "title": "Maximal Coprime Subset",
-    "solvedAt": "2025-10-23T06:28:00+08:00"
+    "solvedAt": "2025-10-23T06:28:00+08:00",
+    "titleZh": "最大互质子集"
   },
   {
     "id": 356,
     "title": "Largest Roots of Cubic Polynomials",
-    "solvedAt": "2017-05-23T17:01:00+08:00"
+    "solvedAt": "2017-05-23T17:01:00+08:00",
+    "titleZh": "三次多项式的最大根"
   },
   {
     "id": 357,
     "title": "Prime Generating Integers",
-    "solvedAt": "2015-12-18T03:35:00+08:00"
+    "solvedAt": "2015-12-18T03:35:00+08:00",
+    "titleZh": "质数生成整数"
   },
   {
     "id": 358,
     "title": "Cyclic Numbers",
-    "solvedAt": "2019-11-09T08:10:00+08:00"
+    "solvedAt": "2019-11-09T08:10:00+08:00",
+    "titleZh": "循环数"
   },
   {
     "id": 359,
-    "title": "Hilbert's New Hotel"
+    "title": "Hilbert's New Hotel",
+    "titleZh": "希尔伯特的新旅馆"
   },
   {
     "id": 360,
-    "title": "Scary Sphere"
+    "title": "Scary Sphere",
+    "titleZh": "可怕的球面"
   },
   {
     "id": 361,
-    "title": "Subsequence of Thue-Morse Sequence"
+    "title": "Subsequence of Thue-Morse Sequence",
+    "titleZh": "Thue-Morse 序列的子序列"
   },
   {
     "id": 362,
     "title": "Squarefree Factors",
-    "solvedAt": "2024-09-05T11:38:00+08:00"
+    "solvedAt": "2024-09-05T11:38:00+08:00",
+    "titleZh": "无平方因子的因数"
   },
   {
     "id": 363,
-    "title": "Bézier Curves"
+    "title": "Bézier Curves",
+    "titleZh": "贝塞尔曲线"
   },
   {
     "id": 364,
-    "title": "Comfortable Distance"
+    "title": "Comfortable Distance",
+    "titleZh": "舒适距离"
   },
   {
     "id": 365,
     "title": "A Huge Binomial Coefficient",
-    "solvedAt": "2025-06-26T10:06:00+08:00"
+    "solvedAt": "2025-06-26T10:06:00+08:00",
+    "titleZh": "巨大的二项式系数"
   },
   {
     "id": 366,
-    "title": "Stone Game III"
+    "title": "Stone Game III",
+    "titleZh": "石子游戏 III"
   },
   {
     "id": 367,
-    "title": "Bozo Sort"
+    "title": "Bozo Sort",
+    "titleZh": "博佐排序"
   },
   {
     "id": 368,
-    "title": "A Kempner-like Series"
+    "title": "A Kempner-like Series",
+    "titleZh": "类肯普纳级数"
   },
   {
     "id": 369,
     "title": "Badugi",
-    "solvedAt": "2026-01-31T06:37:00+08:00"
+    "solvedAt": "2026-01-31T06:37:00+08:00",
+    "titleZh": "巴杜吉"
   },
   {
     "id": 370,
     "title": "Geometric Triangles",
-    "solvedAt": "2026-02-16T16:19:00+08:00"
+    "solvedAt": "2026-02-16T16:19:00+08:00",
+    "titleZh": "边长成等比数列的三角形"
   },
   {
     "id": 371,
     "title": "Licence Plates",
-    "solvedAt": "2025-02-19T08:55:00+08:00"
+    "solvedAt": "2025-02-19T08:55:00+08:00",
+    "titleZh": "车牌号码"
   },
   {
     "id": 372,
-    "title": "Pencils of Rays"
+    "title": "Pencils of Rays",
+    "titleZh": "射线束"
   },
   {
     "id": 373,
-    "title": "Circumscribed Circles"
+    "title": "Circumscribed Circles",
+    "titleZh": "外接圆"
   },
   {
     "id": 374,
-    "title": "Maximum Integer Partition Product"
+    "title": "Maximum Integer Partition Product",
+    "titleZh": "整数分拆的最大乘积"
   },
   {
     "id": 375,
     "title": "Minimum of Subsequences",
-    "solvedAt": "2025-02-21T10:00:00+08:00"
+    "solvedAt": "2025-02-21T10:00:00+08:00",
+    "titleZh": "子序列的最小值"
   },
   {
     "id": 376,
-    "title": "Nontransitive Sets of Dice"
+    "title": "Nontransitive Sets of Dice",
+    "titleZh": "非传递骰子集合"
   },
   {
     "id": 377,
     "title": "Sum of Digits - Experience #13",
-    "solvedAt": "2019-10-11T12:01:00+08:00"
+    "solvedAt": "2019-10-11T12:01:00+08:00",
+    "titleZh": "数位和实验 13"
   },
   {
     "id": 378,
     "title": "Triangle Triples",
-    "solvedAt": "2025-02-21T09:18:00+08:00"
+    "solvedAt": "2025-02-21T09:18:00+08:00",
+    "titleZh": "三角数三元组"
   },
   {
     "id": 379,
-    "title": "Least Common Multiple Count"
+    "title": "Least Common Multiple Count",
+    "titleZh": "最小公倍数计数"
   },
   {
     "id": 380,
-    "title": "Amazing Mazes!"
+    "title": "Amazing Mazes!",
+    "titleZh": "令人惊叹的迷宫！"
   },
   {
     "id": 381,
     "title": "$(\\text{prime}-k)$ Factorial",
-    "solvedAt": "2018-12-19T16:31:00+08:00"
+    "solvedAt": "2018-12-19T16:31:00+08:00",
+    "titleZh": "$(\\text{prime}-k)$阶乘",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.566ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"11.368ex\" height=\"2.262ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -750 5024.4 1000\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-28\" d=\"M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-70\" d=\"M36 -148H50Q89 -148 97 -134V-126Q97 -119 97 -107T97 -77T98 -38T98 6T98 55T98 106Q98 140 98 177T98 243T98 296T97 335T97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 61 434T98 436Q115 437 135 438T165 441T176 442H179V416L180 390L188 397Q247 441 326 441Q407 441 464 377T522 216Q522 115 457 52T310 -11Q242 -11 190 33L182 40V-45V-101Q182 -128 184 -134T195 -145Q216 -148 244 -148H260V-194H252L228 -193Q205 -192 178 -192T140 -191Q37 -191 28 -194H20V-148H36ZM424 218Q424 292 390 347T305 402Q234 402 182 337V98Q222 26 294 26Q345 26 384 80T424 218Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-72\" d=\"M36 46H50Q89 46 97 60V68Q97 77 97 91T98 122T98 161T98 203Q98 234 98 269T98 328L97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 60 434T96 436Q112 437 131 438T160 441T171 442H174V373Q213 441 271 441H277Q322 441 343 419T364 373Q364 352 351 337T313 322Q288 322 276 338T263 372Q263 381 265 388T270 400T273 405Q271 407 250 401Q234 393 226 386Q179 341 179 207V154Q179 141 179 127T179 101T180 81T180 66V61Q181 59 183 57T188 54T193 51T200 49T207 48T216 47T225 47T235 46T245 46H276V0H267Q249 3 140 3Q37 3 28 0H20V46H36Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-69\" d=\"M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-6D\" d=\"M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q351 442 364 440T387 434T406 426T421 417T432 406T441 395T448 384T452 374T455 366L457 361L460 365Q463 369 466 373T475 384T488 397T503 410T523 422T546 432T572 439T603 442Q729 442 740 329Q741 322 741 190V104Q741 66 743 59T754 49Q775 46 803 46H819V0H811L788 1Q764 2 737 2T699 3Q596 3 587 0H579V46H595Q656 46 656 62Q657 64 657 200Q656 335 655 343Q649 371 635 385T611 402T585 404Q540 404 506 370Q479 343 472 315T464 232V168V108Q464 78 465 68T468 55T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-65\" d=\"M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-2212\" d=\"M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path><path id=\"pe-84dd5ba6a42e-MJX-1-TEX-N-29\" d=\"M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mo\"><use data-c=\"28\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-28\"></use></g><g data-mml-node=\"mtext\" transform=\"translate(389,0)\"><use data-c=\"70\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-70\"></use><use data-c=\"72\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-72\" transform=\"translate(556,0)\"></use><use data-c=\"69\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-69\" transform=\"translate(948,0)\"></use><use data-c=\"6D\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-6D\" transform=\"translate(1226,0)\"></use><use data-c=\"65\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-65\" transform=\"translate(2059,0)\"></use></g><g data-mml-node=\"mo\" transform=\"translate(3114.2,0)\"><use data-c=\"2212\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-2212\"></use></g><g data-mml-node=\"mi\" transform=\"translate(4114.4,0)\"><use data-c=\"1D458\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-I-1D458\"></use></g><g data-mml-node=\"mo\" transform=\"translate(4635.4,0)\"><use data-c=\"29\" xlink:href=\"#pe-84dd5ba6a42e-MJX-1-TEX-N-29\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">(</mo><mtext>prime</mtext><mo>−</mo><mi>k</mi><mo stretchy=\"false\">)</mo></math></mjx-assistive-mml></mjx-container> Factorial",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.566ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"11.368ex\" height=\"2.262ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -750 5024.4 1000\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-28\" d=\"M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-70\" d=\"M36 -148H50Q89 -148 97 -134V-126Q97 -119 97 -107T97 -77T98 -38T98 6T98 55T98 106Q98 140 98 177T98 243T98 296T97 335T97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 61 434T98 436Q115 437 135 438T165 441T176 442H179V416L180 390L188 397Q247 441 326 441Q407 441 464 377T522 216Q522 115 457 52T310 -11Q242 -11 190 33L182 40V-45V-101Q182 -128 184 -134T195 -145Q216 -148 244 -148H260V-194H252L228 -193Q205 -192 178 -192T140 -191Q37 -191 28 -194H20V-148H36ZM424 218Q424 292 390 347T305 402Q234 402 182 337V98Q222 26 294 26Q345 26 384 80T424 218Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-72\" d=\"M36 46H50Q89 46 97 60V68Q97 77 97 91T98 122T98 161T98 203Q98 234 98 269T98 328L97 351Q94 370 83 376T38 385H20V408Q20 431 22 431L32 432Q42 433 60 434T96 436Q112 437 131 438T160 441T171 442H174V373Q213 441 271 441H277Q322 441 343 419T364 373Q364 352 351 337T313 322Q288 322 276 338T263 372Q263 381 265 388T270 400T273 405Q271 407 250 401Q234 393 226 386Q179 341 179 207V154Q179 141 179 127T179 101T180 81T180 66V61Q181 59 183 57T188 54T193 51T200 49T207 48T216 47T225 47T235 46T245 46H276V0H267Q249 3 140 3Q37 3 28 0H20V46H36Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-69\" d=\"M69 609Q69 637 87 653T131 669Q154 667 171 652T188 609Q188 579 171 564T129 549Q104 549 87 564T69 609ZM247 0Q232 3 143 3Q132 3 106 3T56 1L34 0H26V46H42Q70 46 91 49Q100 53 102 60T104 102V205V293Q104 345 102 359T88 378Q74 385 41 385H30V408Q30 431 32 431L42 432Q52 433 70 434T106 436Q123 437 142 438T171 441T182 442H185V62Q190 52 197 50T232 46H255V0H247Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-6D\" d=\"M41 46H55Q94 46 102 60V68Q102 77 102 91T102 122T103 161T103 203Q103 234 103 269T102 328V351Q99 370 88 376T43 385H25V408Q25 431 27 431L37 432Q47 433 65 434T102 436Q119 437 138 438T167 441T178 442H181V402Q181 364 182 364T187 369T199 384T218 402T247 421T285 437Q305 442 336 442Q351 442 364 440T387 434T406 426T421 417T432 406T441 395T448 384T452 374T455 366L457 361L460 365Q463 369 466 373T475 384T488 397T503 410T523 422T546 432T572 439T603 442Q729 442 740 329Q741 322 741 190V104Q741 66 743 59T754 49Q775 46 803 46H819V0H811L788 1Q764 2 737 2T699 3Q596 3 587 0H579V46H595Q656 46 656 62Q657 64 657 200Q656 335 655 343Q649 371 635 385T611 402T585 404Q540 404 506 370Q479 343 472 315T464 232V168V108Q464 78 465 68T468 55T477 49Q498 46 526 46H542V0H534L510 1Q487 2 460 2T422 3Q319 3 310 0H302V46H318Q379 46 379 62Q380 64 380 200Q379 335 378 343Q372 371 358 385T334 402T308 404Q263 404 229 370Q202 343 195 315T187 232V168V108Q187 78 188 68T191 55T200 49Q221 46 249 46H265V0H257L234 1Q210 2 183 2T145 3Q42 3 33 0H25V46H41Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-65\" d=\"M28 218Q28 273 48 318T98 391T163 433T229 448Q282 448 320 430T378 380T406 316T415 245Q415 238 408 231H126V216Q126 68 226 36Q246 30 270 30Q312 30 342 62Q359 79 369 104L379 128Q382 131 395 131H398Q415 131 415 121Q415 117 412 108Q393 53 349 21T250 -11Q155 -11 92 58T28 218ZM333 275Q322 403 238 411H236Q228 411 220 410T195 402T166 381T143 340T127 274V267H333V275Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-2212\" d=\"M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path><path id=\"pe-1a35f87dfa9f-MJX-1-TEX-N-29\" d=\"M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mo\"><use data-c=\"28\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-28\"></use></g><g data-mml-node=\"mtext\" transform=\"translate(389,0)\"><use data-c=\"70\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-70\"></use><use data-c=\"72\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-72\" transform=\"translate(556,0)\"></use><use data-c=\"69\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-69\" transform=\"translate(948,0)\"></use><use data-c=\"6D\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-6D\" transform=\"translate(1226,0)\"></use><use data-c=\"65\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-65\" transform=\"translate(2059,0)\"></use></g><g data-mml-node=\"mo\" transform=\"translate(3114.2,0)\"><use data-c=\"2212\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-2212\"></use></g><g data-mml-node=\"mi\" transform=\"translate(4114.4,0)\"><use data-c=\"1D458\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-I-1D458\"></use></g><g data-mml-node=\"mo\" transform=\"translate(4635.4,0)\"><use data-c=\"29\" xlink:href=\"#pe-1a35f87dfa9f-MJX-1-TEX-N-29\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mo stretchy=\"false\">(</mo><mtext>prime</mtext><mo>−</mo><mi>k</mi><mo stretchy=\"false\">)</mo></math></mjx-assistive-mml></mjx-container>阶乘"
   },
   {
     "id": 382,
-    "title": "Generating Polygons"
+    "title": "Generating Polygons",
+    "titleZh": "生成多边形"
   },
   {
     "id": 383,
-    "title": "Divisibility Comparison Between Factorials"
+    "title": "Divisibility Comparison Between Factorials",
+    "titleZh": "阶乘之间的整除性比较"
   },
   {
     "id": 384,
-    "title": "Rudin-Shapiro Sequence"
+    "title": "Rudin-Shapiro Sequence",
+    "titleZh": "鲁丁-夏皮罗序列"
   },
   {
     "id": 385,
-    "title": "Ellipses Inside Triangles"
+    "title": "Ellipses Inside Triangles",
+    "titleZh": "三角形内的椭圆"
   },
   {
     "id": 386,
     "title": "Maximum Length of an Antichain",
-    "solvedAt": "2026-06-09T08:09:00+08:00"
+    "solvedAt": "2026-06-09T08:09:00+08:00",
+    "titleZh": "反链的最大长度"
   },
   {
     "id": 387,
     "title": "Harshad Numbers",
-    "solvedAt": "2020-11-13T07:14:00+08:00"
+    "solvedAt": "2020-11-13T07:14:00+08:00",
+    "titleZh": "哈沙德数"
   },
   {
     "id": 388,
     "title": "Distinct Lines",
-    "solvedAt": "2026-06-09T06:05:00+08:00"
+    "solvedAt": "2026-06-09T06:05:00+08:00",
+    "titleZh": "不同的直线"
   },
   {
     "id": 389,
-    "title": "Platonic Dice"
+    "title": "Platonic Dice",
+    "titleZh": "柏拉图多面体骰子"
   },
   {
     "id": 390,
     "title": "Triangles with Non Rational Sides and Integral Area",
-    "solvedAt": "2026-02-24T06:53:00+08:00"
+    "solvedAt": "2026-02-24T06:53:00+08:00",
+    "titleZh": "边长非有理且面积为整数的三角形"
   },
   {
     "id": 391,
-    "title": "Hopping Game"
+    "title": "Hopping Game",
+    "titleZh": "跳跃游戏"
   },
   {
     "id": 392,
-    "title": "Enmeshed Unit Circle"
+    "title": "Enmeshed Unit Circle",
+    "titleZh": "网格中的单位圆"
   },
   {
     "id": 393,
     "title": "Migrating Ants",
-    "solvedAt": "2025-12-16T03:06:00+08:00"
+    "solvedAt": "2025-12-16T03:06:00+08:00",
+    "titleZh": "迁徙的蚂蚁"
   },
   {
     "id": 394,
-    "title": "Eating Pie"
+    "title": "Eating Pie",
+    "titleZh": "吃馅饼"
   },
   {
     "id": 395,
-    "title": "Pythagorean Tree"
+    "title": "Pythagorean Tree",
+    "titleZh": "勾股树"
   },
   {
     "id": 396,
-    "title": "Weak Goodstein Sequence"
+    "title": "Weak Goodstein Sequence",
+    "titleZh": "弱古德斯坦数列"
   },
   {
     "id": 397,
-    "title": "Triangle on Parabola"
+    "title": "Triangle on Parabola",
+    "titleZh": "抛物线上的三角形"
   },
   {
     "id": 398,
-    "title": "Cutting Rope"
+    "title": "Cutting Rope",
+    "titleZh": "割绳子"
   },
   {
     "id": 399,
-    "title": "Squarefree Fibonacci Numbers"
+    "title": "Squarefree Fibonacci Numbers",
+    "titleZh": "无平方因子的斐波那契数"
   },
   {
     "id": 400,
-    "title": "Fibonacci Tree Game"
+    "title": "Fibonacci Tree Game",
+    "titleZh": "斐波那契树游戏"
   },
   {
     "id": 401,
     "title": "Sum of Squares of Divisors",
-    "solvedAt": "2025-08-03T18:22:00+08:00"
+    "solvedAt": "2025-08-03T18:22:00+08:00",
+    "titleZh": "因数平方和"
   },
   {
     "id": 402,
-    "title": "Integer-valued Polynomials"
+    "title": "Integer-valued Polynomials",
+    "titleZh": "整值多项式"
   },
   {
     "id": 403,
-    "title": "Lattice Points Enclosed by Parabola and Line"
+    "title": "Lattice Points Enclosed by Parabola and Line",
+    "titleZh": "由抛物线和直线包围的格点"
   },
   {
     "id": 404,
-    "title": "Crisscross Ellipses"
+    "title": "Crisscross Ellipses",
+    "titleZh": "交错的椭圆"
   },
   {
     "id": 405,
-    "title": "A Rectangular Tiling"
+    "title": "A Rectangular Tiling",
+    "titleZh": "矩形铺砌"
   },
   {
     "id": 406,
-    "title": "Guessing Game"
+    "title": "Guessing Game",
+    "titleZh": "猜谜游戏"
   },
   {
     "id": 407,
     "title": "Idempotents",
-    "solvedAt": "2025-02-10T16:32:00+08:00"
+    "solvedAt": "2025-02-10T16:32:00+08:00",
+    "titleZh": "幂等元"
   },
   {
     "id": 408,
-    "title": "Admissible Paths Through a Grid"
+    "title": "Admissible Paths Through a Grid",
+    "titleZh": "穿过网格的合法路径"
   },
   {
     "id": 409,
-    "title": "Nim Extreme"
+    "title": "Nim Extreme",
+    "titleZh": "极限尼姆游戏"
   },
   {
     "id": 410,
-    "title": "Circle and Tangent Line"
+    "title": "Circle and Tangent Line",
+    "titleZh": "圆和切线"
   },
   {
     "id": 411,
-    "title": "Uphill Paths"
+    "title": "Uphill Paths",
+    "titleZh": "上坡路径"
   },
   {
     "id": 412,
-    "title": "Gnomon Numbering"
+    "title": "Gnomon Numbering",
+    "titleZh": "曲尺形编号"
   },
   {
     "id": 413,
-    "title": "One-child Numbers"
+    "title": "One-child Numbers",
+    "titleZh": "独子数"
   },
   {
     "id": 414,
-    "title": "Kaprekar Constant"
+    "title": "Kaprekar Constant",
+    "titleZh": "卡普雷卡常数"
   },
   {
     "id": 415,
-    "title": "Titanic Sets"
+    "title": "Titanic Sets",
+    "titleZh": "巨型点集"
   },
   {
     "id": 416,
-    "title": "A Frog's Trip"
+    "title": "A Frog's Trip",
+    "titleZh": "青蛙的旅行"
   },
   {
     "id": 417,
     "title": "Reciprocal Cycles II",
-    "solvedAt": "2017-12-24T17:28:00+08:00"
+    "solvedAt": "2017-12-24T17:28:00+08:00",
+    "titleZh": "循环小数 II"
   },
   {
     "id": 418,
-    "title": "Factorisation Triples"
+    "title": "Factorisation Triples",
+    "titleZh": "因式分解三元组"
   },
   {
     "id": 419,
-    "title": "Look and Say Sequence"
+    "title": "Look and Say Sequence",
+    "titleZh": "外观数列"
   },
   {
     "id": 420,
-    "title": "$2 \\times 2$ Positive Integer Matrix"
+    "title": "$2 \\times 2$ Positive Integer Matrix",
+    "titleZh": "$2 \\times 2$ 正整数矩阵",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"5.028ex\" height=\"1.507ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2222.4 666\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-30ca9b6b60cb-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-30ca9b6b60cb-MJX-1-TEX-N-D7\" d=\"M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-30ca9b6b60cb-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"mo\" transform=\"translate(722.2,0)\"><use data-c=\"D7\" xlink:href=\"#pe-30ca9b6b60cb-MJX-1-TEX-N-D7\"></use></g><g data-mml-node=\"mn\" transform=\"translate(1722.4,0)\"><use data-c=\"32\" xlink:href=\"#pe-30ca9b6b60cb-MJX-1-TEX-N-32\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>×</mo><mn>2</mn></math></mjx-assistive-mml></mjx-container> Positive Integer Matrix",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"5.028ex\" height=\"1.507ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2222.4 666\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-c53ab76e47a8-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-c53ab76e47a8-MJX-1-TEX-N-D7\" d=\"M630 29Q630 9 609 9Q604 9 587 25T493 118L389 222L284 117Q178 13 175 11Q171 9 168 9Q160 9 154 15T147 29Q147 36 161 51T255 146L359 250L255 354Q174 435 161 449T147 471Q147 480 153 485T168 490Q173 490 175 489Q178 487 284 383L389 278L493 382Q570 459 587 475T609 491Q630 491 630 471Q630 464 620 453T522 355L418 250L522 145Q606 61 618 48T630 29Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-c53ab76e47a8-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"mo\" transform=\"translate(722.2,0)\"><use data-c=\"D7\" xlink:href=\"#pe-c53ab76e47a8-MJX-1-TEX-N-D7\"></use></g><g data-mml-node=\"mn\" transform=\"translate(1722.4,0)\"><use data-c=\"32\" xlink:href=\"#pe-c53ab76e47a8-MJX-1-TEX-N-32\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><mo>×</mo><mn>2</mn></math></mjx-assistive-mml></mjx-container> 正整数矩阵"
   },
   {
     "id": 421,
     "title": "Prime Factors of $n^{15}+1$",
-    "solvedAt": "2025-05-26T12:44:00+08:00"
+    "solvedAt": "2025-05-26T12:44:00+08:00",
+    "titleZh": "$n^{15}+1$ 的质因数",
+    "titleHtml": "Prime Factors of <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.186ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"7.042ex\" height=\"2.072ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 3112.6 915.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-680027cc9488-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-680027cc9488-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-680027cc9488-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path><path id=\"pe-680027cc9488-MJX-1-TEX-N-2B\" d=\"M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-680027cc9488-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"TeXAtom\" transform=\"translate(633,363) scale(0.707)\" data-mjx-texclass=\"ORD\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-680027cc9488-MJX-1-TEX-N-31\"></use><use data-c=\"35\" xlink:href=\"#pe-680027cc9488-MJX-1-TEX-N-35\" transform=\"translate(500,0)\"></use></g></g></g><g data-mml-node=\"mo\" transform=\"translate(1612.3,0)\"><use data-c=\"2B\" xlink:href=\"#pe-680027cc9488-MJX-1-TEX-N-2B\"></use></g><g data-mml-node=\"mn\" transform=\"translate(2612.6,0)\"><use data-c=\"31\" xlink:href=\"#pe-680027cc9488-MJX-1-TEX-N-31\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mrow data-mjx-texclass=\"ORD\"><mn>15</mn></mrow></msup><mo>+</mo><mn>1</mn></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.186ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"7.042ex\" height=\"2.072ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 3112.6 915.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-e7820a6ef9f9-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-e7820a6ef9f9-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-e7820a6ef9f9-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path><path id=\"pe-e7820a6ef9f9-MJX-1-TEX-N-2B\" d=\"M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-e7820a6ef9f9-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"TeXAtom\" transform=\"translate(633,363) scale(0.707)\" data-mjx-texclass=\"ORD\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-e7820a6ef9f9-MJX-1-TEX-N-31\"></use><use data-c=\"35\" xlink:href=\"#pe-e7820a6ef9f9-MJX-1-TEX-N-35\" transform=\"translate(500,0)\"></use></g></g></g><g data-mml-node=\"mo\" transform=\"translate(1612.3,0)\"><use data-c=\"2B\" xlink:href=\"#pe-e7820a6ef9f9-MJX-1-TEX-N-2B\"></use></g><g data-mml-node=\"mn\" transform=\"translate(2612.6,0)\"><use data-c=\"31\" xlink:href=\"#pe-e7820a6ef9f9-MJX-1-TEX-N-31\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>n</mi><mrow data-mjx-texclass=\"ORD\"><mn>15</mn></mrow></msup><mo>+</mo><mn>1</mn></math></mjx-assistive-mml></mjx-container> 的质因数"
   },
   {
     "id": 422,
-    "title": "Sequence of Points on a Hyperbola"
+    "title": "Sequence of Points on a Hyperbola",
+    "titleZh": "双曲线上的点序列"
   },
   {
     "id": 423,
-    "title": "Consecutive Die Throws"
+    "title": "Consecutive Die Throws",
+    "titleZh": "连续掷骰"
   },
   {
     "id": 424,
-    "title": "Kakuro"
+    "title": "Kakuro",
+    "titleZh": "数和谜题"
   },
   {
     "id": 425,
     "title": "Prime Connection",
-    "solvedAt": "2025-02-18T07:08:00+08:00"
+    "solvedAt": "2025-02-18T07:08:00+08:00",
+    "titleZh": "质数连接"
   },
   {
     "id": 426,
-    "title": "Box-Ball System"
+    "title": "Box-Ball System",
+    "titleZh": "箱球系统"
   },
   {
     "id": 427,
-    "title": "$n$-sequences"
+    "title": "$n$-sequences",
+    "titleZh": "$n$-序列",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.357ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 600 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-ae61c0186176-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-ae61c0186176-MJX-1-TEX-I-1D45B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></mjx-assistive-mml></mjx-container>-sequences",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.357ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 600 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-eff497fbb47b-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-eff497fbb47b-MJX-1-TEX-I-1D45B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></mjx-assistive-mml></mjx-container>-序列"
   },
   {
     "id": 428,
-    "title": "Necklace of Circles"
+    "title": "Necklace of Circles",
+    "titleZh": "圆圈项链"
   },
   {
     "id": 429,
     "title": "Sum of Squares of Unitary Divisors",
-    "solvedAt": "2017-07-03T09:57:00+08:00"
+    "solvedAt": "2017-07-03T09:57:00+08:00",
+    "titleZh": "酉因数的平方和"
   },
   {
     "id": 430,
-    "title": "Range Flips"
+    "title": "Range Flips",
+    "titleZh": "区间翻转"
   },
   {
     "id": 431,
-    "title": "Square Space Silo"
+    "title": "Square Space Silo",
+    "titleZh": "空余体积为平方数的粮仓"
   },
   {
     "id": 432,
-    "title": "Totient Sum"
+    "title": "Totient Sum",
+    "titleZh": "欧拉函数之和"
   },
   {
     "id": 433,
-    "title": "Steps in Euclid's Algorithm"
+    "title": "Steps in Euclid's Algorithm",
+    "titleZh": "欧几里得算法的步数"
   },
   {
     "id": 434,
-    "title": "Rigid Graphs"
+    "title": "Rigid Graphs",
+    "titleZh": "刚性图"
   },
   {
     "id": 435,
     "title": "Polynomials of Fibonacci Numbers",
-    "solvedAt": "2017-06-30T19:03:00+08:00"
+    "solvedAt": "2017-06-30T19:03:00+08:00",
+    "titleZh": "斐波那契数多项式"
   },
   {
     "id": 436,
-    "title": "Unfair Wager"
+    "title": "Unfair Wager",
+    "titleZh": "不公平的赌注"
   },
   {
     "id": 437,
-    "title": "Fibonacci Primitive Roots"
+    "title": "Fibonacci Primitive Roots",
+    "titleZh": "斐波那契原根"
   },
   {
     "id": 438,
-    "title": "Integer Part of Polynomial Equation's Solutions"
+    "title": "Integer Part of Polynomial Equation's Solutions",
+    "titleZh": "多项式方程解的整数部分"
   },
   {
     "id": 439,
     "title": "Sum of Sum of Divisors",
-    "solvedAt": "2026-07-22T15:56:00+08:00"
+    "solvedAt": "2026-07-22T15:56:00+08:00",
+    "titleZh": "因数和的和"
   },
   {
     "id": 440,
-    "title": "GCD and Tiling"
+    "title": "GCD and Tiling",
+    "titleZh": "最大公约数与铺砌"
   },
   {
     "id": 441,
     "title": "The Inverse Summation of Coprime Couples",
-    "solvedAt": "2026-01-29T14:14:00+08:00"
+    "solvedAt": "2026-01-29T14:14:00+08:00",
+    "titleZh": "互质数对的倒数求和"
   },
   {
     "id": 442,
-    "title": "Eleven-free Integers"
+    "title": "Eleven-free Integers",
+    "titleZh": "不含十一的整数"
   },
   {
     "id": 443,
     "title": "GCD Sequence",
-    "solvedAt": "2017-06-30T19:18:00+08:00"
+    "solvedAt": "2017-06-30T19:18:00+08:00",
+    "titleZh": "最大公约数数列"
   },
   {
     "id": 444,
-    "title": "The Roundtable Lottery"
+    "title": "The Roundtable Lottery",
+    "titleZh": "圆桌抽奖"
   },
   {
     "id": 445,
-    "title": "Retractions A"
+    "title": "Retractions A",
+    "titleZh": "回缩 A"
   },
   {
     "id": 446,
-    "title": "Retractions B"
+    "title": "Retractions B",
+    "titleZh": "回缩 B"
   },
   {
     "id": 447,
-    "title": "Retractions C"
+    "title": "Retractions C",
+    "titleZh": "回缩 C"
   },
   {
     "id": 448,
-    "title": "Average Least Common Multiple"
+    "title": "Average Least Common Multiple",
+    "titleZh": "平均最小公倍数"
   },
   {
     "id": 449,
-    "title": "Chocolate Covered Candy"
+    "title": "Chocolate Covered Candy",
+    "titleZh": "裹上巧克力的糖果"
   },
   {
     "id": 450,
-    "title": "Hypocycloid and Lattice Points"
+    "title": "Hypocycloid and Lattice Points",
+    "titleZh": "内摆线和格点"
   },
   {
     "id": 451,
-    "title": "Modular Inverses"
+    "title": "Modular Inverses",
+    "titleZh": "模逆元"
   },
   {
     "id": 452,
     "title": "Long Products",
-    "solvedAt": "2026-02-24T05:33:00+08:00"
+    "solvedAt": "2026-02-24T05:33:00+08:00",
+    "titleZh": "长乘积"
   },
   {
     "id": 453,
-    "title": "Lattice Quadrilaterals"
+    "title": "Lattice Quadrilaterals",
+    "titleZh": "格点四边形"
   },
   {
     "id": 454,
-    "title": "Diophantine Reciprocals III"
+    "title": "Diophantine Reciprocals III",
+    "titleZh": "丢番图倒数 III"
   },
   {
     "id": 455,
     "title": "Powers with Trailing Digits",
-    "solvedAt": "2018-11-16T17:53:00+08:00"
+    "solvedAt": "2018-11-16T17:53:00+08:00",
+    "titleZh": "幂的末尾数位"
   },
   {
     "id": 456,
-    "title": "Triangles Containing the Origin II"
+    "title": "Triangles Containing the Origin II",
+    "titleZh": "包含原点的三角形 II"
   },
   {
     "id": 457,
     "title": "A Polynomial Modulo the Square of a Prime",
-    "solvedAt": "2026-04-16T16:33:00+08:00"
+    "solvedAt": "2026-04-16T16:33:00+08:00",
+    "titleZh": "以质数平方为模的多项式"
   },
   {
     "id": 458,
     "title": "Permutations of Project",
-    "solvedAt": "2025-06-19T15:54:00+08:00"
+    "solvedAt": "2025-06-19T15:54:00+08:00",
+    "titleZh": "单词 Project 的排列"
   },
   {
     "id": 459,
-    "title": "Flipping Game"
+    "title": "Flipping Game",
+    "titleZh": "翻转游戏"
   },
   {
     "id": 460,
-    "title": "An Ant on the Move"
+    "title": "An Ant on the Move",
+    "titleZh": "行进中的蚂蚁"
   },
   {
     "id": 461,
     "title": "Almost Pi",
-    "solvedAt": "2017-06-30T19:26:00+08:00"
+    "solvedAt": "2017-06-30T19:26:00+08:00",
+    "titleZh": "逼近圆周率"
   },
   {
     "id": 462,
-    "title": "Permutation of 3-smooth Numbers"
+    "title": "Permutation of 3-smooth Numbers",
+    "titleZh": "3-光滑数的排列"
   },
   {
     "id": 463,
-    "title": "A Weird Recurrence Relation"
+    "title": "A Weird Recurrence Relation",
+    "titleZh": "奇特的递推关系"
   },
   {
     "id": 464,
-    "title": "Möbius Function and Intervals"
+    "title": "Möbius Function and Intervals",
+    "titleZh": "莫比乌斯函数和区间"
   },
   {
     "id": 465,
-    "title": "Polar Polygons"
+    "title": "Polar Polygons",
+    "titleZh": "极多边形"
   },
   {
     "id": 466,
-    "title": "Distinct Terms in a Multiplication Table"
+    "title": "Distinct Terms in a Multiplication Table",
+    "titleZh": "乘法表中的不同项"
   },
   {
     "id": 467,
-    "title": "Superinteger"
+    "title": "Superinteger",
+    "titleZh": "超整数"
   },
   {
     "id": 468,
-    "title": "Smooth Divisors of Binomial Coefficients"
+    "title": "Smooth Divisors of Binomial Coefficients",
+    "titleZh": "二项式系数的光滑因数"
   },
   {
     "id": 469,
-    "title": "Empty Chairs"
+    "title": "Empty Chairs",
+    "titleZh": "空椅子"
   },
   {
     "id": 470,
-    "title": "Super Ramvok"
+    "title": "Super Ramvok",
+    "titleZh": "超级拉姆沃克"
   },
   {
     "id": 471,
-    "title": "Triangle Inscribed in Ellipse"
+    "title": "Triangle Inscribed in Ellipse",
+    "titleZh": "椭圆内接三角形"
   },
   {
     "id": 472,
-    "title": "Comfortable Distance II"
+    "title": "Comfortable Distance II",
+    "titleZh": "舒适距离 II"
   },
   {
     "id": 473,
-    "title": "Phigital Number Base"
+    "title": "Phigital Number Base",
+    "titleZh": "黄金比例进制"
   },
   {
     "id": 474,
-    "title": "Last Digits of Divisors"
+    "title": "Last Digits of Divisors",
+    "titleZh": "因数的末尾数位"
   },
   {
     "id": 475,
     "title": "Music Festival",
-    "solvedAt": "2026-08-19T07:25:00+08:00"
+    "solvedAt": "2026-08-19T07:25:00+08:00",
+    "titleZh": "音乐节"
   },
   {
     "id": 476,
-    "title": "Circle Packing II"
+    "title": "Circle Packing II",
+    "titleZh": "圆填充 II"
   },
   {
     "id": 477,
-    "title": "Number Sequence Game"
+    "title": "Number Sequence Game",
+    "titleZh": "数列游戏"
   },
   {
     "id": 478,
-    "title": "Mixtures"
+    "title": "Mixtures",
+    "titleZh": "混合物"
   },
   {
     "id": 479,
     "title": "Roots on the Rise",
-    "solvedAt": "2019-03-02T05:08:00+08:00"
+    "solvedAt": "2019-03-02T05:08:00+08:00",
+    "titleZh": "不断增大的根"
   },
   {
     "id": 480,
-    "title": "The Last Question"
+    "title": "The Last Question",
+    "titleZh": "最后一个问题"
   },
   {
     "id": 481,
-    "title": "Chef Showdown"
+    "title": "Chef Showdown",
+    "titleZh": "厨师对决"
   },
   {
     "id": 482,
-    "title": "The Incenter of a Triangle"
+    "title": "The Incenter of a Triangle",
+    "titleZh": "三角形的内心"
   },
   {
     "id": 483,
-    "title": "Repeated Permutation"
+    "title": "Repeated Permutation",
+    "titleZh": "重复排列"
   },
   {
     "id": 484,
-    "title": "Arithmetic Derivative"
+    "title": "Arithmetic Derivative",
+    "titleZh": "算术导数"
   },
   {
     "id": 485,
     "title": "Maximum Number of Divisors",
-    "solvedAt": "2025-08-12T12:21:00+08:00"
+    "solvedAt": "2025-08-12T12:21:00+08:00",
+    "titleZh": "因数个数的最大值"
   },
   {
     "id": 486,
-    "title": "Palindrome-containing Strings"
+    "title": "Palindrome-containing Strings",
+    "titleZh": "包含回文的字符串"
   },
   {
     "id": 487,
     "title": "Sums of Power Sums",
-    "solvedAt": "2025-07-23T17:32:00+08:00"
+    "solvedAt": "2025-07-23T17:32:00+08:00",
+    "titleZh": "幂和的和"
   },
   {
     "id": 488,
-    "title": "Unbalanced Nim"
+    "title": "Unbalanced Nim",
+    "titleZh": "不平衡尼姆游戏"
   },
   {
     "id": 489,
-    "title": "Common Factors Between Two Sequences"
+    "title": "Common Factors Between Two Sequences",
+    "titleZh": "两个数列之间的公因数"
   },
   {
     "id": 490,
-    "title": "Jumping Frog"
+    "title": "Jumping Frog",
+    "titleZh": "跳蛙"
   },
   {
     "id": 491,
     "title": "Double Pandigital Number Divisible by $11$",
-    "solvedAt": "2019-02-21T11:35:00+08:00"
+    "solvedAt": "2019-02-21T11:35:00+08:00",
+    "titleZh": "可被 $11$ 整除的双重全数字数",
+    "titleHtml": "Double Pandigital Number Divisible by <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.507ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1000 666\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d13492d66d4e-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-d13492d66d4e-MJX-1-TEX-N-31\"></use><use data-c=\"31\" xlink:href=\"#pe-d13492d66d4e-MJX-1-TEX-N-31\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "可被 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.507ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1000 666\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-21fd0b7f3cbd-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-21fd0b7f3cbd-MJX-1-TEX-N-31\"></use><use data-c=\"31\" xlink:href=\"#pe-21fd0b7f3cbd-MJX-1-TEX-N-31\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>11</mn></math></mjx-assistive-mml></mjx-container> 整除的双重全数字数"
   },
   {
     "id": 492,
-    "title": "Exploding Sequence"
+    "title": "Exploding Sequence",
+    "titleZh": "爆炸序列"
   },
   {
     "id": 493,
     "title": "Under the Rainbow",
-    "solvedAt": "2019-01-25T03:12:00+08:00"
+    "solvedAt": "2019-01-25T03:12:00+08:00",
+    "titleZh": "彩虹之下"
   },
   {
     "id": 494,
-    "title": "Collatz Prefix Families"
+    "title": "Collatz Prefix Families",
+    "titleZh": "柯拉茨前缀族"
   },
   {
     "id": 495,
-    "title": "Writing $n$ as the Product of $k$ Distinct Positive Integers"
+    "title": "Writing $n$ as the Product of $k$ Distinct Positive Integers",
+    "titleZh": "将 $n$ 写成 $k$ 个不同正整数的乘积",
+    "titleHtml": "Writing <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.357ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 600 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-3d46dc36b377-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-3d46dc36b377-MJX-1-TEX-I-1D45B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></mjx-assistive-mml></mjx-container> as the Product of <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.179ex\" height=\"1.595ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -694 521 705\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-3d46dc36b377-MJX-2-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D458\" xlink:href=\"#pe-3d46dc36b377-MJX-2-TEX-I-1D458\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math></mjx-assistive-mml></mjx-container> Distinct Positive Integers",
+    "titleZhHtml": "将 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.357ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 600 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-71161b809010-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-71161b809010-MJX-1-TEX-I-1D45B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></mjx-assistive-mml></mjx-container> 写成 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.179ex\" height=\"1.595ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -694 521 705\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-71161b809010-MJX-2-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D458\" xlink:href=\"#pe-71161b809010-MJX-2-TEX-I-1D458\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math></mjx-assistive-mml></mjx-container> 个不同正整数的乘积"
   },
   {
     "id": 496,
-    "title": "Incenter and Circumcenter of Triangle"
+    "title": "Incenter and Circumcenter of Triangle",
+    "titleZh": "三角形的内心和外心"
   },
   {
     "id": 497,
-    "title": "Drunken Tower of Hanoi"
+    "title": "Drunken Tower of Hanoi",
+    "titleZh": "醉汉的汉诺塔"
   },
   {
     "id": 498,
-    "title": "Remainder of Polynomial Division"
+    "title": "Remainder of Polynomial Division",
+    "titleZh": "多项式除法的余数"
   },
   {
     "id": 499,
-    "title": "St. Petersburg Lottery"
+    "title": "St. Petersburg Lottery",
+    "titleZh": "圣彼得堡彩票"
   },
   {
     "id": 500,
     "title": "Problem 500!!!",
-    "solvedAt": "2019-01-29T07:28:00+08:00"
+    "solvedAt": "2019-01-29T07:28:00+08:00",
+    "titleZh": "第 500 题！"
   },
   {
     "id": 501,
     "title": "Eight Divisors",
-    "solvedAt": "2025-07-23T18:59:00+08:00"
+    "solvedAt": "2025-07-23T18:59:00+08:00",
+    "titleZh": "八个因数"
   },
   {
     "id": 502,
-    "title": "Counting Castles"
+    "title": "Counting Castles",
+    "titleZh": "城堡计数"
   },
   {
     "id": 503,
-    "title": "Compromise or Persist"
+    "title": "Compromise or Persist",
+    "titleZh": "妥协还是坚持"
   },
   {
     "id": 504,
     "title": "Square on the Inside",
-    "solvedAt": "2023-09-08T06:50:00+08:00"
+    "solvedAt": "2023-09-08T06:50:00+08:00",
+    "titleZh": "内部格点数为平方数"
   },
   {
     "id": 505,
-    "title": "Bidirectional Recurrence"
+    "title": "Bidirectional Recurrence",
+    "titleZh": "双向递推"
   },
   {
     "id": 506,
     "title": "Clock Sequence",
-    "solvedAt": "2025-10-16T06:26:00+08:00"
+    "solvedAt": "2025-10-16T06:26:00+08:00",
+    "titleZh": "时钟序列"
   },
   {
     "id": 507,
-    "title": "Shortest Lattice Vector"
+    "title": "Shortest Lattice Vector",
+    "titleZh": "最短格向量"
   },
   {
     "id": 508,
-    "title": "Integers in Base $i-1$"
+    "title": "Integers in Base $i-1$",
+    "titleZh": "以 $i-1$ 为底的整数表示",
+    "titleHtml": "Integers in Base <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.186ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.677ex\" height=\"1.692ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2067.4 748\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-dfc92a0bf406-MJX-1-TEX-I-1D456\" d=\"M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z\"></path><path id=\"pe-dfc92a0bf406-MJX-1-TEX-N-2212\" d=\"M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z\"></path><path id=\"pe-dfc92a0bf406-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D456\" xlink:href=\"#pe-dfc92a0bf406-MJX-1-TEX-I-1D456\"></use></g><g data-mml-node=\"mo\" transform=\"translate(567.2,0)\"><use data-c=\"2212\" xlink:href=\"#pe-dfc92a0bf406-MJX-1-TEX-N-2212\"></use></g><g data-mml-node=\"mn\" transform=\"translate(1567.4,0)\"><use data-c=\"31\" xlink:href=\"#pe-dfc92a0bf406-MJX-1-TEX-N-31\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>−</mo><mn>1</mn></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "以 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.186ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.677ex\" height=\"1.692ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2067.4 748\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-f76c943d81df-MJX-1-TEX-I-1D456\" d=\"M184 600Q184 624 203 642T247 661Q265 661 277 649T290 619Q290 596 270 577T226 557Q211 557 198 567T184 600ZM21 287Q21 295 30 318T54 369T98 420T158 442Q197 442 223 419T250 357Q250 340 236 301T196 196T154 83Q149 61 149 51Q149 26 166 26Q175 26 185 29T208 43T235 78T260 137Q263 149 265 151T282 153Q302 153 302 143Q302 135 293 112T268 61T223 11T161 -11Q129 -11 102 10T74 74Q74 91 79 106T122 220Q160 321 166 341T173 380Q173 404 156 404H154Q124 404 99 371T61 287Q60 286 59 284T58 281T56 279T53 278T49 278T41 278H27Q21 284 21 287Z\"></path><path id=\"pe-f76c943d81df-MJX-1-TEX-N-2212\" d=\"M84 237T84 250T98 270H679Q694 262 694 250T679 230H98Q84 237 84 250Z\"></path><path id=\"pe-f76c943d81df-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D456\" xlink:href=\"#pe-f76c943d81df-MJX-1-TEX-I-1D456\"></use></g><g data-mml-node=\"mo\" transform=\"translate(567.2,0)\"><use data-c=\"2212\" xlink:href=\"#pe-f76c943d81df-MJX-1-TEX-N-2212\"></use></g><g data-mml-node=\"mn\" transform=\"translate(1567.4,0)\"><use data-c=\"31\" xlink:href=\"#pe-f76c943d81df-MJX-1-TEX-N-31\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>i</mi><mo>−</mo><mn>1</mn></math></mjx-assistive-mml></mjx-container> 为底的整数表示"
   },
   {
     "id": 509,
     "title": "Divisor Nim",
-    "solvedAt": "2025-07-15T16:06:00+08:00"
+    "solvedAt": "2025-07-15T16:06:00+08:00",
+    "titleZh": "因数尼姆游戏"
   },
   {
     "id": 510,
-    "title": "Tangent Circles"
+    "title": "Tangent Circles",
+    "titleZh": "相切圆"
   },
   {
     "id": 511,
-    "title": "Sequences with Nice Divisibility Properties"
+    "title": "Sequences with Nice Divisibility Properties",
+    "titleZh": "具有良好整除性质的数列"
   },
   {
     "id": 512,
     "title": "Sums of Totients of Powers",
-    "solvedAt": "2025-02-09T04:42:00+08:00"
+    "solvedAt": "2025-02-09T04:42:00+08:00",
+    "titleZh": "幂的欧拉函数值之和"
   },
   {
     "id": 513,
-    "title": "Integral Median"
+    "title": "Integral Median",
+    "titleZh": "整数长度的中线"
   },
   {
     "id": 514,
-    "title": "Geoboard Shapes"
+    "title": "Geoboard Shapes",
+    "titleZh": "钉板上的图形"
   },
   {
     "id": 515,
-    "title": "Dissonant Numbers"
+    "title": "Dissonant Numbers",
+    "titleZh": "不谐和数"
   },
   {
     "id": 516,
     "title": "$5$-smooth Totients",
-    "solvedAt": "2019-03-04T16:13:00+08:00"
+    "solvedAt": "2019-03-04T16:13:00+08:00",
+    "titleZh": "值为 $5$ 光滑数的欧拉函数",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 500 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-3ebf62e81fe6-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"35\" xlink:href=\"#pe-3ebf62e81fe6-MJX-1-TEX-N-35\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></mjx-assistive-mml></mjx-container>-smooth Totients",
+    "titleZhHtml": "值为 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 500 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-3a4c79998222-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"35\" xlink:href=\"#pe-3a4c79998222-MJX-1-TEX-N-35\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></mjx-assistive-mml></mjx-container> 光滑数的欧拉函数"
   },
   {
     "id": 517,
     "title": "A Real Recursion",
-    "solvedAt": "2026-02-12T14:41:00+08:00"
+    "solvedAt": "2026-02-12T14:41:00+08:00",
+    "titleZh": "实数递推"
   },
   {
     "id": 518,
     "title": "Prime Triples and Geometric Sequences",
-    "solvedAt": "2019-03-06T14:31:00+08:00"
+    "solvedAt": "2019-03-06T14:31:00+08:00",
+    "titleZh": "质数三元组与等比数列"
   },
   {
     "id": 519,
-    "title": "Tricoloured Coin Fountains"
+    "title": "Tricoloured Coin Fountains",
+    "titleZh": "三色硬币喷泉"
   },
   {
     "id": 520,
-    "title": "Simbers"
+    "title": "Simbers",
+    "titleZh": "Simber 数"
   },
   {
     "id": 521,
-    "title": "Smallest Prime Factor"
+    "title": "Smallest Prime Factor",
+    "titleZh": "最小质因数"
   },
   {
     "id": 522,
-    "title": "Hilbert's Blackout"
+    "title": "Hilbert's Blackout",
+    "titleZh": "希尔伯特停电"
   },
   {
     "id": 523,
     "title": "First Sort I",
-    "solvedAt": "2025-12-12T15:28:00+08:00"
+    "solvedAt": "2025-12-12T15:28:00+08:00",
+    "titleZh": "First Sort 排序 I"
   },
   {
     "id": 524,
-    "title": "First Sort II"
+    "title": "First Sort II",
+    "titleZh": "First Sort 排序 II"
   },
   {
     "id": 525,
-    "title": "Rolling Ellipse"
+    "title": "Rolling Ellipse",
+    "titleZh": "滚动椭圆"
   },
   {
     "id": 526,
     "title": "Largest Prime Factors of Consecutive Numbers",
-    "solvedAt": "2026-06-08T16:17:00+08:00"
+    "solvedAt": "2026-06-08T16:17:00+08:00",
+    "titleZh": "连续数的最大质因数"
   },
   {
     "id": 527,
-    "title": "Randomized Binary Search"
+    "title": "Randomized Binary Search",
+    "titleZh": "随机二分查找"
   },
   {
     "id": 528,
     "title": "Constrained Sums",
-    "solvedAt": "2026-06-08T14:40:00+08:00"
+    "solvedAt": "2026-06-08T14:40:00+08:00",
+    "titleZh": "受限求和"
   },
   {
     "id": 529,
-    "title": "$10$-substrings"
+    "title": "$10$-substrings",
+    "titleZh": "$10$ 子串",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-6201bc20e736-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-6201bc20e736-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-6201bc20e736-MJX-1-TEX-N-31\"></use><use data-c=\"30\" xlink:href=\"#pe-6201bc20e736-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></mjx-assistive-mml></mjx-container>-substrings",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-ae75ea585d7d-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-ae75ea585d7d-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-ae75ea585d7d-MJX-1-TEX-N-31\"></use><use data-c=\"30\" xlink:href=\"#pe-ae75ea585d7d-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>10</mn></math></mjx-assistive-mml></mjx-container> 子串"
   },
   {
     "id": 530,
     "title": "GCD of Divisors",
-    "solvedAt": "2025-05-24T09:50:00+08:00"
+    "solvedAt": "2025-05-24T09:50:00+08:00",
+    "titleZh": "因数的最大公约数"
   },
   {
     "id": 531,
     "title": "Chinese Leftovers",
-    "solvedAt": "2026-04-11T08:53:00+08:00"
+    "solvedAt": "2026-04-11T08:53:00+08:00",
+    "titleZh": "中国剩余问题"
   },
   {
     "id": 532,
-    "title": "Nanobots on Geodesics"
+    "title": "Nanobots on Geodesics",
+    "titleZh": "测地线纳米机器人"
   },
   {
     "id": 533,
-    "title": "Minimum Values of the Carmichael Function"
+    "title": "Minimum Values of the Carmichael Function",
+    "titleZh": "卡迈克尔函数的最小值"
   },
   {
     "id": 534,
-    "title": "Weak Queens"
+    "title": "Weak Queens",
+    "titleZh": "弱皇后"
   },
   {
     "id": 535,
-    "title": "Fractal Sequence"
+    "title": "Fractal Sequence",
+    "titleZh": "分形序列"
   },
   {
     "id": 536,
-    "title": "Modulo Power Identity"
+    "title": "Modulo Power Identity",
+    "titleZh": "模意义下的幂恒等式"
   },
   {
     "id": 537,
     "title": "Counting Tuples",
-    "solvedAt": "2026-08-19T01:48:00+08:00"
+    "solvedAt": "2026-08-19T01:48:00+08:00",
+    "titleZh": "元组计数"
   },
   {
     "id": 538,
-    "title": "Maximum Quadrilaterals"
+    "title": "Maximum Quadrilaterals",
+    "titleZh": "最大四边形"
   },
   {
     "id": 539,
-    "title": "Odd Elimination"
+    "title": "Odd Elimination",
+    "titleZh": "奇数消除"
   },
   {
     "id": 540,
     "title": "Counting Primitive Pythagorean Triples",
-    "solvedAt": "2025-10-21T03:51:00+08:00"
+    "solvedAt": "2025-10-21T03:51:00+08:00",
+    "titleZh": "本原勾股数组计数"
   },
   {
     "id": 541,
-    "title": "Divisibility of Harmonic Number Denominators"
+    "title": "Divisibility of Harmonic Number Denominators",
+    "titleZh": "调和数分母的整除性"
   },
   {
     "id": 542,
-    "title": "Geometric Progression with Maximum Sum"
+    "title": "Geometric Progression with Maximum Sum",
+    "titleZh": "和最大的等比数列"
   },
   {
     "id": 543,
     "title": "Prime-Sum Numbers",
-    "solvedAt": "2026-04-01T15:51:00+08:00"
+    "solvedAt": "2026-04-01T15:51:00+08:00",
+    "titleZh": "质数和数"
   },
   {
     "id": 544,
-    "title": "Chromatic Conundrum"
+    "title": "Chromatic Conundrum",
+    "titleZh": "色彩难题"
   },
   {
     "id": 545,
-    "title": "Faulhaber's Formulas"
+    "title": "Faulhaber's Formulas",
+    "titleZh": "福哈伯公式"
   },
   {
     "id": 546,
-    "title": "The Floor's Revenge"
+    "title": "The Floor's Revenge",
+    "titleZh": "下取整的复仇"
   },
   {
     "id": 547,
-    "title": "Distance of Random Points Within Hollow Square Laminae"
+    "title": "Distance of Random Points Within Hollow Square Laminae",
+    "titleZh": "空心正方形框内随机点的距离"
   },
   {
     "id": 548,
-    "title": "Gozinta Chains"
+    "title": "Gozinta Chains",
+    "titleZh": "Gozinta 链"
   },
   {
     "id": 549,
     "title": "Divisibility of Factorials",
-    "solvedAt": "2021-12-24T02:39:00+08:00"
+    "solvedAt": "2021-12-24T02:39:00+08:00",
+    "titleZh": "阶乘的整除性"
   },
   {
     "id": 550,
-    "title": "Divisor Game"
+    "title": "Divisor Game",
+    "titleZh": "因数游戏"
   },
   {
     "id": 551,
     "title": "Sum of Digits Sequence",
-    "solvedAt": "2016-07-05T02:12:00+08:00"
+    "solvedAt": "2016-07-05T02:12:00+08:00",
+    "titleZh": "数位和数列"
   },
   {
     "id": 552,
-    "title": "Chinese Leftovers II"
+    "title": "Chinese Leftovers II",
+    "titleZh": "中国剩余问题 II"
   },
   {
     "id": 553,
-    "title": "Power Sets of Power Sets"
+    "title": "Power Sets of Power Sets",
+    "titleZh": "幂集的幂集"
   },
   {
     "id": 554,
-    "title": "Centaurs on a Chess Board"
+    "title": "Centaurs on a Chess Board",
+    "titleZh": "国际象棋棋盘上的半人马"
   },
   {
     "id": 555,
-    "title": "McCarthy 91 Function"
+    "title": "McCarthy 91 Function",
+    "titleZh": "麦卡锡 91 函数"
   },
   {
     "id": 556,
     "title": "Squarefree Gaussian Integers",
-    "solvedAt": "2024-09-07T04:04:00+08:00"
+    "solvedAt": "2024-09-07T04:04:00+08:00",
+    "titleZh": "无平方因子的高斯整数"
   },
   {
     "id": 557,
-    "title": "Cutting Triangles"
+    "title": "Cutting Triangles",
+    "titleZh": "切割三角形"
   },
   {
     "id": 558,
-    "title": "Irrational Base"
+    "title": "Irrational Base",
+    "titleZh": "无理数进制"
   },
   {
     "id": 559,
-    "title": "Permuted Matrices"
+    "title": "Permuted Matrices",
+    "titleZh": "置换矩阵"
   },
   {
     "id": 560,
-    "title": "Coprime Nim"
+    "title": "Coprime Nim",
+    "titleZh": "互质尼姆游戏"
   },
   {
     "id": 561,
-    "title": "Divisor Pairs"
+    "title": "Divisor Pairs",
+    "titleZh": "因数对"
   },
   {
     "id": 562,
-    "title": "Maximal Perimeter"
+    "title": "Maximal Perimeter",
+    "titleZh": "最大周长"
   },
   {
     "id": 563,
-    "title": "Robot Welders"
+    "title": "Robot Welders",
+    "titleZh": "机器人焊工"
   },
   {
     "id": 564,
-    "title": "Maximal Polygons"
+    "title": "Maximal Polygons",
+    "titleZh": "最大多边形"
   },
   {
     "id": 565,
     "title": "Divisibility of Sum of Divisors",
-    "solvedAt": "2026-02-16T13:58:00+08:00"
+    "solvedAt": "2026-02-16T13:58:00+08:00",
+    "titleZh": "因数和的整除性"
   },
   {
     "id": 566,
-    "title": "Cake Icing Puzzle"
+    "title": "Cake Icing Puzzle",
+    "titleZh": "蛋糕糖霜谜题"
   },
   {
     "id": 567,
-    "title": "Reciprocal Games I"
+    "title": "Reciprocal Games I",
+    "titleZh": "倒数游戏 I"
   },
   {
     "id": 568,
-    "title": "Reciprocal Games II"
+    "title": "Reciprocal Games II",
+    "titleZh": "倒数游戏 II"
   },
   {
     "id": 569,
-    "title": "Prime Mountain Range"
+    "title": "Prime Mountain Range",
+    "titleZh": "质数山脉"
   },
   {
     "id": 570,
-    "title": "Snowflakes"
+    "title": "Snowflakes",
+    "titleZh": "雪花"
   },
   {
     "id": 571,
     "title": "Super Pandigital Numbers",
-    "solvedAt": "2025-06-19T09:43:00+08:00"
+    "solvedAt": "2025-06-19T09:43:00+08:00",
+    "titleZh": "超级全数字数"
   },
   {
     "id": 572,
-    "title": "Idempotent Matrices"
+    "title": "Idempotent Matrices",
+    "titleZh": "幂等矩阵"
   },
   {
     "id": 573,
-    "title": "Unfair Race"
+    "title": "Unfair Race",
+    "titleZh": "不公平竞赛"
   },
   {
     "id": 574,
-    "title": "Verifying Primes"
+    "title": "Verifying Primes",
+    "titleZh": "验证质数"
   },
   {
     "id": 575,
-    "title": "Wandering Robots"
+    "title": "Wandering Robots",
+    "titleZh": "游走的机器人"
   },
   {
     "id": 576,
-    "title": "Irrational Jumps"
+    "title": "Irrational Jumps",
+    "titleZh": "无理跳跃"
   },
   {
     "id": 577,
     "title": "Counting Hexagons",
-    "solvedAt": "2020-11-13T16:46:00+08:00"
+    "solvedAt": "2020-11-13T16:46:00+08:00",
+    "titleZh": "六边形计数"
   },
   {
     "id": 578,
-    "title": "Integers with Decreasing Prime Powers"
+    "title": "Integers with Decreasing Prime Powers",
+    "titleZh": "质数幂递减的整数"
   },
   {
     "id": 579,
-    "title": "Lattice Points in Lattice Cubes"
+    "title": "Lattice Points in Lattice Cubes",
+    "titleZh": "格点立方体中的格点"
   },
   {
     "id": 580,
-    "title": "Squarefree Hilbert Numbers"
+    "title": "Squarefree Hilbert Numbers",
+    "titleZh": "无平方因子的希尔伯特数"
   },
   {
     "id": 581,
-    "title": "$47$-smooth Triangular Numbers"
+    "title": "$47$-smooth Triangular Numbers",
+    "titleZh": "$47$ 光滑三角数",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.581ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -677 1000 699\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-853f6a3238fc-MJX-1-TEX-N-34\" d=\"M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z\"></path><path id=\"pe-853f6a3238fc-MJX-1-TEX-N-37\" d=\"M55 458Q56 460 72 567L88 674Q88 676 108 676H128V672Q128 662 143 655T195 646T364 644H485V605L417 512Q408 500 387 472T360 435T339 403T319 367T305 330T292 284T284 230T278 162T275 80Q275 66 275 52T274 28V19Q270 2 255 -10T221 -22Q210 -22 200 -19T179 0T168 40Q168 198 265 368Q285 400 349 489L395 552H302Q128 552 119 546Q113 543 108 522T98 479L95 458V455H55V458Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"34\" xlink:href=\"#pe-853f6a3238fc-MJX-1-TEX-N-34\"></use><use data-c=\"37\" xlink:href=\"#pe-853f6a3238fc-MJX-1-TEX-N-37\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>47</mn></math></mjx-assistive-mml></mjx-container>-smooth Triangular Numbers",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.262ex\" height=\"1.581ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -677 1000 699\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-bef6cb6783ac-MJX-1-TEX-N-34\" d=\"M462 0Q444 3 333 3Q217 3 199 0H190V46H221Q241 46 248 46T265 48T279 53T286 61Q287 63 287 115V165H28V211L179 442Q332 674 334 675Q336 677 355 677H373L379 671V211H471V165H379V114Q379 73 379 66T385 54Q393 47 442 46H471V0H462ZM293 211V545L74 212L183 211H293Z\"></path><path id=\"pe-bef6cb6783ac-MJX-1-TEX-N-37\" d=\"M55 458Q56 460 72 567L88 674Q88 676 108 676H128V672Q128 662 143 655T195 646T364 644H485V605L417 512Q408 500 387 472T360 435T339 403T319 367T305 330T292 284T284 230T278 162T275 80Q275 66 275 52T274 28V19Q270 2 255 -10T221 -22Q210 -22 200 -19T179 0T168 40Q168 198 265 368Q285 400 349 489L395 552H302Q128 552 119 546Q113 543 108 522T98 479L95 458V455H55V458Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"34\" xlink:href=\"#pe-bef6cb6783ac-MJX-1-TEX-N-34\"></use><use data-c=\"37\" xlink:href=\"#pe-bef6cb6783ac-MJX-1-TEX-N-37\" transform=\"translate(500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>47</mn></math></mjx-assistive-mml></mjx-container> 光滑三角数"
   },
   {
     "id": 582,
     "title": "Nearly Isosceles $120$ Degree Triangles",
-    "solvedAt": "2026-02-22T13:54:00+08:00"
+    "solvedAt": "2026-02-22T13:54:00+08:00",
+    "titleZh": "近等腰 $120$ 度三角形",
+    "titleHtml": "Nearly Isosceles <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"3.394ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1500 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-e0c1bba7240a-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-e0c1bba7240a-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-e0c1bba7240a-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-e0c1bba7240a-MJX-1-TEX-N-31\"></use><use data-c=\"32\" xlink:href=\"#pe-e0c1bba7240a-MJX-1-TEX-N-32\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-e0c1bba7240a-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn></math></mjx-assistive-mml></mjx-container> Degree Triangles",
+    "titleZhHtml": "近等腰 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"3.394ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 1500 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d2a21414e26c-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-d2a21414e26c-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-d2a21414e26c-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-d2a21414e26c-MJX-1-TEX-N-31\"></use><use data-c=\"32\" xlink:href=\"#pe-d2a21414e26c-MJX-1-TEX-N-32\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-d2a21414e26c-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>120</mn></math></mjx-assistive-mml></mjx-container> 度三角形"
   },
   {
     "id": 583,
-    "title": "Heron Envelopes"
+    "title": "Heron Envelopes",
+    "titleZh": "希罗信封"
   },
   {
     "id": 584,
-    "title": "Birthday Problem Revisited"
+    "title": "Birthday Problem Revisited",
+    "titleZh": "重温生日问题"
   },
   {
     "id": 585,
-    "title": "Nested Square Roots"
+    "title": "Nested Square Roots",
+    "titleZh": "嵌套平方根"
   },
   {
     "id": 586,
-    "title": "Binary Quadratic Form"
+    "title": "Binary Quadratic Form",
+    "titleZh": "二元二次型"
   },
   {
     "id": 587,
     "title": "Concave Triangle",
-    "solvedAt": "2017-01-23T03:34:00+08:00"
+    "solvedAt": "2017-01-23T03:34:00+08:00",
+    "titleZh": "凹三角形"
   },
   {
     "id": 588,
-    "title": "Quintinomial Coefficients"
+    "title": "Quintinomial Coefficients",
+    "titleZh": "五项式系数"
   },
   {
     "id": 589,
-    "title": "Poohsticks Marathon"
+    "title": "Poohsticks Marathon",
+    "titleZh": "维尼扔树枝马拉松"
   },
   {
     "id": 590,
-    "title": "Sets with a Given Least Common Multiple"
+    "title": "Sets with a Given Least Common Multiple",
+    "titleZh": "具有给定最小公倍数的集合"
   },
   {
     "id": 591,
-    "title": "Best Approximations by Quadratic Integers"
+    "title": "Best Approximations by Quadratic Integers",
+    "titleZh": "二次整数的最佳近似"
   },
   {
     "id": 592,
     "title": "Factorial Trailing Digits 2",
-    "solvedAt": "2026-03-18T15:18:00+08:00"
+    "solvedAt": "2026-03-18T15:18:00+08:00",
+    "titleZh": "阶乘的末尾数位 II"
   },
   {
     "id": 593,
-    "title": "Fleeting Medians"
+    "title": "Fleeting Medians",
+    "titleZh": "转瞬即逝的中位数"
   },
   {
     "id": 594,
-    "title": "Rhombus Tilings"
+    "title": "Rhombus Tilings",
+    "titleZh": "菱形铺砌"
   },
   {
     "id": 595,
-    "title": "Incremental Random Sort"
+    "title": "Incremental Random Sort",
+    "titleZh": "增量随机排序"
   },
   {
     "id": 596,
-    "title": "Number of Lattice Points in a Hyperball"
+    "title": "Number of Lattice Points in a Hyperball",
+    "titleZh": "超球内的格点数"
   },
   {
     "id": 597,
-    "title": "Torpids"
+    "title": "Torpids",
+    "titleZh": "Torpids 赛艇赛"
   },
   {
     "id": 598,
-    "title": "Split Divisibilities"
+    "title": "Split Divisibilities",
+    "titleZh": "分割整除性"
   },
   {
     "id": 599,
-    "title": "Distinct Colourings of a Rubik's Cube"
+    "title": "Distinct Colourings of a Rubik's Cube",
+    "titleZh": "魔方的不同着色方式"
   },
   {
     "id": 600,
-    "title": "Integer Sided Equiangular Hexagons"
+    "title": "Integer Sided Equiangular Hexagons",
+    "titleZh": "整数边长的等角六边形"
   },
   {
     "id": 601,
     "title": "Divisibility Streaks",
-    "solvedAt": "2019-03-19T14:14:00+08:00"
+    "solvedAt": "2019-03-19T14:14:00+08:00",
+    "titleZh": "连续整除性"
   },
   {
     "id": 602,
-    "title": "Product of Head Counts"
+    "title": "Product of Head Counts",
+    "titleZh": "人数乘积"
   },
   {
     "id": 603,
     "title": "Substring Sums of Prime Concatenations",
-    "solvedAt": "2026-05-27T08:18:00+08:00"
+    "solvedAt": "2026-05-27T08:18:00+08:00",
+    "titleZh": "拼接质数的子串和"
   },
   {
     "id": 604,
-    "title": "Convex Path in Square"
+    "title": "Convex Path in Square",
+    "titleZh": "正方形中的凸路径"
   },
   {
     "id": 605,
-    "title": "Pairwise Coin-Tossing Game"
+    "title": "Pairwise Coin-Tossing Game",
+    "titleZh": "配对抛硬币游戏"
   },
   {
     "id": 606,
-    "title": "Gozinta Chains II"
+    "title": "Gozinta Chains II",
+    "titleZh": "Gozinta 链 II"
   },
   {
     "id": 607,
     "title": "Marsh Crossing",
-    "solvedAt": "2025-12-11T11:09:00+08:00"
+    "solvedAt": "2025-12-11T11:09:00+08:00",
+    "titleZh": "穿越沼泽"
   },
   {
     "id": 608,
-    "title": "Divisor Sums"
+    "title": "Divisor Sums",
+    "titleZh": "因数之和"
   },
   {
     "id": 609,
     "title": "$\\pi$ Sequences",
-    "solvedAt": "2026-04-10T16:16:00+08:00"
+    "solvedAt": "2026-04-10T16:16:00+08:00",
+    "titleZh": "$\\pi$ 序列",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.29ex\" height=\"1ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -431 570 442\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-aedb561c28fc-MJX-1-TEX-I-1D70B\" d=\"M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D70B\" xlink:href=\"#pe-aedb561c28fc-MJX-1-TEX-I-1D70B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math></mjx-assistive-mml></mjx-container> Sequences",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.29ex\" height=\"1ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -431 570 442\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-6c974ab3c254-MJX-1-TEX-I-1D70B\" d=\"M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D70B\" xlink:href=\"#pe-6c974ab3c254-MJX-1-TEX-I-1D70B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>π</mi></math></mjx-assistive-mml></mjx-container> 序列"
   },
   {
     "id": 610,
-    "title": "Roman Numerals II"
+    "title": "Roman Numerals II",
+    "titleZh": "罗马数字 II"
   },
   {
     "id": 611,
-    "title": "Hallway of Square Steps"
+    "title": "Hallway of Square Steps",
+    "titleZh": "方形台阶走廊"
   },
   {
     "id": 612,
     "title": "Friend Numbers",
-    "solvedAt": "2025-08-12T10:36:00+08:00"
+    "solvedAt": "2025-08-12T10:36:00+08:00",
+    "titleZh": "友好数"
   },
   {
     "id": 613,
     "title": "Pythagorean Ant",
-    "solvedAt": "2025-09-01T18:59:00+08:00"
+    "solvedAt": "2025-09-01T18:59:00+08:00",
+    "titleZh": "勾股蚂蚁"
   },
   {
     "id": 614,
-    "title": "Special Partitions 2"
+    "title": "Special Partitions 2",
+    "titleZh": "特殊分拆 II"
   },
   {
     "id": 615,
-    "title": "The Millionth Number with at Least One Million Prime Factors"
+    "title": "The Millionth Number with at Least One Million Prime Factors",
+    "titleZh": "至少有 100 万个质因数的第 100 万个数"
   },
   {
     "id": 616,
-    "title": "Creative Numbers"
+    "title": "Creative Numbers",
+    "titleZh": "创造数"
   },
   {
     "id": 617,
-    "title": "Mirror Power Sequence"
+    "title": "Mirror Power Sequence",
+    "titleZh": "镜像幂数列"
   },
   {
     "id": 618,
     "title": "Numbers with a Given Prime Factor Sum",
-    "solvedAt": "2025-06-25T03:52:00+08:00"
+    "solvedAt": "2025-06-25T03:52:00+08:00",
+    "titleZh": "具有给定质因数和的数"
   },
   {
     "id": 619,
     "title": "Square Subsets",
-    "solvedAt": "2025-10-15T15:48:00+08:00"
+    "solvedAt": "2025-10-15T15:48:00+08:00",
+    "titleZh": "平方子集"
   },
   {
     "id": 620,
-    "title": "Planetary Gears"
+    "title": "Planetary Gears",
+    "titleZh": "行星齿轮"
   },
   {
     "id": 621,
-    "title": "Expressing an Integer as the Sum of Triangular Numbers"
+    "title": "Expressing an Integer as the Sum of Triangular Numbers",
+    "titleZh": "将整数表示为三角数之和"
   },
   {
     "id": 622,
     "title": "Riffle Shuffles",
-    "solvedAt": "2025-06-25T03:34:00+08:00"
+    "solvedAt": "2025-06-25T03:34:00+08:00",
+    "titleZh": "交错洗牌"
   },
   {
     "id": 623,
-    "title": "Lambda Count"
+    "title": "Lambda Count",
+    "titleZh": "拉姆达计数"
   },
   {
     "id": 624,
-    "title": "Two Heads Are Better Than One"
+    "title": "Two Heads Are Better Than One",
+    "titleZh": "两个头比一个头好"
   },
   {
     "id": 625,
     "title": "Gcd Sum",
-    "solvedAt": "2019-03-26T13:34:00+08:00"
+    "solvedAt": "2019-03-26T13:34:00+08:00",
+    "titleZh": "最大公约数之和"
   },
   {
     "id": 626,
-    "title": "Counting Binary Matrices"
+    "title": "Counting Binary Matrices",
+    "titleZh": "二元矩阵计数"
   },
   {
     "id": 627,
     "title": "Counting Products",
-    "solvedAt": "2026-02-05T14:59:00+08:00"
+    "solvedAt": "2026-02-05T14:59:00+08:00",
+    "titleZh": "乘积计数"
   },
   {
     "id": 628,
     "title": "Open Chess Positions",
-    "solvedAt": "2018-11-13T15:51:00+08:00"
+    "solvedAt": "2018-11-13T15:51:00+08:00",
+    "titleZh": "开放棋局"
   },
   {
     "id": 629,
-    "title": "Scatterstone Nim"
+    "title": "Scatterstone Nim",
+    "titleZh": "散石尼姆游戏"
   },
   {
     "id": 630,
     "title": "Crossed Lines",
-    "solvedAt": "2026-02-16T16:33:00+08:00"
+    "solvedAt": "2026-02-16T16:33:00+08:00",
+    "titleZh": "相交直线"
   },
   {
     "id": 631,
-    "title": "Constrained Permutations"
+    "title": "Constrained Permutations",
+    "titleZh": "约束排列"
   },
   {
     "id": 632,
     "title": "Square Prime Factors",
-    "solvedAt": "2025-10-14T17:40:00+08:00"
+    "solvedAt": "2025-10-14T17:40:00+08:00",
+    "titleZh": "平方质因数"
   },
   {
     "id": 633,
-    "title": "Square Prime Factors II"
+    "title": "Square Prime Factors II",
+    "titleZh": "平方质因数 II"
   },
   {
     "id": 634,
     "title": "Numbers of the Form $a^2b^3$",
-    "solvedAt": "2018-11-20T08:54:00+08:00"
+    "solvedAt": "2018-11-20T08:54:00+08:00",
+    "titleZh": "形如 $a^2b^3$ 的数",
+    "titleHtml": "Numbers of the Form <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.143ex\" height=\"1.912ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 1831.1 844.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-945e4aaeb592-MJX-1-TEX-I-1D44E\" d=\"M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z\"></path><path id=\"pe-945e4aaeb592-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-945e4aaeb592-MJX-1-TEX-I-1D44F\" d=\"M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z\"></path><path id=\"pe-945e4aaeb592-MJX-1-TEX-N-33\" d=\"M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mi\"><use data-c=\"1D44E\" xlink:href=\"#pe-945e4aaeb592-MJX-1-TEX-I-1D44E\"></use></g><g data-mml-node=\"mn\" transform=\"translate(562,363) scale(0.707)\"><use data-c=\"32\" xlink:href=\"#pe-945e4aaeb592-MJX-1-TEX-N-32\"></use></g></g><g data-mml-node=\"msup\" transform=\"translate(965.6,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D44F\" xlink:href=\"#pe-945e4aaeb592-MJX-1-TEX-I-1D44F\"></use></g><g data-mml-node=\"mn\" transform=\"translate(462,363) scale(0.707)\"><use data-c=\"33\" xlink:href=\"#pe-945e4aaeb592-MJX-1-TEX-N-33\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><msup><mi>b</mi><mn>3</mn></msup></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "形如 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.143ex\" height=\"1.912ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 1831.1 844.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-12d8ced3f59c-MJX-1-TEX-I-1D44E\" d=\"M33 157Q33 258 109 349T280 441Q331 441 370 392Q386 422 416 422Q429 422 439 414T449 394Q449 381 412 234T374 68Q374 43 381 35T402 26Q411 27 422 35Q443 55 463 131Q469 151 473 152Q475 153 483 153H487Q506 153 506 144Q506 138 501 117T481 63T449 13Q436 0 417 -8Q409 -10 393 -10Q359 -10 336 5T306 36L300 51Q299 52 296 50Q294 48 292 46Q233 -10 172 -10Q117 -10 75 30T33 157ZM351 328Q351 334 346 350T323 385T277 405Q242 405 210 374T160 293Q131 214 119 129Q119 126 119 118T118 106Q118 61 136 44T179 26Q217 26 254 59T298 110Q300 114 325 217T351 328Z\"></path><path id=\"pe-12d8ced3f59c-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-12d8ced3f59c-MJX-1-TEX-I-1D44F\" d=\"M73 647Q73 657 77 670T89 683Q90 683 161 688T234 694Q246 694 246 685T212 542Q204 508 195 472T180 418L176 399Q176 396 182 402Q231 442 283 442Q345 442 383 396T422 280Q422 169 343 79T173 -11Q123 -11 82 27T40 150V159Q40 180 48 217T97 414Q147 611 147 623T109 637Q104 637 101 637H96Q86 637 83 637T76 640T73 647ZM336 325V331Q336 405 275 405Q258 405 240 397T207 376T181 352T163 330L157 322L136 236Q114 150 114 114Q114 66 138 42Q154 26 178 26Q211 26 245 58Q270 81 285 114T318 219Q336 291 336 325Z\"></path><path id=\"pe-12d8ced3f59c-MJX-1-TEX-N-33\" d=\"M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mi\"><use data-c=\"1D44E\" xlink:href=\"#pe-12d8ced3f59c-MJX-1-TEX-I-1D44E\"></use></g><g data-mml-node=\"mn\" transform=\"translate(562,363) scale(0.707)\"><use data-c=\"32\" xlink:href=\"#pe-12d8ced3f59c-MJX-1-TEX-N-32\"></use></g></g><g data-mml-node=\"msup\" transform=\"translate(965.6,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D44F\" xlink:href=\"#pe-12d8ced3f59c-MJX-1-TEX-I-1D44F\"></use></g><g data-mml-node=\"mn\" transform=\"translate(462,363) scale(0.707)\"><use data-c=\"33\" xlink:href=\"#pe-12d8ced3f59c-MJX-1-TEX-N-33\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>a</mi><mn>2</mn></msup><msup><mi>b</mi><mn>3</mn></msup></math></mjx-assistive-mml></mjx-container> 的数"
   },
   {
     "id": 635,
-    "title": "Subset Sums"
+    "title": "Subset Sums",
+    "titleZh": "子集和"
   },
   {
     "id": 636,
-    "title": "Restricted Factorisations"
+    "title": "Restricted Factorisations",
+    "titleZh": "限制因式分解"
   },
   {
     "id": 637,
-    "title": "Flexible Digit Sum"
+    "title": "Flexible Digit Sum",
+    "titleZh": "灵活的数位和"
   },
   {
     "id": 638,
-    "title": "Weighted Lattice Paths"
+    "title": "Weighted Lattice Paths",
+    "titleZh": "加权格点路径"
   },
   {
     "id": 639,
-    "title": "Summing a Multiplicative Function"
+    "title": "Summing a Multiplicative Function",
+    "titleZh": "积性函数求和"
   },
   {
     "id": 640,
-    "title": "Shut the Box"
+    "title": "Shut the Box",
+    "titleZh": "关上盒子"
   },
   {
     "id": 641,
     "title": "A Long Row of Dice",
-    "solvedAt": "2025-10-14T17:04:00+08:00"
+    "solvedAt": "2025-10-14T17:04:00+08:00",
+    "titleZh": "一长排骰子"
   },
   {
     "id": 642,
     "title": "Sum of Largest Prime Factors",
-    "solvedAt": "2018-11-21T09:30:00+08:00"
+    "solvedAt": "2018-11-21T09:30:00+08:00",
+    "titleZh": "最大质因数之和"
   },
   {
     "id": 643,
     "title": "$2$-Friendly",
-    "solvedAt": "2019-03-19T15:18:00+08:00"
+    "solvedAt": "2019-03-19T15:18:00+08:00",
+    "titleZh": "$2$-友好",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.507ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 500 666\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-fbc6bd26a8f1-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-fbc6bd26a8f1-MJX-1-TEX-N-32\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></mjx-assistive-mml></mjx-container>-Friendly",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.507ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 500 666\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-61db6fd83045-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-61db6fd83045-MJX-1-TEX-N-32\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn></math></mjx-assistive-mml></mjx-container>-友好"
   },
   {
     "id": 644,
-    "title": "Squares on the Line"
+    "title": "Squares on the Line",
+    "titleZh": "数轴上的平方数"
   },
   {
     "id": 645,
-    "title": "Every Day Is a Holiday"
+    "title": "Every Day Is a Holiday",
+    "titleZh": "每天都是假期"
   },
   {
     "id": 646,
     "title": "Bounded Divisors",
-    "solvedAt": "2026-02-25T10:44:00+08:00"
+    "solvedAt": "2026-02-25T10:44:00+08:00",
+    "titleZh": "有界因数"
   },
   {
     "id": 647,
-    "title": "Linear Transformations of Polygonal Numbers"
+    "title": "Linear Transformations of Polygonal Numbers",
+    "titleZh": "多边形数的线性变换"
   },
   {
     "id": 648,
-    "title": "Skipping Squares"
+    "title": "Skipping Squares",
+    "titleZh": "跳过平方数"
   },
   {
     "id": 649,
-    "title": "Low-Prime Chessboard Nim"
+    "title": "Low-Prime Chessboard Nim",
+    "titleZh": "小质数棋盘尼姆游戏"
   },
   {
     "id": 650,
     "title": "Divisors of Binomial Product",
-    "solvedAt": "2024-10-17T07:36:00+08:00"
+    "solvedAt": "2024-10-17T07:36:00+08:00",
+    "titleZh": "二项式乘积的因数"
   },
   {
     "id": 651,
-    "title": "Patterned Cylinders"
+    "title": "Patterned Cylinders",
+    "titleZh": "带图案的圆柱"
   },
   {
     "id": 652,
-    "title": "Distinct Values of a Proto-logarithmic Function"
+    "title": "Distinct Values of a Proto-logarithmic Function",
+    "titleZh": "类对数函数的不同值"
   },
   {
     "id": 653,
-    "title": "Frictionless Tube"
+    "title": "Frictionless Tube",
+    "titleZh": "无摩擦管"
   },
   {
     "id": 654,
-    "title": "Neighbourly Constraints"
+    "title": "Neighbourly Constraints",
+    "titleZh": "相邻约束"
   },
   {
     "id": 655,
     "title": "Divisible Palindromes",
-    "solvedAt": "2025-06-19T15:09:00+08:00"
+    "solvedAt": "2025-06-19T15:09:00+08:00",
+    "titleZh": "可整除的回文"
   },
   {
     "id": 656,
-    "title": "Palindromic Sequences"
+    "title": "Palindromic Sequences",
+    "titleZh": "回文序列"
   },
   {
     "id": 657,
-    "title": "Incomplete Words"
+    "title": "Incomplete Words",
+    "titleZh": "不完整的单词"
   },
   {
     "id": 658,
-    "title": "Incomplete Words II"
+    "title": "Incomplete Words II",
+    "titleZh": "不完整的单词 II"
   },
   {
     "id": 659,
     "title": "Largest Prime",
-    "solvedAt": "2024-09-27T17:17:00+08:00"
+    "solvedAt": "2024-09-27T17:17:00+08:00",
+    "titleZh": "最大质数"
   },
   {
     "id": 660,
-    "title": "Pandigital Triangles"
+    "title": "Pandigital Triangles",
+    "titleZh": "全数字三角形"
   },
   {
     "id": 661,
-    "title": "A Long Chess Match"
+    "title": "A Long Chess Match",
+    "titleZh": "一场漫长的国际象棋比赛"
   },
   {
     "id": 662,
     "title": "Fibonacci Paths",
-    "solvedAt": "2019-03-25T13:32:00+08:00"
+    "solvedAt": "2019-03-25T13:32:00+08:00",
+    "titleZh": "斐波那契路径"
   },
   {
     "id": 663,
     "title": "Sums of Subarrays",
-    "solvedAt": "2019-03-31T09:14:00+08:00"
+    "solvedAt": "2019-03-31T09:14:00+08:00",
+    "titleZh": "子数组之和"
   },
   {
     "id": 664,
-    "title": "An Infinite Game"
+    "title": "An Infinite Game",
+    "titleZh": "无限游戏"
   },
   {
     "id": 665,
-    "title": "Proportionate Nim"
+    "title": "Proportionate Nim",
+    "titleZh": "比例尼姆游戏"
   },
   {
     "id": 666,
-    "title": "Polymorphic Bacteria"
+    "title": "Polymorphic Bacteria",
+    "titleZh": "多态性细菌"
   },
   {
     "id": 667,
-    "title": "Moving Pentagon"
+    "title": "Moving Pentagon",
+    "titleZh": "移动的五边形"
   },
   {
     "id": 668,
     "title": "Square Root Smooth Numbers",
-    "solvedAt": "2024-10-17T09:43:00+08:00"
+    "solvedAt": "2024-10-17T09:43:00+08:00",
+    "titleZh": "平方根光滑数"
   },
   {
     "id": 669,
-    "title": "The King's Banquet"
+    "title": "The King's Banquet",
+    "titleZh": "国王的宴会"
   },
   {
     "id": 670,
-    "title": "Colouring a Strip"
+    "title": "Colouring a Strip",
+    "titleZh": "给条带着色"
   },
   {
     "id": 671,
-    "title": "Colouring a Loop"
+    "title": "Colouring a Loop",
+    "titleZh": "环的着色"
   },
   {
     "id": 672,
-    "title": "One More One"
+    "title": "One More One",
+    "titleZh": "再加一个一"
   },
   {
     "id": 673,
-    "title": "Beds and Desks"
+    "title": "Beds and Desks",
+    "titleZh": "床和书桌"
   },
   {
     "id": 674,
-    "title": "Solving $\\mathcal{I}$-equations"
+    "title": "Solving $\\mathcal{I}$-equations",
+    "titleZh": "求解 $\\mathcal{I}$ 方程",
+    "titleHtml": "Solving <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.452ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 642 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-ba02d67d8ebe-MJX-1-TEX-C-49\" d=\"M174 0H31Q-13 0 -21 2T-30 12Q-30 23 -17 36Q9 60 42 68L155 70Q187 102 214 179T257 333T302 491T366 610L369 614H305Q221 611 188 607T145 596T128 569Q119 543 94 529T47 512Q28 512 28 524Q28 527 32 539Q56 614 159 654Q218 678 312 682Q314 682 339 682T404 682T481 683H632Q642 678 642 671Q642 657 621 641T577 617Q570 615 507 614H444Q427 592 406 542Q382 478 355 366T310 209Q280 123 238 78L230 69H330Q442 70 442 74Q443 74 443 77T447 87T460 105Q490 134 527 137Q545 137 545 125Q545 120 542 112Q531 78 491 49T399 7Q379 2 360 2T174 0Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"TeXAtom\" data-mjx-texclass=\"ORD\"><g data-mml-node=\"mi\"><use data-c=\"49\" xlink:href=\"#pe-ba02d67d8ebe-MJX-1-TEX-C-49\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow data-mjx-texclass=\"ORD\"><mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">I</mi></mrow></math></mjx-assistive-mml></mjx-container>-equations",
+    "titleZhHtml": "求解 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.452ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 642 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-c654ca7e1768-MJX-1-TEX-C-49\" d=\"M174 0H31Q-13 0 -21 2T-30 12Q-30 23 -17 36Q9 60 42 68L155 70Q187 102 214 179T257 333T302 491T366 610L369 614H305Q221 611 188 607T145 596T128 569Q119 543 94 529T47 512Q28 512 28 524Q28 527 32 539Q56 614 159 654Q218 678 312 682Q314 682 339 682T404 682T481 683H632Q642 678 642 671Q642 657 621 641T577 617Q570 615 507 614H444Q427 592 406 542Q382 478 355 366T310 209Q280 123 238 78L230 69H330Q442 70 442 74Q443 74 443 77T447 87T460 105Q490 134 527 137Q545 137 545 125Q545 120 542 112Q531 78 491 49T399 7Q379 2 360 2T174 0Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"TeXAtom\" data-mjx-texclass=\"ORD\"><g data-mml-node=\"mi\"><use data-c=\"49\" xlink:href=\"#pe-c654ca7e1768-MJX-1-TEX-C-49\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mrow data-mjx-texclass=\"ORD\"><mi data-mjx-variant=\"-tex-calligraphic\" mathvariant=\"script\">I</mi></mrow></math></mjx-assistive-mml></mjx-container> 方程"
   },
   {
     "id": 675,
     "title": "$2^{\\omega(n)}$",
-    "solvedAt": "2026-02-14T02:07:00+08:00"
+    "solvedAt": "2026-02-14T02:07:00+08:00",
+    "titleZh": "$2^{\\omega(n)}$",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.519ex\" height=\"2.021ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -893.3 1997.2 893.3\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-caeecf15f975-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-caeecf15f975-MJX-1-TEX-I-1D714\" d=\"M495 384Q495 406 514 424T555 443Q574 443 589 425T604 364Q604 334 592 278T555 155T483 38T377 -11Q297 -11 267 66Q266 68 260 61Q201 -11 125 -11Q15 -11 15 139Q15 230 56 325T123 434Q135 441 147 436Q160 429 160 418Q160 406 140 379T94 306T62 208Q61 202 61 187Q61 124 85 100T143 76Q201 76 245 129L253 137V156Q258 297 317 297Q348 297 348 261Q348 243 338 213T318 158L308 135Q309 133 310 129T318 115T334 97T358 83T393 76Q456 76 501 148T546 274Q546 305 533 325T508 357T495 384Z\"></path><path id=\"pe-caeecf15f975-MJX-1-TEX-N-28\" d=\"M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z\"></path><path id=\"pe-caeecf15f975-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-caeecf15f975-MJX-1-TEX-N-29\" d=\"M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-caeecf15f975-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"TeXAtom\" transform=\"translate(533,363) scale(0.707)\" data-mjx-texclass=\"ORD\"><g data-mml-node=\"mi\"><use data-c=\"1D714\" xlink:href=\"#pe-caeecf15f975-MJX-1-TEX-I-1D714\"></use></g><g data-mml-node=\"mo\" transform=\"translate(622,0)\"><use data-c=\"28\" xlink:href=\"#pe-caeecf15f975-MJX-1-TEX-N-28\"></use></g><g data-mml-node=\"mi\" transform=\"translate(1011,0)\"><use data-c=\"1D45B\" xlink:href=\"#pe-caeecf15f975-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"mo\" transform=\"translate(1611,0)\"><use data-c=\"29\" xlink:href=\"#pe-caeecf15f975-MJX-1-TEX-N-29\"></use></g></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow data-mjx-texclass=\"ORD\"><mi>ω</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo stretchy=\"false\">)</mo></mrow></msup></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.519ex\" height=\"2.021ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -893.3 1997.2 893.3\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-175ad147a037-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-175ad147a037-MJX-1-TEX-I-1D714\" d=\"M495 384Q495 406 514 424T555 443Q574 443 589 425T604 364Q604 334 592 278T555 155T483 38T377 -11Q297 -11 267 66Q266 68 260 61Q201 -11 125 -11Q15 -11 15 139Q15 230 56 325T123 434Q135 441 147 436Q160 429 160 418Q160 406 140 379T94 306T62 208Q61 202 61 187Q61 124 85 100T143 76Q201 76 245 129L253 137V156Q258 297 317 297Q348 297 348 261Q348 243 338 213T318 158L308 135Q309 133 310 129T318 115T334 97T358 83T393 76Q456 76 501 148T546 274Q546 305 533 325T508 357T495 384Z\"></path><path id=\"pe-175ad147a037-MJX-1-TEX-N-28\" d=\"M94 250Q94 319 104 381T127 488T164 576T202 643T244 695T277 729T302 750H315H319Q333 750 333 741Q333 738 316 720T275 667T226 581T184 443T167 250T184 58T225 -81T274 -167T316 -220T333 -241Q333 -250 318 -250H315H302L274 -226Q180 -141 137 -14T94 250Z\"></path><path id=\"pe-175ad147a037-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-175ad147a037-MJX-1-TEX-N-29\" d=\"M60 749L64 750Q69 750 74 750H86L114 726Q208 641 251 514T294 250Q294 182 284 119T261 12T224 -76T186 -143T145 -194T113 -227T90 -246Q87 -249 86 -250H74Q66 -250 63 -250T58 -247T55 -238Q56 -237 66 -225Q221 -64 221 250T66 725Q56 737 55 738Q55 746 60 749Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-175ad147a037-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"TeXAtom\" transform=\"translate(533,363) scale(0.707)\" data-mjx-texclass=\"ORD\"><g data-mml-node=\"mi\"><use data-c=\"1D714\" xlink:href=\"#pe-175ad147a037-MJX-1-TEX-I-1D714\"></use></g><g data-mml-node=\"mo\" transform=\"translate(622,0)\"><use data-c=\"28\" xlink:href=\"#pe-175ad147a037-MJX-1-TEX-N-28\"></use></g><g data-mml-node=\"mi\" transform=\"translate(1011,0)\"><use data-c=\"1D45B\" xlink:href=\"#pe-175ad147a037-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"mo\" transform=\"translate(1611,0)\"><use data-c=\"29\" xlink:href=\"#pe-175ad147a037-MJX-1-TEX-N-29\"></use></g></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mn>2</mn><mrow data-mjx-texclass=\"ORD\"><mi>ω</mi><mo stretchy=\"false\">(</mo><mi>n</mi><mo stretchy=\"false\">)</mo></mrow></msup></math></mjx-assistive-mml></mjx-container>"
   },
   {
     "id": 676,
-    "title": "Matching Digit Sums"
+    "title": "Matching Digit Sums",
+    "titleZh": "相同的数位和"
   },
   {
     "id": 677,
-    "title": "Coloured Graphs"
+    "title": "Coloured Graphs",
+    "titleZh": "着色图"
   },
   {
     "id": 678,
-    "title": "Fermat-like Equations"
+    "title": "Fermat-like Equations",
+    "titleZh": "类费马方程"
   },
   {
     "id": 679,
     "title": "Freefarea",
-    "solvedAt": "2024-10-06T10:00:00+08:00"
+    "solvedAt": "2024-10-06T10:00:00+08:00",
+    "titleZh": "Freefarea 字符串"
   },
   {
     "id": 680,
-    "title": "Yarra Gnisrever"
+    "title": "Yarra Gnisrever",
+    "titleZh": "反转数组"
   },
   {
     "id": 681,
-    "title": "Maximal Area"
+    "title": "Maximal Area",
+    "titleZh": "最大面积"
   },
   {
     "id": 682,
-    "title": "$5$-Smooth Pairs"
+    "title": "$5$-Smooth Pairs",
+    "titleZh": "$5$ 光滑数对",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 500 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-96a40489c274-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"35\" xlink:href=\"#pe-96a40489c274-MJX-1-TEX-N-35\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></mjx-assistive-mml></mjx-container>-Smooth Pairs",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 500 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-49c04b073042-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"35\" xlink:href=\"#pe-49c04b073042-MJX-1-TEX-N-35\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>5</mn></math></mjx-assistive-mml></mjx-container> 光滑数对"
   },
   {
     "id": 683,
-    "title": "The Chase II"
+    "title": "The Chase II",
+    "titleZh": "追逐 II"
   },
   {
     "id": 684,
     "title": "Inverse Digit Sum",
-    "solvedAt": "2023-09-08T06:16:00+08:00"
+    "solvedAt": "2023-09-08T06:16:00+08:00",
+    "titleZh": "逆数位和"
   },
   {
     "id": 685,
-    "title": "Inverse Digit Sum II"
+    "title": "Inverse Digit Sum II",
+    "titleZh": "逆数位和 II"
   },
   {
     "id": 686,
     "title": "Powers of Two",
-    "solvedAt": "2021-12-23T07:44:00+08:00"
+    "solvedAt": "2021-12-23T07:44:00+08:00",
+    "titleZh": "二的幂"
   },
   {
     "id": 687,
-    "title": "Shuffling Cards"
+    "title": "Shuffling Cards",
+    "titleZh": "洗牌"
   },
   {
     "id": 688,
     "title": "Piles of Plates",
-    "solvedAt": "2025-06-25T04:58:00+08:00"
+    "solvedAt": "2025-06-25T04:58:00+08:00",
+    "titleZh": "成堆的盘子"
   },
   {
     "id": 689,
-    "title": "Binary Series"
+    "title": "Binary Series",
+    "titleZh": "二进制级数"
   },
   {
     "id": 690,
-    "title": "Tom and Jerry"
+    "title": "Tom and Jerry",
+    "titleZh": "猫和老鼠"
   },
   {
     "id": 691,
-    "title": "Long Substring with Many Repetitions"
+    "title": "Long Substring with Many Repetitions",
+    "titleZh": "重复出现多次的最长子串"
   },
   {
     "id": 692,
     "title": "Siegbert and Jo",
-    "solvedAt": "2024-10-15T03:42:00+08:00"
+    "solvedAt": "2024-10-15T03:42:00+08:00",
+    "titleZh": "西格伯特和乔"
   },
   {
     "id": 693,
-    "title": "Finite Sequence Generator"
+    "title": "Finite Sequence Generator",
+    "titleZh": "有限数列生成器"
   },
   {
     "id": 694,
     "title": "Cube-full Divisors",
-    "solvedAt": "2021-12-24T03:28:00+08:00"
+    "solvedAt": "2021-12-24T03:28:00+08:00",
+    "titleZh": "立方丰满因数"
   },
   {
     "id": 695,
-    "title": "Random Rectangles"
+    "title": "Random Rectangles",
+    "titleZh": "随机矩形"
   },
   {
     "id": 696,
-    "title": "Mahjong"
+    "title": "Mahjong",
+    "titleZh": "麻将"
   },
   {
     "id": 697,
-    "title": "Randomly Decaying Sequence"
+    "title": "Randomly Decaying Sequence",
+    "titleZh": "随机衰减序列"
   },
   {
     "id": 698,
-    "title": "123 Numbers"
+    "title": "123 Numbers",
+    "titleZh": "123 数"
   },
   {
     "id": 699,
-    "title": "Triffle Numbers"
+    "title": "Triffle Numbers",
+    "titleZh": "Triffle 数"
   },
   {
     "id": 700,
     "title": "Eulercoin",
-    "solvedAt": "2020-11-12T09:43:00+08:00"
+    "solvedAt": "2020-11-12T09:43:00+08:00",
+    "titleZh": "欧拉币"
   },
   {
     "id": 701,
     "title": "Random Connected Area",
-    "solvedAt": "2026-01-09T14:59:00+08:00"
+    "solvedAt": "2026-01-09T14:59:00+08:00",
+    "titleZh": "随机连通区域"
   },
   {
     "id": 702,
-    "title": "Jumping Flea"
+    "title": "Jumping Flea",
+    "titleZh": "跳跃的跳蚤"
   },
   {
     "id": 703,
-    "title": "Circular Logic II"
+    "title": "Circular Logic II",
+    "titleZh": "循环逻辑 II"
   },
   {
     "id": 704,
     "title": "Factors of Two in Binomial Coefficients",
-    "solvedAt": "2024-10-07T12:45:00+08:00"
+    "solvedAt": "2024-10-07T12:45:00+08:00",
+    "titleZh": "二项式系数中因子二的个数"
   },
   {
     "id": 705,
     "title": "Total Inversion Count of Divided Sequences",
-    "solvedAt": "2025-06-19T13:08:00+08:00"
+    "solvedAt": "2025-06-19T13:08:00+08:00",
+    "titleZh": "商序列的逆序对总数"
   },
   {
     "id": 706,
     "title": "$3$-Like Numbers",
-    "solvedAt": "2024-10-05T09:24:00+08:00"
+    "solvedAt": "2024-10-05T09:24:00+08:00",
+    "titleZh": "类 $3$ 数",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.554ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -665 500 687\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d9fe7aa1d419-MJX-1-TEX-N-33\" d=\"M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"33\" xlink:href=\"#pe-d9fe7aa1d419-MJX-1-TEX-N-33\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math></mjx-assistive-mml></mjx-container>-Like Numbers",
+    "titleZhHtml": "类 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.131ex\" height=\"1.554ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -665 500 687\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-e22265e0be35-MJX-1-TEX-N-33\" d=\"M127 463Q100 463 85 480T69 524Q69 579 117 622T233 665Q268 665 277 664Q351 652 390 611T430 522Q430 470 396 421T302 350L299 348Q299 347 308 345T337 336T375 315Q457 262 457 175Q457 96 395 37T238 -22Q158 -22 100 21T42 130Q42 158 60 175T105 193Q133 193 151 175T169 130Q169 119 166 110T159 94T148 82T136 74T126 70T118 67L114 66Q165 21 238 21Q293 21 321 74Q338 107 338 175V195Q338 290 274 322Q259 328 213 329L171 330L168 332Q166 335 166 348Q166 366 174 366Q202 366 232 371Q266 376 294 413T322 525V533Q322 590 287 612Q265 626 240 626Q208 626 181 615T143 592T132 580H135Q138 579 143 578T153 573T165 566T175 555T183 540T186 520Q186 498 172 481T127 463Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"33\" xlink:href=\"#pe-e22265e0be35-MJX-1-TEX-N-33\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>3</mn></math></mjx-assistive-mml></mjx-container> 数"
   },
   {
     "id": 707,
-    "title": "Lights Out"
+    "title": "Lights Out",
+    "titleZh": "熄灯"
   },
   {
     "id": 708,
-    "title": "Twos Are All You Need"
+    "title": "Twos Are All You Need",
+    "titleZh": "只需数字二"
   },
   {
     "id": 709,
     "title": "Even Stevens",
-    "solvedAt": "2024-10-16T09:25:00+08:00"
+    "solvedAt": "2024-10-16T09:25:00+08:00",
+    "titleZh": "斯蒂文斯的偶数收纳"
   },
   {
     "id": 710,
     "title": "One Million Members",
-    "solvedAt": "2024-09-29T09:53:00+08:00"
+    "solvedAt": "2024-09-29T09:53:00+08:00",
+    "titleZh": "百万会员"
   },
   {
     "id": 711,
-    "title": "Binary Blackboard"
+    "title": "Binary Blackboard",
+    "titleZh": "二进制黑板游戏"
   },
   {
     "id": 712,
     "title": "Exponent Difference",
-    "solvedAt": "2025-10-16T12:02:00+08:00"
+    "solvedAt": "2025-10-16T12:02:00+08:00",
+    "titleZh": "指数差"
   },
   {
     "id": 713,
-    "title": "Turán's Water Heating System"
+    "title": "Turán's Water Heating System",
+    "titleZh": "图兰的热水系统"
   },
   {
     "id": 714,
     "title": "Duodigits",
-    "solvedAt": "2025-06-19T11:45:00+08:00"
+    "solvedAt": "2025-06-19T11:45:00+08:00",
+    "titleZh": "双数字"
   },
   {
     "id": 715,
-    "title": "Sextuplet Norms"
+    "title": "Sextuplet Norms",
+    "titleZh": "六元组的范数"
   },
   {
     "id": 716,
-    "title": "Grid Graphs"
+    "title": "Grid Graphs",
+    "titleZh": "网格图"
   },
   {
     "id": 717,
-    "title": "Summation of a Modular Formula"
+    "title": "Summation of a Modular Formula",
+    "titleZh": "模公式求和"
   },
   {
     "id": 718,
     "title": "Unreachable Numbers",
-    "solvedAt": "2025-06-20T09:30:00+08:00"
+    "solvedAt": "2025-06-20T09:30:00+08:00",
+    "titleZh": "不可达数"
   },
   {
     "id": 719,
     "title": "Number Splitting",
-    "solvedAt": "2020-06-07T19:12:00+08:00"
+    "solvedAt": "2020-06-07T19:12:00+08:00",
+    "titleZh": "数字拆分"
   },
   {
     "id": 720,
-    "title": "Unpredictable Permutations"
+    "title": "Unpredictable Permutations",
+    "titleZh": "不可预测的排列"
   },
   {
     "id": 721,
     "title": "High Powers of Irrational Numbers",
-    "solvedAt": "2025-08-15T17:56:00+08:00"
+    "solvedAt": "2025-08-15T17:56:00+08:00",
+    "titleZh": "无理数的高次方"
   },
   {
     "id": 722,
-    "title": "Slowly Converging Series"
+    "title": "Slowly Converging Series",
+    "titleZh": "缓慢收敛的级数"
   },
   {
     "id": 723,
-    "title": "Pythagorean Quadrilaterals"
+    "title": "Pythagorean Quadrilaterals",
+    "titleZh": "勾股四边形"
   },
   {
     "id": 724,
-    "title": "Drone Delivery"
+    "title": "Drone Delivery",
+    "titleZh": "无人机送货"
   },
   {
     "id": 725,
     "title": "Digit Sum Numbers",
-    "solvedAt": "2024-09-29T14:59:00+08:00"
+    "solvedAt": "2024-09-29T14:59:00+08:00",
+    "titleZh": "数位和数"
   },
   {
     "id": 726,
-    "title": "Falling Bottles"
+    "title": "Falling Bottles",
+    "titleZh": "掉落的瓶子"
   },
   {
     "id": 727,
-    "title": "Triangle of Circular Arcs"
+    "title": "Triangle of Circular Arcs",
+    "titleZh": "圆弧三角形"
   },
   {
     "id": 728,
-    "title": "Circle of Coins"
+    "title": "Circle of Coins",
+    "titleZh": "硬币圈"
   },
   {
     "id": 729,
-    "title": "Range of Periodic Sequence"
+    "title": "Range of Periodic Sequence",
+    "titleZh": "周期数列的值域"
   },
   {
     "id": 730,
-    "title": "Shifted Pythagorean Triples"
+    "title": "Shifted Pythagorean Triples",
+    "titleZh": "平移的勾股数组"
   },
   {
     "id": 731,
     "title": "A Stoneham Number",
-    "solvedAt": "2024-09-21T17:20:00+08:00"
+    "solvedAt": "2024-09-21T17:20:00+08:00",
+    "titleZh": "斯托纳姆数"
   },
   {
     "id": 732,
-    "title": "Standing on the Shoulders of Trolls"
+    "title": "Standing on the Shoulders of Trolls",
+    "titleZh": "站在巨魔的肩膀上"
   },
   {
     "id": 733,
     "title": "Ascending Subsequences",
-    "solvedAt": "2024-11-10T02:30:00+08:00"
+    "solvedAt": "2024-11-10T02:30:00+08:00",
+    "titleZh": "递增子序列"
   },
   {
     "id": 734,
-    "title": "A Bit of Prime"
+    "title": "A Bit of Prime",
+    "titleZh": "质数的位运算"
   },
   {
     "id": 735,
-    "title": "Divisors of $2n^2$"
+    "title": "Divisors of $2n^2$",
+    "titleZh": "$2n^2$ 的因数",
+    "titleHtml": "Divisors of <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"3.476ex\" height=\"1.912ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 1536.6 844.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-7b2084bcdeec-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-7b2084bcdeec-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-7b2084bcdeec-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"msup\" transform=\"translate(500,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-7b2084bcdeec-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"mn\" transform=\"translate(633,363) scale(0.707)\"><use data-c=\"32\" xlink:href=\"#pe-7b2084bcdeec-MJX-1-TEX-N-32\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"3.476ex\" height=\"1.912ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -833.9 1536.6 844.9\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-0524a289f0f2-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-0524a289f0f2-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-0524a289f0f2-MJX-1-TEX-N-32\"></use></g><g data-mml-node=\"msup\" transform=\"translate(500,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-0524a289f0f2-MJX-1-TEX-I-1D45B\"></use></g><g data-mml-node=\"mn\" transform=\"translate(633,363) scale(0.707)\"><use data-c=\"32\" xlink:href=\"#pe-0524a289f0f2-MJX-1-TEX-N-32\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2</mn><msup><mi>n</mi><mn>2</mn></msup></math></mjx-assistive-mml></mjx-container> 的因数"
   },
   {
     "id": 736,
-    "title": "Paths to Equality"
+    "title": "Paths to Equality",
+    "titleZh": "通向相等的路径"
   },
   {
     "id": 737,
-    "title": "Coin Loops"
+    "title": "Coin Loops",
+    "titleZh": "硬币环"
   },
   {
     "id": 738,
-    "title": "Counting Ordered Factorisations"
+    "title": "Counting Ordered Factorisations",
+    "titleZh": "有序因式分解计数"
   },
   {
     "id": 739,
     "title": "Summation of Summations",
-    "solvedAt": "2025-06-04T07:13:00+08:00"
+    "solvedAt": "2025-06-04T07:13:00+08:00",
+    "titleZh": "求和的求和"
   },
   {
     "id": 740,
-    "title": "Secret Santa"
+    "title": "Secret Santa",
+    "titleZh": "秘密圣诞老人"
   },
   {
     "id": 741,
-    "title": "Binary Grid Colouring"
+    "title": "Binary Grid Colouring",
+    "titleZh": "二进制网格着色"
   },
   {
     "id": 742,
-    "title": "Minimum Area of a Convex Grid Polygon"
+    "title": "Minimum Area of a Convex Grid Polygon",
+    "titleZh": "凸格点多边形的最小面积"
   },
   {
     "id": 743,
     "title": "Window into a Matrix",
-    "solvedAt": "2024-09-21T18:02:00+08:00"
+    "solvedAt": "2024-09-21T18:02:00+08:00",
+    "titleZh": "矩阵之窗"
   },
   {
     "id": 744,
-    "title": "What? Where? When?"
+    "title": "What? Where? When?",
+    "titleZh": "什么？在哪里？什么时候？"
   },
   {
     "id": 745,
     "title": "Sum of Squares II",
-    "solvedAt": "2023-09-08T06:26:00+08:00"
+    "solvedAt": "2023-09-08T06:26:00+08:00",
+    "titleZh": "平方和 II"
   },
   {
     "id": 746,
-    "title": "A Messy Dinner"
+    "title": "A Messy Dinner",
+    "titleZh": "凌乱的晚餐"
   },
   {
     "id": 747,
-    "title": "Triangular Pizza"
+    "title": "Triangular Pizza",
+    "titleZh": "三角形披萨"
   },
   {
     "id": 748,
-    "title": "Upside Down Diophantine Equation"
+    "title": "Upside Down Diophantine Equation",
+    "titleZh": "颠倒的丢番图方程"
   },
   {
     "id": 749,
     "title": "Near Power Sums",
-    "solvedAt": "2025-05-23T21:58:00+08:00"
+    "solvedAt": "2025-05-23T21:58:00+08:00",
+    "titleZh": "近似幂和"
   },
   {
     "id": 750,
-    "title": "Optimal Card Stacking"
+    "title": "Optimal Card Stacking",
+    "titleZh": "最优叠牌"
   },
   {
     "id": 751,
     "title": "Concatenation Coincidence",
-    "solvedAt": "2024-09-22T17:35:00+08:00"
+    "solvedAt": "2024-09-22T17:35:00+08:00",
+    "titleZh": "拼接巧合"
   },
   {
     "id": 752,
-    "title": "Powers of $1+\\sqrt 7$"
+    "title": "Powers of $1+\\sqrt 7$",
+    "titleZh": "$1+\\sqrt 7$ 的幂",
+    "titleHtml": "Powers of <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.239ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"6.958ex\" height=\"2.398ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -954.5 3075.4 1060\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-771e1599cf55-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-771e1599cf55-MJX-1-TEX-N-2B\" d=\"M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z\"></path><path id=\"pe-771e1599cf55-MJX-1-TEX-N-221A\" d=\"M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z\"></path><path id=\"pe-771e1599cf55-MJX-1-TEX-N-37\" d=\"M55 458Q56 460 72 567L88 674Q88 676 108 676H128V672Q128 662 143 655T195 646T364 644H485V605L417 512Q408 500 387 472T360 435T339 403T319 367T305 330T292 284T284 230T278 162T275 80Q275 66 275 52T274 28V19Q270 2 255 -10T221 -22Q210 -22 200 -19T179 0T168 40Q168 198 265 368Q285 400 349 489L395 552H302Q128 552 119 546Q113 543 108 522T98 479L95 458V455H55V458Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-771e1599cf55-MJX-1-TEX-N-31\"></use></g><g data-mml-node=\"mo\" transform=\"translate(722.2,0)\"><use data-c=\"2B\" xlink:href=\"#pe-771e1599cf55-MJX-1-TEX-N-2B\"></use></g><g data-mml-node=\"msqrt\" transform=\"translate(1722.4,0)\"><g transform=\"translate(853,0)\"><g data-mml-node=\"mn\"><use data-c=\"37\" xlink:href=\"#pe-771e1599cf55-MJX-1-TEX-N-37\"></use></g></g><g data-mml-node=\"mo\" transform=\"translate(0,94.5)\"><use data-c=\"221A\" xlink:href=\"#pe-771e1599cf55-MJX-1-TEX-N-221A\"></use></g><rect width=\"500\" height=\"60\" x=\"853\" y=\"834.5\"></rect></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><msqrt><mn>7</mn></msqrt></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.239ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"6.958ex\" height=\"2.398ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -954.5 3075.4 1060\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-0b7e716328b5-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-0b7e716328b5-MJX-1-TEX-N-2B\" d=\"M56 237T56 250T70 270H369V420L370 570Q380 583 389 583Q402 583 409 568V270H707Q722 262 722 250T707 230H409V-68Q401 -82 391 -82H389H387Q375 -82 369 -68V230H70Q56 237 56 250Z\"></path><path id=\"pe-0b7e716328b5-MJX-1-TEX-N-221A\" d=\"M95 178Q89 178 81 186T72 200T103 230T169 280T207 309Q209 311 212 311H213Q219 311 227 294T281 177Q300 134 312 108L397 -77Q398 -77 501 136T707 565T814 786Q820 800 834 800Q841 800 846 794T853 782V776L620 293L385 -193Q381 -200 366 -200Q357 -200 354 -197Q352 -195 256 15L160 225L144 214Q129 202 113 190T95 178Z\"></path><path id=\"pe-0b7e716328b5-MJX-1-TEX-N-37\" d=\"M55 458Q56 460 72 567L88 674Q88 676 108 676H128V672Q128 662 143 655T195 646T364 644H485V605L417 512Q408 500 387 472T360 435T339 403T319 367T305 330T292 284T284 230T278 162T275 80Q275 66 275 52T274 28V19Q270 2 255 -10T221 -22Q210 -22 200 -19T179 0T168 40Q168 198 265 368Q285 400 349 489L395 552H302Q128 552 119 546Q113 543 108 522T98 479L95 458V455H55V458Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-0b7e716328b5-MJX-1-TEX-N-31\"></use></g><g data-mml-node=\"mo\" transform=\"translate(722.2,0)\"><use data-c=\"2B\" xlink:href=\"#pe-0b7e716328b5-MJX-1-TEX-N-2B\"></use></g><g data-mml-node=\"msqrt\" transform=\"translate(1722.4,0)\"><g transform=\"translate(853,0)\"><g data-mml-node=\"mn\"><use data-c=\"37\" xlink:href=\"#pe-0b7e716328b5-MJX-1-TEX-N-37\"></use></g></g><g data-mml-node=\"mo\" transform=\"translate(0,94.5)\"><use data-c=\"221A\" xlink:href=\"#pe-0b7e716328b5-MJX-1-TEX-N-221A\"></use></g><rect width=\"500\" height=\"60\" x=\"853\" y=\"834.5\"></rect></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1</mn><mo>+</mo><msqrt><mn>7</mn></msqrt></math></mjx-assistive-mml></mjx-container> 的幂"
   },
   {
     "id": 753,
-    "title": "Fermat Equation"
+    "title": "Fermat Equation",
+    "titleZh": "费马方程"
   },
   {
     "id": 754,
     "title": "Product of Gauss Factorials",
-    "solvedAt": "2024-09-21T17:49:00+08:00"
+    "solvedAt": "2024-09-21T17:49:00+08:00",
+    "titleZh": "高斯阶乘的乘积"
   },
   {
     "id": 755,
     "title": "Not Zeckendorf",
-    "solvedAt": "2024-09-30T20:05:00+08:00"
+    "solvedAt": "2024-09-30T20:05:00+08:00",
+    "titleZh": "非泽肯多夫表示"
   },
   {
     "id": 756,
-    "title": "Approximating a Sum"
+    "title": "Approximating a Sum",
+    "titleZh": "近似求和"
   },
   {
     "id": 757,
     "title": "Stealthy Numbers",
-    "solvedAt": "2021-12-24T07:47:00+08:00"
+    "solvedAt": "2021-12-24T07:47:00+08:00",
+    "titleZh": "隐匿数"
   },
   {
     "id": 758,
-    "title": "Buckets of Water"
+    "title": "Buckets of Water",
+    "titleZh": "水桶"
   },
   {
     "id": 759,
     "title": "A Squared Recurrence Relation",
-    "solvedAt": "2024-11-10T02:47:00+08:00"
+    "solvedAt": "2024-11-10T02:47:00+08:00",
+    "titleZh": "平方递推关系"
   },
   {
     "id": 760,
     "title": "Sum over Bitwise Operators",
-    "solvedAt": "2026-03-31T15:55:00+08:00"
+    "solvedAt": "2026-03-31T15:55:00+08:00",
+    "titleZh": "位运算求和"
   },
   {
     "id": 761,
-    "title": "Runner and Swimmer"
+    "title": "Runner and Swimmer",
+    "titleZh": "跑步者和游泳者"
   },
   {
     "id": 762,
-    "title": "Amoebas in a 2D Grid"
+    "title": "Amoebas in a 2D Grid",
+    "titleZh": "二维网格中的变形虫"
   },
   {
     "id": 763,
-    "title": "Amoebas in a 3D Grid"
+    "title": "Amoebas in a 3D Grid",
+    "titleZh": "三维网格中的变形虫"
   },
   {
     "id": 764,
-    "title": "Asymmetric Diophantine Equation"
+    "title": "Asymmetric Diophantine Equation",
+    "titleZh": "不对称丢番图方程"
   },
   {
     "id": 765,
-    "title": "Trillionaire"
+    "title": "Trillionaire",
+    "titleZh": "万亿富翁"
   },
   {
     "id": 766,
-    "title": "Sliding Block Puzzle"
+    "title": "Sliding Block Puzzle",
+    "titleZh": "滑块谜题"
   },
   {
     "id": 767,
-    "title": "Window into a Matrix II"
+    "title": "Window into a Matrix II",
+    "titleZh": "矩阵之窗 II"
   },
   {
     "id": 768,
-    "title": "Chandelier"
+    "title": "Chandelier",
+    "titleZh": "枝形吊灯"
   },
   {
     "id": 769,
-    "title": "Binary Quadratic Form II"
+    "title": "Binary Quadratic Form II",
+    "titleZh": "二元二次型 II"
   },
   {
     "id": 770,
-    "title": "Delphi Flip"
+    "title": "Delphi Flip",
+    "titleZh": "德尔福翻转"
   },
   {
     "id": 771,
-    "title": "Pseudo Geometric Sequences"
+    "title": "Pseudo Geometric Sequences",
+    "titleZh": "伪等比数列"
   },
   {
     "id": 772,
     "title": "Balanceable $k$-bounded Partitions",
-    "solvedAt": "2026-02-15T12:01:00+08:00"
+    "solvedAt": "2026-02-15T12:01:00+08:00",
+    "titleZh": "可平衡的 $k$ 有界分拆",
+    "titleHtml": "Balanceable <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.179ex\" height=\"1.595ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -694 521 705\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-6a2144aeed46-MJX-1-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D458\" xlink:href=\"#pe-6a2144aeed46-MJX-1-TEX-I-1D458\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math></mjx-assistive-mml></mjx-container>-bounded Partitions",
+    "titleZhHtml": "可平衡的 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.179ex\" height=\"1.595ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -694 521 705\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-b673424eadb9-MJX-1-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D458\" xlink:href=\"#pe-b673424eadb9-MJX-1-TEX-I-1D458\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math></mjx-assistive-mml></mjx-container> 有界分拆"
   },
   {
     "id": 773,
-    "title": "Ruff Numbers"
+    "title": "Ruff Numbers",
+    "titleZh": "Ruff 数"
   },
   {
     "id": 774,
-    "title": "Conjunctive Sequences"
+    "title": "Conjunctive Sequences",
+    "titleZh": "相邻按位与非零的数列"
   },
   {
     "id": 775,
-    "title": "Saving Paper"
+    "title": "Saving Paper",
+    "titleZh": "节省纸张"
   },
   {
     "id": 776,
     "title": "Digit Sum Division",
-    "solvedAt": "2025-06-25T09:35:00+08:00"
+    "solvedAt": "2025-06-25T09:35:00+08:00",
+    "titleZh": "数位和相除"
   },
   {
     "id": 777,
-    "title": "Lissajous Curves"
+    "title": "Lissajous Curves",
+    "titleZh": "利萨如曲线"
   },
   {
     "id": 778,
-    "title": "Freshman's Product"
+    "title": "Freshman's Product",
+    "titleZh": "新生的乘积"
   },
   {
     "id": 779,
-    "title": "Prime Factor and Exponent"
+    "title": "Prime Factor and Exponent",
+    "titleZh": "质因数和指数"
   },
   {
     "id": 780,
-    "title": "Toriangulations"
+    "title": "Toriangulations",
+    "titleZh": "环面的三角剖分"
   },
   {
     "id": 781,
-    "title": "Feynman Diagrams"
+    "title": "Feynman Diagrams",
+    "titleZh": "费曼图"
   },
   {
     "id": 782,
-    "title": "Distinct Rows and Columns"
+    "title": "Distinct Rows and Columns",
+    "titleZh": "不同的行和列"
   },
   {
     "id": 783,
-    "title": "Urns"
+    "title": "Urns",
+    "titleZh": "球罐"
   },
   {
     "id": 784,
-    "title": "Reciprocal Pairs"
+    "title": "Reciprocal Pairs",
+    "titleZh": "倒数对"
   },
   {
     "id": 785,
-    "title": "Symmetric Diophantine Equation"
+    "title": "Symmetric Diophantine Equation",
+    "titleZh": "对称丢番图方程"
   },
   {
     "id": 786,
-    "title": "Billiard"
+    "title": "Billiard",
+    "titleZh": "台球"
   },
   {
     "id": 787,
-    "title": "Bézout's Game"
+    "title": "Bézout's Game",
+    "titleZh": "贝祖的游戏"
   },
   {
     "id": 788,
     "title": "Dominating Numbers",
-    "solvedAt": "2023-09-07T10:53:00+08:00"
+    "solvedAt": "2023-09-07T10:53:00+08:00",
+    "titleZh": "占优数"
   },
   {
     "id": 789,
-    "title": "Minimal Pairing Modulo $p$"
+    "title": "Minimal Pairing Modulo $p$",
+    "titleZh": "模 $p$ 的最小配对",
+    "titleHtml": "Minimal Pairing Modulo <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.439ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.138ex\" height=\"1.439ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 503 636\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-dca6f1a49fe6-MJX-1-TEX-I-1D45D\" d=\"M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45D\" xlink:href=\"#pe-dca6f1a49fe6-MJX-1-TEX-I-1D45D\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "模 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.439ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.138ex\" height=\"1.439ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 503 636\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-7704771a4618-MJX-1-TEX-I-1D45D\" d=\"M23 287Q24 290 25 295T30 317T40 348T55 381T75 411T101 433T134 442Q209 442 230 378L240 387Q302 442 358 442Q423 442 460 395T497 281Q497 173 421 82T249 -10Q227 -10 210 -4Q199 1 187 11T168 28L161 36Q160 35 139 -51T118 -138Q118 -144 126 -145T163 -148H188Q194 -155 194 -157T191 -175Q188 -187 185 -190T172 -194Q170 -194 161 -194T127 -193T65 -192Q-5 -192 -24 -194H-32Q-39 -187 -39 -183Q-37 -156 -26 -148H-6Q28 -147 33 -136Q36 -130 94 103T155 350Q156 355 156 364Q156 405 131 405Q109 405 94 377T71 316T59 280Q57 278 43 278H29Q23 284 23 287ZM178 102Q200 26 252 26Q282 26 310 49T356 107Q374 141 392 215T411 325V331Q411 405 350 405Q339 405 328 402T306 393T286 380T269 365T254 350T243 336T235 326L232 322Q232 321 229 308T218 264T204 212Q178 106 178 102Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45D\" xlink:href=\"#pe-7704771a4618-MJX-1-TEX-I-1D45D\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>p</mi></math></mjx-assistive-mml></mjx-container> 的最小配对"
   },
   {
     "id": 790,
-    "title": "Clock Grid"
+    "title": "Clock Grid",
+    "titleZh": "时钟网格"
   },
   {
     "id": 791,
-    "title": "Average and Variance"
+    "title": "Average and Variance",
+    "titleZh": "均值与方差"
   },
   {
     "id": 792,
-    "title": "Too Many Twos"
+    "title": "Too Many Twos",
+    "titleZh": "过多的因子二"
   },
   {
     "id": 793,
     "title": "Median of Products",
-    "solvedAt": "2024-10-05T10:35:00+08:00"
+    "solvedAt": "2024-10-05T10:35:00+08:00",
+    "titleZh": "乘积的中位数"
   },
   {
     "id": 794,
-    "title": "Seventeen Points"
+    "title": "Seventeen Points",
+    "titleZh": "十七个点"
   },
   {
     "id": 795,
     "title": "Alternating GCD Sum",
-    "solvedAt": "2026-04-09T15:29:00+08:00"
+    "solvedAt": "2026-04-09T15:29:00+08:00",
+    "titleZh": "交错最大公约数之和"
   },
   {
     "id": 796,
-    "title": "A Grand Shuffle"
+    "title": "A Grand Shuffle",
+    "titleZh": "大洗牌"
   },
   {
     "id": 797,
-    "title": "Cyclogenic Polynomials"
+    "title": "Cyclogenic Polynomials",
+    "titleZh": "循环生成多项式"
   },
   {
     "id": 798,
-    "title": "Card Stacking Game"
+    "title": "Card Stacking Game",
+    "titleZh": "卡牌堆叠游戏"
   },
   {
     "id": 799,
-    "title": "Pentagonal Puzzle"
+    "title": "Pentagonal Puzzle",
+    "titleZh": "五边形谜题"
   },
   {
     "id": 800,
     "title": "Hybrid Integers",
-    "solvedAt": "2022-12-31T18:11:00+08:00"
+    "solvedAt": "2022-12-31T18:11:00+08:00",
+    "titleZh": "混合整数"
   },
   {
     "id": 801,
-    "title": "$x^y \\equiv y^x$"
+    "title": "$x^y \\equiv y^x$",
+    "titleZh": "$x^y \\equiv y^x$",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.464ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"7.494ex\" height=\"1.992ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -675.5 3312.5 880.5\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-c391075df2d2-MJX-1-TEX-I-1D465\" d=\"M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z\"></path><path id=\"pe-c391075df2d2-MJX-1-TEX-I-1D466\" d=\"M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-c391075df2d2-MJX-1-TEX-N-2261\" d=\"M56 444Q56 457 70 464H707Q722 456 722 444Q722 430 706 424H72Q56 429 56 444ZM56 237T56 250T70 270H707Q722 262 722 250T707 230H70Q56 237 56 250ZM56 56Q56 71 72 76H706Q722 70 722 56Q722 44 707 36H70Q56 43 56 56Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mi\"><use data-c=\"1D465\" xlink:href=\"#pe-c391075df2d2-MJX-1-TEX-I-1D465\"></use></g><g data-mml-node=\"mi\" transform=\"translate(605,363) scale(0.707)\"><use data-c=\"1D466\" xlink:href=\"#pe-c391075df2d2-MJX-1-TEX-I-1D466\"></use></g></g><g data-mml-node=\"mo\" transform=\"translate(1279.3,0)\"><use data-c=\"2261\" xlink:href=\"#pe-c391075df2d2-MJX-1-TEX-N-2261\"></use></g><g data-mml-node=\"msup\" transform=\"translate(2335,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D466\" xlink:href=\"#pe-c391075df2d2-MJX-1-TEX-I-1D466\"></use></g><g data-mml-node=\"mi\" transform=\"translate(523,363) scale(0.707)\"><use data-c=\"1D465\" xlink:href=\"#pe-c391075df2d2-MJX-1-TEX-I-1D465\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mi>y</mi></msup><mo>≡</mo><msup><mi>y</mi><mi>x</mi></msup></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.464ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"7.494ex\" height=\"1.992ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -675.5 3312.5 880.5\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-478cfd704990-MJX-1-TEX-I-1D465\" d=\"M52 289Q59 331 106 386T222 442Q257 442 286 424T329 379Q371 442 430 442Q467 442 494 420T522 361Q522 332 508 314T481 292T458 288Q439 288 427 299T415 328Q415 374 465 391Q454 404 425 404Q412 404 406 402Q368 386 350 336Q290 115 290 78Q290 50 306 38T341 26Q378 26 414 59T463 140Q466 150 469 151T485 153H489Q504 153 504 145Q504 144 502 134Q486 77 440 33T333 -11Q263 -11 227 52Q186 -10 133 -10H127Q78 -10 57 16T35 71Q35 103 54 123T99 143Q142 143 142 101Q142 81 130 66T107 46T94 41L91 40Q91 39 97 36T113 29T132 26Q168 26 194 71Q203 87 217 139T245 247T261 313Q266 340 266 352Q266 380 251 392T217 404Q177 404 142 372T93 290Q91 281 88 280T72 278H58Q52 284 52 289Z\"></path><path id=\"pe-478cfd704990-MJX-1-TEX-I-1D466\" d=\"M21 287Q21 301 36 335T84 406T158 442Q199 442 224 419T250 355Q248 336 247 334Q247 331 231 288T198 191T182 105Q182 62 196 45T238 27Q261 27 281 38T312 61T339 94Q339 95 344 114T358 173T377 247Q415 397 419 404Q432 431 462 431Q475 431 483 424T494 412T496 403Q496 390 447 193T391 -23Q363 -106 294 -155T156 -205Q111 -205 77 -183T43 -117Q43 -95 50 -80T69 -58T89 -48T106 -45Q150 -45 150 -87Q150 -107 138 -122T115 -142T102 -147L99 -148Q101 -153 118 -160T152 -167H160Q177 -167 186 -165Q219 -156 247 -127T290 -65T313 -9T321 21L315 17Q309 13 296 6T270 -6Q250 -11 231 -11Q185 -11 150 11T104 82Q103 89 103 113Q103 170 138 262T173 379Q173 380 173 381Q173 390 173 393T169 400T158 404H154Q131 404 112 385T82 344T65 302T57 280Q55 278 41 278H27Q21 284 21 287Z\"></path><path id=\"pe-478cfd704990-MJX-1-TEX-N-2261\" d=\"M56 444Q56 457 70 464H707Q722 456 722 444Q722 430 706 424H72Q56 429 56 444ZM56 237T56 250T70 270H707Q722 262 722 250T707 230H70Q56 237 56 250ZM56 56Q56 71 72 76H706Q722 70 722 56Q722 44 707 36H70Q56 43 56 56Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"msup\"><g data-mml-node=\"mi\"><use data-c=\"1D465\" xlink:href=\"#pe-478cfd704990-MJX-1-TEX-I-1D465\"></use></g><g data-mml-node=\"mi\" transform=\"translate(605,363) scale(0.707)\"><use data-c=\"1D466\" xlink:href=\"#pe-478cfd704990-MJX-1-TEX-I-1D466\"></use></g></g><g data-mml-node=\"mo\" transform=\"translate(1279.3,0)\"><use data-c=\"2261\" xlink:href=\"#pe-478cfd704990-MJX-1-TEX-N-2261\"></use></g><g data-mml-node=\"msup\" transform=\"translate(2335,0)\"><g data-mml-node=\"mi\"><use data-c=\"1D466\" xlink:href=\"#pe-478cfd704990-MJX-1-TEX-I-1D466\"></use></g><g data-mml-node=\"mi\" transform=\"translate(523,363) scale(0.707)\"><use data-c=\"1D465\" xlink:href=\"#pe-478cfd704990-MJX-1-TEX-I-1D465\"></use></g></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><msup><mi>x</mi><mi>y</mi></msup><mo>≡</mo><msup><mi>y</mi><mi>x</mi></msup></math></mjx-assistive-mml></mjx-container>"
   },
   {
     "id": 802,
-    "title": "Iterated Composition"
+    "title": "Iterated Composition",
+    "titleZh": "迭代复合"
   },
   {
     "id": 803,
-    "title": "Pseudorandom Sequence"
+    "title": "Pseudorandom Sequence",
+    "titleZh": "伪随机序列"
   },
   {
     "id": 804,
     "title": "Counting Binary Quadratic Representations",
-    "solvedAt": "2024-10-06T09:19:00+08:00"
+    "solvedAt": "2024-10-06T09:19:00+08:00",
+    "titleZh": "二元二次型表示的计数"
   },
   {
     "id": 805,
-    "title": "Shifted Multiples"
+    "title": "Shifted Multiples",
+    "titleZh": "移位倍数"
   },
   {
     "id": 806,
-    "title": "Nim on Towers of Hanoi"
+    "title": "Nim on Towers of Hanoi",
+    "titleZh": "汉诺塔上的尼姆游戏"
   },
   {
     "id": 807,
-    "title": "Loops of Ropes"
+    "title": "Loops of Ropes",
+    "titleZh": "绳圈"
   },
   {
     "id": 808,
     "title": "Reversible Prime Squares",
-    "solvedAt": "2023-09-05T17:24:00+08:00"
+    "solvedAt": "2023-09-05T17:24:00+08:00",
+    "titleZh": "可逆的质数平方"
   },
   {
     "id": 809,
-    "title": "Rational Recurrence Relation"
+    "title": "Rational Recurrence Relation",
+    "titleZh": "有理递推关系"
   },
   {
     "id": 810,
     "title": "XOR-Primes",
-    "solvedAt": "2024-10-17T19:18:00+08:00"
+    "solvedAt": "2024-10-17T19:18:00+08:00",
+    "titleZh": "异或质数"
   },
   {
     "id": 811,
-    "title": "Bitwise Recursion"
+    "title": "Bitwise Recursion",
+    "titleZh": "按位递归"
   },
   {
     "id": 812,
-    "title": "Dynamical Polynomials"
+    "title": "Dynamical Polynomials",
+    "titleZh": "动态多项式"
   },
   {
     "id": 813,
-    "title": "XOR-Powers"
+    "title": "XOR-Powers",
+    "titleZh": "异或幂"
   },
   {
     "id": 814,
-    "title": "Mezzo-forte"
+    "title": "Mezzo-forte",
+    "titleZh": "中强音"
   },
   {
     "id": 815,
-    "title": "Group by Value"
+    "title": "Group by Value",
+    "titleZh": "按值分组"
   },
   {
     "id": 816,
     "title": "Shortest Distance Among Points",
-    "solvedAt": "2023-09-05T17:01:00+08:00"
+    "solvedAt": "2023-09-05T17:01:00+08:00",
+    "titleZh": "点间最短距离"
   },
   {
     "id": 817,
     "title": "Digits in Squares",
-    "solvedAt": "2024-11-14T16:43:00+08:00"
+    "solvedAt": "2024-11-14T16:43:00+08:00",
+    "titleZh": "平方数中的数位"
   },
   {
     "id": 818,
-    "title": "SET"
+    "title": "SET",
+    "titleZh": "SET 纸牌游戏"
   },
   {
     "id": 819,
-    "title": "Iterative Sampling"
+    "title": "Iterative Sampling",
+    "titleZh": "迭代采样"
   },
   {
     "id": 820,
     "title": "$N$th Digit of Reciprocals",
-    "solvedAt": "2023-09-05T18:55:00+08:00"
+    "solvedAt": "2023-09-05T18:55:00+08:00",
+    "titleZh": "倒数的第 $N$ 位数字",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.009ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 888 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-66eed5466c7d-MJX-1-TEX-I-1D441\" d=\"M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D441\" xlink:href=\"#pe-66eed5466c7d-MJX-1-TEX-I-1D441\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math></mjx-assistive-mml></mjx-container>th Digit of Reciprocals",
+    "titleZhHtml": "倒数的第 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"2.009ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 888 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-72931012f421-MJX-1-TEX-I-1D441\" d=\"M234 637Q231 637 226 637Q201 637 196 638T191 649Q191 676 202 682Q204 683 299 683Q376 683 387 683T401 677Q612 181 616 168L670 381Q723 592 723 606Q723 633 659 637Q635 637 635 648Q635 650 637 660Q641 676 643 679T653 683Q656 683 684 682T767 680Q817 680 843 681T873 682Q888 682 888 672Q888 650 880 642Q878 637 858 637Q787 633 769 597L620 7Q618 0 599 0Q585 0 582 2Q579 5 453 305L326 604L261 344Q196 88 196 79Q201 46 268 46H278Q284 41 284 38T282 19Q278 6 272 0H259Q228 2 151 2Q123 2 100 2T63 2T46 1Q31 1 31 10Q31 14 34 26T39 40Q41 46 62 46Q130 49 150 85Q154 91 221 362L289 634Q287 635 234 637Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D441\" xlink:href=\"#pe-72931012f421-MJX-1-TEX-I-1D441\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>N</mi></math></mjx-assistive-mml></mjx-container> 位数字"
   },
   {
     "id": 821,
-    "title": "123-Separable"
+    "title": "123-Separable",
+    "titleZh": "123-可分离"
   },
   {
     "id": 822,
     "title": "Square the Smallest",
-    "solvedAt": "2024-09-30T05:59:00+08:00"
+    "solvedAt": "2024-09-30T05:59:00+08:00",
+    "titleZh": "将最小的数平方"
   },
   {
     "id": 823,
-    "title": "Factor Shuffle"
+    "title": "Factor Shuffle",
+    "titleZh": "因子洗牌"
   },
   {
     "id": 824,
-    "title": "Chess Sliders"
+    "title": "Chess Sliders",
+    "titleZh": "国际象棋中的滑行棋子"
   },
   {
     "id": 825,
-    "title": "Chasing Game"
+    "title": "Chasing Game",
+    "titleZh": "追逐游戏"
   },
   {
     "id": 826,
-    "title": "Birds on a Wire"
+    "title": "Birds on a Wire",
+    "titleZh": "电线上的鸟"
   },
   {
     "id": 827,
     "title": "Pythagorean Triple Occurrence",
-    "solvedAt": "2026-03-24T15:54:00+08:00"
+    "solvedAt": "2026-03-24T15:54:00+08:00",
+    "titleZh": "勾股数组中的出现次数"
   },
   {
     "id": 828,
     "title": "Numbers Challenge",
-    "solvedAt": "2024-10-04T22:15:00+08:00"
+    "solvedAt": "2024-10-04T22:15:00+08:00",
+    "titleZh": "数字挑战"
   },
   {
     "id": 829,
-    "title": "Integral Fusion"
+    "title": "Integral Fusion",
+    "titleZh": "整数融合"
   },
   {
     "id": 830,
-    "title": "Binomials and Powers"
+    "title": "Binomials and Powers",
+    "titleZh": "二项式和幂"
   },
   {
     "id": 831,
-    "title": "Triple Product"
+    "title": "Triple Product",
+    "titleZh": "三重乘积"
   },
   {
     "id": 832,
-    "title": "Mex Sequence"
+    "title": "Mex Sequence",
+    "titleZh": "Mex 数列"
   },
   {
     "id": 833,
-    "title": "Square Triangle Products"
+    "title": "Square Triangle Products",
+    "titleZh": "乘积为平方数的三角数"
   },
   {
     "id": 834,
     "title": "Add and Divide",
-    "solvedAt": "2024-10-18T06:04:00+08:00"
+    "solvedAt": "2024-10-18T06:04:00+08:00",
+    "titleZh": "加和除"
   },
   {
     "id": 835,
     "title": "Supernatural Triangles",
-    "solvedAt": "2025-10-16T04:11:00+08:00"
+    "solvedAt": "2025-10-16T04:11:00+08:00",
+    "titleZh": "超自然三角形"
   },
   {
     "id": 836,
     "title": "A Bold Proposition",
-    "solvedAt": "2024-10-14T09:22:00+08:00"
+    "solvedAt": "2024-10-14T09:22:00+08:00",
+    "titleZh": "一个加粗的提议"
   },
   {
     "id": 837,
-    "title": "Amidakuji"
+    "title": "Amidakuji",
+    "titleZh": "阿弥陀签"
   },
   {
     "id": 838,
     "title": "Not Coprime",
-    "solvedAt": "2024-09-28T07:20:00+08:00"
+    "solvedAt": "2024-09-28T07:20:00+08:00",
+    "titleZh": "不互质"
   },
   {
     "id": 839,
-    "title": "Beans in Bowls"
+    "title": "Beans in Bowls",
+    "titleZh": "碗里的豆子"
   },
   {
     "id": 840,
     "title": "Sum of Products",
-    "solvedAt": "2026-04-07T17:06:00+08:00"
+    "solvedAt": "2026-04-07T17:06:00+08:00",
+    "titleZh": "乘积之和"
   },
   {
     "id": 841,
-    "title": "Regular Star Polygons"
+    "title": "Regular Star Polygons",
+    "titleZh": "正星形多边形"
   },
   {
     "id": 842,
-    "title": "Irregular Star Polygons"
+    "title": "Irregular Star Polygons",
+    "titleZh": "不规则星形多边形"
   },
   {
     "id": 843,
-    "title": "Periodic Circles"
+    "title": "Periodic Circles",
+    "titleZh": "周期圆"
   },
   {
     "id": 844,
-    "title": "$k$-Markov Numbers"
+    "title": "$k$-Markov Numbers",
+    "titleZh": "$k$-马尔可夫数",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.179ex\" height=\"1.595ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -694 521 705\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-0e8a78d8f721-MJX-1-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D458\" xlink:href=\"#pe-0e8a78d8f721-MJX-1-TEX-I-1D458\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math></mjx-assistive-mml></mjx-container>-Markov Numbers",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.179ex\" height=\"1.595ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -694 521 705\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-66a1b09f4d05-MJX-1-TEX-I-1D458\" d=\"M121 647Q121 657 125 670T137 683Q138 683 209 688T282 694Q294 694 294 686Q294 679 244 477Q194 279 194 272Q213 282 223 291Q247 309 292 354T362 415Q402 442 438 442Q468 442 485 423T503 369Q503 344 496 327T477 302T456 291T438 288Q418 288 406 299T394 328Q394 353 410 369T442 390L458 393Q446 405 434 405H430Q398 402 367 380T294 316T228 255Q230 254 243 252T267 246T293 238T320 224T342 206T359 180T365 147Q365 130 360 106T354 66Q354 26 381 26Q429 26 459 145Q461 153 479 153H483Q499 153 499 144Q499 139 496 130Q455 -11 378 -11Q333 -11 305 15T277 90Q277 108 280 121T283 145Q283 167 269 183T234 206T200 217T182 220H180Q168 178 159 139T145 81T136 44T129 20T122 7T111 -2Q98 -11 83 -11Q66 -11 57 -1T48 16Q48 26 85 176T158 471L195 616Q196 629 188 632T149 637H144Q134 637 131 637T124 640T121 647Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D458\" xlink:href=\"#pe-66a1b09f4d05-MJX-1-TEX-I-1D458\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>k</mi></math></mjx-assistive-mml></mjx-container>-马尔可夫数"
   },
   {
     "id": 845,
     "title": "Prime Digit Sum",
-    "solvedAt": "2024-09-21T17:28:00+08:00"
+    "solvedAt": "2024-09-21T17:28:00+08:00",
+    "titleZh": "数位和为质数"
   },
   {
     "id": 846,
-    "title": "Magic Bracelets"
+    "title": "Magic Bracelets",
+    "titleZh": "魔法手链"
   },
   {
     "id": 847,
-    "title": "Jack's Bean"
+    "title": "Jack's Bean",
+    "titleZh": "杰克的豆子"
   },
   {
     "id": 848,
-    "title": "Guessing with Sets"
+    "title": "Guessing with Sets",
+    "titleZh": "用集合猜测"
   },
   {
     "id": 849,
-    "title": "The Tournament"
+    "title": "The Tournament",
+    "titleZh": "锦标赛"
   },
   {
     "id": 850,
-    "title": "Fractions of Powers"
+    "title": "Fractions of Powers",
+    "titleZh": "幂分数"
   },
   {
     "id": 851,
-    "title": "SOP and POS"
+    "title": "SOP and POS",
+    "titleZh": "乘积之和与和的乘积"
   },
   {
     "id": 852,
-    "title": "Coins in a Box"
+    "title": "Coins in a Box",
+    "titleZh": "盒子里的硬币"
   },
   {
     "id": 853,
     "title": "Pisano Periods 1",
-    "solvedAt": "2024-09-28T15:25:00+08:00"
+    "solvedAt": "2024-09-28T15:25:00+08:00",
+    "titleZh": "皮萨诺周期 I"
   },
   {
     "id": 854,
-    "title": "Pisano Periods 2"
+    "title": "Pisano Periods 2",
+    "titleZh": "皮萨诺周期 II"
   },
   {
     "id": 855,
-    "title": "Delphi Paper"
+    "title": "Delphi Paper",
+    "titleZh": "德尔福分纸游戏"
   },
   {
     "id": 856,
     "title": "Waiting for a Pair",
-    "solvedAt": "2025-06-04T06:21:00+08:00"
+    "solvedAt": "2025-06-04T06:21:00+08:00",
+    "titleZh": "等待一对"
   },
   {
     "id": 857,
-    "title": "Beautiful Graphs"
+    "title": "Beautiful Graphs",
+    "titleZh": "美丽的图"
   },
   {
     "id": 858,
-    "title": "LCM"
+    "title": "LCM",
+    "titleZh": "最小公倍数"
   },
   {
     "id": 859,
-    "title": "Cookie Game"
+    "title": "Cookie Game",
+    "titleZh": "饼干游戏"
   },
   {
     "id": 860,
     "title": "Gold and Silver Coin Game",
-    "solvedAt": "2025-09-23T09:52:00+08:00"
+    "solvedAt": "2025-09-23T09:52:00+08:00",
+    "titleZh": "金银币游戏"
   },
   {
     "id": 861,
-    "title": "Products of Bi-Unitary Divisors"
+    "title": "Products of Bi-Unitary Divisors",
+    "titleZh": "双酉因数的乘积"
   },
   {
     "id": 862,
     "title": "Larger Digit Permutation",
-    "solvedAt": "2025-03-01T16:28:00+08:00"
+    "solvedAt": "2025-03-01T16:28:00+08:00",
+    "titleZh": "更大的数位排列"
   },
   {
     "id": 863,
-    "title": "Different Dice"
+    "title": "Different Dice",
+    "titleZh": "不同的骰子"
   },
   {
     "id": 864,
-    "title": "Square + 1 = Squarefree"
+    "title": "Square + 1 = Squarefree",
+    "titleZh": "平方数加一为无平方因子数"
   },
   {
     "id": 865,
-    "title": "Triplicate Numbers"
+    "title": "Triplicate Numbers",
+    "titleZh": "三重数"
   },
   {
     "id": 866,
-    "title": "Tidying Up B"
+    "title": "Tidying Up B",
+    "titleZh": "整理 B"
   },
   {
     "id": 867,
-    "title": "Tiling Dodecagon"
+    "title": "Tiling Dodecagon",
+    "titleZh": "十二边形铺砌"
   },
   {
     "id": 868,
-    "title": "Belfry Maths"
+    "title": "Belfry Maths",
+    "titleZh": "钟楼数学"
   },
   {
     "id": 869,
-    "title": "Prime Guessing"
+    "title": "Prime Guessing",
+    "titleZh": "质数猜测"
   },
   {
     "id": 870,
-    "title": "Stone Game IV"
+    "title": "Stone Game IV",
+    "titleZh": "石子游戏 IV"
   },
   {
     "id": 871,
-    "title": "Drifting Subsets"
+    "title": "Drifting Subsets",
+    "titleZh": "漂移子集"
   },
   {
     "id": 872,
     "title": "Recursive Tree",
-    "solvedAt": "2024-10-16T03:10:00+08:00"
+    "solvedAt": "2024-10-16T03:10:00+08:00",
+    "titleZh": "递归树"
   },
   {
     "id": 873,
-    "title": "Words with Gaps"
+    "title": "Words with Gaps",
+    "titleZh": "带间隔的词"
   },
   {
     "id": 874,
     "title": "Maximal Prime Score",
-    "solvedAt": "2024-11-05T13:55:00+08:00"
+    "solvedAt": "2024-11-05T13:55:00+08:00",
+    "titleZh": "最大的质数得分"
   },
   {
     "id": 875,
-    "title": "Quadruple Congruence"
+    "title": "Quadruple Congruence",
+    "titleZh": "四重同余"
   },
   {
     "id": 876,
-    "title": "Triplet Tricks"
+    "title": "Triplet Tricks",
+    "titleZh": "三元组的变换"
   },
   {
     "id": 877,
-    "title": "XOR-Equation A"
+    "title": "XOR-Equation A",
+    "titleZh": "异或方程 A"
   },
   {
     "id": 878,
-    "title": "XOR-Equation B"
+    "title": "XOR-Equation B",
+    "titleZh": "异或方程 B"
   },
   {
     "id": 879,
     "title": "Touch-screen Password",
-    "solvedAt": "2026-02-16T14:55:00+08:00"
+    "solvedAt": "2026-02-16T14:55:00+08:00",
+    "titleZh": "触摸屏密码"
   },
   {
     "id": 880,
-    "title": "Nested Radicals"
+    "title": "Nested Radicals",
+    "titleZh": "嵌套根式"
   },
   {
     "id": 881,
     "title": "Divisor Graph Width",
-    "solvedAt": "2024-10-05T12:22:00+08:00"
+    "solvedAt": "2024-10-05T12:22:00+08:00",
+    "titleZh": "因数图的宽度"
   },
   {
     "id": 882,
     "title": "Removing Bits",
-    "solvedAt": "2025-11-19T16:25:00+08:00"
+    "solvedAt": "2025-11-19T16:25:00+08:00",
+    "titleZh": "删除二进制位"
   },
   {
     "id": 883,
-    "title": "Remarkable Triangles"
+    "title": "Remarkable Triangles",
+    "titleZh": "非凡的三角形"
   },
   {
     "id": 884,
     "title": "Removing Cubes",
-    "solvedAt": "2024-10-05T03:55:00+08:00"
+    "solvedAt": "2024-10-05T03:55:00+08:00",
+    "titleZh": "移除立方数"
   },
   {
     "id": 885,
     "title": "Sorted Digits",
-    "solvedAt": "2024-09-22T12:22:00+08:00"
+    "solvedAt": "2024-09-22T12:22:00+08:00",
+    "titleZh": "数位排序"
   },
   {
     "id": 886,
-    "title": "Coprime Permutations"
+    "title": "Coprime Permutations",
+    "titleZh": "互质排列"
   },
   {
     "id": 887,
-    "title": "Bounded Binary Search"
+    "title": "Bounded Binary Search",
+    "titleZh": "有界二分查找"
   },
   {
     "id": 888,
     "title": "1249 Nim",
-    "solvedAt": "2026-02-24T11:57:00+08:00"
+    "solvedAt": "2026-02-24T11:57:00+08:00",
+    "titleZh": "1249 尼姆游戏"
   },
   {
     "id": 889,
-    "title": "Rational Blancmange"
+    "title": "Rational Blancmange",
+    "titleZh": "有理布朗芒吉函数"
   },
   {
     "id": 890,
-    "title": "Binary Partitions"
+    "title": "Binary Partitions",
+    "titleZh": "二进制分拆"
   },
   {
     "id": 891,
-    "title": "Ambiguous Clock"
+    "title": "Ambiguous Clock",
+    "titleZh": "模糊时钟"
   },
   {
     "id": 892,
-    "title": "Zebra Circles"
+    "title": "Zebra Circles",
+    "titleZh": "斑马圈"
   },
   {
     "id": 893,
     "title": "Matchsticks",
-    "solvedAt": "2025-09-17T08:40:00+08:00"
+    "solvedAt": "2025-09-17T08:40:00+08:00",
+    "titleZh": "火柴棍"
   },
   {
     "id": 894,
-    "title": "Spiral of Circles"
+    "title": "Spiral of Circles",
+    "titleZh": "螺旋圈"
   },
   {
     "id": 895,
-    "title": "Gold & Silver Coin Game II"
+    "title": "Gold & Silver Coin Game II",
+    "titleZh": "金银币游戏 II"
   },
   {
     "id": 896,
-    "title": "Divisible Ranges"
+    "title": "Divisible Ranges",
+    "titleZh": "可整除的范围"
   },
   {
     "id": 897,
-    "title": "Maximal $n$-gon in a region"
+    "title": "Maximal $n$-gon in a region",
+    "titleZh": "区域内最大的 $n$ 边形",
+    "titleHtml": "Maximal <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.357ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 600 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-b18208f1d9b1-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-b18208f1d9b1-MJX-1-TEX-I-1D45B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></mjx-assistive-mml></mjx-container>-gon in a region",
+    "titleZhHtml": "区域内最大的 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.025ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.357ex\" height=\"1.025ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -442 600 453\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-a14175bc9199-MJX-1-TEX-I-1D45B\" d=\"M21 287Q22 293 24 303T36 341T56 388T89 425T135 442Q171 442 195 424T225 390T231 369Q231 367 232 367L243 378Q304 442 382 442Q436 442 469 415T503 336T465 179T427 52Q427 26 444 26Q450 26 453 27Q482 32 505 65T540 145Q542 153 560 153Q580 153 580 145Q580 144 576 130Q568 101 554 73T508 17T439 -10Q392 -10 371 17T350 73Q350 92 386 193T423 345Q423 404 379 404H374Q288 404 229 303L222 291L189 157Q156 26 151 16Q138 -11 108 -11Q95 -11 87 -5T76 7T74 17Q74 30 112 180T152 343Q153 348 153 366Q153 405 129 405Q91 405 66 305Q60 285 60 284Q58 278 41 278H27Q21 284 21 287Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D45B\" xlink:href=\"#pe-a14175bc9199-MJX-1-TEX-I-1D45B\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>n</mi></math></mjx-assistive-mml></mjx-container> 边形"
   },
   {
     "id": 898,
-    "title": "Claire Voyant"
+    "title": "Claire Voyant",
+    "titleZh": "克莱尔·沃扬特"
   },
   {
     "id": 899,
     "title": "DistribuNim I",
-    "solvedAt": "2024-09-30T15:50:00+08:00"
+    "solvedAt": "2024-09-30T15:50:00+08:00",
+    "titleZh": "分配尼姆游戏 I"
   },
   {
     "id": 900,
-    "title": "DistribuNim II"
+    "title": "DistribuNim II",
+    "titleZh": "分配尼姆游戏 II"
   },
   {
     "id": 901,
-    "title": "Well Drilling"
+    "title": "Well Drilling",
+    "titleZh": "钻井"
   },
   {
     "id": 902,
-    "title": "Permutation Powers"
+    "title": "Permutation Powers",
+    "titleZh": "排列幂"
   },
   {
     "id": 903,
-    "title": "Total Permutation Powers"
+    "title": "Total Permutation Powers",
+    "titleZh": "总排列幂"
   },
   {
     "id": 904,
-    "title": "Pythagorean Angle"
+    "title": "Pythagorean Angle",
+    "titleZh": "勾股角"
   },
   {
     "id": 905,
-    "title": "Now I Know"
+    "title": "Now I Know",
+    "titleZh": "现在我知道了"
   },
   {
     "id": 906,
-    "title": "A Collective Decision"
+    "title": "A Collective Decision",
+    "titleZh": "集体决定"
   },
   {
     "id": 907,
-    "title": "Stacking Cups"
+    "title": "Stacking Cups",
+    "titleZh": "叠杯"
   },
   {
     "id": 908,
-    "title": "Clock Sequence II"
+    "title": "Clock Sequence II",
+    "titleZh": "时钟序列 II"
   },
   {
     "id": 909,
-    "title": "L-expressions I"
+    "title": "L-expressions I",
+    "titleZh": "L-表达式 I"
   },
   {
     "id": 910,
-    "title": "L-expressions II"
+    "title": "L-expressions II",
+    "titleZh": "L-表达式 II"
   },
   {
     "id": 911,
-    "title": "Khinchin Exceptions"
+    "title": "Khinchin Exceptions",
+    "titleZh": "辛钦例外"
   },
   {
     "id": 912,
-    "title": "Where are the Odds?"
+    "title": "Where are the Odds?",
+    "titleZh": "奇数在哪里"
   },
   {
     "id": 913,
-    "title": "Row-major vs Column-major"
+    "title": "Row-major vs Column-major",
+    "titleZh": "行优先与列优先"
   },
   {
     "id": 914,
     "title": "Triangles inside Circles",
-    "solvedAt": "2026-06-09T10:37:00+08:00"
+    "solvedAt": "2026-06-09T10:37:00+08:00",
+    "titleZh": "圆内的三角形"
   },
   {
     "id": 915,
-    "title": "Giant GCDs"
+    "title": "Giant GCDs",
+    "titleZh": "巨大的最大公约数"
   },
   {
     "id": 916,
     "title": "Restricted Permutations",
-    "solvedAt": "2025-11-19T13:25:00+08:00"
+    "solvedAt": "2025-11-19T13:25:00+08:00",
+    "titleZh": "受限排列"
   },
   {
     "id": 917,
-    "title": "Minimal Path Using Additive Cost"
+    "title": "Minimal Path Using Additive Cost",
+    "titleZh": "加性代价下的最短路径"
   },
   {
     "id": 918,
     "title": "Recursive Sequence Summation",
-    "solvedAt": "2025-02-08T04:49:00+08:00"
+    "solvedAt": "2025-02-08T04:49:00+08:00",
+    "titleZh": "递推数列求和"
   },
   {
     "id": 919,
-    "title": "Fortunate Triangles"
+    "title": "Fortunate Triangles",
+    "titleZh": "幸运三角形"
   },
   {
     "id": 920,
-    "title": "Tau Numbers"
+    "title": "Tau Numbers",
+    "titleZh": "τ 数"
   },
   {
     "id": 921,
-    "title": "Golden Recurrence"
+    "title": "Golden Recurrence",
+    "titleZh": "黄金递推"
   },
   {
     "id": 922,
-    "title": "Young's Game A"
+    "title": "Young's Game A",
+    "titleZh": "杨氏游戏 A"
   },
   {
     "id": 923,
-    "title": "Young's Game B"
+    "title": "Young's Game B",
+    "titleZh": "杨氏游戏 B"
   },
   {
     "id": 924,
-    "title": "Larger Digit Permutation II"
+    "title": "Larger Digit Permutation II",
+    "titleZh": "更大的数位排列 II"
   },
   {
     "id": 925,
-    "title": "Larger Digit Permutation III"
+    "title": "Larger Digit Permutation III",
+    "titleZh": "更大的数位排列 III"
   },
   {
     "id": 926,
     "title": "Total Roundness",
-    "solvedAt": "2025-06-04T03:54:00+08:00"
+    "solvedAt": "2025-06-04T03:54:00+08:00",
+    "titleZh": "总圆度"
   },
   {
     "id": 927,
-    "title": "Prime-ary Tree"
+    "title": "Prime-ary Tree",
+    "titleZh": "质数叉树"
   },
   {
     "id": 928,
-    "title": "Cribbage"
+    "title": "Cribbage",
+    "titleZh": "克里比奇"
   },
   {
     "id": 929,
-    "title": "Odd-Run Compositions"
+    "title": "Odd-Run Compositions",
+    "titleZh": "游程长度为奇数的有序分拆"
   },
   {
     "id": 930,
-    "title": "The Gathering"
+    "title": "The Gathering",
+    "titleZh": "聚会"
   },
   {
     "id": 931,
-    "title": "Totient Graph"
+    "title": "Totient Graph",
+    "titleZh": "欧拉函数图"
   },
   {
     "id": 932,
     "title": "$2025$",
-    "solvedAt": "2025-05-23T21:51:00+08:00"
+    "solvedAt": "2025-05-23T21:51:00+08:00",
+    "titleZh": "$2025$",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.525ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-12a1cfd6fecc-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-12a1cfd6fecc-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path><path id=\"pe-12a1cfd6fecc-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-12a1cfd6fecc-MJX-1-TEX-N-32\"></use><use data-c=\"30\" xlink:href=\"#pe-12a1cfd6fecc-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use><use data-c=\"32\" xlink:href=\"#pe-12a1cfd6fecc-MJX-1-TEX-N-32\" transform=\"translate(1000,0)\"></use><use data-c=\"35\" xlink:href=\"#pe-12a1cfd6fecc-MJX-1-TEX-N-35\" transform=\"translate(1500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2025</mn></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.525ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-eeed0dfdbf04-MJX-1-TEX-N-32\" d=\"M109 429Q82 429 66 447T50 491Q50 562 103 614T235 666Q326 666 387 610T449 465Q449 422 429 383T381 315T301 241Q265 210 201 149L142 93L218 92Q375 92 385 97Q392 99 409 186V189H449V186Q448 183 436 95T421 3V0H50V19V31Q50 38 56 46T86 81Q115 113 136 137Q145 147 170 174T204 211T233 244T261 278T284 308T305 340T320 369T333 401T340 431T343 464Q343 527 309 573T212 619Q179 619 154 602T119 569T109 550Q109 549 114 549Q132 549 151 535T170 489Q170 464 154 447T109 429Z\"></path><path id=\"pe-eeed0dfdbf04-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path><path id=\"pe-eeed0dfdbf04-MJX-1-TEX-N-35\" d=\"M164 157Q164 133 148 117T109 101H102Q148 22 224 22Q294 22 326 82Q345 115 345 210Q345 313 318 349Q292 382 260 382H254Q176 382 136 314Q132 307 129 306T114 304Q97 304 95 310Q93 314 93 485V614Q93 664 98 664Q100 666 102 666Q103 666 123 658T178 642T253 634Q324 634 389 662Q397 666 402 666Q410 666 410 648V635Q328 538 205 538Q174 538 149 544L139 546V374Q158 388 169 396T205 412T256 420Q337 420 393 355T449 201Q449 109 385 44T229 -22Q148 -22 99 32T50 154Q50 178 61 192T84 210T107 214Q132 214 148 197T164 157Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"32\" xlink:href=\"#pe-eeed0dfdbf04-MJX-1-TEX-N-32\"></use><use data-c=\"30\" xlink:href=\"#pe-eeed0dfdbf04-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use><use data-c=\"32\" xlink:href=\"#pe-eeed0dfdbf04-MJX-1-TEX-N-32\" transform=\"translate(1000,0)\"></use><use data-c=\"35\" xlink:href=\"#pe-eeed0dfdbf04-MJX-1-TEX-N-35\" transform=\"translate(1500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>2025</mn></math></mjx-assistive-mml></mjx-container>"
   },
   {
     "id": 933,
-    "title": "Paper Cutting"
+    "title": "Paper Cutting",
+    "titleZh": "剪纸"
   },
   {
     "id": 934,
     "title": "Unlucky Primes",
-    "solvedAt": "2025-12-12T14:58:00+08:00"
+    "solvedAt": "2025-12-12T14:58:00+08:00",
+    "titleZh": "不幸的质数"
   },
   {
     "id": 935,
-    "title": "Rolling Square"
+    "title": "Rolling Square",
+    "titleZh": "滚动的正方形"
   },
   {
     "id": 936,
-    "title": "Peerless Trees"
+    "title": "Peerless Trees",
+    "titleZh": "无同伴树"
   },
   {
     "id": 937,
-    "title": "Equiproduct Partition"
+    "title": "Equiproduct Partition",
+    "titleZh": "等乘积划分"
   },
   {
     "id": 938,
     "title": "Exhausting a Colour",
-    "solvedAt": "2025-06-19T15:22:00+08:00"
+    "solvedAt": "2025-06-19T15:22:00+08:00",
+    "titleZh": "耗尽一种颜色"
   },
   {
     "id": 939,
-    "title": "Partisan Nim"
+    "title": "Partisan Nim",
+    "titleZh": "非对称尼姆游戏"
   },
   {
     "id": 940,
     "title": "Two-Dimensional Recurrence",
-    "solvedAt": "2025-06-25T03:09:00+08:00"
+    "solvedAt": "2025-06-25T03:09:00+08:00",
+    "titleZh": "二维递推"
   },
   {
     "id": 941,
-    "title": "de Bruijn's Combination Lock"
+    "title": "de Bruijn's Combination Lock",
+    "titleZh": "德布鲁因的密码锁"
   },
   {
     "id": 942,
-    "title": "Mersenne's Square Root"
+    "title": "Mersenne's Square Root",
+    "titleZh": "梅森的平方根"
   },
   {
     "id": 943,
-    "title": "Self Describing Sequences"
+    "title": "Self Describing Sequences",
+    "titleZh": "自描述序列"
   },
   {
     "id": 944,
     "title": "Sum of Elevisors",
-    "solvedAt": "2025-09-17T09:29:00+08:00"
+    "solvedAt": "2025-09-17T09:29:00+08:00",
+    "titleZh": "元素因数之和"
   },
   {
     "id": 945,
-    "title": "XOR-Equation C"
+    "title": "XOR-Equation C",
+    "titleZh": "异或方程 C"
   },
   {
     "id": 946,
-    "title": "Continued Fraction Fraction"
+    "title": "Continued Fraction Fraction",
+    "titleZh": "连分数中的分数"
   },
   {
     "id": 947,
-    "title": "Fibonacci Residues"
+    "title": "Fibonacci Residues",
+    "titleZh": "斐波那契余数"
   },
   {
     "id": 948,
     "title": "Left vs Right",
-    "solvedAt": "2025-06-30T03:15:00+08:00"
+    "solvedAt": "2025-06-30T03:15:00+08:00",
+    "titleZh": "左与右"
   },
   {
     "id": 949,
-    "title": "Left vs Right II"
+    "title": "Left vs Right II",
+    "titleZh": "左与右 II"
   },
   {
     "id": 950,
-    "title": "Pirate Treasure"
+    "title": "Pirate Treasure",
+    "titleZh": "海盗宝藏"
   },
   {
     "id": 951,
     "title": "A Game of Chance",
-    "solvedAt": "2025-06-28T07:03:00+08:00"
+    "solvedAt": "2025-06-28T07:03:00+08:00",
+    "titleZh": "概率游戏"
   },
   {
     "id": 952,
     "title": "Order Modulo Factorial",
-    "solvedAt": "2025-06-29T14:46:00+08:00"
+    "solvedAt": "2025-06-29T14:46:00+08:00",
+    "titleZh": "模阶乘的乘法阶"
   },
   {
     "id": 953,
-    "title": "Factorisation Nim"
+    "title": "Factorisation Nim",
+    "titleZh": "因式分解尼姆游戏"
   },
   {
     "id": 954,
-    "title": "Heptaphobia"
+    "title": "Heptaphobia",
+    "titleZh": "恐七症"
   },
   {
     "id": 955,
     "title": "Finding Triangles",
-    "solvedAt": "2026-02-16T17:08:00+08:00"
+    "solvedAt": "2026-02-16T17:08:00+08:00",
+    "titleZh": "寻找三角形"
   },
   {
     "id": 956,
     "title": "Super Duper Sum",
-    "solvedAt": "2025-12-12T04:11:00+08:00"
+    "solvedAt": "2025-12-12T04:11:00+08:00",
+    "titleZh": "超级总和"
   },
   {
     "id": 957,
-    "title": "Point Genesis"
+    "title": "Point Genesis",
+    "titleZh": "点的生成"
   },
   {
     "id": 958,
-    "title": "Euclid's Labour"
+    "title": "Euclid's Labour",
+    "titleZh": "欧几里得的劳动"
   },
   {
     "id": 959,
     "title": "Asymmetric Random Walk",
-    "solvedAt": "2025-09-07T21:17:00+08:00"
+    "solvedAt": "2025-09-07T21:17:00+08:00",
+    "titleZh": "非对称随机游走"
   },
   {
     "id": 960,
-    "title": "Stone Game Solitaire"
+    "title": "Stone Game Solitaire",
+    "titleZh": "单人石子游戏"
   },
   {
     "id": 961,
     "title": "Removing Digits",
-    "solvedAt": "2025-09-21T04:04:00+08:00"
+    "solvedAt": "2025-09-21T04:04:00+08:00",
+    "titleZh": "删除数字"
   },
   {
     "id": 962,
     "title": "Angular Bisector and Tangent 2",
-    "solvedAt": "2025-10-09T13:25:00+08:00"
+    "solvedAt": "2025-10-09T13:25:00+08:00",
+    "titleZh": "角平分线和切线 2"
   },
   {
     "id": 963,
-    "title": "Removing Trits"
+    "title": "Removing Trits",
+    "titleZh": "删除三进制位"
   },
   {
     "id": 964,
     "title": "Musical Chairs Revisited",
-    "solvedAt": "2025-10-12T02:20:00+08:00"
+    "solvedAt": "2025-10-12T02:20:00+08:00",
+    "titleZh": "再访抢椅子游戏"
   },
   {
     "id": 965,
     "title": "Expected Minimal Fractional Value",
-    "solvedAt": "2025-10-19T01:14:00+08:00"
+    "solvedAt": "2025-10-19T01:14:00+08:00",
+    "titleZh": "最小小数部分的期望"
   },
   {
     "id": 966,
     "title": "Triangle Circle Intersection",
-    "solvedAt": "2025-10-26T14:02:00+08:00"
+    "solvedAt": "2025-10-26T14:02:00+08:00",
+    "titleZh": "三角形与圆的交集"
   },
   {
     "id": 967,
     "title": "$B$-Trivisible Numbers",
-    "solvedAt": "2025-11-02T02:22:00+08:00"
+    "solvedAt": "2025-11-02T02:22:00+08:00",
+    "titleZh": "$B$ 三整除数",
+    "titleHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.717ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 759 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-6d31ff05296d-MJX-1-TEX-I-1D435\" d=\"M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D435\" xlink:href=\"#pe-6d31ff05296d-MJX-1-TEX-I-1D435\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math></mjx-assistive-mml></mjx-container>-Trivisible Numbers",
+    "titleZhHtml": "<mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: 0;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"1.717ex\" height=\"1.545ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -683 759 683\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-d37a078e12af-MJX-1-TEX-I-1D435\" d=\"M231 637Q204 637 199 638T194 649Q194 676 205 682Q206 683 335 683Q594 683 608 681Q671 671 713 636T756 544Q756 480 698 429T565 360L555 357Q619 348 660 311T702 219Q702 146 630 78T453 1Q446 0 242 0Q42 0 39 2Q35 5 35 10Q35 17 37 24Q42 43 47 45Q51 46 62 46H68Q95 46 128 49Q142 52 147 61Q150 65 219 339T288 628Q288 635 231 637ZM649 544Q649 574 634 600T585 634Q578 636 493 637Q473 637 451 637T416 636H403Q388 635 384 626Q382 622 352 506Q352 503 351 500L320 374H401Q482 374 494 376Q554 386 601 434T649 544ZM595 229Q595 273 572 302T512 336Q506 337 429 337Q311 337 310 336Q310 334 293 263T258 122L240 52Q240 48 252 48T333 46Q422 46 429 47Q491 54 543 105T595 229Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mi\"><use data-c=\"1D435\" xlink:href=\"#pe-d37a078e12af-MJX-1-TEX-I-1D435\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mi>B</mi></math></mjx-assistive-mml></mjx-container> 三整除数"
   },
   {
     "id": 968,
     "title": "5D Summation",
-    "solvedAt": "2025-11-19T15:16:00+08:00"
+    "solvedAt": "2025-11-19T15:16:00+08:00",
+    "titleZh": "五维求和"
   },
   {
     "id": 969,
     "title": "Kangaroo Hopping",
-    "solvedAt": "2025-11-16T06:44:00+08:00"
+    "solvedAt": "2025-11-16T06:44:00+08:00",
+    "titleZh": "袋鼠跳"
   },
   {
     "id": 970,
     "title": "Kangaroo Hopping over Sixes",
-    "solvedAt": "2025-11-19T09:32:00+08:00"
+    "solvedAt": "2025-11-19T09:32:00+08:00",
+    "titleZh": "跳过数字六的袋鼠"
   },
   {
     "id": 971,
     "title": "Modular Polynomial Composition",
-    "solvedAt": "2025-11-23T11:23:00+08:00"
+    "solvedAt": "2025-11-23T11:23:00+08:00",
+    "titleZh": "模意义下的多项式复合"
   },
   {
     "id": 972,
     "title": "Hyperbolic Plane",
-    "solvedAt": "2025-12-01T13:52:00+08:00"
+    "solvedAt": "2025-12-01T13:52:00+08:00",
+    "titleZh": "双曲平面"
   },
   {
     "id": 973,
     "title": "Random Dealings",
-    "solvedAt": "2025-12-17T14:00:00+08:00"
+    "solvedAt": "2025-12-17T14:00:00+08:00",
+    "titleZh": "随机发牌"
   },
   {
     "id": 974,
     "title": "Very Odd Numbers",
-    "solvedAt": "2025-12-13T16:21:00+08:00"
+    "solvedAt": "2025-12-13T16:21:00+08:00",
+    "titleZh": "非常奇特的奇数"
   },
   {
     "id": 975,
-    "title": "A Winding Path"
+    "title": "A Winding Path",
+    "titleZh": "蜿蜒的小路"
   },
   {
     "id": 976,
-    "title": "XO Game"
+    "title": "XO Game",
+    "titleZh": "XO 游戏"
   },
   {
     "id": 977,
     "title": "Iterated Functions",
-    "solvedAt": "2026-01-04T13:21:00+08:00"
+    "solvedAt": "2026-01-04T13:21:00+08:00",
+    "titleZh": "迭代函数"
   },
   {
     "id": 978,
-    "title": "Random Walk Skewness"
+    "title": "Random Walk Skewness",
+    "titleZh": "随机游走偏度"
   },
   {
     "id": 979,
     "title": "Heptagon Hopping",
-    "solvedAt": "2026-01-22T13:40:00+08:00"
+    "solvedAt": "2026-01-22T13:40:00+08:00",
+    "titleZh": "七边形跳跃"
   },
   {
     "id": 980,
-    "title": "The Quaternion Group I"
+    "title": "The Quaternion Group I",
+    "titleZh": "四元数群 I"
   },
   {
     "id": 981,
-    "title": "The Quaternion Group II"
+    "title": "The Quaternion Group II",
+    "titleZh": "四元数群 II"
   },
   {
     "id": 982,
-    "title": "The Third Dice"
+    "title": "The Third Dice",
+    "titleZh": "第三个骰子"
   },
   {
     "id": 983,
-    "title": "Consonant Circle Crossing"
+    "title": "Consonant Circle Crossing",
+    "titleZh": "谐和圆的交点"
   },
   {
     "id": 984,
-    "title": "Knights and Horses"
+    "title": "Knights and Horses",
+    "titleZh": "骑士和马匹"
   },
   {
     "id": 985,
     "title": "Telescoping Triangles",
-    "solvedAt": "2026-02-22T15:42:00+08:00"
+    "solvedAt": "2026-02-22T15:42:00+08:00",
+    "titleZh": "伸缩三角形"
   },
   {
     "id": 986,
     "title": "Another Infinite Game",
-    "solvedAt": "2026-03-01T10:51:00+08:00"
+    "solvedAt": "2026-03-01T10:51:00+08:00",
+    "titleZh": "另一个无限游戏"
   },
   {
     "id": 987,
     "title": "Straight Eight",
-    "solvedAt": "2026-03-08T08:17:00+08:00"
+    "solvedAt": "2026-03-08T08:17:00+08:00",
+    "titleZh": "八组顺子"
   },
   {
     "id": 988,
     "title": "Non-attacking Frogs",
-    "solvedAt": "2026-03-15T14:57:00+08:00"
+    "solvedAt": "2026-03-15T14:57:00+08:00",
+    "titleZh": "互不攻击的青蛙"
   },
   {
     "id": 989,
-    "title": "Fibonacci Sum"
+    "title": "Fibonacci Sum",
+    "titleZh": "斐波那契数之和"
   },
   {
     "id": 990,
     "title": "Addition Equations",
-    "solvedAt": "2026-03-29T11:36:00+08:00"
+    "solvedAt": "2026-03-29T11:36:00+08:00",
+    "titleZh": "加法方程"
   },
   {
     "id": 991,
     "title": "Fruit Salad",
-    "solvedAt": "2026-04-05T01:09:00+08:00"
+    "solvedAt": "2026-04-05T01:09:00+08:00",
+    "titleZh": "水果沙拉"
   },
   {
     "id": 992,
-    "title": "Another Frog Jumping"
+    "title": "Another Frog Jumping",
+    "titleZh": "又一只跳跃的青蛙"
   },
   {
     "id": 993,
     "title": "Banana Beaver",
-    "solvedAt": "2026-04-19T10:18:00+08:00"
+    "solvedAt": "2026-04-19T10:18:00+08:00",
+    "titleZh": "香蕉海狸"
   },
   {
     "id": 994,
-    "title": "Counting Triangles"
+    "title": "Counting Triangles",
+    "titleZh": "三角形计数"
   },
   {
     "id": 995,
-    "title": "A Particular Pair of Polynomials"
+    "title": "A Particular Pair of Polynomials",
+    "titleZh": "一对特定的多项式"
   },
   {
     "id": 996,
-    "title": "Overtakes"
+    "title": "Overtakes",
+    "titleZh": "超车"
   },
   {
     "id": 997,
     "title": "Dice Box",
-    "solvedAt": "2026-05-17T16:45:00+08:00"
+    "solvedAt": "2026-05-17T16:45:00+08:00",
+    "titleZh": "骰子盒"
   },
   {
     "id": 998,
-    "title": "Squaring the Triangle"
+    "title": "Squaring the Triangle",
+    "titleZh": "三角形的最小外接正方形"
   },
   {
     "id": 999,
-    "title": "Alternating Recurrence"
+    "title": "Alternating Recurrence",
+    "titleZh": "交错递推"
   },
   {
     "id": 1000,
-    "title": "Problem $1000$"
+    "title": "Problem $1000$",
+    "titleZh": "第 $1000$ 题",
+    "titleHtml": "Problem <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.525ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-bcde646bcf85-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-bcde646bcf85-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-bcde646bcf85-MJX-1-TEX-N-31\"></use><use data-c=\"30\" xlink:href=\"#pe-bcde646bcf85-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-bcde646bcf85-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-bcde646bcf85-MJX-1-TEX-N-30\" transform=\"translate(1500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn></math></mjx-assistive-mml></mjx-container>",
+    "titleZhHtml": "第 <mjx-container class=\"MathJax\" jax=\"SVG\" style=\"position: relative;\"><svg style=\"vertical-align: -0.05ex;\" xmlns=\"http://www.w3.org/2000/svg\" width=\"4.525ex\" height=\"1.557ex\" role=\"img\" focusable=\"false\" viewBox=\"0 -666 2000 688\" xmlns:xlink=\"http://www.w3.org/1999/xlink\" aria-hidden=\"true\"><defs><path id=\"pe-ddb8087d583e-MJX-1-TEX-N-31\" d=\"M213 578L200 573Q186 568 160 563T102 556H83V602H102Q149 604 189 617T245 641T273 663Q275 666 285 666Q294 666 302 660V361L303 61Q310 54 315 52T339 48T401 46H427V0H416Q395 3 257 3Q121 3 100 0H88V46H114Q136 46 152 46T177 47T193 50T201 52T207 57T213 61V578Z\"></path><path id=\"pe-ddb8087d583e-MJX-1-TEX-N-30\" d=\"M96 585Q152 666 249 666Q297 666 345 640T423 548Q460 465 460 320Q460 165 417 83Q397 41 362 16T301 -15T250 -22Q224 -22 198 -16T137 16T82 83Q39 165 39 320Q39 494 96 585ZM321 597Q291 629 250 629Q208 629 178 597Q153 571 145 525T137 333Q137 175 145 125T181 46Q209 16 250 16Q290 16 318 46Q347 76 354 130T362 333Q362 478 354 524T321 597Z\"></path></defs><g stroke=\"currentColor\" fill=\"currentColor\" stroke-width=\"0\" transform=\"scale(1,-1)\"><g data-mml-node=\"math\"><g data-mml-node=\"mn\"><use data-c=\"31\" xlink:href=\"#pe-ddb8087d583e-MJX-1-TEX-N-31\"></use><use data-c=\"30\" xlink:href=\"#pe-ddb8087d583e-MJX-1-TEX-N-30\" transform=\"translate(500,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-ddb8087d583e-MJX-1-TEX-N-30\" transform=\"translate(1000,0)\"></use><use data-c=\"30\" xlink:href=\"#pe-ddb8087d583e-MJX-1-TEX-N-30\" transform=\"translate(1500,0)\"></use></g></g></g></svg><mjx-assistive-mml unselectable=\"on\" display=\"inline\"><math xmlns=\"http://www.w3.org/1998/Math/MathML\"><mn>1000</mn></math></mjx-assistive-mml></mjx-container> 题"
   },
   {
     "id": 1001,
-    "title": "Connections I"
+    "title": "Connections I",
+    "titleZh": "连接 I"
   },
   {
     "id": 1002,
-    "title": "Connections II"
+    "title": "Connections II",
+    "titleZh": "连接 II"
   },
   {
     "id": 1003,
     "title": "Lonely Singles",
-    "solvedAt": "2026-06-23T05:52:00+08:00"
+    "solvedAt": "2026-06-23T05:52:00+08:00",
+    "titleZh": "孤独的单个石子"
   },
   {
     "id": 1004,
-    "title": "Balanced Integer"
+    "title": "Balanced Integer",
+    "titleZh": "平衡整数"
   },
   {
     "id": 1005,
     "title": "Median Prime List",
-    "solvedAt": "2026-07-05T16:15:00+08:00"
+    "solvedAt": "2026-07-05T16:15:00+08:00",
+    "titleZh": "质数列表的中位数"
   },
   {
     "id": 1006,
-    "title": "Fibonacci Subwords"
+    "title": "Fibonacci Subwords",
+    "titleZh": "斐波那契子词"
   },
   {
     "id": 1007,
-    "title": "Alternating Difference"
+    "title": "Alternating Difference",
+    "titleZh": "交替差值"
   }
 ]

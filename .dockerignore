@@ -1,6 +1,7 @@
 .git
 .gitignore
 node_modules
+.cache
 docs/.vitepress/cache
 docs/.vitepress/dist
 guwen/.vitepress/cache

@@ -1,11 +1,10 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
-import { getPuzzle, localizePuzzle } from '../data/catalog'
 import { projectEulerProblems, projectEulerSnapshot, type ProjectEulerProblem } from '../data/project-euler'
-import { usePuzzleLocale } from '../i18n'
+import { normalizePuzzleSearch, usePuzzleLocale } from '../i18n'
 
 type ProblemStatus = 'article' | 'solved' | 'open'
-type StatusFilter = 'all' | ProblemStatus
+type StatusFilter = 'all' | 'statement' | ProblemStatus
 type TimeScale = 'year' | 'month'
 type ChartMode = 'cumulative' | 'new'
 
@@ -38,18 +37,19 @@ const words = computed(() =>
         latestSolve: '最近一次解题',
         mostActive: '最高产时期',
         problems: '完整题目索引',
-        problemsDescription: '紫色题目进入本站题解，灰色未解决题目进入 Project Euler；绿色题目保留完成日期。',
+        problemsDescription: '点击任意题目阅读站内题目。紫色已有题解；绿色仅题目、已解决；蓝色仅题目、待解。',
         all: '全部',
-        article: '已解决 · 有题解',
-        solvedOnly: '已解决 · 无题解',
-        open: '未解决',
-        search: '搜索题号或英文标题…',
+        article: '已有题解',
+        statementOnly: '仅有题目',
+        solvedOnly: '仅题目 · 已解决',
+        open: '仅题目 · 待解',
+        search: '搜索题号、中英文标题…',
         allNumbers: '全部题号',
         showing: '当前显示',
         noMatch: '没有符合当前筛选条件的题目。',
         solvedOn: '完成于',
         readArticle: '阅读本站题解',
-        visitOfficial: '前往 Project Euler',
+        visitOfficial: '阅读站内题目',
         source: '题目编号和标题来自 Project Euler；解题状态来自个人导出数据。',
         chartUnit: '题',
       }
@@ -73,18 +73,19 @@ const words = computed(() =>
         latestSolve: 'Latest solve',
         mostActive: 'Most active period',
         problems: 'Complete problem index',
-        problemsDescription: 'Purple opens an on-site write-up, grey opens Project Euler, and green keeps the solve date.',
+        problemsDescription: 'Every problem opens on this site. Purple: write-up available. Green: statement only, solved. Blue: statement only, unsolved.',
         all: 'All',
-        article: 'Solved · write-up',
-        solvedOnly: 'Solved · no write-up',
-        open: 'Unsolved',
-        search: 'Search by number or English title…',
+        article: 'Write-up available',
+        statementOnly: 'Statement only',
+        solvedOnly: 'Statement only · Solved',
+        open: 'Statement only · Unsolved',
+        search: 'Search number, English or Chinese title…',
         allNumbers: 'All numbers',
         showing: 'Showing',
         noMatch: 'No problems match the current filters.',
         solvedOn: 'Solved',
         readArticle: 'Read the on-site write-up',
-        visitOfficial: 'Open on Project Euler',
+        visitOfficial: 'Read the on-site problem',
         source: 'Problem numbers and titles come from Project Euler; solve status comes from a personal export.',
         chartUnit: 'problems',
       },
@@ -98,12 +99,12 @@ function problemStatus(problem: ProjectEulerProblem): ProblemStatus {
 const counts = computed(() => ({
   article: projectEulerProblems.filter((problem) => problem.articleSlug).length,
   solved: projectEulerProblems.filter((problem) => problem.solvedAt && !problem.articleSlug).length,
-  open: projectEulerProblems.filter((problem) => !problem.solvedAt).length,
+  open: projectEulerProblems.filter((problem) => !problem.solvedAt && !problem.articleSlug).length,
 }))
 
 const completionRate = computed(() => ((projectEulerSnapshot.solved / projectEulerSnapshot.total) * 100).toFixed(1))
 const publishedProblems = projectEulerProblems.filter(
-  (problem): problem is ProjectEulerProblem & { articleSlug: string; solvedAt: string } => Boolean(problem.articleSlug && problem.solvedAt),
+  (problem): problem is ProjectEulerProblem & { articleSlug: string } => Boolean(problem.articleSlug),
 )
 const ranges = computed(() =>
   Array.from({ length: Math.ceil(projectEulerSnapshot.total / 100) }, (_, index) => {
@@ -113,25 +114,25 @@ const ranges = computed(() =>
 )
 
 const visibleProblems = computed(() => {
-  const normalizedQuery = query.value.trim().toLocaleLowerCase()
+  const normalizedQuery = normalizePuzzleSearch(query.value)
   return projectEulerProblems.filter((problem) => {
-    const matchesStatus = statusFilter.value === 'all' || problemStatus(problem) === statusFilter.value
+    const matchesStatus = statusFilter.value === 'all' || (statusFilter.value === 'statement' ? !problem.articleSlug : problemStatus(problem) === statusFilter.value)
     const matchesRange = rangeStart.value === 0 || (problem.id >= rangeStart.value && problem.id < rangeStart.value + 100)
-    const matchesQuery = !normalizedQuery || String(problem.id).includes(normalizedQuery) || problem.title.toLocaleLowerCase().includes(normalizedQuery)
+    const matchesQuery = !normalizedQuery || String(problem.id).includes(normalizedQuery) || [problem.title, problem.titleZh].some((title) => normalizePuzzleSearch(title).includes(normalizedQuery) || title.toLowerCase().includes(query.value.trim().toLowerCase()))
     return matchesStatus && matchesRange && matchesQuery
   })
 })
 
 function problemHref(problem: ProjectEulerProblem) {
-  if (problem.articleSlug) return pathFor(`/puzzles/${problem.articleSlug}`)
-  if (!problem.solvedAt) return `https://projecteuler.net/problem=${problem.id}`
-  return undefined
+  return pathFor(`/project-euler/${problem.id}`)
 }
 
 function localizedProblemTitle(problem: ProjectEulerProblem) {
-  if (!problem.articleSlug) return problem.title
-  const puzzle = getPuzzle(problem.articleSlug)
-  return puzzle ? localizePuzzle(puzzle, locale.value).title : problem.title
+  return locale.value === 'zh' ? problem.titleZh : problem.title
+}
+
+function problemStatusText(problem: ProjectEulerProblem) {
+  return problem.articleSlug ? words.value.article : problem.solvedAt ? words.value.solvedOnly : words.value.open
 }
 
 function formatDate(value: string) {
@@ -236,9 +237,7 @@ const mostActivePeriod = computed(() => {
 })
 
 function problemAriaLabel(problem: ProjectEulerProblem) {
-  const status = problemStatus(problem)
-  const action = status === 'article' ? words.value.readArticle : status === 'open' ? words.value.visitOfficial : words.value.solvedOn
-  return `${problem.id}. ${problem.title}. ${action}${problem.solvedAt ? ` ${formatDate(problem.solvedAt)}` : ''}`
+  return `${problem.id}. ${localizedProblemTitle(problem)}. ${problemStatusText(problem)}. ${words.value.visitOfficial}${problem.solvedAt ? ` · ${words.value.solvedOn} ${formatDate(problem.solvedAt)}` : ''}`
 }
 </script>
 
@@ -272,10 +271,11 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
         <span class="pe-showing-count">{{ publishedProblems.length }} {{ words.writeupCount }}</span>
       </div>
       <div class="pe-writeup-grid">
-        <a v-for="problem in publishedProblems" :key="problem.id" :href="problemHref(problem)">
+        <a v-for="problem in publishedProblems" :key="problem.id" :href="pathFor(`/puzzles/${problem.articleSlug}`)">
           <span>#PE {{ String(problem.id).padStart(3, '0') }}</span>
-          <strong>{{ localizedProblemTitle(problem) }}</strong>
-          <small>{{ formatDate(problem.solvedAt) }}</small>
+          <strong v-if="locale === 'zh' ? problem.titleZhHtml : problem.titleHtml" class="pe-math-title" v-html="locale === 'zh' ? problem.titleZhHtml : problem.titleHtml" />
+          <strong v-else>{{ localizedProblemTitle(problem) }}</strong>
+          <small v-if="problem.solvedAt">{{ formatDate(problem.solvedAt) }}</small>
           <em>{{ words.readArticle }} →</em>
         </a>
       </div>
@@ -334,6 +334,7 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
         <div class="filter-pills" :aria-label="words.problems">
           <button type="button" :class="{ active: statusFilter === 'all' }" @click="statusFilter = 'all'">{{ words.all }} · {{ projectEulerSnapshot.total }}</button>
           <button type="button" class="pe-filter--article" :class="{ active: statusFilter === 'article' }" @click="statusFilter = 'article'">{{ words.article }} · {{ counts.article }}</button>
+          <button type="button" :class="{ active: statusFilter === 'statement' }" @click="statusFilter = 'statement'">{{ words.statementOnly }} · {{ projectEulerSnapshot.total - counts.article }}</button>
           <button type="button" class="pe-filter--solved" :class="{ active: statusFilter === 'solved' }" @click="statusFilter = 'solved'">{{ words.solvedOnly }} · {{ counts.solved }}</button>
           <button type="button" class="pe-filter--open" :class="{ active: statusFilter === 'open' }" @click="statusFilter = 'open'">{{ words.open }} · {{ counts.open }}</button>
         </div>
@@ -351,23 +352,22 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
       </div>
 
       <div v-if="visibleProblems.length" class="pe-problem-grid">
-        <component
-          :is="problemHref(problem) ? 'a' : 'div'"
+        <a
           v-for="problem in visibleProblems"
           :key="problem.id"
           class="pe-problem-card"
           :class="`pe-problem-card--${problemStatus(problem)}`"
           :href="problemHref(problem)"
-          :target="problemStatus(problem) === 'open' ? '_blank' : undefined"
-          :rel="problemStatus(problem) === 'open' ? 'noreferrer' : undefined"
           :aria-label="problemAriaLabel(problem)"
         >
           <span class="pe-problem-card__number">#{{ String(problem.id).padStart(4, '0') }}</span>
-          <strong>{{ problem.title }}</strong>
+          <strong v-if="locale === 'zh' ? problem.titleZhHtml : problem.titleHtml" class="pe-math-title" v-html="locale === 'zh' ? problem.titleZhHtml : problem.titleHtml" />
+          <strong v-else>{{ localizedProblemTitle(problem) }}</strong>
+          <span class="pe-problem-card__status">{{ problemStatusText(problem) }}</span>
           <small v-if="problem.solvedAt">{{ formatDate(problem.solvedAt) }}</small>
-          <small v-else>projecteuler.net ↗</small>
+
           <span v-if="problem.articleSlug" class="pe-problem-card__mark" aria-hidden="true">↗</span>
-        </component>
+        </a>
       </div>
       <p v-else class="collection-empty">{{ words.noMatch }}</p>
     </section>

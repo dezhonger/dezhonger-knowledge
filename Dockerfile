@@ -2,11 +2,13 @@ FROM node:24-alpine AS builder
 
 RUN apk add --no-cache git
 WORKDIR /src
+ENV NODE_OPTIONS=--max-old-space-size=1024
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY docs ./docs
 COPY guwen ./guwen
 COPY puzzle ./puzzle
+COPY content ./content
 COPY scripts ./scripts
 COPY sites ./sites
 COPY LICENSES ./LICENSES

@@ -213,3 +213,11 @@ export function formatMonth(month: string, locale: PuzzleLocale) {
     timeZone: 'UTC',
   }).format(new Date(`${month}-01T00:00:00Z`))
 }
+
+export function normalizePuzzleSearch(value: string) {
+  const symbols: Record<string, string> = { pi: 'π', omega: 'ω', times: '×', equiv: '≡', sqrt: '√' }
+  return value.toLowerCase()
+    .replace(/\\(?:text|mathcal|mathrm)\{([^}]*)\}/g, '$1')
+    .replace(/\\(pi|omega|times|equiv|sqrt)\b/g, (_, name) => symbols[name])
+    .replace(/[${}\s]/g, '')
+}

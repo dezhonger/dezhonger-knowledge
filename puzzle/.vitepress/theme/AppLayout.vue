@@ -3,6 +3,7 @@ import { Content, useData } from 'vitepress'
 import SiteHeader from './components/SiteHeader.vue'
 import NoteLayout from './components/NoteLayout.vue'
 import PuzzleLayout from './components/PuzzleLayout.vue'
+import ProjectEulerProblem from './components/ProjectEulerProblem.vue'
 import { usePuzzleLocale } from './i18n'
 
 const { frontmatter } = useData()
@@ -14,7 +15,8 @@ const { copy } = usePuzzleLocale()
     <a class="skip-link" href="#main-content">{{ copy.skip }}</a>
     <SiteHeader />
     <main id="main-content" class="site-main" tabindex="-1">
-      <PuzzleLayout v-if="frontmatter.layout === 'puzzle'">
+      <ProjectEulerProblem v-if="frontmatter.layout === 'project-euler'" />
+      <PuzzleLayout v-else-if="frontmatter.layout === 'puzzle'">
         <Content />
       </PuzzleLayout>
       <NoteLayout v-else-if="frontmatter.layout === 'note'">

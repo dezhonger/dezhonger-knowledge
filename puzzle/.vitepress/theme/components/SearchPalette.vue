@@ -1,7 +1,8 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { collections, localizeCollection, localizeNote, localizePuzzle, notes, puzzles, puzzleUrl } from '../data/catalog'
-import { usePuzzleLocale } from '../i18n'
+import { projectEulerProblems } from '../data/project-euler'
+import { normalizePuzzleSearch, usePuzzleLocale } from '../i18n'
 
 const props = defineProps<{ open: boolean }>()
 const emit = defineEmits<{ 'update:open': [value: boolean] }>()
@@ -31,6 +32,14 @@ const items = computed(() => [
       haystack: `${puzzle.id} ${puzzle.title} ${puzzle.summary} ${puzzle.searchText} ${puzzle.categories.join(' ')} ${sourceFor(locale.value === 'zh' ? zhPuzzleSources : puzzleSources, puzzle.slug)}`,
     }
   }),
+  ...projectEulerProblems.map((problem) => ({
+    type: copy.value.puzzleType,
+    eyebrow: `PE #${problem.id}`,
+    title: locale.value === 'zh' ? problem.titleZh : problem.title,
+    description: 'Project Euler',
+    href: pathFor(`/project-euler/${problem.id}`),
+    haystack: `PE-${problem.id} ${String(problem.id).padStart(4, '0')} Project Euler ${problem.title} ${problem.titleZh} ${normalizePuzzleSearch(problem.title)} ${normalizePuzzleSearch(problem.titleZh)}`,
+  })),
   ...collections.map((sourceCollection) => {
     const collection = localizeCollection(sourceCollection, locale.value)
     return {

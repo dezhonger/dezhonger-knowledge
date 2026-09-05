@@ -14,11 +14,14 @@
     "dev:guwen": "npm run generate:guwen && vitepress dev guwen --host 127.0.0.1 --port 5174",
     "generate:feeds": "node scripts/generate-feeds.mjs",
     "build": "vitepress build docs && node scripts/generate-feeds.mjs knowledge",
-    "build:puzzle": "vitepress build puzzle && node scripts/generate-feeds.mjs puzzle",
+    "build:puzzle": "vitepress build puzzle && node scripts/project-euler-pages.mjs && node scripts/generate-feeds.mjs puzzle",
     "build:guwen": "npm run generate:guwen && vitepress build guwen",
     "build:all": "npm run generate:subjects && npm run build && npm run build:guwen && npm run build:puzzle",
     "preview": "vitepress preview docs --host 127.0.0.1",
-    "preview:puzzle": "vitepress preview puzzle --host 127.0.0.1 --port 4175"
+    "preview:puzzle": "vitepress preview puzzle --host 127.0.0.1 --port 4175",
+    "sync:project-euler": "node scripts/sync-project-euler.mjs",
+    "generate:project-euler": "node scripts/sync-project-euler.mjs --from-cache",
+    "validate:project-euler": "node scripts/validate-project-euler.mjs"
   },
   "devDependencies": {
     "@fontsource/ibm-plex-mono": "^5.3.0",
@@ -27,7 +30,9 @@
     "feed": "^6.0.0",
     "gray-matter": "^4.0.3",
     "markdown-it-mathjax3": "^4.3.2",
-    "vitepress": "1.6.4"
+    "vitepress": "1.6.4",
+    "cheerio": "1.0.0-rc.10",
+    "mathjax-full": "3.2.1"
   },
   "overrides": {
     "esbuild": "0.25.12",
