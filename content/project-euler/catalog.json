@@ -4551,5 +4551,9 @@
   {
     "id": 1007,
     "title": "Alternating Difference"
+  },
+  {
+    "id": 1008,
+    "title": "Functional Inverse"
   }
 ]

@@ -11,8 +11,8 @@ export interface ProjectEulerProblem {
 }
 
 export const projectEulerSnapshot = {
-  "generatedAt": "2026-09-05T10:58:56.133Z",
-  "total": 1007,
+  "generatedAt": "2026-09-05T15:07:46.304Z",
+  "total": 1008,
   "solved": 522,
   "publishedSolutions": 3
 } as const
@@ -5647,5 +5647,10 @@ export const projectEulerProblems: ProjectEulerProblem[] = [
     "id": 1007,
     "title": "Alternating Difference",
     "titleZh": "交替差值"
+  },
+  {
+    "id": 1008,
+    "title": "Functional Inverse",
+    "titleZh": "函数逆"
   }
 ]

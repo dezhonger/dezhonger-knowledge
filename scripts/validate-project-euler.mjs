@@ -3,10 +3,11 @@ import { readFile, access, readdir } from 'node:fs/promises'
 import path from 'node:path'
 import { load } from 'cheerio'
 import { FindTeX } from 'mathjax-full/js/input/tex/FindTeX.js'
-import { root, json, digest } from './project-euler-source.mjs'
+import { root, json, digest, request } from './project-euler-source.mjs'
 
 const englishOnly = process.argv.includes('--english-only')
 const built = process.argv.includes('--built')
+const latest = process.argv.includes('--latest')
 const official = await json(path.join(root, 'content/project-euler/official.json'))
 const catalog = await json(path.join(root, 'content/project-euler/catalog.json'))
 const zh = englishOnly ? {} : await json(path.join(root, 'content/project-euler/zh.json'))
@@ -106,4 +107,17 @@ if (built) {
 if (errors.length) {
   console.error(JSON.stringify(errors, null, 2))
   process.exitCode = 1
-} else console.log(`Validated ${catalog.length} ${englishOnly ? 'English' : 'bilingual'} statements and ${resources.size} local resources${built ? ', all rendered pages and index links' : ''}`)
+} else {
+  if (latest) {
+    const $ = load((await request('https://projecteuler.net/recent')).toString('utf8'))
+    const published = $('td.id_column').toArray().map((cell) => ({
+      id: Number($(cell).text()), title: $(cell).next().find('a').first().text().trim(),
+    }))
+    assert.ok(published.length && published.every((problem) => Number.isInteger(problem.id) && problem.id > 0 && problem.title), 'Cannot read the latest official problem list')
+    const newest = Math.max(...published.map((problem) => problem.id))
+    assert.equal(catalog.at(-1).id, newest, `Official latest problem is ${newest}; local catalog ends at ${catalog.at(-1).id}. Run npm run sync:project-euler and complete its translations before publishing.`)
+    for (const problem of published) assert.equal(catalog[problem.id - 1]?.title, problem.title, `Official title changed for problem ${problem.id}; sync and review its translation before publishing.`)
+    console.log(`Official latest problem is ${newest}; the local catalog is up to date`)
+  }
+  console.log(`Validated ${catalog.length} ${englishOnly ? 'English' : 'bilingual'} statements and ${resources.size} local resources${built ? ', all rendered pages and index links' : ''}`)
+}

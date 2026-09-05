@@ -6040,5 +6040,11 @@
     "html": "<p>\n斐波那契数列定义为 $F_0 = 0, F_1 = 1$，且当 $k \\geq 2$ 时，$F_k = F_{k - 1} + F_{k - 2}$。</p>\n\n<p>\n将数字 $F_0, F_1, \\dots, F_n$ 依次写出来，并用 $n$ 个减号 $-$ 分隔。<br>\n我们希望添加 $n$ 对括号 $()$，形成一个有效的表达式，使得每对括号中恰好包含一个减号，不包括其子括号中的减号。</p>\n\n<p>\n例如，当 $n = 3$ 时，我们可以这样形成五种不同的表达式：</p>\n\n$$\\begin{alignat}{8}\n(((&amp;F_0 &amp;{}-{}&amp; &amp;&amp;F_1) &amp;{}-{}&amp; &amp;&amp;F_2) &amp;{}-{}&amp; &amp;&amp;F_3) &amp;&amp;= -4\\\\\n((&amp;F_0 &amp;{}-{}&amp; &amp;(&amp;F_1 &amp;{}-{}&amp; &amp;&amp;F_2)) &amp;{}-{}&amp; &amp;&amp;F_3) &amp;&amp;= -2\\\\\n((&amp;F_0 &amp;{}-{}&amp; &amp;&amp;F_1) &amp;{}-{}&amp; (&amp;&amp;F_2 &amp;{}-{}&amp; &amp;&amp;F_3)) &amp;&amp;= 0\\\\\n(&amp;F_0 &amp;{}-{}&amp; &amp;((&amp;F_1 &amp;{}-{}&amp; &amp;&amp;F_2) &amp;{}-{}&amp; &amp;&amp;F_3)) &amp;&amp;= 2\\\\\n(&amp;F_0 &amp;{}-{}&amp; &amp;(&amp;F_1 &amp;{}-{}&amp; (&amp;&amp;F_2 &amp;{}-{}&amp; &amp;&amp;F_3))) &amp;&amp;= -2\n\\end{alignat}$$\n\n<p>\n这些表达式的值之和等于 $-6$。</p>\n\n<p>\n令 $A(n)$ 为所有可按上述方式得到的不同表达式的值之和。<br>\n因此 $A(3) = -6$。此外，$A(10) = -177666$ 和 $A(100) \\equiv 71792794 \\bmod (10^9 + 9)$。</p>\n\n<p>\n求 $A(10^7) \\bmod (10^9 + 9)$。</p>\n",
     "sourceSha256": "e71ba711f026136708f78a993c1d1affb8566e774650257131ef9f644bfd18fe",
     "sourceTitle": "Alternating Difference"
+  },
+  "1008": {
+    "title": "函数逆",
+    "html": "<p>\n将 $x^2$ 的 <i>$(N,M)$-函数逆</i> 定义为满足以下条件的次数最低的首一多项式 $Q(x)$：对所有整数 $0 \\le n \\le N$，均有 $Q(n^2) \\equiv n \\pmod M$，且所有系数均非负并小于 $M$。</p>\n\n<p>\n例如，$x^2$ 的 $(2, 7)$-函数逆为 $x^3 + 3x^2 + 4x$。</p>\n\n<p>\n求 $x^2$ 的 $(10^7, 10^9+7)$-函数逆中 $x^{10}$ 项的系数。</p>\n",
+    "sourceSha256": "b493fb720a80fff63d2c42f55492f0b2571307aa2f7d8bc3bdca34d05c4466f7",
+    "sourceTitle": "Functional Inverse"
   }
 }
