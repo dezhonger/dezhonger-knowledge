@@ -1,0 +1,969 @@
+[
+  {
+    "url": "https://rosecode.neocities.org/zebra.txt",
+    "problems": [
+      17
+    ],
+    "checkedAt": "2026-09-05T16:04:17.391Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/ski.txt",
+    "problems": [
+      18
+    ],
+    "checkedAt": "2026-09-05T16:04:20.809Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/ipsum.txt",
+    "problems": [
+      40
+    ],
+    "checkedAt": "2026-09-05T16:04:26.026Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/8puzzle.txt",
+    "problems": [
+      72
+    ],
+    "checkedAt": "2026-09-05T16:04:27.697Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/dice.swf",
+    "problems": [
+      76
+    ],
+    "checkedAt": "2026-09-05T16:04:28.631Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/decode.swf",
+    "problems": [
+      77
+    ],
+    "checkedAt": "2026-09-05T16:04:30.951Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/p80.png",
+    "problems": [
+      80
+    ],
+    "checkedAt": "2026-09-05T16:04:33.962Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/inter.swf",
+    "problems": [
+      81
+    ],
+    "checkedAt": "2026-09-05T16:04:37.288Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/box1000box.gz",
+    "problems": [
+      95
+    ],
+    "checkedAt": "2026-09-05T16:04:41.711Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/apps/intro1.zip",
+    "problems": [
+      101
+    ],
+    "checkedAt": "2026-09-05T16:04:44.785Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/apps/intro2.zip",
+    "problems": [
+      102
+    ],
+    "checkedAt": "2026-09-05T16:04:46.707Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/apps/UnClickable.exe",
+    "problems": [
+      103
+    ],
+    "checkedAt": "2026-09-05T16:04:49.513Z",
+    "status": 404
+  },
+  {
+    "url": "https://i.imgur.com/6VMTpPH.gif",
+    "problems": [
+      192
+    ],
+    "checkedAt": "2026-09-05T16:06:17.056Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/ad71d00b8ebf11948d40.gif",
+    "sha256": "ad71d00b8ebf11948d4048cf393fe0d983f876d0378f58b5824784f2fb9d74f7",
+    "bytes": 4418890
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc210.png",
+    "problems": [
+      219
+    ],
+    "checkedAt": "2026-09-05T16:06:22.979Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/d25a59a52bdb8672d76f.png",
+    "sha256": "d25a59a52bdb8672d76f428cb396800d4d20061dd3b10d6c8b45017d0b500905",
+    "bytes": 110094
+  },
+  {
+    "url": "https://i.imgur.com/D3TKMns.png",
+    "problems": [
+      242
+    ],
+    "checkedAt": "2026-09-05T16:06:25.807Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/ee57327d883953911f09.png",
+    "sha256": "ee57327d883953911f09dcd712224f0aa1d1e3c367feb2cc0d35d3a334f1d64b",
+    "bytes": 17699
+  },
+  {
+    "url": "https://i.imgur.com/Kb3mb89.png",
+    "problems": [
+      244
+    ],
+    "checkedAt": "2026-09-05T16:06:30.405Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/bfee05049e8e0ca49ff1.png",
+    "sha256": "bfee05049e8e0ca49ff1dbc9d852d5461c5cdfc9c16fce66543c69e9c35954c7",
+    "bytes": 15431
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/matchsticks.gif",
+    "problems": [
+      257
+    ],
+    "checkedAt": "2026-09-05T16:06:33.230Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/e6699cc6fc5164ae7333.gif",
+    "sha256": "e6699cc6fc5164ae733346701a4b507ab95dec125a99a232132224d7b855176d",
+    "bytes": 12279
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/p5EtNan.png",
+    "problems": [
+      259
+    ],
+    "checkedAt": "2026-09-05T16:06:36.356Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/4bea2a31efd0d4786670.png",
+    "sha256": "4bea2a31efd0d4786670ce23c009c43c67a4991f1b37551b326039782f26d465",
+    "bytes": 11345
+  },
+  {
+    "url": "embedded:4060db93a4bee8a13f18051dbd2a75fffe6580d08c0d760c0c4b9b3c5d3b6048",
+    "problems": [
+      265
+    ],
+    "checkedAt": "2026-09-05T16:06:36.359Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/39dd77ccdcfd1b8e6598.png",
+    "sha256": "39dd77ccdcfd1b8e6598e8d441e201812a657ac68f417e2dfdbd129978474e08",
+    "bytes": 1668
+  },
+  {
+    "url": "embedded:78f22d60b9a8809a868b04598c32a2f7cdb6260960f8b995a8b7105498d50ea0",
+    "problems": [
+      268
+    ],
+    "checkedAt": "2026-09-05T16:06:36.361Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/6b518f7f9825f498a40e.png",
+    "sha256": "6b518f7f9825f498a40eaea3c42ef661e84bd69fed202b286c75491f4aacb574",
+    "bytes": 12278
+  },
+  {
+    "url": "embedded:6dfd31c1391e38aa0098c9fc7045f2ad3433d85bb196bc879bb70e74f9e17e88",
+    "problems": [
+      271
+    ],
+    "checkedAt": "2026-09-05T16:06:36.363Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/bc1c0ae1ab08501cc4e3.png",
+    "sha256": "bc1c0ae1ab08501cc4e3553862bf525d9666a1bef83f49fe06789446bbf93067",
+    "bytes": 20374
+  },
+  {
+    "url": "embedded:99bd95bcb55ef89d89bc121d29610e58931f98777fe376fbfd492bc328b2e985",
+    "problems": [
+      273
+    ],
+    "checkedAt": "2026-09-05T16:32:51.240Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/53f2271c0f6197dfa757.bmp",
+    "sha256": "53f2271c0f6197dfa7572954d0cd084bfe5ef08c7b953249f9377a5896f8ac9d",
+    "bytes": 382
+  },
+  {
+    "url": "embedded:05ee53ff043a1450ca8233f750e1ccbc875e03966da85571de646cf4ee5ab0bc",
+    "problems": [
+      278
+    ],
+    "checkedAt": "2026-09-05T16:06:36.365Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/dc30fa67c0fc1bc61ff6.bmp",
+    "sha256": "dc30fa67c0fc1bc61ff68e242c49ce49f6e3e046e2af5a9a41b641e698592183",
+    "bytes": 302
+  },
+  {
+    "url": "embedded:623c34794c2cbbefd5e57cce74f9440fa4af9c2bc17448f18eca87c2d0dfc7d5",
+    "problems": [
+      287
+    ],
+    "checkedAt": "2026-09-05T16:06:36.368Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/f4e5a7c6a868ab9fd378.png",
+    "sha256": "f4e5a7c6a868ab9fd3780234c1bb3d5b94f211b34b10d7dee4f5954851b28432",
+    "bytes": 15875
+  },
+  {
+    "url": "embedded:4d4585c070786871867a84341a842908eb9886525b2886f86ace8a98e55f310f",
+    "problems": [
+      288
+    ],
+    "checkedAt": "2026-09-05T16:06:36.369Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/af1fb1b8a0c0beff6b5a.png",
+    "sha256": "af1fb1b8a0c0beff6b5a28663eb61225d32a2bf1bb0915a4a3b1b222645e2825",
+    "bytes": 3286
+  },
+  {
+    "url": "embedded:5c281940c1ac2ef2342277967af4af7197155bf230e74c46db855a275b09b5a4",
+    "problems": [
+      291
+    ],
+    "checkedAt": "2026-09-05T16:06:36.370Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/0198ddd1a093ce5c7ca8.png",
+    "sha256": "0198ddd1a093ce5c7ca845de1fe073542d8b1875cd6c2f23df31c36aacdb5a18",
+    "bytes": 38886
+  },
+  {
+    "url": "embedded:2f31777354886226942bde4f1894df3066ecc508b13ad2db599f156cf8ee12fe",
+    "problems": [
+      293
+    ],
+    "checkedAt": "2026-09-05T16:06:36.371Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/6c8320bb5b573d89a6d5.jpg",
+    "sha256": "6c8320bb5b573d89a6d52848a0cd8714ddaa0cf42677e0e7dbaf92cf8850c16c",
+    "bytes": 25144
+  },
+  {
+    "url": "embedded:447193b32137034c6821c2f6fa0d912fe0c668dba4afe19fb380f6eb01f7e8ef",
+    "problems": [
+      296
+    ],
+    "checkedAt": "2026-09-05T16:32:51.243Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/0470da500fa2d873b6fc.bmp",
+    "sha256": "0470da500fa2d873b6fcc6c04826dce41e40c61593b20ab7b60a10f382d9a5ff",
+    "bytes": 2750
+  },
+  {
+    "url": "embedded:267ff6802124d702407485512a0068a669270cdd58d643ac485e2cf93725d724",
+    "problems": [
+      297
+    ],
+    "checkedAt": "2026-09-05T16:06:36.372Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/93ea8de36d9843422437.jpg",
+    "sha256": "93ea8de36d9843422437582455e7c8ad787ebc1dc0d1d9b0bf037aa07343f9b5",
+    "bytes": 24066
+  },
+  {
+    "url": "embedded:d83c462b03d4456650833a8f8a474e8bd91b9e764764cc2b06ef4b96cc922b8e",
+    "problems": [
+      298
+    ],
+    "checkedAt": "2026-09-05T16:06:36.373Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/6b5aa4369140dbc28a3a.jpg",
+    "sha256": "6b5aa4369140dbc28a3ae42fe4d0e98716f2fddb7a3bbc9992df11075ef57921",
+    "bytes": 46709
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/golden_rod.txt",
+    "problems": [
+      303
+    ],
+    "checkedAt": "2026-09-05T16:06:38.359Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/84aefa9b5472f8d0b709.txt",
+    "sha256": "84aefa9b5472f8d0b7093013a17a57d4d74aa035d0bf0475405451b4a929090b",
+    "bytes": 7862
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC305.jpg",
+    "problems": [
+      305
+    ],
+    "checkedAt": "2026-09-05T16:06:40.264Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/06d927a63cafe0ac0c16.jpg",
+    "sha256": "06d927a63cafe0ac0c1632b80a4a5da39fd5861a798752f1d86c2d8f9675df47",
+    "bytes": 48554
+  },
+  {
+    "url": "embedded:fea62a92c623fa7aba8dd75162fed6d1427b3b19e6be191834159a150c5efde0",
+    "problems": [
+      307
+    ],
+    "checkedAt": "2026-09-05T16:06:40.266Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/f3a095210653c4f92563.png",
+    "sha256": "f3a095210653c4f92563a7b7534e5b4ee2aac936ae8eab11274cb63ab683a067",
+    "bytes": 396
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/2_sphere_pack_1.png",
+    "problems": [
+      310
+    ],
+    "checkedAt": "2026-09-05T16:06:43.434Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/1d62559837d810b2fc02.png",
+    "sha256": "1d62559837d810b2fc0239e2e540312f70646cff763d8ddbd418e23cb9cbf18e",
+    "bytes": 126929
+  },
+  {
+    "url": "embedded:20a50e1ba451f8ac849d2c05e789cb5e591d17b2c4577dfe8601eeadd7a82704",
+    "problems": [
+      314
+    ],
+    "checkedAt": "2026-09-05T16:06:43.436Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/38c3be37561f85ecef19.png",
+    "sha256": "38c3be37561f85ecef19c62e857d9694c3f61224ad58e3ddc8edfb295ed1ead0",
+    "bytes": 220
+  },
+  {
+    "url": "embedded:7166de5f71e79cbfc79eaad17d6e356232066fd0f9219a859f573e002be4a50c",
+    "problems": [
+      314
+    ],
+    "checkedAt": "2026-09-05T16:06:43.437Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/23216d8f1529bedcd421.png",
+    "sha256": "23216d8f1529bedcd421b8917ff22c7a16931a6eae67b0475eacf41a142bee67",
+    "bytes": 287
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc222_16_1.png",
+    "problems": [
+      322
+    ],
+    "checkedAt": "2026-09-05T16:06:46.025Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/0973baaab85f90360e2d.png",
+    "sha256": "0973baaab85f90360e2de87e11163be985a1197da3de943de9ef1113c79b8be6",
+    "bytes": 2778
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc324.jpg",
+    "problems": [
+      324
+    ],
+    "checkedAt": "2026-09-05T16:06:48.536Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/18f352c99133de05919a.jpg",
+    "sha256": "18f352c99133de05919a81311a718134c4b77bc7cda20e06f4f24bb39ece6f6f",
+    "bytes": 48039
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/getafix4_old.png",
+    "problems": [
+      325
+    ],
+    "checkedAt": "2026-09-05T16:06:52.794Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/b89d78b52bf389acefe0.png",
+    "sha256": "b89d78b52bf389acefe0499d2b29f9995475740aac23043da90bfdc0734bc315",
+    "bytes": 255203
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC331.jpg",
+    "problems": [
+      331
+    ],
+    "checkedAt": "2026-09-05T16:06:55.752Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/c08619dfac2cb730c67c.jpg",
+    "sha256": "c08619dfac2cb730c67c126ca6b2e34d111cb19ba245a2d5482a9e8bd8b4c7a7",
+    "bytes": 91676
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC332.jpg",
+    "problems": [
+      332
+    ],
+    "checkedAt": "2026-09-05T16:06:59.389Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/2c4534923555a48ebcfa.jpg",
+    "sha256": "2c4534923555a48ebcfa5aaae9e8bea539ea1b271f8f750638cf02a0252d19ee",
+    "bytes": 110353
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC335.jpg",
+    "problems": [
+      335
+    ],
+    "checkedAt": "2026-09-05T16:07:03.010Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/1c02a1930bf67883c147.jpg",
+    "sha256": "1c02a1930bf67883c1474d19ae29d0ba481bb381c97e0d5fbb945073d1faecbc",
+    "bytes": 55418
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/lip.txt",
+    "problems": [
+      344
+    ],
+    "checkedAt": "2026-09-05T16:07:05.749Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/225077d47ac91ff36e3a.txt",
+    "sha256": "225077d47ac91ff36e3af2d80ff11c53325595ae09e5cefdc32c70566e2ae8db",
+    "bytes": 68337
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc356.png",
+    "problems": [
+      356
+    ],
+    "checkedAt": "2026-09-05T16:07:07.346Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/4ec3ca4cbc8bc82f2583.png",
+    "sha256": "4ec3ca4cbc8bc82f2583cff999b05670459db6d52a6d645ea94cb5c60bfee3af",
+    "bytes": 4372
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC372_1.jpg",
+    "problems": [
+      372
+    ],
+    "checkedAt": "2026-09-05T16:07:11.096Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/bca6be1d95dabe6b5c45.jpg",
+    "sha256": "bca6be1d95dabe6b5c45a84e9502212304a957f1cf9500b30852ee6ff2a0227d",
+    "bytes": 105777
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC372_2.png",
+    "problems": [
+      372
+    ],
+    "checkedAt": "2026-09-05T16:07:13.744Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/dba1df305bf8c55c602f.png",
+    "sha256": "dba1df305bf8c55c602fb81576ee8fb9781f1a4f73920eab3c4a1e2eab0b09de",
+    "bytes": 15403
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC372_3.png",
+    "problems": [
+      372
+    ],
+    "checkedAt": "2026-09-05T16:07:15.611Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/d5211c9f7b8d334f5b66.png",
+    "sha256": "d5211c9f7b8d334f5b6656bc9f383aa187f7c77d6c3117f34307c72f169c9829",
+    "bytes": 13813
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc373.png",
+    "problems": [
+      373
+    ],
+    "checkedAt": "2026-09-05T16:07:17.989Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/3e5f8d1e208469e1ad6a.png",
+    "sha256": "3e5f8d1e208469e1ad6a6836175183f6326688ba8d357d25239d43ef6add3dab",
+    "bytes": 2273
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/Turkish_flag.png",
+    "problems": [
+      376
+    ],
+    "checkedAt": "2026-09-05T16:07:19.813Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC377.png",
+    "problems": [
+      377
+    ],
+    "checkedAt": "2026-09-05T16:07:22.637Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/8c01e9cec33518d1804d.png",
+    "sha256": "8c01e9cec33518d1804de460ebb64672a97f2a4762a577bf93491f765508c9de",
+    "bytes": 82149
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/data389.txt",
+    "problems": [
+      389
+    ],
+    "checkedAt": "2026-09-05T16:07:25.758Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/57e4424a7f1a109ec205.txt",
+    "sha256": "57e4424a7f1a109ec2055dde8ebdea857beaf3da52a0c809728cd27b9c2ab4f6",
+    "bytes": 58022
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC391-1.jpg",
+    "problems": [
+      391
+    ],
+    "checkedAt": "2026-09-05T16:07:30.341Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/cd171da470d90a05cc9e.jpg",
+    "sha256": "cd171da470d90a05cc9e1667a3d225d40491bc0972b91c998444a6bc9445db3b",
+    "bytes": 78359
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc391-2.jpg",
+    "problems": [
+      391
+    ],
+    "checkedAt": "2026-09-05T16:07:33.759Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/4c690f2c3b99b86fe50e.jpg",
+    "sha256": "4c690f2c3b99b86fe50e3b9b1e7f87770cae22b61078e52e5eef61ee01f4eefe",
+    "bytes": 21000
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc414_example.png",
+    "problems": [
+      414
+    ],
+    "checkedAt": "2026-09-05T16:07:36.375Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/4018be9a9db2bf6f75f9.png",
+    "sha256": "4018be9a9db2bf6f75f9506c6468593f93a778280a8625ad29d2367aeea75dfc",
+    "bytes": 5332
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc414.png",
+    "problems": [
+      414
+    ],
+    "checkedAt": "2026-09-05T16:07:40.013Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/a836b0c106252490b5c1.png",
+    "sha256": "a836b0c106252490b5c145aaa26a16662343ac8484946390d480c85589377545",
+    "bytes": 3366
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC419_new.jpg",
+    "problems": [
+      419
+    ],
+    "checkedAt": "2026-09-05T16:07:42.695Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/ec20cb029d92404d0033.jpg",
+    "sha256": "ec20cb029d92404d00337be4a967e024f7ce8f66a9caf805e5f98e8e0bebf9da",
+    "bytes": 60259
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC423.jpg",
+    "problems": [
+      423
+    ],
+    "checkedAt": "2026-09-05T16:07:45.990Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/294075faac4e7b6e755a.jpg",
+    "sha256": "294075faac4e7b6e755a57c130769614ca3605f17967b25f7f3a2efc8e4ee25d",
+    "bytes": 31651
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/p425bg.bmp",
+    "problems": [
+      425
+    ],
+    "checkedAt": "2026-09-05T16:32:54.463Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/radio_signal.wav",
+    "problems": [
+      426
+    ],
+    "checkedAt": "2026-09-05T16:07:48.702Z",
+    "status": 404
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC427(2).jpg",
+    "problems": [
+      427
+    ],
+    "checkedAt": "2026-09-05T16:07:51.352Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/9a640fc3ecb539b97fd3.jpg",
+    "sha256": "9a640fc3ecb539b97fd377f00c86f473296934a8738d2dd82c6e7e8868b77107",
+    "bytes": 41065
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/p428_example.png",
+    "problems": [
+      428
+    ],
+    "checkedAt": "2026-09-05T16:07:53.011Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/c405ee93478b846939e0.png",
+    "sha256": "c405ee93478b846939e0009f1c6ac695fce609511917a582514effa033a5bec3",
+    "bytes": 9406
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/p430_example.png",
+    "problems": [
+      430
+    ],
+    "checkedAt": "2026-09-05T16:07:55.192Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/c727d8f69bfd9903be90.png",
+    "sha256": "c727d8f69bfd9903be909df534525748cf00792aaca911e31412a01ca0d753b6",
+    "bytes": 11564
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/p431.png",
+    "problems": [
+      431
+    ],
+    "checkedAt": "2026-09-05T16:07:57.110Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/bbdf9dc93606050fc9f8.png",
+    "sha256": "bbdf9dc93606050fc9f8e542f74ebaeeb764b7f87ffcefc89ab3f9013f0c8c9b",
+    "bytes": 10909
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC441.jpg",
+    "problems": [
+      441
+    ],
+    "checkedAt": "2026-09-05T16:07:59.595Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/4ca07b924a5f80bf6511.jpg",
+    "sha256": "4ca07b924a5f80bf65114889e748d9813a83c03747847bbb1056239668925cd3",
+    "bytes": 40351
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/generalized_ellipse_1.png",
+    "problems": [
+      445
+    ],
+    "checkedAt": "2026-09-05T16:08:01.990Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/6abb40f3dcaf94d81877.png",
+    "sha256": "6abb40f3dcaf94d81877c205629a0501f539325929ca6a7613e22fd9db3419d2",
+    "bytes": 19173
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/generalized_ellipse_2.png",
+    "problems": [
+      446
+    ],
+    "checkedAt": "2026-09-05T16:08:05.254Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/7ba6bee6481b7f0bf782.png",
+    "sha256": "7ba6bee6481b7f0bf782797b2519a9f2de4754aa7c63ff71feebf05762f16327",
+    "bytes": 102749
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/integral_circle_packings_1a.png",
+    "problems": [
+      457
+    ],
+    "checkedAt": "2026-09-05T16:08:08.955Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/3984186e2890fcf42945.png",
+    "sha256": "3984186e2890fcf429455953a29915dd6e6e7ef0ef2efdd5366b8c6833206e99",
+    "bytes": 19063
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/integral_circle_packings_1b.png",
+    "problems": [
+      457
+    ],
+    "checkedAt": "2026-09-05T16:08:12.332Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/25217ceea9c498f06949.png",
+    "sha256": "25217ceea9c498f0694955098880b69c315b3a757099200ca51562f49ac59358",
+    "bytes": 101693
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/integral_circle_packings_2a.png",
+    "problems": [
+      458
+    ],
+    "checkedAt": "2026-09-05T16:08:14.822Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/b4ea8fa7ce3d92abcc89.png",
+    "sha256": "b4ea8fa7ce3d92abcc895c83bd528fcd01146cedf5ff51afc4f63f6a060c604c",
+    "bytes": 52816
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/integral_circle_packings_2b.png",
+    "problems": [
+      458
+    ],
+    "checkedAt": "2026-09-05T16:08:17.626Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/fb2bac7dbfc3c79f8f2e.png",
+    "sha256": "fb2bac7dbfc3c79f8f2eda0c3d8e7dc4e95ed3ace53cec2a06a2183c0bc63d22",
+    "bytes": 49714
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/polygonal_billiards.png",
+    "problems": [
+      460
+    ],
+    "checkedAt": "2026-09-05T16:08:21.026Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/094bb53d521fa285c288.png",
+    "sha256": "094bb53d521fa285c288b135cfe479df1a94849375e09f2589a58bd40faed5b7",
+    "bytes": 14298
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC461.png",
+    "problems": [
+      461
+    ],
+    "checkedAt": "2026-09-05T16:08:24.741Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/b20a3de2657278d8af53.png",
+    "sha256": "b20a3de2657278d8af530e585e0bfe68288e35699dae150b612f88b39e427149",
+    "bytes": 39659
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC462.png",
+    "problems": [
+      462
+    ],
+    "checkedAt": "2026-09-05T16:08:27.264Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/87c78ec2bf0e7f922db4.png",
+    "sha256": "87c78ec2bf0e7f922db4428b026427852139a0c1eb99d087f19bc6e1e721bf11",
+    "bytes": 17061
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC464.jpg",
+    "problems": [
+      464
+    ],
+    "checkedAt": "2026-09-05T16:08:29.444Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/a068ba8aafd5e9c1e3e3.jpg",
+    "sha256": "a068ba8aafd5e9c1e3e36ecb232fda363c7cdfde8506354ac77153b5aadce556",
+    "bytes": 27782
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC480_1.jpg",
+    "problems": [
+      480
+    ],
+    "checkedAt": "2026-09-05T16:08:33.512Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/4a0a2c89db15f87aedf7.jpg",
+    "sha256": "4a0a2c89db15f87aedf7be8b3cab6bd949ab0ccfe4aca4299d2f502fd18f04fb",
+    "bytes": 12378
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC480_2.jpg",
+    "problems": [
+      480
+    ],
+    "checkedAt": "2026-09-05T16:08:36.235Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/d3b5567e8f3c57600352.jpg",
+    "sha256": "d3b5567e8f3c57600352ba64b45ffc4c368ce3d25b74db3c3c1177c949c142a6",
+    "bytes": 14471
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC481_1.txt",
+    "problems": [
+      481
+    ],
+    "checkedAt": "2026-09-05T16:08:39.596Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/ada0ada984b2355ce43a.txt",
+    "sha256": "ada0ada984b2355ce43a4a8c8fb211882c9cf69c5c55445986df56b7da138a23",
+    "bytes": 76620
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc483.jpg",
+    "problems": [
+      483
+    ],
+    "checkedAt": "2026-09-05T16:08:43.724Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/930f9eaf08520bb1ef7f.jpg",
+    "sha256": "930f9eaf08520bb1ef7fb8f7b4efb6be48089aedfeb9f7247230da60148b81f2",
+    "bytes": 68985
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC485.jpg",
+    "problems": [
+      485
+    ],
+    "checkedAt": "2026-09-05T16:08:45.786Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/d33005ace8933a898bc9.jpg",
+    "sha256": "d33005ace8933a898bc9bc8c6f017ba619c503c9e9a117b0cb643fcb837980c1",
+    "bytes": 22895
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/ginkgo_leaf.png",
+    "problems": [
+      497
+    ],
+    "checkedAt": "2026-09-05T16:08:49.158Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/3d5231ca2eeb3fc03f40.png",
+    "sha256": "3d5231ca2eeb3fc03f40edc5a29236fff08a688402cd980d0b41f9ea75dd4571",
+    "bytes": 99754
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC500-1_1.jpg",
+    "problems": [
+      500
+    ],
+    "checkedAt": "2026-09-05T16:08:51.328Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/e1c2b516d2ccafffb0ba.jpg",
+    "sha256": "e1c2b516d2ccafffb0badddcb3c1ac526e63f290c94443a719ebb232c6a6310c",
+    "bytes": 18007
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC500-2.jpg",
+    "problems": [
+      500
+    ],
+    "checkedAt": "2026-09-05T16:08:54.191Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/5f814d71f80523aef91b.jpg",
+    "sha256": "5f814d71f80523aef91bff4cbd9cfc95d1d749d27f9ccd6e908d5a77461893fb",
+    "bytes": 47694
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC502.png",
+    "problems": [
+      502
+    ],
+    "checkedAt": "2026-09-05T16:08:56.113Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/d288fb749a36da5fcac3.png",
+    "sha256": "d288fb749a36da5fcac3b4a520cd58baa7ab7ca2884aa203893863367b7f1ce3",
+    "bytes": 4909
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC505.jpg",
+    "problems": [
+      505
+    ],
+    "checkedAt": "2026-09-05T16:08:59.025Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/567a598822feca23539f.jpg",
+    "sha256": "567a598822feca23539f0297f8af2514a92aa043b6ff7dd881953221eb58bca5",
+    "bytes": 129706
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/rc526.jpg",
+    "problems": [
+      526
+    ],
+    "checkedAt": "2026-09-05T16:09:01.376Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/b90d48ad64cb58fded74.jpg",
+    "sha256": "b90d48ad64cb58fded749e6b6807afae8e03c12ec1334fae57aa429e97b0e967",
+    "bytes": 21748
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/counting_unlock_patterns.png",
+    "problems": [
+      536
+    ],
+    "checkedAt": "2026-09-05T16:09:04.799Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/7b42f8fb44a8740d426c.png",
+    "sha256": "7b42f8fb44a8740d426c962d21c315cdb3a58df949aeee9e315911bb8e014d20",
+    "bytes": 32844
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/lattice_points_on_the_trace_1.png",
+    "problems": [
+      540
+    ],
+    "checkedAt": "2026-09-05T16:09:07.391Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/01c00babfd4cdca6e7ea.png",
+    "sha256": "01c00babfd4cdca6e7ea42bb4081f39f3f801413af5943b0b57d949cf1b49d6e",
+    "bytes": 23874
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/lattice_points_on_the_trace_2.png",
+    "problems": [
+      541
+    ],
+    "checkedAt": "2026-09-05T16:09:10.016Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/6227366943be9776656e.png",
+    "sha256": "6227366943be9776656e51722164bfb254e9f1fc9eda27941fc3a6d1eb826258",
+    "bytes": 26065
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC546_1.jpg",
+    "problems": [
+      546
+    ],
+    "checkedAt": "2026-09-05T16:09:11.979Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/8712ff23c40617e992ce.jpg",
+    "sha256": "8712ff23c40617e992ced6cf15604aa02a658ed72caa2de62d1d49833d391e86",
+    "bytes": 15308
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/RC547-2.jpg",
+    "problems": [
+      547
+    ],
+    "checkedAt": "2026-09-05T16:09:15.343Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/04ce0bd2e6e5c38b48a0.jpg",
+    "sha256": "04ce0bd2e6e5c38b48a0ce4df62cf072cb63c10540bd4a59be7f62635aa5ab6a",
+    "bytes": 22799
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/Q(6,4).png",
+    "problems": [
+      554
+    ],
+    "checkedAt": "2026-09-05T16:09:18.085Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/5cb4c7bf248ab9c34d76.png",
+    "sha256": "5cb4c7bf248ab9c34d76687fbc1a51b04fbe13eccba793499928165901f241c3",
+    "bytes": 3057
+  },
+  {
+    "url": "https://rosecode.neocities.org/uploads/T(6,4)_2.png",
+    "problems": [
+      564
+    ],
+    "checkedAt": "2026-09-05T16:09:19.763Z",
+    "status": 200,
+    "localPath": "/rosecode/resources/81b588a88ef5e64e15b9.png",
+    "sha256": "81b588a88ef5e64e15b9994d4bfe0791dee63109d3057704dc6846fa31132095",
+    "bytes": 2555
+  }
+]

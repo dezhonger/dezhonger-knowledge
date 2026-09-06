@@ -3,6 +3,7 @@ import { Content, useData } from 'vitepress'
 import SiteHeader from './components/SiteHeader.vue'
 import NoteLayout from './components/NoteLayout.vue'
 import PuzzleLayout from './components/PuzzleLayout.vue'
+import RoseCodeProblem from './components/RoseCodeProblem.vue'
 import ProjectEulerProblem from './components/ProjectEulerProblem.vue'
 import { usePuzzleLocale } from './i18n'
 
@@ -16,6 +17,7 @@ const { copy } = usePuzzleLocale()
     <SiteHeader />
     <main id="main-content" class="site-main" tabindex="-1">
       <ProjectEulerProblem v-if="frontmatter.layout === 'project-euler'" />
+      <RoseCodeProblem v-else-if="frontmatter.layout === 'rosecode'" />
       <PuzzleLayout v-else-if="frontmatter.layout === 'puzzle'">
         <Content />
       </PuzzleLayout>

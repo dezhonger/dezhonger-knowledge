@@ -1,3 +1,5 @@
+import { roseCodeProblems } from './rosecode'
+
 export type PuzzleStatus = 'solved' | 'studying' | 'open'
 
 export interface Puzzle {
@@ -59,6 +61,16 @@ export const collections: Collection[] = [
       title: 'Project Euler',
       description: '同时奖励数学证明与编程实现的数学和计算问题。',
     },
+  },
+  {
+    id: 'collection-rosecode',
+    slug: 'rosecode',
+    title: 'RoseCode',
+    description: 'A quiet archive of mathematical and programming challenges.',
+    cover: 'RC',
+    problemCount: roseCodeProblems.length,
+    noteCount: 0,
+    zh: { title: 'RoseCode', description: '数学与编程挑战的题目存档。' },
   },
   {
     id: 'collection-geometry',

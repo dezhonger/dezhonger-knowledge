@@ -11,6 +11,7 @@ import PuzzleSolution from './components/PuzzleSolution.vue'
 import PuzzleVisual from './components/PuzzleVisual.vue'
 import ProtectedPuzzleAnswer from './components/ProtectedPuzzleAnswer.vue'
 import ProjectEulerDashboard from './components/ProjectEulerDashboard.vue'
+import RoseCodeCollection from './components/RoseCodeCollection.vue'
 import TimelinePage from './components/TimelinePage.vue'
 import './style.css'
 
@@ -30,5 +31,6 @@ export default {
     context.app.component('ProtectedPuzzleAnswer', ProtectedPuzzleAnswer)
     context.app.component('ProjectEulerDashboard', ProjectEulerDashboard)
     context.app.component('TimelinePage', TimelinePage)
+    context.app.component('RoseCodeCollection', RoseCodeCollection)
   },
 } satisfies Theme

@@ -1,8 +1,13 @@
 import { defineConfig } from 'vitepress'
+import { roseCodeStatementsPlugin } from '../../scripts/rosecode-pages.mjs'
 import { projectEulerStatementsPlugin } from '../../scripts/project-euler-pages.mjs'
 
 export default defineConfig({
-  vite: { plugins: [projectEulerStatementsPlugin()] },
+  vite: {
+    plugins: [projectEulerStatementsPlugin(), roseCodeStatementsPlugin()],
+    // Bound Markdown reads and their git timestamp subprocesses for large archives.
+    build: { rollupOptions: { maxParallelFileOps: 32 } },
+  },
   title: 'Puzzle Library',
   titleTemplate: ':title · Puzzle Library',
   description: 'A personal library of curious problems, puzzles, and beautiful ideas.',

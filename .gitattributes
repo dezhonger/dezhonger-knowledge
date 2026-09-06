@@ -1,0 +1,2 @@
+# Preserve the original bytes of archived puzzle inputs and media.
+puzzle/public/rosecode/resources/** -text whitespace=cr-at-eol

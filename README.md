@@ -42,6 +42,30 @@ Puzzle and note content is intentionally static and versioned with the repositor
 
 Standard collection pages use the shared `CollectionDetail` component. The component filters and sorts the full collection before paginating the result at 10 puzzles per page. Changing the category or number order returns the collection to page 1, while later pages keep their position in the `page` URL query parameter.
 
+### RoseCode 题库
+
+RoseCode 使用独立的列表、阅读页、样式和生成脚本。570 道题按原始 `np` 编号，英文入口为 `/collections/rosecode`，中文入口为 `/zh/collections/rosecode`；每页 10 题，支持题号与双语标题搜索。`q` 和 `page` 保存在链接中，题目页可以返回原列表位置。
+
+- `content/rosecode/source.json` 保存英文原题、编号映射及清理后的正文；`zh.json` 是可直接维护的中文译文，绑定英文题面的校验和。
+- `content/rosecode/resources.json` 记录资源来源和检查结果，本站文件在 `puzzle/public/rosecode/resources/`。资源缺失会在题目中说明；原题程序保留为代码，隐藏文字提示默认折叠。
+- 原图、背景图、表格配色和编码数据均属于题目资料。保留原始文件字节，避免破坏附带数据的 BMP 等谜面；不运行原站程序。
+- 页面在构建时生成完整正文，站内切换读取本站静态数据；访客不需要连接 RoseCode 或翻译服务。归档题目不进入文章 RSS。
+
+```bash
+# 从存档导入英文题面和资源，复用已检查的资源；不会覆盖中文译文
+npm run sync:rosecode
+
+# 仅使用本地内容重新生成题目索引，不联网
+npm run generate:rosecode
+
+# 校验题目、译文版本、公式、代码、资源和编号
+npm run validate:rosecode
+npm run build:puzzle
+npm run validate:rosecode -- --built
+```
+
+英文题面更新后，需要核对并更新对应译文及其 `sourceSha256`，再生成索引和构建。`sync:rosecode -- --refresh` 会重新核对已有资源；同步失败保留已完成下载，修复网络后可继续。题目和中文翻译依据 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 提供，各题保留作者与正确的存档链接。
+
 ## Add an article
 
 1. Add the English Markdown source under `docs/<section>/<slug>.md`.

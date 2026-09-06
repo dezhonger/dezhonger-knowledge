@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, nextTick, onBeforeUnmount, onMounted, ref, watch } from 'vue'
 import { collections, localizeCollection, localizeNote, localizePuzzle, notes, puzzles, puzzleUrl } from '../data/catalog'
+import { roseCodeProblems } from '../data/rosecode'
 import { projectEulerProblems } from '../data/project-euler'
 import { normalizePuzzleSearch, usePuzzleLocale } from '../i18n'
 
@@ -32,6 +33,14 @@ const items = computed(() => [
       haystack: `${puzzle.id} ${puzzle.title} ${puzzle.summary} ${puzzle.searchText} ${puzzle.categories.join(' ')} ${sourceFor(locale.value === 'zh' ? zhPuzzleSources : puzzleSources, puzzle.slug)}`,
     }
   }),
+  ...roseCodeProblems.map((problem) => ({
+    type: copy.value.puzzleType,
+    eyebrow: `RC #${String(problem.id).padStart(3, '0')}`,
+    title: locale.value === 'zh' ? problem.titleZh : problem.title,
+    description: 'RoseCode',
+    href: pathFor(`/rosecode/${problem.id}`),
+    haystack: `RoseCode RC ${problem.id} RC-${String(problem.id).padStart(3, '0')} ${problem.title} ${problem.titleZh}`,
+  })),
   ...projectEulerProblems.map((problem) => ({
     type: copy.value.puzzleType,
     eyebrow: `PE #${problem.id}`,

@@ -22,7 +22,7 @@ const localizedCollections = computed(() => collections.map((collection) => loca
           <strong>{{ collection.title }}</strong>
           <p>{{ collection.description }}</p>
         </span>
-        <span class="collection-list-row__count">{{ puzzles.filter((puzzle) => puzzle.collection === collection.slug).length }} {{ copy.problems }}</span>
+        <span class="collection-list-row__count">{{ collection.slug === 'rosecode' ? collection.problemCount : puzzles.filter((puzzle) => puzzle.collection === collection.slug).length }} {{ copy.problems }}</span>
         <span class="row-arrow" aria-hidden="true">→</span>
       </a>
     </div>
