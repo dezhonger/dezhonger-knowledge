@@ -2,7 +2,7 @@
 import PaginationControls from './PaginationControls.vue'
 import { usePagination } from '../usePagination'
 import { computed } from 'vue'
-import { collections, localizeCollection, puzzles } from '../data/catalog'
+import { collections, localizeCollection } from '../data/catalog'
 import { usePuzzleLocale } from '../i18n'
 
 const { locale, copy, pathFor } = usePuzzleLocale()
@@ -25,7 +25,7 @@ const { page, pageCount, visibleItems: visibleCollections, setPage } = usePagina
           <strong>{{ collection.title }}</strong>
           <p>{{ collection.description }}</p>
         </span>
-        <span class="collection-list-row__count">{{ collection.slug === 'rosecode' ? collection.problemCount : puzzles.filter((puzzle) => puzzle.collection === collection.slug).length }} {{ copy.problems }}</span>
+        <span class="collection-list-row__count">{{ collection.problemCount }} {{ copy.problems }}</span>
         <span class="row-arrow" aria-hidden="true">→</span>
       </a>
     </div>

@@ -1,5 +1,6 @@
 import { roseCodeProblems } from './rosecode'
 import { ibmResearchCount, ibmResearchPuzzles } from './ibm-research'
+import { projectEulerSnapshot } from './project-euler'
 
 export type PuzzleStatus = 'solved' | 'studying' | 'open'
 
@@ -56,7 +57,7 @@ export const collections: Collection[] = [
     title: 'Project Euler',
     description: 'Mathematical and computational problems that reward both proof and implementation.',
     cover: '∑',
-    problemCount: 1007,
+    problemCount: projectEulerSnapshot.total,
     noteCount: 0,
     zh: {
       title: 'Project Euler',
@@ -72,6 +73,19 @@ export const collections: Collection[] = [
     problemCount: roseCodeProblems.length,
     noteCount: 0,
     zh: { title: 'RoseCode', description: '数学与编程挑战的题目存档。' },
+  },
+  {
+    id: 'collection-ibm-research',
+    slug: 'ibm-research',
+    title: 'IBM Research',
+    description: 'Monthly challenges and elegant problems from IBM Research, including Ponder This.',
+    cover: 'IBM',
+    problemCount: ibmResearchCount,
+    noteCount: 0,
+    zh: {
+      title: 'IBM Research',
+      description: '来自 IBM Research 的每月挑战与精巧问题，包括 Ponder This 系列。',
+    },
   },
   {
     id: 'collection-geometry',
@@ -110,32 +124,6 @@ export const collections: Collection[] = [
     zh: {
       title: '反直觉概率',
       description: '先让直觉失足，再用清晰模型恢复秩序的概率问题。',
-    },
-  },
-  {
-    id: 'collection-ibm-research',
-    slug: 'ibm-research',
-    title: 'IBM Research',
-    description: 'Monthly challenges and elegant problems from IBM Research, including Ponder This.',
-    cover: 'IBM',
-    problemCount: ibmResearchCount,
-    noteCount: 0,
-    zh: {
-      title: 'IBM Research',
-      description: '来自 IBM Research 的每月挑战与精巧问题，包括 Ponder This 系列。',
-    },
-  },
-  {
-    id: 'collection-jane-street',
-    slug: 'jane-street-puzzles',
-    title: 'Jane Street’s Puzzles',
-    description: 'Mathematical, logical, and computational puzzles published by Jane Street.',
-    cover: '◇',
-    problemCount: 0,
-    noteCount: 0,
-    zh: {
-      title: 'Jane Street’s Puzzles',
-      description: '由 Jane Street 发布的数学、逻辑与计算型谜题。',
     },
   },
   {
