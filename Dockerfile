@@ -2,7 +2,7 @@ FROM node:24-alpine AS builder
 
 RUN apk add --no-cache git
 WORKDIR /src
-ENV NODE_OPTIONS=--max-old-space-size=1024
+ENV NODE_OPTIONS=--max-old-space-size=2048
 COPY package.json package-lock.json ./
 RUN npm ci
 COPY docs ./docs
