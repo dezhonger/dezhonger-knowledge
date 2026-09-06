@@ -46,6 +46,8 @@ Standard collection pages use the shared `CollectionDetail` component. The compo
 
 RoseCode 使用独立的列表、阅读页、样式和生成脚本。570 道题按原始 `np` 编号，英文入口为 `/collections/rosecode`，中文入口为 `/zh/collections/rosecode`；每页 10 题，支持题号与双语标题搜索。`q` 和 `page` 保存在链接中，题目页可以返回原列表位置。
 
+分页提供首页、末页、上一页、下一页，以及当前页前后各两页的数字按钮；首尾页保留，较大的间隔用省略号表示。也可以输入页码，按 Enter 或点击“跳转”。输入必须是当前搜索结果页数范围内的正整数，无效输入会提示修正；更改搜索条件回到第一页。手机上导航按钮与数字页码分行显示。
+
 - `content/rosecode/source.json` 保存英文原题、编号映射及清理后的正文；`zh.json` 是可直接维护的中文译文，绑定英文题面的校验和。
 - `content/rosecode/resources.json` 记录资源来源和检查结果，本站文件在 `puzzle/public/rosecode/resources/`。资源缺失会在题目中说明；原题程序保留为代码，隐藏文字提示默认折叠。
 - 原图、背景图、表格配色和编码数据均属于题目资料。保留原始文件字节，避免破坏附带数据的 BMP 等谜面；不运行原站程序。

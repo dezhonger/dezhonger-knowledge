@@ -7,14 +7,19 @@ import '../rosecode.css'
 const { locale, pathFor } = usePuzzleLocale()
 const query = ref('')
 const page = ref(1)
+const jumpValue = ref('1')
+const jumpError = ref(false)
+const jumpInput = ref<HTMLInputElement | null>(null)
 const pageSize = 10
 const words = computed(() => locale.value === 'zh' ? {
   back: '题集', intro: '570 道数学与编程题 · 题目存档', search: '搜索题号或标题',
   previous: '上一页', next: '下一页', empty: '没有找到匹配的题目。', pagination: '题目分页',
+  first: '首页', last: '末页', jumpTo: '跳至', jump: '跳转', pageNumber: '跳转页码',
   source: '题目来自 RoseCode 存档。',
 } : {
   back: 'Collections', intro: '570 math & programming problems · An archive', search: 'Search by number or title',
   previous: 'Previous', next: 'Next', empty: 'No problems match your search.', pagination: 'Problem pages',
+  first: 'First', last: 'Last', jumpTo: 'Go to', jump: 'Go', pageNumber: 'Page number',
   source: 'Preserved from the RoseCode archive.',
 })
 const matches = computed(() => {
@@ -25,6 +30,28 @@ const matches = computed(() => {
 })
 const pageCount = computed(() => Math.max(1, Math.ceil(matches.value.length / pageSize)))
 const visible = computed(() => matches.value.slice((page.value - 1) * pageSize, page.value * pageSize))
+const pageNumbers = computed<(number | string)[]>(() => {
+  if (pageCount.value <= 7) return Array.from({ length: pageCount.value }, (_, index) => index + 1)
+  const numbers = new Set([1, pageCount.value])
+  for (let number = Math.max(1, page.value - 2); number <= Math.min(pageCount.value, page.value + 2); number++) numbers.add(number)
+  const result: (number | string)[] = []
+  let previous = 0
+  for (const number of [...numbers].sort((a, b) => a - b)) {
+    if (number - previous === 2) result.push(previous + 1)
+    else if (number - previous > 2) result.push(`gap-${number}`)
+    result.push(number)
+    previous = number
+  }
+  return result
+})
+const jumpErrorMessage = computed(() => locale.value === 'zh'
+  ? `请输入 1 到 ${pageCount.value} 之间的整数页码。`
+  : `Enter a whole page number from 1 to ${pageCount.value}.`)
+
+function resetJump() {
+  jumpValue.value = String(page.value)
+  jumpError.value = false
+}
 
 function parameters() {
   const params = new URLSearchParams()
@@ -41,17 +68,33 @@ function syncLocation() {
   query.value = params.get('q') || ''
   const requested = Number(params.get('page') || 1)
   page.value = Number.isInteger(requested) && requested > 0 ? Math.min(requested, pageCount.value) : 1
+  resetJump()
   updateUrl(true)
 }
 function search(event: Event) {
   query.value = (event.target as HTMLInputElement).value
   page.value = 1
+  resetJump()
   updateUrl(true)
 }
 function turnPage(value: number) {
-  page.value = Math.min(pageCount.value, Math.max(1, value))
+  const nextPage = Math.min(pageCount.value, Math.max(1, value))
+  const changed = nextPage !== page.value
+  page.value = nextPage
+  resetJump()
+  if (!changed) return
   updateUrl(false)
   document.querySelector('.rc-search')?.scrollIntoView({ block: 'nearest' })
+}
+function jumpToPage() {
+  const value = jumpValue.value.trim()
+  const number = Number(value)
+  if (!/^\d+$/.test(value) || !Number.isSafeInteger(number) || number < 1 || number > pageCount.value) {
+    jumpError.value = true
+    jumpInput.value?.focus({ preventScroll: true })
+    return
+  }
+  turnPage(number)
 }
 onMounted(() => { syncLocation(); window.addEventListener('popstate', syncLocation) })
 onBeforeUnmount(() => window.removeEventListener('popstate', syncLocation))
@@ -83,9 +126,46 @@ onBeforeUnmount(() => window.removeEventListener('popstate', syncLocation))
       <p v-if="!matches.length" class="rc-empty">{{ words.empty }}</p>
     </div>
     <nav v-if="pageCount > 1" class="rc-pagination" :aria-label="words.pagination">
-      <button :disabled="page === 1" @click="turnPage(page - 1)">← {{ words.previous }}</button>
-      <span aria-live="polite">{{ page }} <span class="rc-page-divider">/</span> {{ pageCount }}</span>
-      <button :disabled="page === pageCount" @click="turnPage(page + 1)">{{ words.next }} →</button>
+      <div class="rc-pagination-controls">
+        <div class="rc-page-actions rc-page-actions--start">
+          <button type="button" :disabled="page === 1" @click="turnPage(1)">{{ words.first }}</button>
+          <button type="button" :disabled="page === 1" @click="turnPage(page - 1)">← {{ words.previous }}</button>
+        </div>
+        <div class="rc-page-numbers">
+          <template v-for="number in pageNumbers" :key="number">
+            <button
+              v-if="typeof number === 'number'"
+              type="button"
+              :aria-label="locale === 'zh' ? `第 ${number} 页` : `Page ${number}`"
+              :aria-current="number === page ? 'page' : undefined"
+              @click="turnPage(number)"
+            >{{ number }}</button>
+            <span v-else class="rc-page-gap" aria-hidden="true">…</span>
+          </template>
+        </div>
+        <div class="rc-page-actions rc-page-actions--end">
+          <button type="button" :disabled="page === pageCount" @click="turnPage(page + 1)">{{ words.next }} →</button>
+          <button type="button" :disabled="page === pageCount" @click="turnPage(pageCount)">{{ words.last }}</button>
+        </div>
+      </div>
+      <form class="rc-page-jump" novalidate @submit.prevent="jumpToPage">
+        <label for="rosecode-jump-page">{{ words.jumpTo }}</label>
+        <input
+          id="rosecode-jump-page"
+          ref="jumpInput"
+          v-model="jumpValue"
+          type="text"
+          inputmode="numeric"
+          autocomplete="off"
+          :aria-label="words.pageNumber"
+          :aria-invalid="jumpError ? 'true' : undefined"
+          :aria-describedby="jumpError ? 'rosecode-page-range rosecode-page-error' : 'rosecode-page-range'"
+          @input="jumpError = false"
+        />
+        <span id="rosecode-page-range">/ {{ pageCount }}{{ locale === 'zh' ? ' 页' : '' }}</span>
+        <button type="submit">{{ words.jump }}</button>
+      </form>
+      <p v-if="jumpError" id="rosecode-page-error" class="rc-page-error" role="alert">{{ jumpErrorMessage }}</p>
     </nav>
     <p class="rc-archive-note"><a href="https://rosecode.neocities.org/" target="_blank" rel="noreferrer">{{ words.source }} ↗</a></p>
   </section>

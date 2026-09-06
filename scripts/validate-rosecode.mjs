@@ -102,7 +102,12 @@ if (built) {
     const dist = path.join(root, 'puzzle/.vitepress/dist')
     const $ = load(await readFile(path.join(dist, prefix, 'collections/rosecode.html'), 'utf8'))
     assert.equal($('.rc-list li').length, 10)
-    assert.equal($('.rc-pagination').text().replace(/\s+/g, ''), prefix ? '←上一页1/57下一页→' : '←Previous1/57Next→')
+    assert.equal($('.rc-page-numbers button[aria-current="page"]').text(), '1')
+    assert.equal($('.rc-page-numbers button').last().text(), '57')
+    assert.equal($('.rc-page-actions--start button[disabled]').length, 2)
+    assert.equal($('.rc-page-actions--end button[disabled]').length, 0)
+    assert.equal($('#rosecode-jump-page').attr('value'), '1')
+    assert.ok($('#rosecode-page-range').text().includes('57'))
     const feed = await readFile(path.join(dist, prefix, 'feed.xml'), 'utf8')
     assert.ok(!feed.includes('/rosecode/'), 'Archive flooded the article feed')
   }
