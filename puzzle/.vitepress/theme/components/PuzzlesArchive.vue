@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import PaginationControls from './PaginationControls.vue'
+import { usePagination } from '../usePagination'
 import { computed, ref } from 'vue'
 import { difficultyStars, localizePuzzle, puzzles, puzzleUrl } from '../data/catalog'
 import { formatDate, usePuzzleLocale } from '../i18n'
@@ -17,18 +19,22 @@ const filterLabels = computed(() => ({
 
 function matchesFilter(categories: string[], filter: (typeof filters)[number]) {
   if (filter === 'All') return true
-  if (filter === 'Math') return categories.some((category) => ['Arithmetic', 'Number Theory', 'Combinatorics', 'Probability'].includes(category))
+  if (filter === 'Math') return categories.some((category) => ['Mathematics', 'Arithmetic', 'Number Theory', 'Combinatorics', 'Probability'].includes(category))
   if (filter === 'Logic') return categories.some((category) => ['Logic', 'Invariant', 'Paradox'].includes(category))
   if (filter === 'Games') return categories.some((category) => ['Game', 'Chessboard'].includes(category))
   return categories.includes('Geometry')
 }
 
-const visiblePuzzles = computed(() => {
+const filteredPuzzles = computed(() => {
   const normalized = query.value.trim().toLowerCase()
   return puzzles.filter((puzzle) => {
     const text = `${puzzle.id} ${puzzle.title} ${puzzle.summary} ${puzzle.searchText}`.toLowerCase()
     return matchesFilter(puzzle.categories, activeFilter.value) && (!normalized || text.includes(normalized))
   }).map((puzzle) => localizePuzzle(puzzle, locale.value))
+})
+const { page, pageCount, visibleItems: visiblePuzzles, setPage } = usePagination(filteredPuzzles, {
+  anchor: '.archive-tools',
+  filters: { q: { state: query }, category: { state: activeFilter, values: filters } },
 })
 </script>
 
@@ -71,10 +77,11 @@ const visiblePuzzles = computed(() => {
           <p>{{ puzzle.summary }}</p>
           <time :datetime="puzzle.createdAt">{{ formatDate(puzzle.createdAt, locale) }}</time>
         </span>
-        <span class="difficulty" :aria-label="`Difficulty ${puzzle.difficulty} out of 5`">{{ difficultyStars(puzzle.difficulty) }}</span>
+        <span v-if="puzzle.difficulty !== null" class="difficulty" :aria-label="`Difficulty ${puzzle.difficulty} out of 5`">{{ difficultyStars(puzzle.difficulty) }}</span>
         <span class="row-arrow" aria-hidden="true">→</span>
       </a>
       <p v-if="visiblePuzzles.length === 0" class="archive-empty">{{ copy.noPuzzles }}</p>
     </div>
+    <PaginationControls id="puzzles-pagination" :page="page" :page-count="pageCount" @change="setPage" />
   </div>
 </template>

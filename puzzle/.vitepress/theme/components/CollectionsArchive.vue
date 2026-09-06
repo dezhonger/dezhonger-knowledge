@@ -1,10 +1,13 @@
 <script setup lang="ts">
+import PaginationControls from './PaginationControls.vue'
+import { usePagination } from '../usePagination'
 import { computed } from 'vue'
 import { collections, localizeCollection, puzzles } from '../data/catalog'
 import { usePuzzleLocale } from '../i18n'
 
 const { locale, copy, pathFor } = usePuzzleLocale()
 const localizedCollections = computed(() => collections.map((collection) => localizeCollection(collection, locale.value)))
+const { page, pageCount, visibleItems: visibleCollections, setPage } = usePagination(localizedCollections, { anchor: '.collections-list' })
 </script>
 
 <template>
@@ -16,7 +19,7 @@ const localizedCollections = computed(() => collections.map((collection) => loca
     </header>
 
     <div class="collections-list">
-      <a v-for="collection in localizedCollections" :key="collection.id" :href="pathFor(`/collections/${collection.slug}`)" class="collection-list-row">
+      <a v-for="collection in visibleCollections" :key="collection.id" :href="pathFor(`/collections/${collection.slug}`)" class="collection-list-row">
         <span class="collection-list-row__symbol" aria-hidden="true">{{ collection.cover }}</span>
         <span class="collection-list-row__copy">
           <strong>{{ collection.title }}</strong>
@@ -26,5 +29,6 @@ const localizedCollections = computed(() => collections.map((collection) => loca
         <span class="row-arrow" aria-hidden="true">→</span>
       </a>
     </div>
+    <PaginationControls id="collections-pagination" :page="page" :page-count="pageCount" @change="setPage" />
   </div>
 </template>

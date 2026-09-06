@@ -50,7 +50,9 @@ async function findMarkdownFiles(directory) {
   const files = await Promise.all(entries.map(async (entry) => {
     const entryPath = path.join(directory, entry.name)
     if (entry.isDirectory()) return findMarkdownFiles(entryPath)
-    return entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'index.md' ? [entryPath] : []
+    // VitePress dynamic route templates have metadata in their generated paths.
+    // They are archive entries, not dated editorial feed articles.
+    return entry.isFile() && entry.name.endsWith('.md') && entry.name !== 'index.md' && !/^\[[^\]]+\]\.md$/.test(entry.name) ? [entryPath] : []
   }))
   return files.flat()
 }

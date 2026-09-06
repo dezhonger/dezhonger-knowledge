@@ -1,0 +1,445 @@
+[
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/triangles_ffb85e30ef.GIF",
+    "localPath": "/ibm-research/resources/24f2608f9886053e749b.gif",
+    "sha256": "24f2608f9886053e749b60c50a78016cabfb6bfdb5b915ab4564695905fe3287",
+    "bytes": 4920,
+    "contentType": "image/gif",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/february2005_1_afec1ed1c3.jpg",
+    "localPath": "/ibm-research/resources/2114259f210e859b5749.jpg",
+    "sha256": "2114259f210e859b5749e19a38e71abf2a406f0aa783d17363f2c0714c1298d3",
+    "bytes": 403,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/february2005_3_52fd2251cb.jpg",
+    "localPath": "/ibm-research/resources/d3c1142ba76e56381fca.jpg",
+    "sha256": "d3c1142ba76e56381fca6e4f007c5963e4c9525e83a4328b0dfb6820b7152b6b",
+    "bytes": 357,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "http://www.ibm.com/innovation/us/images/june_2009_challenge_300x88.jpg",
+    "status": 404,
+    "replacementHtml": "<div>$$\\left(\\sum_{\\pi\\in S_{14}}4^{\\prod_{i=1}^{14}(2+(N_i\\bmod 2))}\\right)\\bmod 1299$$</div>",
+    "note": "The retired formula image returned 404. Typeset the expression exactly specified in the same official paragraph."
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/Ponder0610_acb9a8346a.JPG",
+    "localPath": "/ibm-research/resources/00bea09175f389208b52.jpg",
+    "sha256": "00bea09175f389208b52153b467989d965a3204814e22646b8a1cad6e6954479",
+    "bytes": 38821,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/counter_0568ae53d7.jpg",
+    "localPath": "/ibm-research/resources/5b547f175edbf05d1413.jpg",
+    "sha256": "5b547f175edbf05d1413defa6e8f3ac36db78dc01ee67d38582da44bd4393428",
+    "bytes": 4168,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/numbers_March_challenge_97ee175feb.jpg",
+    "localPath": "/ibm-research/resources/bbd3c677a9bba6cfb4de.jpg",
+    "sha256": "bbd3c677a9bba6cfb4de67dcb57619539d69c46b593fa4044d3a54f9b5f9b48c",
+    "bytes": 3976,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/ponder_nov_12_2f8a82442d.jpg",
+    "localPath": "/ibm-research/resources/157a0d4523918b6565dc.jpg",
+    "sha256": "157a0d4523918b6565dc31a766938ad754015f0b8e032e8d7ac4786eacc754b7",
+    "bytes": 17516,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/June2018_2_abf8140ed2.jpg",
+    "localPath": "/ibm-research/resources/b508562090cea587243b.jpg",
+    "sha256": "b508562090cea587243bcd5879e7d6f146715a8a591aa46d2ed9f3e478a3de96",
+    "bytes": 2005,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "https://research.ibm.com/images/ponder0219.png",
+    "localPath": "/ibm-research/resources/e1493fcfab1e1f15f1d8.png",
+    "sha256": "e1493fcfab1e1f15f1d8c84a4d173dda1f60924b2aff534051d2f6ba08a8679e",
+    "bytes": 437453,
+    "contentType": "image/png",
+    "status": 200,
+    "downloadUrl": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/ponder0219_80d7e58e53.png",
+    "originalStatus": 404,
+    "note": "Use the migrated screenshot embedded in the same official article."
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/ponder0219_80d7e58e53.png",
+    "localPath": "/ibm-research/resources/e1493fcfab1e1f15f1d8.png",
+    "sha256": "e1493fcfab1e1f15f1d8c84a4d173dda1f60924b2aff534051d2f6ba08a8679e",
+    "bytes": 437453,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/ponder0420_d22aa9bdaf.jpg",
+    "localPath": "/ibm-research/resources/4a35110370c2eeacf232.jpg",
+    "sha256": "4a35110370c2eeacf232fa290c76c318f6e8d091dd764add29529419345b8534",
+    "bytes": 9087,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "http://www.cs.columbia.edu/~suman/secure_sw_devel/p1-allen.pdf",
+    "downloadUrl": "https://www.cs.columbia.edu/~suman/secure_sw_devel/p1-allen.pdf",
+    "localPath": "/ibm-research/resources/f8d95b82ed6175fe3467.pdf",
+    "sha256": "f8d95b82ed6175fe34675a2ee95280dd59534a97b87cdcda4cbe09a52c829a0f",
+    "bytes": 1242304,
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/oct2020_f6f924b954.png",
+    "localPath": "/ibm-research/resources/ddcd951f4f343246f3f7.png",
+    "sha256": "ddcd951f4f343246f3f72feba97bc467786b5432c5345fdaed454be50d92ca32",
+    "bytes": 20370,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/mar2021_c40a9bbf4f.png",
+    "localPath": "/ibm-research/resources/8ea2b3fa2956acb0f630.png",
+    "sha256": "8ea2b3fa2956acb0f6308a2ba20cfc06342e7aa6456fb3cf41e9d83b1639a6e0",
+    "bytes": 25735,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/april21_01_542e96f7c9.png",
+    "localPath": "/ibm-research/resources/a367aaab5de2ae0a0e9d.png",
+    "sha256": "a367aaab5de2ae0a0e9d9b1a3e4c8792ee675c2f5528769a0bea2908f5608205",
+    "bytes": 24254,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/april21_02_fb35131622.png",
+    "localPath": "/ibm-research/resources/18ddc15ffef4426e37af.png",
+    "sha256": "18ddc15ffef4426e37afbb4f881159a9d6dc0399e8d0339389a9ee54a1d7bc28",
+    "bytes": 22780,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/october21_e760a040e6.png",
+    "localPath": "/ibm-research/resources/19640a13128db8770ece.png",
+    "sha256": "19640a13128db8770ecefd7e9d0c5e51bdfda135a7118dfa189369ec3240ecb6",
+    "bytes": 8254,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/october21_2_c02e7469fb.png",
+    "localPath": "/ibm-research/resources/ab2e530102642df286c5.png",
+    "sha256": "ab2e530102642df286c5d68fff23f879459fbc90454d31e07b3fd973d86c9a18",
+    "bytes": 4972,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/December2021_43b8e317f1.png",
+    "localPath": "/ibm-research/resources/64e88b14877eb6ce6144.png",
+    "sha256": "64e88b14877eb6ce61443c673ce1ae9a1c05cf541c10209f500d6892215edaf3",
+    "bytes": 12212,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/December_2_2021_9756e34377.png",
+    "localPath": "/ibm-research/resources/4e27e6c1e0719e05f11a.png",
+    "sha256": "4e27e6c1e0719e05f11a3c64434a8d9b469f081ac687e20988680e4d22019f69",
+    "bytes": 3807,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/January2022_f4b34e1064.png",
+    "localPath": "/ibm-research/resources/d75ad2bc0580d3643438.png",
+    "sha256": "d75ad2bc0580d36434389ce07c09a31abbd9ceb91a6c26347ad66b25827fdc15",
+    "bytes": 5760,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/June22_tetris_78aee0ce35.png",
+    "localPath": "/ibm-research/resources/07f33c3a0efa0fd41b7d.png",
+    "sha256": "07f33c3a0efa0fd41b7d497b96be6d1ee224354c53d830a227ede554ec4abc75",
+    "bytes": 6402,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/June22_tetris2_060d764d2a.png",
+    "localPath": "/ibm-research/resources/204f8e21f37a2003a1bf.png",
+    "sha256": "204f8e21f37a2003a1bf8b976849791f92f074e040c87f537878a873a35ec049",
+    "bytes": 7179,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://github.com/dwyl/english-words/blob/master/words_alpha.txt",
+    "downloadUrl": "https://raw.githubusercontent.com/dwyl/english-words/master/words_alpha.txt",
+    "localPath": "/ibm-research/resources/3ed0c94610d8bcf7c11b.txt",
+    "sha256": "3ed0c94610d8bcf7c11bbb49c56aa49c7234d32b66824df91f554169e572da48",
+    "bytes": 4234910,
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/feb_23_1_f4a5e3f6b3.png",
+    "localPath": "/ibm-research/resources/dbcf1a1ec87733c5d7bb.png",
+    "sha256": "dbcf1a1ec87733c5d7bb549a04ba1b710b1a0473e9ded8bcd1c2d9c463433b2c",
+    "bytes": 18793,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/feb_23_2_d99ead162b.png",
+    "localPath": "/ibm-research/resources/3741822e0d0798e024d8.png",
+    "sha256": "3741822e0d0798e024d81071a2dcf5528fcfc809b686faf8fbbca8a2ee213f6e",
+    "bytes": 18958,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/feb_23_3_ee7b47e2dc.png",
+    "localPath": "/ibm-research/resources/2aa0e956a1be3edb1531.png",
+    "sha256": "2aa0e956a1be3edb1531d3fbae6398b0d1b38d47e6bd9705008912a452b84cd7",
+    "bytes": 22868,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_1_95cb7826fb.png",
+    "localPath": "/ibm-research/resources/58f55f074dd8e2240e80.png",
+    "sha256": "58f55f074dd8e2240e804d32a77822f381983648527b8685a1158024e66f9bfe",
+    "bytes": 321,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_2_3b84fd5be6.png",
+    "localPath": "/ibm-research/resources/7b5a17b237e5e477257e.png",
+    "sha256": "7b5a17b237e5e477257e8969c6289f201690b91a9ef6f17eafccbdb46db015f2",
+    "bytes": 333,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_3_1c1f571789.png",
+    "localPath": "/ibm-research/resources/58f55f074dd8e2240e80.png",
+    "sha256": "58f55f074dd8e2240e804d32a77822f381983648527b8685a1158024e66f9bfe",
+    "bytes": 321,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_4_720042363a.png",
+    "localPath": "/ibm-research/resources/c94e3891c14b8c5f432e.png",
+    "sha256": "c94e3891c14b8c5f432edc299b82c310b526009acc151385c0f7868ecf21d2ca",
+    "bytes": 328,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_5_4d7eccc1d7.png",
+    "localPath": "/ibm-research/resources/162e0260301575de7516.png",
+    "sha256": "162e0260301575de7516bebab1065bec66fc2bd015727d66d8dea63e8b2492e3",
+    "bytes": 331,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_6_468720a674.png",
+    "localPath": "/ibm-research/resources/80e84bb5f2dbdaecb9d8.png",
+    "sha256": "80e84bb5f2dbdaecb9d8deb344765bf776bfbe5447534fe647c11fa20568ff94",
+    "bytes": 330,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_7_df59b36362.png",
+    "localPath": "/ibm-research/resources/7b5a17b237e5e477257e.png",
+    "sha256": "7b5a17b237e5e477257e8969c6289f201690b91a9ef6f17eafccbdb46db015f2",
+    "bytes": 333,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_8_3008ebb910.png",
+    "localPath": "/ibm-research/resources/692f6a7f50dbc57348f0.png",
+    "sha256": "692f6a7f50dbc57348f0562e81a62d71fed36cfc30e5d6daa10ab620e5b9326e",
+    "bytes": 784,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_9_fa488d4c41.png",
+    "localPath": "/ibm-research/resources/d55a78c2bfba9db3913b.png",
+    "sha256": "d55a78c2bfba9db3913bf622394ddd3f54ee85293d6225c66a034609c0e6cce0",
+    "bytes": 1023,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_10_16152616c7.png",
+    "localPath": "/ibm-research/resources/a6da65df51a17a6616b5.png",
+    "sha256": "a6da65df51a17a6616b5ffe52f21b278311704dc2f8f94496c61b485cb2172a7",
+    "bytes": 380,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/July_riddle_11_5881a0a603.png",
+    "localPath": "/ibm-research/resources/e04dd6a58291a049dbfc.png",
+    "sha256": "e04dd6a58291a049dbfced0048595cc6d72d8db31903bcbc8fe2019fe1375b4a",
+    "bytes": 371,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/Nov23_Challenge_9e53c6733d.png",
+    "localPath": "/ibm-research/resources/44799a49a5676d155010.png",
+    "sha256": "44799a49a5676d1550105cdd3bd288c251762b54a28dcbe3f6655fc8d4d1455e",
+    "bytes": 79649,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/Dec23_Challenge_29c6bcf5f8.png",
+    "localPath": "/ibm-research/resources/42214821e76852c9104e.png",
+    "sha256": "42214821e76852c9104e26b3f17991663005e84d720086b75ff645b015ed451a",
+    "bytes": 30402,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/Ponder1_24_6b8a10c760.png",
+    "localPath": "/ibm-research/resources/a0cc24f402a02b506c4b.png",
+    "sha256": "a0cc24f402a02b506c4ba5f0b3c4f3c307f69aef742aa0a517556d32d6035e20",
+    "bytes": 6875,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/August2024_1_3bd2427f3b.png",
+    "localPath": "/ibm-research/resources/763bca17aeb344b6ecc9.png",
+    "sha256": "763bca17aeb344b6ecc9724bbe7b42d2fe28d074f455d7679830c9cdeebb8d66",
+    "bytes": 33314,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/August2024_2_875f0cbe80.png",
+    "localPath": "/ibm-research/resources/8955ef66905bc4efc40b.png",
+    "sha256": "8955ef66905bc4efc40b17dc41d9ab084bf6256c63ae8138d03cdfdd0aaf4100",
+    "bytes": 32799,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/March2025_pic_15fe7ecd4e.png",
+    "localPath": "/ibm-research/resources/8586ed74b166c3fdc3c7.png",
+    "sha256": "8586ed74b166c3fdc3c7ad4a39ab71153385de406be02f015a6f398772b9f2d9",
+    "bytes": 37806,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/Ponder_Thins_May2025_3647419893.png",
+    "localPath": "/ibm-research/resources/7c5cade9e4a4c37424d8.png",
+    "sha256": "7c5cade9e4a4c37424d8df8f7cae51bbc43e9eb117f49f412b44e1b02628dab1",
+    "bytes": 165988,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/June2025_3b23ce5485.png",
+    "localPath": "/ibm-research/resources/4be9c78638ddf81142df.png",
+    "sha256": "4be9c78638ddf81142dfdcb69e1d6532d0956d27b132ac5e391df36b75919a54",
+    "bytes": 2372,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/August_2025_3_c00922b1f3.jpeg",
+    "localPath": "/ibm-research/resources/e512c45c62bb80ccc46a.jpg",
+    "sha256": "e512c45c62bb80ccc46ad572f9248c4adcff76b3861897397fa79d067ffadb0f",
+    "bytes": 41087,
+    "contentType": "image/jpeg",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/August_2025_2_b1c2062b80.png",
+    "localPath": "/ibm-research/resources/7e4f2c4a3b9f7906e8f2.png",
+    "sha256": "7e4f2c4a3b9f7906e8f24f0ba566050e6271523c8ec5d95c3b75b332ae1e3744",
+    "bytes": 2185,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/Sept_2025_d8fe0c3a62.png",
+    "localPath": "/ibm-research/resources/d507071b1aec175c2ec0.png",
+    "sha256": "d507071b1aec175c2ec053a0ce8aa6527cfae528965a5117fddfa10318c508cb",
+    "bytes": 18604,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research-website-prod-cms-uploads.s3.us.cloud-object-storage.appdomain.cloud/October_2025_Challenge_60eac064d8.png",
+    "localPath": "/ibm-research/resources/b4d15d0edeb71bebfdb2.png",
+    "sha256": "b4d15d0edeb71bebfdb29e314a16c13dbaaa792f9d276dc515dfa928052f93ae",
+    "bytes": 810,
+    "contentType": "image/png",
+    "status": 200
+  },
+  {
+    "url": "https://research.ibm.com/May_PonderThis_Table.htm.html",
+    "downloadUrl": "https://web.archive.org/web/20150908055054id_/https://www.research.ibm.com/haifa/ponderthis/May_PonderThis_Table.htm",
+    "status": 200,
+    "originalStatus": 404,
+    "localPath": "/ibm-research/resources/may-2008-life-grid.html",
+    "sha256": "1fc1ca0fa3119b88b6802b78f4dcb5d818893450496ef704533de2afaac2fac8",
+    "bytes": 21153,
+    "replacementHtml": "<table class=\"ibm-life-grid\" aria-label=\"Game of Life target grid\"><tbody><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#0000ff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"alive\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr><tr><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td><td style=\"background-color:#00ffff;width:1rem;height:1rem;padding:0;border:1px solid #222\" aria-label=\"dead\"></td></tr></tbody></table>",
+    "captionZh": "目标格局取自 IBM 原题网页存档；浅青色为死细胞，蓝色为活细胞。",
+    "captionEn": "Target grid from the archived IBM challenge; aqua means dead, blue means alive."
+  },
+  {
+    "url": "https://www.research.ibm.com/files/feb2009_popup.shtml",
+    "downloadUrl": "https://web.archive.org/web/20090221213230id_/http://www.research.ibm.com:80/files/feb2009_popup.shtml",
+    "status": 200,
+    "localPath": "/ibm-research/resources/february-2009-numbers.html",
+    "sha256": "ed12a3117e9f242454bd004f3efd9c6069ee6542191f558c2ddf312507bff080",
+    "bytes": 1517,
+    "replacementHtml": "<pre><code>900F 80F0 8F00 80CA BE12 AA90 9400 0048 3E5B 8AC0\n3400 00CB BC81 8A08 3C00 0050 BE43 00C0 3E00 A019\n8059 BE13 2000 0092 BE9B 2A0B 2A00 8052 8841 04C0\n3E00 840B 084B 0098 E000 8819 845A 8012 0300 0050\n826F 0500 0600 846E 8264 0900 0A00 8065 0C00 0072\nA054 8368 8569 4800 4400 8573 4200 4100 8349 8542\n2800 2400 854D 2200 2100 9F00 E000 8888 8444 8000\n0030 0DED 8222 0050 0060 8444 8222 0090 00A0 8000\n00C0 0DED A000 8333 8555 4080 4040 8555 4020 4010\n8333 8555 2080 2040 8555 2020 2010 8300 8500 8030\n8050 0880 0840 8050 0820 0810 8030 8050 0480 0440\n8050 0420 0410 8500 8030 8050 0280 0240 8050 0220\n0210 8030 8050 0180 0140 8050 0120 0110 90F0 9F00\nE000 8888 8444 8000 0003 0DED 8222 0005 0006 8444\n8222 0009 000A 8000 000C 0DED A000 8333 8555 4008\n4004 8555 4002 4001 8333 8555 2008 2004 8555 2002\n2001 8300 8500 8003 8005 0808 0804 8005 0802 0801\n8003 8005 0408 0404 8005 0402 0401 8500 8003 8005\n0208 0204 8005 0202 0201 8003 8005 0108 0104 8005\n0102 0101 9F00 8030 8050 8003 8005 0088 0084 8005\n0082 0081 8003 8005 0048 0044 8005 0042 0041 8050\n8003 8005 0028 0024 8005 0022 0021 8003 8005 0018\n0014 8005 0012 0011 80FF 8F0F A333 8000 5000 0DED\n8000 3000 0DED A333 C555 1800 1400 C555 1200 1100\n8F0F A333 A555 1080 1040 A555 1020 1010 A333 A555\n1008 1004 A555 1002 1001</code></pre>",
+    "captionZh": "数字表取自 IBM 原题弹出窗口的网页存档。",
+    "captionEn": "Number list from the archived IBM challenge popup."
+  },
+  {
+    "url": "http://www-01.ibm.com/support/knowledgecenter/SSGH4D_15.1.0/com.ibm.xlf151.aix.doc/language_ref/asciit.html?lang=en",
+    "downloadUrl": "https://www.ibm.com/docs/en/openxl-fortran-aix/17.1.3?topic=reference-ascii-ebcdic-character-sets",
+    "status": 200,
+    "localPath": "/ibm-research/resources/ebcdic-ascii-letters.html",
+    "sha256": "6b7288075d4fb4e2ec97f2c1e8b1d4ef71c73467d5dd75a75eee31108c489e38",
+    "bytes": 2568,
+    "replacementHtml": "<table class=\"ibm-character-table\"><thead><tr><th>Letter</th><th>EBCDIC</th><th>ASCII</th></tr></thead><tbody><tr><td>A</td><td>193</td><td>65</td></tr><tr><td>B</td><td>194</td><td>66</td></tr><tr><td>C</td><td>195</td><td>67</td></tr><tr><td>D</td><td>196</td><td>68</td></tr><tr><td>E</td><td>197</td><td>69</td></tr><tr><td>F</td><td>198</td><td>70</td></tr><tr><td>G</td><td>199</td><td>71</td></tr><tr><td>H</td><td>200</td><td>72</td></tr><tr><td>I</td><td>201</td><td>73</td></tr><tr><td>J</td><td>209</td><td>74</td></tr><tr><td>K</td><td>210</td><td>75</td></tr><tr><td>L</td><td>211</td><td>76</td></tr><tr><td>M</td><td>212</td><td>77</td></tr><tr><td>N</td><td>213</td><td>78</td></tr><tr><td>O</td><td>214</td><td>79</td></tr><tr><td>P</td><td>215</td><td>80</td></tr><tr><td>Q</td><td>216</td><td>81</td></tr><tr><td>R</td><td>217</td><td>82</td></tr><tr><td>S</td><td>226</td><td>83</td></tr><tr><td>T</td><td>227</td><td>84</td></tr><tr><td>U</td><td>228</td><td>85</td></tr><tr><td>V</td><td>229</td><td>86</td></tr><tr><td>W</td><td>230</td><td>87</td></tr><tr><td>X</td><td>231</td><td>88</td></tr><tr><td>Y</td><td>232</td><td>89</td></tr><tr><td>Z</td><td>233</td><td>90</td></tr><tr><td>a</td><td>129</td><td>97</td></tr><tr><td>b</td><td>130</td><td>98</td></tr><tr><td>c</td><td>131</td><td>99</td></tr><tr><td>d</td><td>132</td><td>100</td></tr><tr><td>e</td><td>133</td><td>101</td></tr><tr><td>f</td><td>134</td><td>102</td></tr><tr><td>g</td><td>135</td><td>103</td></tr><tr><td>h</td><td>136</td><td>104</td></tr><tr><td>i</td><td>137</td><td>105</td></tr><tr><td>j</td><td>145</td><td>106</td></tr><tr><td>k</td><td>146</td><td>107</td></tr><tr><td>l</td><td>147</td><td>108</td></tr><tr><td>m</td><td>148</td><td>109</td></tr><tr><td>n</td><td>149</td><td>110</td></tr><tr><td>o</td><td>150</td><td>111</td></tr><tr><td>p</td><td>151</td><td>112</td></tr><tr><td>q</td><td>152</td><td>113</td></tr><tr><td>r</td><td>153</td><td>114</td></tr><tr><td>s</td><td>162</td><td>115</td></tr><tr><td>t</td><td>163</td><td>116</td></tr><tr><td>u</td><td>164</td><td>117</td></tr><tr><td>v</td><td>165</td><td>118</td></tr><tr><td>w</td><td>166</td><td>119</td></tr><tr><td>x</td><td>167</td><td>120</td></tr><tr><td>y</td><td>168</td><td>121</td></tr><tr><td>z</td><td>169</td><td>122</td></tr></tbody></table>",
+    "captionZh": "本题所用 52 个英文字母的十进制编码，对应 IBM 的 ASCII/EBCDIC 对照表。",
+    "captionEn": "Decimal code points of the 52 Latin letters used by this challenge, matching the IBM ASCII/EBCDIC table."
+  }
+]

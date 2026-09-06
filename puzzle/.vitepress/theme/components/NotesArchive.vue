@@ -1,10 +1,13 @@
 <script setup lang="ts">
+import PaginationControls from './PaginationControls.vue'
+import { usePagination } from '../usePagination'
 import { computed } from 'vue'
 import { localizeNote, notes } from '../data/catalog'
 import { formatDate, usePuzzleLocale } from '../i18n'
 
 const { locale, copy, pathFor } = usePuzzleLocale()
 const localizedNotes = computed(() => notes.map((note) => localizeNote(note, locale.value)))
+const { page, pageCount, visibleItems: visibleNotes, setPage } = usePagination(localizedNotes, { anchor: '.notes-list' })
 </script>
 
 <template>
@@ -15,11 +18,12 @@ const localizedNotes = computed(() => notes.map((note) => localizeNote(note, loc
       <p>{{ copy.noteIntro }}</p>
     </header>
     <div class="notes-list">
-      <a v-for="note in localizedNotes" :key="note.id" :href="pathFor(`/notes/${note.slug}`)" class="note-row">
+      <a v-for="note in visibleNotes" :key="note.id" :href="pathFor(`/notes/${note.slug}`)" class="note-row">
         <time class="note-row__date" :datetime="note.createdAt">{{ formatDate(note.createdAt, locale) }}</time>
         <span class="note-row__copy"><strong>{{ note.title }}</strong><p>{{ note.summary }}</p><small>{{ note.readingTime }}</small></span>
         <span class="row-arrow" aria-hidden="true">→</span>
       </a>
     </div>
+    <PaginationControls id="notes-pagination" :page="page" :page-count="pageCount" @change="setPage" />
   </div>
 </template>

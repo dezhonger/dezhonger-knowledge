@@ -31,7 +31,7 @@ const recent = computed(() => localizedPuzzles.value.slice(0, 5))
           <p class="featured-summary">{{ featured.summary }}</p>
           <div class="metadata-line">
             <span>{{ featured.categories.join(' · ') }}</span>
-            <span class="difficulty" :aria-label="`Difficulty ${featured.difficulty} out of 5`">{{ difficultyStars(featured.difficulty) }}</span>
+            <span v-if="featured.difficulty !== null" class="difficulty" :aria-label="`Difficulty ${featured.difficulty} out of 5`">{{ difficultyStars(featured.difficulty) }}</span>
           </div>
           <span class="text-link">{{ copy.explore }} <i aria-hidden="true">→</i></span>
         </div>
@@ -68,7 +68,7 @@ const recent = computed(() => localizedPuzzles.value.slice(0, 5))
             <strong>{{ puzzle.title }}</strong>
             <small>{{ puzzle.categories.join(' · ') }}</small>
           </span>
-          <span class="difficulty" :aria-label="`Difficulty ${puzzle.difficulty} out of 5`">{{ difficultyStars(puzzle.difficulty) }}</span>
+          <span v-if="puzzle.difficulty !== null" class="difficulty" :aria-label="`Difficulty ${puzzle.difficulty} out of 5`">{{ difficultyStars(puzzle.difficulty) }}</span>
           <span class="row-arrow" aria-hidden="true">→</span>
         </a>
       </div>

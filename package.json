@@ -14,7 +14,7 @@
     "dev:guwen": "npm run generate:guwen && vitepress dev guwen --host 127.0.0.1 --port 5174",
     "generate:feeds": "node scripts/generate-feeds.mjs",
     "build": "vitepress build docs && node scripts/generate-feeds.mjs knowledge",
-    "build:puzzle": "vitepress build puzzle && node scripts/project-euler-pages.mjs && node scripts/rosecode-pages.mjs && node scripts/generate-feeds.mjs puzzle",
+    "build:puzzle": "node scripts/ibm-research.mjs --from-cache && vitepress build puzzle && node scripts/project-euler-pages.mjs && node scripts/rosecode-pages.mjs && node scripts/generate-feeds.mjs puzzle",
     "build:guwen": "npm run generate:guwen && vitepress build guwen",
     "build:all": "npm run generate:subjects && npm run build && npm run build:guwen && npm run build:puzzle",
     "preview": "vitepress preview docs --host 127.0.0.1",
@@ -24,7 +24,11 @@
     "validate:project-euler": "node scripts/validate-project-euler.mjs",
     "sync:rosecode": "node scripts/rosecode-source.mjs",
     "generate:rosecode": "node scripts/rosecode-source.mjs --from-cache",
-    "validate:rosecode": "node scripts/validate-rosecode.mjs"
+    "validate:rosecode": "node scripts/validate-rosecode.mjs",
+    "sync:ibm-research": "node scripts/ibm-research.mjs",
+    "generate:ibm-research": "node scripts/ibm-research.mjs --from-cache",
+    "validate:ibm-research": "node scripts/validate-ibm-research.mjs",
+    "validate:pagination": "node scripts/validate-pagination.mjs"
   },
   "devDependencies": {
     "@fontsource/ibm-plex-mono": "^5.3.0",

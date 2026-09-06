@@ -1,4 +1,5 @@
 import { roseCodeProblems } from './rosecode'
+import { ibmResearchCount, ibmResearchPuzzles } from './ibm-research'
 
 export type PuzzleStatus = 'solved' | 'studying' | 'open'
 
@@ -14,7 +15,7 @@ export interface Puzzle {
   source: string
   sourceUrl: string
   license: string
-  difficulty: 1 | 2 | 3 | 4 | 5
+  difficulty: 1 | 2 | 3 | 4 | 5 | null
   status: PuzzleStatus
   createdAt: string
   updatedAt: string
@@ -117,7 +118,7 @@ export const collections: Collection[] = [
     title: 'IBM Research',
     description: 'Monthly challenges and elegant problems from IBM Research, including Ponder This.',
     cover: 'IBM',
-    problemCount: 21,
+    problemCount: ibmResearchCount,
     noteCount: 0,
     zh: {
       title: 'IBM Research',
@@ -1025,6 +1026,7 @@ export const puzzles: Puzzle[] = [
       searchText: 'IBM Ponder This 2000 1月 接棒球 高飞球 仰角 地平线 外野手 向前 向后',
     },
   },
+  ...ibmResearchPuzzles,
 ]
 
 export const notes: Note[] = [
@@ -1097,8 +1099,8 @@ export function puzzleUrl(puzzle: Puzzle) {
   return `/puzzles/${puzzle.slug}`
 }
 
-export function difficultyStars(difficulty: number) {
-  return `${'★'.repeat(difficulty)}${'☆'.repeat(5 - difficulty)}`
+export function difficultyStars(difficulty: number | null) {
+  return difficulty === null ? '' : `${'★'.repeat(difficulty)}${'☆'.repeat(5 - difficulty)}`
 }
 
 export function statusLabel(status: PuzzleStatus) {

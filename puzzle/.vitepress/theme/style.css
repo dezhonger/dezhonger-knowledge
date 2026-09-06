@@ -1322,67 +1322,6 @@ button {
   transition: background-color var(--ease);
 }
 
-.collection-pagination {
-  display: grid;
-  margin-top: 30px;
-  align-items: center;
-  grid-template-columns: 1fr auto 1fr;
-  gap: 18px;
-}
-
-.collection-pagination > button,
-.collection-pagination__pages button {
-  min-width: 38px;
-  height: 38px;
-  padding: 0 12px;
-  border: 1px solid var(--line);
-  border-radius: 999px;
-  color: var(--muted);
-  background: transparent;
-  font-family: var(--mono);
-  font-size: 10px;
-  cursor: pointer;
-  transition: color var(--ease), border-color var(--ease), background-color var(--ease);
-}
-
-.collection-pagination > button:first-child {
-  justify-self: start;
-}
-
-.collection-pagination > button:last-child {
-  justify-self: end;
-}
-
-.collection-pagination__pages {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  gap: 6px;
-}
-
-.collection-pagination__pages span {
-  min-width: 18px;
-  color: var(--faint);
-  text-align: center;
-}
-
-.collection-pagination button:hover:not(:disabled),
-.collection-pagination button:focus-visible,
-.collection-pagination button.active {
-  border-color: var(--accent);
-  color: var(--accent);
-  background: var(--surface);
-}
-
-.collection-pagination button.active {
-  cursor: default;
-}
-
-.collection-pagination button:disabled {
-  opacity: 0.35;
-  cursor: not-allowed;
-}
-
 .collection-problem__copy strong {
   font-size: 18px;
 }
@@ -2510,23 +2449,6 @@ button {
     display: none;
   }
 
-  .collection-pagination {
-    margin-top: 24px;
-    grid-template-columns: auto 1fr auto;
-    gap: 10px;
-  }
-
-  .collection-pagination > button,
-  .collection-pagination__pages button {
-    min-width: 34px;
-    height: 34px;
-    padding: 0 9px;
-  }
-
-  .collection-pagination__pages {
-    gap: 4px;
-  }
-
   .note-row {
     min-height: 142px;
     padding: 26px 6px;
@@ -3534,6 +3456,21 @@ a.pe-problem-card:focus-visible {
 .pe-statement mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; text-align: center; margin: 1em 0; padding: 5px 0; }
 .pe-statement mjx-container[display="true"] svg { display: block; margin: 0 auto; }
 .pe-retry { color: var(--accent); text-decoration: underline; cursor: pointer; }
+.ibm-statement { overflow-wrap: anywhere; }
+.ibm-statement pre { overflow-x: auto; white-space: pre; padding: 16px; background: var(--vp-code-block-bg); border-radius: 8px; line-height: 1.5; }
+.ibm-statement pre code { padding: 0; background: none; font-size: .85em; white-space: pre; }
+.ibm-statement table { display: block; max-width: 100%; width: max-content; overflow-x: auto; margin: 24px auto; }
+.ibm-statement .ibm-life-grid { border-collapse: collapse; }
+.ibm-statement .ibm-life-grid td { min-width: 1rem; }
+.ibm-statement img { max-width: 100%; height: auto; }
+.ibm-statement img.ibm-inline-symbol { display: inline-block; width: 1em; height: 1em; margin: 0; vertical-align: -.12em; }
+.ibm-statement small { display: block; color: var(--muted); line-height: 1.6; margin: 8px 0 20px; }
+.ibm-statement mjx-container { max-width: 100%; direction: ltr; text-indent: 0; }
+.ibm-statement mjx-container:not([display="true"]) { display: inline-block; overflow: visible; line-height: 0; padding: 0; }
+.ibm-statement mjx-container[display="true"] { display: block; overflow-x: auto; overflow-y: hidden; text-align: center; padding: 6px 0; margin: 1em 0; }
+.ibm-statement mjx-container[data-wide="true"] { display: block; overflow-x: auto; overflow-y: hidden; line-height: normal; padding: 6px 0; margin: .6em 0; }
+.ibm-statement mjx-container svg { display: inline-block; max-width: none; overflow: visible; }
+.ibm-statement mjx-assistive-mml { position: absolute !important; width: 1px; height: 1px; overflow: hidden; clip: rect(1px,1px,1px,1px); white-space: nowrap; }
 .pe-statement mjx-container svg, .pe-math-title mjx-container svg { display: inline-block; max-width: none; overflow: visible; min-height: 1px; }
 .pe-statement mjx-assistive-mml, .pe-math-title mjx-assistive-mml { position: absolute !important; top: 0; left: 0; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); white-space: nowrap; }
 @media (max-width: 760px) {

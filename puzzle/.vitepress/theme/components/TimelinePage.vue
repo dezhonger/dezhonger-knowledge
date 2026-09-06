@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import PaginationControls from './PaginationControls.vue'
+import { usePagination } from '../usePagination'
 import { computed, ref } from 'vue'
 import { localizeNote, localizePuzzle, notes, puzzles, puzzleUrl } from '../data/catalog'
 import { formatDate, formatMonth, usePuzzleLocale } from '../i18n'
@@ -42,12 +44,21 @@ const entries = computed(() => [
 ])
 
 const months = computed(() => [...new Set(entries.value.map((entry) => entry.date.slice(0, 7)))].sort().reverse())
-const visibleEntries = computed(() =>
+const filteredEntries = computed(() =>
   entries.value
     .filter((entry) => selectedType.value === 'all' || entry.type === selectedType.value)
     .filter((entry) => selectedMonth.value === 'all' || entry.date.startsWith(selectedMonth.value))
     .sort((left, right) => (newestFirst.value ? right.date.localeCompare(left.date) : left.date.localeCompare(right.date))),
 )
+
+const { page, pageCount, visibleItems: visibleEntries, setPage } = usePagination(filteredEntries, {
+  anchor: '.timeline-toolbar',
+  filters: {
+    type: { state: selectedType, values: ['all', 'puzzles', 'notes'] },
+    month: { state: selectedMonth, values: () => ['all', ...months.value] },
+    newest: { state: newestFirst },
+  },
+})
 
 const typeOptions = computed(() => [
   { value: 'all' as const, label: copy.value.contentType.all },
@@ -89,5 +100,6 @@ const typeOptions = computed(() => [
       </a>
       <p v-if="visibleEntries.length === 0" class="archive-empty">{{ copy.noTimeline }}</p>
     </div>
+    <PaginationControls id="timeline-pagination" :page="page" :page-count="pageCount" @change="setPage" />
   </div>
 </template>

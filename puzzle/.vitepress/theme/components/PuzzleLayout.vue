@@ -25,6 +25,7 @@ const previousPuzzle = computed(() => (currentIndex.value > 0 ? collectionPuzzle
 const nextPuzzle = computed(() => (currentIndex.value >= 0 ? collectionPuzzles.value[currentIndex.value + 1] : undefined))
 const licenseText = computed(() => {
   if (!puzzle.value || locale.value === 'en') return puzzle.value?.license
+  if (puzzle.value.collection === 'ibm-research') return 'IBM Research 原题整理与中文翻译；官方题解请见原文。'
   return puzzle.value.license.includes('Project Euler')
     ? 'Project Euler 原题依据 CC BY-NC-SA 4.0 使用'
     : '为展示目的改写的摘要'
@@ -40,7 +41,7 @@ const licenseText = computed(() => {
       <p class="puzzle-source">{{ puzzle.source }}</p>
       <div class="metadata-line">
         <span>{{ puzzle.categories.join(' · ') }}</span>
-        <span class="difficulty" :aria-label="`Difficulty ${puzzle.difficulty} out of 5`">{{ difficultyStars(puzzle.difficulty) }}</span>
+        <span v-if="puzzle.difficulty !== null" class="difficulty" :aria-label="`Difficulty ${puzzle.difficulty} out of 5`">{{ difficultyStars(puzzle.difficulty) }}</span>
       </div>
     </header>
 

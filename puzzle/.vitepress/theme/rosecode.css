@@ -1,6 +1,8 @@
 .rc-page {
   --rc-rose: #984b60;
   --rc-tint: #f1e7e8;
+  --pagination-accent: var(--rc-rose);
+  --pagination-tint: var(--rc-tint);
   width: min(760px, calc(100% - 48px));
   margin: 0 auto;
   padding: 48px 0 72px;
@@ -27,22 +29,6 @@ html.dark .rc-page { --rc-rose: #d797a8; --rc-tint: #33272b; }
 .rc-number { font: 12px/1.7 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums; }
 .rc-title { font: 400 17px/1.6 var(--serif); overflow-wrap: anywhere; }
 .rc-arrow { color: var(--rc-rose); font-size: 15px; opacity: .65; }
-.rc-pagination { margin-top: 28px; font: 13px var(--sans); }
-.rc-pagination-controls { display: flex; justify-content: space-between; align-items: center; gap: 12px; }
-.rc-pagination button { min-height: 36px; border: 0; border-radius: 3px; padding: 8px; color: var(--rc-rose); background: transparent; cursor: pointer; font: inherit; white-space: nowrap; }
-.rc-pagination button:hover:not(:disabled) { background: var(--rc-tint); }
-.rc-pagination button:disabled { color: var(--faint); cursor: default; }
-.rc-page-actions, .rc-page-numbers { display: flex; align-items: center; gap: 4px; }
-.rc-page-actions--end { justify-content: flex-end; }
-.rc-page-numbers { justify-content: center; font: 12px var(--mono); }
-.rc-page-numbers button { min-width: 32px; }
-.rc-page-numbers button[aria-current="page"] { background: var(--rc-tint); font-weight: 600; }
-.rc-page-gap { min-width: 16px; text-align: center; color: var(--muted); }
-.rc-page-jump { display: flex; align-items: center; justify-content: center; gap: 10px; margin-top: 18px; color: var(--muted); }
-.rc-page-jump input { box-sizing: border-box; width: 64px; min-height: 36px; border: 1px solid var(--line-strong); border-radius: 3px; padding: 6px 8px; background: var(--surface); color: var(--ink); text-align: center; font: 13px var(--mono); }
-.rc-page-jump input[aria-invalid="true"] { border-color: var(--rc-rose); }
-.rc-page-jump button { border: 1px solid var(--line); padding-inline: 12px; }
-.rc-page-error { margin: 10px 0 0; color: var(--rc-rose); text-align: center; line-height: 1.6; }
 .rc-archive-note { margin: 38px 0 0; font-size: 12px; color: var(--muted); }
 .rc-empty { padding: 35px 0; color: var(--muted); font-size: 14px; }
 .rc-sr-only { position: absolute; width: 1px; height: 1px; padding: 0; overflow: hidden; clip: rect(0, 0, 0, 0); white-space: nowrap; border: 0; }
@@ -84,19 +70,12 @@ html.dark .rc-page { --rc-rose: #d797a8; --rc-tint: #33272b; }
 .rc-neighbours { display: flex; justify-content: space-between; gap: 24px; padding-top: 28px; font-size: 14px; color: var(--ink); }
 .rc-neighbours a span { font: 12px var(--mono); color: var(--muted); padding: 0 6px; }
 .rc-retry { border: 0; background: none; color: var(--rc-rose); cursor: pointer; text-decoration: underline; }
-@media (max-width: 760px) {
-  .rc-pagination-controls { display: grid; grid-template-columns: 1fr 1fr; gap: 12px 4px; }
-  .rc-page-actions--end { grid-column: 2; grid-row: 1; }
-  .rc-page-numbers { grid-column: 1 / -1; grid-row: 2; }
-}
 @media (max-width: 600px) {
   .rc-page { width: calc(100% - 36px); padding-top: 28px; }
   .rc-intro { margin-top: 34px; }
   .rc-intro h1 { font-size: 43px; }
   .rc-list a { gap: 12px; grid-template-columns: 32px minmax(0, 1fr) 14px; padding: 18px 0; }
   .rc-title { font-size: 16px; }
-  .rc-page-numbers { gap: 3px; }
-  .rc-page-numbers button { min-width: 30px; padding-inline: 6px; }
   .rc-problem h1 { font-size: 28px; }
   .rc-statement { font-size: 16px; }
   .rc-statement pre { padding: 14px; }

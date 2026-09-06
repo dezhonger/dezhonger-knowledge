@@ -1,4 +1,6 @@
 <script setup lang="ts">
+import PaginationControls from './PaginationControls.vue'
+import { usePagination } from '../usePagination'
 import { computed, ref } from 'vue'
 import { projectEulerProblems, projectEulerSnapshot, type ProjectEulerProblem } from '../data/project-euler'
 import { normalizePuzzleSearch, usePuzzleLocale } from '../i18n'
@@ -113,7 +115,7 @@ const ranges = computed(() =>
   }),
 )
 
-const visibleProblems = computed(() => {
+const filteredProblems = computed(() => {
   const normalizedQuery = normalizePuzzleSearch(query.value)
   return projectEulerProblems.filter((problem) => {
     const matchesStatus = statusFilter.value === 'all' || (statusFilter.value === 'statement' ? !problem.articleSlug : problemStatus(problem) === statusFilter.value)
@@ -121,6 +123,18 @@ const visibleProblems = computed(() => {
     const matchesQuery = !normalizedQuery || String(problem.id).includes(normalizedQuery) || [problem.title, problem.titleZh].some((title) => normalizePuzzleSearch(title).includes(normalizedQuery) || title.toLowerCase().includes(query.value.trim().toLowerCase()))
     return matchesStatus && matchesRange && matchesQuery
   })
+})
+
+const { page, pageCount, visibleItems: visibleProblems, setPage } = usePagination(filteredProblems, {
+  anchor: '.pe-filter-toolbar',
+  filters: {
+    q: { state: query },
+    status: { state: statusFilter, values: ['all', 'statement', 'article', 'solved', 'open'] },
+    range: { state: rangeStart, values: () => [0, ...ranges.value.map((range) => range.start)] },
+  },
+})
+const { page: writeupPage, pageCount: writeupPageCount, visibleItems: visibleWriteups, setPage: setWriteupPage } = usePagination(computed(() => publishedProblems), {
+  anchor: '#write-ups', pageParameter: 'writeupPage',
 })
 
 function problemHref(problem: ProjectEulerProblem) {
@@ -271,7 +285,7 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
         <span class="pe-showing-count">{{ publishedProblems.length }} {{ words.writeupCount }}</span>
       </div>
       <div class="pe-writeup-grid">
-        <a v-for="problem in publishedProblems" :key="problem.id" :href="pathFor(`/puzzles/${problem.articleSlug}`)">
+        <a v-for="problem in visibleWriteups" :key="problem.id" :href="pathFor(`/puzzles/${problem.articleSlug}`)">
           <span>#PE {{ String(problem.id).padStart(3, '0') }}</span>
           <strong v-if="locale === 'zh' ? problem.titleZhHtml : problem.titleHtml" class="pe-math-title" v-html="locale === 'zh' ? problem.titleZhHtml : problem.titleHtml" />
           <strong v-else>{{ localizedProblemTitle(problem) }}</strong>
@@ -279,6 +293,7 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
           <em>{{ words.readArticle }} →</em>
         </a>
       </div>
+      <PaginationControls id="euler-writeups-pagination" :page="writeupPage" :page-count="writeupPageCount" @change="setWriteupPage" />
     </section>
 
     <section class="pe-chart-section">
@@ -327,7 +342,7 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
     <section id="problem-index" class="pe-problem-section">
       <div class="pe-section-heading">
         <div><h2>{{ words.problems }}</h2><p>{{ words.problemsDescription }}</p></div>
-        <span class="pe-showing-count">{{ words.showing }} {{ visibleProblems.length }} / {{ projectEulerSnapshot.total }}</span>
+        <span class="pe-showing-count">{{ words.showing }} {{ visibleProblems.length }} / {{ filteredProblems.length }}</span>
       </div>
 
       <div class="pe-filter-toolbar">
@@ -370,6 +385,7 @@ function problemAriaLabel(problem: ProjectEulerProblem) {
         </a>
       </div>
       <p v-else class="collection-empty">{{ words.noMatch }}</p>
+      <PaginationControls id="euler-pagination" :page="page" :page-count="pageCount" @change="setPage" />
     </section>
 
     <p class="pe-source-note">{{ words.source }} <a href="https://projecteuler.net/archives" target="_blank" rel="noreferrer">Project Euler ↗</a></p>
