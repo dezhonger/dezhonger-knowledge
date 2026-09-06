@@ -1,0 +1,19 @@
+{
+  "id": "reproduce-the-problem",
+  "en": "I can reproduce the problem on my laptop.",
+  "zh": "我可以在自己的笔记本电脑上复现这个问题。",
+  "sceneIds": [
+    "work-feedback",
+    "work-troubleshooting"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "向同事说明问题可以稳定重现。",
+  "notes": "reproduce 在技术排查语境中常指“复现”。",
+  "relatedIds": [
+    "ran-into-an-issue",
+    "looking-into-it"
+  ]
+}

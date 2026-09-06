@@ -1,0 +1,18 @@
+{
+  "id": "good-to-see-you",
+  "en": "It's good to see you again.",
+  "zh": "很高兴又见到你。",
+  "sceneIds": [
+    "daily-greetings"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "再次见面时表达高兴。",
+  "notes": "again 表明双方以前见过。",
+  "relatedIds": [
+    "nice-to-meet-you",
+    "how-is-it-going"
+  ]
+}

@@ -8,3 +8,6 @@ puzzle/.vitepress/dist/
 .DS_Store
 *.log
 .cache/
+
+# English pages are built from content/english inside the Docker builder.
+sites/english/

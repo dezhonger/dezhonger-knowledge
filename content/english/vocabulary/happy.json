@@ -1,0 +1,53 @@
+{
+  "id": "happy",
+  "word": "happy",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/ˈhæp.i/"
+    },
+    "us": {
+      "ipa": "/ˈhæp.i/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "adjective",
+      "zh": "快乐的；高兴的",
+      "en": "Feeling pleasure or satisfaction.",
+      "examples": [
+        {
+          "en": "I am happy to see you.",
+          "zh": "见到你我很开心。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "preschool",
+    "primary",
+    "junior",
+    "senior"
+  ],
+  "topicIds": [
+    "emotions",
+    "children"
+  ],
+  "tagIds": [
+    "feelings"
+  ],
+  "synonyms": [
+    {
+      "text": "glad"
+    },
+    {
+      "text": "pleased"
+    }
+  ],
+  "antonyms": [
+    {
+      "text": "sad"
+    }
+  ],
+  "editorial": true
+}

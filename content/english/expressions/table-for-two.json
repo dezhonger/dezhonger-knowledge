@@ -1,0 +1,19 @@
+{
+  "id": "table-for-two",
+  "en": "Could we have a table for two, please?",
+  "zh": "请给我们安排一张两人桌好吗？",
+  "sceneIds": [
+    "daily-restaurants"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "到餐厅后告知就餐人数。",
+  "notes": "for two 表示供两个人使用。",
+  "relatedIds": [
+    "see-the-menu",
+    "get-the-bill"
+  ]
+}

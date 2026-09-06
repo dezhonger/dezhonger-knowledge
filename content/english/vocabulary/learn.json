@@ -1,0 +1,50 @@
+{
+  "id": "learn",
+  "word": "learn",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/lɜːn/"
+    },
+    "us": {
+      "ipa": "/lɝːn/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "verb",
+      "zh": "学习；学会",
+      "en": "To gain knowledge or a skill through study, practice, or experience.",
+      "examples": [
+        {
+          "en": "We learn new words by using them.",
+          "zh": "我们通过使用新单词来学习它们。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "primary",
+    "junior",
+    "senior",
+    "ielts"
+  ],
+  "topicIds": [
+    "school"
+  ],
+  "tagIds": [
+    "high-frequency"
+  ],
+  "collocations": [
+    {
+      "en": "learn from mistakes",
+      "zh": "从错误中学习"
+    },
+    {
+      "en": "learn to drive",
+      "zh": "学开车"
+    }
+  ],
+  "notes": "过去式和过去分词可用 learned；英式英语也常用 learnt。",
+  "editorial": true
+}

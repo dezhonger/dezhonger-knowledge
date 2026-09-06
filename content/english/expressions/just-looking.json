@@ -1,0 +1,18 @@
+{
+  "id": "just-looking",
+  "en": "I'm just looking, thank you.",
+  "zh": "我先看看，谢谢。",
+  "sceneIds": [
+    "daily-shopping"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "店员询问是否需要帮助，但你想先自行浏览。",
+  "notes": "加 thank you 可以让拒绝帮助的语气更友好。",
+  "relatedIds": [
+    "different-size",
+    "try-it-on"
+  ]
+}

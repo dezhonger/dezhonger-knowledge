@@ -1,0 +1,18 @@
+{
+  "id": "nice-to-meet-you",
+  "en": "It's nice to meet you.",
+  "zh": "很高兴认识你。",
+  "sceneIds": [
+    "daily-greetings"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "第一次见面互相介绍后。",
+  "notes": "再次见到认识的人通常说 Nice to see you。",
+  "relatedIds": [
+    "how-is-it-going",
+    "good-to-see-you"
+  ]
+}

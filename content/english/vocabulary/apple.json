@@ -1,0 +1,50 @@
+{
+  "id": "apple",
+  "word": "apple",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/ˈæp.əl/"
+    },
+    "us": {
+      "ipa": "/ˈæp.əl/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "苹果",
+      "en": "A round fruit with firm flesh and red, green, or yellow skin.",
+      "examples": [
+        {
+          "en": "Would you like an apple?",
+          "zh": "你想吃一个苹果吗？"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "preschool",
+    "primary",
+    "junior",
+    "senior"
+  ],
+  "topicIds": [
+    "fruit"
+  ],
+  "tagIds": [
+    "high-frequency"
+  ],
+  "collocations": [
+    {
+      "en": "apple juice",
+      "zh": "苹果汁"
+    },
+    {
+      "en": "a slice of apple",
+      "zh": "一片苹果"
+    }
+  ],
+  "notes": "apple 是可数名词。说“一个苹果”用 an apple，因为 apple 以元音音素开头。",
+  "editorial": true
+}

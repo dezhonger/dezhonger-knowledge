@@ -1,0 +1,20 @@
+{
+  "id": "could-you-give-me-a-hand",
+  "en": "Could you give me a hand?",
+  "zh": "你能帮我一下吗？",
+  "sceneIds": [
+    "daily-help",
+    "work-requests"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "搬东西、处理任务或遇到小困难时，向同事或身边的人请求帮助。",
+  "notes": "give someone a hand 是“帮某人一把”，通常不是字面上的“给一只手”。",
+  "relatedIds": [
+    "send-the-file",
+    "take-a-look"
+  ]
+}

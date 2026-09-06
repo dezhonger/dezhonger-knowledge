@@ -1,0 +1,59 @@
+{
+  "id": "ubiquitous",
+  "word": "ubiquitous",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/juːˈbɪk.wɪ.təs/"
+    },
+    "us": {
+      "ipa": "/juːˈbɪk.wə.t̬əs/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "adjective",
+      "zh": "无处不在的；普遍存在的",
+      "en": "Present, or seeming to be present, everywhere.",
+      "examples": [
+        {
+          "en": "Smartphones have become ubiquitous.",
+          "zh": "智能手机已经变得随处可见。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "cet6",
+    "ielts",
+    "toefl"
+  ],
+  "topicIds": [
+    "phones",
+    "internet"
+  ],
+  "tagIds": [
+    "academic"
+  ],
+  "collocations": [
+    {
+      "en": "ubiquitous technology",
+      "zh": "无处不在的技术"
+    }
+  ],
+  "synonyms": [
+    {
+      "text": "widespread"
+    },
+    {
+      "text": "omnipresent"
+    }
+  ],
+  "antonyms": [
+    {
+      "text": "rare"
+    }
+  ],
+  "notes": "偏正式，常用于描述科技、产品或现象。语义接近“到处都有”，比 merely common（常见）更强；近义词不能在所有语境中直接互换。",
+  "editorial": true
+}

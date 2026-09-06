@@ -1,0 +1,18 @@
+{
+  "id": "nearest-station",
+  "en": "Excuse me, where is the nearest station?",
+  "zh": "打扰一下，最近的车站在哪里？",
+  "sceneIds": [
+    "daily-directions"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "向路人问路。",
+  "notes": "Excuse me 用于礼貌地引起对方注意。",
+  "relatedIds": [
+    "walking-distance",
+    "show-on-map"
+  ]
+}

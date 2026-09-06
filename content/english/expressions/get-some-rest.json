@@ -1,0 +1,18 @@
+{
+  "id": "get-some-rest",
+  "en": "It's time to get some rest.",
+  "zh": "该休息啦。",
+  "sceneIds": [
+    "parenting-bedtime"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "在睡前安静下来时提醒。",
+  "notes": "rest 在这里是不可数名词。",
+  "relatedIds": [
+    "bedtime-story",
+    "sweet-dreams"
+  ]
+}

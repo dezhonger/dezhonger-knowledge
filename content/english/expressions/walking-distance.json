@@ -1,0 +1,18 @@
+{
+  "id": "walking-distance",
+  "en": "Is it within walking distance?",
+  "zh": "走路能到吗？",
+  "sceneIds": [
+    "daily-directions"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "确认目的地是否适合步行到达。",
+  "notes": "within walking distance 表示在步行可达的距离内。",
+  "relatedIds": [
+    "nearest-station",
+    "show-on-map"
+  ]
+}

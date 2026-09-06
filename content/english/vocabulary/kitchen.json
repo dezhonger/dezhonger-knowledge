@@ -1,0 +1,41 @@
+{
+  "id": "kitchen",
+  "word": "kitchen",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/ˈkɪtʃ.ən/"
+    },
+    "us": {
+      "ipa": "/ˈkɪtʃ.ən/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "厨房",
+      "en": "A room where people prepare and cook food.",
+      "examples": [
+        {
+          "en": "Dad is making soup in the kitchen.",
+          "zh": "爸爸正在厨房里做汤。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "primary",
+    "junior",
+    "senior",
+    "ielts",
+    "toefl"
+  ],
+  "topicIds": [
+    "kitchen",
+    "home"
+  ],
+  "tagIds": [
+    "high-frequency"
+  ],
+  "editorial": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sit-at-the-table",
+  "en": "Come sit at the table.",
+  "zh": "过来坐到餐桌旁吧。",
+  "sceneIds": [
+    "parenting-meals"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "准备开饭，邀请孩子入座。",
+  "notes": "这是自然的口语表达；也可说 Come and sit at the table。",
+  "relatedIds": [
+    "small-bites",
+    "some-more"
+  ]
+}

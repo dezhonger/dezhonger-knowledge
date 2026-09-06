@@ -7,7 +7,8 @@ A single repository for Dezhonger's independently addressed content sites:
 - `guwen.dezhonger.com`: Chinese classical literature, powered by VitePress.
 - `zmq.dezhonger.com` and `rby.dezhonger.com`: original illustrated theme pages.
 - `math.dezhonger.com` and `algo.dezhonger.com`: mathematics, algorithms, machine learning and LLM learning paths.
-- `english.dezhonger.com`, `biology.dezhonger.com`, `geography.dezhonger.com`, `physics.dezhonger.com`, `chemistry.dezhonger.com` and `history.dezhonger.com`: junior/senior subject learning sites; science sites include competition paths and Chemistry includes an interactive periodic table.
+- `english.dezhonger.com`: a content-first English learning site with vocabulary, layered grammar, practical expressions, device speech and local search.
+- `biology.dezhonger.com`, `geography.dezhonger.com`, `physics.dezhonger.com`, `chemistry.dezhonger.com` and `history.dezhonger.com`: junior/senior subject learning sites; science sites include competition paths and Chemistry includes an interactive periodic table.
 
 ## Local development
 
@@ -153,15 +154,23 @@ The static subject sites live under `sites/`. Each hostname keeps its generated 
 - The other subjects use `scripts/subject-data.mjs` plus `scripts/subject-expansions.mjs`.
 - Each subject has its own visual language. Shared files only provide navigation, accessibility and responsive foundations.
 - Chemistry additionally loads `elements.js`; the checked-in element data was generated from PubChem's public periodic-table JSON with `npm run generate:elements`.
-- English includes a static vocabulary review tool for CET-4, CET-6, IELTS, TOEFL, TEM-4 and TEM-8. Review progress stays in browser `localStorage` and does not use the server database.
 
-The compact English vocabulary JSON is generated from the MIT-licensed [ECDICT](https://github.com/skywind3000/ECDICT) dataset. The repository contains the runtime subset and license, not the upstream 60 MB CSV. To refresh it:
+## English learning site
+
+English remains a generated HTML / native JavaScript / CSS site. Its single sources of truth are under `content/english/`: alphabetic JSONL word shards and non-duplicated editorial JSON entries, JSON expressions, Markdown grammar topics with depth layers, and a shared taxonomy. See [the Chinese content authoring guide](content/english/README.md).
 
 ```bash
-npm run generate:vocabulary -- /path/to/ecdict.csv
+npm run dev:english       # generate and preview at http://127.0.0.1:5176
+npm run build:english     # source/schema checks, generation and output validation
+npm run test:english      # content, search, speech, pagination and local HTTP tests
+npm run preview:english  # preview the existing generated output
 ```
 
-CET-4, CET-6, IELTS and TOEFL use ECDICT's source tags. TEM-4 and TEM-8 are explicitly described in the UI as non-official review pools derived from licensed entries and corpus frequency.
+`generate:subjects` delegates English to `scripts/generate-english.mjs`; it cannot overwrite the site with the retired review UI. The generator validates a temporary output directory before replacing `sites/english/`. CSS, modules and the lazily loaded search index share a content-hashed asset directory. Main content is rendered in HTML; speech and search use browser capabilities.
+
+The site contains 11,496 unique words across eight complete source wordlists, 6 grammar topics with 14 depth layers, and 38 expressions. Random practice draws 1–500 unique words from one level, hides Chinese meanings until requested, and paginates large sessions. It uses independent English Learning branding and has no links to other content domains. Source versions, licenses and coverage are documented under `content/english/`. No account or persistent progress system is included.
+
+English has dedicated Nginx rules for real 404s, a generated XML sitemap and robots.txt. Docker copies English from the builder stage, so source changes reach the actual image. `sites/english/` is generated and excluded from Git and Docker input; the image always builds it from source. Large dictionary assets use gzip. `test:english` tests those Nginx rules when a local nginx executable is available; otherwise that single test is explicitly skipped.
 
 ## Deployment
 

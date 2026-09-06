@@ -1,0 +1,18 @@
+{
+  "id": "close-your-eyes",
+  "en": "Close your eyes for a moment.",
+  "zh": "把眼睛闭上一会儿。",
+  "sceneIds": [
+    "parenting-bathing"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "冲洗头发前温和提醒。",
+  "notes": "for a moment 表示一小会儿。",
+  "relatedIds": [
+    "bath-time",
+    "water-warm"
+  ]
+}

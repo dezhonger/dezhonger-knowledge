@@ -1,0 +1,18 @@
+{
+  "id": "open-the-curtains",
+  "en": "Let's open the curtains.",
+  "zh": "我们把窗帘拉开吧。",
+  "sceneIds": [
+    "parenting-waking"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "和孩子一起开始新的一天。",
+  "notes": "Let’s 表示邀请一起做，比直接命令更有参与感。",
+  "relatedIds": [
+    "time-to-get-up",
+    "sleep-well"
+  ]
+}

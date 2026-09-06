@@ -1,0 +1,18 @@
+{
+  "id": "time-to-get-up",
+  "en": "It's time to get up.",
+  "zh": "该起床啦。",
+  "sceneIds": [
+    "parenting-waking"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "早晨轻轻提醒孩子起床。",
+  "notes": "it is time to 后接动词原形。语气放轻，会比单独说 Get up 更温和。",
+  "relatedIds": [
+    "sleep-well",
+    "open-the-curtains"
+  ]
+}

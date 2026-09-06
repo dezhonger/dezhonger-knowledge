@@ -1,0 +1,53 @@
+{
+  "id": "help",
+  "word": "help",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/help/"
+    },
+    "us": {
+      "ipa": "/help/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "verb",
+      "zh": "帮助",
+      "en": "To make a task easier for someone or give them what they need.",
+      "examples": [
+        {
+          "en": "Could you help me carry this box?",
+          "zh": "你能帮我搬这个箱子吗？"
+        }
+      ]
+    },
+    {
+      "id": "assistance",
+      "posId": "noun",
+      "zh": "帮助；援助",
+      "en": "Support that makes a situation or task easier.",
+      "examples": [
+        {
+          "en": "Thank you for your help.",
+          "zh": "谢谢你的帮助。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "preschool",
+    "primary",
+    "junior",
+    "senior"
+  ],
+  "topicIds": [
+    "family",
+    "school"
+  ],
+  "tagIds": [
+    "high-frequency"
+  ],
+  "notes": "help 作“帮助”这个名词义时通常不可数。动词可用 help someone (to) do something。",
+  "editorial": true
+}

@@ -1,0 +1,41 @@
+{
+  "id": "reliable",
+  "word": "reliable",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/rɪˈlaɪ.ə.bəl/"
+    },
+    "us": {
+      "ipa": "/rɪˈlaɪ.ə.bəl/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "adjective",
+      "zh": "可靠的；可信赖的",
+      "en": "Able to be trusted to do what is expected or to work well.",
+      "examples": [
+        {
+          "en": "We need a reliable internet connection.",
+          "zh": "我们需要稳定可靠的网络连接。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "senior",
+    "cet4",
+    "cet6",
+    "ielts",
+    "toefl"
+  ],
+  "topicIds": [
+    "internet",
+    "jobs"
+  ],
+  "tagIds": [
+    "academic"
+  ],
+  "editorial": true
+}

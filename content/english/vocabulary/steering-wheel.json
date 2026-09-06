@@ -1,0 +1,36 @@
+{
+  "id": "steering-wheel",
+  "word": "steering wheel",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/ˈstɪə.rɪŋ ˌwiːl/"
+    },
+    "us": {
+      "ipa": "/ˈstɪr.ɪŋ ˌwiːl/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "方向盘",
+      "en": "The wheel a driver turns to control the direction of a vehicle.",
+      "examples": [
+        {
+          "en": "Keep both hands on the steering wheel.",
+          "zh": "双手握住方向盘。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "senior",
+    "ielts"
+  ],
+  "topicIds": [
+    "car-interior",
+    "driving"
+  ],
+  "tagIds": [],
+  "editorial": true
+}

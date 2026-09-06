@@ -9,3 +9,5 @@ guwen/.vitepress/dist
 puzzle/.vitepress/cache
 puzzle/.vitepress/dist
 *.log
+
+sites/english

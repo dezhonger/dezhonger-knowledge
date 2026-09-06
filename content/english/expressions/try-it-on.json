@@ -1,0 +1,19 @@
+{
+  "id": "try-it-on",
+  "en": "Could I try this on?",
+  "zh": "我可以试穿一下吗？",
+  "sceneIds": [
+    "daily-shopping"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "试衣或试鞋前询问。",
+  "notes": "try on 用于试穿衣物，不是试吃。",
+  "relatedIds": [
+    "different-size",
+    "just-looking"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sleep-well",
+  "en": "Did you sleep well?",
+  "zh": "昨晚睡得好吗？",
+  "sceneIds": [
+    "parenting-waking"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "孩子醒来后，关心睡眠情况。",
+  "notes": "询问已经结束的一晚，用 did + 动词原形。",
+  "relatedIds": [
+    "time-to-get-up",
+    "open-the-curtains"
+  ]
+}

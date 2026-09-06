@@ -1,0 +1,18 @@
+{
+  "id": "some-more",
+  "en": "Do you want some more?",
+  "zh": "还想再来一点吗？",
+  "sceneIds": [
+    "parenting-meals"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "孩子吃完一部分后，询问是否还想吃。",
+  "notes": "some more 指更多食物，具体是什么由语境决定。",
+  "relatedIds": [
+    "sit-at-the-table",
+    "small-bites"
+  ]
+}

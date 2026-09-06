@@ -1,0 +1,40 @@
+{
+  "id": "car",
+  "word": "car",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/kɑː/"
+    },
+    "us": {
+      "ipa": "/kɑːr/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "小汽车；轿车",
+      "en": "A road vehicle, usually with four wheels, used to carry a small number of people.",
+      "examples": [
+        {
+          "en": "We left the car outside the hotel.",
+          "zh": "我们把车停在了酒店外面。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "preschool",
+    "primary",
+    "junior",
+    "senior"
+  ],
+  "topicIds": [
+    "cars",
+    "transport"
+  ],
+  "tagIds": [
+    "high-frequency"
+  ],
+  "editorial": true
+}

@@ -3,6 +3,7 @@ import { resolve } from 'node:path'
 import { subjects } from './subject-data.mjs'
 import { mathCurriculum } from './math-curriculum.mjs'
 import { expandSubjects } from './subject-expansions.mjs'
+import { generateEnglish } from './generate-english.mjs'
 
 expandSubjects(subjects)
 
@@ -18,11 +19,6 @@ function periodicTable() {
   return `<section class="periodic-section" aria-labelledby="periodic-title"><p class="kicker">INTERACTIVE REFERENCE</p><h2 id="periodic-title">元素周期表</h2><p>完整收录 118 个元素。点击查看原子序数、相对原子质量、电子排布、常见氧化态和类别。</p><div class="periodic-controls"><button class="element-filter active" data-element-filter="all">全部</button><button class="element-filter" data-element-filter="alkali">碱金属</button><button class="element-filter" data-element-filter="transition">过渡金属</button><button class="element-filter" data-element-filter="metalloid">类金属</button><button class="element-filter" data-element-filter="nonmetal">非金属</button><button class="element-filter" data-element-filter="halogen">卤素</button><button class="element-filter" data-element-filter="noble">稀有气体</button></div><div class="periodic-scroll"><div id="periodic-table" class="periodic-table" aria-label="元素周期表"></div></div><aside id="element-detail" class="element-detail" aria-live="polite"><div><span class="detail-number">1</span><strong class="detail-symbol">H</strong></div><div><h3>氢 · Hydrogen</h3><p>最轻的元素，也是宇宙中丰度最高的元素。</p></div><dl><div><dt>相对原子质量</dt><dd>1.008</dd></div><div><dt>电子排布</dt><dd>1s¹</dd></div><div><dt>常见氧化态</dt><dd>+1, −1</dd></div></dl></aside></section>`
 }
 
-function vocabularyLab() {
-  const exams=[['cet4','四级'],['cet6','六级'],['ielts','雅思'],['toefl','托福'],['tem4','专四'],['tem8','专八']]
-  return `<section class="vocab-lab" id="vocabulary"><div class="vocab-head"><div><p class="kicker">VOCABULARY REVIEW LAB</p><h2>单词复习</h2><p>选择考试词库，随机抽取不重复单词；中文释义、音标和词性直接展示，也可以隐藏答案进行自测。</p></div><span class="vocab-source">ECDICT · MIT License</span></div><div class="vocab-controls"><div class="exam-tabs" aria-label="考试词库">${exams.map(([key,label],index)=>`<button class="exam-tab${index===0?' active':''}" data-exam="${key}">${label}</button>`).join('')}</div><label class="count-field"><span>抽取数量（1–200）</span><input id="word-count" type="number" min="1" max="200" value="50"></label><button id="draw-words" class="draw-button">随机出词</button></div><div class="study-toolbar"><button id="toggle-meanings">隐藏释义</button><button id="review-only">只抽生词本</button><span id="study-progress">正在准备词库…</span></div><p id="vocab-status" class="disclaimer" aria-live="polite">正在加载词库…</p><div id="word-list" class="word-list"></div><p class="disclaimer">四级、六级、雅思和托福采用 ECDICT 的考试标签；专四、专八是依据许可词条、考试交集和语料频率整理的非官方复习池，不代表官方大纲。学习状态仅保存在当前浏览器。</p></section>`
-}
-
 function genericTopic(slug, subject, group, module, concept, indexes) {
   const detail = typeof concept === 'string' ? {
     title: concept,
@@ -32,7 +28,7 @@ function genericTopic(slug, subject, group, module, concept, indexes) {
     pitfall: `只记住“${concept}”的名称而不检查对象、条件、范围和证据，会导致机械套用。`,
   } : concept
   const id=`${group.id}-${String(indexes.module+1).padStart(2,'0')}-${String(indexes.concept+1).padStart(2,'0')}`
-  const topicTheme = slug === 'english' ? '../english.css' : '../themes.css'
+  const topicTheme = '../themes.css'
   return { id, detail, html:`${pageHead(`${detail.title}｜${subject.name}`,detail.explanation,['../learning-base.css',topicTheme])}<body data-subject="${slug}">${header(slug,subject.name)}<main class="math-topic-page"><a class="back-link" href="../index.html#${group.id}">← 返回${group.label}</a><p class="kicker">${escapeHtml(group.label)} / ${escapeHtml(module.title)}</p><h1>${escapeHtml(detail.title)}</h1><p class="topic-meta">${escapeHtml(subject.name)} · ${escapeHtml(module.title)}</p><section class="topic-section"><h2>概念解释</h2><p>${escapeHtml(detail.explanation)}</p></section><section class="topic-section"><h2>核心方法与条件</h2><p>${escapeHtml(detail.method)}</p></section><section class="topic-section formula"><h2>例题或真实案例</h2><p>${escapeHtml(detail.example)}</p></section><section class="topic-section warning"><h2>常见易错点</h2><p>${escapeHtml(detail.pitfall)}</p></section><section class="topic-section"><h2>自检</h2><p>请尝试不用原文解释“${escapeHtml(detail.title)}”，再设计一个属于“${escapeHtml(module.title)}”的实例，并说明适用条件和判断依据。</p></section></main><footer>${subject.name} · 完整知识树与独立知识页</footer></body></html>` }
 }
 
@@ -58,16 +54,14 @@ async function renderGeneric(slug, subject) {
   }
   const filters=subject.groups.map(group=>`<button class="filter-button" data-filter="${group.id}">${group.label}</button>`).join('')
   const allModules=subject.groups.flatMap(group=>group.modules).length
-  const special=subject.special==='periodic-table'?periodicTable():slug==='english'?vocabularyLab():''
-  const introAside=slug==='english'?'<aside class="notebook"><strong>Build a review habit.</strong><p>随机抽词、自测释义、标记生词。刷新页面后进度仍会保留在浏览器中。</p></aside>':`<label class="search-box"><span>搜索章节和知识点</span><input id="subject-search" type="search" placeholder="输入关键词" autocomplete="off"></label>`
-  const html=`${pageHead(`${subject.name}知识体系`,subject.intro,['learning-base.css',slug==='english'?'english.css':'themes.css'])}<body data-subject="${slug}">${header(slug,subject.name)}<main class="site-main${slug==='english'?' english-main':''}"><section class="hero"><div><p class="eyebrow">${subject.eyebrow}</p><h1>${subject.name}知识体系</h1><p class="lead">${subject.intro}</p></div>${introAside}</section><div class="stats"><div class="stat"><strong id="visible-count">${allModules}</strong><span>章内容</span></div><div class="stat"><strong>${topicTotal}</strong><span>个独立知识点</span></div><div class="stat"><strong>${subject.groups.length}</strong><span>条学习路径</span></div></div>${slug==='english'?'<label class="search-box"><span>搜索下方英语课程知识</span><input id="subject-search" type="search" placeholder="语法、阅读、写作…"></label>':''}<div class="filter-bar"><button class="filter-button active" data-filter="all">全部</button>${filters}</div>${special}<div id="subject-content">${groups.join('')}</div><p id="empty-state" class="empty-state" hidden>没有匹配内容，请尝试更短的关键词。</p></main><footer>${subject.name} · 课程知识、方法与复习工具</footer><script src="learning.js?v=${assetVersion}"></script>${subject.special==='periodic-table'?`<script src="elements.js?v=${assetVersion}"></script>`:''}${slug==='english'?`<script src="vocabulary.js?v=${assetVersion}"></script>`:''}</body></html>`
+  const special=subject.special==='periodic-table'?periodicTable():''
+  const introAside=`<label class="search-box"><span>搜索章节和知识点</span><input id="subject-search" type="search" placeholder="输入关键词" autocomplete="off"></label>`
+  const html=`${pageHead(`${subject.name}知识体系`,subject.intro,['learning-base.css','themes.css'])}<body data-subject="${slug}">${header(slug,subject.name)}<main class="site-main"><section class="hero"><div><p class="eyebrow">${subject.eyebrow}</p><h1>${subject.name}知识体系</h1><p class="lead">${subject.intro}</p></div>${introAside}</section><div class="stats"><div class="stat"><strong id="visible-count">${allModules}</strong><span>章内容</span></div><div class="stat"><strong>${topicTotal}</strong><span>个独立知识点</span></div><div class="stat"><strong>${subject.groups.length}</strong><span>条学习路径</span></div></div><div class="filter-bar"><button class="filter-button active" data-filter="all">全部</button>${filters}</div>${special}<div id="subject-content">${groups.join('')}</div><p id="empty-state" class="empty-state" hidden>没有匹配内容，请尝试更短的关键词。</p></main><footer>${subject.name} · 课程知识、方法与复习工具</footer><script src="learning.js?v=${assetVersion}"></script>${subject.special==='periodic-table'?`<script src="elements.js?v=${assetVersion}"></script>`:''}</body></html>`
   await writeFile(resolve(directory,'index.html'),`${html}\n`)
   await copyFile(resolve(root,'sites/shared/learning-base.css'),resolve(directory,'learning-base.css'))
-  await copyFile(resolve(root,`sites/shared/${slug==='english'?'english.css':'themes.css'}`),resolve(directory,slug==='english'?'english.css':'themes.css'))
+  await copyFile(resolve(root,'sites/shared/themes.css'),resolve(directory,'themes.css'))
   await copyFile(resolve(root,'sites/shared/learning.js'),resolve(directory,'learning.js'))
   if(subject.special==='periodic-table') await copyFile(resolve(root,'sites/shared/elements.js'),resolve(directory,'elements.js'))
-  if(slug==='english') await copyFile(resolve(root,'sites/shared/vocabulary.js'),resolve(directory,'vocabulary.js'))
-  if(slug==='english') await copyFile(resolve(root,'LICENSES/ECDICT-MIT.txt'),resolve(directory,'ECDICT-LICENSE.txt'))
 }
 
 async function renderMath() {
@@ -101,4 +95,5 @@ async function renderMath() {
 
 await renderMath()
 for(const [slug,subject] of Object.entries(subjects)) if(slug!=='math') await renderGeneric(slug,subject)
-console.log(`Generated mathematics and ${Object.keys(subjects).length-1} subject sites`)
+await generateEnglish()
+console.log(`Generated mathematics, English and ${Object.keys(subjects).length-1} other subject sites`)

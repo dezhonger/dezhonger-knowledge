@@ -23,7 +23,7 @@ COPY sites/zmq/ /usr/share/nginx/html/zmq/
 COPY sites/rby/ /usr/share/nginx/html/rby/
 COPY sites/math/ /usr/share/nginx/html/math/
 COPY sites/algo/ /usr/share/nginx/html/algo/
-COPY sites/english/ /usr/share/nginx/html/english/
+COPY --from=builder /src/sites/english/ /usr/share/nginx/html/english/
 COPY sites/biology/ /usr/share/nginx/html/biology/
 COPY sites/geography/ /usr/share/nginx/html/geography/
 COPY sites/physics/ /usr/share/nginx/html/physics/

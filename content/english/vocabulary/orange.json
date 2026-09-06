@@ -1,0 +1,52 @@
+{
+  "id": "orange",
+  "word": "orange",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/ˈɒr.ɪndʒ/"
+    },
+    "us": {
+      "ipa": "/ˈɔːr.ɪndʒ/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "橙子",
+      "en": "A round citrus fruit with orange skin and juicy flesh.",
+      "examples": [
+        {
+          "en": "I had an orange after lunch.",
+          "zh": "午饭后我吃了一个橙子。"
+        }
+      ]
+    },
+    {
+      "id": "colour",
+      "posId": "adjective",
+      "zh": "橙色的",
+      "en": "Having a colour between red and yellow.",
+      "examples": [
+        {
+          "en": "She is wearing an orange jacket.",
+          "zh": "她穿着一件橙色夹克。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "preschool",
+    "primary",
+    "junior",
+    "senior"
+  ],
+  "topicIds": [
+    "fruit"
+  ],
+  "tagIds": [
+    "high-frequency"
+  ],
+  "notes": "作水果名时是可数名词；作颜色形容词时不加复数词尾。",
+  "editorial": true
+}

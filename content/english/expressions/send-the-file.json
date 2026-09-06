@@ -1,0 +1,19 @@
+{
+  "id": "send-the-file",
+  "en": "Could you send me the file?",
+  "zh": "能把文件发给我吗？",
+  "sceneIds": [
+    "work-requests"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "向同事索取资料。",
+  "notes": "Could you …? 是常见的礼貌请求。",
+  "relatedIds": [
+    "take-a-look",
+    "a-moment"
+  ]
+}

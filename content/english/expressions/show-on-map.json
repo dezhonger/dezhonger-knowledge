@@ -1,0 +1,19 @@
+{
+  "id": "show-on-map",
+  "en": "Could you show me on the map?",
+  "zh": "能在地图上指给我看吗？",
+  "sceneIds": [
+    "daily-directions"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "听完方向后，希望对方在地图上标示。",
+  "notes": "可以配合出示地图或手机地图。",
+  "relatedIds": [
+    "nearest-station",
+    "walking-distance"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "ran-into-an-issue",
+  "en": "I've run into an issue with the upload.",
+  "zh": "我在上传时遇到了一个问题。",
+  "sceneIds": [
+    "work-feedback"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "报告刚刚发现且仍影响当前工作的故障。",
+  "notes": "run into an issue 表示遇到问题；补充具体操作和现象会更清楚。",
+  "relatedIds": [
+    "reproduce-the-problem",
+    "looking-into-it"
+  ]
+}

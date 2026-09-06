@@ -1,0 +1,18 @@
+{
+  "id": "small-bites",
+  "en": "Take small bites.",
+  "zh": "小口吃。",
+  "sceneIds": [
+    "parenting-meals"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "孩子一口吃得太多时提醒。",
+  "notes": "bite 在这里是“一口”的意思，不是让孩子去咬人。",
+  "relatedIds": [
+    "sit-at-the-table",
+    "some-more"
+  ]
+}

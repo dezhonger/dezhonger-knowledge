@@ -1,0 +1,39 @@
+{
+  "id": "computer",
+  "word": "computer",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/kəmˈpjuː.tə/"
+    },
+    "us": {
+      "ipa": "/kəmˈpjuː.t̬ɚ/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "电脑；计算机",
+      "en": "An electronic device that stores information and follows instructions to process it.",
+      "examples": [
+        {
+          "en": "I use a computer to write and draw.",
+          "zh": "我用电脑写作和画画。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "primary",
+    "junior",
+    "senior",
+    "ielts"
+  ],
+  "topicIds": [
+    "computers"
+  ],
+  "tagIds": [
+    "technology"
+  ],
+  "editorial": true
+}

@@ -1,0 +1,18 @@
+{
+  "id": "sounds-good",
+  "en": "That sounds good to me.",
+  "zh": "我觉得这样可以。",
+  "sceneIds": [
+    "work-confirmation"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "对同事提出的安排表示同意。",
+  "notes": "适合口头或非正式书面交流。",
+  "relatedIds": [
+    "just-to-confirm",
+    "understood-correctly"
+  ]
+}

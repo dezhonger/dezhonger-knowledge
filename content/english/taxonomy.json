@@ -1,0 +1,961 @@
+{
+  "vocabularyLevels": [
+    {
+      "id": "preschool",
+      "label": "幼儿",
+      "order": 0,
+      "description": "Dolch 启蒙词与常见名词",
+      "code": "ABC",
+      "color": "sky"
+    },
+    {
+      "id": "primary",
+      "label": "小学",
+      "order": 1,
+      "description": "Fry 1000 基础高频词",
+      "code": "K–6",
+      "color": "mint"
+    },
+    {
+      "id": "junior",
+      "label": "初中",
+      "order": 2,
+      "description": "中考阶段词汇",
+      "code": "7–9",
+      "color": "amber"
+    },
+    {
+      "id": "senior",
+      "label": "高中",
+      "order": 3,
+      "description": "高中阶段词汇",
+      "code": "10–12",
+      "color": "coral"
+    },
+    {
+      "id": "cet4",
+      "label": "CET4",
+      "order": 4,
+      "description": "大学英语四级词汇",
+      "code": "CET-4",
+      "color": "blue"
+    },
+    {
+      "id": "cet6",
+      "label": "CET6",
+      "order": 5,
+      "description": "大学英语六级词汇",
+      "code": "CET-6",
+      "color": "violet"
+    },
+    {
+      "id": "ielts",
+      "label": "IELTS",
+      "order": 6,
+      "description": "雅思学习词汇",
+      "code": "IELTS",
+      "color": "rose"
+    },
+    {
+      "id": "toefl",
+      "label": "TOEFL",
+      "order": 7,
+      "description": "托福学习词汇",
+      "code": "TOEFL",
+      "color": "teal"
+    }
+  ],
+  "grammarLevels": [
+    {
+      "id": "primary",
+      "label": "小学",
+      "order": 0
+    },
+    {
+      "id": "junior",
+      "label": "初中",
+      "order": 1
+    },
+    {
+      "id": "senior",
+      "label": "高中",
+      "order": 2
+    },
+    {
+      "id": "advanced",
+      "label": "进阶",
+      "order": 3
+    }
+  ],
+  "topics": [
+    {
+      "id": "living",
+      "label": "生活",
+      "order": 0
+    },
+    {
+      "id": "food",
+      "label": "食物",
+      "order": 0,
+      "parentId": "living"
+    },
+    {
+      "id": "kitchen",
+      "label": "厨房",
+      "order": 1,
+      "parentId": "living"
+    },
+    {
+      "id": "home",
+      "label": "家居",
+      "order": 2,
+      "parentId": "living"
+    },
+    {
+      "id": "clothing",
+      "label": "衣服",
+      "order": 3,
+      "parentId": "living"
+    },
+    {
+      "id": "bathroom",
+      "label": "卫浴",
+      "order": 4,
+      "parentId": "living"
+    },
+    {
+      "id": "people",
+      "label": "人与生活",
+      "order": 1
+    },
+    {
+      "id": "family",
+      "label": "家庭",
+      "order": 0,
+      "parentId": "people"
+    },
+    {
+      "id": "children",
+      "label": "儿童",
+      "order": 1,
+      "parentId": "people"
+    },
+    {
+      "id": "body",
+      "label": "身体",
+      "order": 2,
+      "parentId": "people"
+    },
+    {
+      "id": "emotions",
+      "label": "情绪",
+      "order": 3,
+      "parentId": "people"
+    },
+    {
+      "id": "jobs",
+      "label": "职业",
+      "order": 4,
+      "parentId": "people"
+    },
+    {
+      "id": "school",
+      "label": "学校",
+      "order": 5,
+      "parentId": "people"
+    },
+    {
+      "id": "nature",
+      "label": "自然",
+      "order": 2
+    },
+    {
+      "id": "animals",
+      "label": "动物",
+      "order": 0,
+      "parentId": "nature"
+    },
+    {
+      "id": "plants",
+      "label": "植物",
+      "order": 1,
+      "parentId": "nature"
+    },
+    {
+      "id": "weather",
+      "label": "天气",
+      "order": 2,
+      "parentId": "nature"
+    },
+    {
+      "id": "geography",
+      "label": "地理",
+      "order": 3,
+      "parentId": "nature"
+    },
+    {
+      "id": "space",
+      "label": "宇宙",
+      "order": 4,
+      "parentId": "nature"
+    },
+    {
+      "id": "modern",
+      "label": "现代生活",
+      "order": 3
+    },
+    {
+      "id": "cars",
+      "label": "汽车",
+      "order": 0,
+      "parentId": "modern"
+    },
+    {
+      "id": "transport",
+      "label": "交通",
+      "order": 1,
+      "parentId": "modern"
+    },
+    {
+      "id": "computers",
+      "label": "电脑",
+      "order": 2,
+      "parentId": "modern",
+      "aliases": [
+        "计算机",
+        "computer"
+      ]
+    },
+    {
+      "id": "phones",
+      "label": "手机",
+      "order": 3,
+      "parentId": "modern"
+    },
+    {
+      "id": "internet",
+      "label": "网络",
+      "order": 4,
+      "parentId": "modern"
+    },
+    {
+      "id": "ai",
+      "label": "人工智能",
+      "order": 5,
+      "parentId": "modern"
+    },
+    {
+      "id": "society",
+      "label": "社会",
+      "order": 4
+    },
+    {
+      "id": "healthcare",
+      "label": "医疗",
+      "order": 0,
+      "parentId": "society"
+    },
+    {
+      "id": "finance",
+      "label": "金融",
+      "order": 1,
+      "parentId": "society"
+    },
+    {
+      "id": "law",
+      "label": "法律",
+      "order": 2,
+      "parentId": "society"
+    },
+    {
+      "id": "government",
+      "label": "政府",
+      "order": 3,
+      "parentId": "society"
+    },
+    {
+      "id": "art",
+      "label": "艺术",
+      "order": 4,
+      "parentId": "society"
+    },
+    {
+      "id": "sports",
+      "label": "体育",
+      "order": 5,
+      "parentId": "society"
+    },
+    {
+      "id": "fruit",
+      "label": "水果",
+      "order": 0,
+      "parentId": "food"
+    },
+    {
+      "id": "vegetables",
+      "label": "蔬菜",
+      "order": 1,
+      "parentId": "food"
+    },
+    {
+      "id": "car-types",
+      "label": "汽车类型",
+      "order": 0,
+      "parentId": "cars"
+    },
+    {
+      "id": "car-exterior",
+      "label": "汽车外部",
+      "order": 1,
+      "parentId": "cars"
+    },
+    {
+      "id": "car-interior",
+      "label": "汽车内部",
+      "order": 2,
+      "parentId": "cars"
+    },
+    {
+      "id": "driving",
+      "label": "驾驶",
+      "order": 3,
+      "parentId": "cars"
+    },
+    {
+      "id": "car-maintenance",
+      "label": "维修保养",
+      "order": 4,
+      "parentId": "cars"
+    }
+  ],
+  "grammarCategories": [
+    {
+      "id": "word-classes",
+      "label": "词类",
+      "order": 0
+    },
+    {
+      "id": "nouns",
+      "label": "名词",
+      "order": 0,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "pronouns",
+      "label": "代词",
+      "order": 1,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "verbs",
+      "label": "动词",
+      "order": 2,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "adjectives",
+      "label": "形容词",
+      "order": 3,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "adverbs",
+      "label": "副词",
+      "order": 4,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "prepositions",
+      "label": "介词",
+      "order": 5,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "conjunctions",
+      "label": "连词",
+      "order": 6,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "tenses",
+      "label": "时态",
+      "order": 1
+    },
+    {
+      "id": "present-simple",
+      "label": "一般现在时",
+      "order": 0,
+      "parentId": "tenses"
+    },
+    {
+      "id": "past-simple",
+      "label": "一般过去时",
+      "order": 1,
+      "parentId": "tenses"
+    },
+    {
+      "id": "future-simple",
+      "label": "一般将来时",
+      "order": 2,
+      "parentId": "tenses"
+    },
+    {
+      "id": "present-continuous",
+      "label": "现在进行时",
+      "order": 3,
+      "parentId": "tenses"
+    },
+    {
+      "id": "past-continuous",
+      "label": "过去进行时",
+      "order": 4,
+      "parentId": "tenses"
+    },
+    {
+      "id": "present-perfect",
+      "label": "现在完成时",
+      "order": 5,
+      "parentId": "tenses"
+    },
+    {
+      "id": "past-perfect",
+      "label": "过去完成时",
+      "order": 6,
+      "parentId": "tenses"
+    },
+    {
+      "id": "other-tenses",
+      "label": "其他时态",
+      "order": 7,
+      "parentId": "tenses"
+    },
+    {
+      "id": "sentences",
+      "label": "句子",
+      "order": 2
+    },
+    {
+      "id": "statements",
+      "label": "陈述句",
+      "order": 0,
+      "parentId": "sentences"
+    },
+    {
+      "id": "questions",
+      "label": "疑问句",
+      "order": 1,
+      "parentId": "sentences"
+    },
+    {
+      "id": "imperatives",
+      "label": "祈使句",
+      "order": 2,
+      "parentId": "sentences"
+    },
+    {
+      "id": "exclamations",
+      "label": "感叹句",
+      "order": 3,
+      "parentId": "sentences"
+    },
+    {
+      "id": "clauses",
+      "label": "从句",
+      "order": 3
+    },
+    {
+      "id": "relative-clauses",
+      "label": "定语从句",
+      "order": 0,
+      "parentId": "clauses"
+    },
+    {
+      "id": "noun-clauses",
+      "label": "名词性从句",
+      "order": 1,
+      "parentId": "clauses"
+    },
+    {
+      "id": "adverbial-clauses",
+      "label": "状语从句",
+      "order": 2,
+      "parentId": "clauses"
+    },
+    {
+      "id": "other",
+      "label": "其他",
+      "order": 4
+    },
+    {
+      "id": "passive",
+      "label": "被动语态",
+      "order": 0,
+      "parentId": "other"
+    },
+    {
+      "id": "modals",
+      "label": "情态动词",
+      "order": 1,
+      "parentId": "other"
+    },
+    {
+      "id": "non-finite",
+      "label": "非谓语动词",
+      "order": 2,
+      "parentId": "other"
+    },
+    {
+      "id": "subjunctive",
+      "label": "虚拟语气",
+      "order": 3,
+      "parentId": "other"
+    },
+    {
+      "id": "inversion",
+      "label": "倒装",
+      "order": 4,
+      "parentId": "other"
+    },
+    {
+      "id": "emphasis",
+      "label": "强调结构",
+      "order": 5,
+      "parentId": "other"
+    }
+  ],
+  "scenes": [
+    {
+      "id": "parenting",
+      "label": "亲子英语",
+      "order": 0
+    },
+    {
+      "id": "parenting-waking",
+      "label": "起床",
+      "order": 0,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-dressing",
+      "label": "穿衣服",
+      "order": 1,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-washing",
+      "label": "刷牙洗脸",
+      "order": 2,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-meals",
+      "label": "吃饭",
+      "order": 3,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-going-out",
+      "label": "出门",
+      "order": 4,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-riding",
+      "label": "坐车",
+      "order": 5,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-playing",
+      "label": "玩耍",
+      "order": 6,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-reading",
+      "label": "阅读",
+      "order": 7,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-tidying",
+      "label": "收拾玩具",
+      "order": 8,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-bathing",
+      "label": "洗澡",
+      "order": 9,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-bedtime",
+      "label": "睡觉",
+      "order": 10,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-praise",
+      "label": "表扬",
+      "order": 11,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-comfort",
+      "label": "安慰",
+      "order": 12,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-emotions",
+      "label": "情绪",
+      "order": 13,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-safety",
+      "label": "安全提醒",
+      "order": 14,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-manners",
+      "label": "礼貌",
+      "order": 15,
+      "parentId": "parenting"
+    },
+    {
+      "id": "parenting-habits",
+      "label": "规则与习惯",
+      "order": 16,
+      "parentId": "parenting"
+    },
+    {
+      "id": "work",
+      "label": "工作英语",
+      "order": 1
+    },
+    {
+      "id": "work-small-talk",
+      "label": "日常聊天",
+      "order": 0,
+      "parentId": "work"
+    },
+    {
+      "id": "work-email",
+      "label": "邮件",
+      "order": 1,
+      "parentId": "work"
+    },
+    {
+      "id": "work-meetings",
+      "label": "会议",
+      "order": 2,
+      "parentId": "work",
+      "aliases": [
+        "开会",
+        "视频会议",
+        "meeting"
+      ]
+    },
+    {
+      "id": "work-progress",
+      "label": "汇报进度",
+      "order": 3,
+      "parentId": "work"
+    },
+    {
+      "id": "work-questions",
+      "label": "提问",
+      "order": 4,
+      "parentId": "work"
+    },
+    {
+      "id": "work-confirmation",
+      "label": "确认",
+      "order": 5,
+      "parentId": "work"
+    },
+    {
+      "id": "work-requests",
+      "label": "请求",
+      "order": 6,
+      "parentId": "work",
+      "aliases": [
+        "请求帮助",
+        "帮忙"
+      ]
+    },
+    {
+      "id": "work-refusal",
+      "label": "拒绝",
+      "order": 7,
+      "parentId": "work"
+    },
+    {
+      "id": "work-delays",
+      "label": "延期",
+      "order": 8,
+      "parentId": "work"
+    },
+    {
+      "id": "work-feedback",
+      "label": "问题反馈",
+      "order": 9,
+      "parentId": "work"
+    },
+    {
+      "id": "work-troubleshooting",
+      "label": "技术排查",
+      "order": 10,
+      "parentId": "work"
+    },
+    {
+      "id": "work-customers",
+      "label": "客户沟通",
+      "order": 11,
+      "parentId": "work"
+    },
+    {
+      "id": "work-suggestions",
+      "label": "提建议",
+      "order": 12,
+      "parentId": "work"
+    },
+    {
+      "id": "work-goodbyes",
+      "label": "告别",
+      "order": 13,
+      "parentId": "work"
+    },
+    {
+      "id": "daily",
+      "label": "日常英语",
+      "order": 2
+    },
+    {
+      "id": "daily-greetings",
+      "label": "打招呼",
+      "order": 0,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-chat",
+      "label": "闲聊",
+      "order": 1,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-restaurants",
+      "label": "餐厅",
+      "order": 2,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-coffee",
+      "label": "咖啡店",
+      "order": 3,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-shopping",
+      "label": "购物",
+      "order": 4,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-travel",
+      "label": "旅行",
+      "order": 5,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-phone",
+      "label": "电话",
+      "order": 6,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-doctor",
+      "label": "看病",
+      "order": 7,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-haircut",
+      "label": "理发",
+      "order": 8,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-repairs",
+      "label": "维修",
+      "order": 9,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-bank",
+      "label": "银行",
+      "order": 10,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-parties",
+      "label": "聚会",
+      "order": 11,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-help",
+      "label": "请求帮助",
+      "order": 12,
+      "parentId": "daily"
+    },
+    {
+      "id": "daily-taxi",
+      "label": "打车",
+      "order": 0,
+      "parentId": "daily-travel"
+    },
+    {
+      "id": "daily-airport",
+      "label": "机场",
+      "order": 1,
+      "parentId": "daily-travel"
+    },
+    {
+      "id": "daily-hotel",
+      "label": "酒店",
+      "order": 2,
+      "parentId": "daily-travel"
+    },
+    {
+      "id": "daily-directions",
+      "label": "问路",
+      "order": 3,
+      "parentId": "daily-travel"
+    }
+  ],
+  "partsOfSpeech": [
+    {
+      "id": "noun",
+      "label": "名词",
+      "order": 0
+    },
+    {
+      "id": "verb",
+      "label": "动词",
+      "order": 1
+    },
+    {
+      "id": "adjective",
+      "label": "形容词",
+      "order": 2
+    },
+    {
+      "id": "adverb",
+      "label": "副词",
+      "order": 3
+    },
+    {
+      "id": "pronoun",
+      "label": "代词",
+      "order": 4
+    },
+    {
+      "id": "preposition",
+      "label": "介词",
+      "order": 5
+    },
+    {
+      "id": "conjunction",
+      "label": "连词",
+      "order": 6
+    },
+    {
+      "id": "determiner",
+      "label": "限定词",
+      "order": 7
+    },
+    {
+      "id": "interjection",
+      "label": "感叹词",
+      "order": 8
+    },
+    {
+      "id": "auxiliary",
+      "label": "助动词",
+      "order": 9
+    },
+    {
+      "id": "numeral",
+      "label": "数词",
+      "order": 10
+    },
+    {
+      "id": "article",
+      "label": "冠词",
+      "order": 11
+    },
+    {
+      "id": "phrase",
+      "label": "词组",
+      "order": 12
+    },
+    {
+      "id": "other",
+      "label": "其他",
+      "order": 13
+    }
+  ],
+  "tags": [
+    {
+      "id": "high-frequency",
+      "label": "高频词",
+      "order": 0
+    },
+    {
+      "id": "spoken",
+      "label": "口语",
+      "order": 1
+    },
+    {
+      "id": "polite",
+      "label": "礼貌表达",
+      "order": 2
+    },
+    {
+      "id": "academic",
+      "label": "学术",
+      "order": 3
+    },
+    {
+      "id": "technology",
+      "label": "科技",
+      "order": 4
+    },
+    {
+      "id": "feelings",
+      "label": "情绪表达",
+      "order": 5
+    }
+  ],
+  "difficulties": [
+    {
+      "id": "beginner",
+      "label": "基础",
+      "order": 0
+    },
+    {
+      "id": "intermediate",
+      "label": "进阶",
+      "order": 1
+    },
+    {
+      "id": "advanced",
+      "label": "提高",
+      "order": 2
+    }
+  ]
+}

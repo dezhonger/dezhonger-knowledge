@@ -1,0 +1,18 @@
+{
+  "id": "get-started",
+  "en": "Shall we get started?",
+  "zh": "我们开始吧？",
+  "sceneIds": [
+    "work-meetings"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "会议人员基本到齐，主持人提议开始。",
+  "notes": "Shall we …? 用来征求一起做某件事的意见。",
+  "relatedIds": [
+    "walk-us-through",
+    "you-are-on-mute"
+  ]
+}

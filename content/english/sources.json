@@ -1,0 +1,69 @@
+{
+  "version": 1,
+  "date": "2026-09-07",
+  "ecdict": {
+    "repository": "skywind3000/ECDICT",
+    "revision": "bc015ed2e24a7abef49fc6dbbb7fe32c1dadaf8b",
+    "file": "ecdict.csv",
+    "sha256": "1a6947e04785db63613a92e14903cdae7954f7e84860b10e68e5c7cbb3f9c3cf",
+    "license": "MIT"
+  },
+  "foundation": {
+    "repository": "mysticcoders/words-with-toddlers",
+    "revision": "3016e8048f23d95a4a17023d1270dc8a9a9a80dd",
+    "license": "MIT",
+    "preschool": [
+      "dolch_pre_primer.txt",
+      "dolch_primer.txt",
+      "dolch_nouns.txt"
+    ],
+    "primary": [
+      "fry_001_100.txt",
+      "fry_101_200.txt",
+      "fry_201_300.txt",
+      "fry_301_400.txt",
+      "fry_401_500.txt",
+      "fry_501_600.txt",
+      "fry_601_700.txt",
+      "fry_701_800.txt",
+      "fry_801_900.txt",
+      "fry_901_1000.txt"
+    ],
+    "sha256": {
+      "dolch_pre_primer.txt": "d99992135e47b1679da4c9c74f8bd937916e85f993b3bfc8ae724127def23d08",
+      "dolch_primer.txt": "456f088397d34656dfebab19b09bc1f93daf5a53fb2075f003b7d282ca1220c2",
+      "dolch_nouns.txt": "52e6ab25d7cfe80e98d386a9d5eb8c612589413ab462655ecc27163cbf4c17ac",
+      "fry_001_100.txt": "aba547c19ed2691f2199674ed04b1491b66c069400f599b61dcf5b6ddb2defed",
+      "fry_101_200.txt": "3c5b37bc250bb69c5fb7f0915afae925244258306b0090799bf2765831d50ee5",
+      "fry_201_300.txt": "0a1e749d0a451c2f5b5fca7e93ceff5235be70280d18db54e5066fd9812112c2",
+      "fry_301_400.txt": "1ddecb656637d4f95514d6e516fbd4f09e457e19c304407a70702a20e06fbf8f",
+      "fry_401_500.txt": "9c6916014770cad95cd70ef5e9b6fb2acdd833273173ca5daf6a3a33abe796dd",
+      "fry_501_600.txt": "c362c525f7dddad92e9e5ebc4266681da4bd50569574583bfa47cec289190c2f",
+      "fry_601_700.txt": "c7face3d9ebf3901a932f9f7aba03fea359d2be1f227cf791d82b05f8628f4d6",
+      "fry_701_800.txt": "6a0434abe101fec1ba4b0460a31cab3099c6c1d3bbdb084433941dcb62d56ac0",
+      "fry_801_900.txt": "e71c526d8f8b3b595e31f4114f9a4caa0985d7c5cf20ce47e90a8c311c88ebd7",
+      "fry_901_1000.txt": "5603aa27acef77f52fe70e1f490c51ed4c5fa05f22527a3cbf171a27ac0411ac"
+    }
+  },
+  "ipa": {
+    "repository": "open-dict-data/ipa-dict",
+    "revision": "43c3570eb3553bdd19fccd2bd0091534889af023",
+    "license": "MIT",
+    "files": [
+      "en_UK.txt",
+      "en_US.txt"
+    ],
+    "sha256": {
+      "en_UK.txt": "221394caef0cf723b4f2df81a98ac33191293257b88aed5b1fb89466d3a0dc77",
+      "en_US.txt": "2af6f154a5c363275f052d1f85acedef38ed185ca9745aa4314be77f6b70de67"
+    }
+  },
+  "examTags": {
+    "junior": "zk",
+    "senior": "gk",
+    "cet4": "cet4",
+    "cet6": "cet6",
+    "ielts": "ielts",
+    "toefl": "toefl"
+  }
+}

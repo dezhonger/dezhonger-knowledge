@@ -1,0 +1,19 @@
+{
+  "id": "bedtime-story",
+  "en": "Let's read a bedtime story.",
+  "zh": "我们读个睡前故事吧。",
+  "sceneIds": [
+    "parenting-bedtime",
+    "parenting-reading"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "睡前一起阅读。",
+  "notes": "a bedtime story 指一个睡前故事。",
+  "relatedIds": [
+    "get-some-rest",
+    "sweet-dreams"
+  ]
+}

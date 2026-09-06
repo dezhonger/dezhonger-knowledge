@@ -1,0 +1,19 @@
+{
+  "id": "see-the-menu",
+  "en": "Could I see the menu, please?",
+  "zh": "可以给我看一下菜单吗？",
+  "sceneIds": [
+    "daily-restaurants"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "入座后索取菜单。",
+  "notes": "用 could 和 please 表达礼貌。",
+  "relatedIds": [
+    "table-for-two",
+    "get-the-bill"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "water-warm",
+  "en": "Is the water warm enough?",
+  "zh": "水够暖和吗？",
+  "sceneIds": [
+    "parenting-bathing"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "让孩子表达对水温的感受。",
+  "notes": "enough 放在形容词 warm 后面；家长仍需自己确认水温安全。",
+  "relatedIds": [
+    "bath-time",
+    "close-your-eyes"
+  ]
+}

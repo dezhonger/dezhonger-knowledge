@@ -1,0 +1,39 @@
+{
+  "id": "curious",
+  "word": "curious",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/ˈkjʊə.ri.əs/"
+    },
+    "us": {
+      "ipa": "/ˈkjʊr.i.əs/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "adjective",
+      "zh": "好奇的",
+      "en": "Wanting to know or learn more about something.",
+      "examples": [
+        {
+          "en": "Children are curious about the world.",
+          "zh": "孩子们对世界充满好奇。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "junior",
+    "senior",
+    "cet4",
+    "cet6",
+    "toefl"
+  ],
+  "topicIds": [
+    "children",
+    "emotions"
+  ],
+  "tagIds": [],
+  "editorial": true
+}

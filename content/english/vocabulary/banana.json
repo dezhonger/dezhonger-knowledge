@@ -1,0 +1,37 @@
+{
+  "id": "banana",
+  "word": "banana",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/bəˈnɑː.nə/"
+    },
+    "us": {
+      "ipa": "/bəˈnæn.ə/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "香蕉",
+      "en": "A long, curved fruit with soft flesh inside a skin that is usually yellow when ripe.",
+      "examples": [
+        {
+          "en": "She peeled a banana for her little brother.",
+          "zh": "她给弟弟剥了一根香蕉。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "preschool",
+    "primary",
+    "junior",
+    "senior"
+  ],
+  "topicIds": [
+    "fruit"
+  ],
+  "tagIds": [],
+  "editorial": true
+}

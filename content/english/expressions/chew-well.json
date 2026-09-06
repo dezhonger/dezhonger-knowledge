@@ -1,0 +1,18 @@
+{
+  "id": "chew-well",
+  "en": "Chew your food well.",
+  "zh": "把食物嚼细一点。",
+  "sceneIds": [
+    "parenting-meals"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "提醒孩子充分咀嚼。",
+  "notes": "语气自然温和，避免在孩子正急着吞咽时连续催促。",
+  "relatedIds": [
+    "sit-at-the-table",
+    "small-bites"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "a-moment",
+  "en": "Do you have a moment?",
+  "zh": "你现在方便聊一下吗？",
+  "sceneIds": [
+    "work-requests"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "发起简短讨论前确认对方是否有空。",
+  "notes": "这是询问是否有时间，不是询问是否拥有某个“时刻”。",
+  "relatedIds": [
+    "send-the-file",
+    "take-a-look"
+  ]
+}

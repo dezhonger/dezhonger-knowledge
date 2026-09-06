@@ -1,0 +1,19 @@
+{
+  "id": "take-a-look",
+  "en": "Would you mind taking a look at this?",
+  "zh": "可以请你看一下这个吗？",
+  "sceneIds": [
+    "work-requests"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "希望同事帮忙检查一项工作。",
+  "notes": "mind 后接动名词 taking，不用 take。",
+  "relatedIds": [
+    "send-the-file",
+    "a-moment"
+  ]
+}

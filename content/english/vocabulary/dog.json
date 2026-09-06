@@ -1,0 +1,38 @@
+{
+  "id": "dog",
+  "word": "dog",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/dɒɡ/"
+    },
+    "us": {
+      "ipa": "/dɑːɡ/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "狗",
+      "en": "An animal often kept as a pet or trained to work with people.",
+      "examples": [
+        {
+          "en": "The dog is sleeping under the table.",
+          "zh": "狗正在桌子下面睡觉。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "preschool",
+    "primary",
+    "junior",
+    "senior"
+  ],
+  "topicIds": [
+    "animals",
+    "home"
+  ],
+  "tagIds": [],
+  "editorial": true
+}

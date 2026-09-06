@@ -1,0 +1,18 @@
+{
+  "id": "you-are-on-mute",
+  "en": "I think you're on mute.",
+  "zh": "你好像静音了。",
+  "sceneIds": [
+    "work-meetings"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "视频会议中看见对方说话但听不到声音。",
+  "notes": "加 I think 可以让提醒更委婉。",
+  "relatedIds": [
+    "get-started",
+    "walk-us-through"
+  ]
+}

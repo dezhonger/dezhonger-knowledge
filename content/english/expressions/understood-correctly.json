@@ -1,0 +1,18 @@
+{
+  "id": "understood-correctly",
+  "en": "Have I understood you correctly?",
+  "zh": "我的理解对吗？",
+  "sceneIds": [
+    "work-confirmation"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "复述对方意思后核实。",
+  "notes": "可以先说出自己的理解，再用这句确认。",
+  "relatedIds": [
+    "just-to-confirm",
+    "sounds-good"
+  ]
+}

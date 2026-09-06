@@ -1,0 +1,19 @@
+{
+  "id": "walk-us-through",
+  "en": "Could you walk us through the main points?",
+  "zh": "能带我们过一下要点吗？",
+  "sceneIds": [
+    "work-meetings"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "开会时邀请同事逐步介绍。",
+  "notes": "walk someone through 表示一步步讲解。",
+  "relatedIds": [
+    "get-started",
+    "you-are-on-mute"
+  ]
+}

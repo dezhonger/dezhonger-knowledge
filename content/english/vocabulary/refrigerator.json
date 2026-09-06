@@ -1,0 +1,45 @@
+{
+  "id": "refrigerator",
+  "word": "refrigerator",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/rɪˈfrɪdʒ.ər.eɪ.tə/"
+    },
+    "us": {
+      "ipa": "/rɪˈfrɪdʒ.ə.reɪ.t̬ɚ/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "noun",
+      "zh": "冰箱",
+      "en": "An electrical appliance that keeps food and drinks cold.",
+      "examples": [
+        {
+          "en": "Put the milk back in the refrigerator.",
+          "zh": "把牛奶放回冰箱里。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "junior",
+    "senior",
+    "cet4",
+    "cet6",
+    "toefl"
+  ],
+  "topicIds": [
+    "kitchen",
+    "home"
+  ],
+  "tagIds": [],
+  "synonyms": [
+    {
+      "text": "fridge"
+    }
+  ],
+  "notes": "日常交谈中 fridge 更常见；refrigerator 较完整、正式。",
+  "editorial": true
+}

@@ -1,0 +1,19 @@
+{
+  "id": "looking-into-it",
+  "en": "We're looking into it now.",
+  "zh": "我们正在排查。",
+  "sceneIds": [
+    "work-feedback",
+    "work-troubleshooting"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "说明问题已经开始调查。",
+  "notes": "look into 表示调查或研究，不只是看一眼。",
+  "relatedIds": [
+    "ran-into-an-issue",
+    "reproduce-the-problem"
+  ]
+}

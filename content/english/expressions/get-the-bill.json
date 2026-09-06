@@ -1,0 +1,19 @@
+{
+  "id": "get-the-bill",
+  "en": "Could we get the bill, please?",
+  "zh": "麻烦给我们结账。",
+  "sceneIds": [
+    "daily-restaurants"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken",
+    "polite"
+  ],
+  "usage": "用餐结束，请服务员拿账单。",
+  "notes": "英式英语常说 bill；美式英语也常说 check。",
+  "relatedIds": [
+    "table-for-two",
+    "see-the-menu"
+  ]
+}

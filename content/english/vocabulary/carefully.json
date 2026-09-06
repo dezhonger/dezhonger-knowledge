@@ -1,0 +1,43 @@
+{
+  "id": "carefully",
+  "word": "carefully",
+  "pronunciation": {
+    "uk": {
+      "ipa": "/ˈkeə.fəl.i/"
+    },
+    "us": {
+      "ipa": "/ˈker.fəl.i/"
+    }
+  },
+  "senses": [
+    {
+      "id": "main",
+      "posId": "adverb",
+      "zh": "仔细地；小心地",
+      "en": "With attention, so that you avoid mistakes or harm.",
+      "examples": [
+        {
+          "en": "Read the instructions carefully.",
+          "zh": "仔细阅读说明。"
+        }
+      ]
+    }
+  ],
+  "levelIds": [
+    "primary",
+    "junior"
+  ],
+  "topicIds": [
+    "school",
+    "driving"
+  ],
+  "tagIds": [
+    "high-frequency"
+  ],
+  "antonyms": [
+    {
+      "text": "carelessly"
+    }
+  ],
+  "editorial": true
+}

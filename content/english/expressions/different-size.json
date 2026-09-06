@@ -1,0 +1,18 @@
+{
+  "id": "different-size",
+  "en": "Do you have this in a different size?",
+  "zh": "这个有其他尺码吗？",
+  "sceneIds": [
+    "daily-shopping"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "向店员询问同款商品的其他尺码。",
+  "notes": "this 指当前正在看的商品。",
+  "relatedIds": [
+    "try-it-on",
+    "just-looking"
+  ]
+}

@@ -1,0 +1,18 @@
+{
+  "id": "bath-time",
+  "en": "It's bath time.",
+  "zh": "该洗澡啦。",
+  "sceneIds": [
+    "parenting-bathing"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "准备洗澡时告知接下来的活动。",
+  "notes": "bath time 是常用名词短语，指洗澡时间。",
+  "relatedIds": [
+    "water-warm",
+    "close-your-eyes"
+  ]
+}

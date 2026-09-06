@@ -1,0 +1,18 @@
+{
+  "id": "how-is-it-going",
+  "en": "How's it going?",
+  "zh": "最近怎么样？",
+  "sceneIds": [
+    "daily-greetings"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "和认识的人轻松打招呼。",
+  "notes": "偏口语；可简短回应 Pretty good, thanks。",
+  "relatedIds": [
+    "nice-to-meet-you",
+    "good-to-see-you"
+  ]
+}

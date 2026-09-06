@@ -1,0 +1,18 @@
+{
+  "id": "just-to-confirm",
+  "en": "Just to confirm, we're meeting at ten.",
+  "zh": "确认一下，我们十点开会。",
+  "sceneIds": [
+    "work-confirmation"
+  ],
+  "difficultyId": "intermediate",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "再次核实已经商定的安排。",
+  "notes": "Just to confirm 可以放在句首，引出需要确认的信息。",
+  "relatedIds": [
+    "understood-correctly",
+    "sounds-good"
+  ]
+}

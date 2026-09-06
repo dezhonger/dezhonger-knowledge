@@ -1,0 +1,18 @@
+{
+  "id": "sweet-dreams",
+  "en": "Good night. Sweet dreams!",
+  "zh": "晚安，做个好梦！",
+  "sceneIds": [
+    "parenting-bedtime"
+  ],
+  "difficultyId": "beginner",
+  "tagIds": [
+    "spoken"
+  ],
+  "usage": "结束睡前交流。",
+  "notes": "Sweet dreams 是自然的睡前祝愿。",
+  "relatedIds": [
+    "bedtime-story",
+    "get-some-rest"
+  ]
+}
