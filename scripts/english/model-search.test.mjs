@@ -62,6 +62,26 @@ test('chunked fallback returns the same results and abandons stale requests', as
   assert.deepEqual(await searchInChunks(prepared, '英语'), searchDocuments(prepared, '英语'))
   assert.deepEqual(await searchInChunks(prepared, '英语', 'all', () => true), [])
 })
+test('food vocabulary preserves multiple meanings, nested categories and regional names', () => {
+  const fruit = inCategory(model.vocabulary, 'topicIds', model.taxonomy.topics, 'fruit')
+  const vegetables = inCategory(model.vocabulary, 'topicIds', model.taxonomy.topics, 'vegetables')
+  const food = inCategory(model.vocabulary, 'topicIds', model.taxonomy.topics, 'food')
+  const tomato = model.vocabulary.find(word => word.id === 'tomato')
+  assert.ok(fruit.includes(tomato) && vegetables.includes(tomato))
+  assert.equal(food.filter(word => word.id === 'tomato').length, 1)
+  assert.ok(fruit.some(word => word.id === 'longan'))
+  assert.ok(vegetables.some(word => word.id === 'water-spinach'))
+  const date = model.vocabulary.find(word => word.id === 'date')
+  assert.equal(date.senses[0].zh, '椰枣')
+  assert.ok(date.senses.some(sense => sense.zh.includes('日期')))
+  const rocket = model.vocabulary.find(word => word.id === 'rocket')
+  assert.ok(rocket.senses[0].zh.includes('芝麻菜'))
+  assert.ok(rocket.senses.some(sense => sense.zh.includes('火箭')))
+  assert.ok(rocket.synonyms.some(word => word.targetId === 'arugula'))
+  for (const [query, id] of [['龙眼', 'longan'], ['空心菜', 'water-spinach'], ['acai', 'acai'], ['jalapeno', 'jalapeno'], ['蔬菜 韭菜', 'garlic-chives']]) {
+    assert.ok(searchDocuments(prepared, query).some(item => item.id === `vocabulary:${id}`), query)
+  }
+})
 test('pagination clamps ranges and only puts current page items into the UI', () => {
   const results = Array.from({ length: 45 }, (_, i) => i)
   assert.deepEqual(resultPage(results, 2).items, results.slice(20, 40))

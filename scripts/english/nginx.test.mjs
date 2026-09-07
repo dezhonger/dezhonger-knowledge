@@ -6,7 +6,7 @@ import { get } from 'node:http'
 import { once } from 'node:events'
 import { mkdtemp, mkdir, readFile, writeFile, rm } from 'node:fs/promises'
 import { resolve } from 'node:path'
-import { root } from './model.mjs'
+import { root, loadContent } from './model.mjs'
 
 test('production Nginx rules serve English with real 404s and hashed asset caching', async t => {
   if (spawnSync('nginx', ['-v']).error) return t.skip('Local nginx executable unavailable')
@@ -55,7 +55,7 @@ test('production Nginx rules serve English with real 404s and hashed asset cachi
     const legacy = await request('/vocabulary.json')
     assert.equal(legacy.status, 200)
     const legacyData = await legacy.json()
-    assert.equal(legacyData.words.length, 11496)
+    assert.equal(legacyData.words.length, (await loadContent()).vocabulary.length)
     assert.ok(legacyData.words[legacyData.lists.cet6[0]][3])
     const stable = await request('/data/practice.v1.json')
     assert.equal(stable.status, 200)

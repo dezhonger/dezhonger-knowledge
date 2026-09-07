@@ -30,7 +30,8 @@
     "senior"
   ],
   "topicIds": [
-    "fruit"
+    "fruit-common",
+    "fruit-tropical"
   ],
   "tagIds": [],
   "editorial": true

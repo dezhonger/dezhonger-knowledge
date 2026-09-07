@@ -326,6 +326,217 @@
       "label": "维修保养",
       "order": 4,
       "parentId": "cars"
+    },
+    {
+      "id": "fruit-overview",
+      "label": "水果总称",
+      "order": 0,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-common",
+      "label": "常见水果",
+      "order": 1,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-stone",
+      "label": "桃李与核果",
+      "order": 2,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-pome",
+      "label": "苹果、梨与相近水果",
+      "order": 3,
+      "parentId": "fruit",
+      "description": "以苹果和梨为主，也收录原清单中的相近水果名称；此分组不是严格的植物学分类。"
+    },
+    {
+      "id": "fruit-grapes",
+      "label": "葡萄与葡萄干",
+      "order": 4,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-berries",
+      "label": "浆果",
+      "order": 5,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-citrus",
+      "label": "柑橘",
+      "order": 6,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-melons",
+      "label": "甜瓜与西瓜",
+      "order": 7,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-tropical",
+      "label": "常见热带水果",
+      "order": 8,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-southeast-asia",
+      "label": "东南亚水果",
+      "order": 9,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-custard-apples",
+      "label": "番荔枝类",
+      "order": 10,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-tropical-specialties",
+      "label": "热带特色水果",
+      "order": 11,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-other",
+      "label": "其他水果",
+      "order": 12,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-botanical",
+      "label": "作为蔬菜食用的果实",
+      "order": 13,
+      "parentId": "fruit",
+      "description": "这里按植物学的果实概念收录；番茄、黄瓜等在烹饪中通常归为蔬菜。同一词条也可从蔬菜分类访问。"
+    },
+    {
+      "id": "fruit-processed",
+      "label": "水果加工品",
+      "order": 14,
+      "parentId": "fruit"
+    },
+    {
+      "id": "fruit-parts",
+      "label": "果皮、果肉与部位",
+      "order": 15,
+      "parentId": "fruit",
+      "description": "描述果皮、果肉、果核和切分方式的相关词。"
+    },
+    {
+      "id": "fruit-taste",
+      "label": "味道与成熟状态",
+      "order": 16,
+      "parentId": "fruit",
+      "description": "描述水果味道、口感、新鲜度与成熟程度的形容词。"
+    },
+    {
+      "id": "vegetables-leafy",
+      "label": "叶菜",
+      "order": 0,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-brassicas",
+      "label": "白菜与十字花科",
+      "order": 1,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-roots",
+      "label": "根菜",
+      "order": 2,
+      "parentId": "vegetables",
+      "description": "按厨房常见用法分组，也包含莲藕等地下茎食材。"
+    },
+    {
+      "id": "vegetables-tubers",
+      "label": "薯类与块茎",
+      "order": 3,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-alliums",
+      "label": "葱蒜",
+      "order": 4,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-fruiting",
+      "label": "番茄、茄子与辣椒",
+      "order": 5,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-gourds",
+      "label": "瓜类",
+      "order": 6,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-legumes",
+      "label": "豆类",
+      "order": 7,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-shoots",
+      "label": "茎与嫩芽",
+      "order": 8,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-flowers",
+      "label": "花与花蕾",
+      "order": 9,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-corn",
+      "label": "玉米",
+      "order": 10,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-mushrooms",
+      "label": "菌菇",
+      "order": 11,
+      "parentId": "vegetables",
+      "description": "烹饪中常见的菌菇名称；菌菇属于真菌，并非植物。"
+    },
+    {
+      "id": "vegetables-chinese",
+      "label": "中餐常见蔬菜",
+      "order": 12,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-herbs",
+      "label": "香菜与香草",
+      "order": 13,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-other",
+      "label": "海藻与其他食材",
+      "order": 14,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-overview",
+      "label": "蔬菜总称",
+      "order": 15,
+      "parentId": "vegetables"
+    },
+    {
+      "id": "vegetables-names",
+      "label": "易混名称",
+      "order": 16,
+      "parentId": "vegetables",
+      "description": "容易与蔬菜英文混淆的名称，结合说明辨认。"
     }
   ],
   "grammarCategories": [

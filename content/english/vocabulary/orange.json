@@ -42,7 +42,8 @@
     "senior"
   ],
   "topicIds": [
-    "fruit"
+    "fruit-common",
+    "fruit-citrus"
   ],
   "tagIds": [
     "high-frequency"
