@@ -146,7 +146,9 @@ The textbook catalog and original texts are stored in `guwen/data/works.json`.
 
 1. Edit the matching work in `guwen/data/works.json`.
 2. Run `npm run build:guwen`; individual Markdown pages, book indexes, sidebars, and local full-text search are regenerated automatically.
-3. Run `npm run sync:guwen` only when the complete textbook catalog needs to be refreshed, then review the generated diff before committing.
+3. `guwen/data/curriculum.json` records the 23 reference textbooks and their checked work IDs. Update it when a textbook edition changes, and use `additionalBooks` when one work appears in several volumes.
+4. Run `npm run validate:guwen` and `npm run test:guwen`; after building, run `npm run validate:guwen -- --built` to verify every original paragraph in the rendered pages.
+5. `npm run sync:guwen` supplements newly discovered entries from the external collections. Existing editorial corrections, excerpts, book assignments and permanent links are preserved. Review new entries against the publisher's textbook before adding them to the checked curriculum.
 
 The static subject sites live under `sites/`. Each hostname keeps its generated `index.html` and independent topic pages. Run `npm run generate:subjects` after editing the curriculum sources.
 

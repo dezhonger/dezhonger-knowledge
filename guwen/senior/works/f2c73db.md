@@ -22,4 +22,4 @@ dynasty: "先秦"
 
 悔相道之不察兮，延伫乎吾将反。回朕车以复路兮，及行迷之未远。步余马于兰皋兮，驰椒丘且焉止息。进不入以离尤兮，退将复修吾初服。制芰荷以为衣兮，集芙蓉以为裳。不吾知其亦已兮，苟余情其信芳。高余冠之岌岌兮，长余佩之陆离。芳与泽其杂糅兮，唯昭质其犹亏。忽反顾以游目兮，将往观乎四荒。佩缤纷其繁饰兮，芳菲菲其弥章。民生各有所乐兮，余独好修以为常。虽体解吾犹未变兮，岂余心之可惩？
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/f2c73db/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/f2c73db/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

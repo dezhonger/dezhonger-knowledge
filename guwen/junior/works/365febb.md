@@ -24,4 +24,4 @@ dynasty: "明代"
 
 东阳马生君则，在太学已二年，流辈甚称其贤。余朝京师，生以乡人子谒余，撰长书以为贽，辞甚畅达，与之论辩，言和而色夷。自谓少时用心于学甚劳，是可谓善学者矣！其将归见其亲也，余故道为学之难以告之。谓余勉乡人以学者，余之志也；诋我夸际遇之盛而骄乡人者，岂知余者哉！
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/365febb/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/365febb/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

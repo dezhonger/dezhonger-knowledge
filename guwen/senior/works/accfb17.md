@@ -32,4 +32,4 @@ dynasty: "宋代"
 
 夫六国与秦皆诸侯，其势弱于秦，而犹有可以不赂而胜之之势。苟以天下之大，下而从六国破亡之故事，是又在六国下矣。
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/accfb17/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/accfb17/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

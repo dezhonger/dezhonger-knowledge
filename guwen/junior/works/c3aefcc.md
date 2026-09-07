@@ -22,4 +22,4 @@ dynasty: "两汉"
 
 此物何足贵，但感别经时。
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/c3aefcc/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/c3aefcc/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

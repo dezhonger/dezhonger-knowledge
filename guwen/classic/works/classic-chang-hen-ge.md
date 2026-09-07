@@ -40,4 +40,4 @@ dynasty: "唐代"
 
 临别殷勤重寄词，词中有誓两心知。七月七日长生殿，夜半无人私语时。在天愿作比翼鸟，在地愿为连理枝。天长地久有时尽，此恨绵绵无绝期。
 
-<p class="source-note">原文校录参考：<a href="https://zh.wikisource.org/wiki/长恨歌" target="_blank" rel="noreferrer">维基文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://zh.wikisource.org/wiki/长恨歌" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

@@ -18,4 +18,4 @@ dynasty: "宋代"
 
 而今识尽愁滋味，欲说还休。欲说还休，却道天凉好个秋！
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/0bdbcd5/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/0bdbcd5/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

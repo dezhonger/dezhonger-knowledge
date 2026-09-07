@@ -22,4 +22,4 @@ dynasty: "先秦"
 
 夫物不产于秦，可宝者多；士不产于秦，而愿忠者众。今逐客以资敌国，损民以益雠，内自虚而外树怨于诸侯，求国无危，不可得也。
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/fbb4c7f/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/fbb4c7f/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

@@ -1,23 +1,25 @@
 import { defineConfig, type DefaultTheme } from 'vitepress'
 import works from '../data/works.json'
+import curriculum from '../data/curriculum.json'
 
-const repository = 'https://github.com/dezhonger/dezhonger-knowledge'
+type Work = { id: string; title: string; author: string; book: string; additionalBooks?: string[]; genre: string; stage: string; link: string }
 
-type Work = { title: string; author: string; book: string; genre: string; stage: string; link: string }
+const bookOrder = curriculum.books.map((book) => book.name)
 
-const bookOrder = [
-  '七年级上册', '七年级下册', '八年级上册', '八年级下册', '九年级上册', '九年级下册',
-  '必修上册', '必修下册', '选择性必修上册', '选择性必修中册', '选择性必修下册',
-]
-
-function workGroups(stage: 'junior' | 'senior'): DefaultTheme.SidebarItem[] {
+function workGroups(stage: 'primary' | 'junior' | 'senior'): DefaultTheme.SidebarItem[] {
   const stageWorks = (works as Work[]).filter((work) => work.stage === stage)
   return bookOrder
-    .filter((book) => stageWorks.some((work) => work.book === book))
+    .filter((book) => stageWorks.some((work) => work.book === book || work.additionalBooks?.includes(book)))
     .map((book) => ({
       text: book,
       collapsed: true,
-      items: stageWorks.filter((work) => work.book === book).map((work) => ({ text: work.title, link: work.link })),
+      items: stageWorks.filter((work) => work.book === book || work.additionalBooks?.includes(book))
+        .sort((a, b) => {
+          const order = curriculum.books.find((item) => item.name === book)!.requiredWorks
+          const rank = (id: string) => order.includes(id) ? order.indexOf(id) : order.length
+          return rank(a.id) - rank(b.id)
+        })
+        .map((work) => ({ text: work.title, link: work.link })),
     }))
 }
 
@@ -31,15 +33,18 @@ const commonSidebar: DefaultTheme.SidebarItem[] = [
     text: '开始阅读',
     items: [
       { text: '古文首页', link: '/' },
+      { text: '小学篇目', link: '/primary/' },
       { text: '初中篇目', link: '/junior/' },
       { text: '高中篇目', link: '/senior/' },
       { text: '经典名篇', link: '/classic/' },
       { text: '关于本站', link: '/about' },
+      { text: '教材范围', link: '/curriculum' },
     ],
   },
 ]
 
 const sidebar: DefaultTheme.Sidebar = {
+  '/primary/': [...commonSidebar, ...workGroups('primary')],
   '/junior/': [...commonSidebar, ...workGroups('junior')],
   '/senior/': [...commonSidebar, ...workGroups('senior')],
   '/classic/': [...commonSidebar, ...classicGroups()],
@@ -61,11 +66,10 @@ export default defineConfig({
   themeConfig: {
     siteTitle: '古文',
     nav: [
+      { text: '小学', link: '/primary/' },
       { text: '初中', link: '/junior/' },
       { text: '高中', link: '/senior/' },
       { text: '经典', link: '/classic/' },
-      { text: '技术知识库', link: 'https://knowledge.dezhonger.com/zh/' },
-      { text: '主站', link: 'https://dezhonger.com/?lang=zh' },
     ],
     sidebar,
     outline: { level: [2, 3], label: '本页内容' },
@@ -83,7 +87,6 @@ export default defineConfig({
     },
     lastUpdated: { text: '更新时间' },
     docFooter: { prev: '上一篇', next: '下一篇' },
-    socialLinks: [{ icon: 'github', link: repository }],
-    footer: { message: '古诗文原文属于公共领域；整理与校读持续进行。', copyright: '© 2026 古文' },
+    footer: { message: '读古诗文原文，体会文字中的天地与人心。', copyright: '© 2026 古文' },
   },
 })

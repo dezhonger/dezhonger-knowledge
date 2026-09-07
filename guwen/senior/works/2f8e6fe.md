@@ -22,4 +22,4 @@ dynasty: "唐代"
 
 灭六国者，六国也，非秦也。族秦者，秦也，非天下也。嗟乎！使六国各爱其人，则足以拒秦。使秦复爱六国之人，则递三世可至万世而为君，谁得而族灭也？秦人不暇自哀，而后人哀之。后人哀之而不鉴之，亦使后人而复哀后人也。
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/2f8e6fe/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/2f8e6fe/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

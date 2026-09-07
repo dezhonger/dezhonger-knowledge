@@ -1,7 +1,7 @@
 ---
 title: "邹忌讽齐王纳谏"
-description: "九年级下册 刘向《邹忌讽齐王纳谏》原文。"
-book: "九年级下册"
+description: "九年级上册 刘向《邹忌讽齐王纳谏》原文。"
+book: "九年级上册"
 stage: "初中"
 genre: "文言文"
 author: "刘向"
@@ -10,7 +10,7 @@ dynasty: "两汉"
 
 # 邹忌讽齐王纳谏
 
-<div class="work-meta"><span>两汉</span><span>刘向</span><span>初中 · 九年级下册</span><span>文言文</span></div>
+<div class="work-meta"><span>两汉</span><span>刘向</span><span>初中 · 九年级上册、九年级下册</span><span>文言文</span></div>
 
 ## 原文
 
@@ -38,4 +38,4 @@ dynasty: "两汉"
 
 燕、赵、韩、魏闻之，皆朝于齐。此所谓战胜于朝廷。
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/5ddb65b/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/5ddb65b/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

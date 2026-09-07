@@ -1,5 +1,2502 @@
 [
   {
+    "id": "168f4f7",
+    "title": "咏鹅",
+    "author": "骆宾王",
+    "book": "一年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "鹅，鹅，鹅，曲项向天歌。",
+      "白毛浮绿水，红掌拨清波。​"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/168f4f7/",
+    "sourceTitle": "古诗文库",
+    "slug": "168f4f7",
+    "link": "/primary/works/168f4f7"
+  },
+  {
+    "id": "824ac92",
+    "title": "江南",
+    "author": "汉乐府",
+    "book": "一年级上册",
+    "stage": "primary",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "江南可采莲，莲叶何田田，鱼戏莲叶间。",
+      "鱼戏莲叶东，鱼戏莲叶西，鱼戏莲叶南，鱼戏莲叶北。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/824ac92/",
+    "sourceTitle": "古诗文库",
+    "slug": "824ac92",
+    "link": "/primary/works/824ac92"
+  },
+  {
+    "id": "ac411ec",
+    "title": "画",
+    "author": "王维",
+    "book": "一年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "远看山有色，近听水无声。",
+      "春去花还在，人来鸟不惊。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ac411ec/",
+    "sourceTitle": "古诗文库",
+    "slug": "ac411ec",
+    "link": "/primary/works/ac411ec"
+  },
+  {
+    "id": "5f3cd93",
+    "title": "悯农·其二",
+    "author": "李绅",
+    "book": "一年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "锄禾日当午，汗滴禾下土。",
+      "谁知盘中餐，粒粒皆辛苦？"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5f3cd93/",
+    "sourceTitle": "古诗文库",
+    "slug": "5f3cd93",
+    "link": "/primary/works/5f3cd93"
+  },
+  {
+    "id": "9692c5e",
+    "title": "古朗月行（节选）",
+    "author": "李白",
+    "book": "一年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "小时不识月，呼作白玉盘。",
+      "又疑瑶台镜，飞在青云端。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/9692c5e/",
+    "sourceTitle": "古诗文库",
+    "slug": "9692c5e",
+    "link": "/primary/works/9692c5e"
+  },
+  {
+    "id": "3915bf2",
+    "title": "风",
+    "author": "李峤",
+    "book": "一年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "解落三秋叶，能开二月花。",
+      "过江千尺浪，入竹万竿斜。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3915bf2/",
+    "sourceTitle": "古诗文库",
+    "slug": "3915bf2",
+    "link": "/primary/works/3915bf2"
+  },
+  {
+    "id": "9b62b46",
+    "title": "春晓",
+    "author": "孟浩然",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "春眠不觉晓，处处闻啼鸟。",
+      "夜来风雨声，花落知多少。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/9b62b46/",
+    "sourceTitle": "古诗文库",
+    "slug": "9b62b46",
+    "link": "/primary/works/9b62b46"
+  },
+  {
+    "id": "abfc8be",
+    "title": "赠汪伦",
+    "author": "李白",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "李白乘舟将欲行，忽闻岸上踏歌声。",
+      "桃花潭水深千尺，不及汪伦送我情。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/abfc8be/",
+    "sourceTitle": "古诗文库",
+    "slug": "abfc8be",
+    "link": "/primary/works/abfc8be"
+  },
+  {
+    "id": "f94de8e",
+    "title": "静夜思",
+    "author": "李白",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "床前明月光，疑是地上霜。",
+      "举头望明月，低头思故乡。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f94de8e/",
+    "sourceTitle": "古诗文库",
+    "slug": "f94de8e",
+    "link": "/primary/works/f94de8e"
+  },
+  {
+    "id": "09c8974",
+    "title": "寻隐者不遇",
+    "author": "贾岛",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "松下问童子，言师采药去。",
+      "只在此山中，云深不知处。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/09c8974/",
+    "sourceTitle": "古诗文库",
+    "slug": "09c8974",
+    "link": "/primary/works/09c8974"
+  },
+  {
+    "id": "3875937",
+    "title": "人之初",
+    "author": "王应麟",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "蒙学韵文",
+    "paragraphs": [
+      "人之初，性本善。",
+      "性相近，习相远。",
+      "苟不教，性乃迁。",
+      "教之道，贵以专。",
+      "子不学，非所宜。",
+      "幼不学，老何为。",
+      "玉不琢，不成器。",
+      "人不学，不知义。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3875937/",
+    "sourceTitle": "古诗文库",
+    "slug": "3875937",
+    "link": "/primary/works/3875937"
+  },
+  {
+    "id": "6f2b477",
+    "title": "池上",
+    "author": "白居易",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "小娃撑小艇，偷采白莲回。",
+      "不解藏踪迹，浮萍一道开。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/6f2b477/",
+    "sourceTitle": "古诗文库",
+    "slug": "6f2b477",
+    "link": "/primary/works/6f2b477"
+  },
+  {
+    "id": "99847c1",
+    "title": "小池",
+    "author": "杨万里",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "泉眼无声惜细流，树阴照水爱晴柔。",
+      "小荷才露尖尖角，早有蜻蜓立上头。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/99847c1/",
+    "sourceTitle": "古诗文库",
+    "slug": "99847c1",
+    "link": "/primary/works/99847c1"
+  },
+  {
+    "id": "dece85d",
+    "title": "画鸡",
+    "author": "唐伯虎",
+    "book": "一年级下册",
+    "stage": "primary",
+    "dynasty": "明代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "头上红冠不用裁，满身雪白走将来。",
+      "平生不敢轻言语，一叫千门万户开。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/dece85d/",
+    "sourceTitle": "古诗文库",
+    "slug": "dece85d",
+    "link": "/primary/works/dece85d"
+  },
+  {
+    "id": "76d4ae1",
+    "title": "梅花",
+    "author": "王安石",
+    "book": "二年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "墙角数枝梅，凌寒独自开。",
+      "遥知不是雪，为有暗香来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/76d4ae1/",
+    "sourceTitle": "古诗文库",
+    "slug": "76d4ae1",
+    "link": "/primary/works/76d4ae1"
+  },
+  {
+    "id": "shu-jiu-ge",
+    "title": "数九歌",
+    "book": "二年级上册",
+    "paragraphs": [
+      "一九二九不出手，三九四九冰上走，",
+      "五九六九，沿河看柳，",
+      "七九河开，八九雁来，",
+      "九九加一九，耕牛遍地走。"
+    ],
+    "sourceUrl": "https://book.pep.com.cn/1211001201241/mobile/index.html#p=32",
+    "stage": "primary",
+    "author": "民间歌谣",
+    "dynasty": "年代未详",
+    "genre": "诗词曲",
+    "sourceTitle": "人教社电子教材",
+    "readingNote": "教材日积月累中的时令歌谣。不同地区的传唱文字可能不同，这里采用所列教材版本。",
+    "slug": "shu-jiu-ge",
+    "link": "/primary/works/shu-jiu-ge"
+  },
+  {
+    "id": "1d8d6f1",
+    "title": "小儿垂钓",
+    "author": "胡令能",
+    "book": "二年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "蓬头稚子学垂纶，侧坐莓苔草映身。",
+      "路人借问遥招手，怕得鱼惊不应人。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/1d8d6f1/",
+    "sourceTitle": "古诗文库",
+    "slug": "1d8d6f1",
+    "link": "/primary/works/1d8d6f1"
+  },
+  {
+    "id": "6be1140",
+    "title": "登鹳雀楼",
+    "author": "王之涣",
+    "book": "二年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "白日依山尽，黄河入海流。",
+      "欲穷千里目，更上一层楼。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/6be1140/",
+    "sourceTitle": "古诗文库",
+    "slug": "6be1140",
+    "link": "/primary/works/6be1140"
+  },
+  {
+    "id": "eae33c6",
+    "title": "望庐山瀑布",
+    "author": "李白",
+    "book": "二年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "日照香炉生紫烟，遥看瀑布挂前川。",
+      "飞流直下三千尺，疑是银河落九天。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/eae33c6/",
+    "sourceTitle": "古诗文库",
+    "slug": "eae33c6",
+    "link": "/primary/works/eae33c6"
+  },
+  {
+    "id": "689eacb",
+    "title": "江雪",
+    "author": "柳宗元",
+    "book": "二年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "千山鸟飞绝，万径人踪灭。",
+      "孤舟蓑笠翁，独钓寒江雪。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/689eacb/",
+    "sourceTitle": "古诗文库",
+    "slug": "689eacb",
+    "link": "/primary/works/689eacb"
+  },
+  {
+    "id": "9848deb",
+    "title": "敕勒歌",
+    "author": "佚名",
+    "book": "二年级上册",
+    "stage": "primary",
+    "dynasty": "南北朝",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "敕勒川，阴山下。",
+      "天似穹庐，笼盖四野。",
+      "天苍苍，野茫茫，风吹草低见牛羊。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/9848deb/",
+    "sourceTitle": "古诗文库",
+    "slug": "9848deb",
+    "link": "/primary/works/9848deb"
+  },
+  {
+    "id": "3ceb10b",
+    "title": "夜宿山寺",
+    "author": "李白",
+    "book": "二年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "危楼高百尺，手可摘星辰。",
+      "不敢高声语，恐惊天上人。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3ceb10b/",
+    "sourceTitle": "古诗文库",
+    "slug": "3ceb10b",
+    "link": "/primary/works/3ceb10b"
+  },
+  {
+    "id": "4afec3e",
+    "title": "咏柳",
+    "author": "贺知章",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "碧玉妆成一树高，万条垂下绿丝绦。",
+      "不知细叶谁裁出，二月春风似剪刀。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4afec3e/",
+    "sourceTitle": "古诗文库",
+    "slug": "4afec3e",
+    "link": "/primary/works/4afec3e"
+  },
+  {
+    "id": "2c39345",
+    "title": "村居",
+    "author": "高鼎",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "草长莺飞二月天，拂堤杨柳醉春烟。",
+      "儿童散学归来早，忙趁东风放纸鸢。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2c39345/",
+    "sourceTitle": "古诗文库",
+    "slug": "2c39345",
+    "link": "/primary/works/2c39345"
+  },
+  {
+    "id": "dca8ec0",
+    "title": "赋得古原草送别",
+    "author": "白居易",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "离离原上草，一岁一枯荣。",
+      "野火烧不尽，春风吹又生。",
+      "远芳侵古道，晴翠接荒城。",
+      "又送王孙去，萋萋满别情。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/dca8ec0/",
+    "sourceTitle": "古诗文库",
+    "slug": "dca8ec0",
+    "link": "/primary/works/dca8ec0",
+    "readingNote": "教材选前四句，这里收录全诗，便于连贯阅读。"
+  },
+  {
+    "id": "6cd3ee6",
+    "title": "弟子规（节选）",
+    "author": "李毓秀",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "蒙学韵文",
+    "paragraphs": [
+      "冠必正，纽必结。 袜与履，俱紧切。",
+      "置冠服，有定位。 勿乱顿，致污秽。",
+      "唯德学，唯才艺。 不如人，当自砺。",
+      "若衣服，若饮食。 不如人，勿生戚。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/6cd3ee6/",
+    "sourceTitle": "古诗文库",
+    "slug": "6cd3ee6",
+    "link": "/primary/works/6cd3ee6"
+  },
+  {
+    "id": "25bfe6c",
+    "title": "绝句",
+    "author": "杜甫",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "两个黄鹂鸣翠柳，一行白鹭上青天。",
+      "窗含西岭千秋雪，门泊东吴万里船。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/25bfe6c/",
+    "sourceTitle": "古诗文库",
+    "slug": "25bfe6c",
+    "link": "/primary/works/25bfe6c"
+  },
+  {
+    "id": "59b23b9",
+    "title": "晓出净慈寺送林子方",
+    "author": "杨万里",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "毕竟西湖六月中，风光不与四时同。",
+      "接天莲叶无穷碧，映日荷花别样红。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/59b23b9/",
+    "sourceTitle": "古诗文库",
+    "slug": "59b23b9",
+    "link": "/primary/works/59b23b9"
+  },
+  {
+    "id": "er-shi-si-jie-qi-ge",
+    "title": "二十四节气歌",
+    "book": "二年级下册",
+    "paragraphs": [
+      "春雨惊春清谷天，夏满芒夏暑相连。",
+      "秋处露秋寒霜降，冬雪雪冬小大寒。"
+    ],
+    "sourceUrl": "https://book.pep.com.cn/1211001202251/mobile/index.html#p=86",
+    "stage": "primary",
+    "author": "民间歌谣",
+    "dynasty": "年代未详",
+    "genre": "诗词曲",
+    "sourceTitle": "人教社电子教材",
+    "readingNote": "教材日积月累中的时令歌谣。不同地区的传唱文字可能不同，这里采用所列教材版本。",
+    "slug": "er-shi-si-jie-qi-ge",
+    "link": "/primary/works/er-shi-si-jie-qi-ge"
+  },
+  {
+    "id": "aebfdde",
+    "title": "悯农·其一",
+    "author": "李绅",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "春种一粒粟，秋收万颗子。",
+      "四海无闲田，农夫犹饿死。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/aebfdde/",
+    "sourceTitle": "古诗文库",
+    "slug": "aebfdde",
+    "link": "/primary/works/aebfdde"
+  },
+  {
+    "id": "bc58add",
+    "title": "江上渔者",
+    "author": "范仲淹",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "江上往来人，但爱鲈鱼美。",
+      "君看一叶舟，出没风波里。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/bc58add/",
+    "sourceTitle": "古诗文库",
+    "slug": "bc58add",
+    "link": "/primary/works/bc58add",
+    "additionalBooks": [
+      "六年级下册"
+    ]
+  },
+  {
+    "id": "6c93dc9",
+    "title": "舟夜书所见",
+    "author": "查慎行",
+    "book": "二年级下册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "月黑见渔灯，孤光一点萤。",
+      "微微风簇浪，散作满河星。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/6c93dc9/",
+    "sourceTitle": "古诗文库",
+    "slug": "6c93dc9",
+    "link": "/primary/works/6c93dc9",
+    "legacy": true,
+    "readingNote": "旧版二年级下册选篇，保留作延伸阅读。"
+  },
+  {
+    "id": "18a13e2",
+    "title": "所见",
+    "author": "袁枚",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "牧童骑黄牛，歌声振林樾。",
+      "意欲捕鸣蝉，忽然闭口立。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/18a13e2/",
+    "sourceTitle": "古诗文库",
+    "slug": "18a13e2",
+    "link": "/primary/works/18a13e2"
+  },
+  {
+    "id": "8a92bb1",
+    "title": "望洞庭",
+    "author": "刘禹锡",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "湖光秋月两相和，潭面无风镜未磨。",
+      "遥望洞庭山水翠，白银盘里一青螺。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/8a92bb1/",
+    "sourceTitle": "古诗文库",
+    "slug": "8a92bb1",
+    "link": "/primary/works/8a92bb1"
+  },
+  {
+    "id": "ac94142",
+    "title": "山行",
+    "author": "杜牧",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "远上寒山石径斜，白云生处有人家。",
+      "停车坐爱枫林晚，霜叶红于二月花。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ac94142/",
+    "sourceTitle": "古诗文库",
+    "slug": "ac94142",
+    "link": "/primary/works/ac94142"
+  },
+  {
+    "id": "2d2b50a",
+    "title": "夜书所见",
+    "author": "叶绍翁",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "萧萧梧叶送寒声，江上秋风动客情。",
+      "知有儿童挑促织，夜深篱落一灯明。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2d2b50a/",
+    "sourceTitle": "古诗文库",
+    "slug": "2d2b50a",
+    "link": "/primary/works/2d2b50a"
+  },
+  {
+    "id": "8f82b5d",
+    "title": "鹿柴",
+    "author": "王维",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "空山不见人，但闻人语响。",
+      "返景入深林，复照青苔上。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/8f82b5d/",
+    "sourceTitle": "古诗文库",
+    "slug": "8f82b5d",
+    "link": "/primary/works/8f82b5d"
+  },
+  {
+    "id": "37713ed",
+    "title": "望天门山",
+    "author": "李白",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "天门中断楚江开，碧水东流至此回。",
+      "两岸青山相对出，孤帆一片日边来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/37713ed/",
+    "sourceTitle": "古诗文库",
+    "slug": "37713ed",
+    "link": "/primary/works/37713ed"
+  },
+  {
+    "id": "02cdcab",
+    "title": "饮湖上初晴后雨",
+    "author": "苏轼",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "水光潋滟晴方好，山色空濛雨亦奇。",
+      "欲把西湖比西子，淡妆浓抹总相宜。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/02cdcab/",
+    "sourceTitle": "古诗文库",
+    "slug": "02cdcab",
+    "link": "/primary/works/02cdcab"
+  },
+  {
+    "id": "d0c2932",
+    "title": "早发白帝城",
+    "author": "李白",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "朝辞白帝彩云间，千里江陵一日还。",
+      "两岸猿声啼不住，轻舟已过万重山。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/d0c2932/",
+    "sourceTitle": "古诗文库",
+    "slug": "d0c2932",
+    "link": "/primary/works/d0c2932"
+  },
+  {
+    "id": "551211f",
+    "title": "采莲曲",
+    "author": "王昌龄",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "荷叶罗裙一色裁，芙蓉向脸两边开。",
+      "乱入池中看不见，闻歌始觉有人来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/551211f/",
+    "sourceTitle": "古诗文库",
+    "slug": "551211f",
+    "link": "/primary/works/551211f"
+  },
+  {
+    "id": "340f142",
+    "title": "司马光",
+    "author": "脱脱等",
+    "book": "三年级上册",
+    "stage": "primary",
+    "dynasty": "元代",
+    "genre": "文言文",
+    "paragraphs": [
+      "群儿戏于庭，一儿登瓮，足跌没水中，众皆弃去。光持石击瓮破之，水迸，儿得活。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/340f142/",
+    "sourceTitle": "古诗文库",
+    "readingNote": "节选自《宋史·司马光传》；记叙的是北宋司马光幼时的故事。",
+    "slug": "340f142",
+    "link": "/primary/works/340f142"
+  },
+  {
+    "id": "67d931b",
+    "title": "绝句·迟日江山丽",
+    "author": "杜甫",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "迟日江山丽，春风花草香。",
+      "泥融飞燕子，沙暖睡鸳鸯。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/67d931b/",
+    "sourceTitle": "古诗文库",
+    "slug": "67d931b",
+    "link": "/primary/works/67d931b"
+  },
+  {
+    "id": "4443f41",
+    "title": "惠崇春江晚景",
+    "author": "苏轼",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "竹外桃花三两枝，春江水暖鸭先知。",
+      "蒌蒿满地芦芽短，正是河豚欲上时。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4443f41/",
+    "sourceTitle": "古诗文库",
+    "slug": "4443f41",
+    "link": "/primary/works/4443f41"
+  },
+  {
+    "id": "ba4a309",
+    "title": "三衢道中",
+    "author": "曾几",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "梅子黄时日日晴，小溪泛尽却山行。",
+      "绿阴不减来时路，添得黄鹂四五声。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ba4a309/",
+    "sourceTitle": "古诗文库",
+    "slug": "ba4a309",
+    "link": "/primary/works/ba4a309"
+  },
+  {
+    "id": "9669172",
+    "title": "忆江南·江南好",
+    "author": "白居易",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "江南好，风景旧曾谙。",
+      "日出江花红胜火，春来江水绿如蓝。能不忆江南？"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/9669172/",
+    "sourceTitle": "古诗文库",
+    "slug": "9669172",
+    "link": "/primary/works/9669172"
+  },
+  {
+    "id": "a017413",
+    "title": "守株待兔",
+    "author": "韩非",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "宋人有耕者。田中有株，兔走触株，折颈而死。因释其耒而守株，冀复得兔。",
+      "兔不可复得，而身为宋国笑。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/a017413/",
+    "sourceTitle": "古诗文库",
+    "readingNote": "《韩非子·五蠹》节选，收录宋人守株的寓言部分。",
+    "slug": "a017413",
+    "link": "/primary/works/a017413"
+  },
+  {
+    "id": "d59b33d",
+    "title": "滁州西涧",
+    "author": "韦应物",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "独怜幽草涧边生，上有黄鹂深树鸣。",
+      "春潮带雨晚来急，野渡无人舟自横。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/d59b33d/",
+    "sourceTitle": "古诗文库",
+    "slug": "d59b33d",
+    "link": "/primary/works/d59b33d"
+  },
+  {
+    "id": "dcb4593",
+    "title": "元日",
+    "author": "王安石",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "爆竹声中一岁除，春风送暖入屠苏。",
+      "千门万户曈曈日，总把新桃换旧符。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/dcb4593/",
+    "sourceTitle": "古诗文库",
+    "slug": "dcb4593",
+    "link": "/primary/works/dcb4593"
+  },
+  {
+    "id": "5f6d468",
+    "title": "清明",
+    "author": "杜牧",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "清明时节雨纷纷，路上行人欲断魂。",
+      "借问酒家何处有？牧童遥指杏花村。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5f6d468/",
+    "sourceTitle": "古诗文库",
+    "slug": "5f6d468",
+    "link": "/primary/works/5f6d468"
+  },
+  {
+    "id": "13a36a1",
+    "title": "九月九日忆山东兄弟",
+    "author": "王维",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "独在异乡为异客，每逢佳节倍思亲。",
+      "遥知兄弟登高处，遍插茱萸少一人。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/13a36a1/",
+    "sourceTitle": "古诗文库",
+    "slug": "13a36a1",
+    "link": "/primary/works/13a36a1"
+  },
+  {
+    "id": "2617f2b",
+    "title": "大林寺桃花",
+    "author": "白居易",
+    "book": "三年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "人间四月芳菲尽，山寺桃花始盛开。",
+      "长恨春归无觅处，不知转入此中来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2617f2b/",
+    "sourceTitle": "古诗文库",
+    "slug": "2617f2b",
+    "link": "/primary/works/2617f2b"
+  },
+  {
+    "id": "5d9b4ac",
+    "title": "赠刘景文",
+    "author": "苏轼",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "荷尽已无擎雨盖，菊残犹有傲霜枝。",
+      "一年好景君须记，最是橙黄橘绿时。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5d9b4ac/",
+    "sourceTitle": "古诗文库",
+    "slug": "5d9b4ac",
+    "link": "/primary/works/5d9b4ac"
+  },
+  {
+    "id": "565d43d577df",
+    "title": "浪淘沙·其七",
+    "author": "刘禹锡",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "八月涛声吼地来，头高数丈触山回。",
+      "须臾却入海门去，卷起沙堆似雪堆。"
+    ],
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv.aspx?id=565d43d577df",
+    "sourceTitle": "古诗文网",
+    "readingNote": "与《观潮》相关的课后阅读篇目。",
+    "slug": "565d43d577df",
+    "link": "/primary/works/565d43d577df"
+  },
+  {
+    "id": "bad340c",
+    "title": "暮江吟",
+    "author": "白居易",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "一道残阳铺水中，半江瑟瑟半江红。",
+      "可怜九月初三夜，露似真珠月似弓。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/bad340c/",
+    "sourceTitle": "古诗文库",
+    "slug": "bad340c",
+    "link": "/primary/works/bad340c"
+  },
+  {
+    "id": "f0964ed",
+    "title": "题西林壁",
+    "author": "苏轼",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "横看成岭侧成峰，远近高低各不同。",
+      "不识庐山真面目，只缘身在此山中。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f0964ed/",
+    "sourceTitle": "古诗文库",
+    "slug": "f0964ed",
+    "link": "/primary/works/f0964ed"
+  },
+  {
+    "id": "13e0eb2",
+    "title": "雪梅",
+    "author": "卢梅坡",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "梅雪争春未肯降，骚人阁笔费评章。",
+      "梅须逊雪三分白，雪却输梅一段香。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/13e0eb2/",
+    "sourceTitle": "古诗文库",
+    "slug": "13e0eb2",
+    "link": "/primary/works/13e0eb2"
+  },
+  {
+    "id": "62c952f",
+    "title": "精卫填海",
+    "author": "《山海经》",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "炎帝之少女，名曰女娃。女娃游于东海，溺而不返，故为精卫，常衔西山之木石，以堙于东海。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/62c952f/",
+    "sourceTitle": "古诗文库",
+    "readingNote": "《山海经·北山经》节选。",
+    "slug": "62c952f",
+    "link": "/primary/works/62c952f"
+  },
+  {
+    "id": "b341c34",
+    "title": "嫦娥",
+    "author": "李商隐",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "云母屏风烛影深，长河渐落晓星沉。",
+      "嫦娥应悔偷灵药，碧海青天夜夜心。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/b341c34/",
+    "sourceTitle": "古诗文库",
+    "slug": "b341c34",
+    "link": "/primary/works/b341c34"
+  },
+  {
+    "id": "3d4e45f",
+    "title": "黄鹤楼送孟浩然之广陵",
+    "author": "李白",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "故人西辞黄鹤楼，烟花三月下扬州。",
+      "孤帆远影碧空尽，唯见长江天际流。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3d4e45f/",
+    "sourceTitle": "古诗文库",
+    "slug": "3d4e45f",
+    "link": "/primary/works/3d4e45f",
+    "additionalBooks": [
+      "五年级下册"
+    ]
+  },
+  {
+    "id": "1e8df78",
+    "title": "王戎不取道旁李",
+    "author": "刘义庆",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "南北朝",
+    "genre": "文言文",
+    "paragraphs": [
+      "王戎七岁，尝与诸小儿游。看道边李树多子折枝，诸儿竞走取之，唯戎不动。",
+      "人问之，答曰：“树在道边而多子，此必苦李。”",
+      "取之，信然。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/1e8df78/",
+    "sourceTitle": "古诗文库",
+    "slug": "1e8df78",
+    "link": "/primary/works/1e8df78"
+  },
+  {
+    "id": "049a59e",
+    "title": "凉州词",
+    "author": "王翰",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "葡萄美酒夜光杯，欲饮琵琶马上催。",
+      "醉卧沙场君莫笑，古来征战几人回？"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/049a59e/",
+    "sourceTitle": "古诗文库",
+    "slug": "049a59e",
+    "link": "/primary/works/049a59e"
+  },
+  {
+    "id": "06105e4",
+    "title": "出塞",
+    "author": "王昌龄",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "秦时明月汉时关，万里长征人未还。",
+      "但使龙城飞将在，不教胡马度阴山。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/06105e4/",
+    "sourceTitle": "古诗文库",
+    "slug": "06105e4",
+    "link": "/primary/works/06105e4"
+  },
+  {
+    "id": "f2c11ce",
+    "title": "夏日绝句",
+    "author": "李清照",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "生当作人杰，死亦为鬼雄。",
+      "至今思项羽，不肯过江东。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f2c11ce/",
+    "sourceTitle": "古诗文库",
+    "slug": "f2c11ce",
+    "link": "/primary/works/f2c11ce"
+  },
+  {
+    "id": "b4189d1",
+    "title": "别董大",
+    "author": "高适",
+    "book": "四年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "千里黄云白日曛，北风吹雁雪纷纷。",
+      "莫愁前路无知己，天下谁人不识君。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/b4189d1/",
+    "sourceTitle": "古诗文库",
+    "slug": "b4189d1",
+    "link": "/primary/works/b4189d1"
+  },
+  {
+    "id": "4153bfc",
+    "title": "四时田园杂兴·其二十五",
+    "author": "范成大",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "梅子金黄杏子肥，麦花雪白菜花稀。",
+      "日长篱落无人过，惟有蜻蜓蛱蝶飞。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4153bfc/",
+    "sourceTitle": "古诗文库",
+    "slug": "4153bfc",
+    "link": "/primary/works/4153bfc"
+  },
+  {
+    "id": "2dd2173",
+    "title": "宿新市徐公店",
+    "author": "杨万里",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "篱落疏疏一径深，树头新绿未成阴。",
+      "儿童急走追黄蝶，飞入菜花无处寻。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2dd2173/",
+    "sourceTitle": "古诗文库",
+    "slug": "2dd2173",
+    "link": "/primary/works/2dd2173"
+  },
+  {
+    "id": "10b8c3d",
+    "title": "清平乐·村居",
+    "author": "辛弃疾",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "茅檐低小，溪上青青草。醉里吴音相媚好，白发谁家翁媪？",
+      "大儿锄豆溪东，中儿正织鸡笼。最喜小儿亡赖，溪头卧剥莲蓬。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/10b8c3d/",
+    "sourceTitle": "古诗文库",
+    "slug": "10b8c3d",
+    "link": "/primary/works/10b8c3d"
+  },
+  {
+    "id": "bf7f4f0",
+    "title": "卜算子·咏梅",
+    "author": "毛泽东",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "现代",
+    "genre": "诗词曲",
+    "paragraphs": [],
+    "copyrightProtected": true,
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/bf7f4f0/",
+    "sourceTitle": "古诗文库",
+    "slug": "bf7f4f0",
+    "link": "/primary/works/bf7f4f0"
+  },
+  {
+    "stage": "primary",
+    "title": "江畔独步寻花·其五",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_85e46c4b3dbc.aspx",
+    "id": "85e46c4b3dbc",
+    "paragraphs": [
+      "黄师塔前江水东，春光懒困倚微风。",
+      "桃花一簇开无主，可爱深红爱浅红？"
+    ],
+    "author": "杜甫",
+    "dynasty": "唐代",
+    "book": "四年级下册",
+    "sourceTitle": "古诗文网",
+    "genre": "诗词曲",
+    "slug": "85e46c4b3dbc",
+    "link": "/primary/works/85e46c4b3dbc",
+    "additionalBooks": [
+      "六年级上册"
+    ]
+  },
+  {
+    "id": "bb0e829",
+    "title": "蜂",
+    "author": "罗隐",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "不论平地与山尖，无限风光尽被占。",
+      "采得百花成蜜后，为谁辛苦为谁甜？"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/bb0e829/",
+    "sourceTitle": "古诗文库",
+    "slug": "bb0e829",
+    "link": "/primary/works/bb0e829"
+  },
+  {
+    "id": "dbdba2f",
+    "title": "囊萤夜读",
+    "author": "房玄龄等",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "文言文",
+    "paragraphs": [
+      "胤恭勤不倦，博学多通。家贫不常得油，夏月则练囊盛数十萤火以照书，以夜继日焉。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/dbdba2f/",
+    "sourceTitle": "古诗文库",
+    "slug": "dbdba2f",
+    "link": "/primary/works/dbdba2f"
+  },
+  {
+    "id": "33d2170",
+    "title": "铁杵成针",
+    "author": "祝穆",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "文言文",
+    "paragraphs": [
+      "磨针溪，在象耳山下。世传李太白读书山中，未成，弃去。过是溪，逢老媪方磨铁杵。问之，曰：“欲作针。”太白感其意，还卒业。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/33d2170/",
+    "sourceTitle": "古诗文库",
+    "slug": "33d2170",
+    "link": "/primary/works/33d2170"
+  },
+  {
+    "id": "7c55426",
+    "title": "独坐敬亭山",
+    "author": "李白",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "众鸟高飞尽，孤云独去闲。",
+      "相看两不厌，只有敬亭山。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/7c55426/",
+    "sourceTitle": "古诗文库",
+    "slug": "7c55426",
+    "link": "/primary/works/7c55426"
+  },
+  {
+    "id": "c716520",
+    "title": "芙蓉楼送辛渐",
+    "author": "王昌龄",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "寒雨连江夜入吴，平明送客楚山孤。",
+      "洛阳亲友如相问，一片冰心在玉壶。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c716520/",
+    "sourceTitle": "古诗文库",
+    "slug": "c716520",
+    "link": "/primary/works/c716520"
+  },
+  {
+    "id": "b7eae90",
+    "title": "塞下曲",
+    "author": "卢纶",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "月黑雁飞高，单于夜遁逃。",
+      "欲将轻骑逐，大雪满弓刀。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/b7eae90/",
+    "sourceTitle": "古诗文库",
+    "slug": "b7eae90",
+    "link": "/primary/works/b7eae90"
+  },
+  {
+    "id": "f38e404",
+    "title": "墨梅",
+    "author": "王冕",
+    "book": "四年级下册",
+    "stage": "primary",
+    "dynasty": "元代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "吾家洗砚池头树，个个花开淡墨痕。",
+      "不要人夸好颜色，只流清气满乾坤。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f38e404/",
+    "sourceTitle": "古诗文库",
+    "slug": "f38e404",
+    "link": "/primary/works/f38e404"
+  },
+  {
+    "id": "cdf026c",
+    "title": "乞巧",
+    "author": "林杰",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "七夕今宵看碧霄，牵牛织女渡河桥。",
+      "家家乞巧望秋月，穿尽红丝几万条。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/cdf026c/",
+    "sourceTitle": "古诗文库",
+    "slug": "cdf026c",
+    "link": "/primary/works/cdf026c"
+  },
+  {
+    "id": "30a881c",
+    "title": "示儿",
+    "author": "陆游",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "死去元知万事空，但悲不见九州同。",
+      "王师北定中原日，家祭无忘告乃翁。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/30a881c/",
+    "sourceTitle": "古诗文库",
+    "slug": "30a881c",
+    "link": "/primary/works/30a881c"
+  },
+  {
+    "id": "031b119",
+    "title": "题临安邸",
+    "author": "林升",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "山外青山楼外楼，西湖歌舞几时休？",
+      "暖风熏得游人醉，直把杭州作汴州。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/031b119/",
+    "sourceTitle": "古诗文库",
+    "slug": "031b119",
+    "link": "/primary/works/031b119"
+  },
+  {
+    "id": "172078f",
+    "title": "己亥杂诗",
+    "author": "龚自珍",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "九州生气恃风雷，万马齐喑究可哀。",
+      "我劝天公重抖擞，不拘一格降人才。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/172078f/",
+    "sourceTitle": "古诗文库",
+    "slug": "172078f",
+    "link": "/primary/works/172078f"
+  },
+  {
+    "id": "4687eea",
+    "title": "少年中国说（节选）",
+    "author": "梁启超",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "近现代",
+    "genre": "文言文",
+    "paragraphs": [
+      "故今日之责任，不在他人，而全在我少年。少年智则国智，少年富则国富；少年强则国强，少年独立则国独立；少年自由则国自由；少年进步则国进步；少年胜于欧洲，则国胜于欧洲；少年雄于地球，则国雄于地球。",
+      "红日初升，其道大光。河出伏流，一泻汪洋。潜龙腾渊，鳞爪飞扬。乳虎啸谷，百兽震惶。鹰隼试翼，风尘翕张。奇花初胎，矞矞皇皇。干将发硎，有作其芒。天戴其苍，地履其黄。纵有千古，横有八荒。前途似海，来日方长。美哉我少年中国，与天不老！壮哉我中国少年，与国无疆！"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4687eea/",
+    "sourceTitle": "古诗文库",
+    "slug": "4687eea",
+    "link": "/primary/works/4687eea"
+  },
+  {
+    "stage": "primary",
+    "title": "游子吟",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_161d06b0b556.aspx",
+    "id": "161d06b0b556",
+    "paragraphs": [
+      "慈母手中线，游子身上衣。",
+      "临行密密缝，意恐迟迟归。",
+      "谁言寸草心，报得三春晖。"
+    ],
+    "author": "孟郊",
+    "dynasty": "唐代",
+    "book": "五年级上册",
+    "sourceTitle": "古诗文网",
+    "genre": "诗词曲",
+    "slug": "161d06b0b556",
+    "link": "/primary/works/161d06b0b556",
+    "additionalBooks": [
+      "五年级下册"
+    ]
+  },
+  {
+    "id": "440dd75",
+    "title": "山居秋暝",
+    "author": "王维",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "空山新雨后，天气晚来秋。",
+      "明月松间照，清泉石上流。",
+      "竹喧归浣女，莲动下渔舟。",
+      "随意春芳歇，王孙自可留。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/440dd75/",
+    "sourceTitle": "古诗文库",
+    "slug": "440dd75",
+    "link": "/primary/works/440dd75"
+  },
+  {
+    "id": "4d77ffc",
+    "title": "枫桥夜泊",
+    "author": "张继",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "月落乌啼霜满天，江枫渔火对愁眠。",
+      "姑苏城外寒山寺，夜半钟声到客船。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4d77ffc/",
+    "sourceTitle": "古诗文库",
+    "slug": "4d77ffc",
+    "link": "/primary/works/4d77ffc"
+  },
+  {
+    "id": "ee0b85f",
+    "title": "早春呈水部张十八员外",
+    "author": "韩愈",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "天街小雨润如酥，草色遥看近却无。",
+      "最是一年春好处，绝胜烟柳满皇都。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ee0b85f/",
+    "sourceTitle": "古诗文库",
+    "slug": "ee0b85f",
+    "link": "/primary/works/ee0b85f",
+    "additionalBooks": [
+      "六年级下册"
+    ]
+  },
+  {
+    "id": "84a494f",
+    "title": "渔歌子·西塞山前白鹭飞",
+    "author": "张志和",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "西塞山前白鹭飞，桃花流水鳜鱼肥。",
+      "青箬笠，绿蓑衣，斜风细雨不须归。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/84a494f/",
+    "sourceTitle": "古诗文库",
+    "slug": "84a494f",
+    "link": "/primary/works/84a494f"
+  },
+  {
+    "id": "4ac57a5-lunyu",
+    "title": "古人谈读书·《论语》五则",
+    "author": "孔子弟子及再传弟子",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "知之为知之，不知为不知，是知也。",
+      "敏而好学，不耻下问。",
+      "默而识之，学而不厌，诲人不倦。",
+      "我非生而知之者，好古，敏以求之者也。",
+      "吾尝终日不食，终夜不寝，以思，无益，不如学也。"
+    ],
+    "sourceUrl": "https://book.pep.com.cn/1211001501261/mobile/index.html#p=108",
+    "sourceTitle": "人教社五年级上册电子教材",
+    "slug": "4ac57a5-lunyu",
+    "link": "/primary/works/4ac57a5-lunyu",
+    "sourceId": "4ac57a5"
+  },
+  {
+    "id": "4ac57a5-zhuxi",
+    "title": "古人谈读书·读书有三到",
+    "author": "朱熹",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "文言文",
+    "paragraphs": [
+      "余尝谓读书有三到，谓心到、眼到、口到。心不在此，则眼不看仔细，心眼既不专一，却只漫浪诵读，决不能记，记亦不能久也。三到之中，心到最急。心既到矣，眼口岂不到乎？"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4ac57a5/",
+    "sourceTitle": "古诗文库",
+    "slug": "4ac57a5-zhuxi",
+    "link": "/primary/works/4ac57a5-zhuxi",
+    "sourceId": "4ac57a5"
+  },
+  {
+    "id": "943ac55",
+    "title": "观书有感二首·其一",
+    "author": "朱熹",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "半亩方塘一鉴开，天光云影共徘徊。",
+      "问渠那得清如许？为有源头活水来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/943ac55/",
+    "sourceTitle": "古诗文库",
+    "slug": "943ac55",
+    "link": "/primary/works/943ac55"
+  },
+  {
+    "id": "7029835",
+    "title": "长相思·山一程",
+    "author": "纳兰性德",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "山一程，水一程，身向榆关那畔行，夜深千帐灯。",
+      "风一更，雪一更，聒碎乡心梦不成，故园无此声。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/7029835/",
+    "sourceTitle": "古诗文库",
+    "slug": "7029835",
+    "link": "/primary/works/7029835",
+    "legacy": true,
+    "readingNote": "旧版五年级上册选篇，保留作延伸阅读。"
+  },
+  {
+    "id": "4ac57a5-zengguofan",
+    "title": "古人谈读书·有志有识有恒",
+    "author": "曾国藩",
+    "book": "五年级上册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "文言文",
+    "paragraphs": [
+      "盖士人读书，第一要有志，第二要有识，第三要有恒。有志则断不甘为下流；有识则知学问无尽，不敢以一得自足，如河伯之观海，如井蛙之窥天，皆无识者也；有恒则断无不成之事。此三者缺一不可。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4ac57a5/",
+    "sourceTitle": "古诗文库",
+    "readingNote": "旧版五年级上册选篇，保留作延伸阅读。旧版《古人谈读书》第三则，保留作延伸阅读。",
+    "slug": "4ac57a5-zengguofan",
+    "link": "/primary/works/4ac57a5-zengguofan",
+    "legacy": true,
+    "sourceId": "4ac57a5"
+  },
+  {
+    "stage": "primary",
+    "title": "蝉",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_c8414cce04e1.aspx",
+    "id": "c8414cce04e1",
+    "paragraphs": [
+      "垂緌饮清露，流响出疏桐。",
+      "居高声自远，非是藉秋风。"
+    ],
+    "author": "虞世南",
+    "dynasty": "唐代",
+    "book": "五年级上册",
+    "sourceTitle": "古诗文网",
+    "genre": "诗词曲",
+    "slug": "c8414cce04e1",
+    "link": "/primary/works/c8414cce04e1",
+    "legacy": true,
+    "readingNote": "旧版五年级上册选篇，保留作延伸阅读。"
+  },
+  {
+    "id": "1336a1a",
+    "title": "四时田园杂兴·其三十一",
+    "author": "范成大",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "昼出耘田夜绩麻，村庄儿女各当家。",
+      "童孙未解供耕织，也傍桑阴学种瓜。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/1336a1a/",
+    "sourceTitle": "古诗文库",
+    "slug": "1336a1a",
+    "link": "/primary/works/1336a1a"
+  },
+  {
+    "id": "eb50dd5",
+    "title": "稚子弄冰",
+    "author": "杨万里",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "稚子金盆脱晓冰，彩丝穿取当银钲。",
+      "敲成玉磬穿林响，忽作玻璃碎地声。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/eb50dd5/",
+    "sourceTitle": "古诗文库",
+    "slug": "eb50dd5",
+    "link": "/primary/works/eb50dd5"
+  },
+  {
+    "id": "953cfcb",
+    "title": "村晚",
+    "author": "雷震",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "草满池塘水满陂，山衔落日浸寒漪。",
+      "牧童归去横牛背，短笛无腔信口吹。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/953cfcb/",
+    "sourceTitle": "古诗文库",
+    "slug": "953cfcb",
+    "link": "/primary/works/953cfcb"
+  },
+  {
+    "id": "a4dea84e9d56",
+    "title": "草船借箭（原著节选）",
+    "author": "罗贯中",
+    "dynasty": "明代",
+    "stage": "primary",
+    "book": "五年级下册",
+    "genre": "古典小说",
+    "paragraphs": [
+      "却说鲁肃领了周瑜言语，径来舟中相探孔明。孔明接入小舟对坐。肃曰：“连日措办军务，有失听教。”孔明曰：“便是亮亦未与都督贺喜。”肃曰：“何喜？”孔明曰：“公瑾使先生来探亮知也不知，便是这件事可贺喜耳。”諕得鲁肃失色问曰：“先生何由知之？”孔明曰：“这条计只好弄蒋干。曹操、虽被一时瞒过，必然便省悟，只是不肯认错耳。今蔡、张两人既死，江东无患矣，如何不贺喜！吾闻曹操换毛玠、于禁为水军都督，则这两个手里，好歹送了水军性命。”鲁肃听了，开口不得，把些言语支吾了半晌，别孔明而回。孔明嘱曰：“望子敬在公瑾面前勿言亮先知此事。恐公瑾心怀妒忌，又要寻事害亮。”鲁肃应诺而去，回见周瑜，把上项事只得实说了。瑜大惊曰：“此人决不可留！吾决意斩之！”肃劝曰：“若杀孔明，却被曹操笑也。”瑜曰：“吾自有公道斩之，教他死而无怨。”肃曰：“何以公道斩之？”瑜曰：“子敬休问，来日便见。”",
+      "次日，（周瑜）聚众将于帐下，教请孔明议事。孔明欣然而至。坐定，瑜问孔明曰：“即日将与曹军交战，水路交兵，当以何兵器为先？”孔明曰：“大江之上，以弓箭为先。”瑜曰：“先生之言，甚合愚意。但今军中正缺箭用，敢烦先生监造十万支箭，以为应敌之具。此系公事，先生幸勿推却。”孔明曰：“都督见委，自当效劳。敢问十万枝箭，何时要用？”瑜曰：“十日之内，可完办否？”孔明曰：“曹军即日将至，若候十日，必误大事。”瑜曰：“先生料几日可完办？”孔明曰：“只消三日，便可拜纳十万支箭。”瑜曰：“军中无戏言。”孔明曰：“怎敢戏都督！愿纳军令状：三日不办，甘当重罚。”周瑜大喜，唤军政司当面取了文书，置酒相待曰：“待军事毕后，自有酬劳。”孔明曰：“今日已不及，来日造起。至第三日，可差五百小军到江边搬箭。”饮了数杯，辞去。鲁肃曰：“此人莫非诈乎？”瑜曰：“他自送死，非我逼他。今明白对众要了文书，他便两胁生翅，也飞不去。我只分付军匠人等，叫他故意迟延，凡应用物件，都不与齐备。如此，必然误了日期。那时定罪，有何理说？公今可去探他虚实，却来回报。”",
+      "肃领命来见孔明。孔明曰：“吾曾告子敬，休对公瑾说，他必要害我。不想子敬不肯为我隐讳，今日果然又弄出事来。三日内如何造得十万箭？子敬只得救我！”肃曰：“公自取其祸，我如何救得你？”孔明曰：“望子敬借我二十只船，每船要军士三十人，船上皆用青布为幔，各束草千余个，分布两边。吾别有妙用。第三日保管有十万枝箭。只不可又教公瑾得知，若彼知之，吾计败矣。”肃允诺，却不解其意，回报周瑜，果然不提起借船之事，只言：“孔明并不用箭竹、翎毛、胶漆等物，自有道理。”瑜大疑曰：“且看他三日后如何回覆我！”",
+      "却说鲁肃私自拨轻快船二十只，各船三十余人，并布幔束草等物，尽皆齐备，候孔明调用。第一日却不见孔明动静；第二日亦只不动。至第三日四更时分，孔明密请鲁肃到船中。肃问曰：“公召我来何意？”孔明曰：“特请子敬同往取箭。”肃曰：“何处去取？”孔明曰：“子敬休问，前去便见。”遂命将二十只船，用长索相连，径望北岸进发。是夜大雾漫天，长江之中，雾气更甚，对面不相见。孔明促舟前进，果然是好大雾！前人有篇《大雾垂江赋》曰　：“大哉长江！西接岷、峨，南控三吴，北带九河。汇百川而入海，历万古以扬波。至若龙伯、海若，江妃、水母，长鲸千丈，天蜈九首，鬼怪异类，咸集而有。盖夫鬼神之所凭依，英雄之所战守也。时也阴阳既乱，昧爽不分。讶长空之一色，忽大雾之四屯。虽舆薪而莫睹，惟金鼓之可闻。初若溟蒙，才隐南山之豹；渐而充塞，欲迷北海之鲲。然后上接高天，下垂厚地；渺乎苍茫，浩乎无际。鲸鲵出水而腾波，蛟龙潜渊而吐气。又如梅霖收溽，春阴酿寒；溟溟漠漠，浩浩漫漫。东失柴桑之岸，南无夏口之山。战船千艘，俱沉沦于岩壑；渔舟一叶，惊出没于波澜。甚则穹吴无光，朝阳失色；返白昼为昏黄，变丹山为水碧。虽大禹之智，不能测其浅深；离娄之明，焉能辨乎咫尺？于是冯夷息浪，屏翳收功；鱼鳖遁迹，鸟兽潜踪。隔断蓬莱之岛，暗围阊阖之宫。恍惚奔腾，如骤雨之将至；纷纭杂沓，若寒云之欲同。乃能中隐毒蛇，因之而为瘴疠；内藏妖魅，凭之而为祸害。降疾厄于人间，起风尘于塞外。小民遇之夭伤，大人观之感慨。盖将返元气于洪荒，混天地为大块。”当夜五更时候，船已近曹操水寨。孔明教把船只头西尾东，一带摆开，就船上擂鼓呐喊。鲁肃惊曰：“倘曹兵齐出，如之奈何？”孔明笑曰：“吾料曹操于重雾中必不敢出。吾等只顾酌酒取乐，待雾散便回。”",
+      "却说曹寨中，听得擂鼓呐喊，毛玠、于禁二人慌忙飞报曹操。操传令曰：“重雾迷江，彼军忽至，必有埋伏，切不可轻动。可拨水军弓弩手乱箭射之。”又差人往旱寨内唤张辽、徐晃各带弓弩军三千，火速到江边助射。比及号令到来，毛玠、于禁怕南军抢入水寨，已差弓弩手在寨前放箭；少顷，旱寨内弓弩手亦到，约一万余人，尽皆向江中放箭：箭如雨发。孔明教把船吊回，头东尾西，逼近水寨受箭，一面擂鼓呐喊。待至日高雾散，孔明令收船急回。二十只船两边束草上，排满箭支。孔明令各船上军士齐声叫曰：“谢丞相箭！”比及曹军寨内报知曹操时，这里船轻水急，已放回二十余里，追之不及。曹操懊悔不已。",
+      "却说孔明回船谓鲁肃曰：“每船上箭约五六千矣。不费江东半分之力，已得十万余箭。明日即将来射曹军，却不甚便！”肃曰：“先生真神人也！何以知今日如此大雾？”孔明曰：“为将而不通天文，不识地理，不知奇门，不晓阴阳，不看阵图，不明兵势，是庸才也。亮于三日前已算定今日有大雾，因此敢任三日之限。公瑾教我十日完办，工匠料物，都不应手，将这一件风流罪过，明白要杀我。我命系于天，公瑾焉能害我哉！”鲁肃拜服。",
+      "船到岸时，周瑜已差五百军在江边等候搬箭。孔明教于船上取之，可得十余万枝，都搬入中军帐交纳。鲁肃人见周瑜，备说孔明取箭之事。瑜大惊，慨然叹曰：“孔明神机妙算，吾不如也！”后人有诗赞曰：“一天浓雾满长江，远近难分水渺茫。骤雨飞蝗来战舰，孔明今日伏周郎。”",
+      "少顷，孔明入寨见周瑜。瑜下帐迎之，称羡曰：“先生神算，使人敬服。”孔明曰：“诡谲小计，何足为奇。”"
+    ],
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_a4dea84e9d56.aspx",
+    "sourceTitle": "古诗文网",
+    "readingNote": "《三国演义》第四十六回原著节选。教材课文为现代改写，课后另有原著阅读链接；这里提供古籍原文供对照。",
+    "slug": "a4dea84e9d56",
+    "link": "/primary/works/a4dea84e9d56"
+  },
+  {
+    "id": "jing-yang-gang",
+    "title": "景阳冈",
+    "author": "施耐庵",
+    "dynasty": "明代",
+    "stage": "primary",
+    "book": "五年级下册",
+    "genre": "古典小说",
+    "paragraphs": [
+      "武松在路上行了几日，来到阳谷县地面，此去离县治还远。当日晌午时分，走得肚中饥渴，望见前面有一家酒店，挑着一面招旗在门前，上头写着五个字道：“三碗不过冈。”武松入到里面坐下，把梢棒倚了，叫道：“主人家，快拿酒来吃。”只见店主人把三只碗、一双箸，一碟热菜，放在武松面前，满满筛了一碗酒来。武松拿起碗，一饮而尽，叫道：“这酒好生有气力!主人家，有饱肚的买些吃酒。”酒家道：“只有熟牛肉。”武松道：“好的切二三斤来。”店家去里面切出二斤熟牛肉，做了一大盘子将来，放在武松面前，随即再筛一碗酒。武松吃了道：“好酒!”又筛下一碗。恰好吃了三碗酒，再也不来筛了。武松敲着桌子叫道：“主人家，怎的不来筛酒?”酒家道：“客官要肉便添来。”武松道：“我也要酒，也再切些肉来。”酒家道：“肉便切来，添与客官吃，酒却不添了。”武松道：“却又作怪。”便问主人家道：“你如何不肯卖酒与我吃?”酒家道：“客官，你须见我门前招旗，上明明写道‘三碗不过冈’。”武松道：“怎地唤做‘三碗不过冈’?”酒家道：“俺家的酒，虽是村酒，却比老酒的滋味。但凡客人来我店中吃了三碗的，就醉了，过不得前面的山冈去。因此唤做‘三碗不过冈’。若是过往客人到此，只吃三碗，就不再问。”武松笑道：“原来恁地。我却吃了三碗，如何不醉?”酒家道：“我这酒叫做‘透瓶香’，又唤做‘出门倒’，初入口时，醇醲好吃，少顷刻便倒。”武松道：“休要胡说!没地不还你钱!再筛三碗来我吃!”酒家见武松全然不动，又筛三碗。武松吃道：“端的好酒!主人家，我吃一碗，还你一碗钱，只顾筛来。”酒家道：“客官休只管要饮，这酒端的要醉倒人，没药医。”武松道：“休得胡说!便是你使蒙汗药在里面，我也有鼻子。”店家被他发话不过，一连又筛了三碗。武松道：“肉便再把二斤来吃。”酒家又切了二斤熟牛肉，再筛了三碗酒。武松吃得口滑，只顾要吃，去身边取出些碎银子，叫道：“主人家，你且来看我银子，还你酒肉钱勾么?”酒家看了道：“有余。还有些贴钱与你。”武松道：“不要你贴钱。只将酒来筛。”酒家道：“客官，你要吃酒时，还有五六碗酒哩!只怕你吃不的了。”武松道：“就有五六碗多时，你尽数筛将来。”酒家道：“你这条长汉，倘或醉倒了时，怎扶的你住?”武松答道：“要你扶的不算好汉。”酒家再筛了六碗酒与武松吃了。绰起梢棒，立起身来道：“我却又不曾醉!”走出门前来笑道：“却不说‘三碗不过冈’!”手提梢棒便走。",
+      "酒家赶出来叫道：“客官那里去!”武松立住了，问道：“叫我做甚么?我又不少你酒钱，唤我怎地?”酒家叫道：“我是好意。你且回来我家看官司榜文。”武松道：“甚么榜文?”酒家道：“如今前面景阳冈上，有只吊睛白额大虫，晚了出来伤人，坏了三二十条大汉性命。官司如今杖限打猎捕户，擒捉发落。冈子路口两边人民，都有榜文。可教往来客人，结伙成队，于巳、午、未三个时辰过冈，其余寅、卯、申、酉、戌、亥六个时辰，不许过冈。更兼单身客人，不许白日过冈，务要等伴结伙而过。这早晚正是未末申初时分，我见你走都不问人，枉送了自家性命。不如就我此间歇了，等明日慢慢凑的三二十人，一齐好过冈子。”武松听了，笑道：“我是清河县人氏，这条景阳冈上少也走过了一二十遭，几时见说有大虫?你休说这话来吓我。便有大虫，我也不怕!”酒家道：“我是好意救你，你不信时，进来看官司榜文。”武松道：“便真个有虎，老爷也不怕!你留我在家里歇，莫不半夜三更要谋我财，害我性命，却把大虫吓我。”酒家道：“你看么!我是一片好心，反做恶意，倒落得你恁地说。你不信我时，请尊便自行。”",
+      "那酒店里主人摇着头，自进店里去了。这武松提了梢棒，大着步自过景阳冈来。约行了四五里路，来到冈子下，见一大树，刮去了皮，一片白，上写两行字。武松也颇识几字，抬头看时，上面写道：“近因景阳冈大虫伤人，但有过往客商，可于巳、午、未三个时辰，结伙成队过冈，请勿自误。”武松看了，笑道：“这是酒家诡诈，惊吓那等客人，便去那厮家里宿歇。我却怕甚么!”横拖着梢棒，便上冈子来。那时已有申牌时分。这轮红日，厌厌地相傍下山。武松乘着酒兴，只管走上冈子来。走不到半里多路，见一个败落的山神庙。行到庙前，见这庙门上贴着一张印信榜文。武松住了脚读时，上面写道：",
+      "“阳谷县示：为景阳冈上新有一只大虫，伤害人命。见今杖限各乡里正并猎户人等，打捕未获。如有过往客商人等，可于巳、午、未三个时辰，结伴过冈。其余时分及单身客人，白日不许过冈。恐被伤害性命不便。各宜知悉。”",
+      "武松读了印信榜文，方知端的有虎。欲待转身再回酒店里来，寻思道：“我回去时，须吃他耻笑，不是好汉，难以转去。”存想了一回，说道：“怕甚么!且只顾上去，看怎地!”武松正走，看看酒涌上来，便把毡笠儿背在脊梁上，将梢棒绾在肋下，一步步上那冈子来。回头看这日色时。渐渐地坠下去了。此时正是十月间天气，日短夜长，容易得晚。武松自言自说道：“那得甚么大虫?人自怕了，不敢上山。”武松走了一直，酒力发作，焦热起来。一只手提着梢棒，一只手把胸膛前袒开，踉踉跄跄，直奔过乱树林来。见一块光挞挞大青石，把那梢棒倚在一边，放翻身体，却待要睡，只见发起一阵狂风来。",
+      "那一阵风过处，只听得乱树背后扑地一声响，跳出一只吊睛白额大虫来。武松见了，叫声：“呵呀!”从青石上翻将下来，便拿那条梢棒在手里，闪在青石边。那个大虫又饥又渴，把两只爪在地下略按一按，和身望上一扑，从半空里撺将下来。武松被那一惊，酒都做冷汗出了。说时迟，那时快，武松见大虫扑来，只一闪，闪在大虫背后。那大虫背后看人最难，便把前爪搭在地下，把腰胯一掀，掀将起来。武松只一躲，躲在一边。大虫见掀他不着，吼一声，却似半天里起个霹雳，振得那山冈也动，把这铁棒也似虎尾倒竖起来，只一剪，武松却又闪在一边。原来那大虫拿人，只是一扑，一掀，一剪，三般提不着时，气性先自没了一半。那大虫又剪不着，再吼了一声，一兜兜将回来。武松见那大虫复翻身回来，双手抡起梢棒，尽平生气力，只一棒，从半空劈将下来。只听得一声响，簌簌地将那树连枝带叶劈脸打将下来。定睛看时，一棒劈不着大虫。原来慌了，正打在枯树上，把那条梢棒折做两截，只拿得一半在手里。那大虫咆哮，性发起来，翻身又只一扑，扑将来。武松又只一跳，却退了十步远。那大虫恰好把两只前爪搭在武松面前。武松将半截棒丢在一边，两只手就势把大虫顶花皮揪住，一按按将下来。那只大虫急要挣扎，早没了气力，被武松尽气力纳定，那里肯放半点儿松宽。武松把只脚往大虫面门上、眼睛里只顾乱踢。那大虫咆哮起来，把身底下扒起两堆黄泥，做了一个土坑。武松把那大虫嘴直按下黄泥坑里去，那大虫吃武松奈何得没了些气力。武松把左手紧紧地揪住顶花皮，偷出右手来，提起铁锤般大小拳头，尽平生之力，只顾打。打到五七十拳，那大虫眼里、口里、鼻子里、耳朵里都迸出鲜血来。那武松尽平昔神威，仗胸中武艺，半歇儿把大虫打做一堆，却似躺着一个锦皮袋。",
+      "武松放了手，来松树边寻那打折的棒橛，拿在手里，只怕大虫不死，把棒橛又打了一回，那大虫气都没了。武松再寻思道：“我就地拖得这死大虫下冈子去。”就血泊里双手来提时，那里提得动?原来使尽了气力，手脚都疏软了。",
+      "武松再来青石坐了半歇，寻思道：“天色看看黑了，倘或又跳出一只大虫来时，我却怎地斗得他过?且挣扎下冈子去，明早却来理会。”就石头边寻了毡笠儿，转过乱树林边，一步步挨下冈子来。"
+    ],
+    "sourceUrl": "https://hanchacha.com/yuwen/16952103453478.html",
+    "sourceTitle": "汉查查原文",
+    "readingNote": "《水浒传》节选，叙述武松在景阳冈打虎的故事。",
+    "slug": "jing-yang-gang",
+    "link": "/primary/works/jing-yang-gang"
+  },
+  {
+    "id": "0f21bfb67edf",
+    "title": "猴王出世",
+    "author": "吴承恩",
+    "dynasty": "明代",
+    "stage": "primary",
+    "book": "五年级下册",
+    "genre": "古典小说",
+    "paragraphs": [
+      "海外有一国土，名曰傲来国。国近大海，海中有一座名山，唤为花果山。那座山正当顶上，有一块仙石。其石有三丈六尺五寸高，有二丈四尺围圆。四面更无树木遮阴，左右倒有芝兰相衬。盖自开辟以来，每受天真地秀，日精月华，感之既久，遂有灵通之意。内育仙胞，一日迸裂，产一石卵，似圆球样大。因见风，化作一个石猴。那猴在山中，却会行走跳跃，食草木，饮涧泉，采山花，觅树果；与狼虫为伴，虎豹为群，獐鹿为友，猕猿为亲；夜宿石崖之下，朝游峰洞之中。",
+      "一朝天气炎热，与群猴避暑，都在松阴之下顽耍。一群猴子耍了一会，却去那山涧中洗澡。见那股涧水奔流，真个似滚瓜涌溅。古云：“禽有禽言，兽有兽语。”众猴都道：“这股水不知是哪里的水。我们今日赶闲无事，顺涧边往上溜头寻看源流，耍子去耶！”喊一声，都拖男挈女，唤弟呼兄，一齐跑来，顺涧爬山，直至源流之处，乃是一股瀑布飞泉。众猴拍手称扬道：“好水！好水！原来此处远通山脚之下，直接大海之波。”又道：“哪一个有本事的，钻进去寻个源头出来，不伤身体者，我等即拜他为王。”连呼了三声，忽见丛杂中跳出一个石猴，应声高叫道：“我进去！我进去！”他瞑目蹲身，将身一纵，径跳入瀑布泉中，忽睁睛抬头观看，那里边却无水无波，明明朗朗的一架桥梁。他住了身，定了神，仔细再看，原来是座铁板桥。桥下之水，冲贯于石窍之间，倒挂流出去，遮闭了桥门。却又欠身上桥头，再走再看，却似有人家住处一般，真个好所在。石猴看罢多时，跳过桥中间，左右观看，只见正当中有一石碣。碣上有一行楷书大字，镌着“花果山福地，水帘洞洞天”。",
+      "石猴喜不自胜，忽抽身往外便走，复瞑目蹲身，跳出水外，打了两个呵呵道：“大造化！大造化！”众猴把他围住，问道：“里面怎么样？水有多深？”石猴道：“没水！没水！原来是一座铁板桥。桥那边是一座天造地设的家当。”众猴道：“怎见得是个家当？”石猴笑道：“这股水乃是桥下冲贯石窍，倒挂下来遮闭门户的。桥边有花有树，乃是一座石房。房内有石锅、石灶、石碗、石盆、石床、石凳。中间一块石碣上，镌着‘花果山福地，水帘洞洞天’。真个是我们安身之处。里面且是宽阔，容得千百口老小。我们都进去住，也省得受老天之气。”",
+      "众猴听得，个个欢喜。都道：“你还先走，带我们进去，进去！”石猴却又瞑目蹲身，往里一跳，叫道：“都随我进来！进来！”那些猴有胆大的，都跳进去了；胆小的，一个个伸头缩颈，抓耳挠腮，大声叫喊，缠一会，也都进去了。跳过桥头，一个个抢盆夺碗，占灶争床，搬过来，移过去，正是猴性顽劣，再无一个宁时，只搬得力倦神疲方止。石猴端坐上面道：“列位呵，‘人而无信，不知其可。’你们才说有本事进得来，出得去，不伤身体者，就拜他为王。我如今进来又出去，出去又进来，寻了这一个洞天与列位安眠稳睡，各享成家之福，何不拜我为王？”众猴听说，即拱伏无违。一个个序齿排班，朝上礼拜。都称“千岁大王”。自此，石猴高登王位，将“石”字隐了，遂称美猴王。"
+    ],
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_0f21bfb67edf.aspx",
+    "sourceTitle": "古诗文网",
+    "readingNote": "古典小说原文节选；教材对部分字词、标点和节选起止可能作调整。",
+    "slug": "0f21bfb67edf",
+    "link": "/primary/works/0f21bfb67edf"
+  },
+  {
+    "id": "3926cb627b1b",
+    "title": "红楼春趣",
+    "author": "曹雪芹",
+    "dynasty": "清代",
+    "stage": "primary",
+    "book": "五年级下册",
+    "genre": "古典小说",
+    "paragraphs": [
+      "一语未了， 只听窗外竹子上一声响，恰似窗屉子倒了一般，众人吓了一跳。丫鬟们出去瞧时，帘外丫鬟嚷道：“一个大蝴蝶风筝，挂在竹梢上了。”众丫鬟笑道：“好一个齐整风筝！不知是谁家的，铰断了线。咱们拿下他来。”宝玉等听了，也都出来看时，宝玉笑道：“我认得这风筝，这是大老爷那院里嫣红姑娘放的。拿下来给他送过去罢。”紫鹃笑道：“难道天下没有一样的风筝，单有这个不成？二爷也太死心眼儿了！我不管，我且拿起来。”探春道：“紫鹃也太小器了，你们一般有的，这会子拾人走了的，也不嫌个忌讳？”黛玉笑道：“可是呢。把咱们的拿出来，咱们也放放晦气。”",
+      "丫头们听见放风筝，巴不得一声儿，七手八脚，都忙着拿出来：也有美人儿的，也有沙雁儿的。丫头们搬高墩，捆剪子股儿，一面拨起籰子来。宝钗等都立在院门前，命丫头们在院外敞地下放去。宝琴笑道：“你这个不好看，不如三姐姐的一个软翅子大凤凰好。”宝钗回头向翠墨笑道：“你去把你们的拿来也放放。”",
+      "宝玉又兴头起来，也打发个小丫头子家去，说：“把昨儿赖大娘送我的那个大鱼取来。”小丫头子去了半天，空手回来，笑道：“晴雯姑娘昨儿放走了。”宝玉道：“我还没放一遭儿呢！” 探春笑道：“横竖是给你放晦气罢了！”宝玉道：“再把大螃蟹拿来罢。”丫头去了，同了几个人，扛了一个美人并籰子来，回说：“袭姑娘说：昨儿把螃蟹给了三爷了，这一个是林大娘才送来的，放这一个罢。”宝玉细看了一回，只见这美人做的十分精致，心中欢喜，便叫：“放起来！”",
+      "此时探春的也取了来，丫头们在那山坡上已放起来。宝琴叫丫头放起一个大蝙蝠来，宝钗也放起个一连七个大雁来，独有宝玉的美人，再放不起来。宝玉说丫头们不会放，自己放了半天，只起房高，就落下来，急的头上的汗都出来了。众人都笑他，他便恨的摔在地下，指着风筝说道：“要不是个美人，我一顿脚跺个稀烂。”黛玉笑道：“那是顶线不好，拿去叫人换好了，就好放了再取一个来放吧。”",
+      "宝玉等大家都仰面看天上这几个风筝起在空中。一时风紧，众丫鬟都用绢子垫着手放。黛玉见风力紧了，过去将籰子一松，只听“豁喇喇”一阵响，登时线尽，风筝随风去了。黛玉因让众人来放。众人都说：“林姑娘的病根儿都放了去了，咱们大家都放了吧。”于是丫头们拿过一把剪子来，铰断了线，那风筝都飘飘飖飖随风而去。一时只有鸡蛋大小，一展眼只剩下一点黑星儿，一会儿就不见了。众人仰面说道：“有趣，有趣！”说着，有丫头来请吃饭，大家方散。"
+    ],
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_3926cb627b1b.aspx",
+    "sourceTitle": "古诗文网",
+    "readingNote": "古典小说原文节选；教材对部分字词、标点和节选起止可能作调整。",
+    "slug": "3926cb627b1b",
+    "link": "/primary/works/3926cb627b1b"
+  },
+  {
+    "id": "0a0cf85",
+    "title": "鸟鸣涧",
+    "author": "王维",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "人闲桂花落，夜静春山空。",
+      "月出惊山鸟，时鸣春涧中。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/0a0cf85/",
+    "sourceTitle": "古诗文库",
+    "slug": "0a0cf85",
+    "link": "/primary/works/0a0cf85"
+  },
+  {
+    "id": "aaad75e",
+    "title": "从军行",
+    "author": "王昌龄",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "青海长云暗雪山，孤城遥望玉门关。",
+      "黄沙百战穿金甲，不破楼兰终不还。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/aaad75e/",
+    "sourceTitle": "古诗文库",
+    "slug": "aaad75e",
+    "link": "/primary/works/aaad75e"
+  },
+  {
+    "id": "2bb4287",
+    "title": "秋夜将晓出篱门迎凉有感",
+    "author": "陆游",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "三万里河东入海，五千仞岳上摩天。",
+      "遗民泪尽胡尘里，南望王师又一年。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2bb4287/",
+    "sourceTitle": "古诗文库",
+    "slug": "2bb4287",
+    "link": "/primary/works/2bb4287"
+  },
+  {
+    "id": "8ff9e79",
+    "title": "闻官军收河南河北",
+    "author": "杜甫",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "剑外忽传收蓟北，初闻涕泪满衣裳。",
+      "却看妻子愁何在，漫卷诗书喜欲狂。",
+      "白日放歌须纵酒，青春作伴好还乡。",
+      "即从巴峡穿巫峡，便下襄阳向洛阳。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/8ff9e79/",
+    "sourceTitle": "古诗文库",
+    "slug": "8ff9e79",
+    "link": "/primary/works/8ff9e79"
+  },
+  {
+    "id": "d0ad9af",
+    "title": "凉州词",
+    "author": "王之涣",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "黄河远上白云间，一片孤城万仞山。",
+      "羌笛何须怨杨柳，春风不度玉门关。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/d0ad9af/",
+    "sourceTitle": "古诗文库",
+    "slug": "d0ad9af",
+    "link": "/primary/works/d0ad9af"
+  },
+  {
+    "id": "liang-jing-deng-cao",
+    "title": "两茎灯草",
+    "author": "吴敬梓",
+    "dynasty": "清代",
+    "stage": "primary",
+    "book": "五年级下册",
+    "genre": "古典小说",
+    "paragraphs": [
+      "自此，严监生的病，一日重似一日，再不回头。诸亲六眷都来问候。五个侄子穿梭的过来陪郎中弄药。到中秋已后，医家都不下药了。把管庄的家人都从乡里叫了上来。病重得一连三天不能说话。晚间挤了一屋的人，桌上点着一盏灯。严监生喉咙里痰响得一进一出，一声不倒一声的，总不得断气，还把手从被单里拿出来，伸着两个指头。大侄子走上前来问道：“二叔，你莫不是还有两个亲人不曾见面？”他就把头摇了两三摇。二侄子走上前来问道：“二叔，莫不是还有两笔银子在那里，不曾吩咐明白？”他把两眼睁的的溜圆，把头又狠狠摇了几摇，越发指得紧了。奶妈抱着哥子插口道：“老爷想是因两位舅爷不在跟前，故此记念。”他听了这话，把眼闭着摇头，那手只是指着不动。赵氏慌忙揩揩眼泪，走近上前道：“爷，别人都说的不相干，只有我晓得你的意思！你是为那灯盏里点的是两茎灯草，不放心，恐费了油。我如今挑掉一茎就是了。”说罢，忙走去挑掉一茎。众人看严监生时，点一点头，把手垂下，登时就没了气。"
+    ],
+    "sourceUrl": "https://m.cngwzj.com/gushi/KeWen/88441/",
+    "sourceTitle": "古文之家",
+    "readingNote": "《儒林外史》第五回节选，属《人物描写一组》中的古典小说片段。",
+    "slug": "liang-jing-deng-cao",
+    "link": "/primary/works/liang-jing-deng-cao"
+  },
+  {
+    "id": "2d0420a",
+    "title": "自相矛盾",
+    "author": "韩非",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "楚人有鬻盾与矛者，誉之曰：“吾盾之坚，物莫能陷也。”",
+      "又誉其矛曰：“吾矛之利，于物无不陷也。”",
+      "或曰：“以子之矛陷子之盾，何如？”",
+      "其人弗能应也。夫不可陷之盾与无不陷之矛，不可同世而立。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2d0420a/",
+    "sourceTitle": "古诗文库",
+    "slug": "2d0420a",
+    "link": "/primary/works/2d0420a"
+  },
+  {
+    "id": "8f39357",
+    "title": "乡村四月",
+    "author": "翁卷",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "绿遍山原白满川，子规声里雨如烟。",
+      "乡村四月闲人少，才了蚕桑又插田。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/8f39357/",
+    "sourceTitle": "古诗文库",
+    "slug": "8f39357",
+    "link": "/primary/works/8f39357"
+  },
+  {
+    "id": "e02c2a0",
+    "title": "杨氏之子",
+    "author": "刘义庆",
+    "book": "五年级下册",
+    "stage": "primary",
+    "dynasty": "南北朝",
+    "genre": "文言文",
+    "paragraphs": [
+      "梁国杨氏子九岁，甚聪惠。孔君平诣其父，父不在，乃呼儿出。为设果，果有杨梅。孔指以示儿曰：“此是君家果。”",
+      "儿应声答曰：“未闻孔雀是夫子家禽。”"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/e02c2a0/",
+    "sourceTitle": "古诗文库",
+    "slug": "e02c2a0",
+    "link": "/primary/works/e02c2a0"
+  },
+  {
+    "id": "cb40448",
+    "title": "宿建德江",
+    "author": "孟浩然",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "移舟泊烟渚，日暮客愁新。",
+      "野旷天低树，江清月近人。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/cb40448/",
+    "sourceTitle": "古诗文库",
+    "slug": "cb40448",
+    "link": "/primary/works/cb40448"
+  },
+  {
+    "id": "2243dbc",
+    "title": "六月二十七日望湖楼醉书",
+    "author": "苏轼",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "黑云翻墨未遮山，白雨跳珠乱入船。",
+      "卷地风来忽吹散，望湖楼下水如天。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2243dbc/",
+    "sourceTitle": "古诗文库",
+    "slug": "2243dbc",
+    "link": "/primary/works/2243dbc"
+  },
+  {
+    "id": "39f9dfd",
+    "title": "西江月·夜行黄沙道中",
+    "author": "辛弃疾",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "明月别枝惊鹊，清风半夜鸣蝉。稻花香里说丰年，听取蛙声一片。",
+      "七八个星天外，两三点雨山前。旧时茅店社林边，路转溪桥忽见。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/39f9dfd/",
+    "sourceTitle": "古诗文库",
+    "slug": "39f9dfd",
+    "link": "/primary/works/39f9dfd"
+  },
+  {
+    "id": "4ec82fd",
+    "title": "七律·长征",
+    "author": "毛泽东",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "现代",
+    "genre": "诗词曲",
+    "paragraphs": [],
+    "copyrightProtected": true,
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4ec82fd/",
+    "sourceTitle": "古诗文库",
+    "slug": "4ec82fd",
+    "link": "/primary/works/4ec82fd"
+  },
+  {
+    "id": "640172c",
+    "title": "观书有感二首·其二",
+    "author": "朱熹",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "昨夜江边春水生，艨艟巨舰一毛轻。",
+      "向来枉费推移力，此日中流自在行。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/640172c/",
+    "sourceTitle": "古诗文库",
+    "slug": "640172c",
+    "link": "/primary/works/640172c"
+  },
+  {
+    "id": "0355f9b",
+    "title": "送元二使安西",
+    "author": "王维",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "渭城朝雨浥轻尘，客舍青青柳色新。",
+      "劝君更尽一杯酒，西出阳关无故人。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/0355f9b/",
+    "sourceTitle": "古诗文库",
+    "slug": "0355f9b",
+    "link": "/primary/works/0355f9b",
+    "additionalBooks": [
+      "六年级下册"
+    ]
+  },
+  {
+    "id": "c319c0c",
+    "title": "浪淘沙·九曲黄河万里沙",
+    "author": "刘禹锡",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "九曲黄河万里沙，浪淘风簸自天涯。",
+      "如今直上银河去，同到牵牛织女家。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c319c0c/",
+    "sourceTitle": "古诗文库",
+    "slug": "c319c0c",
+    "link": "/primary/works/c319c0c"
+  },
+  {
+    "id": "5b9dfb4",
+    "title": "江南春",
+    "author": "杜牧",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "千里莺啼绿映红，水村山郭酒旗风。",
+      "南朝四百八十寺，多少楼台烟雨中。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5b9dfb4/",
+    "sourceTitle": "古诗文库",
+    "slug": "5b9dfb4",
+    "link": "/primary/works/5b9dfb4"
+  },
+  {
+    "id": "1d8462f",
+    "title": "书湖阴先生壁",
+    "author": "王安石",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "茅檐长扫净无苔，花木成畦手自栽。",
+      "一水护田将绿绕，两山排闼送青来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/1d8462f/",
+    "sourceTitle": "古诗文库",
+    "slug": "1d8462f",
+    "link": "/primary/works/1d8462f"
+  },
+  {
+    "id": "ec01946",
+    "title": "过故人庄",
+    "author": "孟浩然",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "故人具鸡黍，邀我至田家。",
+      "绿树村边合，青山郭外斜。",
+      "开轩面场圃，把酒话桑麻。",
+      "待到重阳日，还来就菊花。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ec01946/",
+    "sourceTitle": "古诗文库",
+    "slug": "ec01946",
+    "link": "/primary/works/ec01946"
+  },
+  {
+    "id": "0e2c8bd",
+    "title": "两小儿辩日",
+    "author": "列子",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "孔子东游，见两小儿辩斗，问其故。",
+      "一儿曰：“我以日始出时去人近，而日中时远也。”",
+      "一儿曰：“我以日初出远，而日中时近也。”",
+      "一儿曰：“日初出大如车盖，及日中则如盘盂，此不为远者小而近者大乎？”",
+      "一儿曰：“日初出沧沧凉凉，及其日中如探汤，此不为近者热而远者凉乎？”",
+      "孔子不能决也。",
+      "两小儿笑曰：“孰为汝多知乎？”"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/0e2c8bd/",
+    "sourceTitle": "古诗文库",
+    "slug": "0e2c8bd",
+    "link": "/primary/works/0e2c8bd",
+    "additionalBooks": [
+      "六年级下册"
+    ]
+  },
+  {
+    "id": "c5c14020ae4a",
+    "title": "曹冲称象",
+    "author": "陈寿",
+    "dynasty": "魏晋",
+    "stage": "primary",
+    "book": "六年级上册",
+    "genre": "文言文",
+    "paragraphs": [
+      "邓哀王冲字仓舒。少聪察岐嶷，生五六岁，智意所及，有若成人之智。时孙权曾致巨象，太祖欲知其斤重，访之群下，咸莫能出其理。冲曰：“置象大船之上，而刻其水痕所至，称物以载之，则校可知矣。”太祖大悦，即施行焉。"
+    ],
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_31b814913b16.aspx",
+    "sourceTitle": "古诗文网",
+    "readingNote": "《三国志》节选，新版六年级上册《文言文二则》之一。",
+    "slug": "c5c14020ae4a",
+    "link": "/primary/works/c5c14020ae4a"
+  },
+  {
+    "id": "79f81b0",
+    "title": "春日",
+    "author": "朱熹",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "胜日寻芳泗水滨，无边光景一时新。",
+      "等闲识得东风面，万紫千红总是春。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/79f81b0/",
+    "sourceTitle": "古诗文库",
+    "slug": "79f81b0",
+    "link": "/primary/works/79f81b0",
+    "legacy": true,
+    "readingNote": "旧版六年级上册选篇，保留作延伸阅读。"
+  },
+  {
+    "id": "7d5de42",
+    "title": "回乡偶书",
+    "author": "贺知章",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "少小离家老大回，乡音无改鬓毛衰。",
+      "儿童相见不相识，笑问客从何处来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/7d5de42/",
+    "sourceTitle": "古诗文库",
+    "slug": "7d5de42",
+    "link": "/primary/works/7d5de42",
+    "legacy": true,
+    "readingNote": "旧版六年级上册选篇，保留作延伸阅读。"
+  },
+  {
+    "id": "f4fab71",
+    "title": "伯牙鼓琴",
+    "author": "佚名",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "伯牙鼓琴，锺子期听之。方鼓琴而志在太山，锺子期曰：“善哉乎鼓琴，巍巍乎若太山。”",
+      "少选之间而志在流水，锺子期又曰：“善哉乎鼓琴，汤汤乎若流水。”",
+      "锺子期死，伯牙破琴绝弦，终身不复鼓琴，以为世无足复为鼓琴者。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f4fab71/",
+    "sourceTitle": "古诗文库",
+    "slug": "f4fab71",
+    "link": "/primary/works/f4fab71",
+    "legacy": true,
+    "readingNote": "旧版六年级上册选篇，保留作延伸阅读。"
+  },
+  {
+    "id": "fcf90fb",
+    "title": "书戴嵩画牛",
+    "author": "苏轼",
+    "book": "六年级上册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "文言文",
+    "paragraphs": [
+      "蜀中有杜处士，好书画，所宝以百数。有戴嵩《牛》一轴，尤所爱，锦囊玉轴，常以自随。一日，曝书画，有一牧童见之，拊掌大笑。",
+      "曰：“此画斗牛也？牛斗，力在角，尾搐入两股间。今乃掉尾而斗，谬矣。”处士笑而然之。",
+      "古语有云：“耕当问奴，织当问婢。”不可改也。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/fcf90fb/",
+    "sourceTitle": "古诗文库",
+    "slug": "fcf90fb",
+    "link": "/primary/works/fcf90fb",
+    "legacy": true,
+    "readingNote": "旧版六年级上册选篇，保留作延伸阅读。"
+  },
+  {
+    "stage": "primary",
+    "title": "菩萨蛮·大柏地",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_97f3412c43e2.aspx",
+    "id": "97f3412c43e2",
+    "author": "毛泽东",
+    "dynasty": "现代",
+    "genre": "诗词曲",
+    "paragraphs": [],
+    "copyrightProtected": true,
+    "book": "六年级上册",
+    "sourceTitle": "古诗文网",
+    "slug": "97f3412c43e2",
+    "link": "/primary/works/97f3412c43e2",
+    "legacy": true,
+    "readingNote": "旧版六年级上册选篇，保留作延伸阅读。"
+  },
+  {
+    "id": "1c5f8f2",
+    "title": "寒食",
+    "author": "韩翃",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "春城无处不飞花，寒食东风御柳斜。",
+      "日暮汉宫传蜡烛，轻烟散入五侯家。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/1c5f8f2/",
+    "sourceTitle": "古诗文库",
+    "slug": "1c5f8f2",
+    "link": "/primary/works/1c5f8f2"
+  },
+  {
+    "id": "0ff14e0",
+    "title": "迢迢牵牛星",
+    "author": "佚名",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "迢迢牵牛星，皎皎河汉女。",
+      "纤纤擢素手，札札弄机杼。",
+      "终日不成章，泣涕零如雨。",
+      "河汉清且浅，相去复几许？",
+      "盈盈一水间，脉脉不得语。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/0ff14e0/",
+    "sourceTitle": "古诗文库",
+    "slug": "0ff14e0",
+    "link": "/primary/works/0ff14e0"
+  },
+  {
+    "id": "4624da8",
+    "title": "十五夜望月",
+    "author": "王建",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "中庭地白树栖鸦，冷露无声湿桂花。",
+      "今夜月明人尽望，不知秋思落谁家？"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4624da8/",
+    "sourceTitle": "古诗文库",
+    "slug": "4624da8",
+    "link": "/primary/works/4624da8"
+  },
+  {
+    "id": "092a59c",
+    "title": "长歌行",
+    "author": "汉乐府",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "青青园中葵，朝露待日晞。",
+      "阳春布德泽，万物生光辉。",
+      "常恐秋节至，焜黄华叶衰。",
+      "百川东到海，何时复西归？",
+      "少壮不努力，老大徒伤悲。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/092a59c/",
+    "sourceTitle": "古诗文库",
+    "slug": "092a59c",
+    "link": "/primary/works/092a59c"
+  },
+  {
+    "id": "1c6def1",
+    "title": "马诗",
+    "author": "李贺",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "大漠沙如雪，燕山月似钩。",
+      "何当金络脑，快走踏清秋。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/1c6def1/",
+    "sourceTitle": "古诗文库",
+    "slug": "1c6def1",
+    "link": "/primary/works/1c6def1"
+  },
+  {
+    "id": "c48280d",
+    "title": "石灰吟",
+    "author": "于谦",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "明代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "千锤万凿出深山，烈火焚烧若等闲。",
+      "粉骨碎身浑不怕，要留清白在人间。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c48280d/",
+    "sourceTitle": "古诗文库",
+    "slug": "c48280d",
+    "link": "/primary/works/c48280d"
+  },
+  {
+    "id": "327f0ca",
+    "title": "竹石",
+    "author": "郑板桥",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "清代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "咬定青山不放松，立根原在破岩中。",
+      "千磨万击还坚劲，任尔东西南北风。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/327f0ca/",
+    "sourceTitle": "古诗文库",
+    "slug": "327f0ca",
+    "link": "/primary/works/327f0ca"
+  },
+  {
+    "id": "475d4f6",
+    "title": "学弈",
+    "author": "孟子及其弟子",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "弈秋，通国之善弈者也。使弈秋诲二人弈，其一人专心致志，惟弈秋之为听；一人虽听之，一心以为有鸿鹄将至，思援弓缴而射之。虽与之俱学，弗若之矣。为是其智弗若与？曰：非然也。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/475d4f6/",
+    "sourceTitle": "古诗文库",
+    "slug": "475d4f6",
+    "link": "/primary/works/475d4f6"
+  },
+  {
+    "id": "c5e83ed",
+    "title": "采薇（节选）",
+    "author": "佚名",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "先秦",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "昔我往矣，杨柳依依。",
+      "今我来思，雨雪霏霏。",
+      "行道迟迟，载渴载饥。",
+      "我心伤悲，莫知我哀！"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c5e83ed/",
+    "sourceTitle": "古诗文库",
+    "slug": "c5e83ed",
+    "link": "/primary/works/c5e83ed"
+  },
+  {
+    "id": "b29f7ab",
+    "title": "春夜喜雨",
+    "author": "杜甫",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "好雨知时节，当春乃发生。",
+      "随风潜入夜，润物细无声。",
+      "野径云俱黑，江船火独明。",
+      "晓看红湿处，花重锦官城。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/b29f7ab/",
+    "sourceTitle": "古诗文库",
+    "slug": "b29f7ab",
+    "link": "/primary/works/b29f7ab"
+  },
+  {
+    "id": "4f4460b",
+    "title": "泊船瓜洲",
+    "author": "王安石",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "京口瓜洲一水间，钟山只隔数重山。",
+      "春风又绿江南岸，明月何时照我还？"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/4f4460b/",
+    "sourceTitle": "古诗文库",
+    "slug": "4f4460b",
+    "link": "/primary/works/4f4460b"
+  },
+  {
+    "id": "7845ffa",
+    "title": "游园不值",
+    "author": "叶绍翁",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "应怜屐齿印苍苔，小扣柴扉久不开。",
+      "春色满园关不住，一枝红杏出墙来。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/7845ffa/",
+    "sourceTitle": "古诗文库",
+    "slug": "7845ffa",
+    "link": "/primary/works/7845ffa"
+  },
+  {
+    "id": "f3135f7",
+    "title": "卜算子·送鲍浩然之浙东",
+    "author": "王观",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "水是眼波横，山是眉峰聚。欲问行人去那边，眉眼盈盈处。",
+      "才始送春归，又送君归去。若到江南赶上春，千万和春住。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f3135f7/",
+    "sourceTitle": "古诗文库",
+    "slug": "f3135f7",
+    "link": "/primary/works/f3135f7"
+  },
+  {
+    "id": "48abcc8",
+    "title": "浣溪沙·游蕲水清泉寺",
+    "author": "苏轼",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "山下兰芽短浸溪，松间沙路净无泥。萧萧暮雨子规啼。",
+      "谁道人生无再少，门前流水尚能西。休将白发唱黄鸡。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/48abcc8/",
+    "sourceTitle": "古诗文库",
+    "slug": "48abcc8",
+    "link": "/primary/works/48abcc8"
+  },
+  {
+    "id": "158b3ab",
+    "title": "清平乐·春归何处",
+    "author": "黄庭坚",
+    "book": "六年级下册",
+    "stage": "primary",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "春归何处？寂寞无行路。若有人知春去处，唤取归来同住。",
+      "春无踪迹谁知？除非问取黄鹂。百啭无人能解，因风飞过蔷薇。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/158b3ab/",
+    "sourceTitle": "古诗文库",
+    "slug": "158b3ab",
+    "link": "/primary/works/158b3ab"
+  },
+  {
     "id": "bd40b79",
     "title": "观沧海",
     "author": "曹操",
@@ -45,7 +2542,7 @@
     "book": "七年级上册",
     "stage": "junior",
     "dynasty": "唐代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "杨花落尽子规啼，闻道龙标过五溪。",
       "我寄愁心与明月，随君直到夜郎西。"
@@ -135,68 +2632,31 @@
     "link": "/junior/works/01a698f"
   },
   {
-    "id": "f777f7e",
-    "title": "峨眉山月歌",
-    "author": "李白",
+    "id": "57d4d5c",
+    "title": "梅岭三章",
+    "author": "陈毅",
     "book": "七年级上册",
     "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
+    "dynasty": "近现代",
+    "genre": "诗词曲",
     "paragraphs": [
-      "峨眉山月半轮秋，影入平羌江水流。",
-      "夜发清溪向三峡，思君不见下渝州。"
+      "【其一】",
+      "断头今日意如何？创业艰难百战多。",
+      "此去泉台招旧部，旌旗十万斩阎罗。",
+      "【其二】",
+      "南国烽烟正十年，此头须向国门悬。",
+      "后死诸君多努力，捷报飞来当纸钱。",
+      "【其三】",
+      "投生革命即为家，血雨腥风应有涯。",
+      "取义成仁今日事，人间遍种自由花。"
     ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f777f7e/",
-    "slug": "f777f7e",
-    "link": "/junior/works/f777f7e"
-  },
-  {
-    "id": "aebb74f",
-    "title": "江南逢李龟年",
-    "author": "杜甫",
-    "book": "七年级上册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "岐王宅里寻常见，崔九堂前几度闻。",
-      "正是江南好风景，落花时节又逢君。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/aebb74f/",
-    "slug": "aebb74f",
-    "link": "/junior/works/aebb74f"
-  },
-  {
-    "id": "c6668ce",
-    "title": "行军九日思长安故园",
-    "author": "岑参",
-    "book": "七年级上册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "强欲登高去，无人送酒来。",
-      "遥怜故园菊，应傍战场开。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c6668ce/",
-    "slug": "c6668ce",
-    "link": "/junior/works/c6668ce"
-  },
-  {
-    "id": "0b8d4ad",
-    "title": "夜上受降城闻笛",
-    "author": "李益",
-    "book": "七年级上册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "回乐烽前沙似雪，受降城外月如霜。",
-      "不知何处吹芦管，一夜征人尽望乡。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/0b8d4ad/",
-    "slug": "0b8d4ad",
-    "link": "/junior/works/0b8d4ad"
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/57d4d5c/",
+    "slug": "57d4d5c",
+    "link": "/junior/works/57d4d5c",
+    "readingNote": "新版七年级上册课文；旧版教材编入九年级下册。",
+    "additionalBooks": [
+      "九年级下册"
+    ]
   },
   {
     "id": "1baa8e6",
@@ -231,6 +2691,27 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/f1f345d/",
     "slug": "f1f345d",
     "link": "/junior/works/f1f345d"
+  },
+  {
+    "stage": "junior",
+    "title": "小圣施威降大圣",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_033e6d3c91e2.aspx",
+    "id": "033e6d3c91e2",
+    "paragraphs": [
+      "却说真君与大圣变做法天象地的规模，正斗时，大圣忽见本营中妖猴惊散，自觉心慌，收了法象，掣棒抽身就走。真君见他败走，大步赶上道：“那里走？趁早归降，饶你性命！”大圣不恋战，只情跑起。将近洞口，正撞着康、张、姚、李四太尉，郭申、直健二将军，一齐帅众挡住道：“泼猴！那里走！”大圣慌了手脚，就把金箍棒捏做绣花针，藏在耳内，摇身一变，变做个麻雀儿，飞在树梢头钉住。那六兄弟，慌慌张张，前后寻觅不见，一齐吆喝道：“走了这猴精也！走了这猴精也！”",
+      "正嚷处，真君到了问：“兄弟们，赶到那厢不见了？”众神道：“才在这里围住，就不见了。”二郎圆睁凤目观看，见大圣变了麻雀儿，钉在树上，就收了法象，撇了神锋，卸下弹弓，摇身一变，变做个饿鹰儿，抖开翅，飞将去扑打。大圣见了，搜的一翅飞起去，变做一只大鹚老，冲天而去。二郎见了，急抖翎毛，摇身一变，变做一只大海鹤，钻上云霄来嗛。大圣又将身按下，入涧中，变做一个鱼儿，淬入水内。二郎赶至涧边，不见踪迹，心中暗想道：这猢狲必然下水去也，定变做鱼虾之类。等我再变变拿他。果一变变做个鱼鹰儿，飘荡在下溜头波面上，等待片时，那大圣变鱼儿，顺水正游，忽见一只飞禽，似青鹞，毛片不青；似鹭鸶，顶上无缨；似老鹳，腿又不红：“想是二郎变化了等我哩！……”急转头，打个花就走。二郎看见道：“打花的鱼儿，似鲤鱼，尾巴不红；似鳜鱼，花鳞不见；似黑鱼，头上无星；似鲂鱼，鳃上无针。他怎么见了我就回去了？必然是那猴变的。”赶上来，刷的啄一嘴。那大圣就撺出水中，一变变做一条水蛇，游近岸，钻入草中，二郎因嗛他不着，他见水响中，见一条蛇撺出去，认得是大圣，急转身，又变了一只朱绣顶的灰鹤，伸着一个长嘴，与一把尖头铁钳子相似，径来吃这水蛇。水蛇跳一跳，又变做一只花鸨，木木樗樗的，立在蓼汀之上。二郎即现原身，走将去，取过弹弓拽满，一弹子把他打个躘踵。",
+      "那大圣趁着机会，滚下山崖，伏在那里又变，变一座土地庙儿：大张着口，似个庙门；牙齿变做门扇，舌头变做菩萨，眼睛变做窗棂。只有尾巴不好收拾，竖在后面，变做一根旗竿。真君赶到崖下，不见打倒的鸨鸟，只有一间小庙；急睁凤眼，仔细看之，见旗竿立在后面，笑道：是这猢狲了！他今又在那里哄我。我也曾见庙宇，更不曾见一个旗竿竖在后面的。断是这畜生弄喧！他若哄我进去，他便一口咬住。我怎肯进去？等我掣拳先捣窗棂，后踢门扇！”大圣听得，心惊道：“好狠！好狠！门扇是我牙齿，窗棂是我眼睛；若打了牙，捣了眼，却怎么是好？”扑的一个虎跳，又冒在空中不见。",
+      "真君前前后后乱赶，只见四太尉、二将军，一齐拥至道：“兄长，拿住大圣了么？”真君笑道：“那猴儿才自变座庙宇哄我。我正要捣他窗棂，踢他门扇，他就纵一纵，又渺无踪迹。可怪！可怪！”众皆愕然，四望更无形影。真君道：“兄弟们在此看守巡逻，等我上去寻他。”急纵身驾云，起在半空。见那李天王高擎照妖镜，与哪吒住立云端，真君道：“天王，曾见那猴王么？”天王道：“不曾上来。我这里照着他哩。”真君把那赌变化、弄神通、拿群猴一事说毕，却道：“他变庙宇，正打处，就走了。”李天王闻言，又把照妖镜四方一照，呵呵地笑道：“真君，快去！快去！那猴使了个隐身法，走出营围，往你那灌江口去也。”二郎听说，即取神锋，回灌江口来赶。",
+      "却说那大圣已至灌江口，摇身一变，变做二郎爷爷的模样，按下云头，径入庙里。鬼判不能相认，一个个磕头迎接。他坐中间，点查香火：见李虎拜还的三牲，张龙许下的保福，赵甲求子的文书，钱丙告病的良愿。正看处，有人报：“又一个爷爷来了。”众鬼判急急观看，无不惊心。真君却道：“有个什么齐天大圣，才来这里否？”众鬼判道：“不曾见什么大圣，只有一个爷爷在里面查点哩。”真君撞进门，大圣见了，现出本相道：“郎君不消嚷，庙宇已姓孙了。”这真君即举三尖两刃神锋，劈脸就砍。那猴王使个身法，让过神锋，掣出那绣花针儿，幌一幌，碗来粗细，赶到前，对面相还。两个嚷嚷闹闹，打出庙门，半雾半云，且行且战，复打到花果山，慌得那四大天王等众，提防愈紧。这康、张太尉等迎着真君，合心努力，把那美猴王围绕不题。"
+    ],
+    "author": "吴承恩",
+    "dynasty": "明代",
+    "book": "七年级上册",
+    "sourceTitle": "古诗文网",
+    "genre": "古典小说",
+    "readingNote": "古典小说原文节选。教材可能对字词、标点和节选起止作调整，请对照所用版本。",
+    "slug": "033e6d3c91e2",
+    "link": "/junior/works/033e6d3c91e2"
   },
   {
     "id": "218771f",
@@ -270,13 +2751,77 @@
     "link": "/junior/works/e283784"
   },
   {
+    "id": "f777f7e",
+    "title": "峨眉山月歌",
+    "author": "李白",
+    "book": "七年级上册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "峨眉山月半轮秋，影入平羌江水流。",
+      "夜发清溪向三峡，思君不见下渝州。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f777f7e/",
+    "slug": "f777f7e",
+    "link": "/junior/works/f777f7e"
+  },
+  {
+    "id": "aebb74f",
+    "title": "江南逢李龟年",
+    "author": "杜甫",
+    "book": "七年级上册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "岐王宅里寻常见，崔九堂前几度闻。",
+      "正是江南好风景，落花时节又逢君。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/aebb74f/",
+    "slug": "aebb74f",
+    "link": "/junior/works/aebb74f"
+  },
+  {
+    "id": "c6668ce",
+    "title": "行军九日思长安故园",
+    "author": "岑参",
+    "book": "七年级上册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "强欲登高去，无人送酒来。",
+      "遥怜故园菊，应傍战场开。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c6668ce/",
+    "slug": "c6668ce",
+    "link": "/junior/works/c6668ce"
+  },
+  {
+    "id": "0b8d4ad",
+    "title": "夜上受降城闻笛",
+    "author": "李益",
+    "book": "七年级上册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "回乐烽前沙似雪，受降城外月如霜。",
+      "不知何处吹芦管，一夜征人尽望乡。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/0b8d4ad/",
+    "slug": "0b8d4ad",
+    "link": "/junior/works/0b8d4ad"
+  },
+  {
     "id": "af1a6fc",
     "title": "秋词·其一",
     "author": "刘禹锡",
     "book": "七年级上册",
     "stage": "junior",
     "dynasty": "唐代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "自古逢秋悲寂寥，我言秋日胜春朝。",
       "晴空一鹤排云上，便引诗情到碧霄。"
@@ -292,7 +2837,7 @@
     "book": "七年级上册",
     "stage": "junior",
     "dynasty": "唐代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "君问归期未有期，巴山夜雨涨秋池。",
       "何当共剪西窗烛，却话巴山夜雨时。"
@@ -308,7 +2853,7 @@
     "book": "七年级上册",
     "stage": "junior",
     "dynasty": "宋代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "僵卧孤村不自哀，尚思为国戍轮台。",
       "夜阑卧听风吹雨，铁马冰河入梦来。"
@@ -324,7 +2869,7 @@
     "book": "七年级上册",
     "stage": "junior",
     "dynasty": "清代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "终古高云簇此城，秋风吹散马蹄声。",
       "河流大野犹嫌束，山入潼关不解平。"
@@ -395,70 +2940,6 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/243e63f/",
     "slug": "243e63f",
     "link": "/junior/works/243e63f"
-  },
-  {
-    "id": "776dd60",
-    "title": "竹里馆",
-    "author": "王维",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "独坐幽篁里，弹琴复长啸。",
-      "深林人不知，明月来相照。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/776dd60/",
-    "slug": "776dd60",
-    "link": "/junior/works/776dd60"
-  },
-  {
-    "id": "b7952ba",
-    "title": "春夜洛城闻笛",
-    "author": "李白",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "谁家玉笛暗飞声，散入春风满洛城。",
-      "此夜曲中闻折柳，何人不起故园情。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/b7952ba/",
-    "slug": "b7952ba",
-    "link": "/junior/works/b7952ba"
-  },
-  {
-    "id": "ca60dda",
-    "title": "逢入京使",
-    "author": "岑参",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "故园东望路漫漫，双袖龙钟泪不干。",
-      "马上相逢无纸笔，凭君传语报平安。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ca60dda/",
-    "slug": "ca60dda",
-    "link": "/junior/works/ca60dda"
-  },
-  {
-    "id": "cb0151e",
-    "title": "晚春",
-    "author": "韩愈",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "草树知春不久归，百般红紫斗芳菲。",
-      "杨花榆荚无才思，惟解漫天作雪飞。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/cb0151e/",
-    "slug": "cb0151e",
-    "link": "/junior/works/cb0151e"
   },
   {
     "id": "9175575",
@@ -533,7 +3014,7 @@
     "book": "七年级下册",
     "stage": "junior",
     "dynasty": "宋代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "飞来山上千寻塔，闻说鸡鸣见日升。",
       "不畏浮云遮望眼，自缘身在最高层。"
@@ -567,7 +3048,7 @@
     "book": "七年级下册",
     "stage": "junior",
     "dynasty": "清代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "浩荡离愁白日斜，吟鞭东指即天涯。",
       "落红不是无情物，化作春泥更护花。"
@@ -575,6 +3056,152 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/ed1c5e3/",
     "slug": "ed1c5e3",
     "link": "/junior/works/ed1c5e3"
+  },
+  {
+    "stage": "junior",
+    "title": "活板",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_9dab6e43f97a.aspx",
+    "id": "9dab6e43f97a",
+    "paragraphs": [
+      "板印书籍，唐人尚未盛为之。自冯瀛王始印五经，已后典籍皆为板本。",
+      "庆历中，有布衣毕昇，又为活板。其法：用胶泥刻字，薄如钱唇，每字为一印，火烧令坚。先设一铁板，其上以松脂、蜡和纸灰之类冒之。欲印，则以一铁范置铁板上，乃密布字印，满铁范为一板，持就火炀之；药稍镕，则以一平板按其面，则字平如砥。若止印三二本，未为简易；若印数十百千本，则极为神速。常作二铁板，一板印刷，一板已自布字，此印者才毕，则第二板已具，更互用之，瞬息可就。每一字皆有数印，如“之”“也”等字，每字有二十余印，以备一板内有重复者。不用，则以纸帖之，每韵为一帖，木格贮之。有奇字素无备者，旋刻之，以草火烧，瞬息可成。不以木为之者，木理有疏密，沾水则高下不平，兼与药相粘，不可取；不若燔土，用讫再火令药镕，以手拂之，其印自落，殊不沾污。",
+      "昇死，其印为予群从所得，至今宝藏。"
+    ],
+    "author": "沈括",
+    "dynasty": "宋代",
+    "book": "七年级下册",
+    "sourceTitle": "古诗文网",
+    "genre": "文言文",
+    "slug": "9dab6e43f97a",
+    "link": "/junior/works/9dab6e43f97a"
+  },
+  {
+    "id": "776dd60",
+    "title": "竹里馆",
+    "author": "王维",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "独坐幽篁里，弹琴复长啸。",
+      "深林人不知，明月来相照。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/776dd60/",
+    "slug": "776dd60",
+    "link": "/junior/works/776dd60"
+  },
+  {
+    "id": "b7952ba",
+    "title": "春夜洛城闻笛",
+    "author": "李白",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "谁家玉笛暗飞声，散入春风满洛城。",
+      "此夜曲中闻折柳，何人不起故园情。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/b7952ba/",
+    "slug": "b7952ba",
+    "link": "/junior/works/b7952ba"
+  },
+  {
+    "id": "ca60dda",
+    "title": "逢入京使",
+    "author": "岑参",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "故园东望路漫漫，双袖龙钟泪不干。",
+      "马上相逢无纸笔，凭君传语报平安。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ca60dda/",
+    "slug": "ca60dda",
+    "link": "/junior/works/ca60dda"
+  },
+  {
+    "id": "cb0151e",
+    "title": "晚春",
+    "author": "韩愈",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "草树知春不久归，百般红紫斗芳菲。",
+      "杨花榆荚无才思，惟解漫天作雪飞。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/cb0151e/",
+    "slug": "cb0151e",
+    "link": "/junior/works/cb0151e"
+  },
+  {
+    "id": "55b62e9",
+    "title": "泊秦淮",
+    "author": "杜牧",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "烟笼寒水月笼沙，夜泊秦淮近酒家。",
+      "商女不知亡国恨，隔江犹唱后庭花。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/55b62e9/",
+    "slug": "55b62e9",
+    "link": "/junior/works/55b62e9"
+  },
+  {
+    "id": "f325bc1",
+    "title": "贾生",
+    "author": "李商隐",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "宣室求贤访逐臣，贾生才调更无伦。",
+      "可怜夜半虚前席，不问苍生问鬼神。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f325bc1/",
+    "slug": "f325bc1",
+    "link": "/junior/works/f325bc1"
+  },
+  {
+    "id": "c3351c0",
+    "title": "过松源晨炊漆公店六首·其五",
+    "author": "杨万里",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "莫言下岭便无难，赚得行人错喜欢。",
+      "政入万山围子里，一山放出一山拦。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c3351c0/",
+    "slug": "c3351c0",
+    "link": "/junior/works/c3351c0"
+  },
+  {
+    "id": "67d514b",
+    "title": "约客",
+    "author": "赵师秀",
+    "book": "七年级下册",
+    "stage": "junior",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "黄梅时节家家雨，青草池塘处处蛙。",
+      "有约不来过夜半，闲敲棋子落灯花。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/67d514b/",
+    "slug": "67d514b",
+    "link": "/junior/works/67d514b"
   },
   {
     "id": "f9a7b14",
@@ -592,71 +3219,9 @@
     ],
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/f9a7b14/",
     "slug": "f9a7b14",
-    "link": "/junior/works/f9a7b14"
-  },
-  {
-    "id": "55b62e9",
-    "title": "泊秦淮",
-    "author": "杜牧",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "烟笼寒水月笼沙，夜泊秦淮近酒家。",
-      "商女不知亡国恨，隔江犹唱后庭花。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/55b62e9/",
-    "slug": "55b62e9",
-    "link": "/junior/works/55b62e9"
-  },
-  {
-    "id": "f325bc1",
-    "title": "贾生",
-    "author": "李商隐",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "文言文",
-    "paragraphs": [
-      "宣室求贤访逐臣，贾生才调更无伦。",
-      "可怜夜半虚前席，不问苍生问鬼神。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f325bc1/",
-    "slug": "f325bc1",
-    "link": "/junior/works/f325bc1"
-  },
-  {
-    "id": "c3351c0",
-    "title": "过松源晨炊漆公店六首·其五",
-    "author": "杨万里",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "宋代",
-    "genre": "文言文",
-    "paragraphs": [
-      "莫言下岭便无难，赚得行人错喜欢。",
-      "政入万山围子里，一山放出一山拦。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c3351c0/",
-    "slug": "c3351c0",
-    "link": "/junior/works/c3351c0"
-  },
-  {
-    "id": "67d514b",
-    "title": "约客",
-    "author": "赵师秀",
-    "book": "七年级下册",
-    "stage": "junior",
-    "dynasty": "宋代",
-    "genre": "文言文",
-    "paragraphs": [
-      "黄梅时节家家雨，青草池塘处处蛙。",
-      "有约不来过夜半，闲敲棋子落灯花。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/67d514b/",
-    "slug": "67d514b",
-    "link": "/junior/works/67d514b"
+    "link": "/junior/works/f9a7b14",
+    "readingNote": "旧版七年级下册选篇，保留作延伸阅读。旧版七年级下册篇目，保留作延伸阅读；现行相应课文为《活板》。",
+    "legacy": true
   },
   {
     "id": "fb8d0d4",
@@ -815,81 +3380,6 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/757a5ab/",
     "slug": "757a5ab",
     "link": "/junior/works/757a5ab"
-  },
-  {
-    "id": "c3aefcc",
-    "title": "庭中有奇树",
-    "author": "佚名",
-    "book": "八年级上册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "庭中有奇树，绿叶发华滋。",
-      "攀条折其荣，将以遗所思。",
-      "馨香盈怀袖，路远莫致之。",
-      "此物何足贵，但感别经时。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c3aefcc/",
-    "slug": "c3aefcc",
-    "link": "/junior/works/c3aefcc"
-  },
-  {
-    "id": "e284f59",
-    "title": "龟虽寿",
-    "author": "曹操",
-    "book": "八年级上册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "神龟虽寿，犹有竟时。",
-      "腾蛇乘雾，终为土灰。",
-      "老骥伏枥，志在千里。",
-      "烈士暮年，壮心不已。",
-      "盈缩之期，不但在天；",
-      "养怡之福，可得永年。",
-      "幸甚至哉，歌以咏志。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/e284f59/",
-    "slug": "e284f59",
-    "link": "/junior/works/e284f59"
-  },
-  {
-    "id": "76553cf",
-    "title": "赠从弟·其二",
-    "author": "刘桢",
-    "book": "八年级上册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "亭亭山上松，瑟瑟谷中风。",
-      "风声一何盛，松枝一何劲！",
-      "冰霜正惨凄，终岁常端正。",
-      "岂不罹凝寒，松柏有本性！"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/76553cf/",
-    "slug": "76553cf",
-    "link": "/junior/works/76553cf"
-  },
-  {
-    "id": "2de827c",
-    "title": "梁甫行",
-    "author": "曹植",
-    "book": "八年级上册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "八方各异气，千里殊风雨。",
-      "剧哉边海民，寄身于草野。",
-      "妻子象禽兽，行止依林阻。",
-      "柴门何萧条，狐兔翔我宇。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2de827c/",
-    "slug": "2de827c",
-    "link": "/junior/works/2de827c"
   },
   {
     "id": "3b77a03",
@@ -1051,7 +3541,7 @@
     "book": "八年级上册",
     "stage": "junior",
     "dynasty": "唐代",
-    "genre": "文言文",
+    "genre": "诗词曲",
     "paragraphs": [
       "折戟沉沙铁未销，自将磨洗认前朝。",
       "东风不与周郎便，铜雀春深锁二乔。"
@@ -1075,6 +3565,81 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/ab59698/",
     "slug": "ab59698",
     "link": "/junior/works/ab59698"
+  },
+  {
+    "id": "c3aefcc",
+    "title": "庭中有奇树",
+    "author": "佚名",
+    "book": "八年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "庭中有奇树，绿叶发华滋。",
+      "攀条折其荣，将以遗所思。",
+      "馨香盈怀袖，路远莫致之。",
+      "此物何足贵，但感别经时。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/c3aefcc/",
+    "slug": "c3aefcc",
+    "link": "/junior/works/c3aefcc"
+  },
+  {
+    "id": "e284f59",
+    "title": "龟虽寿",
+    "author": "曹操",
+    "book": "八年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "神龟虽寿，犹有竟时。",
+      "腾蛇乘雾，终为土灰。",
+      "老骥伏枥，志在千里。",
+      "烈士暮年，壮心不已。",
+      "盈缩之期，不但在天；",
+      "养怡之福，可得永年。",
+      "幸甚至哉，歌以咏志。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/e284f59/",
+    "slug": "e284f59",
+    "link": "/junior/works/e284f59"
+  },
+  {
+    "id": "76553cf",
+    "title": "赠从弟·其二",
+    "author": "刘桢",
+    "book": "八年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "亭亭山上松，瑟瑟谷中风。",
+      "风声一何盛，松枝一何劲！",
+      "冰霜正惨凄，终岁常端正。",
+      "岂不罹凝寒，松柏有本性！"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/76553cf/",
+    "slug": "76553cf",
+    "link": "/junior/works/76553cf"
+  },
+  {
+    "id": "2de827c",
+    "title": "梁甫行",
+    "author": "曹植",
+    "book": "八年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "八方各异气，千里殊风雨。",
+      "剧哉边海民，寄身于草野。",
+      "妻子象禽兽，行止依林阻。",
+      "柴门何萧条，狐兔翔我宇。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2de827c/",
+    "slug": "2de827c",
+    "link": "/junior/works/2de827c"
   },
   {
     "id": "75f4a41",
@@ -1235,75 +3800,6 @@
     "link": "/junior/works/98b6e95"
   },
   {
-    "id": "487ca66",
-    "title": "邶风·式微",
-    "author": "诗经",
-    "book": "八年级下册",
-    "stage": "junior",
-    "dynasty": "先秦",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "式微，式微！胡不归？微君之故，胡为乎中露！",
-      "式微，式微！胡不归？微君之躬，胡为乎泥中！"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/487ca66/",
-    "slug": "487ca66",
-    "link": "/junior/works/487ca66"
-  },
-  {
-    "id": "ac93dd8",
-    "title": "郑风·子衿",
-    "author": "诗经",
-    "book": "八年级下册",
-    "stage": "junior",
-    "dynasty": "先秦",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "青青子衿，悠悠我心。纵我不往，子宁不嗣音？",
-      "青青子佩，悠悠我思。纵我不往，子宁不来？",
-      "挑兮达兮，在城阙兮。一日不见，如三月兮！"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ac93dd8/",
-    "slug": "ac93dd8",
-    "link": "/junior/works/ac93dd8"
-  },
-  {
-    "id": "a8b4de8",
-    "title": "送杜少府之任蜀州",
-    "author": "王勃",
-    "book": "八年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "城阙辅三秦，风烟望五津。",
-      "与君离别意，同是宦游人。",
-      "海内存知己，天涯若比邻。",
-      "无为在歧路，儿女共沾巾。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/a8b4de8/",
-    "slug": "a8b4de8",
-    "link": "/junior/works/a8b4de8"
-  },
-  {
-    "id": "3ff63a9",
-    "title": "望洞庭湖赠张丞相",
-    "author": "孟浩然",
-    "book": "八年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "八月湖水平，涵虚混太清。",
-      "气蒸云梦泽，波撼岳阳城。",
-      "欲济无舟楫，端居耻圣明。",
-      "坐观垂钓者，空有羡鱼情。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3ff63a9/",
-    "slug": "3ff63a9",
-    "link": "/junior/works/3ff63a9"
-  },
-  {
     "id": "ef2c83a",
     "title": "北冥有鱼",
     "author": "庄子",
@@ -1462,6 +3958,79 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/c053670/",
     "slug": "c053670",
     "link": "/junior/works/c053670"
+  },
+  {
+    "id": "487ca66",
+    "title": "邶风·式微",
+    "author": "诗经",
+    "book": "八年级下册",
+    "stage": "junior",
+    "dynasty": "先秦",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "式微，式微！胡不归？微君之故，胡为乎中露！",
+      "式微，式微！胡不归？微君之躬，胡为乎泥中！"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/487ca66/",
+    "slug": "487ca66",
+    "link": "/junior/works/487ca66"
+  },
+  {
+    "id": "ac93dd8",
+    "title": "郑风·子衿",
+    "author": "诗经",
+    "book": "八年级下册",
+    "stage": "junior",
+    "dynasty": "先秦",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "青青子衿，悠悠我心。纵我不往，子宁不嗣音？",
+      "青青子佩，悠悠我思。纵我不往，子宁不来？",
+      "挑兮达兮，在城阙兮。一日不见，如三月兮！"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ac93dd8/",
+    "slug": "ac93dd8",
+    "link": "/junior/works/ac93dd8"
+  },
+  {
+    "id": "a8b4de8",
+    "title": "送杜少府之任蜀州",
+    "author": "王勃",
+    "book": "八年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "城阙辅三秦，风烟望五津。",
+      "与君离别意，同是宦游人。",
+      "海内存知己，天涯若比邻。",
+      "无为在歧路，儿女共沾巾。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/a8b4de8/",
+    "slug": "a8b4de8",
+    "link": "/junior/works/a8b4de8"
+  },
+  {
+    "id": "3ff63a9",
+    "title": "望洞庭湖上张丞相",
+    "author": "孟浩然",
+    "book": "八年级下册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "八月湖水平，涵虚混太清。",
+      "气蒸云梦泽，波撼岳阳城。",
+      "欲济无舟楫，端居耻圣明。",
+      "坐观垂钓者，空有羡鱼情。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3ff63a9/",
+    "slug": "3ff63a9",
+    "link": "/junior/works/3ff63a9",
+    "aliases": [
+      "望洞庭湖赠张丞相"
+    ],
+    "readingNote": "又题《望洞庭湖赠张丞相》，这里按所列参考教材题名。"
   },
   {
     "id": "a4b31b3",
@@ -1728,6 +4297,264 @@
     "link": "/junior/works/e04bfbf"
   },
   {
+    "id": "60435b6",
+    "title": "曹刿论战",
+    "author": "左丘明",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "先秦",
+    "genre": "文言文",
+    "paragraphs": [
+      "十年春，齐师伐我。公将战，曹刿请见。其乡人曰：“肉食者谋之，又何间焉？”刿曰：“肉食者鄙，未能远谋。”乃入见。",
+      "问：“何以战？”公曰：“衣食所安，弗敢专也，必以分人。”对曰：“小惠未遍，民弗从也。”公曰：“牺牲玉帛，弗敢加也，必以信。”对曰：“小信未孚，神弗福也。”公曰：“小大之狱，虽不能察，必以情。”对曰：“忠之属也。可以一战。战则请从。”",
+      "公与之乘，战于长勺。公将鼓之。刿曰：“未可。”齐人三鼓。刿曰：“可矣。”齐师败绩。公将驰之。刿曰：“未可。”下视其辙，登轼而望之，曰：“可矣。”遂逐齐师。",
+      "既克，公问其故。对曰：“夫战，勇气也。一鼓作气，再而衰，三而竭。彼竭我盈，故克之。夫大国，难测也，惧有伏焉。吾视其辙乱，望其旗靡，故逐之。”"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/60435b6/",
+    "slug": "60435b6",
+    "link": "/junior/works/60435b6",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "5ddb65b",
+    "title": "邹忌讽齐王纳谏",
+    "author": "刘向",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "文言文",
+    "paragraphs": [
+      "邹忌修八尺有余，而形貌昳丽。朝服衣冠，窥镜，谓其妻曰：“我孰与城北徐公美？”",
+      "其妻曰：“君美甚，徐公何能及君也？”",
+      "城北徐公，齐国之美丽者也。忌不自信，而复问其妾曰：“吾孰与徐公美？”",
+      "妾曰：“徐公何能及君也？”",
+      "旦日，客从外来，与坐谈，问之客曰：“吾与徐公孰美？”",
+      "客曰：“徐公不若君之美也。”",
+      "明日徐公来，孰视之，自以为不如；窥镜而自视，又弗如远甚。暮寝而思之，曰：“吾妻之美我者，私我也；妾之美我者，畏我也；客之美我者，欲有求于我也。”",
+      "于是入朝见威王，曰：“臣诚知不如徐公美。臣之妻私臣，臣之妾畏臣，臣之客欲有求于臣，皆以美于徐公。今齐地方千里，百二十城，宫妇左右莫不私王，朝廷之臣莫不畏王，四境之内莫不有求于王：由此观之，王之蔽甚矣。”",
+      "王曰：“善。”",
+      "乃下令：“群臣吏民能面刺寡人之过者，受上赏；上书谏寡人者，受中赏；能谤讥于市朝，闻寡人之耳者，受下赏。”",
+      "令初下，群臣进谏，门庭若市；数月之后，时时而间进；期年之后，虽欲言，无可进者。",
+      "燕、赵、韩、魏闻之，皆朝于齐。此所谓战胜于朝廷。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5ddb65b/",
+    "slug": "5ddb65b",
+    "link": "/junior/works/5ddb65b",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "ebd2da8",
+    "title": "陈涉世家",
+    "author": "司马迁",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "文言文",
+    "paragraphs": [
+      "陈胜者，阳城人也，字涉。吴广者，阳夏人也，字叔。陈涉少时，尝与人佣耕，辍耕之垄上，怅恨久之，曰：“苟富贵，无相忘。”",
+      "佣者笑而应曰：“若为佣耕，何富贵也？”",
+      "陈涉太息曰：“嗟乎！燕雀安知鸿鹄之志哉！”",
+      "二世元年七月，发闾左適戍渔阳，九百人屯大泽乡。陈胜﹑吴广皆次当行，为屯长。会天大雨，道不通，度已失期。失期，法皆斩。",
+      "陈胜﹑吴广乃谋曰：“今亡亦死，举大计亦死；等死，死国可乎？”",
+      "陈胜曰：“天下苦秦久矣。吾闻二世少子也，不当立，当立者乃公子扶苏。扶苏以数谏故，上使外将兵。今或闻无罪，二世杀之。百姓多闻其贤，未知其死也。项燕为楚将，数有功，爱士卒，楚人怜之。或以为死，或以为亡。今诚以吾众诈自称公子扶苏﹑项燕，为天下唱，宜多应者。”",
+      "吴广以为然。乃行卜。卜者知其指意，曰：“足下事皆成，有功。然足下卜之鬼乎！”",
+      "陈胜﹑吴广喜，念鬼，曰：“此教我先威众耳。”",
+      "乃丹书帛曰“陈胜王”，置人所罾鱼腹中。卒买鱼烹食，得鱼腹中书，固以怪之矣。又间令吴广之次所旁丛祠中，夜篝火，狐鸣呼曰：“大楚兴，陈胜王。”卒皆夜惊恐。旦日，卒中往往语，皆指目陈胜。",
+      "吴广素爱人，士卒多为用者。将尉醉，广故数言欲亡，忿恚尉，令辱之，以激怒其众。尉果笞广。尉剑挺，广起，夺而杀尉。陈胜佐之，并杀两尉。",
+      "召令徒属曰：“公等遇雨，皆已失期，失期当斩。藉第令毋斩，而戍死者固十六七。且壮士不死即已，死即举大名耳，王侯将相宁有种乎！”",
+      "徒属皆曰：“敬受命。”",
+      "乃诈称公子扶苏﹑项燕，从民欲也。袒右，称大楚。为坛而盟，祭以尉首。陈胜自立为将军，吴广为都尉。攻大泽乡，收而攻蕲。蕲下，乃令符离人葛婴将兵徇蕲以东。攻铚酂苦柘谯皆下之。行收兵。比至陈，车六七百乘，骑千余，卒数万人。攻陈，陈守令皆不在，独守丞与战谯门中。弗胜，守丞死，乃入据陈。数日，号令召三老﹑豪杰与皆来会计事。",
+      "三老﹑豪杰皆曰：“将军身被坚执锐，伐无道，诛暴秦，复立楚国之社稷，功宜为王。”",
+      "陈涉乃立为王，号为张楚。",
+      "当此时，诸郡县苦秦吏者，皆刑其长吏，杀之以应陈涉。乃以吴叔为假王，监诸将以西击荥阳。令陈人武臣、张耳、陈馀徇赵地，令汝阴人邓宗徇九江郡。当此时，楚兵数千人为聚者，不可胜数。",
+      "葛婴至东城，立襄强为楚王。婴后闻陈王已立，因杀襄强，还报。至陈，陈王诛杀葛婴。陈王令魏人周市北徇魏地。吴广围荥阳。李由为三川守，守荥阳，吴叔弗能下。陈王征国之豪杰与计，以上蔡人房君蔡赐为上柱国。",
+      "周文，陈之贤人也，尝为项燕军视日，事春申君，自言习兵，陈王与之将军印，西击秦。行收兵至关，车千乘，卒数十万，至戏，军焉。秦令少府章邯免郦山徒﹑人奴产子生，悉发以击楚大军，尽败之。周文败，走出关，止次曹阳二三月。章邯追败之，复走次渑池十余日。章邯击，大破之。周文自刭，军遂不战。",
+      "武臣到邯郸，自立为赵王，陈馀为大将军，张耳、召骚为左右丞相。陈王怒，捕系武臣等家室，欲诛之。",
+      "柱国曰：“秦未亡而诛赵王将相家属，此生一秦也。不如因而立之。”",
+      "陈王乃遣使者贺赵，而徙系武臣等家属宫中，而封耳子张敖为成都君，趣赵兵，亟入关。",
+      "赵王将相相与谋曰：“王王赵，非楚意也。楚已诛秦，必加兵於赵。计莫如毋西兵，使使北徇燕地以自广也。赵南据大河，北有燕代，楚虽胜秦，不敢制赵。若楚不胜秦，必重赵。赵乘秦之弊，可以得志于天下。”",
+      "赵王以为然，因不西兵，而遣故上谷卒史韩广将兵北徇燕地。",
+      "燕故贵人豪杰谓韩广曰：“楚已立王，赵又已立王。燕虽小，亦万乘之国也，原将军立为燕王。”",
+      "韩广曰：“广母在赵，不可。”",
+      "燕人曰：“赵方西忧秦，南忧楚，其力不能禁我。且以楚之彊，不敢害赵王将相之家，赵独安敢害将军之家！”",
+      "韩广以为然，乃自立为燕王。居数月，赵奉燕王母及家属归之燕。",
+      "当此之时，诸将之徇地者，不可胜数。周市北徇地至狄，狄人田儋杀狄令，自立为齐王，以齐反击周市。市军散，还至魏地，欲立魏后故宁陵君咎为魏王。时咎在陈王所，不得之魏。魏地已定，欲相与立周市为魏王，周市不肯。使者五反，陈王乃立宁陵君咎为魏王，遣之国。周市卒为相。",
+      "将军田臧等相与谋曰：“周章军已破矣，秦兵旦暮至，我围荥阳城弗能下，秦军至，必大败。不如少遗兵，足以守荥阳，悉精兵迎秦军。今假王骄，不知兵权，不可与计，非诛之，事恐败。”",
+      "因相与矫王令以诛吴叔，献其首于陈王。陈王使使赐田臧楚令尹印，使为上将。田臧乃使诸将李归等守荥阳城，自以精兵西迎秦军于敖仓。与战，田臧死，军破。章邯进兵击李归等荥阳下，破之，李归等死。",
+      "阳城人邓说将兵居郯，章邯别将击破之，邓说军散走陈。铚人伍徐将兵居许，章邯击破之，伍徐军皆散走陈。陈王诛邓说。",
+      "陈王初立时，陵人秦嘉﹑铚人董譄﹑符离人朱鸡石﹑取虑人郑布﹑徐人丁疾等皆特起，将兵围东海守庆于郯。陈王闻，乃使武平君畔为将军，监郯下军。秦嘉不受命，嘉自立为大司马，恶属武平君。告军吏曰：“武平君年少，不知兵事，勿听！”因矫以王命杀武平君畔。",
+      "章邯已破伍徐，击陈，柱国房君死。章邯又进兵击陈西张贺军。陈王出监战，军破，张贺死。",
+      "腊月，陈王之汝阴，还至下城父，其御庄贾杀以降秦。陈胜葬砀，谥曰隐王。",
+      "陈王故涓人将军吕臣为仓头军，起新阳，攻陈下之，杀庄贾，复以陈为楚。",
+      "初，陈王至陈，令铚人宋留将兵定南阳，入武关。留已徇南阳，闻陈王死，南阳复为秦。宋留不能入武关，乃东至新蔡，遇秦军，宋留以军降秦。秦传留至咸阳，车裂留以徇。",
+      "秦嘉等闻陈王军破出走，乃立景驹为楚王，引兵之方与，欲击秦军定陶下。使公孙庆使齐王，欲与并力俱进。",
+      "齐王曰：“闻陈王战败，不知其死生，楚安得不请而立王！”",
+      "公孙庆曰：“齐不请楚而立王，楚何故请齐而立王！且楚首事，当令于天下。”",
+      "田儋诛杀公孙庆。",
+      "秦左右校复攻陈，下之。吕将军走，收兵复聚。鄱盗当阳君黥布之兵相收，复击秦左右校，破之青波，复以陈为楚。会项梁立怀王孙心为楚王。",
+      "陈胜王凡六月。已为王，王陈。其故人尝与佣耕者闻之，之陈，扣宫门曰：“吾欲见涉。”",
+      "宫门令欲缚之。自辩数，乃置，不肯为通。陈王出，遮道而呼涉。陈王闻之，乃召见，载与俱归。",
+      "入宫，见殿屋帷帐，客曰：“夥颐！涉之为王沉沉者！”",
+      "楚人谓多为伙，故天下传之，夥涉为王，由陈涉始。客出入愈益发舒，言陈王故情。",
+      "或说陈王曰：“客愚无知，颛妄言，轻威。”",
+      "陈王斩之。诸陈王故人皆自引去，由是无亲陈王者。陈王以朱房为中正，胡武为司过，主司群臣。诸将徇地，至，令之不是者，系而罪之，以苛察为忠。其所不善者，弗下吏，辄自治之。陈王信用之。诸将以其故不亲附，此其所以败也。",
+      "陈胜虽已死，其所置遣侯王将相竟亡秦，由涉首事也。高祖时为陈涉置守頉三十家砀，至今血食。",
+      "褚先生曰：地形险阻，所以为固也；兵革刑法，所以为治也。犹未足恃也。夫先王以仁义为本，而以固塞文法为枝叶，岂不然哉！",
+      "吾闻贾生之称曰：秦孝公据肴函之固，拥雍州之地，君臣固守，以窥周室，有席卷天下包举宇内囊括四海之意，并吞八荒之心。当是时也，商君佐之，内立法度，务耕织，修守战之具；外连衡而斗诸侯。于是秦人拱手而取西河之外。",
+      "孝公既没，惠文、武、昭蒙故业因遗策，南取汉中，西举巴蜀，东割膏腴之地，收要害之郡。诸侯恐惧，会盟而谋弱秦，不爱珍器、重宝、肥饶之地，以致天下之士，合从缔交，相与为一。当此之时，齐有孟尝，赵有平原，楚有春申，魏有信陵。此四君者，皆明智而忠信，宽厚而爱人，尊贤而重士，约从离横，兼韩、魏、燕、赵、宋、卫、中山之众。于是六国之士，有宁越、徐尚、苏秦、杜赫之属为之谋，齐明、周最、陈轸、召滑、楼缓、翟景、苏厉、乐毅之徒通其意，吴起、孙膑、带佗、倪良、王廖、田忌、廉颇、赵奢之伦制其兵。尝以十倍之地，百万之众，叩关而攻秦。秦人开关而延敌，九国之师逡巡遁逃而不敢进。秦无亡矢遗镞之费，而天下诸侯已困矣。于是从散约解，争割地以赂秦。秦有余力而制其弊，追亡逐北，伏尸百万，流血飘橹。因利乘便，宰割天下，分裂河山。强国请服，弱国入朝。",
+      "施及孝文王、庄襄王，享国之日浅，国家无事。",
+      "及至始皇，奋六世之余烈，振长策而御宇内，吞二周而亡诸侯，履至尊而制六合，执敲朴以鞭笞天下，威振四海。南取百越之地，以为桂林、象郡。百越之君，俯首系颈，委命下吏。乃使蒙恬北筑长城而守藩篱，却匈奴七百余里。胡人不敢南下而牧马，士不敢弯弓而报怨。于是废先王之道，燔百家之言，以愚黔首；隳名城，杀豪俊，收天下之兵聚之咸阳，销锋鍉，铸以为金人十二，以弱天下之民。然后践华为城，因河为池，据亿丈之城临不测之溪以为固。良将劲驽，守要害之处；信臣精卒，陈利兵而谁何。天下已定，始皇之心，自以为关中之固，金城千里，子孙帝王万世之业也。",
+      "始皇既没，余威震于殊俗。然陈涉瓮牖绳枢之子，氓隶之人，而迁徙之徒也；材能不及中人，非有仲尼、墨翟之贤，陶朱、猗顿之富。蹑足行伍之间，倔起阡陌之中，率罢散之卒，将数百之众，转而攻秦，斩木为兵，揭竿为旗，天下云集而响应，赢粮而景从。山东豪俊遂并起而亡秦族矣。",
+      "且夫天下非小弱也，雍州之地，崤函之固，自若也；陈涉之位，非尊于齐、楚、燕、赵、韩、魏、宋、卫、中山之君也；锄耰棘矜，不铦于钩戟长铩也；适戍之众，非抗于九国之师也；深谋远虑，行军用兵之道，非及向时之士也。然而成败异变，功业相反。试使山东之国与陈涉度长絜大，比权量力，则不可同年而语矣。然秦以区区之地，致万乘之势，序八州而朝同列，百有余年矣。然后以六合为家，肴函为宫。一夫作难而七庙隳，身死人手，为天下笑者，何也？仁义不施而攻守之势异也。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ebd2da8/",
+    "slug": "ebd2da8",
+    "link": "/junior/works/ebd2da8",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "3707cf3",
+    "title": "出师表",
+    "author": "诸葛亮",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "文言文",
+    "paragraphs": [
+      "先帝创业未半，而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。",
+      "宫中府中，俱为一体；陟罚臧否，不宜异同：若有作奸犯科及为忠善者，宜付有司论其刑赏，以昭陛下平明之理；不宜偏私，使内外异法也。",
+      "侍中、侍郎郭攸之、费祎、董允等，此皆良实，志虑忠纯，是以先帝简拔以遗陛下：愚以为宫中之事，事无大小，悉以咨之，然后施行，必能裨补阙漏，有所广益。",
+      "将军向宠，性行淑均，晓畅军事，试用于昔日，先帝称之曰「能」，是以众议举宠为督：愚以为营中之事，悉以咨之，必能使行阵和睦，优劣得所。",
+      "亲贤臣，远小人，此先汉所以兴隆也；亲小人，远贤臣，此后汉所以倾颓也。先帝在时，每与臣论此事，未尝不叹息痛恨于桓、灵也。侍中、尚书、长史、参军，此悉贞良死节之臣，愿陛下亲之信之，则汉室之隆，可计日而待也。",
+      "臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。先帝不以臣卑鄙，猥自枉屈，三顾臣于草庐之中，咨臣以当世之事，由是感激，遂许先帝以驱驰。后值倾覆，受任于败军之际，奉命于危难之间：尔来二十有一年矣。",
+      "先帝知臣谨慎，故临崩寄臣以大事也。受命以来，夙夜忧叹，恐托付不效，以伤先帝之明；故五月渡泸，深入不毛。今南方已定，兵甲已足，当奖率三军，北定中原，庶竭驽钝，攘除奸凶，兴复汉室，还于旧都。此臣所以报先帝而忠陛下之职分也。至于斟酌损益，进尽忠言，则攸之、祎、允之任也。",
+      "愿陛下托臣以讨贼兴复之效，不效，则治臣之罪，以告先帝之灵。若无兴德之言，则责攸之、祎、允等之慢，以彰其咎；陛下亦宜自谋，以咨诹善道，察纳雅言，深追先帝遗诏。臣不胜受恩感激。",
+      "今当远离，临表涕零，不知所言。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3707cf3/",
+    "slug": "3707cf3",
+    "link": "/junior/works/3707cf3",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "2d53a67",
+    "title": "十五从军征",
+    "author": "佚名",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "两汉",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "十五从军征，八十始得归。",
+      "道逢乡里人，家中有阿谁？",
+      "遥看是君家，松柏冢累累。",
+      "兔从狗窦入，雉从梁上飞。",
+      "中庭生旅谷，井上生旅葵。",
+      "舂谷持作飰，采葵持作羹。",
+      "羹饭一时熟，不知贻阿谁。",
+      "出门东向看，泪落沾我衣。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2d53a67/",
+    "slug": "2d53a67",
+    "link": "/junior/works/2d53a67",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "5ab8384",
+    "title": "白雪歌送武判官归京",
+    "author": "岑参",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "唐代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "北风卷地白草折，胡天八月即飞雪。",
+      "忽如一夜春风来，千树万树梨花开。",
+      "散入珠帘湿罗幕，狐裘不暖锦衾薄。",
+      "将军角弓不得控，都护铁衣冷难着。",
+      "瀚海阑干百丈冰，愁云惨淡万里凝。",
+      "中军置酒饮归客，胡琴琵琶与羌笛。",
+      "纷纷暮雪下辕门，风掣红旗冻不翻。",
+      "轮台东门送君去，去时雪满天山路。",
+      "山回路转不见君，雪上空留马行处。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5ab8384/",
+    "slug": "5ab8384",
+    "link": "/junior/works/5ab8384",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "a59446d",
+    "title": "南乡子·登京口北固亭有怀",
+    "author": "辛弃疾",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "何处望神州？满眼风光北固楼。千古兴亡多少事？悠悠。不尽长江滚滚流。",
+      "年少万兜鍪，坐断东南战未休。天下英雄谁敌手？曹刘。生子当如孙仲谋。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/a59446d/",
+    "slug": "a59446d",
+    "link": "/junior/works/a59446d",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "84334aa",
+    "title": "过零丁洋",
+    "author": "文天祥",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "辛苦遭逢起一经，干戈寥落四周星。",
+      "山河破碎风飘絮，身世浮沉雨打萍。",
+      "惶恐滩头说惶恐，零丁洋里叹零丁。",
+      "人生自古谁无死？留取丹心照汗青。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/84334aa/",
+    "slug": "84334aa",
+    "link": "/junior/works/84334aa",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
+    "id": "15798ca",
+    "title": "山坡羊·潼关怀古",
+    "author": "张养浩",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "元代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。",
+      "伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦！"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/15798ca/",
+    "slug": "15798ca",
+    "link": "/junior/works/15798ca",
+    "additionalBooks": [
+      "九年级下册"
+    ]
+  },
+  {
     "id": "027ac86",
     "title": "咸阳城东楼",
     "author": "许浑",
@@ -1764,20 +4591,22 @@
     "link": "/junior/works/05b6b07"
   },
   {
-    "id": "95e6625",
-    "title": "行香子·树绕村庄",
+    "id": "huan-xi-sha-mo-mo-qing-han",
+    "title": "浣溪沙·漠漠轻寒上小楼",
     "author": "秦观",
-    "book": "九年级上册",
-    "stage": "junior",
     "dynasty": "宋代",
+    "stage": "junior",
+    "book": "九年级上册",
     "genre": "诗词曲",
     "paragraphs": [
-      "树绕村庄，水满陂塘。倚东风、豪兴徜徉。小园几许，收尽春光。有桃花红，李花白，菜花黄。",
-      "远远围墙，隐隐茅堂。飏青旗、流水桥旁。偶然乘兴，步过东冈。正莺儿啼，燕儿舞，蝶儿忙。"
+      "漠漠轻寒上小楼，晓阴无赖似穷秋。淡烟流水画屏幽。",
+      "自在飞花轻似梦，无边丝雨细如愁。宝帘闲挂小银钩。"
     ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/95e6625/",
-    "slug": "95e6625",
-    "link": "/junior/works/95e6625"
+    "sourceUrl": "https://www.gushiwen.cn/GuShiWen.aspx?id=ff58ce3adc",
+    "sourceTitle": "古诗文网",
+    "readingNote": "新版九年级上册课外古诗词诵读篇目。",
+    "slug": "huan-xi-sha-mo-mo-qing-han",
+    "link": "/junior/works/huan-xi-sha-mo-mo-qing-han"
   },
   {
     "id": "0bdbcd5",
@@ -1796,27 +4625,136 @@
     "link": "/junior/works/0bdbcd5"
   },
   {
-    "id": "57d4d5c",
-    "title": "梅岭三章",
-    "author": "陈毅",
-    "book": "九年级下册",
     "stage": "junior",
-    "dynasty": "近现代",
-    "genre": "文言文",
+    "title": "智取生辰纲",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_6280f6b53209.aspx",
+    "id": "6280f6b53209",
     "paragraphs": [
-      "【其一】",
-      "断头今日意如何？创业艰难百战多。",
-      "此去泉台招旧部，旌旗十万斩阎罗。",
-      "【其二】",
-      "南国烽烟正十年，此头须向国门悬。",
-      "后死诸君多努力，捷报飞来当纸钱。",
-      "【其三】",
-      "投生革命即为家，血雨腥风应有涯。",
-      "取义成仁今日事，人间遍种自由花。"
+      "次日早，起五更，在府里把担仗都摆在厅前。老都管和两个虞候又将一小担财帛，共十一担，拣了十一个壮健的厢禁军，都做脚夫打扮。杨志戴上凉笠儿，穿着青纱衫子，系了缠带行履麻鞋，跨口腰刀，提条朴刀。老都管也打扮做个客人模样。两个虞候假装做跟的伴当。各人都拿了条朴刀，又带几根藤条。梁中书付与了札付书呈。一行人都吃得饱了，在厅上拜辞了梁中书。看那军人担仗起程，杨志和谢都管、两个虞候监押着，一行共是十五人，离了梁府，出得北京城门，取大路投东京进发。五里单牌，十里双牌。此时正是五月半天气，虽是晴明得好，只是酷热难行。",
+      "今日杨志这一行人，要取六月十五日生辰，只得在路途上行。自离了这北京五七日，端的只是起五更趁早凉便行，日中热时便歇。五七日后，人家渐少，行客又稀，一站站都是山路。杨志却要辰牌起身，申时便歇。那十一个厢禁军，担子又重，无有一个稍轻。天气热了，行不得，见着林子便要去歇息。杨志赶着催促要行，如若停住，轻则痛骂，重则藤条便打，逼赶要行。两个虞候虽只背些包裹行李，也气喘了行不上。杨志也嗔道：“你两个好不晓事！这干系须是俺的！你们不替洒家打这夫子，却在背后也慢慢地挨。这路上不是耍处。”那虞候道：“不是我两个要慢走，其实热了行不动，因此落后。前日只是趁早凉走，如今怎地正热里要行？正是好歹不均匀。”杨志道：“你这般说话，却似放屁。前日行的须是好地面，如今正是尴尬去处。若不日里赶过去，谁敢五更半夜走？”两个虞候口里不道，肚中寻思：“这厮不直得便骂人。",
+      "杨志提了朴刀，拿着藤条，自去赶那担子。两个虞候坐在柳阴树下等得老都管来。两个虞候告诉道：“杨家那厮，强杀只是我相公门下一个提辖，直这般做大！”老都管道：“须是我相公当面分付道：休要和他别拗。因此我不做声。这两日也看他不得。权且奈他。”两个虞候道：“相公也只是人情话儿，都管自做个主便了。”老都管又道：“且奈他一奈。”当日行到申牌时分，寻得一个客店里歇了。那十一个厢禁军雨汗通流，都叹气吹嘘，对老都管说道：“我们不幸做了军健，情知道被差出来。这般火似热的天气，又挑着重担。这两日又不拣早凉行，动不动老大藤条打来。都是一般父母皮肉，我们直恁地苦！”老都管道：“你们不要怨怅，巴到东京时，我自赏你。”众军汉道：“若是似都管看待我们时，并不敢怨怅。”又过了一夜。次日，天色未明，众人跳起来趁早凉起身去。杨志跳起来喝道：“那里去！且睡了，却理会。”众军汉道：“趁早不走，日里热时走不得，却打我们。”杨志大骂道：“你们省得甚么！”拿了藤条要打。众军忍气吞声，只得睡了。当日直到辰牌时分，慢慢地打火吃了饭走。一路上赶打着，不许投凉处歇。那十一个厢禁军口里喃喃讷讷地怨怅，两个虞候在老都管面前絮絮聒聒地搬口。老都管听了，也不着意，心内自恼他。",
+      "话休絮繁。似此行了十四五日，那十四个人，没一个不怨怅杨志。当日客店里，辰牌时分，慢慢地打火吃了早饭行。正是六月初四日时节，天气未及晌午，一轮红日当天，没半点云彩，其日十分大热。",
+      "当日行的路，都是山僻崎岖小径，南山北岭。却监着那十一个军汉，约行了二十余里路程。那军人们思量要去柳阴树下歇凉，被杨志拿着藤条打将来，喝道：“快走！教你早歇。”众军人看那天时，四下里无半点云彩，其时那热不可当。",
+      "当时杨志催促一行人在山中僻路里行。看看日色当午，那石头上热了，脚疼走不得。众军汉道：“这般天气热，兀的不晒杀人。”杨志喝着军汉道：“快走！赶过前面冈子去，却再理会。”正行之间，前面迎着那土冈子。",
+      "当时一行十五人奔上冈子来，歇下担仗，那十一人都去松阴树下睡倒了。杨志说道：“苦也！这里是甚么去处，你们却在这里歇凉！起来，快走！”众军汉道：“你便剁做我七八段，其实去不得了。”杨志拿起藤条，劈头劈脑打去。打得这个起来，那个睡倒，杨志无可奈何。只见两个虞候和老都管气喘急急，也巴到冈子上松树下坐了喘气。看这杨志打那军健，老都管见了，说道：“提辖，端的热了走不得，休见他罪过。”杨志道：“都管，你不知，这里正是强人出没的去处，地名叫做黄泥冈。闲常太平时节，白日里兀自出来劫人，休道是这般光景，谁敢在这里停脚！”两个虞候听杨志说了，便道：“我见你说好几遍了，只管把这话来惊吓人。”老都管道：“权且教他们众人歇一歇，略过日中行如何？”杨志道：“你也没分晓了，如何使得！这里下冈子去，兀自有七八里没人家。甚么去处，敢在此歇凉！”老都管道：“我自坐一坐了走，你自去赶他众人先走。”杨志拿着藤条喝道：“一个不走的，吃俺二十棍。”众军汉一齐叫将起来。数内一个分说道：“提辖，我们挑着百十斤担子，须不比你空手走的。你端的不把人当人！便是留守相公自来监押时，也容我们说一句。你好不知疼痒，只顾逞办！”杨志骂道：“这畜生不呕死俺，只是打便了。”拿起藤条，劈脸便打去。老都管喝道：“杨提辖且住，你听我说。我在东京太师府里做奶公时，门下官军见了无千无万，都向着我喏喏连声。不是我口浅，量你是个遭死的军人，相公可怜，抬举你做个提辖，比得草芥子大小的官职，直得恁地逞能。休说我是相公家都管，便是村庄一个老的，也合依我劝一劝，只顾把他们打，是何看待！”杨志道：“都管，你须是城市里人，生长在相府里，那里知道途路上千难万难。”老都管道：“四川、两广也曾去来，不曾见你这般卖弄。”杨志道：“如今须不比太平时节。”都管道：“你说这话该剜口割舌，今日天下怎地不太平？”",
+      "杨志却待再要回言，只见对面松林里影着一个人在那里舒头探脑价望。杨志道：“俺说甚么，兀的不是歹人来了！”撇下藤条，拿了朴刀，赶入松林里来，喝一声道：“你这厮好大胆，怎敢看俺的行货！”只见松林里一字儿摆着七辆江州车儿，七个人脱得赤条条的在那里乘凉。一个鬓边老大一搭朱砂记，拿着一条朴刀，望杨志跟前来。七个人齐叫一声：“呵也！”都跳起来。杨志喝道：“你等是甚么人？”那七人道：“你是甚么人？”杨志又问道：“你等莫不是歹人？”那七人道：“你颠倒问，我等是小本经纪，那里有钱与你。”杨志道：“你等小本经纪人，偏俺有大本钱。”那七人问道：“你端的是甚么人？”杨志道：“你等且说那里来的人？”那七人道：“我等弟兄七人，是濠州人，贩枣子上东京去，路途打从这里经过。听得多人说，这里黄泥冈上如常有贼打劫客商。我等一面走，一头自说道：我七个只有些枣子，别无甚财赋，只顾过冈子来。上得冈子，当不过这热，权且在这林子里歇一歇，待晚凉了行。只听得有人上冈子来，我们只怕是歹人，因此使这个兄弟出来看一看。”杨志道：“原来如此，也是一般的客人。却才见你们窥望，惟恐是歹人，因此赶来看一看。”那七个人道：“客官请几个枣子了去。”杨志道：“不必。”提了朴刀，再回担边来。",
+      "老都管道：“既是有贼，我们去休。”杨志说道：“俺只道是歹人，原来是几个贩枣子的客人。”老都管道：“似你方才说时，他们都是没命的。”杨志道：“不必相闹，俺只要没事便好。你们且歇了，等凉些走。”众军汉都笑了。杨志也把朴刀插在地上，自去一边树下坐了歇凉。没半碗饭时，只见远远地一个汉子，挑着一副担桶，唱上冈子来。唱道：“赤日炎炎似火烧，野田禾稻半枯焦。农夫心内如汤煮，楼上王孙把扇摇。”",
+      "那汉子口里唱着，走上冈子来，松林里头歇下担桶，坐地乘凉。众军看见了，便问那汉子道：“你桶里是甚么东西？”那汉子应道：“是白酒。”众军道：“挑往那里去？”那汉子道：“挑去村里卖。”众军道：“多少钱一桶？”那汉子道：“五贯足钱。”众军商量道：“我们又热又渴，何不买些吃？也解暑气。”正在那里凑钱。杨志见了，喝道：“你们又做甚么？”众军道：“买碗酒吃。”杨志调过朴刀杆便打，骂道：“你们不得洒家言语，胡乱便要买酒吃，好大胆！”众军道：“没事又来捣乱。我们自凑钱买酒吃，干你甚事，也来打人。”杨志道：“你这村人理会的甚么！到来只顾吃嘴，全不晓得路途上的勾当艰难。多少好汉，被蒙汗药麻翻了。”那挑酒的汉子看着杨志冷笑道：“你这客官好不晓事，早是我不卖与你吃，却说出这般没气力的话来。”",
+      "正在松树边闹动争说，只见对面松林里那伙贩枣子的客人，都提着朴刀走出来问道：“你们做甚么闹？”那挑酒的汉子道：“我自挑这酒过冈子村里卖，热了在此歇凉。他众人要问我买些吃，我又不曾卖与他。这个客官道我酒里有甚么蒙汗药。你道好笑么？说出这般话来！”那七个客人说道：“我只道有歹人出来，原来是如此。说一声也不打紧。我们倒着买一碗吃。既是他们疑心，且卖一桶与我们吃。”那挑酒的道：“不卖，不卖！”这七个客人道：“你这汉子也不晓事，我们须不曾说你。你左右将到村里去卖，一般还你钱。便卖些与我们，打甚么不紧。看你不道得舍施了茶汤，便又救了我们热渴。”那挑酒的汉子便道：“卖一桶与你不争，只是被他们说的不好。又没碗瓢舀吃。”那七人道：“你这汉子忒认真，便说了一声打甚么不紧。我们自有椰瓢在这里。”只见两个客人去车子前取出两个椰瓢来，一个捧出一大捧枣子来。七个人立在桶边，开了桶盖，轮替换着舀那酒吃，把枣子过口。无一时，一桶酒都吃尽了。七个客人道：“正不曾问得你多少价钱？”那汉道：“我一了不说价，五贯足钱一桶，十贯一担。”七个客人道：“五贯便依你五贯，只饶我们一瓢吃。”那汉道：“饶不的，做定的价钱。”一个客人把钱还他，一个客人便去揭开桶盖，兜了一瓢，拿上便吃。那汉去夺时，这客人手拿半瓢酒，望松林里便走，那汉赶将去。只见这边一个客人从松林里走将出来，手里拿一个瓢，便来桶里舀了一瓢酒。那汉看见，抢来劈手夺住，望桶里一倾，便盖了桶盖，将瓢望地下一丢，口里说道：“你这客人好不君子相！戴头识脸的，也这般啰唣。",
+      "那对过众军汉见了，心内痒起来，都待要吃。数中一个看着老都管道：“老爷爷，与我们说一声。那卖枣子的客人买他一桶吃了，我们胡乱也买他这桶吃，润一润喉也好。其实热渴了，没奈何，这里冈子上又没讨水吃处。老爷方便！”老都管见众军所说，自心里也要吃得些，竟来对杨志说：“那贩枣子客人已买了他一桶酒吃，只有这一桶，胡乱教他们买了避暑气。冈子上端的没处讨水吃。”杨志寻思道：“俺在远远处望，这厮们都买他的酒吃了，那桶里当面也见吃了半瓢，想是好的。打了他们半日，胡乱容他买碗吃罢。”杨志道：“既然老都管说了，教这厮们买吃了便起身。”众军健听了这话，凑了五贯足钱来买酒吃。那卖酒的汉子道：“不卖了，不卖了！”便道：“这酒里有蒙汗药在里头。”众军陪着笑说道：“大哥，直得便还言语。”那汉道：“不卖了，休缠！”这贩枣子的客人劝道：“你这个汉子，他也说得差了，你也忒认真，连累我们也吃你说了几声。须不关他众人之事，胡乱卖与他众人吃些。”那汉道：“没事讨别人疑心做甚么。”这贩枣子客人把那卖酒的汉子推开一边，只顾将这桶酒提与众军去吃。那军汉开了桶盖，无甚舀吃，陪个小心，问客人借这椰瓢用一用。众客人道：“就送这几个枣子与你们过酒。”众军谢道：“甚么道理。”客人道：“休要相谢，都是一般客人，何争在这百十个枣子上。”众军谢了，先兜两瓢，叫老都管吃一瓢，杨提辖吃一瓢。杨志那里肯吃。老都管自先吃了一瓢。两个虞候各吃一瓢。众军汉一发上，那桶酒登时吃尽了。杨志见众人吃了无事，自本不吃，一者天气甚热，二乃口渴难熬，拿起来，只吃了一半，枣子分几个吃了。那卖酒的汉子说道：“这桶酒吃那客人饶两瓢吃了，少了你些酒，我今饶了你众人半贯钱罢。”众军汉把钱还他。那汉子收了钱，挑了空桶，依然唱着山歌，自下冈子去了。",
+      "只见那七个贩枣子的客人，立在松树旁边，指着这一十五人说道：“倒也，倒也！”只见这十五个人，头重脚轻，一个个面面厮觑，都软倒了。那七个客人从松树林里推出这七辆江州车儿，把车子上枣子都丢在地上，将这十一担金珠宝贝，却装在车子内，叫声：“聒噪！”一直望黄泥冈下推了去。杨志口里只是叫苦，软了身体，扎挣不起。十五人眼睁睁地看着那七个人都把这金宝装了去，只是起不来，挣不动，说不的。",
+      "我且问你：这七人端的是谁？不是别人，原来正是晁盖、吴用、公孙胜、刘唐、三阮这七个。却才那个挑酒的汉子，便是白日鼠白胜。却怎地用药？原来挑上冈子时，两桶都是好酒。七个人先吃了一桶，刘唐揭起桶盖，又兜了半瓢吃，故意要他们看着，只是教人死心塌地。次后，吴用去松林里取出药来，抖在瓢里，只做赶来饶他酒吃，把瓢去兜时，药已搅在酒里，假意兜半瓢吃，那白胜劈手夺来，倾在桶里。这个便是计策。那计较都是吴用主张。这个唤做“智取生辰纲”。"
     ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/57d4d5c/",
-    "slug": "57d4d5c",
-    "link": "/junior/works/57d4d5c"
+    "author": "施耐庵",
+    "dynasty": "明代",
+    "book": "九年级上册",
+    "sourceTitle": "古诗文网",
+    "genre": "古典小说",
+    "readingNote": "旧版九年级上册选篇，保留作延伸阅读。古典小说原文节选。教材可能对字词、标点和节选起止作调整，请对照所用版本。",
+    "slug": "6280f6b53209",
+    "link": "/junior/works/6280f6b53209",
+    "legacy": true
+  },
+  {
+    "stage": "junior",
+    "title": "范进中举",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_27437d05f993.aspx",
+    "id": "27437d05f993",
+    "paragraphs": [
+      "范进进学回家，母亲、妻子俱各欢喜。正待烧锅做饭，只见他丈人胡屠户，手里拿着一副大肠和一瓶酒，走了进来。范进向他作揖，坐下。胡屠户道：“我自倒运，把个女儿嫁与你这现世宝，历年以来，不知累了我多少。如今不知因我积了甚么德，带挈你中了个相公，我所以带个酒来贺你。”范进唯唯连声，叫浑家把肠子煮了，烫起酒来，在茅草棚下坐着。母亲自和媳妇在厨下做饭。胡屠户又吩咐女婿道：“你如今既中了相公，凡事要立起个体统来。比如我这行事里，都是些正经有脸面的人，又是你的长亲，你怎敢在我们跟前装大？若是家门口这些做田的，扒粪的，不过是平头百姓，你若同他拱手作揖，平起平坐，这就是坏了学校规矩，连我脸上都无光了。你是个烂忠厚没用的人，所以这些话我不得不教导你，免得惹人笑话。”范进道：“岳父见教的是。”胡屠户又道：“亲家母也来这里坐着吃饭。老人家每日小菜饭，想也难过。我女孩儿也吃些。自从进了你家门，这十几年，不知猪油可曾吃过两三回哩！可怜！可怜！”说罢，婆媳两个都来坐着吃了饭。吃到日西时分，胡屠户吃的醺醺的。这里母子两个，千恩万谢。屠户横披了衣服，腆着肚子去了。",
+      "次日，范进少不得拜拜乡邻。魏好古又约了一班同案的朋友，彼此来往。因是乡试年，做了几个文会。不觉到了六月尽间，这些同案的人约范进去乡试。范进因没有盘费，走去同丈人商议，被胡屠户一口啐在脸上，骂了一个狗血喷头，道：“不要失了你的时了！你自己只觉得中了一个相公，就‘癞蛤蟆想吃起天鹅肉’来！我听见人说，就是中相公时，也不是你的文章，还是宗师看见你老，不过意，舍与你的。如今痴心就想中起老爷来！这些中老爷的都是天上的‘文曲星’！你不看见城里张府上那些老爷，都有万贯家私，一个个方面大耳？像你这尖嘴猴腮，也该撒抛尿自己照照！不三不四，就想天鹅屁吃！趁早收了这心，明年在我们行事里替你寻一个馆，每年寻几两银子，养活你那老不死的老娘和你老婆是正经！你问我借盘缠，我一天杀一个猪还赚不得钱把银子，都把与你去丢在水里，叫我一家老小嗑西北风！”一顿夹七夹八，骂的范进摸不着门。辞了丈人回来，自心里想：“宗师说我火候已到，自古无场外的举人，如不进去考他一考，如何甘心？”因向几个同案商议，瞒着丈人，到城里乡试。出了场，即便回家。家里已是饿了两三天。被胡屠户知道，又骂了一顿。",
+      "到出榜那日，家里没有早饭的米，母亲吩咐范进道：“我有一只生蛋的母鸡，你快拿集上去卖了，买几升米来煮餐粥吃，我已是饿的两眼都看不见了。”范进慌忙抱了鸡，走出门去。才去不到两个时候，只听得一片声的锣响，三匹马闯将来。那三个人下了马，把马拴在茅草棚上，一片声叫道：“快请范老爷出来，恭喜高中了！”母亲不知是甚事，吓得躲在屋里；听见中了，方敢伸出头来，说道：“诸位请坐，小儿方才出去了。”那些报录人道：“原来是老太太。”大家簇拥着要喜钱。正在吵闹，又是几匹马，二报、三报到了，挤了一屋的人，茅草棚地下都坐满了。邻居都来了，挤着看。老太太没奈何，只得央及一个邻居去寻他儿子。",
+      "那邻居飞奔到集上，一地里寻不见；直寻到集东头，见范进抱着鸡，手里插个草标，一步一踱的，东张西望，在那里寻人买。邻居道：“范相公，快些回去！你恭喜中了举人，报喜人挤了一屋里。”范进当是哄他，只装不听见，低着头往前走。邻居见他不理，走上来，就要夺他手里的鸡。范进道：“你夺我的鸡怎的？你又不买。”邻居道：“你中了举了，叫你家去打发报子哩。”范进道：“高邻，你晓得我今日没有米，要卖这鸡去救命，为甚么拿这话来混我？我又不同你顽，你自回去罢，莫误了我卖鸡。”邻居见他不信，劈手把鸡夺了，掼在地下，一把拉了回来。报录人见了道：“好了，新贵人回来了。”正要拥着他说话，范进三两步走进屋里来，见中间报帖已经升挂起来，上写道：“捷报贵府老爷范讳高中广东乡试第七名亚元。京报连登黄甲。”",
+      "范进不看便罢，看了一遍，又念一遍，自己把两手拍了一下，笑了一声，道：“噫！好了！我中了！”说着，往后一跤跌倒，牙关咬紧，不省人事。老太太慌了，慌将几口开水灌了过来。他爬将起来，又拍着手大笑道：“噫！好！我中了！”笑着，不由分说，就往门外飞跑，把报录人和邻居都吓了一跳。走出大门不多路，一脚踹在塘里，挣起来，头发都跌散了，两手黄泥，淋淋漓漓一身的水。众人拉他不住，拍着笑着，一直走到集上去了。众人大眼望小眼，一齐道：“原来新贵人欢喜疯了。”老太太哭道：“怎生这样苦命的事！中了一个甚么举人，就得了这个拙病！这一疯了，几时才得好？”娘子胡氏道：“早上好好出去，怎的就得了这样的病！却是如何是好？”众邻居劝道：“老太太不要心慌。我们而今且派两个人跟定了范老爷。这里众人家里拿些鸡蛋酒米，且管待了报子上的老爹们，再为商酌。”",
+      "当下众邻居有拿鸡蛋来的，有拿白酒来的，也有背了斗米来的，也有捉两只鸡来的。娘子哭哭啼啼，在厨下收拾齐了，拿在草棚下。邻居又搬些桌凳，请报录的坐着吃酒，商议他这疯了，如何是好。报录的内中有一个人道：“在下倒有一个主意，不知可以行得行不得？”众人问：“如何主意？”那人道：“范老爷平日可有最怕的人？他只因欢喜狠了，痰涌上来，迷了心窍。如今只消他怕的这个人来打他一个嘴巴，说：‘这报录的话都是哄你，你并不曾中。’他吃这一吓，把痰吐了出来，就明白了。”众邻都拍手道：“这个主意好得紧，妙得紧！范老爷怕的，莫过于肉案子上胡老爹。好了！快寻胡老爹来。他想是还不知道，在集上卖肉哩。”又一个人道：“在集上卖肉，他倒好知道了；他从五更鼓就往东头集上迎猪，还不曾回来。快些迎着去寻他。”",
+      "一个人飞奔去迎，走到半路，遇着胡屠户来，后面跟着一个烧汤的二汉，提着七八斤肉，四五千钱，正来贺喜。进门见了老太太，老太太大哭着告诉了一番。胡屠户诧异道：“难道这等没福？”外边人一片声请胡老爹说话。胡屠户把肉和钱交与女儿，走了出来。众人如此这般，同他商议。胡屠户作难道：“虽然是我女婿，如今却做了老爷，就是天上的星宿。天上的星宿是打不得的！我听得斋公们说：打了天上的星宿，阎王就要拿去打一百铁棍，发在十八层地狱，永不得翻身。我却是不敢做这样的事！”邻居内一个尖酸人说道：“罢么！胡老爹，你每日杀猪的营生，白刀子进去，红刀子出来，阎王也不知叫判官在簿子上记了你几千条铁棍；就是添上这一百棍，也打甚么要紧？只恐把铁棍子打完了，也算不到这笔帐上来。或者你救好了女婿的病，阎王叙功，从地狱里把你提上第十七层来，也不可知。”报录的人道：“不要只管讲笑话。胡老爹，这个事须是这般，你没奈何，权变一权变。”屠户被众人局不过，只得连斟两碗酒喝了，壮一壮胆，把方才这些小心收起，将平日的凶恶样子拿出来，卷一卷那油晃晃的衣袖，走上集去。众邻居五六个都跟着走。老太太赶出来叫道：“亲家，你只可吓他一吓，却不要把他打伤了！”众邻居道：“这自然，何消吩咐。”说着，一直去了。",
+      "来到集上，见范进正在一个庙门口站着，散着头发，满脸污泥，鞋都跑掉了一只，兀自拍着掌，口里叫道：“中了！中了！”胡屠户凶神似的走到跟前，说道：“该死的畜生！你中了甚么？”一个嘴巴打将去。众人和邻居见这模样，忍不住的笑。不想胡屠户虽然大着胆子打了一下，心里到底还是怕的，那手早颤起来，不敢打到第二下。范进因这一个嘴巴，却也打晕了，昏倒于地。众邻居一齐上前，替他抹胸口，捶背心，舞了半日，渐渐喘息过来，眼睛明亮，不疯了。众人扶起，借庙门口一个外科郎中的板凳上坐着。胡屠户站在一边，不觉那只手隐隐的疼将起来；自己看时，把个巴掌仰着，再也弯不过来。自己心里懊恼道：“果然天上‘文曲星’是打不得的，而今菩萨计较起来了。”想一想，更疼的狠了，连忙问郎中讨了个膏药贴着。",
+      "范进看了众人，说道：“我怎么坐在这里？”又道：“我这半日，昏昏沉沉，如在梦里一般。”众邻居道：“老爷，恭喜高中了。适才欢喜的有些引动了痰，方才吐出几口痰来，好了。快请回家去打发报录人。”范进说道：“是了。我也记得是中的第七名。”范进一面自绾了头发，一面问郎中借了一盆水洗洗脸。一个邻居早把那一只鞋寻了来，替他穿上。见丈人在跟前，恐怕又要来骂。胡屠户上前道：“贤婿老爷，方才不是我敢大胆，是你老太太的主意，央我来劝你的。”邻居内一个人道：“胡老爹方才这个嘴巴打的亲切，少顷范老爷洗脸，还要洗下半盆猪油来！”又一个道：“老爹，你这手明日杀不得猪了。”胡屠户道：“我那里还杀猪！有我这贤婿，还怕后半世靠不着也怎的？我每常说，我的这个贤婿，才学又高，品貌又好，就是城里头那张府、周府这些老爷，也没有我女婿这样一个体面的相貌。你们不知道，得罪你们说，我小老这一双眼睛，却是认得人的。想着先年，我小女在家里长到三十多岁，多少有钱的富户要和我结亲，我自己觉得女儿像有些福气的，毕竟要嫁与个老爷，今日果然不错！”说罢，哈哈大笑。众人都笑起来。看着范进洗了脸，郎中又拿茶来吃了，一同回家。范举人先走，屠户和邻居跟在后面。屠户见女婿衣裳后襟滚皱了许多，一路低着头替他扯了几十回。",
+      "到了家门，屠户高声叫道：“老爷回府了！”老太太迎着出来，见儿子不疯，喜从天降。众人问报录的，已是家里把屠户送来的几千钱打发他们去了。范进拜了母亲，也拜谢丈人。胡屠户再三不安道：“些须几个钱，不够你赏人。”范进又谢了邻居。正待坐下，早看见一个体面的管家，手里拿着一个大红全帖，飞跑了进来：“张老爷来拜新中的范老爷。”说毕，轿子已是到了门口。胡屠户忙躲进女儿房里，不敢出来。邻居各自散了。",
+      "范进迎了出去，只见那张乡绅下了轿进来，头戴纱帽，身穿葵花色圆领，金带、皂靴。他是举人出身，做过一任知县的，别号静斋，同范进让了进来，到堂屋内平磕了头，分宾主坐下。张乡绅先攀谈道：“世先生同在桑梓，一向有失亲近。”范进道：“晚生久仰老先生，只是无缘，不曾拜会。”张乡绅道：“适才看见题名录，贵房师高要县汤公，就是先祖的门生，我和你是亲切的世弟兄。”范进道：“晚生侥幸，实是有愧。却幸得出老先生门下，可为欣喜。”张乡绅四面将眼睛望了一望，说道：“世先生果是清贫。”随在跟的家人手里拿过一封银子来，说道：“弟却也无以为敬，谨具贺仪五十两，世先生权且收着。这华居其实住不得，将来当事拜往，俱不甚便。弟有空房一所，就在东门大街上，三进三间，虽不轩敞，也还干净，就送与世先生；搬到那里去住，早晚也好请教些。”范进再三推辞，张乡绅急了，道：“你我年谊世好，就如至亲骨肉一般；若要如此，就是见外了。”范进方才把银子收下，作揖谢了。又说了一会，打躬作别。胡屠户直等他上了轿，才敢走出堂屋来。",
+      "范进即将这银子交与浑家打开看，一封一封雪白的细丝锭子，即便包了两锭，叫胡屠户进来，递与他道：“方才费老爹的心，拿了五千钱来。这六两多银子，老爹拿了去。”屠户把银子攥在手里紧紧的，把拳头舒过来，道：“这个，你且收着。我原是贺你的，怎好又拿了回去？”范进道：“眼见得我这里还有这几两银子，若用完了，再来问老爹讨来用。”屠户连忙把拳头缩了回去，往腰里揣，口里说道：“也罢，你而今相与了这个张老爷，何愁没有银子用？他家里的银子，说起来比皇帝家还多些哩！他家就是我卖肉的主顾，一年就是无事，肉也要用四五千斤，银子何足为奇！”又转回头来望着女儿，说道：“我早上拿了钱来，你那该死行瘟的兄弟还不肯，我说：‘姑老爷今非昔比，少不得有人把银子送上门来给他用，只怕姑老爷还不稀罕。’今日果不其然！如今拿了银子家去，骂这死砍头短命的奴才！”说了一会，千恩万谢，低着头，笑迷迷的去了。",
+      "自此以后，果然有许多人来奉承他：有送田产的；有人送店房的；还有那些破落户，两口子来投身为仆，图荫庇的。到两三个月，范进家奴仆、丫鬟都有了，钱、米是不消说了。张乡绅家又来催着搬家。搬到新房子里，唱戏、摆酒、请客，一连三日。"
+    ],
+    "author": "吴敬梓",
+    "dynasty": "清代",
+    "book": "九年级上册",
+    "sourceTitle": "古诗文网",
+    "genre": "古典小说",
+    "readingNote": "旧版九年级上册选篇，保留作延伸阅读。古典小说原文节选。教材可能对字词、标点和节选起止作调整，请对照所用版本。",
+    "slug": "27437d05f993",
+    "link": "/junior/works/27437d05f993",
+    "legacy": true
+  },
+  {
+    "stage": "junior",
+    "title": "三顾茅庐",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_a90848a9aa44.aspx",
+    "id": "a90848a9aa44",
+    "paragraphs": [
+      "却说玄德访孔明两次不遇，欲再往访之。关公曰：“兄长两次亲往拜谒，其礼太过矣。想诸葛亮有虚名而无实学，故避而不敢见。兄何惑于斯人之甚也！”玄德曰：“不然。昔齐桓公欲见东郭野人，五反而方得一面。况吾欲见大贤耶？”张飞曰：“哥哥差矣。量此村夫，何足为大贤！今番不须哥哥去；他如不来，我只用一条麻绳缚将来！”玄德叱曰：“汝岂不闻周文王谒姜子牙之事乎？文王且如此敬贤，汝何太无礼！今番汝休去，我自与云长去。”飞曰：“既两位哥哥都去，小弟如何落后！”玄德曰：“汝若同往，不可失礼。”飞应诺。",
+      "于是三人乘马引从者往隆中。离草庐半里之外，玄德便下马步行，正遇诸葛均。玄德忙施礼，问曰：“令兄在庄否？”均曰：“昨暮方归。将军今日可与相见。”言罢，飘然自去。玄德曰：“今番侥幸得见先生矣！”张飞曰：“此人无礼！便引我等到庄也不妨，何故竟自去了！”玄德曰：“彼各有事，岂可相强。”三人来到庄前叩门，童子开门出问。玄德曰：“有劳仙童转报：刘备专来拜见先生。”童子曰：“今日先生虽在家，但今在草堂上昼寝未醒。”玄德曰：“既如此，且休通报。”吩咐关、张二人，只在门首等着。玄德徐步而入，见先生仰卧于草堂几席之上。玄德拱立阶下。半晌，先生未醒。关、张在外立久，不见动静，入见玄德犹然侍立。张飞大怒，谓云长曰：“这先生如何傲慢！见我哥哥侍立阶下，他竟高卧，推睡不起！等我去屋后放一把火，看他起不起！”云长再三劝住。玄德仍命二人出门外等候。望堂上时，见先生翻身将起，忽又朝里壁睡着。童子欲报。玄德曰：“且勿惊动。”又立了一个时辰，孔明才醒，口吟诗曰：",
+      "大梦谁先觉？平生我自知。",
+      "草堂春睡足，窗外日迟迟。",
+      "孔明吟罢，翻身问童子曰：“有俗客来否？”童子曰：“刘皇叔在此，立候多时。”孔明乃起身曰：“何不早报！尚容更衣。”遂转入后堂。又半晌，方整衣冠出迎。玄德见孔明身长八尺，面如冠玉，头戴纶巾，身披鹤氅，飘飘然有神仙之概。玄德下拜曰：“汉室末胄，涿郡愚夫，久闻先生大名，如雷贯耳。昨两次晋谒，不得一见，已书贱名于文几，未审得入览否？”孔明曰：“南阳野人，疏懒性成，屡蒙将军枉临，不胜愧赧。”二人叙礼毕，分宾主而坐，童子献茶。茶罢，孔明曰：“昨观书意，足见将军忧民忧国之心；但恨亮年幼才疏，有误下问。”玄德曰：“司马德操之言，徐元直之语，岂虚谈哉？望先生不弃鄙贱，曲赐教诲。”孔明曰：“德操、元直，世之高士。亮乃一耕夫耳，安敢谈天下事？二公谬举矣。将军奈何舍美玉而求顽石乎？”玄德曰：“大丈夫抱经世奇才，岂可空老于林泉之下？愿先生以天下苍生为念，开备愚鲁而赐教。”孔明笑曰：“愿闻将军之志。”玄德屏人促席而告曰：“汉室倾颓，奸臣窃命，备不量力，欲伸大义于天下，而智术浅短，迄无所就。惟先生开其愚而拯其厄，实为万幸！”孔明曰：“自董卓造逆以来，天下豪杰并起。曹操势不及袁绍，而竟能克绍者，非惟天时，抑亦人谋也。今操已拥百万之众，挟天子以令诸侯，此诚！不可与争锋。孙权据有江东，已历三世，国险而民附，此可用为援而不可图也。荆州北据汉、沔，利尽南海，东连吴会，西通巴、蜀，此用武之地，非其主不能守：是殆天所以资将军，将军岂有意乎？益州险塞，沃野千里，天府之国，高祖因之以成帝业；今刘璋暗弱，民殷国富，而不知存恤，智能之士，思得明君。将军既帝室之胄，信义著于四海，总揽英雄，思贤如渴，若跨有荆、益，保其岩阻，西和诸戎，南抚彝、越，外结孙权，内修政理；待天下有变，则命一上将将荆州之兵以向宛、洛，将军身率益州之众以出秦川，百姓有不箪食壶浆以迎将军者乎？诚如是，则大业可成，汉室可兴矣。此亮所以为将军谋者也。惟将军图之。”言罢，命童子取出画一轴，挂于中堂，指谓玄德曰：“此西川五十四州之图也。将军欲成霸业，北让曹操占天时，南让孙权占地利，将军可占人和。先取荆州为家，后即取西川建基业，以成鼎足之势，然后可图中原也。”玄德闻言，避席拱手谢曰：“先生之言，顿开茅塞，使备如拨云雾而睹青天。但荆州刘表、益州刘璋，皆汉室宗亲，备安忍夺之？”孔明曰：“亮夜观天象，刘表不久人世；刘璋非立业之主：久后必归将军。”玄德闻言，顿首拜谢。只这一席话，乃孔明未出茅庐，已知三分天下，真万古之人不及也！后人有诗赞曰：",
+      "豫州当日叹孤穷，何幸南阳有卧龙！",
+      "欲识他年分鼎处，先生笑指画图中。",
+      "玄德拜请孔明曰：“备虽名微德薄，愿先生不弃鄙贱，出山相助。备当拱听明诲。”孔明曰：“亮久乐耕锄，懒于应世，不能奉命。”玄德泣曰：“先生不出，如苍生何！”言毕，泪沾袍袖，衣襟尽湿。孔明见其意甚诚，乃曰：“将军既不相弃，愿效犬马之劳。”玄德大喜，遂命关、张入，拜献金帛礼物。孔明固辞不受。玄德曰：“此非聘大贤之礼，但表刘备寸心耳。”孔明方受。于是玄德等在庄中共宿一宵。次日，诸葛均回，孔明嘱咐曰：“吾受刘皇叔三顾之恩，不容不出。汝可躬耕于此，勿得荒芜田亩。待我功成之日，即当归隐。”后人有诗叹曰：身未升腾思退步，功成应忆去时言。只因先主丁宁后，星落秋风五丈原。"
+    ],
+    "author": "罗贯中",
+    "dynasty": "明代",
+    "book": "九年级上册",
+    "sourceTitle": "古诗文网",
+    "genre": "古典小说",
+    "readingNote": "旧版九年级上册选篇，保留作延伸阅读。古典小说原文节选。教材可能对字词、标点和节选起止作调整，请对照所用版本。",
+    "slug": "a90848a9aa44",
+    "link": "/junior/works/a90848a9aa44",
+    "legacy": true
+  },
+  {
+    "stage": "junior",
+    "title": "刘姥姥进大观园",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_db7aadccd579.aspx",
+    "id": "db7aadccd579",
+    "paragraphs": [
+      "贾母便笑道：“这屋里窄，再往别处逛去罢。”刘姥姥笑道：“人人都说：‘大家子住大房’，昨儿见了老太太正房，配上大箱、大柜、大桌子、大床，果然威武。那柜子比我们一间房子还大，还高。怪道后院子里有个梯子，我想又不上房晒东西，预备这梯子做什么？后来我想起来，一定是为开顶柜取东西；离了那梯子怎么上得去呢？如今又见了这小屋子，更比大的越发齐整了；满屋里东西都只好看，可不知叫什么。我越看越舍不得离了这里了！”凤姐道：“还有好的呢，我都带你去瞧瞧。",
+      "说着，一径离了潇湘馆，远远望见池中一群人在那里撑船。贾母道：“他们既备下船，咱们就坐一回。”说着，向紫菱洲蓼溆一带走来。未至池前，只见几个婆子手里都捧着一色摄丝戗金五彩大盒子走来，凤姐忙问王夫人：“早饭在那里摆？”王夫人道：“问老太太在那里就在那里罢了。”贾母听说，便回头说：“你三妹妹那里好，你就带了人摆去，我们从这里坐了船去。”",
+      "凤姐儿听说，便回身和李纨、探春、鸳鸯、琥珀带着端饭的人等，抄着近路到了秋爽斋，就在晓翠堂上调开桌案。鸳鸯笑道：“天天咱们说外头老爷们：吃酒吃饭，都有个凑趣儿的，拿他取笑儿。咱们今儿也得了个女清客了。”李纨是个厚道人，倒不理会；凤姐儿却听着是说刘姥姥，便笑道：“咱们今儿就拿他取个笑儿。”二人便如此这般商议。李纨笑劝道：“你们一点好事儿不做！又不是个小孩儿，还这么淘气。仔细老太太说！”鸳鸯笑道：“很不与大奶奶相干，有我呢。”",
+      "正说着，只见贾母等来了，各自随便坐下，先有丫鬟挨人递了茶，大家吃毕，凤姐手里拿着西洋布手巾，裹着一把乌木三镶银箸，按席摆下。贾母因说：“把那一张小楠木桌子抬过来，让刘亲家挨着我这边坐。”众人听说，忙抬过来。凤姐一面递眼色与鸳鸯，鸳鸯便忙拉刘姥姥出去，悄悄的嘱咐了刘姥姥一席话，又说：“这是我们家的规矩，要错了，我们就笑话呢。”",
+      "调停已毕，然后归坐。薛姨妈是吃过饭来的，不吃了，只坐在一边吃茶。贾母带着宝玉、湘云、黛玉、宝钗一桌，王夫人带着迎春姐妹三人一桌，刘姥姥挨着贾母一桌。贾母素日吃饭，皆有小丫鬟在旁边拿着漱盂、麈尾、巾帕之物，如今鸳鸯是不当这差的了，今日偏接过麈尾来拂着。丫鬟们知他要捉弄刘姥姥，便躲开让他。鸳鸯一面侍立，一面递眼色。刘姥姥道：“姑娘放心。",
+      "那刘姥姥入了坐，拿起箸来，沉甸甸的不伏手，——原是凤姐和鸳鸯商议定了，单拿了一双老年四楞象牙镶金的筷子给刘姥姥。刘姥姥见了，说道：“这个叉巴子，比我们那里的铁锨还沉，那里拿的动他？”说的众人都笑起来。只见一个媳妇端了一个盒子站在当地，一个丫鬟上来揭去盒盖，里面盛着两碗菜，李纨端了一碗放在贾母桌上，凤姐偏拣了一碗鸽子蛋放在刘姥姥桌上。",
+      "贾母这边说声“请”，刘姥姥便站起身来，高声说道：“老刘，老刘，食量大如牛：吃个老母猪，不抬头！”说完，却鼓着腮帮子，两眼直视，一声不语。众人先还发怔，后来一想，上上下下都一齐哈哈大笑起来。湘云掌不住，一口茶都喷出来。黛玉笑岔了气，伏着桌子只叫“嗳哟！”宝玉滚到贾母怀里，贾母笑的搂着叫“心肝”，王夫人笑的用手指着凤姐儿，却说不出话来。薛姨妈也掌不住，口里的茶喷了探春一裙子。探春的茶碗都合在迎春身上。惜春离了坐位，拉着他奶母，叫“揉揉肠子”。地下无一个不弯腰屈背，也有躲出去蹲着笑去的，也有忍着笑上来替他姐妹换衣裳的。独有凤姐鸳鸯二人掌着，还只管让刘姥姥。",
+      "刘姥姥拿起箸来，只觉不听使，又道：“这里的鸡儿也俊，下的这蛋也小巧，怪俊的。我且得一个儿！”众人方住了笑，听见这话，又笑起来。贾母笑的眼泪出来，只忍不住；琥珀在后捶着。贾母笑道：“这定是凤丫头促狭鬼儿闹的！快别信他的话了。”",
+      "那刘姥姥正夸鸡蛋小巧，凤姐儿笑道：“一两银子一个呢！你快尝尝罢，冷了就不好吃了。”刘姥姥便伸筷子要夹，那里夹的起来？满碗里闹了一阵，好容易撮起一个来，才伸着脖子要吃，偏又滑下来，滚在地下。忙放下筷子，要亲自去拣，早有地下的人拣出去了。刘姥姥叹道：“一两银子也没听见个响声儿就没了！”",
+      "众人已没心吃饭，都看着他取笑。贾母又说：“谁这会子又把那个筷子拿出来了，又不请客摆大筵席！都是凤丫头支使的！还不换了呢。”地下的人原不曾预备这牙箸，本是凤姐和鸳鸯拿了来的，听如此说，忙收过去了，也照样换上一双乌木镶银的。刘姥姥道：“去了金的，又是银的，到底不及俺们那个伏手。”凤姐儿道：“菜里要有毒，这银子下去了就试的出来。”刘姥姥道：“这个菜里有毒，我们那些都成了砒霜了！那怕毒死了，也要吃尽了。”贾母见他如此有趣，吃的又香甜，把自己的菜也都端过来给他吃。又命一个老嬷嬷来，将各样的菜给板儿夹在碗上。",
+      "一时吃毕，贾母等都往探春卧室中去闲话，这里收拾残桌，又放了一桌。刘姥姥看着李纨与凤姐儿对坐着吃饭，叹道：“别的罢了，我只爱你们家这行事！怪道说，‘礼出大家’。”凤姐儿忙笑道：“你可别多心，才刚不过大家取乐儿。”一言未了，鸳鸯也进来笑道：“姥姥别恼，我给你老人家赔个不是儿罢。”刘姥姥忙笑道：“姑娘说那里的话？咱们哄着老太太开个心儿，有什么恼的！你先嘱咐我，我就明白了，不过大家取笑儿。我要恼，也就不说了。”鸳鸯便骂人：“为什么不倒茶给姥姥吃！”刘姥姥忙道：“才刚那个嫂子倒了茶来，我吃过了，姑娘也该用饭了。”凤姐儿便拉鸳鸯坐下道：“你和我们吃罢，省了回来又闹。”鸳鸯便坐下了，婆子们添上碗箸来，三人吃毕。"
+    ],
+    "author": "曹雪芹",
+    "dynasty": "清代",
+    "book": "九年级上册",
+    "sourceTitle": "古诗文网",
+    "genre": "古典小说",
+    "readingNote": "旧版九年级上册选篇，保留作延伸阅读。古典小说原文节选。教材可能对字词、标点和节选起止作调整，请对照所用版本。",
+    "slug": "db7aadccd579",
+    "link": "/junior/works/db7aadccd579",
+    "legacy": true
+  },
+  {
+    "id": "95e6625",
+    "title": "行香子·树绕村庄",
+    "author": "秦观",
+    "book": "九年级上册",
+    "stage": "junior",
+    "dynasty": "宋代",
+    "genre": "诗词曲",
+    "paragraphs": [
+      "树绕村庄，水满陂塘。倚东风、豪兴徜徉。小园几许，收尽春光。有桃花红，李花白，菜花黄。",
+      "远远围墙，隐隐茅堂。飏青旗、流水桥旁。偶然乘兴，步过东冈。正莺儿啼，燕儿舞，蝶儿忙。"
+    ],
+    "sourceUrl": "https://www.gushiwenku.cn/shiwen/95e6625/",
+    "slug": "95e6625",
+    "link": "/junior/works/95e6625",
+    "legacy": true,
+    "readingNote": "旧版九年级上册选篇，保留作延伸阅读。"
   },
   {
     "id": "fedb10f",
@@ -2014,237 +4952,6 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/83f999a/",
     "slug": "83f999a",
     "link": "/junior/works/83f999a"
-  },
-  {
-    "id": "60435b6",
-    "title": "曹刿论战",
-    "author": "左丘明",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "先秦",
-    "genre": "文言文",
-    "paragraphs": [
-      "十年春，齐师伐我。公将战，曹刿请见。其乡人曰：“肉食者谋之，又何间焉？”刿曰：“肉食者鄙，未能远谋。”乃入见。",
-      "问：“何以战？”公曰：“衣食所安，弗敢专也，必以分人。”对曰：“小惠未遍，民弗从也。”公曰：“牺牲玉帛，弗敢加也，必以信。”对曰：“小信未孚，神弗福也。”公曰：“小大之狱，虽不能察，必以情。”对曰：“忠之属也。可以一战。战则请从。”",
-      "公与之乘，战于长勺。公将鼓之。刿曰：“未可。”齐人三鼓。刿曰：“可矣。”齐师败绩。公将驰之。刿曰：“未可。”下视其辙，登轼而望之，曰：“可矣。”遂逐齐师。",
-      "既克，公问其故。对曰：“夫战，勇气也。一鼓作气，再而衰，三而竭。彼竭我盈，故克之。夫大国，难测也，惧有伏焉。吾视其辙乱，望其旗靡，故逐之。”"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/60435b6/",
-    "slug": "60435b6",
-    "link": "/junior/works/60435b6"
-  },
-  {
-    "id": "5ddb65b",
-    "title": "邹忌讽齐王纳谏",
-    "author": "刘向",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "文言文",
-    "paragraphs": [
-      "邹忌修八尺有余，而形貌昳丽。朝服衣冠，窥镜，谓其妻曰：“我孰与城北徐公美？”",
-      "其妻曰：“君美甚，徐公何能及君也？”",
-      "城北徐公，齐国之美丽者也。忌不自信，而复问其妾曰：“吾孰与徐公美？”",
-      "妾曰：“徐公何能及君也？”",
-      "旦日，客从外来，与坐谈，问之客曰：“吾与徐公孰美？”",
-      "客曰：“徐公不若君之美也。”",
-      "明日徐公来，孰视之，自以为不如；窥镜而自视，又弗如远甚。暮寝而思之，曰：“吾妻之美我者，私我也；妾之美我者，畏我也；客之美我者，欲有求于我也。”",
-      "于是入朝见威王，曰：“臣诚知不如徐公美。臣之妻私臣，臣之妾畏臣，臣之客欲有求于臣，皆以美于徐公。今齐地方千里，百二十城，宫妇左右莫不私王，朝廷之臣莫不畏王，四境之内莫不有求于王：由此观之，王之蔽甚矣。”",
-      "王曰：“善。”",
-      "乃下令：“群臣吏民能面刺寡人之过者，受上赏；上书谏寡人者，受中赏；能谤讥于市朝，闻寡人之耳者，受下赏。”",
-      "令初下，群臣进谏，门庭若市；数月之后，时时而间进；期年之后，虽欲言，无可进者。",
-      "燕、赵、韩、魏闻之，皆朝于齐。此所谓战胜于朝廷。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5ddb65b/",
-    "slug": "5ddb65b",
-    "link": "/junior/works/5ddb65b"
-  },
-  {
-    "id": "ebd2da8",
-    "title": "陈涉世家",
-    "author": "司马迁",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "文言文",
-    "paragraphs": [
-      "陈胜者，阳城人也，字涉。吴广者，阳夏人也，字叔。陈涉少时，尝与人佣耕，辍耕之垄上，怅恨久之，曰：“苟富贵，无相忘。”",
-      "佣者笑而应曰：“若为佣耕，何富贵也？”",
-      "陈涉太息曰：“嗟乎！燕雀安知鸿鹄之志哉！”",
-      "二世元年七月，发闾左適戍渔阳，九百人屯大泽乡。陈胜﹑吴广皆次当行，为屯长。会天大雨，道不通，度已失期。失期，法皆斩。",
-      "陈胜﹑吴广乃谋曰：“今亡亦死，举大计亦死；等死，死国可乎？”",
-      "陈胜曰：“天下苦秦久矣。吾闻二世少子也，不当立，当立者乃公子扶苏。扶苏以数谏故，上使外将兵。今或闻无罪，二世杀之。百姓多闻其贤，未知其死也。项燕为楚将，数有功，爱士卒，楚人怜之。或以为死，或以为亡。今诚以吾众诈自称公子扶苏﹑项燕，为天下唱，宜多应者。”",
-      "吴广以为然。乃行卜。卜者知其指意，曰：“足下事皆成，有功。然足下卜之鬼乎！”",
-      "陈胜﹑吴广喜，念鬼，曰：“此教我先威众耳。”",
-      "乃丹书帛曰“陈胜王”，置人所罾鱼腹中。卒买鱼烹食，得鱼腹中书，固以怪之矣。又间令吴广之次所旁丛祠中，夜篝火，狐鸣呼曰：“大楚兴，陈胜王。”卒皆夜惊恐。旦日，卒中往往语，皆指目陈胜。",
-      "吴广素爱人，士卒多为用者。将尉醉，广故数言欲亡，忿恚尉，令辱之，以激怒其众。尉果笞广。尉剑挺，广起，夺而杀尉。陈胜佐之，并杀两尉。",
-      "召令徒属曰：“公等遇雨，皆已失期，失期当斩。藉第令毋斩，而戍死者固十六七。且壮士不死即已，死即举大名耳，王侯将相宁有种乎！”",
-      "徒属皆曰：“敬受命。”",
-      "乃诈称公子扶苏﹑项燕，从民欲也。袒右，称大楚。为坛而盟，祭以尉首。陈胜自立为将军，吴广为都尉。攻大泽乡，收而攻蕲。蕲下，乃令符离人葛婴将兵徇蕲以东。攻铚酂苦柘谯皆下之。行收兵。比至陈，车六七百乘，骑千余，卒数万人。攻陈，陈守令皆不在，独守丞与战谯门中。弗胜，守丞死，乃入据陈。数日，号令召三老﹑豪杰与皆来会计事。",
-      "三老﹑豪杰皆曰：“将军身被坚执锐，伐无道，诛暴秦，复立楚国之社稷，功宜为王。”",
-      "陈涉乃立为王，号为张楚。",
-      "当此时，诸郡县苦秦吏者，皆刑其长吏，杀之以应陈涉。乃以吴叔为假王，监诸将以西击荥阳。令陈人武臣、张耳、陈馀徇赵地，令汝阴人邓宗徇九江郡。当此时，楚兵数千人为聚者，不可胜数。",
-      "葛婴至东城，立襄强为楚王。婴后闻陈王已立，因杀襄强，还报。至陈，陈王诛杀葛婴。陈王令魏人周市北徇魏地。吴广围荥阳。李由为三川守，守荥阳，吴叔弗能下。陈王征国之豪杰与计，以上蔡人房君蔡赐为上柱国。",
-      "周文，陈之贤人也，尝为项燕军视日，事春申君，自言习兵，陈王与之将军印，西击秦。行收兵至关，车千乘，卒数十万，至戏，军焉。秦令少府章邯免郦山徒﹑人奴产子生，悉发以击楚大军，尽败之。周文败，走出关，止次曹阳二三月。章邯追败之，复走次渑池十余日。章邯击，大破之。周文自刭，军遂不战。",
-      "武臣到邯郸，自立为赵王，陈馀为大将军，张耳、召骚为左右丞相。陈王怒，捕系武臣等家室，欲诛之。",
-      "柱国曰：“秦未亡而诛赵王将相家属，此生一秦也。不如因而立之。”",
-      "陈王乃遣使者贺赵，而徙系武臣等家属宫中，而封耳子张敖为成都君，趣赵兵，亟入关。",
-      "赵王将相相与谋曰：“王王赵，非楚意也。楚已诛秦，必加兵於赵。计莫如毋西兵，使使北徇燕地以自广也。赵南据大河，北有燕代，楚虽胜秦，不敢制赵。若楚不胜秦，必重赵。赵乘秦之弊，可以得志于天下。”",
-      "赵王以为然，因不西兵，而遣故上谷卒史韩广将兵北徇燕地。",
-      "燕故贵人豪杰谓韩广曰：“楚已立王，赵又已立王。燕虽小，亦万乘之国也，原将军立为燕王。”",
-      "韩广曰：“广母在赵，不可。”",
-      "燕人曰：“赵方西忧秦，南忧楚，其力不能禁我。且以楚之彊，不敢害赵王将相之家，赵独安敢害将军之家！”",
-      "韩广以为然，乃自立为燕王。居数月，赵奉燕王母及家属归之燕。",
-      "当此之时，诸将之徇地者，不可胜数。周市北徇地至狄，狄人田儋杀狄令，自立为齐王，以齐反击周市。市军散，还至魏地，欲立魏后故宁陵君咎为魏王。时咎在陈王所，不得之魏。魏地已定，欲相与立周市为魏王，周市不肯。使者五反，陈王乃立宁陵君咎为魏王，遣之国。周市卒为相。",
-      "将军田臧等相与谋曰：“周章军已破矣，秦兵旦暮至，我围荥阳城弗能下，秦军至，必大败。不如少遗兵，足以守荥阳，悉精兵迎秦军。今假王骄，不知兵权，不可与计，非诛之，事恐败。”",
-      "因相与矫王令以诛吴叔，献其首于陈王。陈王使使赐田臧楚令尹印，使为上将。田臧乃使诸将李归等守荥阳城，自以精兵西迎秦军于敖仓。与战，田臧死，军破。章邯进兵击李归等荥阳下，破之，李归等死。",
-      "阳城人邓说将兵居郯，章邯别将击破之，邓说军散走陈。铚人伍徐将兵居许，章邯击破之，伍徐军皆散走陈。陈王诛邓说。",
-      "陈王初立时，陵人秦嘉﹑铚人董譄﹑符离人朱鸡石﹑取虑人郑布﹑徐人丁疾等皆特起，将兵围东海守庆于郯。陈王闻，乃使武平君畔为将军，监郯下军。秦嘉不受命，嘉自立为大司马，恶属武平君。告军吏曰：“武平君年少，不知兵事，勿听！”因矫以王命杀武平君畔。",
-      "章邯已破伍徐，击陈，柱国房君死。章邯又进兵击陈西张贺军。陈王出监战，军破，张贺死。",
-      "腊月，陈王之汝阴，还至下城父，其御庄贾杀以降秦。陈胜葬砀，谥曰隐王。",
-      "陈王故涓人将军吕臣为仓头军，起新阳，攻陈下之，杀庄贾，复以陈为楚。",
-      "初，陈王至陈，令铚人宋留将兵定南阳，入武关。留已徇南阳，闻陈王死，南阳复为秦。宋留不能入武关，乃东至新蔡，遇秦军，宋留以军降秦。秦传留至咸阳，车裂留以徇。",
-      "秦嘉等闻陈王军破出走，乃立景驹为楚王，引兵之方与，欲击秦军定陶下。使公孙庆使齐王，欲与并力俱进。",
-      "齐王曰：“闻陈王战败，不知其死生，楚安得不请而立王！”",
-      "公孙庆曰：“齐不请楚而立王，楚何故请齐而立王！且楚首事，当令于天下。”",
-      "田儋诛杀公孙庆。",
-      "秦左右校复攻陈，下之。吕将军走，收兵复聚。鄱盗当阳君黥布之兵相收，复击秦左右校，破之青波，复以陈为楚。会项梁立怀王孙心为楚王。",
-      "陈胜王凡六月。已为王，王陈。其故人尝与佣耕者闻之，之陈，扣宫门曰：“吾欲见涉。”",
-      "宫门令欲缚之。自辩数，乃置，不肯为通。陈王出，遮道而呼涉。陈王闻之，乃召见，载与俱归。",
-      "入宫，见殿屋帷帐，客曰：“夥颐！涉之为王沉沉者！”",
-      "楚人谓多为伙，故天下传之，夥涉为王，由陈涉始。客出入愈益发舒，言陈王故情。",
-      "或说陈王曰：“客愚无知，颛妄言，轻威。”",
-      "陈王斩之。诸陈王故人皆自引去，由是无亲陈王者。陈王以朱房为中正，胡武为司过，主司群臣。诸将徇地，至，令之不是者，系而罪之，以苛察为忠。其所不善者，弗下吏，辄自治之。陈王信用之。诸将以其故不亲附，此其所以败也。",
-      "陈胜虽已死，其所置遣侯王将相竟亡秦，由涉首事也。高祖时为陈涉置守頉三十家砀，至今血食。",
-      "褚先生曰：地形险阻，所以为固也；兵革刑法，所以为治也。犹未足恃也。夫先王以仁义为本，而以固塞文法为枝叶，岂不然哉！",
-      "吾闻贾生之称曰：秦孝公据肴函之固，拥雍州之地，君臣固守，以窥周室，有席卷天下包举宇内囊括四海之意，并吞八荒之心。当是时也，商君佐之，内立法度，务耕织，修守战之具；外连衡而斗诸侯。于是秦人拱手而取西河之外。",
-      "孝公既没，惠文、武、昭蒙故业因遗策，南取汉中，西举巴蜀，东割膏腴之地，收要害之郡。诸侯恐惧，会盟而谋弱秦，不爱珍器、重宝、肥饶之地，以致天下之士，合从缔交，相与为一。当此之时，齐有孟尝，赵有平原，楚有春申，魏有信陵。此四君者，皆明智而忠信，宽厚而爱人，尊贤而重士，约从离横，兼韩、魏、燕、赵、宋、卫、中山之众。于是六国之士，有宁越、徐尚、苏秦、杜赫之属为之谋，齐明、周最、陈轸、召滑、楼缓、翟景、苏厉、乐毅之徒通其意，吴起、孙膑、带佗、倪良、王廖、田忌、廉颇、赵奢之伦制其兵。尝以十倍之地，百万之众，叩关而攻秦。秦人开关而延敌，九国之师逡巡遁逃而不敢进。秦无亡矢遗镞之费，而天下诸侯已困矣。于是从散约解，争割地以赂秦。秦有余力而制其弊，追亡逐北，伏尸百万，流血飘橹。因利乘便，宰割天下，分裂河山。强国请服，弱国入朝。",
-      "施及孝文王、庄襄王，享国之日浅，国家无事。",
-      "及至始皇，奋六世之余烈，振长策而御宇内，吞二周而亡诸侯，履至尊而制六合，执敲朴以鞭笞天下，威振四海。南取百越之地，以为桂林、象郡。百越之君，俯首系颈，委命下吏。乃使蒙恬北筑长城而守藩篱，却匈奴七百余里。胡人不敢南下而牧马，士不敢弯弓而报怨。于是废先王之道，燔百家之言，以愚黔首；隳名城，杀豪俊，收天下之兵聚之咸阳，销锋鍉，铸以为金人十二，以弱天下之民。然后践华为城，因河为池，据亿丈之城临不测之溪以为固。良将劲驽，守要害之处；信臣精卒，陈利兵而谁何。天下已定，始皇之心，自以为关中之固，金城千里，子孙帝王万世之业也。",
-      "始皇既没，余威震于殊俗。然陈涉瓮牖绳枢之子，氓隶之人，而迁徙之徒也；材能不及中人，非有仲尼、墨翟之贤，陶朱、猗顿之富。蹑足行伍之间，倔起阡陌之中，率罢散之卒，将数百之众，转而攻秦，斩木为兵，揭竿为旗，天下云集而响应，赢粮而景从。山东豪俊遂并起而亡秦族矣。",
-      "且夫天下非小弱也，雍州之地，崤函之固，自若也；陈涉之位，非尊于齐、楚、燕、赵、韩、魏、宋、卫、中山之君也；锄耰棘矜，不铦于钩戟长铩也；适戍之众，非抗于九国之师也；深谋远虑，行军用兵之道，非及向时之士也。然而成败异变，功业相反。试使山东之国与陈涉度长絜大，比权量力，则不可同年而语矣。然秦以区区之地，致万乘之势，序八州而朝同列，百有余年矣。然后以六合为家，肴函为宫。一夫作难而七庙隳，身死人手，为天下笑者，何也？仁义不施而攻守之势异也。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/ebd2da8/",
-    "slug": "ebd2da8",
-    "link": "/junior/works/ebd2da8"
-  },
-  {
-    "id": "3707cf3",
-    "title": "出师表",
-    "author": "诸葛亮",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "文言文",
-    "paragraphs": [
-      "先帝创业未半，而中道崩殂，今天下三分，益州疲弊，此诚危急存亡之秋也。然侍卫之臣不懈于内，忠志之士忘身于外者，盖追先帝之殊遇，欲报之于陛下也。诚宜开张圣听，以光先帝遗德，恢弘志士之气，不宜妄自菲薄，引喻失义，以塞忠谏之路也。",
-      "宫中府中，俱为一体；陟罚臧否，不宜异同：若有作奸犯科及为忠善者，宜付有司论其刑赏，以昭陛下平明之理；不宜偏私，使内外异法也。",
-      "侍中、侍郎郭攸之、费祎、董允等，此皆良实，志虑忠纯，是以先帝简拔以遗陛下：愚以为宫中之事，事无大小，悉以咨之，然后施行，必能裨补阙漏，有所广益。",
-      "将军向宠，性行淑均，晓畅军事，试用于昔日，先帝称之曰「能」，是以众议举宠为督：愚以为营中之事，悉以咨之，必能使行阵和睦，优劣得所。",
-      "亲贤臣，远小人，此先汉所以兴隆也；亲小人，远贤臣，此后汉所以倾颓也。先帝在时，每与臣论此事，未尝不叹息痛恨于桓、灵也。侍中、尚书、长史、参军，此悉贞良死节之臣，愿陛下亲之信之，则汉室之隆，可计日而待也。",
-      "臣本布衣，躬耕于南阳，苟全性命于乱世，不求闻达于诸侯。先帝不以臣卑鄙，猥自枉屈，三顾臣于草庐之中，咨臣以当世之事，由是感激，遂许先帝以驱驰。后值倾覆，受任于败军之际，奉命于危难之间：尔来二十有一年矣。",
-      "先帝知臣谨慎，故临崩寄臣以大事也。受命以来，夙夜忧叹，恐托付不效，以伤先帝之明；故五月渡泸，深入不毛。今南方已定，兵甲已足，当奖率三军，北定中原，庶竭驽钝，攘除奸凶，兴复汉室，还于旧都。此臣所以报先帝而忠陛下之职分也。至于斟酌损益，进尽忠言，则攸之、祎、允之任也。",
-      "愿陛下托臣以讨贼兴复之效，不效，则治臣之罪，以告先帝之灵。若无兴德之言，则责攸之、祎、允等之慢，以彰其咎；陛下亦宜自谋，以咨诹善道，察纳雅言，深追先帝遗诏。臣不胜受恩感激。",
-      "今当远离，临表涕零，不知所言。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/3707cf3/",
-    "slug": "3707cf3",
-    "link": "/junior/works/3707cf3"
-  },
-  {
-    "id": "2d53a67",
-    "title": "十五从军征",
-    "author": "佚名",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "两汉",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "十五从军征，八十始得归。",
-      "道逢乡里人，家中有阿谁？",
-      "遥看是君家，松柏冢累累。",
-      "兔从狗窦入，雉从梁上飞。",
-      "中庭生旅谷，井上生旅葵。",
-      "舂谷持作飰，采葵持作羹。",
-      "羹饭一时熟，不知贻阿谁。",
-      "出门东向看，泪落沾我衣。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/2d53a67/",
-    "slug": "2d53a67",
-    "link": "/junior/works/2d53a67"
-  },
-  {
-    "id": "5ab8384",
-    "title": "白雪歌送武判官归京",
-    "author": "岑参",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "唐代",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "北风卷地白草折，胡天八月即飞雪。",
-      "忽如一夜春风来，千树万树梨花开。",
-      "散入珠帘湿罗幕，狐裘不暖锦衾薄。",
-      "将军角弓不得控，都护铁衣冷难着。",
-      "瀚海阑干百丈冰，愁云惨淡万里凝。",
-      "中军置酒饮归客，胡琴琵琶与羌笛。",
-      "纷纷暮雪下辕门，风掣红旗冻不翻。",
-      "轮台东门送君去，去时雪满天山路。",
-      "山回路转不见君，雪上空留马行处。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/5ab8384/",
-    "slug": "5ab8384",
-    "link": "/junior/works/5ab8384"
-  },
-  {
-    "id": "a59446d",
-    "title": "南乡子·登京口北固亭有怀",
-    "author": "辛弃疾",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "宋代",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "何处望神州？满眼风光北固楼。千古兴亡多少事？悠悠。不尽长江滚滚流。",
-      "年少万兜鍪，坐断东南战未休。天下英雄谁敌手？曹刘。生子当如孙仲谋。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/a59446d/",
-    "slug": "a59446d",
-    "link": "/junior/works/a59446d"
-  },
-  {
-    "id": "84334aa",
-    "title": "过零丁洋",
-    "author": "文天祥",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "宋代",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "辛苦遭逢起一经，干戈寥落四周星。",
-      "山河破碎风飘絮，身世浮沉雨打萍。",
-      "惶恐滩头说惶恐，零丁洋里叹零丁。",
-      "人生自古谁无死？留取丹心照汗青。"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/84334aa/",
-    "slug": "84334aa",
-    "link": "/junior/works/84334aa"
-  },
-  {
-    "id": "15798ca",
-    "title": "山坡羊·潼关怀古",
-    "author": "张养浩",
-    "book": "九年级下册",
-    "stage": "junior",
-    "dynasty": "元代",
-    "genre": "诗词曲",
-    "paragraphs": [
-      "峰峦如聚，波涛如怒，山河表里潼关路。望西都，意踌躇。",
-      "伤心秦汉经行处，宫阙万间都做了土。兴，百姓苦；亡，百姓苦！"
-    ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/15798ca/",
-    "slug": "15798ca",
-    "link": "/junior/works/15798ca"
   },
   {
     "id": "2821da9",
@@ -2485,6 +5192,7 @@
     "dynasty": "唐代",
     "genre": "诗词曲",
     "paragraphs": [
+      "元和十年，予左迁九江郡司马。明年秋，送客湓浦口，闻舟中夜弹琵琶者，听其音，铮铮然有京都声。问其人，本长安倡女，尝学琵琶于穆、曹二善才，年长色衰，委身为贾人妇。遂命酒，使快弹数曲。曲罢悯然，自叙少小时欢乐事，今漂沦憔悴，转徙于江湖间。予出官二年，恬然自安，感斯人言，是夕始觉有迁谪意。因为长句，歌以赠之，凡六百一十六言，命曰《琵琶行》。",
       "浔阳江头夜送客，枫叶荻花秋瑟瑟。",
       "主人下马客在船，举酒欲饮无管弦。",
       "醉不成欢惨将别，别时茫茫江浸月。",
@@ -2530,9 +5238,10 @@
       "凄凄不似向前声，满座重闻皆掩泣。",
       "座中泣下谁最多？江州司马青衫湿。"
     ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/786276a/",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_0581b0ba8bb4.aspx",
     "slug": "786276a",
-    "link": "/senior/works/786276a"
+    "link": "/senior/works/786276a",
+    "sourceTitle": "古诗文网"
   },
   {
     "id": "c826b23",
@@ -2650,6 +5359,27 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/06f2b2b/",
     "slug": "06f2b2b",
     "link": "/senior/works/06f2b2b"
+  },
+  {
+    "stage": "senior",
+    "title": "登泰山记",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_8bf5847fffd5.aspx",
+    "id": "8bf5847fffd5",
+    "paragraphs": [
+      "泰山之阳，汶水西流；其阴，济水东流。阳谷皆入汶，阴谷皆入济。当其南北分者，古长城也。最高日观峰，在长城南十五里。",
+      "余以乾隆三十九年十二月，自京师乘风雪，历齐河、长清，穿泰山西北谷，越长城之限，至于泰安。是月丁未，与知府朱孝纯子颍由南麓登。四十五里，道皆砌石为磴，其级七千有余。泰山正南面有三谷。中谷绕泰安城下，郦道元所谓环水也。余始循以入，道少半，越中岭，复循西谷，遂至其巅。古时登山，循东谷入，道有天门。东谷者，古谓之天门溪水，余所不至也。今所经中岭及山巅，崖限当道者，世皆谓之天门云。道中迷雾冰滑，磴几不可登。及既上，苍山负雪，明烛天南。望晚日照城郭，汶水、徂徕如画，而半山居雾若带然。",
+      "戊申晦，五鼓，与子颍坐日观亭，待日出。大风扬积雪击面。亭东自足下皆云漫。稍见云中白若樗蒱数十立者，山也。极天云一线异色，须臾成五采。日上，正赤如丹，下有红光动摇承之。或曰，此东海也。回视日观以西峰，或得日，或否，绛皓驳色，而皆若偻。",
+      "亭西有岱祠，又有碧霞元君祠。皇帝行宫在碧霞元君祠东。是日观道中石刻，自唐显庆以来，其远古刻尽漫失。僻不当道者，皆不及往。",
+      "山多石，少土。石苍黑色，多平方，少圜。少杂树，多松，生石罅，皆平顶。冰雪，无瀑水，无鸟兽音迹。至日观数里内无树，而雪与人膝齐。",
+      "桐城姚鼐记。"
+    ],
+    "author": "姚鼐",
+    "dynasty": "清代",
+    "book": "必修上册",
+    "sourceTitle": "古诗文网",
+    "genre": "文言文",
+    "slug": "8bf5847fffd5",
+    "link": "/senior/works/8bf5847fffd5"
   },
   {
     "id": "b48a979",
@@ -2918,7 +5648,7 @@
     "book": "必修下册",
     "stage": "senior",
     "dynasty": "元代",
-    "genre": "文言文",
+    "genre": "戏曲",
     "paragraphs": [
       "（外扮监斩官上，云）下官监斩官是也。今日处决犯人，着做公的把住巷口，休放往来人闲走。（净扮公人鼓三通、锣三下科。刽子磨旗、提刀，押正旦带枷上）（刽子云）行动些，行动些，监斩官去法场上多时了！（正旦唱）",
       "【正宫】【端正好】没来由犯王法，不堤防遭刑宪，叫声屈动地惊天！顷刻间游魂先赴森罗殿，怎不将天地也生埋怨？",
@@ -2940,7 +5670,8 @@
     ],
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/41b45b5/",
     "slug": "41b45b5",
-    "link": "/senior/works/41b45b5"
+    "link": "/senior/works/41b45b5",
+    "readingNote": "《感天动地窦娥冤》节选。课文所选折目与舞台演出本可能不同，阅读时请对照教材。"
   },
   {
     "id": "fbb4c7f",
@@ -2959,6 +5690,29 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/fbb4c7f/",
     "slug": "fbb4c7f",
     "link": "/senior/works/fbb4c7f"
+  },
+  {
+    "stage": "senior",
+    "title": "与妻书",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_7de576f0313f.aspx",
+    "id": "7de576f0313f",
+    "paragraphs": [
+      "意映卿卿如晤，吾今以此书与汝永别矣！吾作此书时，尚是世中一人；汝看此书时，吾已成为阴间一鬼。吾作此书，泪珠和笔墨齐下，不能竟书而欲搁笔，又恐汝不察吾衷，谓吾忍舍汝而死，谓吾不知汝之不欲吾死也，故遂忍悲为汝言之。",
+      "吾至爱汝，即此爱汝一念，使吾勇于就死也。吾自遇汝以来，常愿天下有情人都成眷属；然遍地腥云，满街狼犬，称心快意，几家能彀？司马春衫，吾不能学太上之忘情也。语云：仁者“老吾老，以及人之老；幼吾幼，以及人之幼”。吾充吾爱汝之心，助天下人爱其所爱，所以敢先汝而死，不顾汝也。汝体吾此心，于啼泣之余，亦以天下人为念，当亦乐牺牲吾身与汝身之福利，为天下人谋永福也。汝其勿悲！",
+      "汝忆否？四五年前某夕，吾尝语曰：“与使吾先死也，无宁汝先吾而死。”汝初闻言而怒，后经吾婉解，虽不谓吾言为是，而亦无词相答。吾之意盖谓以汝之弱，必不能禁失吾之悲，吾先死，留苦与汝，吾心不忍，故宁请汝先死，吾担悲也。嗟夫！谁知吾卒先汝而死乎？",
+      "吾真真不能忘汝也！回忆后街之屋，入门穿廊，过前后厅，又三四折，有小厅，厅旁一室，为吾与汝双栖之所。初婚三四个月，适冬之望日前后，窗外疏梅筛月影，依稀掩映；吾与并肩携手，低低切切，何事不语？何情不诉？及今思之，空余泪痕。又回忆六七年前，吾之逃家复归也，汝泣告我：“望今后有远行，必以告妾，妾愿随君行。”吾亦既许汝矣。前十余日回家，即欲乘便以此行之事语汝，及与汝相对，又不能启口，且以汝之有身也，更恐不胜悲，故惟日日呼酒买醉。嗟夫！当时余心之悲，盖不能以寸管形容之。",
+      "吾诚愿与汝相守以死，第以今日事势观之，天灾可以死，盗贼可以死，瓜分之日可以死，奸官污吏虐民可以死，吾辈处今日之中国，国中无地无时不可以死。到那时使吾眼睁睁看汝死，或使汝眼睁睁看吾死，吾能之乎？抑汝能之乎？即可不死，而离散不相见，徒使两地眼成穿而骨化石，试问古来几曾见破镜能重圆？则较死为苦也，将奈之何？今日吾与汝幸双健。天下人之不当死而死与不愿离而离者，不可数计，钟情如我辈者，能忍之乎？此吾所以敢率性就死不顾汝也。吾今死无余憾，国事成不成自有同志者在。依新已五岁，转眼成人，汝其善抚之，使之肖我。汝腹中之物，吾疑其女也，女必像汝，吾心甚慰。或又是男，则亦教其以父志为志，则吾死后尚有二意洞在也。幸甚，幸甚！吾家后日当甚贫，贫无所苦，清静过日而已。(幸甚 一作 甚幸)",
+      "吾今与汝无言矣。吾居九泉之下遥闻汝哭声，当哭相和也。吾平日不信有鬼，今则又望其真有。今人又言心电感应有道，吾亦望其言是实，则吾之死，吾灵尚依依旁汝也，汝不必以无侣悲。",
+      "吾平生未尝以吾所志语汝，是吾不是处；然语之，又恐汝日日为吾担忧。吾牺牲百死而不辞，而使汝担忧，的的非吾所忍。吾爱汝至，所以为汝谋者惟恐未尽。汝幸而偶我，又何不幸而生今日之中国！吾幸而得汝，又何不幸而生今日之中国！卒不忍独善其身。嗟夫！巾短情长，所未尽者，尚有万千，汝可以模拟得之。吾今不能见汝矣！汝不能舍吾，其时时于梦中得我乎？一恸。辛未三月念六夜四鼓，意洞手书。",
+      "家中诸母皆通文，有不解处，望请其指教，当尽吾意为幸。"
+    ],
+    "author": "林觉民",
+    "dynasty": "清代",
+    "book": "必修下册",
+    "sourceTitle": "古诗文网",
+    "genre": "文言文",
+    "slug": "7de576f0313f",
+    "link": "/senior/works/7de576f0313f"
   },
   {
     "id": "647097f",
@@ -2999,6 +5753,25 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/6c8d581/",
     "slug": "6c8d581",
     "link": "/senior/works/6c8d581"
+  },
+  {
+    "stage": "senior",
+    "title": "答司马谏议书",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_b09aa5c9b747.aspx",
+    "id": "b09aa5c9b747",
+    "paragraphs": [
+      "某启：昨日蒙教，窃以为与君实游处相好之日久，而议事每不合，所操之术多异故也。虽欲强聒，终必不蒙见察，故略上报，不复一一自辨。重念蒙君实视遇厚，于反覆不宜卤莽，故今具道所以，冀君实或见恕也。",
+      "盖儒者所争，尤在于名实，名实已明，而天下之理得矣。今君实所以见教者，以为侵官、生事、征利、拒谏，以致天下怨谤也。某则以谓受命于人主，议法度而修之于朝廷，以授之于有司，不为侵官；举先王之政，以兴利除弊，不为生事；为天下理财，不为征利；辟邪说，难壬人，不为拒谏。至于怨诽之多，则固前知其如此也。",
+      "人习于苟且非一日，士大夫多以不恤国事、同俗自媚于众为善，上乃欲变此，而某不量敌之众寡，欲出力助上以抗之，则众何为而不汹汹然？盘庚之迁，胥怨者民也，非特朝廷士大夫而已；盘庚不为怨者故改其度，度义而后动，是而不见可悔故也。如君实责我以在位久，未能助上大有为，以膏泽斯民，则某知罪矣；如曰今日当一切不事事，守前所为而已，则非某之所敢知。",
+      "无由会晤，不任区区向往之至！"
+    ],
+    "author": "王安石",
+    "dynasty": "宋代",
+    "book": "必修下册",
+    "sourceTitle": "古诗文网",
+    "genre": "文言文",
+    "slug": "b09aa5c9b747",
+    "link": "/senior/works/b09aa5c9b747"
   },
   {
     "id": "2f8e6fe",
@@ -3090,6 +5863,183 @@
     "sourceUrl": "https://www.gushiwenku.cn/shiwen/b68b271/",
     "slug": "b68b271",
     "link": "/senior/works/b68b271"
+  },
+  {
+    "stage": "senior",
+    "title": "游园（【皂罗袍】）",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_11dddffb4c2f.aspx",
+    "id": "11dddffb4c2f",
+    "paragraphs": [
+      "原来姹紫嫣红开遍，似这般都付与断井颓垣。良辰美景奈何天，赏心乐事谁家院！朝飞暮卷，云霞翠轩；雨丝风片，烟波画船，锦屏人忒看的这韶光贱！"
+    ],
+    "author": "汤显祖",
+    "dynasty": "明代",
+    "book": "必修下册",
+    "sourceTitle": "古诗文网",
+    "genre": "戏曲",
+    "readingNote": "《牡丹亭》第十出【皂罗袍】节选。",
+    "slug": "11dddffb4c2f",
+    "link": "/senior/works/11dddffb4c2f"
+  },
+  {
+    "id": "lin-jiao-tou-feng-xue-shan-shen-miao",
+    "title": "林教头风雪山神庙",
+    "author": "施耐庵",
+    "dynasty": "明代",
+    "stage": "senior",
+    "book": "必修下册",
+    "genre": "古典小说",
+    "paragraphs": [
+      "话说当日林冲正闲走间，忽然背后人叫，回头看时，却认得是酒生儿李小二。",
+      "当初在东京时，多得林冲看顾；后来不合偷了店主人家钱财，被捉住了，要送官司问罪，又得林冲主张陪话，救了他免送官司，又与他陪了些钱财，方得脱免；京中安不得身，又亏林冲赍发他盘缠，于路投奔人，不想今日却在这里撞见。",
+      "林冲道：「小二哥，你如何也在这里？」",
+      "李小二便拜，道：「自从得恩人救济，发赍小人，一地里投奔人不著，迤逦不想来到沧州，投托一个酒店主人，姓王，留小人在店中做过卖。因见小人勤谨，安排的好菜蔬，调和的好汁水，来吃的人都喝采，以此卖买顺当，主人家有个女，就招了小人做女婿。如今丈人丈母都死了，只剩得小人夫妻两个，权在营前开了个茶酒店，因讨钱过来遇见恩人。不知为何事在这里？」",
+      "林冲指著脸上，道：「我因恶了高太尉生事陷害，受了一场官司，刺配到这里。如今叫我天王堂，未知久后如何。不想今日在此见你。」",
+      "李小二就请林冲到家里坐定，叫妻子出来拜了恩人。",
+      "两口儿欢喜道：「我夫妇二人正没个亲眷，今日得恩人到来，便是从天降下。」",
+      "林冲道：「我是罪囚，恐怕玷辱你夫妻两个。」",
+      "李小二道：「谁不知恩人大名！休恁地说。但有衣服，便拿来家里浆洗缝补。」当时管待林冲酒食，至夜送回天王堂，次日又来相请；因此，林冲得店小二家来往，不时间送汤送水来营里与林冲吃。",
+      "因见他两口儿恭敬孝顺，常把些银两与他做本钱。",
+      "且把闲话休题，只说正话。",
+      "光阴迅速却早冬来。",
+      "林冲的绵衣裙袄都是李小二浑家整治缝补。",
+      "蚌一日，李小二正在门前安排菜蔬下饭，只见一个人闪将进来，酒店里坐下，随后又一人闪入来；看时，前面那个人是军官打扮，后面这个走卒模样，跟著，也来坐下。",
+      "李小二入来问道：「可要吃酒；」只见那个人将出一两银子与李小二，道：「且收放柜上，取三四瓶好酒来。客到时，果品酒馔，只顾将来，不必要问。」",
+      "李小二道：「官人请甚客？」",
+      "那人道：「烦你与我去营里请管营，差拨两个来说话。问时，你只说∶「有个官人请说话，商议些事务，专等，专等。」」李小二应承了，来到牢城里，先请了差拨，同到管营家里请了管营，都到酒店里。",
+      "只见那个官人和管营，差拨，两个讲了礼。",
+      "管营道：「素不相识，动问官人高姓大名？」",
+      "那人道：「有书在此，少刻便知。——取酒来。」",
+      "李小二连忙开了酒，一面铺下菜蔬果品酒馔。",
+      "那人叫讨副劝盘来，把了盏，相让坐了。",
+      "小二独自一个撺梭也似伏侍不暇。",
+      "那跟来的人讨了汤桶，自行烫酒。",
+      "约计吃过数十杯，再讨了按酒铺放桌上。",
+      "只见那人说道：「我自有伴当烫酒，不叫，你休来。我等自要说话。」",
+      "李小二应了，自来门首叫老婆，道：「大姐，这两个人来得不尴尬！」",
+      "老婆道：「怎么的不尴尬？」",
+      "小二道：「这两个人语言声音是东京人；初时又不认得管营；向后我将按酒入去，只听得差拨口里呐出一句「高太尉」三个字来，这人莫不与林教头身上有些乾碍？——我自在门前理会，你且去阁子背后听说甚么。」老婆道：「你去营中寻林教头来认他一认。」",
+      "李小二道：「你不省得。林教头是个性急的人，摸不著便要杀人放火。倘或叫得他来看了，正是前日说的甚么陆虞候，他肯便罢？做出事来须连累了我和你。你只去听一听，再理会，」老婆道：「说得是。」",
+      "便入去听了一个时辰，出来说道：「他那三四个交头接耳说话，正不听得说甚么。只见那一个军官模样的人去伴当怀里取出一帕子物事递与管营和差拨。帕子里面的莫不是金钱？只听差拨口里说道：「都在我身上；好歹要结果他生命！」」正说之时，阁子里叫「将汤来。」",
+      "李小二急去里面换汤时，看见管营手里拿著一封书。",
+      "小二换了汤，添些下饭。",
+      "又吃了半个时辰，算还了酒钱，管营，差拨，先去了；次后，那两个低著头也去了。",
+      "转背不多时，只见林冲走将入店里来，说道：「小二哥，连日好买卖？」",
+      "李小二慌忙道：「恩人请坐；小二却待正要寻恩人，有些要紧说话。」",
+      "林冲问道：「甚么要紧的事？」",
+      "李小二请林冲到里面坐下，说道：「却才有个东京来的尴尬人，在我这里请管营，差拨，吃了半日酒。差拨口里呐出「高太尉」三个字来，小二心下疑惑，又著浑家听了一个时辰。他却交头接耳，说话都不听得。临了，只见差拨口里应道∶「都在我两个身上。好歹要结果了他！」那两个把一包金银递与管营，差拨，又吃一回酒，各自散了。不知甚么样人。小人心疑，只怕在恩人身上有些妨碍。」",
+      "林冲道：「那人生得甚么模样？」",
+      "李小二道：「五短身材，白净面皮，没甚髭须，约有三十馀岁。那跟的也不长大，紫棠色面皮。」",
+      "林冲听了大惊道：「这三岁的正是陆虞候！那泼贱敢来这里害我！休要撞我，只教他骨肉为泥！」",
+      "店小二道：「只要提防他便了；岂不闻古人云「吃饭防噎，走路防跌？」」林冲大怒，离了李小二家，先去街上买把解腕尖刀带在身上，前街后巷一地里去寻。李小二夫妻两个捏著两把汗。",
+      "当晚无事。",
+      "林冲次日天明起来，洗漱罢，带了刀，又去沧州城里城外，小街夹巷，团团寻了一日，牢城营里，都没动静；又来对李小二道：「今日又无事。」",
+      "小二道：「恩人，只愿如此。只是自放仔细便了。」",
+      "林冲自回天王堂，过了一夜。",
+      "街上寻了三五日，不见消耗，林冲也自心下慢了。",
+      "到第六日，只见管营叫唤林冲到点视厅上，说道：「你来这里许多时，柴大官人面皮，不曾抬举得你。此间东门外十五里有座大军草料场，每月但是纳草料的，有些贯例钱取觅。原来是一个老军看管。如今我抬举你去替老军来守天王堂，你在那里寻几贯盘缠。你可和差拨便去那里交割。」",
+      "林冲应道：「小人便去。」",
+      "当时离了营中，径到李小二家，对他夫妻两个说道：「今日管营拨我去大军草料场管事，却如何？」",
+      "李小二道：「这个差使又好似天王堂∶那里收草料时有些贯例钱钞。往尝不使钱时，不能彀这差使。」",
+      "林冲道：「却不害我，倒与我好差使，正不知何意？」李小二道：「恩人，休要疑心。只要没事便好了。正是小人家离得远了，过几时那工夫来望恩人。」",
+      "就在家里安排几杯酒请林冲吃了。",
+      "卑不絮烦。",
+      "两个相别了，林冲自到天王堂，取了包里，带了尖刀，拿了条花枪，与差拨一同辞了管营。",
+      "两个取路投草料场来。",
+      "正是严冬天气，彤云密布，朔风渐起；却早纷纷扬扬，卷下一天大雪来。",
+      "林冲和差拨两个在路上又没买酒吃处。",
+      "早来到草料场外，看时，一周遭有些黄土墙，两扇大门。",
+      "推开看里面时，七八间草屋做著仓廒，四下里都是马草堆，中间zy草厅。",
+      "到那厅里，只见那老军在里面向火。",
+      "差拨说道：「管营差这个林冲来替你回天王堂看守，你可即便交割。」",
+      "老军拿了钥匙，引著林冲，分付道：「仓廒内自有官府封起。这几堆草，一堆堆都有数目。」",
+      "老军都点见了堆数，又引林冲到草厅上。",
+      "老军收拾行李，临了说道：「火盆，锅子，碗碟，都借与你。」",
+      "林冲道：「天王堂内，我也有在那里，你要便拿了去。」",
+      "老军指壁上挂一个大葫芦，说道：「你若买酒吃时，只出草埸投东大路去二三里便有市井。」",
+      "老军自和差拨回营里来。",
+      "只说林冲就床上放了包里被卧，就床边生些焰炎起来；屋后有一堆柴炭，拿几块来，生在地炉里；仰面看那草屋时，四下里崩坏了，又被朔风吹撼，摇振得动。林冲道：「这屋如何过得一冬？待雪晴了，去城中唤个泥水匠来修理。」",
+      "向了一回火，觉得身上寒冷，寻思「却才老军所说，二里路外有那市井，何不去沽些酒来吃？」",
+      "便去包里里取些碎银子，把花枪挑了酒葫芦，将火炭盖了，取毡笠子戴上，拿了钥匙出来，把草厅门拽上；出到大门首，把两扇草场门反拽上锁了，带了钥匙，信步投东，雪地里踏著碎琼乱玉，迤逦背著北风而行。",
+      "那雪正下得紧。",
+      "行不上半里多路，看见一所古庙，林冲顶礼道：「神明庇佑，改日来烧纸钱。」",
+      "又行了一回，望见一簇人家。",
+      "林冲住脚看时，见篱笆中，挑著一个草帚儿在露天里。",
+      "林冲迳到店里。",
+      "主人道：「客人，那里来？」",
+      "林冲道：「你认得这个葫芦儿？」",
+      "主人看了道；「这葫芦是草料场老军的。」",
+      "林冲道：「原来如此。」",
+      "店主道：「即是草料场看守大哥，且请少坐；天气寒冷，且酌三杯，权当接风。」",
+      "店家切一盘熟牛肉，烫一壶热酒，请林冲吃。",
+      "又自买了些牛肉，又吃了数杯，就又买了一葫芦酒，包了那两块牛肉，留下些碎银子，把花枪挑著酒葫芦，怀内揣了牛肉，叫声「相扰，」便出篱笆门仍旧迎著朔风回来。",
+      "看那雪到晚越下得紧了。",
+      "再说林冲踏著那那瑞雪，迎著北风。",
+      "飞也似奔到草场门口，开了锁入内看时，只叫得苦。",
+      "原来天理昭然，佑护善人义士，因这场大雪，救了林冲的性命∶那两间草厅己被雪压倒了。",
+      "林冲寻思：「怎地好？」放下花枪，葫芦，在雪里；恐怕火盆内有火炭延烧起来，搬开破壁子，探半身人去摸时，火盆内火种都被雪水浸灭了。",
+      "林冲把手床上摸时，只拽得一条絮被。",
+      "林冲钻将出来，见天色黑了，寻思：「又没打火处，怎生安排这半里路上有个古庙可以安身，——」我且去那里宿一夜，等到天明，却作理会。」",
+      "把被卷了，花枪挑著酒葫芦，依旧把门拽上，锁了，望那庙里来。",
+      "入得庙门，再把门掩上。",
+      "傍边正有一块大石头，拨将过来靠了门。",
+      "入得里面看时，殿上塑著一尊金甲山神，两边一个判官，一个小鬼，侧边堆著一堆纸。",
+      "团团看来。",
+      "又没邻舍，又无庙主。",
+      "林冲把枪和酒！谤芦放在纸堆上；将那条絮被放开；先取下毡笠子，把身上雪都抖了；把上盖白布衫脱将下来，早有五分湿了，和毡笠放供桌上；把被扯来，盖了半截下身；却把葫芦冷酒提来慢慢地吃，就将怀中牛肉下酒。",
+      "正吃时，只听得外面必必剥剥地爆响。",
+      "林冲跳起身来，就缝缝里看时，只见草料场里火起，刮刮杂杂的烧著。",
+      "当时林冲便拿了花枪，却待开门来救火，只听得外面有人说将话来，林冲就伏门边听时，是三个人脚响。",
+      "直奔庙里来；用手推门，却被石头靠住了，再也推不开。",
+      "三人在庙檐下立地看火。",
+      "数内一个道：「这一条计好么？」一个应道：「端的亏管营，差拨，两位用心！必到京师，禀过太尉，都保你二位做大官。——这番张教头没得推故了！」",
+      "一个道：「林冲今番直吃我们对付了！高衙内这病必然好了！」",
+      "又一个道：「张教头那厮！三四五次托人情去说，「你的女婿没了，」张教头越不肯应承，因此衙内病奔看看重了，太尉特使俺两个央浼二位乾这件事；不想而今完备了！」",
+      "又一个道：「小人直爬入墙里去，四下草堆上点了十来个火把，待走那里去！」",
+      "那一个道：「这早晚烧个八分过了。」",
+      "又听得一个道：「便逃得性命时，烧了大军草料场，也得个死罪！」",
+      "又一个道：「我们回城里去罢。」",
+      "一个道：「再看一看，拾得他两块骨头回京，府里见太尉和衙内时，也道我们也能会干事。」",
+      "林冲听那三个人时，一个是差拨，一个是陆虞候，一个是富安，自思道：「天可怜见林冲！若不是倒了草厅，我准定被这厮们烧死了！」",
+      "轻轻把石头开，挺著花枪，左手拽开庙门，大喝一声：「泼贼那里去！」",
+      "三个人都急要走时，惊得呆了，正走不动，林冲举手，察的一枪，先搠倒差拨。",
+      "陆虞候叫声「饶命，」吓的慌了，手脚走不动。",
+      "那富安走不到十来步，被林冲赶上，后心只一枪，又搠倒了。",
+      "翻身回来，陆虞候却才行得三四步，林冲喝声道：「好贼！你待那里去！」",
+      "劈胸只一提，丢翻在雪地上，把枪搠在地里，用脚踏住胸膊，身边取出那口刀来，便去陆谦脸上搁著，喝道：「泼贼！我自来又和你无甚么冤仇，你如何这等害我！正是「杀人可恕，情理难容！」」陆虞候告道：「不干小人事；太尉差遣，不敢不来。」",
+      "林冲骂道：「奸贼！我与你自幼相交，今日倒来害我！怎不干你事？且吃我一刀！」",
+      "把陆谦上身衣扯开，把尖刀向心窝里只一剜，七窍迸出血来，将心肝提在手里，回头看时，差拨正爬将起来要走。",
+      "林冲按住，喝道：「你这厮原来也恁的歹，且吃我一刀！」",
+      "又早把头割下来，挑在枪上。",
+      "必来把富安，陆谦，头都割下来，把尖刀插了，将三个人头发结做一处，提入庙里来，都摆在山神面前供桌上。",
+      "再穿了白布衫，系了搭膊，把毡笠子带上，将葫芦里冷酒都吃尽了。",
+      "被与葫芦都丢了不要，提了枪，便出庙门投东去。",
+      "走不到三五里，早见近村人家都拿了水桶，钩子，来救火。",
+      "林冲道：「你们快去救应！我去报官了来！提著枪只顾走。那雪越下得猛。林冲投东走了。两个更次，身上单寒，当不过那冷，在雪地里看时，离得草料场远了，只见前面疏林深处，树木交杂，远远地数间草屋，被雪压著，破壁缝里透火光出来。林冲迳投那草屋来，推开门，只见那中间y今烧著柴火。林冲走到面前，叫道：「众位拜揖；小人是牢城营差使人，被雪打湿了衣裳，借此火烘一烘，望乞方便。」",
+      "庄客道：「你自烘便了，何妨得。林冲烘著身上湿衣服，略有些乾，只见火炭里煨著一个瓮儿，里面透出酒香。林冲便道：「小人身边有些碎银子，望烦回些酒吃。」",
+      "老庄客道：「我们夜轮流看米囤，如今四更，天气正冷，我们这几个吃尚且不够，那得回与你。休要指望！」林冲又道：「胡乱只回三两碗与小人寒。」",
+      "老庄客道：「你那人休缠！休缠！」",
+      "林冲闻得酒香，越要吃，说道：「没奈何，回去罢。」",
+      "众庄客道：「好意著你烘衣裳向火，便要酒吃！去！不去时将来吊在这里！」林冲道道：「这厮们好无道理！」",
+      "把手中枪看著块焰焰著的火柴头望老庄家脸上只一挑；又把枪去火炉里只一搅。",
+      "那老庄家的髭须焰焰的烧著。",
+      "众庄客都跳将起来。",
+      "林冲把枪杆乱打，老庄家先走了，庄客们都动弹不动，被林冲赶打一顿，都走了。",
+      "林冲道：「都走了！老爷快活吃酒！」",
+      "土坑上却有两个椰瓢，取一个下来倾那瓮酒来吃了一会，剩了一半，提了枪，出门便走，一高一步低，踉踉跄跄，捉脚不住；走不过一里路，被朔风一掉，随著那山涧边倒了，那里挣得起来。",
+      "大凡醉人一倒便起得。",
+      "当时林冲醉倒在雪地上。",
+      "却说众庄客引了二十馀人，迤枪拽棒，都奔草屋下看时，不见了林冲；却寻著踪迹，赶将来，只见倒在雪地里，花枪丢在一边。",
+      "众庄客一齐上，就地拿起林冲来，将一条索缚了，趁五更时分把林冲解投一个去处来。",
+      "那去处不是别处，有分教∶蓼儿洼内，前后摆数千支战舰艨艟；水浒寨中，左右列百十个英雄好汉。",
+      "正是∶说时杀气侵人冷，讲处悲风透骨寒。",
+      "毕竟看林冲被庄客解投甚处来，且听下回分解。"
+    ],
+    "sourceUrl": "https://ctext.org/wiki.pl?chapter=320899&if=en&remap=gb",
+    "sourceTitle": "中国哲学书电子化计划",
+    "readingNote": "《水浒传》七十回本第九回原著，对应百回本第十回。教材有所删节，这里保留原著章节，便于对照阅读。",
+    "slug": "lin-jiao-tou-feng-xue-shan-shen-miao",
+    "link": "/senior/works/lin-jiao-tou-feng-xue-shan-shen-miao"
   },
   {
     "id": "41d249b",
@@ -3426,6 +6376,7 @@
     "dynasty": "唐代",
     "genre": "诗词曲",
     "paragraphs": [
+      "开元二十六年，客有从元戎出塞而还者，作《燕歌行》以示，适感征戍之事，因而和焉。",
       "汉家烟尘在东北，汉将辞家破残贼。",
       "男儿本自重横行，天子非常赐颜色。",
       "摐金伐鼓下榆关，旌旆逶迤碣石间。",
@@ -3441,9 +6392,10 @@
       "相看白刃血纷纷，死节从来岂顾勋。",
       "君不见沙场征战苦，至今犹忆李将军。"
     ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/b631900/",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_4c7868ec4409.aspx",
     "slug": "b631900",
-    "link": "/senior/works/b631900"
+    "link": "/senior/works/b631900",
+    "sourceTitle": "古诗文网"
   },
   {
     "id": "1a0faba",
@@ -3542,13 +6494,14 @@
   },
   {
     "id": "f662278",
-    "title": "孔雀东南飞",
+    "title": "孔雀东南飞（并序）",
     "author": "汉乐府",
     "book": "选择性必修下册",
     "stage": "senior",
     "dynasty": "两汉",
     "genre": "诗词曲",
     "paragraphs": [
+      "汉末建安中，庐江府小吏焦仲卿妻刘氏，为仲卿母所遣，自誓不嫁。其家逼之，乃投水而死。仲卿闻之，亦自缢于庭树。时人伤之，为诗云尔。",
       "孔雀东南飞，五里一徘徊。",
       "「十三能织素，十四学裁衣，十五弹箜篌，十六诵诗书。十七为君妇，心中常苦悲。君既为府吏，守节情不移，贱妾留空房，相见常日稀。鸡鸣入机织，夜夜不得息。三日断五匹，大人故嫌迟。非为织作迟，君家妇难为！妾不堪驱使，徒留无所施，便可白公姥，及时相遣归。」",
       "府吏得闻之，堂上启阿母：「儿已薄禄相，幸复得此妇，结发同枕席，黄泉共为友。共事二三年，始尔未为久，女行无偏斜，何意致不厚？」",
@@ -3582,9 +6535,10 @@
       "府吏闻此事，心知长别离，徘徊庭树下，自挂东南枝。",
       "两家求合葬，合葬华山傍。东西植松柏，左右种梧桐。枝枝相覆盖，叶叶相交通。中有双飞鸟，自名为鸳鸯，仰头相向鸣，夜夜达五更。行人驻足听，寡妇起彷徨。多谢后世人，戒之慎勿忘！"
     ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/f662278/",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_294ee4bb68a3.aspx",
     "slug": "f662278",
-    "link": "/senior/works/f662278"
+    "link": "/senior/works/f662278",
+    "sourceTitle": "古诗文网"
   },
   {
     "id": "ffc4463",
@@ -3724,14 +6678,16 @@
     "dynasty": "魏晋",
     "genre": "文言文",
     "paragraphs": [
+      "余家贫，耕植不足以自给。幼稚盈室，瓶无储粟，生生所资，未见其术。亲故多劝余为长吏，脱然有怀，求之靡途。会有四方之事，诸侯以惠爱为德，家叔以余贫苦，遂见用于小邑。于时风波未静，心惮远役，彭泽去家百里，公田之利，足以为酒。故便求之。及少日，眷然有归欤之情。何则？质性自然，非矫厉所得。饥冻虽切，违己交病。尝从人事，皆口腹自役。于是怅然慷慨，深愧平生之志。犹望一稔，当敛裳宵逝。寻程氏妹丧于武昌，情在骏奔，自免去职。仲秋至冬，在官八十余日。因事顺心，命篇曰《归去来兮》。乙巳岁十一月也。",
       "归去来兮，田园将芜胡不归？既自以心为形役，奚惆怅而独悲？悟已往之不谏，知来者之可追。实迷途其未远，觉今是而昨非。舟遥遥以轻飏，风飘飘而吹衣。问征夫以前路，恨晨光之熹微。",
       "乃瞻衡宇，载欣载奔。僮仆欢迎，稚子候门。三径就荒，松菊犹存。携幼入室，有酒盈樽。引壶觞以自酌，眄庭柯以怡颜。倚南窗以寄傲，审容膝之易安。园日涉以成趣，门虽设而常关。策扶老以流憩，时矫首而遐观。云无心以出岫，鸟倦飞而知还。景翳翳以将入，抚孤松而盘桓。",
       "归去来兮，请息交以绝游。世与我而相违，复驾言兮焉求？悦亲戚之情话，乐琴书以消忧。农人告余以春及，将有事于西畴。或命巾车，或棹孤舟。既窈窕以寻壑，亦崎岖而经丘。木欣欣以向荣，泉涓涓而始流。善万物之得时，感吾生之行休。",
       "已矣乎！寓形宇内复几时？曷不委心任去留？胡为乎遑遑欲何之？富贵非吾愿，帝乡不可期。怀良辰以孤往，或植杖而耘耔。登东皋以舒啸，临清流而赋诗。聊乘化以归尽，乐夫天命复奚疑！"
     ],
-    "sourceUrl": "https://www.gushiwenku.cn/shiwen/8992edc/",
+    "sourceUrl": "https://www.gushiwen.cn/shiwenv_987458864738.aspx",
     "slug": "8992edc",
-    "link": "/senior/works/8992edc"
+    "link": "/senior/works/8992edc",
+    "sourceTitle": "古诗文网"
   },
   {
     "id": "bd78d35",

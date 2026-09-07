@@ -24,4 +24,4 @@ dynasty: "唐代"
 
 同游者，吴武陵，龚古，余弟宗玄。隶而从者，崔氏二小生：曰恕己，曰奉壹。
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/71aaf7b/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/71aaf7b/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

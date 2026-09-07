@@ -22,4 +22,4 @@ dynasty: "南北朝"
 
 每至晴初霜旦，林寒涧肃，常有高猿长啸，属引凄异，空谷传响，哀转久绝。故渔者歌曰：「巴东三峡巫峡长，猿鸣三声泪沾裳！」
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/fb8d0d4/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/fb8d0d4/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

@@ -1,7 +1,7 @@
 ---
 title: "陈涉世家"
-description: "九年级下册 司马迁《陈涉世家》原文。"
-book: "九年级下册"
+description: "九年级上册 司马迁《陈涉世家》原文。"
+book: "九年级上册"
 stage: "初中"
 genre: "文言文"
 author: "司马迁"
@@ -10,7 +10,7 @@ dynasty: "两汉"
 
 # 陈涉世家
 
-<div class="work-meta"><span>两汉</span><span>司马迁</span><span>初中 · 九年级下册</span><span>文言文</span></div>
+<div class="work-meta"><span>两汉</span><span>司马迁</span><span>初中 · 九年级上册、九年级下册</span><span>文言文</span></div>
 
 ## 原文
 
@@ -124,4 +124,4 @@ dynasty: "两汉"
 
 且夫天下非小弱也，雍州之地，崤函之固，自若也；陈涉之位，非尊于齐、楚、燕、赵、韩、魏、宋、卫、中山之君也；锄耰棘矜，不铦于钩戟长铩也；适戍之众，非抗于九国之师也；深谋远虑，行军用兵之道，非及向时之士也。然而成败异变，功业相反。试使山东之国与陈涉度长絜大，比权量力，则不可同年而语矣。然秦以区区之地，致万乘之势，序八州而朝同列，百有余年矣。然后以六合为家，肴函为宫。一夫作难而七庙隳，身死人手，为天下笑者，何也？仁义不施而攻守之势异也。
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/ebd2da8/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/ebd2da8/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

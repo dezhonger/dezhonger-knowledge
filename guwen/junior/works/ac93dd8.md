@@ -20,4 +20,4 @@ dynasty: "先秦"
 
 挑兮达兮，在城阙兮。一日不见，如三月兮！
 
-<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/ac93dd8/" target="_blank" rel="noreferrer">古诗文库条目</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>
+<p class="source-note">原文校录参考：<a href="https://www.gushiwenku.cn/shiwen/ac93dd8/" target="_blank" rel="noreferrer">原文参考出处</a>。本站仅收录公共领域原文，不复制现代译文和赏析。</p>

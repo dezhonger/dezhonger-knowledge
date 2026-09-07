@@ -1,19 +1,24 @@
 <script setup lang="ts">
 import { computed, ref } from 'vue'
 import worksData from '../../../data/works.json'
+import curriculum from '../../../data/curriculum.json'
 
 type Work = {
+  id: string
   title: string
   author: string
   dynasty: string
   book: string
+  additionalBooks?: string[]
+  aliases?: string[]
+  legacy?: boolean
   genre: string
-  stage: 'junior' | 'senior' | 'classic'
+  stage: 'primary' | 'junior' | 'senior' | 'classic'
   link: string
   copyrightProtected?: boolean
 }
 
-const props = defineProps<{ stage: 'junior' | 'senior' | 'classic' }>()
+const props = defineProps<{ stage: 'primary' | 'junior' | 'senior' | 'classic' }>()
 const query = ref('')
 const selectedBook = ref('')
 const selectedGenre = ref('')
@@ -21,23 +26,30 @@ const selectedAuthor = ref('')
 
 const allWorks = worksData as Work[]
 const stageWorks = computed(() => allWorks.filter((work) => work.stage === props.stage))
-const books = computed(() => [...new Set(stageWorks.value.map((work) => work.book))])
+const books = computed(() => props.stage === 'classic'
+  ? [...new Set(stageWorks.value.map((work) => work.book))]
+  : curriculum.books.filter((book) => book.stage === props.stage).map((book) => book.name))
 const genres = computed(() => [...new Set(stageWorks.value.map((work) => work.genre))])
 const authors = computed(() => [...new Set(stageWorks.value.map((work) => work.author))].sort((a, b) => a.localeCompare(b, 'zh-CN')))
 
 const visibleWorks = computed(() => {
   const keyword = query.value.trim().toLocaleLowerCase('zh-CN')
   return stageWorks.value.filter((work) => {
-    const text = `${work.title} ${work.author} ${work.dynasty} ${work.book} ${work.genre}`.toLocaleLowerCase('zh-CN')
+    const text = `${work.title} ${(work.aliases || []).join(' ')} ${work.author} ${work.dynasty} ${work.book} ${(work.additionalBooks || []).join(' ')} ${work.genre}`.toLocaleLowerCase('zh-CN')
     return (!keyword || text.includes(keyword))
-      && (!selectedBook.value || work.book === selectedBook.value)
+      && (!selectedBook.value || work.book === selectedBook.value || work.additionalBooks?.includes(selectedBook.value))
       && (!selectedGenre.value || work.genre === selectedGenre.value)
       && (!selectedAuthor.value || work.author === selectedAuthor.value)
   })
 })
 
 const groupedWorks = computed(() => books.value
-  .map((book) => ({ book, works: visibleWorks.value.filter((work) => work.book === book) }))
+  .filter((book) => !selectedBook.value || book === selectedBook.value)
+  .map((book) => {
+    const order = curriculum.books.find((item) => item.name === book)?.requiredWorks || []
+    const rank = (id: string) => order.includes(id) ? order.indexOf(id) : order.length
+    return { book, works: visibleWorks.value.filter((work) => work.book === book || work.additionalBooks?.includes(book)).sort((a, b) => rank(a.id) - rank(b.id)) }
+  })
   .filter((group) => group.works.length))
 
 function reset() {
@@ -89,6 +101,7 @@ function reset() {
             <a :href="work.link">{{ work.title }}</a>
             <span>{{ work.dynasty }} · {{ work.author }}</span>
             <small>{{ work.genre }}</small>
+            <small v-if="work.legacy">旧版选篇</small>
             <small v-if="work.copyrightProtected" class="copyright-tag">目录信息</small>
           </li>
         </ul>
