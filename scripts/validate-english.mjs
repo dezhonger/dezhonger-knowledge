@@ -3,6 +3,7 @@ import { readFile, readdir } from 'node:fs/promises'
 import { resolve, relative } from 'node:path'
 import { pathToFileURL } from 'node:url'
 import { load } from 'cheerio'
+import { DATA_FILES } from './english/assets/content-data.js'
 import { root, SITE, loadContent, detailUrl } from './english/model.mjs'
 
 async function filesUnder(directory) {
@@ -77,16 +78,18 @@ export async function validateOutput(directory = resolve(root, 'sites/english'),
   for (const [type, items] of [['vocabulary', model.vocabulary], ['grammar', model.grammar], ['expression', model.expressions]]) {
     items.forEach(item => assert.ok(pages.has(detailUrl(type, item.id)), `${type}/${item.id}: detail missing`))
   }
-  const indexes = files.filter(file => file.endsWith('/search-index.json'))
-  assert.equal(indexes.length, 1, 'Expected one current search index')
-  const docs = JSON.parse(await readFile(indexes[0], 'utf8'))
+  const docs = JSON.parse(await readFile(resolve(directory, DATA_FILES.search), 'utf8'))
   assert.equal(docs.length, model.vocabulary.length + model.grammar.length + model.expressions.length)
   assert.equal(new Set(docs.map(doc => doc.id)).size, docs.length, 'Search entities duplicated')
   docs.forEach(doc => assert.ok(pages.has(doc.url), `Search target missing: ${doc.url}`))
   const robots = await readFile(resolve(directory, 'robots.txt'), 'utf8')
   assert.ok(robots.includes(`Sitemap: ${SITE.origin}/sitemap.xml`))
   assert.ok(!robots.includes('<html'))
-  assert.ok(!all.has('vocabulary.json'), 'Legacy vocabulary bundle must not be published')
+  const legacy = JSON.parse(await readFile(resolve(directory, 'vocabulary.json'), 'utf8'))
+  const practice = JSON.parse(await readFile(resolve(directory, DATA_FILES.practice), 'utf8'))
+  assert.equal(legacy.words.length, model.vocabulary.length)
+  assert.equal(practice.words.length, model.vocabulary.length)
+  for (const ids of Object.values(legacy.lists)) assert.ok(ids.every(id => legacy.words[id]?.length === 5), 'Broken legacy vocabulary reference')
   if (verbose) console.log(`English validation: ${pages.size} HTML pages, ${linkCount} internal references, ${docs.length} search entities, ${sitemapRoutes.size} sitemap URLs passed.`)
   return { pages: pages.size, links: linkCount, search: docs.length, sitemap: sitemapRoutes.size }
 }

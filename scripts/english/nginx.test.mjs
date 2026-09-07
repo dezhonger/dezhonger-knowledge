@@ -48,6 +48,28 @@ test('production Nginx rules serve English with real 404s and hashed asset cachi
       assert.ok(response.headers.get('content-type').includes(type), path)
       assert.equal(response.headers.get('x-content-type-options'), 'nosniff')
     }
+    const index = await request('/index.html')
+    assert.equal(index.status, 302)
+    assert.ok(index.headers.get('cache-control').includes('no-store'))
+    assert.ok(index.headers.get('location').endsWith('/'))
+    const legacy = await request('/vocabulary.json')
+    assert.equal(legacy.status, 200)
+    const legacyData = await legacy.json()
+    assert.equal(legacyData.words.length, 11496)
+    assert.ok(legacyData.words[legacyData.lists.cet6[0]][3])
+    const stable = await request('/data/practice.v1.json')
+    assert.equal(stable.status, 200)
+    const stableData = await stable.json()
+    for (const release of ['135bbd073fa4', 'aaaaaaaaaaaa']) {
+      const old = await request(`/assets/${release}/practice-data.json`)
+      assert.equal(old.status, 200)
+      assert.ok(old.headers.get('cache-control').includes('no-cache'))
+      assert.deepEqual(await old.json(), stableData)
+    }
+    const oldSearch = await request('/assets/135bbd073fa4/search-index.json')
+    assert.equal(oldSearch.status, 200)
+    assert.ok(Array.isArray(await oldSearch.json()))
+    assert.equal((await request('/assets/aaaaaaaaaaaa/unrecognized.json')).status, 404)
     const html = await (await request('/')).text()
     const css = html.match(/href="([^\"]+english\.css)"/)[1]
     const asset = await request(css)

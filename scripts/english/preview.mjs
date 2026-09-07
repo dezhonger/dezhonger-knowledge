@@ -2,6 +2,7 @@ import { createServer } from 'node:http'
 import { stat, readFile } from 'node:fs/promises'
 import { resolve, extname, sep } from 'node:path'
 import { pathToFileURL } from 'node:url'
+import { compatibleDataPath } from './assets/content-data.js'
 import { root } from './model.mjs'
 
 const mime = { '.html': 'text/html', '.css': 'text/css', '.js': 'text/javascript', '.json': 'application/json', '.xml': 'application/xml', '.txt': 'text/plain', '.svg': 'image/svg+xml' }
@@ -9,7 +10,9 @@ export function previewServer(directory = resolve(root, 'sites/english')) {
   return createServer(async (request, response) => {
     if (!['GET', 'HEAD'].includes(request.method)) { response.writeHead(405, { Allow: 'GET, HEAD' }); response.end(); return }
     try {
-      const path = decodeURIComponent(new URL(request.url, 'http://localhost').pathname)
+      const original = decodeURIComponent(new URL(request.url, 'http://localhost').pathname)
+      if (original === '/index.html') { response.writeHead(302, { Location: '/', 'Cache-Control': 'no-store' }); response.end(); return }
+      const path = compatibleDataPath(original)
       const file = resolve(directory, '.' + path)
       if (file !== directory && !file.startsWith(directory + sep)) { response.writeHead(400); response.end(); return }
       let found

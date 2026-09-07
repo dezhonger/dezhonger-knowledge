@@ -30,7 +30,7 @@
 
 ## 页面和交互
 
-一级入口为首页、单词、语法、常用表达、搜索，随机背词作为明显的练习入口。站点只显示 English Learning，不出现 Dezhonger 品牌或其他 dezhonger.com 域名链接；当前域名仍用于 canonical/SEO。
+首页只展示单词、语法、常用表达三个大分类，顶部保留小型搜索入口；内页保留英语站内导航和随机背词入口。站点只显示 English Learning，不出现 Dezhonger 品牌或其他 dezhonger.com 域名链接；当前域名仍用于 canonical/SEO。
 
 主要 URL：
 
@@ -60,13 +60,13 @@ flowchart LR
   I --> J[knowledge Nginx]
 ```
 
-每页生成独立 title/description/canonical/Open Graph，内容无需客户端渲染即可阅读。空分类和搜索页 noindex；sitemap 只列真实可索引页面。英语独立 Nginx 规则返回真实 404，哈希资源长期缓存，HTML 可重新验证，gzip 压缩大词表资源。
+每页生成独立 title/description/canonical/Open Graph，内容无需客户端渲染即可阅读。空分类和搜索页 noindex；sitemap 只列真实可索引页面。英语独立 Nginx 规则返回真实 404，代码与样式使用哈希缓存，首页禁止缓存。搜索和练习数据使用固定的版本化地址并重新验证；旧词库 URL 仅保留数据适配，不恢复旧页面。gzip 压缩大词表资源。
 
 源码词表约 4.7MB，生成 HTML 约 126MB，因此只将内容源和生成器入 Git。Docker 忽略宿主生成目录，始终从 builder 复制重新生成的英语内容，避免发布旧产物。
 
 ## 检查与发布
 
-执行源码/数据校验、18 项测试、英语生成验证、全站构建、浏览器交互、响应式和错误恢复。覆盖报告见 [验证记录](english-learning-validation.md)。
+执行源码/数据校验、22 项测试、英语生成验证、全站构建、浏览器交互、响应式和错误恢复。覆盖报告见 [验证记录](english-learning-validation.md)。
 
 用户已明确授权提交、推送和服务器部署。发布只重建 knowledge，保留旧镜像并检查其他内容站点；不修改其他仓库或重启 api/db/nginx。
 

@@ -1,3 +1,4 @@
+import { fetchContentData } from './content-data.js'
 /** @typedef {import('../types').SearchDocument} SearchDocument */
 export const SEARCH_TYPES = { vocabulary: '单词', grammar: '语法', expression: '常用表达' }
 export const PAGE_SIZE = 20
@@ -44,9 +45,7 @@ export async function searchInChunks(prepared, input, type = 'all', stale = () =
   return sortResults(matches)
 }
 export async function fetchDocuments() {
-  const response = await fetch(new URL('./search-index.json', import.meta.url))
-  if (!response.ok) throw new Error(`Search index HTTP ${response.status}`)
-  const data = await response.json()
+  const data = await fetchContentData('search')
   if (!Array.isArray(data)) throw new Error('Invalid search index')
   return data
 }

@@ -168,7 +168,7 @@ npm run test:english      # content, search, speech, pagination and local HTTP t
 npm run preview:english  # preview the existing generated output
 ```
 
-`generate:subjects` delegates English to `scripts/generate-english.mjs`; it cannot overwrite the site with the retired review UI. The generator validates a temporary output directory before replacing `sites/english/`. CSS, modules and the lazily loaded search index share a content-hashed asset directory. Main content is rendered in HTML; speech and search use browser capabilities.
+`generate:subjects` delegates English to `scripts/generate-english.mjs`; it cannot overwrite the site with the retired review UI. The generator validates a temporary output directory before replacing `sites/english/`. CSS and modules use content-hashed assets. Search and practice JSON use stable schema-versioned URLs under `/data/`, revalidated on load; known old data URLs remain readable for cached clients. The homepage contains only the three main categories. Main content is rendered in HTML; speech and search use browser capabilities.
 
 The site contains 11,496 unique words across eight complete source wordlists, 6 grammar topics with 14 depth layers, and 38 expressions. Random practice draws 1–500 unique words from one level, hides Chinese meanings until requested, and paginates large sessions. It uses independent English Learning branding and has no links to other content domains. Source versions, licenses and coverage are documented under `content/english/`. No account or persistent progress system is included.
 

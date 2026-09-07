@@ -6,7 +6,8 @@ import { createMarkdownRenderer } from 'vitepress'
 import { load } from 'cheerio'
 import { loadContent, root, SITE, SECTIONS, ancestry, inCategory, sceneUrl, grammarLevels, labelOf, detailUrl, ordered } from './english/model.mjs'
 import { searchIndex } from './english/search-index.mjs'
-import { practiceData } from './english/practice-data.mjs'
+import { DATA_FILES } from './english/assets/content-data.js'
+import { practiceData, legacyVocabularyData } from './english/practice-data.mjs'
 import { escapeHtml as e, layout, heading, home, chips, vocabularyRow, wordDetail, grammarRow, expressionRow, expressionDetail, taxonomyGroups, levelCards, subcategoryLinks, pagination, emptyState, searchPage, icon, practiceBanner, practicePage, sourcesPage } from './english/render.mjs'
 import { validateOutput } from './validate-english.mjs'
 
@@ -16,8 +17,11 @@ export async function generateEnglish() {
   const sourceAssets = resolve(root, 'scripts/english/assets')
   const files = new Map()
   for (const file of (await readdir(sourceAssets)).sort()) files.set(file, await readFile(resolve(sourceAssets, file)))
-  files.set('search-index.json', Buffer.from(JSON.stringify(search)))
-  files.set('practice-data.json', Buffer.from(JSON.stringify(practiceData(model))))
+  const dataFiles = new Map([
+    [DATA_FILES.search, JSON.stringify(search)],
+    [DATA_FILES.practice, JSON.stringify(practiceData(model))],
+    ['vocabulary.json', JSON.stringify(legacyVocabularyData(model))],
+  ])
   for (const file of ['ECDICT-MIT.txt', 'IPA-DICT-MIT.txt', 'FOUNDATION-WORDLISTS-MIT.txt']) files.set(file, await readFile(resolve(root, 'LICENSES', file)))
   const digest = createHash('sha256')
   for (const [file, content] of files) digest.update(file).update(content)
@@ -38,7 +42,7 @@ export async function generateEnglish() {
       add(currentPath, title + (page > 1 ? ` · 第 ${page} 页` : ''), description, heading(title, description, eyebrow) + prefix + content, { crumbs: currentCrumbs, noindex: !items.length, section })
     }
   }
-  add('/', SITE.name, '从单词、语法和常用表达开始，在主题与语境中学习英语。', home(model))
+  add('/', SITE.name, '从单词、语法和常用表达开始，在主题与语境中学习英语。', home())
   const vocabTopicUrl = id => `/vocabulary/topic/${id}`
   const grammarCategoryUrl = id => `/grammar/category/${id}`
   add('/vocabulary', '单词', '按学习阶段和主题浏览单词，查看英美音标、中英文释义、例句与常见搭配。', heading('英语词汇', `从基础到进阶，${model.vocabulary.length.toLocaleString('en-US')} 个单词等你学习。`, 'VOCABULARY') + practiceBanner() + `<section class="browse-section"><h2>按学习阶段</h2>${levelCards(t.vocabularyLevels, id => `/vocabulary/level/${id}`, id => model.vocabulary.filter(word => word.levelIds.includes(id)).length)}</section><section class="browse-section"><h2>按主题探索</h2><p class="lead">从身边的事物，到更广阔的世界。</p>${taxonomyGroups(t.topics, vocabTopicUrl, id => inCategory(model.vocabulary, 'topicIds', t.topics, id).length)}</section>`, { crumbs: [['单词']], section: 'vocabulary' })
@@ -106,6 +110,10 @@ export async function generateEnglish() {
     for (const [file, bytes] of files) {
       const filename = resolve(temp, assets.slice(1), file)
       await mkdir(dirname(filename), { recursive: true }); await writeFile(filename, bytes)
+    }
+    for (const [file, data] of dataFiles) {
+      const filename = resolve(temp, file)
+      await mkdir(dirname(filename), { recursive: true }); await writeFile(filename, data)
     }
     const urls = [...routes].filter(([, page]) => page.index).map(([path]) => `<url><loc>${SITE.origin}${e(path)}</loc></url>`)
     await writeFile(resolve(temp, 'sitemap.xml'), `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${urls.join('\n')}\n</urlset>\n`)

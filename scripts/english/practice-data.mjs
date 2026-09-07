@@ -8,3 +8,19 @@ export function practiceData(model) {
   const levels = Object.fromEntries(model.taxonomy.vocabularyLevels.map(level => [level.id, model.vocabulary.flatMap((word, index) => word.levelIds.includes(level.id) ? [index] : [])]))
   return { version: 1, words, levels }
 }
+
+// Cached pre-rebuild pages still request this exact tuple contract at /vocabulary.json.
+export function legacyVocabularyData(model) {
+  const current = practiceData(model)
+  return {
+    version: 1,
+    words: current.words.map((word, index) => [
+      word.word,
+      (word.uk || word.us || word.reference).replace(/^\/|\/$/g, ''),
+      [...new Set(word.meanings.map(sense => sense.pos))].join(' / '),
+      word.meanings.map(sense => sense.zh).join('；'),
+      model.vocabulary[index].levelIds,
+    ]),
+    lists: current.levels,
+  }
+}

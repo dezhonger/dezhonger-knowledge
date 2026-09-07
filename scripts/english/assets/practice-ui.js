@@ -1,3 +1,4 @@
+import { fetchContentData } from './content-data.js'
 import { PRACTICE, parseCount, drawWords, practicePageSlice } from './practice.js'
 import { refreshSpeechButtons, stopSpeech } from './ui.js'
 const form = document.querySelector('#practice-form')
@@ -18,9 +19,7 @@ const make = (tag, className, text) => {
   return node
 }
 async function loadData() {
-  if (!dataPromise) dataPromise = fetch(new URL('./practice-data.json', import.meta.url)).then(async response => {
-    if (!response.ok) throw new Error('load')
-    const data = await response.json()
+  if (!dataPromise) dataPromise = fetchContentData('practice').then(data => {
     if (data.version !== 1 || !Array.isArray(data.words) || !data.levels) throw new Error('shape')
     return data
   }).catch(error => { dataPromise = null; throw error })
