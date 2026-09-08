@@ -1,4 +1,4 @@
-import { SITE, SECTIONS, ordered, labelOf, ancestry, sceneUrl, detailUrl, grammarLevels } from './model.mjs'
+import { SITE, SECTIONS, ordered, labelOf, partOfSpeechLabel, ancestry, descendants, sceneUrl, detailUrl, grammarLevels } from './model.mjs'
 
 export const escapeHtml = (value = '') => String(value).replaceAll('&', '&amp;').replaceAll('<', '&lt;').replaceAll('>', '&gt;').replaceAll('"', '&quot;').replaceAll("'", '&#39;')
 const e = escapeHtml
@@ -103,11 +103,14 @@ export function pagination(path, page, totalPages, count) {
   }).join('')
   return `<nav class="pagination" aria-label="分页">${page > 1 ? link(url(page - 1), '上一页') : '<span aria-disabled="true">上一页</span>'}<div>${links}</div>${page < totalPages ? link(url(page + 1), '下一页') : '<span aria-disabled="true">下一页</span>'}<small>第 ${page} / ${totalPages} 页 · 共 ${count} 条</small></nav>`
 }
-export function vocabularyRow(word, t) {
-  const sense = word.senses[0]
-  const labels = [...word.levelIds.slice(0, 2).map(id => [labelOf(t.vocabularyLevels, id), `/vocabulary/level/${id}`]), ...word.topicIds.slice(0, 1).map(id => [labelOf(t.topics, id), `/vocabulary/topic/${id}`])]
+const partOfSpeech = (t, id) => `<abbr class="part-of-speech" lang="en" title="${e(labelOf(t.partsOfSpeech, id))}">${e(partOfSpeechLabel(t.partsOfSpeech, id))}</abbr>`
+export function vocabularyRow(word, t, topicId) {
+  const topics = topicId ? descendants(t.topics, topicId) : undefined
+  const sense = word.senses.find(sense => sense.topicIds?.some(id => topics?.has(id))) || word.senses[0]
+  const shownTopics = topics ? word.topicIds.filter(id => topics.has(id)) : word.topicIds
+  const labels = [...word.levelIds.slice(0, 2).map(id => [labelOf(t.vocabularyLevels, id), `/vocabulary/level/${id}`]), ...shownTopics.slice(0, 1).map(id => [labelOf(t.topics, id), `/vocabulary/topic/${id}`])]
   const ipa = word.pronunciation?.uk?.ipa || word.pronunciation?.us?.ipa || word.pronunciation?.reference?.ipa
-  return `<article class="word-row"><div class="word-row-main"><h2>${link(detailUrl('vocabulary', word.id), word.word)}</h2>${ipa ? `<span class="ipa" lang="en">${e(ipa)}</span>` : ''}<p><span class="part-of-speech">${e(labelOf(t.partsOfSpeech, sense.posId))}</span>${e(sense.zh)}</p></div>${chips(labels)}<a class="row-arrow" href="${detailUrl('vocabulary', word.id)}" aria-label="查看 ${e(word.word)} 详情">${icon('arrow')}</a></article>`
+  return `<article class="word-row"><div class="word-row-main"><h2>${link(detailUrl('vocabulary', word.id), word.word)}</h2>${ipa ? `<span class="ipa" lang="en">${e(ipa)}</span>` : ''}<p>${partOfSpeech(t, sense.posId)}${e(sense.zh)}</p></div>${chips(labels)}<a class="row-arrow" href="${detailUrl('vocabulary', word.id)}" aria-label="查看 ${e(word.word)} 详情">${icon('arrow')}</a></article>`
 }
 export function grammarRow(topic, t, level, headingLevel = 2) {
   const layer = level && topic.layers.find(layer => layer.levelIds.includes(level))
@@ -125,7 +128,7 @@ export function wordDetail(word, t) {
     return `<div class="pronunciation"><span class="accent-label">${accent === 'uk' ? '英' : '美'}</span>${value?.ipa ? `<span class="ipa" lang="en">${e(value.ipa)}</span>` : ''}${speechButton(word.word, accent, value?.ipa ? '' : '听发音', value?.audioSrc)}</div>`
   }).join('')
   return `<div class="detail-layout"><article class="word-detail"><header class="word-heading"><p class="eyebrow">WORD BY WORD</p><h1 lang="en">${e(word.word)}</h1><div class="pronunciations">${pronunciations}</div>${word.pronunciation?.reference?.ipa ? `<p class="reference-ipa">参考音标 <span class="ipa">${e(word.pronunciation.reference.ipa)}</span></p>` : ''}${['uk','us'].filter(accent => word.pronunciation?.[accent]?.variants?.length).map(accent => `<p class="reference-ipa">${accent === 'uk' ? '英式' : '美式'}其他读音 <span class="ipa">${word.pronunciation[accent].variants.map(e).join(' · ')}</span></p>`).join('')}<p class="speech-unavailable" hidden>当前浏览器暂不支持朗读。</p></header>
-${word.senses.map((sense, i) => `<section class="sense"><div class="sense-heading"><span class="sense-number">${String(i + 1).padStart(2, '0')}</span><span class="part-of-speech">${e(labelOf(t.partsOfSpeech, sense.posId))}</span></div><h2>${e(sense.zh)}</h2>${sense.en ? `<p class="english-definition" lang="en">${e(sense.en)}</p>` : ''}${examples(sense.examples)}</section>`).join('')}
+${word.senses.map((sense, i) => `<section class="sense"><div class="sense-heading"><span class="sense-number">${String(i + 1).padStart(2, '0')}</span>${partOfSpeech(t, sense.posId)}</div><h2>${e(sense.zh)}</h2>${sense.en ? `<p class="english-definition" lang="en">${e(sense.en)}</p>` : ''}${examples(sense.examples)}</section>`).join('')}
 ${word.collocations?.length ? `<section class="detail-section"><h2>常见搭配</h2><dl class="collocations">${word.collocations.map(item => `<div><dt lang="en">${e(item.en)}</dt><dd>${e(item.zh)}</dd></div>`).join('')}</dl></section>` : ''}
 ${word.synonyms?.length || word.antonyms?.length ? `<section class="detail-section relation-grid">${word.synonyms?.length ? `<div><h2>近义表达</h2>${relations(word.synonyms)}</div>` : ''}${word.antonyms?.length ? `<div><h2>反义表达</h2>${relations(word.antonyms)}</div>` : ''}</section>` : ''}
 ${word.notes ? `<aside class="content-note"><h2>多了解一点</h2><p>${e(word.notes)}</p></aside>` : ''}</article>
@@ -137,12 +140,12 @@ export function expressionDetail(item, model) {
   return `<article class="expression-detail"><p class="eyebrow">A LITTLE MORE NATURAL</p><h1 lang="en">${e(item.en)}</h1><p class="expression-translation">${e(item.zh)}</p><div class="expression-pronunciation">${speechButton(item.en, 'uk', '英式朗读')}${speechButton(item.en, 'us', '美式朗读')}</div><p class="speech-unavailable" hidden>当前浏览器暂不支持朗读。</p>${chips([...(item.difficultyId ? [[labelOf(t.difficulties, item.difficultyId)]] : []), ...(item.tagIds || []).map(id => [labelOf(t.tags, id)])])}
 ${item.usage ? `<section class="detail-section"><h2>什么时候用</h2><p>${e(item.usage)}</p></section>` : ''}${item.notes ? `<section class="content-note"><h2>这样理解更自然</h2><p>${e(item.notes)}</p></section>` : ''}<section class="detail-section"><h2>适用场景</h2>${chips(item.sceneIds.map(id => [ancestry(t.scenes, id).map(node => node.label).join(' / '), sceneUrl(t.scenes, id)]))}</section>${related.length ? `<section class="detail-section"><h2>还可以这样说</h2><div class="expression-list">${related.map(other => expressionRow(other, t, 3)).join('')}</div></section>` : ''}</article>`
 }
-export function taxonomyGroups(nodes, url, count) {
-  const tree = parent => ordered(nodes.filter(node => node.parentId === parent)).map(node => {
-    const children = nodes.some(child => child.parentId === node.id)
-    return `<li>${link(url(node.id), node.label)}<span class="taxonomy-count">${count(node.id)}</span>${children ? `<ul>${tree(node.id)}</ul>` : ''}</li>`
+export function taxonomyGroups(nodes, url, count, maxDepth = Infinity) {
+  const tree = (parent, depth = 1) => ordered(nodes.filter(node => node.parentId === parent)).map(node => {
+    const children = depth < maxDepth && nodes.some(child => child.parentId === node.id)
+    return `<li>${link(url(node.id), node.label)}<span class="taxonomy-count">${count(node.id)}</span>${children ? `<ul>${tree(node.id, depth + 1)}</ul>` : ''}</li>`
   }).join('')
-  return `<div class="taxonomy-grid">${ordered(nodes.filter(node => !node.parentId)).map(node => `<section class="taxonomy-group"><h3>${link(url(node.id), node.label)}<span>${count(node.id)}</span></h3><ul>${tree(node.id)}</ul></section>`).join('')}</div>`
+  return `<div class="taxonomy-grid${Number.isFinite(maxDepth) ? ' taxonomy-grid--compact' : ''}">${ordered(nodes.filter(node => !node.parentId)).map(node => `<section class="taxonomy-group"><h3>${link(url(node.id), node.label)}<span>${count(node.id)}</span></h3><ul>${tree(node.id)}</ul></section>`).join('')}</div>`
 }
 export function levelCards(nodes, url, count) {
   return `<div class="level-grid">${ordered(nodes).map(node => `<a class="level-card" data-tone="${e(node.color || 'blue')}" href="${url(node.id)}"><div class="level-cover"><span class="level-code">${e(node.code || node.label)}</span><svg viewBox="0 0 180 90" aria-hidden="true"><path d="M10 83c32-20 52 6 80-12s28-28 27-58m-3 41c-22 4-32-9-29-17 15-5 26 7 29 17Zm4-13c24-1 31-15 23-20-14 0-22 10-23 20Z" fill="none" stroke="currentColor" stroke-width="2" opacity=".4"/></svg><small>ENGLISH VOCABULARY</small></div><div class="level-card-body"><strong>${e(node.label)}</strong><p>${e(node.description || '分层学习，逐步掌握')}</p><span>${count(node.id).toLocaleString('en-US')} ${node.code ? '个单词' : '篇内容'} ${icon('arrow', 16)}</span></div></a>`).join('')}</div>`

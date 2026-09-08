@@ -3,7 +3,8 @@ import assert from 'node:assert/strict'
 import { loadContent, validateModel, ancestry, inCategory, sceneUrl, grammarLevels } from './model.mjs'
 import { searchIndex } from './search-index.mjs'
 import { prepareDocuments, searchDocuments, searchInChunks, resultPage } from './assets/search.js'
-import { wordDetail, pagination } from './render.mjs'
+import { wordDetail, vocabularyRow, taxonomyGroups, pagination } from './render.mjs'
+import { practiceData, legacyVocabularyData } from './practice-data.mjs'
 import { load } from 'cheerio'
 
 const model = await loadContent()
@@ -81,6 +82,40 @@ test('food vocabulary preserves multiple meanings, nested categories and regiona
   for (const [query, id] of [['龙眼', 'longan'], ['空心菜', 'water-spinach'], ['acai', 'acai'], ['jalapeno', 'jalapeno'], ['蔬菜 韭菜', 'garlic-chives']]) {
     assert.ok(searchDocuments(prepared, query).some(item => item.id === `vocabulary:${id}`), query)
   }
+})
+test('vocabulary overview stops at two levels below group headings; detail categories remain available', () => {
+  const topics = model.taxonomy.topics
+  const url = id => `/vocabulary/topic/${id}`
+  const $ = load(taxonomyGroups(topics, url, id => inCategory(model.vocabulary, 'topicIds', topics, id).length, 2))
+  assert.equal($('a[href="/vocabulary/topic/fruit"]').length, 1)
+  assert.equal($('a[href="/vocabulary/topic/vegetables"]').length, 1)
+  assert.equal($('a[href="/vocabulary/topic/fruit-citrus"]').length, 0)
+  assert.equal($('a[href="/vocabulary/topic/animals-cats"]').length, 0)
+  assert.equal($('.taxonomy-group > ul > li > ul > li > ul').length, 0)
+  assert.ok(inCategory(model.vocabulary, 'topicIds', topics, 'animals-cats').some(w => w.id === 'ocelot'))
+})
+test('topic lists select the relevant sense without duplicating shared words', () => {
+  for (const [id, topic, expected] of [['kiwi', 'animals', '几维鸟'], ['kiwi', 'fruit', '猕猴桃'], ['plantain', 'plants', '车前草'], ['plantain', 'fruit', '烹饪蕉'], ['bark', 'plants', '树皮'], ['bark', 'animals', '狗叫']]) {
+    const words = model.vocabulary.filter(w => w.id === id)
+    assert.equal(words.length, 1)
+    const $ = load(vocabularyRow(words[0], model.taxonomy, topic))
+    assert.ok($('.word-row-main p').text().includes(expected), `${id} / ${topic}`)
+  }
+  assert.ok(searchDocuments(prepared, '虎猫').some(item => item.id === 'vocabulary:ocelot'))
+  assert.ok(searchDocuments(prepared, '光合作用').some(item => item.id === 'vocabulary:photosynthesis'))
+})
+test('word lists, detail pages and practice use centralized English part-of-speech abbreviations', () => {
+  const word = model.vocabulary.find(w => w.id === 'apple')
+  for (const html of [vocabularyRow(word, model.taxonomy), wordDetail(word, model.taxonomy)]) {
+    const $ = load(html)
+    assert.equal($('.part-of-speech').first().text(), 'n.')
+    assert.equal($('.part-of-speech').first().attr('title'), '名词')
+  }
+  assert.equal(practiceData(model).words.find(w => w.id === 'apple').meanings[0].pos, 'n.')
+  assert.equal(legacyVocabularyData(model).words.find(w => w[0] === 'apple')[2], 'n.')
+  const clone = structuredClone(model)
+  clone.vocabulary[0].senses[0].topicIds = ['missing-topic']
+  assert.throws(() => validateModel(clone), /missing-topic/)
 })
 test('pagination clamps ranges and only puts current page items into the UI', () => {
   const results = Array.from({ length: 45 }, (_, i) => i)

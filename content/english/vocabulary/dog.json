@@ -20,6 +20,9 @@
           "en": "The dog is sleeping under the table.",
           "zh": "狗正在桌子下面睡觉。"
         }
+      ],
+      "topicIds": [
+        "animals-domestic"
       ]
     }
   ],
@@ -31,7 +34,8 @@
   ],
   "topicIds": [
     "animals",
-    "home"
+    "home",
+    "animals-domestic"
   ],
   "tagIds": [],
   "editorial": true

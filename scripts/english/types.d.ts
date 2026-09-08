@@ -7,6 +7,7 @@ export interface Taxon {
   description?: string
   code?: string
   color?: string
+  abbreviation?: string
 }
 export interface Taxonomy {
   vocabularyLevels: Taxon[]
@@ -27,6 +28,7 @@ export interface Sense {
   zh: string
   en?: string
   examples?: Example[]
+  topicIds?: string[]
 }
 export interface Vocabulary {
   id: string

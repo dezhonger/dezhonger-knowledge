@@ -537,6 +537,594 @@
       "order": 16,
       "parentId": "vegetables",
       "description": "容易与蔬菜英文混淆的名称，结合说明辨认。"
+    },
+    {
+      "id": "animals-mammals",
+      "label": "哺乳动物",
+      "parentId": "animals",
+      "order": 0
+    },
+    {
+      "id": "animals-birds",
+      "label": "鸟类",
+      "parentId": "animals",
+      "order": 1
+    },
+    {
+      "id": "animals-aquatic",
+      "label": "鱼类与海洋哺乳动物",
+      "parentId": "animals",
+      "order": 2
+    },
+    {
+      "id": "animals-reptiles-amphibians",
+      "label": "爬行与两栖动物",
+      "parentId": "animals",
+      "order": 3
+    },
+    {
+      "id": "animals-invertebrates",
+      "label": "无脊椎动物",
+      "parentId": "animals",
+      "order": 4
+    },
+    {
+      "id": "animals-prehistoric",
+      "label": "史前动物",
+      "parentId": "animals",
+      "order": 5
+    },
+    {
+      "id": "animals-related",
+      "label": "动物相关词",
+      "parentId": "animals",
+      "order": 6
+    },
+    {
+      "id": "plants-trees",
+      "label": "树木",
+      "parentId": "plants",
+      "order": 0
+    },
+    {
+      "id": "plants-flowers",
+      "label": "花卉",
+      "parentId": "plants",
+      "order": 1
+    },
+    {
+      "id": "plants-crops-herbs",
+      "label": "草本、作物与香草",
+      "parentId": "plants",
+      "order": 2
+    },
+    {
+      "id": "plants-groups",
+      "label": "其他植物与相关生物",
+      "parentId": "plants",
+      "order": 3
+    },
+    {
+      "id": "plants-structure",
+      "label": "植物结构",
+      "parentId": "plants",
+      "order": 4
+    },
+    {
+      "id": "plants-growth",
+      "label": "生长与繁殖",
+      "parentId": "plants",
+      "order": 5
+    },
+    {
+      "id": "plants-ecology-gardening",
+      "label": "生态与园艺",
+      "parentId": "plants",
+      "order": 6
+    },
+    {
+      "id": "animals-basics",
+      "label": "动物总称与基础词汇",
+      "parentId": "animals-related",
+      "order": 1
+    },
+    {
+      "id": "animals-domestic",
+      "label": "常见家养动物",
+      "parentId": "animals-mammals",
+      "order": 2
+    },
+    {
+      "id": "animals-cats",
+      "label": "猫科动物",
+      "parentId": "animals-mammals",
+      "order": 3
+    },
+    {
+      "id": "animals-canids",
+      "label": "犬科与类似动物",
+      "parentId": "animals-mammals",
+      "order": 4
+    },
+    {
+      "id": "animals-bears-and-relatives",
+      "label": "熊、鼬、浣熊等",
+      "parentId": "animals-mammals",
+      "order": 5
+    },
+    {
+      "id": "animals-large-herbivores",
+      "label": "大型草食动物",
+      "parentId": "animals-mammals",
+      "order": 6
+    },
+    {
+      "id": "animals-deer-and-antelopes",
+      "label": "鹿、羚羊等",
+      "parentId": "animals-mammals",
+      "order": 7
+    },
+    {
+      "id": "animals-primates",
+      "label": "灵长类动物",
+      "parentId": "animals-mammals",
+      "order": 8
+    },
+    {
+      "id": "animals-small-mammals",
+      "label": "啮齿类与小型哺乳动物",
+      "parentId": "animals-mammals",
+      "order": 9
+    },
+    {
+      "id": "animals-marsupials",
+      "label": "澳大利亚与有袋类动物",
+      "parentId": "animals-mammals",
+      "order": 10
+    },
+    {
+      "id": "animals-unusual-mammals",
+      "label": "奇特哺乳动物",
+      "parentId": "animals-mammals",
+      "order": 11
+    },
+    {
+      "id": "animals-bird-basics",
+      "label": "鸟类基础词汇",
+      "parentId": "animals-birds",
+      "order": 12
+    },
+    {
+      "id": "animals-poultry",
+      "label": "家禽",
+      "parentId": "animals-birds",
+      "order": 13
+    },
+    {
+      "id": "animals-raptors",
+      "label": "猛禽",
+      "parentId": "animals-birds",
+      "order": 14
+    },
+    {
+      "id": "animals-common-birds",
+      "label": "常见鸟类",
+      "parentId": "animals-birds",
+      "order": 15
+    },
+    {
+      "id": "animals-waterbirds",
+      "label": "水鸟、海鸟",
+      "parentId": "animals-birds",
+      "order": 16
+    },
+    {
+      "id": "animals-large-birds",
+      "label": "大型、不会飞或特殊鸟类",
+      "parentId": "animals-birds",
+      "order": 17
+    },
+    {
+      "id": "animals-parrots",
+      "label": "鹦鹉类",
+      "parentId": "animals-birds",
+      "order": 18
+    },
+    {
+      "id": "animals-marine-mammals",
+      "label": "海洋哺乳动物",
+      "parentId": "animals-aquatic",
+      "order": 19
+    },
+    {
+      "id": "animals-sharks",
+      "label": "鲨鱼",
+      "parentId": "animals-aquatic",
+      "order": 20
+    },
+    {
+      "id": "animals-rays",
+      "label": "鳐类",
+      "parentId": "animals-aquatic",
+      "order": 21
+    },
+    {
+      "id": "animals-fish",
+      "label": "常见鱼类",
+      "parentId": "animals-aquatic",
+      "order": 22
+    },
+    {
+      "id": "animals-snakes",
+      "label": "爬行动物",
+      "parentId": "animals-reptiles-amphibians",
+      "order": 23
+    },
+    {
+      "id": "animals-lizards-and-turtles",
+      "label": "蜥蜴、鳄鱼、龟",
+      "parentId": "animals-reptiles-amphibians",
+      "order": 24
+    },
+    {
+      "id": "animals-amphibians",
+      "label": "两栖动物",
+      "parentId": "animals-reptiles-amphibians",
+      "order": 25
+    },
+    {
+      "id": "animals-insect-basics",
+      "label": "昆虫基础词汇",
+      "parentId": "animals-invertebrates",
+      "order": 26
+    },
+    {
+      "id": "animals-insects",
+      "label": "常见昆虫",
+      "parentId": "animals-invertebrates",
+      "order": 27
+    },
+    {
+      "id": "animals-arachnids",
+      "label": "蜘蛛与蛛形纲动物",
+      "parentId": "animals-invertebrates",
+      "order": 28
+    },
+    {
+      "id": "animals-myriapods",
+      "label": "多足动物",
+      "parentId": "animals-invertebrates",
+      "order": 29
+    },
+    {
+      "id": "animals-crustaceans",
+      "label": "甲壳类动物",
+      "parentId": "animals-invertebrates",
+      "order": 30
+    },
+    {
+      "id": "animals-mollusks",
+      "label": "软体动物",
+      "parentId": "animals-invertebrates",
+      "order": 31
+    },
+    {
+      "id": "animals-cnidarians",
+      "label": "刺胞动物等海洋无脊椎动物",
+      "parentId": "animals-invertebrates",
+      "order": 32
+    },
+    {
+      "id": "animals-echinoderms",
+      "label": "棘皮动物",
+      "parentId": "animals-invertebrates",
+      "order": 33
+    },
+    {
+      "id": "animals-worms",
+      "label": "环节动物、蠕虫等",
+      "parentId": "animals-invertebrates",
+      "order": 34
+    },
+    {
+      "id": "animals-other-aquatic",
+      "label": "其他水生动物",
+      "parentId": "animals-invertebrates",
+      "order": 35
+    },
+    {
+      "id": "animals-prehistoric-names",
+      "label": "恐龙与史前动物",
+      "parentId": "animals-prehistoric",
+      "order": 36
+    },
+    {
+      "id": "animals-sounds",
+      "label": "动物叫声相关词",
+      "parentId": "animals-related",
+      "order": 40
+    },
+    {
+      "id": "animals-body",
+      "label": "动物身体部位",
+      "parentId": "animals-related",
+      "order": 41
+    },
+    {
+      "id": "animals-behavior",
+      "label": "动物行为词",
+      "parentId": "animals-related",
+      "order": 42
+    },
+    {
+      "id": "animals-collectives",
+      "label": "动物群体名称",
+      "parentId": "animals-related",
+      "order": 43
+    },
+    {
+      "id": "plants-basics",
+      "label": "植物类总称",
+      "parentId": "plants-groups",
+      "order": 1
+    },
+    {
+      "id": "plants-tree-basics",
+      "label": "树木基础词汇",
+      "parentId": "plants-trees",
+      "order": 2
+    },
+    {
+      "id": "plants-common-trees",
+      "label": "常见树木",
+      "parentId": "plants-trees",
+      "order": 3
+    },
+    {
+      "id": "plants-tropical-trees",
+      "label": "棕榈及热带树木",
+      "parentId": "plants-trees",
+      "order": 4
+    },
+    {
+      "id": "plants-common-flowers",
+      "label": "常见花卉",
+      "parentId": "plants-flowers",
+      "order": 5
+    },
+    {
+      "id": "plants-chinese-plants",
+      "label": "中国文化中常见植物",
+      "parentId": "plants-flowers",
+      "order": 6
+    },
+    {
+      "id": "plants-grasses",
+      "label": "草本、草坪及野草",
+      "parentId": "plants-crops-herbs",
+      "order": 7
+    },
+    {
+      "id": "plants-crops",
+      "label": "农作物",
+      "parentId": "plants-crops-herbs",
+      "order": 8
+    },
+    {
+      "id": "plants-legumes",
+      "label": "豆科植物",
+      "parentId": "plants-crops-herbs",
+      "order": 9
+    },
+    {
+      "id": "plants-herbs",
+      "label": "香草和常见调味植物",
+      "parentId": "plants-crops-herbs",
+      "order": 10
+    },
+    {
+      "id": "plants-spices",
+      "label": "香料植物",
+      "parentId": "plants-crops-herbs",
+      "order": 11
+    },
+    {
+      "id": "plants-medicinal-plants",
+      "label": "药用植物",
+      "parentId": "plants-crops-herbs",
+      "order": 12
+    },
+    {
+      "id": "plants-vines",
+      "label": "藤本植物",
+      "parentId": "plants-groups",
+      "order": 13
+    },
+    {
+      "id": "plants-aquatic",
+      "label": "水生植物",
+      "parentId": "plants-groups",
+      "order": 14
+    },
+    {
+      "id": "plants-succulents",
+      "label": "沙漠植物和多肉植物",
+      "parentId": "plants-groups",
+      "order": 15
+    },
+    {
+      "id": "plants-ferns-and-mosses",
+      "label": "蕨类、苔藓等",
+      "parentId": "plants-groups",
+      "order": 16
+    },
+    {
+      "id": "plants-bamboo",
+      "label": "竹类",
+      "parentId": "plants-groups",
+      "order": 17
+    },
+    {
+      "id": "plants-houseplants",
+      "label": "常见室内植物",
+      "parentId": "plants-groups",
+      "order": 18
+    },
+    {
+      "id": "plants-garden-plants",
+      "label": "园艺植物",
+      "parentId": "plants-groups",
+      "order": 19
+    },
+    {
+      "id": "plants-parts",
+      "label": "植物的主要部位",
+      "parentId": "plants-structure",
+      "order": 20
+    },
+    {
+      "id": "plants-leaves",
+      "label": "叶子的结构",
+      "parentId": "plants-structure",
+      "order": 21
+    },
+    {
+      "id": "plants-flower-parts",
+      "label": "花的结构",
+      "parentId": "plants-structure",
+      "order": 22
+    },
+    {
+      "id": "plants-roots",
+      "label": "根的类型",
+      "parentId": "plants-structure",
+      "order": 23
+    },
+    {
+      "id": "plants-seeds-fruits",
+      "label": "种子与果实结构",
+      "parentId": "plants-structure",
+      "order": 24
+    },
+    {
+      "id": "plants-growth-verbs",
+      "label": "植物生长相关动词",
+      "parentId": "plants-growth",
+      "order": 25
+    },
+    {
+      "id": "plants-life-cycle",
+      "label": "植物生命周期",
+      "parentId": "plants-growth",
+      "order": 26
+    },
+    {
+      "id": "plants-reproduction",
+      "label": "植物繁殖",
+      "parentId": "plants-growth",
+      "order": 27
+    },
+    {
+      "id": "plants-photosynthesis",
+      "label": "光合作用相关",
+      "parentId": "plants-growth",
+      "order": 28
+    },
+    {
+      "id": "plants-taxonomy",
+      "label": "植物分类相关",
+      "parentId": "plants-groups",
+      "order": 29
+    },
+    {
+      "id": "plants-botanical-groups",
+      "label": "被子植物、裸子植物等",
+      "parentId": "plants-groups",
+      "order": 30
+    },
+    {
+      "id": "plants-habitats",
+      "label": "植物生境",
+      "parentId": "plants-ecology-gardening",
+      "order": 31
+    },
+    {
+      "id": "plants-ecology",
+      "label": "植物生态词汇",
+      "parentId": "plants-ecology-gardening",
+      "order": 32
+    },
+    {
+      "id": "plants-forests",
+      "label": "森林相关词汇",
+      "parentId": "plants-ecology-gardening",
+      "order": 33
+    },
+    {
+      "id": "plants-gardening",
+      "label": "园艺相关词汇",
+      "parentId": "plants-ecology-gardening",
+      "order": 34
+    },
+    {
+      "id": "plants-soil",
+      "label": "土壤相关",
+      "parentId": "plants-ecology-gardening",
+      "order": 35
+    },
+    {
+      "id": "plants-diseases-pests",
+      "label": "植物疾病和害虫相关",
+      "parentId": "plants-ecology-gardening",
+      "order": 36
+    },
+    {
+      "id": "plants-descriptions",
+      "label": "植物形态相关形容词",
+      "parentId": "plants-structure",
+      "order": 37
+    },
+    {
+      "id": "plants-woods-usage",
+      "label": "树、木材与树林",
+      "parentId": "plants-trees",
+      "order": 41
+    },
+    {
+      "id": "plants-botany-terms",
+      "label": "一些很值得掌握的植物学词",
+      "parentId": "plants-groups",
+      "order": 44
+    },
+    {
+      "id": "animals-young",
+      "label": "动物幼崽名称",
+      "parentId": "animals-related",
+      "order": 37
+    },
+    {
+      "id": "animals-confusing-names",
+      "label": "容易混淆的动物词",
+      "parentId": "animals-related",
+      "order": 38
+    },
+    {
+      "id": "plants-flower-usage",
+      "label": "花与开花的用法",
+      "parentId": "plants-flowers",
+      "order": 38
+    },
+    {
+      "id": "plants-cactus-plurals",
+      "label": "仙人掌复数用法",
+      "parentId": "plants-groups",
+      "order": 43
+    },
+    {
+      "id": "animals-plurals",
+      "label": "复数",
+      "parentId": "animals-related",
+      "order": 39
     }
   ],
   "grammarCategories": [
@@ -1052,72 +1640,86 @@
     {
       "id": "noun",
       "label": "名词",
-      "order": 0
+      "order": 0,
+      "abbreviation": "n."
     },
     {
       "id": "verb",
       "label": "动词",
-      "order": 1
+      "order": 1,
+      "abbreviation": "v."
     },
     {
       "id": "adjective",
       "label": "形容词",
-      "order": 2
+      "order": 2,
+      "abbreviation": "adj."
     },
     {
       "id": "adverb",
       "label": "副词",
-      "order": 3
+      "order": 3,
+      "abbreviation": "adv."
     },
     {
       "id": "pronoun",
       "label": "代词",
-      "order": 4
+      "order": 4,
+      "abbreviation": "pron."
     },
     {
       "id": "preposition",
       "label": "介词",
-      "order": 5
+      "order": 5,
+      "abbreviation": "prep."
     },
     {
       "id": "conjunction",
       "label": "连词",
-      "order": 6
+      "order": 6,
+      "abbreviation": "conj."
     },
     {
       "id": "determiner",
       "label": "限定词",
-      "order": 7
+      "order": 7,
+      "abbreviation": "det."
     },
     {
       "id": "interjection",
       "label": "感叹词",
-      "order": 8
+      "order": 8,
+      "abbreviation": "interj."
     },
     {
       "id": "auxiliary",
       "label": "助动词",
-      "order": 9
+      "order": 9,
+      "abbreviation": "aux."
     },
     {
       "id": "numeral",
       "label": "数词",
-      "order": 10
+      "order": 10,
+      "abbreviation": "num."
     },
     {
       "id": "article",
       "label": "冠词",
-      "order": 11
+      "order": 11,
+      "abbreviation": "art."
     },
     {
       "id": "phrase",
       "label": "词组",
-      "order": 12
+      "order": 12,
+      "abbreviation": "phr."
     },
     {
       "id": "other",
       "label": "其他",
-      "order": 13
+      "order": 13,
+      "abbreviation": "other"
     }
   ],
   "tags": [

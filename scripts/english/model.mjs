@@ -54,6 +54,7 @@ export function sceneUrl(nodes, id) {
 }
 export const grammarLevels = topic => [...new Set(topic.layers.flatMap(layer => layer.levelIds))]
 export const labelOf = (nodes, id) => nodes.find(node => node.id === id)?.label || id
+export const partOfSpeechLabel = (nodes, id) => nodes.find(node => node.id === id)?.abbreviation || labelOf(nodes, id)
 export const detailUrl = (type, id) => type === 'expression' ? `/expressions/item/${id}` : `/${type}/${id}`
 
 function references(values, known, at, required = false) {
@@ -77,6 +78,7 @@ export function validateModel(model) {
     nodes.forEach((node, i) => {
       const at = `taxonomy.${dimension}[${i}]`
       object(node, at); slug(node.id, at + '.id'); string(node.label, at + '.label')
+      if (dimension === 'partsOfSpeech') string(node.abbreviation, at + '.abbreviation')
       if (!Number.isFinite(node.order)) fail(at, 'order 应为数字')
       if (keys[dimension].has(node.id)) fail(at, `重复 id：${node.id}`)
       keys[dimension].add(node.id)
@@ -118,6 +120,7 @@ export function validateModel(model) {
       senseIds.add(sense.id)
       references([sense.posId], keys.partsOfSpeech, at + '.posId', true)
       string(sense.zh, `${at}.senses[${i}].zh`); optionalString(sense.en, at + '.sense.en')
+      if (sense.topicIds !== undefined) references(sense.topicIds, keys.topics, at + '.sense.topicIds')
       examples(sense.examples, at + '.examples')
     })
     if (word.pronunciation !== undefined) {

@@ -48,7 +48,9 @@ function render() {
     const ipa = make('p', 'ipa', word.uk || word.us || word.reference); ipa.lang = 'en'
     const meaning = make('div', 'practice-meaning'); meaning.id = `meaning-${word.id}`; meaning.hidden = !revealed.has(word.id)
     for (const sense of word.meanings) {
-      const line = make('p'); line.append(make('span', 'part-of-speech', sense.pos), document.createTextNode(sense.zh)); meaning.append(line)
+      const line = make('p'), pos = make('abbr', 'part-of-speech', sense.pos)
+      pos.lang = 'en'; pos.title = sense.posTitle || sense.pos
+      line.append(pos, document.createTextNode(sense.zh)); meaning.append(line)
     }
     const reveal = make('button', 'reveal-button', meaning.hidden ? '显示中文释义' : '隐藏中文释义')
     reveal.type = 'button'; reveal.setAttribute('aria-expanded', String(!meaning.hidden)); reveal.setAttribute('aria-controls', meaning.id)

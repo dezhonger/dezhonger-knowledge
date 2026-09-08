@@ -45,12 +45,12 @@ export async function generateEnglish() {
   add('/', SITE.name, '从单词、语法和常用表达开始，在主题与语境中学习英语。', home())
   const vocabTopicUrl = id => `/vocabulary/topic/${id}`
   const grammarCategoryUrl = id => `/grammar/category/${id}`
-  add('/vocabulary', '单词', '按学习阶段和主题浏览单词，查看英美音标、中英文释义、例句与常见搭配。', heading('英语词汇', `从基础到进阶，${model.vocabulary.length.toLocaleString('en-US')} 个单词等你学习。`, 'VOCABULARY') + practiceBanner() + `<section class="browse-section"><h2>按学习阶段</h2>${levelCards(t.vocabularyLevels, id => `/vocabulary/level/${id}`, id => model.vocabulary.filter(word => word.levelIds.includes(id)).length)}</section><section class="browse-section"><h2>按主题探索</h2><p class="lead">从身边的事物，到更广阔的世界。</p>${taxonomyGroups(t.topics, vocabTopicUrl, id => inCategory(model.vocabulary, 'topicIds', t.topics, id).length)}</section>`, { crumbs: [['单词']], section: 'vocabulary' })
+  add('/vocabulary', '单词', '按学习阶段和主题浏览单词，查看英美音标、中英文释义、例句与常见搭配。', heading('英语词汇', `从基础到进阶，${model.vocabulary.length.toLocaleString('en-US')} 个单词等你学习。`, 'VOCABULARY') + practiceBanner() + `<section class="browse-section"><h2>按学习阶段</h2>${levelCards(t.vocabularyLevels, id => `/vocabulary/level/${id}`, id => model.vocabulary.filter(word => word.levelIds.includes(id)).length)}</section><section class="browse-section"><h2>按主题探索</h2><p class="lead">从身边的事物，到更广阔的世界。</p>${taxonomyGroups(t.topics, vocabTopicUrl, id => inCategory(model.vocabulary, 'topicIds', t.topics, id).length, 2)}</section>`, { crumbs: [['单词']], section: 'vocabulary' })
   for (const level of t.vocabularyLevels) {
     listPages({ path: `/vocabulary/level/${level.id}`, title: `${level.label}单词`, description: `适合${level.label}阶段探索的英语单词。学习标签用于内容导航，不代表官方考试词表。`, items: model.vocabulary.filter(word => word.levelIds.includes(level.id)), row: word => vocabularyRow(word, t), crumbs: [['单词', '/vocabulary'], [level.label]], section: 'vocabulary', prefix: practiceBanner(level.id), eyebrow: 'VOCABULARY' })
   }
   for (const topic of t.topics) {
-    listPages({ path: vocabTopicUrl(topic.id), title: topic.label, description: `认识与${topic.label}有关的英语单词，结合释义和例句把它们用起来。`, items: inCategory(model.vocabulary, 'topicIds', t.topics, topic.id), row: word => vocabularyRow(word, t), crumbs: categoryCrumbs(t.topics, topic.id, vocabTopicUrl, SECTIONS[0]), prefix: subcategoryLinks(t.topics, topic.id, vocabTopicUrl), section: 'vocabulary', eyebrow: 'WORDS IN CONTEXT' })
+    listPages({ path: vocabTopicUrl(topic.id), title: topic.label, description: `认识与${topic.label}有关的英语单词，结合释义和例句把它们用起来。`, items: inCategory(model.vocabulary, 'topicIds', t.topics, topic.id), row: word => vocabularyRow(word, t, topic.id), crumbs: categoryCrumbs(t.topics, topic.id, vocabTopicUrl, SECTIONS[0]), prefix: subcategoryLinks(t.topics, topic.id, vocabTopicUrl), section: 'vocabulary', eyebrow: 'WORDS IN CONTEXT' })
   }
   for (const word of model.vocabulary) {
     const topic = word.topicIds[0]
