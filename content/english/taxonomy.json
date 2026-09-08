@@ -1125,6 +1125,183 @@
       "label": "复数",
       "parentId": "animals-related",
       "order": 39
+    },
+    {
+      "id": "crime-public-safety",
+      "label": "犯罪与公共安全",
+      "parentId": "society",
+      "order": 6,
+      "aliases": [
+        "Crime & Public Safety",
+        "Crime and Public Safety",
+        "公共安全",
+        "治安"
+      ]
+    },
+    {
+      "id": "crime-public-safety-basics",
+      "label": "犯罪与安全基础",
+      "parentId": "crime-public-safety",
+      "order": 0,
+      "aliases": [
+        "General Crime"
+      ]
+    },
+    {
+      "id": "crime-public-safety-theft",
+      "label": "盗窃与财产犯罪",
+      "parentId": "crime-public-safety",
+      "order": 1,
+      "aliases": [
+        "Theft & Property Crime"
+      ]
+    },
+    {
+      "id": "crime-public-safety-fraud",
+      "label": "欺诈与经济犯罪",
+      "parentId": "crime-public-safety",
+      "order": 2,
+      "aliases": [
+        "Fraud & Financial Crime"
+      ]
+    },
+    {
+      "id": "crime-public-safety-violence",
+      "label": "暴力与人身伤害",
+      "parentId": "crime-public-safety",
+      "order": 3,
+      "aliases": [
+        "Violence & Assault"
+      ]
+    },
+    {
+      "id": "crime-public-safety-threats",
+      "label": "绑架、威胁与骚扰",
+      "parentId": "crime-public-safety",
+      "order": 4,
+      "aliases": [
+        "Threats & Harassment"
+      ]
+    },
+    {
+      "id": "crime-public-safety-intrusion",
+      "label": "非法闯入与可疑行为",
+      "parentId": "crime-public-safety",
+      "order": 5,
+      "aliases": [
+        "Trespassing & Suspicious Behavior"
+      ]
+    },
+    {
+      "id": "crime-public-safety-vandalism",
+      "label": "破坏与纵火",
+      "parentId": "crime-public-safety",
+      "order": 6,
+      "aliases": [
+        "Vandalism & Arson"
+      ]
+    },
+    {
+      "id": "crime-public-safety-public-order",
+      "label": "公共秩序",
+      "parentId": "crime-public-safety",
+      "order": 7,
+      "aliases": [
+        "Public Order"
+      ]
+    },
+    {
+      "id": "crime-public-safety-drugs",
+      "label": "毒品与违禁品",
+      "parentId": "crime-public-safety",
+      "order": 8,
+      "aliases": [
+        "Drugs & Contraband"
+      ]
+    },
+    {
+      "id": "crime-public-safety-weapons",
+      "label": "武器",
+      "parentId": "crime-public-safety",
+      "order": 9,
+      "aliases": [
+        "Weapons"
+      ]
+    },
+    {
+      "id": "crime-public-safety-policing",
+      "label": "警察与执法",
+      "parentId": "crime-public-safety",
+      "order": 10,
+      "aliases": [
+        "Police & Law Enforcement"
+      ]
+    },
+    {
+      "id": "crime-public-safety-investigation",
+      "label": "调查与证据",
+      "parentId": "crime-public-safety",
+      "order": 11,
+      "aliases": [
+        "Investigation & Evidence"
+      ]
+    },
+    {
+      "id": "crime-public-safety-justice",
+      "label": "法院与司法",
+      "parentId": "crime-public-safety",
+      "order": 12,
+      "aliases": [
+        "Courts & Justice"
+      ]
+    },
+    {
+      "id": "crime-public-safety-prison",
+      "label": "监狱与刑罚",
+      "parentId": "crime-public-safety",
+      "order": 13,
+      "aliases": [
+        "Prison & Punishment"
+      ]
+    },
+    {
+      "id": "crime-public-safety-surveillance",
+      "label": "安防监控",
+      "parentId": "crime-public-safety",
+      "order": 14,
+      "aliases": [
+        "Security & Surveillance",
+        "视频监控",
+        "安防事件",
+        "摄像头告警"
+      ]
+    },
+    {
+      "id": "crime-public-safety-emergencies",
+      "label": "事故与应急安全",
+      "parentId": "crime-public-safety",
+      "order": 15,
+      "aliases": [
+        "Emergency & Public Safety"
+      ]
+    },
+    {
+      "id": "crime-public-safety-road-safety",
+      "label": "道路安全",
+      "parentId": "crime-public-safety",
+      "order": 16,
+      "aliases": [
+        "Road Safety"
+      ]
+    },
+    {
+      "id": "crime-public-safety-cybercrime",
+      "label": "网络犯罪",
+      "parentId": "crime-public-safety",
+      "order": 17,
+      "aliases": [
+        "Cybercrime"
+      ]
     }
   ],
   "grammarCategories": [
