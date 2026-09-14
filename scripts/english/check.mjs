@@ -4,7 +4,7 @@ import { spawnSync } from 'node:child_process'
 import { root, loadContent } from './model.mjs'
 import postcss from 'postcss'
 
-const files = ['scripts/generate-english.mjs', 'scripts/validate-english.mjs', 'scripts/import-english-vocabulary.mjs', 'scripts/import-english-sports-vocabulary.mjs']
+const files = ['scripts/generate-english.mjs', 'scripts/validate-english.mjs', 'scripts/import-english-vocabulary.mjs', 'scripts/import-english-sports-vocabulary.mjs', 'scripts/import-english-topic-expansions.mjs']
 for (const directory of ['scripts/english', 'scripts/english/assets']) {
   for (const file of await readdir(resolve(root, directory))) if (/\.(mjs|js)$/.test(file)) files.push(`${directory}/${file}`)
 }

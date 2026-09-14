@@ -21,6 +21,14 @@
           "zh": "见到你我很开心。"
         }
       ]
+    },
+    {
+      "id": "topics-adjective",
+      "posId": "adjective",
+      "zh": "开心的",
+      "topicIds": [
+        "emotions"
+      ]
     }
   ],
   "levelIds": [
@@ -30,8 +38,8 @@
     "senior"
   ],
   "topicIds": [
-    "emotions",
-    "children"
+    "children",
+    "emotions"
   ],
   "tagIds": [
     "feelings"

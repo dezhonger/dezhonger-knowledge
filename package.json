@@ -39,6 +39,7 @@
     "preview:english": "node scripts/english/preview.mjs",
     "import:english": "node scripts/import-english-vocabulary.mjs",
     "import:english:sports": "node scripts/import-english-sports-vocabulary.mjs",
+    "import:english:topics": "node scripts/import-english-topic-expansions.mjs",
     "pretest:english": "node scripts/generate-english.mjs"
   },
   "devDependencies": {

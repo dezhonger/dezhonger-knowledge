@@ -5,7 +5,7 @@
 ## 内容格式
 
 - `taxonomy.json`：阶段、主题、语法分类、表达场景、词性、标签与难度的集中定义。
-- `vocabulary/*.jsonl`：一行一个完整 JSON 词条，公开词表按字母分片；`food.jsonl`、`nature.jsonl`、`public-safety.jsonl` 和 `sports.jsonl` 分别收录食物、自然、犯罪与公共安全、体育主题新增词。
+- `vocabulary/*.jsonl`：一行一个完整 JSON 词条，公开词表按字母分片；`food.jsonl`、`nature.jsonl`、`public-safety.jsonl`、`sports.jsonl` 和 `topic-expansions.jsonl` 分别收录食物、自然、犯罪与公共安全、体育及基础主题新增词。
 - `vocabulary/<slug>.json`：精编词条，一词一文件。它们与 JSONL 分片互斥，不重复保存同一个词。
 - `grammar/<slug>/index.md`：语法主题元数据与公共正文；同目录其他 Markdown 是不同学习深度。
 - `expressions/<slug>.json`：一表达一份，中英文本、场景和相关表达通过 ID 关联。
@@ -39,7 +39,7 @@
 | IELTS | ECDICT ielts | 5,040 | 5,042 |
 | TOEFL | ECDICT toefl | 6,974 | 6,975 |
 
-总共 13,626 个去重词条。所有指定源词表均完整纳入。“完整”指覆盖这些固定版本的公开词表，不表示所有地区、教材或考试存在一个官方唯一词汇大纲。
+总共 13,827 个去重词条。所有指定源词表均完整纳入。“完整”指覆盖这些固定版本的公开词表，不表示所有地区、教材或考试存在一个官方唯一词汇大纲。
 
 释义来源为 MIT 许可的 ECDICT；词表和音标分别来自 MIT 许可的 Words with Toddlers 与 IPA Dict。独立精编条目及高频功能词做了补充与纠正。源词典仍可能有多义、专业义或陈旧释义，不能声称全部经过逐词人工教学审校。
 
@@ -70,6 +70,12 @@
 2026-09-14 根据两份本地问答清单，将“体育”调整为一级主题，新增“羽毛球”和“篮球”两个二级入口。羽毛球收录 308 个去重术语，篮球收录 698 个；其中 18 个词条在两类运动中共用。本次新增 814 个词条，并为 174 个已有词条补充体育语境。详见 [sports-vocabulary-notes.md](sports-vocabulary-notes.md)。
 
 首页仍只展开两层分类，因此“体育”卡片仅显示羽毛球和篮球；技术动作、场地界线、比赛规则、统计与解说等更深分组在对应运动页内继续浏览。两份清单可通过 `scripts/import-english-sports-vocabulary.mjs` 重复导入，脚本会合并已有词条并校验源行覆盖。
+
+## 基础主题补充
+
+2026-09-15 根据四份本地问答清单补充既有主题，不新增首页层级：社会下的医疗、金融、法律、政府、艺术；自然下的天气、地理、宇宙；人与生活下的家庭、儿童、身体、情绪、职业、学校；生活下的厨房、家居、卫浴。本次覆盖 821 条词汇行，拆分同义表达后得到 839 个来源项；新增 201 个词条，并为 608 个已有词条补充主题语境，全站增至 13,827 条。详细范围和来源哈希见 [topic-expansion-vocabulary-notes.md](topic-expansion-vocabulary-notes.md)。
+
+同一拼写继续只保留一个词条，并按当前主题选择释义。例如 cold 在医疗页显示“感冒”、在天气页显示“寒冷的”；sink 在厨房页显示“水槽”、在卫浴页显示“洗手池”。四份清单可通过 `scripts/import-english-topic-expansions.mjs` 幂等导入。
 
 ## 重新导入
 

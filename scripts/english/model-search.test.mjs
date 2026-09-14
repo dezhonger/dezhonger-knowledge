@@ -121,6 +121,35 @@ test('sports vocabulary is deduplicated across badminton, basketball and the bas
   assert.ok(pf[0].senses.some(sense => sense.zh === '大前锋'))
   assert.ok(pf[0].senses.some(sense => sense.zh === '个人犯规'))
 })
+test('four topic expansion sources fill existing categories and preserve contextual meanings', () => {
+  const topics = model.taxonomy.topics
+  const counts = {
+    healthcare: 36, finance: 36, law: 35, government: 35, art: 36,
+    weather: 64, geography: 79, space: 70,
+    family: 42, children: 45, body: 46, emotions: 41, jobs: 44, school: 69,
+    kitchen: 43, home: 84, bathroom: 31,
+  }
+  for (const [topic, expected] of Object.entries(counts)) {
+    assert.equal(inCategory(model.vocabulary, 'topicIds', topics, topic).length, expected, topic)
+  }
+  for (const [query, id] of [
+    ['血压', 'blood-pressure'], ['原告', 'plaintiff'], ['杰作', 'masterpiece'],
+    ['气象学家', 'meteorologist'], ['群岛', 'archipelago'], ['天文学家', 'astronomer'],
+    ['奶嘴', 'pacifier'], ['睫毛', 'eyelash'], ['软件工程师', 'software-engineer'],
+    ['书包', 'schoolbag'], ['电磁炉', 'induction-cooker'], ['床头柜', 'nightstand'], ['花洒', 'showerhead'],
+  ]) assert.ok(searchDocuments(prepared, query).some(item => item.id === `vocabulary:${id}`), query)
+
+  for (const [id, topic, expected] of [
+    ['cold', 'healthcare', '感冒'], ['cold', 'weather', '寒冷的'],
+    ['sink', 'kitchen', '水槽'], ['sink', 'bathroom', '洗手池'],
+    ['teacher', 'jobs', '教师'], ['teacher', 'school', '老师'],
+  ]) {
+    const words = model.vocabulary.filter(word => word.id === id)
+    assert.equal(words.length, 1)
+    const $ = load(vocabularyRow(words[0], model.taxonomy, topic))
+    assert.ok($('.word-row-main p').text().includes(expected), `${id} / ${topic}`)
+  }
+})
 test('topic lists select the relevant sense without duplicating shared words', () => {
   for (const [id, topic, expected] of [['kiwi', 'animals', '几维鸟'], ['kiwi', 'fruit', '猕猴桃'], ['plantain', 'plants', '车前草'], ['plantain', 'fruit', '烹饪蕉'], ['bark', 'plants', '树皮'], ['bark', 'animals', '狗叫']]) {
     const words = model.vocabulary.filter(w => w.id === id)

@@ -20,6 +20,9 @@
           "en": "Dad is making soup in the kitchen.",
           "zh": "爸爸正在厨房里做汤。"
         }
+      ],
+      "topicIds": [
+        "kitchen"
       ]
     }
   ],
@@ -31,8 +34,8 @@
     "toefl"
   ],
   "topicIds": [
-    "kitchen",
-    "home"
+    "home",
+    "kitchen"
   ],
   "tagIds": [
     "high-frequency"

@@ -20,6 +20,9 @@
           "en": "Put the milk back in the refrigerator.",
           "zh": "把牛奶放回冰箱里。"
         }
+      ],
+      "topicIds": [
+        "kitchen"
       ]
     }
   ],
@@ -31,8 +34,8 @@
     "toefl"
   ],
   "topicIds": [
-    "kitchen",
-    "home"
+    "home",
+    "kitchen"
   ],
   "tagIds": [],
   "synonyms": [
