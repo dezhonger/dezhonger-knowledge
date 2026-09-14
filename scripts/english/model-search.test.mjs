@@ -91,8 +91,35 @@ test('vocabulary overview stops at two levels below group headings; detail categ
   assert.equal($('a[href="/vocabulary/topic/vegetables"]').length, 1)
   assert.equal($('a[href="/vocabulary/topic/fruit-citrus"]').length, 0)
   assert.equal($('a[href="/vocabulary/topic/animals-cats"]').length, 0)
+  assert.equal($('a[href="/vocabulary/topic/sports"]').length, 1)
+  assert.equal($('a[href="/vocabulary/topic/badminton"]').length, 1)
+  assert.equal($('a[href="/vocabulary/topic/basketball"]').length, 1)
+  assert.equal($('a[href="/vocabulary/topic/badminton-strokes"]').length, 0)
   assert.equal($('.taxonomy-group > ul > li > ul > li > ul').length, 0)
+  assert.equal($('[data-taxonomy-grid]').length, 1)
+  assert.equal($('[data-taxonomy-card]').length, topics.filter(node => !node.parentId).length)
   assert.ok(inCategory(model.vocabulary, 'topicIds', topics, 'animals-cats').some(w => w.id === 'ocelot'))
+})
+test('sports vocabulary is deduplicated across badminton, basketball and the base dictionary', () => {
+  const topics = model.taxonomy.topics
+  const sports = topics.find(node => node.id === 'sports')
+  assert.equal(sports.parentId, undefined)
+  assert.deepEqual(ancestry(topics, 'badminton-strokes').map(node => node.id), ['sports', 'badminton', 'badminton-strokes'])
+  assert.deepEqual(ancestry(topics, 'basketball-statistics').map(node => node.id), ['sports', 'basketball', 'basketball-statistics'])
+  const badminton = inCategory(model.vocabulary, 'topicIds', topics, 'badminton')
+  const basketball = inCategory(model.vocabulary, 'topicIds', topics, 'basketball')
+  assert.equal(badminton.length, 308)
+  assert.equal(basketball.length, 698)
+  for (const [query, id] of [['单打边线', 'singles-sideline'], ['羽毛球落在线上', 'the-shuttle-lands-on-the-line'], ['背后运球', 'behind-the-back-dribble'], ['真实命中率', 'true-shooting-percentage']]) {
+    assert.ok(searchDocuments(prepared, query).some(item => item.id === `vocabulary:${id}`), query)
+  }
+  const sideline = model.vocabulary.filter(word => word.id === 'sideline')
+  assert.equal(sideline.length, 1)
+  assert.ok(badminton.includes(sideline[0]) && basketball.includes(sideline[0]))
+  const pf = model.vocabulary.filter(word => word.id === 'pf')
+  assert.equal(pf.length, 1)
+  assert.ok(pf[0].senses.some(sense => sense.zh === '大前锋'))
+  assert.ok(pf[0].senses.some(sense => sense.zh === '个人犯规'))
 })
 test('topic lists select the relevant sense without duplicating shared words', () => {
   for (const [id, topic, expected] of [['kiwi', 'animals', '几维鸟'], ['kiwi', 'fruit', '猕猴桃'], ['plantain', 'plants', '车前草'], ['plantain', 'fruit', '烹饪蕉'], ['bark', 'plants', '树皮'], ['bark', 'animals', '狗叫']]) {

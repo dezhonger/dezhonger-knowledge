@@ -38,6 +38,7 @@
     "dev:english": "npm run generate:english && node scripts/english/preview.mjs",
     "preview:english": "node scripts/english/preview.mjs",
     "import:english": "node scripts/import-english-vocabulary.mjs",
+    "import:english:sports": "node scripts/import-english-sports-vocabulary.mjs",
     "pretest:english": "node scripts/generate-english.mjs"
   },
   "devDependencies": {

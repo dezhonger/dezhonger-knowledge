@@ -1,5 +1,35 @@
 import { createSpeechPlayer } from './speech.js'
 
+const taxonomyGrids = [...document.querySelectorAll('[data-taxonomy-grid]')]
+if (taxonomyGrids.length) {
+  const masonryMedia = window.matchMedia('(min-width: 461px)')
+  let layoutFrame
+  const layoutTaxonomy = () => {
+    cancelAnimationFrame(layoutFrame)
+    layoutFrame = requestAnimationFrame(() => {
+      for (const grid of taxonomyGrids) {
+        const cards = [...grid.querySelectorAll(':scope > [data-taxonomy-card]')]
+        grid.removeAttribute('data-masonry')
+        cards.forEach(card => { card.style.gridRowEnd = '' })
+        if (!masonryMedia.matches) continue
+
+        const heights = cards.map(card => card.getBoundingClientRect().height)
+        grid.dataset.masonry = ''
+        const styles = getComputedStyle(grid)
+        const rowHeight = Number.parseFloat(styles.gridAutoRows)
+        const rowGap = Number.parseFloat(styles.rowGap)
+        cards.forEach((card, index) => {
+          card.style.gridRowEnd = `span ${Math.ceil((heights[index] + rowGap) / (rowHeight + rowGap))}`
+        })
+      }
+    })
+  }
+  layoutTaxonomy()
+  masonryMedia.addEventListener('change', layoutTaxonomy)
+  window.addEventListener('resize', layoutTaxonomy, { passive: true })
+  document.fonts?.ready.then(layoutTaxonomy)
+}
+
 const toggle = document.querySelector('.menu-toggle')
 const menu = document.querySelector('#mobile-nav')
 if (toggle && menu) {

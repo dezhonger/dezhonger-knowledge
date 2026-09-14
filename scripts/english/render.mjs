@@ -142,10 +142,10 @@ ${item.usage ? `<section class="detail-section"><h2>什么时候用</h2><p>${e(i
 }
 export function taxonomyGroups(nodes, url, count, maxDepth = Infinity) {
   const tree = (parent, depth = 1) => ordered(nodes.filter(node => node.parentId === parent)).map(node => {
-    const children = depth < maxDepth && nodes.some(child => child.parentId === node.id)
+    const children = node.expandOnOverview !== false && depth < maxDepth && nodes.some(child => child.parentId === node.id)
     return `<li>${link(url(node.id), node.label)}<span class="taxonomy-count">${count(node.id)}</span>${children ? `<ul>${tree(node.id, depth + 1)}</ul>` : ''}</li>`
   }).join('')
-  return `<div class="taxonomy-grid${Number.isFinite(maxDepth) ? ' taxonomy-grid--compact' : ''}">${ordered(nodes.filter(node => !node.parentId)).map(node => `<section class="taxonomy-group"><h3>${link(url(node.id), node.label)}<span>${count(node.id)}</span></h3><ul>${tree(node.id)}</ul></section>`).join('')}</div>`
+  return `<div class="taxonomy-grid${Number.isFinite(maxDepth) ? ' taxonomy-grid--compact' : ''}" data-taxonomy-grid>${ordered(nodes.filter(node => !node.parentId)).map(node => `<section class="taxonomy-group" data-taxonomy-card><h3>${link(url(node.id), node.label)}<span>${count(node.id)}</span></h3><ul>${tree(node.id)}</ul></section>`).join('')}</div>`
 }
 export function levelCards(nodes, url, count) {
   return `<div class="level-grid">${ordered(nodes).map(node => `<a class="level-card" data-tone="${e(node.color || 'blue')}" href="${url(node.id)}"><div class="level-cover"><span class="level-code">${e(node.code || node.label)}</span><svg viewBox="0 0 180 90" aria-hidden="true"><path d="M10 83c32-20 52 6 80-12s28-28 27-58m-3 41c-22 4-32-9-29-17 15-5 26 7 29 17Zm4-13c24-1 31-15 23-20-14 0-22 10-23 20Z" fill="none" stroke="currentColor" stroke-width="2" opacity=".4"/></svg><small>ENGLISH VOCABULARY</small></div><div class="level-card-body"><strong>${e(node.label)}</strong><p>${e(node.description || '分层学习，逐步掌握')}</p><span>${count(node.id).toLocaleString('en-US')} ${node.code ? '个单词' : '篇内容'} ${icon('arrow', 16)}</span></div></a>`).join('')}</div>`

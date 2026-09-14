@@ -33,6 +33,14 @@
           "zh": "谢谢你的帮助。"
         }
       ]
+    },
+    {
+      "id": "sports-noun",
+      "posId": "noun",
+      "zh": "补防",
+      "topicIds": [
+        "basketball-defense"
+      ]
     }
   ],
   "levelIds": [
@@ -42,6 +50,7 @@
     "senior"
   ],
   "topicIds": [
+    "basketball-defense",
     "family",
     "school"
   ],

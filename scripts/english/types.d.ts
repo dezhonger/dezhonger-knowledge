@@ -8,6 +8,7 @@ export interface Taxon {
   code?: string
   color?: string
   abbreviation?: string
+  expandOnOverview?: boolean
 }
 export interface Taxonomy {
   vocabularyLevels: Taxon[]

@@ -283,7 +283,9 @@
       "id": "sports",
       "label": "体育",
       "order": 5,
-      "parentId": "society"
+      "aliases": [
+        "Sports"
+      ]
     },
     {
       "id": "fruit",
@@ -1301,6 +1303,341 @@
       "order": 17,
       "aliases": [
         "Cybercrime"
+      ]
+    },
+    {
+      "id": "badminton",
+      "label": "羽毛球",
+      "parentId": "sports",
+      "order": 0,
+      "aliases": [
+        "Badminton"
+      ],
+      "expandOnOverview": false
+    },
+    {
+      "id": "badminton-equipment-court",
+      "label": "器材与场地",
+      "parentId": "badminton",
+      "order": 0,
+      "aliases": [
+        "Equipment & Court"
+      ]
+    },
+    {
+      "id": "badminton-match-basics",
+      "label": "比赛基础",
+      "parentId": "badminton",
+      "order": 1,
+      "aliases": [
+        "Match Basics"
+      ]
+    },
+    {
+      "id": "badminton-strokes",
+      "label": "基本击球",
+      "parentId": "badminton",
+      "order": 2,
+      "aliases": [
+        "Strokes"
+      ]
+    },
+    {
+      "id": "badminton-smashing",
+      "label": "杀球",
+      "parentId": "badminton",
+      "order": 3,
+      "aliases": [
+        "Smashing"
+      ]
+    },
+    {
+      "id": "badminton-drops-slices",
+      "label": "吊球与切球",
+      "parentId": "badminton",
+      "order": 4,
+      "aliases": [
+        "Drops & Slices"
+      ]
+    },
+    {
+      "id": "badminton-net-play",
+      "label": "网前技术",
+      "parentId": "badminton",
+      "order": 5,
+      "aliases": [
+        "Net Play"
+      ]
+    },
+    {
+      "id": "badminton-serve-return",
+      "label": "发球与接发",
+      "parentId": "badminton",
+      "order": 6,
+      "aliases": [
+        "Serve & Return"
+      ]
+    },
+    {
+      "id": "badminton-directions-lines",
+      "label": "方向与界线",
+      "parentId": "badminton",
+      "order": 7,
+      "aliases": [
+        "Directions & Lines"
+      ]
+    },
+    {
+      "id": "badminton-footwork",
+      "label": "步法",
+      "parentId": "badminton",
+      "order": 8,
+      "aliases": [
+        "Footwork"
+      ]
+    },
+    {
+      "id": "badminton-doubles",
+      "label": "双打站位与轮转",
+      "parentId": "badminton",
+      "order": 9,
+      "aliases": [
+        "Doubles Formation"
+      ]
+    },
+    {
+      "id": "badminton-attack-defense",
+      "label": "进攻与防守",
+      "parentId": "badminton",
+      "order": 10,
+      "aliases": [
+        "Attack & Defense"
+      ]
+    },
+    {
+      "id": "badminton-shot-quality",
+      "label": "击球质量",
+      "parentId": "badminton",
+      "order": 11,
+      "aliases": [
+        "Shot Quality"
+      ]
+    },
+    {
+      "id": "badminton-tactics",
+      "label": "技战术",
+      "parentId": "badminton",
+      "order": 12,
+      "aliases": [
+        "Tactics"
+      ]
+    },
+    {
+      "id": "badminton-faults",
+      "label": "失误与违例",
+      "parentId": "badminton",
+      "order": 13,
+      "aliases": [
+        "Errors & Faults"
+      ]
+    },
+    {
+      "id": "badminton-officials",
+      "label": "裁判与鹰眼",
+      "parentId": "badminton",
+      "order": 14,
+      "aliases": [
+        "Officials & Reviews"
+      ]
+    },
+    {
+      "id": "badminton-tournament",
+      "label": "比赛阶段与签表",
+      "parentId": "badminton",
+      "order": 15,
+      "aliases": [
+        "Tournament Stages & Draws"
+      ]
+    },
+    {
+      "id": "badminton-rankings-events",
+      "label": "排名与赛事",
+      "parentId": "badminton",
+      "order": 16,
+      "aliases": [
+        "Rankings & Events"
+      ]
+    },
+    {
+      "id": "badminton-statistics",
+      "label": "数据统计",
+      "parentId": "badminton",
+      "order": 17,
+      "aliases": [
+        "Statistics"
+      ]
+    },
+    {
+      "id": "badminton-commentary",
+      "label": "解说高频词",
+      "parentId": "badminton",
+      "order": 18,
+      "aliases": [
+        "Commentary Essentials"
+      ]
+    },
+    {
+      "id": "basketball",
+      "label": "篮球",
+      "parentId": "sports",
+      "order": 1,
+      "aliases": [
+        "Basketball"
+      ],
+      "expandOnOverview": false
+    },
+    {
+      "id": "basketball-court",
+      "label": "场地与界线",
+      "parentId": "basketball",
+      "order": 0,
+      "aliases": [
+        "Court & Lines"
+      ]
+    },
+    {
+      "id": "basketball-roles",
+      "label": "球员位置",
+      "parentId": "basketball",
+      "order": 1,
+      "aliases": [
+        "Player Roles"
+      ]
+    },
+    {
+      "id": "basketball-ball-handling",
+      "label": "持球与运球",
+      "parentId": "basketball",
+      "order": 2,
+      "aliases": [
+        "Ball Handling"
+      ]
+    },
+    {
+      "id": "basketball-passing",
+      "label": "传球",
+      "parentId": "basketball",
+      "order": 3,
+      "aliases": [
+        "Passing"
+      ]
+    },
+    {
+      "id": "basketball-shooting",
+      "label": "投篮与终结",
+      "parentId": "basketball",
+      "order": 4,
+      "aliases": [
+        "Shooting & Finishing"
+      ]
+    },
+    {
+      "id": "basketball-rebounds",
+      "label": "篮板球",
+      "parentId": "basketball",
+      "order": 5,
+      "aliases": [
+        "Rebounding"
+      ]
+    },
+    {
+      "id": "basketball-offense",
+      "label": "进攻",
+      "parentId": "basketball",
+      "order": 6,
+      "aliases": [
+        "Offense"
+      ]
+    },
+    {
+      "id": "basketball-pick-roll",
+      "label": "挡拆",
+      "parentId": "basketball",
+      "order": 7,
+      "aliases": [
+        "Pick-and-Roll"
+      ]
+    },
+    {
+      "id": "basketball-off-ball",
+      "label": "无球跑位",
+      "parentId": "basketball",
+      "order": 8,
+      "aliases": [
+        "Off-Ball Movement"
+      ]
+    },
+    {
+      "id": "basketball-defense",
+      "label": "防守",
+      "parentId": "basketball",
+      "order": 9,
+      "aliases": [
+        "Defense"
+      ]
+    },
+    {
+      "id": "basketball-tactics",
+      "label": "战术与快攻",
+      "parentId": "basketball",
+      "order": 10,
+      "aliases": [
+        "Tactics & Transition"
+      ]
+    },
+    {
+      "id": "basketball-rules",
+      "label": "犯规、违例与比赛规则",
+      "parentId": "basketball",
+      "order": 11,
+      "aliases": [
+        "Rules & Violations"
+      ]
+    },
+    {
+      "id": "basketball-statistics",
+      "label": "技术统计",
+      "parentId": "basketball",
+      "order": 12,
+      "aliases": [
+        "Statistics"
+      ]
+    },
+    {
+      "id": "basketball-commentary",
+      "label": "比赛局面与解说",
+      "parentId": "basketball",
+      "order": 13,
+      "aliases": [
+        "Game Commentary"
+      ]
+    },
+    {
+      "id": "basketball-players-teams",
+      "label": "球员、教练与阵容",
+      "parentId": "basketball",
+      "order": 14,
+      "aliases": [
+        "Players, Coaches & Lineups"
+      ]
+    },
+    {
+      "id": "basketball-season-business",
+      "label": "赛季、选秀与交易",
+      "parentId": "basketball",
+      "order": 15,
+      "aliases": [
+        "Season, Draft & Trades"
       ]
     }
   ],
