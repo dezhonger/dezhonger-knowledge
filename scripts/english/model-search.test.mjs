@@ -6,6 +6,7 @@ import { prepareDocuments, searchDocuments, searchInChunks, resultPage } from '.
 import { wordDetail, vocabularyRow, taxonomyGroups, pagination } from './render.mjs'
 import { practiceData, legacyVocabularyData } from './practice-data.mjs'
 import { load } from 'cheerio'
+import { readFile } from 'node:fs/promises'
 
 const model = await loadContent()
 const prepared = prepareDocuments(searchIndex(model))
@@ -46,10 +47,47 @@ test('grammar levels are derived from layers and cross-scene expressions stay on
   assert.equal(docs.length, 1)
   assert.equal(docs[0].labels.length, 2)
 })
+test('senior grammar fully maps the curriculum and every learning unit is teachable', () => {
+  const seniorTopics = model.grammar.filter(topic => grammarLevels(topic).includes('senior'))
+  const seniorLayers = seniorTopics.flatMap(topic => topic.layers.filter(layer => layer.levelIds.includes('senior')))
+  assert.equal(seniorTopics.length, 45)
+  assert.equal(seniorLayers.length, 51)
+  assert.equal(model.grammarCurriculum.items.length, 74)
+  assert.deepEqual(Object.fromEntries(model.taxonomy.grammarCurriculumStages.map(stage => [stage.id, model.grammarCurriculum.items.filter(item => item.stageId === stage.id).length])), {
+    foundation: 46, required: 8, 'selective-required': 16, elective: 4,
+  })
+  const leaves = model.taxonomy.grammarCategories.filter(category => !model.taxonomy.grammarCategories.some(other => other.parentId === category.id))
+  assert.equal(leaves.length, 45)
+  for (const category of leaves) assert.ok(model.grammar.some(topic => topic.categoryIds.includes(category.id)), category.id)
+  for (const topic of seniorTopics) {
+    for (const heading of ['## 核心规则', '## 结构与例句', '## 使用场景', '## 常见错误', '## 易混知识点', '## 总结']) assert.ok(topic.coreMarkdown.includes(heading), `${topic.id}: ${heading}`)
+    const body = `${topic.coreMarkdown} ${topic.layers.filter(layer => layer.levelIds.includes('senior')).map(layer => layer.markdown).join(' ')}`
+    assert.ok(body.length >= 800, `${topic.id}: content too short`)
+    for (const layer of topic.layers.filter(layer => layer.levelIds.includes('senior'))) {
+      assert.ok(layer.markdown.includes('### 小练习'), `${topic.id}/${layer.id}: exercises`)
+      assert.ok(layer.markdown.includes('### 参考答案'), `${topic.id}/${layer.id}: answers`)
+    }
+  }
+  const clone = structuredClone(model)
+  clone.grammarCurriculum.items[0].stageId = 'elective'
+  assert.throws(() => validateModel(clone), /阶段与内容层阶段不一致/)
+})
+test('generated senior grammar page groups all units into four curriculum stages', async () => {
+  const html = await readFile(new URL('../../sites/english/grammar/level/senior.html', import.meta.url), 'utf8')
+  const $ = load(html)
+  assert.equal($('.curriculum-section').length, 4)
+  assert.deepEqual($('.curriculum-section').map((_, element) => $(element).attr('id')).get(), ['stage-foundation', 'stage-required', 'stage-selective-required', 'stage-elective'])
+  assert.equal($('.curriculum-section .content-row').length, 51)
+  assert.equal($('a[href="/grammar/non-finite-overview#depth-senior-required"]').length, 2)
+  assert.equal($('a[href="/grammar/subjunctive#depth-senior-elective"]').length, 2)
+})
 test('search handles Chinese, aliases, English case and ranking across content types', () => {
   assert.equal(searchDocuments(prepared, 'ＡＰＰＬＥ')[0].id, 'vocabulary:apple')
   assert.ok(searchDocuments(prepared, '苹果').some(item => item.id === 'vocabulary:apple'))
   assert.equal(searchDocuments(prepared, '现在完成时')[0].id, 'grammar:present-perfect')
+  assert.equal(searchDocuments(prepared, '非谓语动词')[0].id, 'grammar:non-finite-overview')
+  assert.equal(searchDocuments(prepared, '虚拟语气')[0].id, 'grammar:subjunctive')
+  assert.ok(searchDocuments(prepared, '选择性必修').some(item => item.id === 'grammar:future-continuous'))
   assert.ok(searchDocuments(prepared, '开会', 'expression').some(item => item.id === 'expression:get-started'))
   assert.ok(searchDocuments(prepared, 'give me a hand').some(item => item.id === 'expression:could-you-give-me-a-hand'))
   assert.ok(searchDocuments(prepared, '水果 苹果').some(item => item.id === 'vocabulary:apple'))

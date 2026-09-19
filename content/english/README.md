@@ -8,6 +8,8 @@
 - `vocabulary/*.jsonl`：一行一个完整 JSON 词条，公开词表按字母分片；`food.jsonl`、`nature.jsonl`、`public-safety.jsonl`、`sports.jsonl` 和 `topic-expansions.jsonl` 分别收录食物、自然、犯罪与公共安全、体育及基础主题新增词。
 - `vocabulary/<slug>.json`：精编词条，一词一文件。它们与 JSONL 分片互斥，不重复保存同一个词。
 - `grammar/<slug>/index.md`：语法主题元数据与公共正文；同目录其他 Markdown 是不同学习深度。
+- `grammar-curriculum-map.json`：高中课标语法项目到站内主题、内容层和学习阶段的覆盖映射。
+- `grammar-sources.json`：高中语法范围核对、术语参考及许可说明来源；正文保持原创表达。
 - `expressions/<slug>.json`：一表达一份，中英文本、场景和相关表达通过 ID 关联。
 - `sources.json`：外部数据源的固定 revision、文件名与 SHA-256。
 - `vocabulary-report.json`：此次完整词表导入的覆盖数量及口音缺项清单。
@@ -23,6 +25,10 @@
 `senses` 按词性组织，中文必填，英文与例句可选。无内容的可选字段直接省略，不使用空字符串或虚构例句。`pronunciation.uk/us.ipa` 是对应口音，`variants` 保存其他读音；`reference` 仅在无法确认口音时保存通用参考音标。缺失英美音标不能互相复制凑齐。两种口音的发音按钮仍可使用设备语音。
 
 主题树用 parentId 支持任意层级。查询父分类自动包含后代并去重；不必在每个词中重复填写所有祖先。表达的 sceneIds 可跨亲子、工作、日常。语法主题阶段从深度层 levelIds 汇总，主题只拥有一个详情 URL。
+
+高中语法按“基础巩固、高中必修新增、选择性必修、提高类”四个 `grammarCurriculumStages` 组织。每个高中内容层必须设置 `curriculumStageId`，并由 `grammar-curriculum-map.json` 映射课程项目。当前高中范围含 45 个主题、74 个课标项目和 51 个高中内容层；小学、初中与进阶原有内容继续保留，本轮不扩写。
+
+每个语法主题的 `index.md` 至少包含核心规则、结构与例句、使用场景、常见错误、易混知识点和总结；每个高中内容层至少包含小练习与参考答案。正文采用原创中文讲解和自编例句，不直接搬运公开网站正文。课程范围以教育部普通高中英语课程标准为基线，公开语法站只用于事实和术语交叉核对，具体来源统一展示在 `/sources`。
 
 批量新增内容后同步更新导入报告的数量统计，再运行测试。报告中 sourceCount/sourceIncluded 表示固定来源的覆盖情况，不要把自行新增词混入这两项。
 

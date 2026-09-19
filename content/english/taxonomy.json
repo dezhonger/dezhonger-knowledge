@@ -87,6 +87,36 @@
       "order": 3
     }
   ],
+  "grammarCurriculumStages": [
+    {
+      "id": "foundation",
+      "label": "基础巩固",
+      "order": 0,
+      "code": "FOUNDATION",
+      "description": "义务教育阶段已经接触，高中必修需要在更丰富语境中熟练掌握。"
+    },
+    {
+      "id": "required",
+      "label": "高中必修新增",
+      "order": 1,
+      "code": "REQUIRED",
+      "description": "普通高中必修课程要求新学习和掌握的语法项目。"
+    },
+    {
+      "id": "selective-required",
+      "label": "选择性必修",
+      "order": 2,
+      "code": "SELECTIVE REQUIRED",
+      "description": "选择性必修课程要求理解并能在语篇中恰当使用的语法项目。"
+    },
+    {
+      "id": "elective",
+      "label": "提高类",
+      "order": 3,
+      "code": "ELECTIVE",
+      "description": "提高类课程用于更精确表达和修辞效果的语法项目。"
+    }
+  ],
   "topics": [
     {
       "id": "living",
@@ -1660,121 +1690,221 @@
       "parentId": "word-classes"
     },
     {
-      "id": "verbs",
-      "label": "动词",
+      "id": "articles-and-determiners",
+      "label": "冠词与限定词",
       "order": 2,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "numerals",
+      "label": "数词",
+      "order": 3,
       "parentId": "word-classes"
     },
     {
       "id": "adjectives",
       "label": "形容词",
-      "order": 3,
+      "order": 4,
       "parentId": "word-classes"
     },
     {
       "id": "adverbs",
       "label": "副词",
-      "order": 4,
+      "order": 5,
       "parentId": "word-classes"
     },
     {
       "id": "prepositions",
       "label": "介词",
-      "order": 5,
+      "order": 6,
       "parentId": "word-classes"
     },
     {
       "id": "conjunctions",
       "label": "连词",
-      "order": 6,
+      "order": 7,
       "parentId": "word-classes"
     },
     {
-      "id": "tenses",
-      "label": "时态",
+      "id": "interjections",
+      "label": "感叹词",
+      "order": 8,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "verb-types",
+      "label": "动词类型",
+      "order": 9,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "modals",
+      "label": "情态动词",
+      "order": 10,
+      "parentId": "word-classes"
+    },
+    {
+      "id": "word-formation",
+      "label": "构词法",
       "order": 1
+    },
+    {
+      "id": "sentence-structure",
+      "label": "句子骨架",
+      "order": 2
+    },
+    {
+      "id": "sentence-types",
+      "label": "句子种类",
+      "order": 0,
+      "parentId": "sentence-structure"
+    },
+    {
+      "id": "phrases",
+      "label": "短语结构",
+      "order": 1,
+      "parentId": "sentence-structure"
+    },
+    {
+      "id": "sentence-elements",
+      "label": "句子成分",
+      "order": 2,
+      "parentId": "sentence-structure"
+    },
+    {
+      "id": "basic-sentence-patterns",
+      "label": "基本句型",
+      "order": 3,
+      "parentId": "sentence-structure"
+    },
+    {
+      "id": "there-be",
+      "label": "存现句",
+      "order": 4,
+      "parentId": "sentence-structure"
+    },
+    {
+      "id": "subject-verb-agreement",
+      "label": "主谓一致",
+      "order": 5,
+      "parentId": "sentence-structure"
+    },
+    {
+      "id": "compound-sentences",
+      "label": "并列复合句",
+      "order": 6,
+      "parentId": "sentence-structure"
+    },
+    {
+      "id": "tenses-and-voice",
+      "label": "时态、体与语态",
+      "order": 3
     },
     {
       "id": "present-simple",
       "label": "一般现在时",
       "order": 0,
-      "parentId": "tenses"
+      "parentId": "tenses-and-voice"
     },
     {
       "id": "past-simple",
       "label": "一般过去时",
       "order": 1,
-      "parentId": "tenses"
+      "parentId": "tenses-and-voice"
     },
     {
       "id": "future-simple",
       "label": "一般将来时",
       "order": 2,
-      "parentId": "tenses"
+      "parentId": "tenses-and-voice"
     },
     {
       "id": "present-continuous",
       "label": "现在进行时",
       "order": 3,
-      "parentId": "tenses"
+      "parentId": "tenses-and-voice"
     },
     {
       "id": "past-continuous",
       "label": "过去进行时",
       "order": 4,
-      "parentId": "tenses"
+      "parentId": "tenses-and-voice"
     },
     {
       "id": "present-perfect",
       "label": "现在完成时",
       "order": 5,
-      "parentId": "tenses"
+      "parentId": "tenses-and-voice"
+    },
+    {
+      "id": "past-future",
+      "label": "过去将来时",
+      "order": 6,
+      "parentId": "tenses-and-voice"
+    },
+    {
+      "id": "future-continuous",
+      "label": "将来进行时",
+      "order": 7,
+      "parentId": "tenses-and-voice"
     },
     {
       "id": "past-perfect",
       "label": "过去完成时",
-      "order": 6,
-      "parentId": "tenses"
+      "order": 8,
+      "parentId": "tenses-and-voice"
     },
     {
-      "id": "other-tenses",
-      "label": "其他时态",
-      "order": 7,
-      "parentId": "tenses"
+      "id": "present-perfect-continuous",
+      "label": "现在完成进行时",
+      "order": 9,
+      "parentId": "tenses-and-voice"
     },
     {
-      "id": "sentences",
-      "label": "句子",
-      "order": 2
+      "id": "tense-system",
+      "label": "时态对比与语篇时间线",
+      "order": 10,
+      "parentId": "tenses-and-voice"
     },
     {
-      "id": "statements",
-      "label": "陈述句",
+      "id": "passive-voice",
+      "label": "被动语态",
+      "order": 11,
+      "parentId": "tenses-and-voice"
+    },
+    {
+      "id": "non-finite",
+      "label": "非谓语动词",
+      "order": 4
+    },
+    {
+      "id": "non-finite-overview",
+      "label": "非谓语总览",
       "order": 0,
-      "parentId": "sentences"
+      "parentId": "non-finite"
     },
     {
-      "id": "questions",
-      "label": "疑问句",
+      "id": "infinitives",
+      "label": "动词不定式",
       "order": 1,
-      "parentId": "sentences"
+      "parentId": "non-finite"
     },
     {
-      "id": "imperatives",
-      "label": "祈使句",
+      "id": "ing-forms",
+      "label": "动词 -ing 形式",
       "order": 2,
-      "parentId": "sentences"
+      "parentId": "non-finite"
     },
     {
-      "id": "exclamations",
-      "label": "感叹句",
+      "id": "ed-forms",
+      "label": "动词 -ed 形式",
       "order": 3,
-      "parentId": "sentences"
+      "parentId": "non-finite"
     },
     {
       "id": "clauses",
       "label": "从句",
-      "order": 3
+      "order": 5
     },
     {
       "id": "relative-clauses",
@@ -1789,51 +1919,63 @@
       "parentId": "clauses"
     },
     {
+      "id": "object-clauses",
+      "label": "宾语从句",
+      "order": 0,
+      "parentId": "noun-clauses"
+    },
+    {
+      "id": "subject-clauses",
+      "label": "主语从句",
+      "order": 1,
+      "parentId": "noun-clauses"
+    },
+    {
+      "id": "predicative-clauses",
+      "label": "表语从句",
+      "order": 2,
+      "parentId": "noun-clauses"
+    },
+    {
+      "id": "appositive-clauses",
+      "label": "同位语从句",
+      "order": 3,
+      "parentId": "noun-clauses"
+    },
+    {
       "id": "adverbial-clauses",
       "label": "状语从句",
       "order": 2,
       "parentId": "clauses"
     },
     {
-      "id": "other",
-      "label": "其他",
-      "order": 4
+      "id": "special-structures",
+      "label": "特殊结构",
+      "order": 6
     },
     {
-      "id": "passive",
-      "label": "被动语态",
+      "id": "ellipsis",
+      "label": "省略",
       "order": 0,
-      "parentId": "other"
+      "parentId": "special-structures"
     },
     {
-      "id": "modals",
-      "label": "情态动词",
+      "id": "inversion",
+      "label": "倒装",
       "order": 1,
-      "parentId": "other"
+      "parentId": "special-structures"
     },
     {
-      "id": "non-finite",
-      "label": "非谓语动词",
+      "id": "emphasis",
+      "label": "强调结构",
       "order": 2,
-      "parentId": "other"
+      "parentId": "special-structures"
     },
     {
       "id": "subjunctive",
       "label": "虚拟语气",
       "order": 3,
-      "parentId": "other"
-    },
-    {
-      "id": "inversion",
-      "label": "倒装",
-      "order": 4,
-      "parentId": "other"
-    },
-    {
-      "id": "emphasis",
-      "label": "强调结构",
-      "order": 5,
-      "parentId": "other"
+      "parentId": "special-structures"
     }
   ],
   "scenes": [

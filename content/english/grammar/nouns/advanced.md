@@ -1,7 +1,7 @@
 ---
-title: 高中与进阶 · 同词的不同用法
-levelIds: ["senior", "advanced"]
-order: 2
+title: 进阶 · 同词的不同用法
+levelIds: ["advanced"]
+order: 3
 ---
 
 ### 从物质到一份或一种

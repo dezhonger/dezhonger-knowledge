@@ -17,7 +17,8 @@ export function searchIndex(model) {
     }),
     ...model.grammar.map(topic => {
       const levels = terms(t.grammarLevels, grammarLevels(topic)), categories = terms(t.grammarCategories, topic.categoryIds, true)
-      return doc('grammar', topic, topic.title, topic.description, [...levels, ...topic.categoryIds.map(id => labelOf(t.grammarCategories, id))], topic.description, [...levels, ...categories], `${topic.coreMarkdown} ${topic.layers.map(layer => layer.markdown).join(' ')}`)
+      const stages = terms(t.grammarCurriculumStages, topic.layers.flatMap(layer => layer.curriculumStageId ? [layer.curriculumStageId] : []))
+      return doc('grammar', topic, topic.title, topic.description, [...levels, ...topic.categoryIds.map(id => labelOf(t.grammarCategories, id))], topic.description, [...levels, ...stages, ...categories], `${topic.coreMarkdown} ${topic.layers.map(layer => layer.markdown).join(' ')}`)
     }),
     ...model.expressions.map(item => {
       const scenes = terms(t.scenes, item.sceneIds, true)

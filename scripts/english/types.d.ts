@@ -13,6 +13,7 @@ export interface Taxon {
 export interface Taxonomy {
   vocabularyLevels: Taxon[]
   grammarLevels: Taxon[]
+  grammarCurriculumStages: Taxon[]
   topics: Taxon[]
   grammarCategories: Taxon[]
   scenes: Taxon[]
@@ -50,6 +51,7 @@ export interface GrammarLayer {
   id: string
   title: string
   levelIds: string[]
+  curriculumStageId?: string
   order: number
   markdown: string
 }
@@ -73,11 +75,35 @@ export interface Expression {
   notes?: string
   relatedIds?: string[]
 }
+export interface GrammarCurriculumItem {
+  id: string
+  label: string
+  stageId: string
+  topicId: string
+  layerId: string
+}
+export interface GrammarCurriculum {
+  version: number
+  source: { title: string; url: string; edition: string; checkedAt: string }
+  items: GrammarCurriculumItem[]
+}
+export interface GrammarSource {
+  id: string
+  title: string
+  url: string
+  role: string
+  checkedAt: string
+  license?: string
+  note?: string
+}
+export interface GrammarSources { version: number; sources: GrammarSource[] }
 export interface ContentModel {
   taxonomy: Taxonomy
   vocabulary: Vocabulary[]
   grammar: GrammarTopic[]
   expressions: Expression[]
+  grammarCurriculum: GrammarCurriculum
+  grammarSources: GrammarSources
 }
 export type ContentType = 'vocabulary' | 'grammar' | 'expression'
 export interface SearchDocument {

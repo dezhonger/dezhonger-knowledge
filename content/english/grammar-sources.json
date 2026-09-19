@@ -1,0 +1,46 @@
+{
+  "version": 1,
+  "sources": [
+    {
+      "id": "moe-senior-curriculum",
+      "title": "普通高中英语课程标准（2017 年版 2020 年修订）",
+      "url": "https://www.pep.com.cn/xw/zt/rjwy/gzkb2020/202205/P020220517522153664167.pdf",
+      "role": "确定高中语法覆盖范围、课程层次与形式—意义—使用的教学原则",
+      "checkedAt": "2026-09-19",
+      "note": "只提炼课程项目和要求，不复制大段正文"
+    },
+    {
+      "id": "wikibooks-license",
+      "title": "Wikibooks Copyrights",
+      "url": "https://en.wikibooks.org/wiki/Wikibooks:Copyrights",
+      "role": "核对开放内容再利用时的署名、标注修改和相同方式共享义务",
+      "checkedAt": "2026-09-19",
+      "license": "CC BY-SA 4.0"
+    },
+    {
+      "id": "wikibooks-grammar",
+      "title": "Wikibooks English Grammar",
+      "url": "https://en.wikibooks.org/wiki/English_Grammar",
+      "role": "辅助核对词类、句子成分、短语与从句的知识组织",
+      "checkedAt": "2026-09-19",
+      "license": "CC BY-SA 4.0",
+      "note": "内容质量不一，不作为唯一事实来源；本站未逐段复制"
+    },
+    {
+      "id": "british-council-terms",
+      "title": "British Council Terms of use",
+      "url": "https://www.britishcouncil.org/terms",
+      "role": "确认公开教学内容的版权与复用边界",
+      "checkedAt": "2026-09-19",
+      "note": "只用于事实核对，不复制其正文、例句或练习"
+    },
+    {
+      "id": "cambridge-terms",
+      "title": "Cambridge Terms of Use",
+      "url": "https://www.cambridge.org/core/legal-notices/terms",
+      "role": "确认受版权保护语法参考内容的复用需要许可",
+      "checkedAt": "2026-09-19",
+      "note": "只用于事实核对，不复制其正文、例句或练习"
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 ---
-title: 初中 · 不规则动词与过去状态
-levelIds: ["junior", "senior", "advanced"]
+title: 初中与进阶复习 · 不规则动词与过去状态
+levelIds: ["junior", "advanced"]
 order: 1
 ---
 

@@ -23,6 +23,10 @@ relatedIds: ["past-simple", "present-perfect"]
 
 read 表示习惯，不表示说话时正在读书。常见时间表达有 every day、usually、often，但不能仅凭一个时间词机械决定时态。
 
+## 使用场景
+
+除习惯与事实外，一般现在时还用于时刻表、操作说明、体育解说和叙事中的现场感：The train leaves at six；First, you add the water。时间或条件状语从句中也常用它表示将来：Call me when you arrive。
+
 ## 常见错误
 
 - **错误：** She like apples. → **正确：** She likes apples. 第三人称单数的实义动词通常要变化。

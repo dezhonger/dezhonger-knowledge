@@ -1,7 +1,7 @@
 ---
-title: 高中与进阶 · 尚未结束的时间框架
-levelIds: ["senior", "advanced"]
-order: 1
+title: 进阶 · 尚未结束的时间框架
+levelIds: ["advanced"]
+order: 2
 ---
 
 ### today 不一定只能搭配一个时态

@@ -1,7 +1,7 @@
 ---
 title: 进阶 · 时刻表与状态动词
 levelIds: ["advanced"]
-order: 2
+order: 3
 ---
 
 ### 已确定的公共时刻表

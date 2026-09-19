@@ -57,7 +57,17 @@ export async function generateEnglish() {
     add(detailUrl('vocabulary', word.id), `${word.word} · ${word.senses[0].zh}`, `${word.word}：${word.senses.map(s => s.zh).join('；')}。查看英美发音、中英文解释、例句与相关分类。`, wordDetail(word, t), { article: true, section: 'vocabulary', crumbs: [['单词', '/vocabulary'], ...(topic ? [[labelOf(t.topics, topic), vocabTopicUrl(topic)]] : []), [word.word]] })
   }
   add('/grammar', '语法', '按学习阶段和语法知识体系浏览文章，在同一主题中逐层理解英语语法。', heading('英语语法', '从基础规则到进阶用法，逐层建立你的语法体系。', 'GRAMMAR') + `<section class="browse-section"><h2>按学习阶段</h2>${levelCards(t.grammarLevels, id => `/grammar/level/${id}`, id => model.grammar.filter(topic => grammarLevels(topic).includes(id)).length)}</section><section class="browse-section"><h2>按知识体系</h2><p class="lead">从词类、时态到从句，建立彼此相连的理解。</p>${taxonomyGroups(t.grammarCategories, grammarCategoryUrl, id => inCategory(model.grammar, 'categoryIds', t.grammarCategories, id).length)}</section>`, { crumbs: [['语法']], section: 'grammar' })
-  for (const level of t.grammarLevels) listPages({ path: `/grammar/level/${level.id}`, title: `${level.label}语法`, description: `从${level.label}阶段的理解深度出发，逐步掌握英语规则和实际用法。`, items: model.grammar.filter(topic => grammarLevels(topic).includes(level.id)), row: topic => grammarRow(topic, t, level.id), crumbs: [['语法', '/grammar'], [level.label]], section: 'grammar' })
+  for (const level of t.grammarLevels) {
+    if (level.id !== 'senior') {
+      listPages({ path: `/grammar/level/${level.id}`, title: `${level.label}语法`, description: `从${level.label}阶段的理解深度出发，逐步掌握英语规则和实际用法。`, items: model.grammar.filter(topic => grammarLevels(topic).includes(level.id)), row: topic => grammarRow(topic, t, level.id), crumbs: [['语法', '/grammar'], [level.label]], section: 'grammar' })
+      continue
+    }
+    const groups = ordered(t.grammarCurriculumStages).map(stage => {
+      const entries = model.grammar.flatMap(topic => topic.layers.filter(layer => layer.levelIds.includes('senior') && layer.curriculumStageId === stage.id).map(layer => ({ topic, layer })))
+      return `<section class="browse-section curriculum-section" id="stage-${stage.id}"><header><p class="eyebrow">${e(stage.code || 'SENIOR GRAMMAR')}</p><h2>${e(stage.label)}</h2><p class="lead">${e(stage.description || '')}</p></header><p class="list-summary">${entries.length} 个学习单元</p><div class="content-list">${entries.map(({ topic, layer }) => grammarRow(topic, t, undefined, 3, layer.id)).join('')}</div></section>`
+    }).join('')
+    add('/grammar/level/senior', '高中语法', '依据普通高中英语课程标准，按基础巩固、必修新增、选择性必修和提高类建立完整语法体系。', heading('高中语法', '从句子骨架到语篇表达，按课程层次掌握形式、意义与使用。', 'SENIOR GRAMMAR') + groups, { crumbs: [['语法', '/grammar'], ['高中']], section: 'grammar' })
+  }
   for (const node of t.grammarCategories) listPages({ path: grammarCategoryUrl(node.id), title: node.label, description: `关于${node.label}的规则、使用场景、例句和常见错误。`, items: inCategory(model.grammar, 'categoryIds', t.grammarCategories, node.id), row: topic => grammarRow(topic, t), crumbs: categoryCrumbs(t.grammarCategories, node.id, grammarCategoryUrl, SECTIONS[1]), prefix: subcategoryLinks(t.grammarCategories, node.id, grammarCategoryUrl), section: 'grammar' })
   const md = await createMarkdownRenderer(root, { html: false, linkify: false, headers: false })
   function markdown(source, prefix) {
@@ -79,7 +89,8 @@ export async function generateEnglish() {
     const layers = topic.layers.map(layer => {
       const body = markdown(layer.markdown, `layer-${layer.id}`)
       toc.push({ title: layer.title, id: `depth-${layer.id}` }, ...body.toc)
-      return `<section class="depth-section" id="depth-${layer.id}"><h2>${e(layer.title)}</h2>${chips(layer.levelIds.map(id => [labelOf(t.grammarLevels, id), `/grammar/level/${id}`]))}<div class="prose">${body.html}</div></section>`
+      const layerLabels = [...layer.levelIds.map(id => [labelOf(t.grammarLevels, id), `/grammar/level/${id}`]), ...(layer.curriculumStageId ? [[labelOf(t.grammarCurriculumStages, layer.curriculumStageId), `/grammar/level/senior#stage-${layer.curriculumStageId}`]] : [])]
+      return `<section class="depth-section" id="depth-${layer.id}"><h2>${e(layer.title)}</h2>${chips(layerLabels)}<div class="prose">${body.html}</div></section>`
     }).join('')
     const related = model.grammar.filter(other => topic.relatedIds?.includes(other.id))
     const body = `<header class="grammar-heading"><p class="eyebrow">UNDERSTAND THE PATTERN</p><h1 id="grammar-title">${e(topic.title)}</h1><p class="lead">${e(topic.description)}</p>${chips([...grammarLevels(topic).map(id => [labelOf(t.grammarLevels, id), `/grammar/level/${id}`]), ...topic.categoryIds.map(id => [labelOf(t.grammarCategories, id), grammarCategoryUrl(id)])])}</header><div class="grammar-layout"><details class="article-toc" open><summary>这篇文章的内容</summary><nav aria-label="页内目录">${toc.map(item => `<a class="${item.sub ? 'toc-sub' : ''}" href="#${item.id}">${e(item.title)}</a>`).join('')}</nav></details><article class="grammar-article" aria-labelledby="grammar-title"><div class="prose">${core.html}</div>${layers}${related.length ? `<section class="detail-section"><h2>继续建立联系</h2>${related.map(other => grammarRow(other, t, undefined, 3)).join('')}</section>` : ''}</article></div>`
@@ -96,7 +107,7 @@ export async function generateEnglish() {
   for (const item of model.expressions) add(detailUrl('expression', item.id), `${item.en} · ${item.zh}`, `${item.en} — ${item.zh}。${item.usage || ''}`, expressionDetail(item, model), { article: true, section: 'expression', crumbs: [['常用表达', '/expressions'], [labelOf(t.scenes, item.sceneIds[0]), scenePath(item.sceneIds[0])], [item.zh]] })
   add('/vocabulary/practice', '随机背词', '选择词表，每次随机抽取 1–500 个单词，先回忆再查看中文释义。', practicePage(model), { section: 'vocabulary', crumbs: [['单词', '/vocabulary'], ['随机背词']] })
   const importReport = JSON.parse(await readFile(resolve(root, 'content/english/vocabulary-report.json'), 'utf8'))
-  add('/sources', '词表来源', '英语词表、音标数据及开放许可说明。', sourcesPage(model, importReport, assets), { crumbs: [['词表来源']] })
+  add('/sources', '内容来源', '英语词表、语法课程范围、参考资料及开放许可说明。', sourcesPage(model, importReport, assets), { crumbs: [['内容来源']] })
   add('/search', '搜索', '搜索英语单词、中英文释义、语法文章和生活场景中的常用表达。', searchPage(), { noindex: true, section: 'search', crumbs: [['搜索']] })
   add('/404', '页面未找到', '这个地址没有对应的英语内容，请通过分类或搜索继续探索。', heading('这一页，暂时找不到。', '地址可能已更新，或内容还在整理中。你可以从首页重新出发。', '404 · PAGE NOT FOUND') + `<div class="not-found-search">${chips([['返回首页', '/'], ['浏览单词', '/vocabulary'], ['浏览语法', '/grammar'], ['常用表达', '/expressions']])}${searchPage().match(/<form[\s\S]*?<\/form>/)?.[0] || ''}</div>`, { noindex: true, crumbs: [['页面未找到']] })
   await mkdir(resolve(root, '.cache'), { recursive: true })

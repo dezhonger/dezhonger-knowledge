@@ -13,7 +13,7 @@ export const SECTIONS = [
   { id: 'grammar', label: '语法', en: 'Grammar', path: '/grammar', description: '从一句话开始，逐步建立清晰的语法体系。' },
   { id: 'expression', label: '常用表达', en: 'Expressions', path: '/expressions', description: '让亲子、工作和日常交流，多一种自然的表达。' },
 ]
-const dimensions = ['vocabularyLevels', 'grammarLevels', 'topics', 'grammarCategories', 'scenes', 'partsOfSpeech', 'tags', 'difficulties']
+const dimensions = ['vocabularyLevels', 'grammarLevels', 'grammarCurriculumStages', 'topics', 'grammarCategories', 'scenes', 'partsOfSpeech', 'tags', 'difficulties']
 const trees = new Set(['topics', 'grammarCategories', 'scenes'])
 const slugPattern = /^[a-z0-9]+(?:-[a-z0-9]+)*$/
 const fail = (at, message) => { throw new Error(`${at}: ${message}`) }
@@ -149,6 +149,10 @@ export function validateModel(model) {
   for (const topic of model.grammar) {
     const at = `grammar/${topic.id}`
     string(topic.title, at + '.title'); string(topic.description, at + '.description'); string(topic.coreMarkdown, at + '/index.md')
+    for (const heading of ['## 核心规则', '## 结构与例句', '## 使用场景', '## 常见错误', '## 易混知识点', '## 总结']) {
+      if (!topic.coreMarkdown.includes(heading)) fail(at + '/index.md', `缺少教学结构：${heading}`)
+    }
+    if (topic.coreMarkdown.length < 400) fail(at + '/index.md', '正文过短，无法形成完整教学闭环')
     references(topic.categoryIds, keys.grammarCategories, at + '.categoryIds', true)
     references(topic.relatedIds || [], entityKeys.grammar, at + '.relatedIds')
     list(topic.layers, at + '.layers', true)
@@ -159,7 +163,48 @@ export function validateModel(model) {
       ids.add(layer.id)
       if (!Number.isFinite(layer.order)) fail(at, '深度层 order 应为数字')
       references(layer.levelIds, keys.grammarLevels, at + '.levelIds', true)
+      if (layer.levelIds.includes('senior')) {
+        references([layer.curriculumStageId], keys.grammarCurriculumStages, at + '.curriculumStageId', true)
+        if (!layer.markdown.includes('### 小练习') || !layer.markdown.includes('### 参考答案')) fail(at + '/' + layer.id + '.md', '高中内容层必须包含小练习与参考答案')
+        if (layer.markdown.length < 300) fail(at + '/' + layer.id + '.md', '高中内容层过短')
+      }
+      else if (layer.curriculumStageId !== undefined) fail(at, '非高中内容层不应设置 curriculumStageId')
     }
+  }
+  for (const category of model.taxonomy.grammarCategories.filter(node => !model.taxonomy.grammarCategories.some(other => other.parentId === node.id))) {
+    if (!model.grammar.some(topic => topic.categoryIds.includes(category.id))) fail(`taxonomy.grammarCategories/${category.id}`, '叶子分类没有对应语法主题')
+  }
+  object(model.grammarCurriculum, 'grammarCurriculum')
+  if (!Number.isInteger(model.grammarCurriculum.version)) fail('grammarCurriculum.version', '应为整数')
+  object(model.grammarCurriculum.source, 'grammarCurriculum.source')
+  for (const key of ['title', 'url', 'edition', 'checkedAt']) string(model.grammarCurriculum.source[key], `grammarCurriculum.source.${key}`)
+  if (!/^https?:\/\//.test(model.grammarCurriculum.source.url)) fail('grammarCurriculum.source.url', '必须为 HTTP(S)')
+  list(model.grammarCurriculum.items, 'grammarCurriculum.items', true)
+  if (model.grammarCurriculum.items.length !== 74) fail('grammarCurriculum.items', '课标覆盖表应包含 74 个项目')
+  const curriculumIds = new Set(), topicById = new Map(model.grammar.map(topic => [topic.id, topic]))
+  for (const [index, item] of model.grammarCurriculum.items.entries()) {
+    const at = `grammarCurriculum.items[${index}]`
+    object(item, at); slug(item.id, at + '.id'); string(item.label, at + '.label')
+    if (curriculumIds.has(item.id)) fail(at, '项目 id 重复')
+    curriculumIds.add(item.id)
+    references([item.stageId], keys.grammarCurriculumStages, at + '.stageId', true)
+    const topic = topicById.get(item.topicId)
+    if (!topic) fail(at, `主题不存在：${item.topicId}`)
+    const layer = topic.layers.find(layer => layer.id === item.layerId)
+    if (!layer) fail(at, `内容层不存在：${item.topicId}/${item.layerId}`)
+    if (!layer.levelIds.includes('senior')) fail(at, '课标项目必须映射到高中内容层')
+    if (layer.curriculumStageId !== item.stageId) fail(at, '课标阶段与内容层阶段不一致')
+  }
+  object(model.grammarSources, 'grammarSources')
+  if (!Number.isInteger(model.grammarSources.version)) fail('grammarSources.version', '应为整数')
+  list(model.grammarSources.sources, 'grammarSources.sources', true)
+  const sourceIds = new Set()
+  for (const [index, source] of model.grammarSources.sources.entries()) {
+    const at = `grammarSources.sources[${index}]`
+    object(source, at); slug(source.id, at + '.id'); string(source.title, at + '.title'); string(source.url, at + '.url'); string(source.role, at + '.role'); string(source.checkedAt, at + '.checkedAt')
+    if (!/^https?:\/\//.test(source.url)) fail(at, 'url 必须为 HTTP(S)')
+    if (sourceIds.has(source.id)) fail(at, '来源 id 重复')
+    sourceIds.add(source.id); optionalString(source.license, at + '.license'); optionalString(source.note, at + '.note')
   }
   for (const item of model.expressions) {
     const at = `expressions/${item.id}`
@@ -204,5 +249,12 @@ export async function loadContent(directory = contentRoot) {
     }
     grammar.push({ ...core.data, coreMarkdown: core.content.trim(), layers: ordered(layers) })
   }
-  return validateModel({ taxonomy: await json(resolve(directory, 'taxonomy.json')), vocabulary: await records('vocabulary'), expressions: await records('expressions'), grammar })
+  return validateModel({
+    taxonomy: await json(resolve(directory, 'taxonomy.json')),
+    vocabulary: await records('vocabulary'),
+    expressions: await records('expressions'),
+    grammar,
+    grammarCurriculum: await json(resolve(directory, 'grammar-curriculum-map.json')),
+    grammarSources: await json(resolve(directory, 'grammar-sources.json')),
+  })
 }

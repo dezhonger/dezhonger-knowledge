@@ -1,6 +1,6 @@
 ---
 title: 初中 · 否定、疑问与动词变化
-levelIds: ["junior", "senior"]
+levelIds: ["junior"]
 order: 1
 ---
 

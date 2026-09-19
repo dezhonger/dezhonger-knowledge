@@ -1,6 +1,6 @@
 ---
-title: 初中及以上 · 所属关系与清晰指代
-levelIds: ["junior", "senior", "advanced"]
+title: 初中与进阶复习 · 所属关系与清晰指代
+levelIds: ["junior", "advanced"]
 order: 1
 ---
 
