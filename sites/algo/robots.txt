@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://algo.dezhonger.com/sitemap.xml

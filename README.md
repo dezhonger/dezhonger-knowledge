@@ -157,6 +157,21 @@ The static subject sites live under `sites/`. Each hostname keeps its generated 
 - Each subject has its own visual language. Shared files only provide navigation, accessibility and responsive foundations.
 - Chemistry additionally loads `elements.js`; the checked-in element data was generated from PubChem's public periodic-table JSON with `npm run generate:elements`.
 
+## 算法知识库
+
+`algo.dezhonger.com` 使用 OI Wiki 风格的三栏阅读布局，提供算法竞赛、工程算法、机器学习、大模型和计算机视觉五个独立分类。支持折叠章节树、全站搜索、深浅主题、页内目录和手机导航。
+
+```bash
+npm run dev:algo           # 生成并预览：http://127.0.0.1:5177
+npm run generate:algo      # 只生成算法站，不改其他学科
+npm run validate:algo      # 检查页面、旧地址、内部链接和搜索索引
+npm run preview:algo       # 预览已有生成结果
+```
+
+算法与 AI 原有内容继续来自 `scripts/subject-data.mjs` 和 `scripts/subject-expansions.mjs`；`scripts/algo/catalog.mjs` 将它们映射到独立分类并保留全部旧文章地址。计算机视觉内容维护在 `scripts/algo/cv-curriculum.mjs`。布局与搜索分别维护在 `scripts/generate-algo.mjs`、`scripts/algo/assets/`，不要直接修改 `sites/algo/` 的生成结果。
+
+`generate:subjects` 和 Docker 构建都会调用独立算法生成器，镜像从 builder 复制生成结果。算法站样式和脚本不依赖其他学科的共享资源；CSS、JS 和搜索索引使用内容哈希文件名。
+
 ## English learning site
 
 English remains a generated HTML / native JavaScript / CSS site. Its single sources of truth are under `content/english/`: alphabetic JSONL word shards and non-duplicated editorial JSON entries, JSON expressions, Markdown grammar topics with depth layers, and a shared taxonomy. See [the Chinese content authoring guide](content/english/README.md).

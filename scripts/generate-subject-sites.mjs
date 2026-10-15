@@ -4,6 +4,7 @@ import { subjects } from './subject-data.mjs'
 import { mathCurriculum } from './math-curriculum.mjs'
 import { expandSubjects } from './subject-expansions.mjs'
 import { generateEnglish } from './generate-english.mjs'
+import { generateAlgo } from './generate-algo.mjs'
 
 expandSubjects(subjects)
 
@@ -94,6 +95,7 @@ async function renderMath() {
 }
 
 await renderMath()
-for(const [slug,subject] of Object.entries(subjects)) if(slug!=='math') await renderGeneric(slug,subject)
+for(const [slug,subject] of Object.entries(subjects)) if(slug!=='math' && slug!=='algo') await renderGeneric(slug,subject)
+await generateAlgo()
 await generateEnglish()
 console.log(`Generated mathematics, English and ${Object.keys(subjects).length-1} other subject sites`)
