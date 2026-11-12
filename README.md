@@ -215,3 +215,9 @@ English has dedicated Nginx rules for real 404s, a generated XML sitemap and rob
 ## Deployment
 
 The repository is deployed under `~/knowledge` with Docker Compose. Its single `knowledge` container joins the external `dezhonger-edge` network and selects a site from the incoming `Host` header. The public Nginx service in `dezhonger-service` terminates HTTPS and forwards the content domains to this container.
+
+### ZMQ 家庭博客
+
+`sites/zmq/` 提供博客首页、`/articles/` 列表、`/article/?id=...` 阅读页与 `/admin/` 写作后台。页面通过同源 `/api/blog/` 使用 `dezhonger-service` 的文章和私有媒体接口。受密码保护的正文和媒体不写入静态页面、搜索索引、RSS 或浏览器持久缓存。管理员账号、访问密码保护、上传限制和备份方式见 Service 仓库 README 的“家庭博客”。
+
+博客页面使用原生 HTML、CSS 和 JavaScript，不需要生成学科内容。正式镜像优先从当前主分支使用根目录 `Dockerfile` 完整构建。仅更新博客页面且需要保留其他站点运行版本时，可以使用 `deploy/zmq.Dockerfile`：将当前运行的内容镜像标记为回滚镜像，再用 `KNOWLEDGE_BASE` 指定该标签，构建仅覆盖 `sites/zmq/` 的增量镜像。新主机或完整重建仍使用根目录 Dockerfile。

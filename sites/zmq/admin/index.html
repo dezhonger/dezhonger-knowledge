@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <meta name="referrer" content="same-origin">
+  <meta name="theme-color" content="#fbf7ef">
+  <title>写作手记 · 依娜与恰恰</title>
+  <link rel="stylesheet" href="/assets/blog.css?v=20261015blog2">
+  <script type="module" src="/assets/admin.js?v=20261015blog2"></script>
+</head>
+<body data-page="admin">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header shell"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">✿</span><span>依娜与恰恰<small>OUR LITTLE WORLD</small></span></a><nav class="site-nav" aria-label="写作导航"><a href="/articles/">文章列表 ↗</a><span id="account-name" class="account-name" hidden></span><button id="logout" class="button small subtle" type="button" hidden>退出</button></nav></header>
+  <main id="main" class="shell admin-main">
+    <div id="auth-loading" class="status-panel" role="status"><span class="spinner" aria-hidden="true"></span><p>正在打开写作手记……</p></div>
+    <section id="login-view" class="login-card" hidden aria-labelledby="login-title"><span class="login-flower" aria-hidden="true">✿</span><p class="eyebrow">A PLACE FOR YOUR STORIES</p><h1 id="login-title">把今天，写下来。</h1><p class="muted">登录后，继续记录我们的小小世界。</p><form id="login-form"><label for="username">用户名</label><input id="username" name="username" autocomplete="username" type="text" required maxlength="32" autocapitalize="none" spellcheck="false"><label for="login-password">密码</label><input id="login-password" name="password" autocomplete="current-password" type="password" required><p id="login-error" class="form-message error" role="alert" hidden></p><button id="login-submit" class="button primary full-width" type="submit">登录写作手记 <span aria-hidden="true">→</span></button></form><p class="login-note">使用 Dezhonger 已有账号登录。</p></section>
+    <section id="access-view" class="status-panel" hidden></section>
+    <section id="workspace" class="workspace" hidden aria-label="文章写作工作区">
+      <aside class="editor-sidebar"><div class="sidebar-top"><div><p class="eyebrow">MY STORYBOOK</p><h1>写作手记</h1></div><button id="new-post" class="button primary small" type="button">＋ 新文章</button></div><label class="filter-label" for="status-filter">文章状态</label><select id="status-filter"><option value="">全部文章</option><option value="draft">草稿</option><option value="published">已发布</option></select><p id="admin-list-status" class="list-status" role="status" aria-live="polite"></p><ul id="admin-post-list" class="admin-post-list" aria-label="文章列表"></ul><nav id="admin-pagination" class="pagination compact" aria-label="管理文章分页" hidden></nav></aside>
+      <div class="editor-main"><section id="editor-empty" class="editor-empty"><span aria-hidden="true">✎</span><h2>新的一页，新的故事。</h2><p>选择一篇文章继续写，<br>或新建文章，记录今天的小欢喜。</p><button id="empty-new-post" class="button primary" type="button">写第一段故事 ↗</button></section>
+        <section id="editor" hidden aria-label="文章编辑器"><div class="editor-toolbar"><div class="save-indicator"><span id="editor-status-badge" class="badge">新草稿</span><span id="save-state" role="status" aria-live="polite">尚未保存</span></div><div class="toolbar-actions"><button id="preview-post" class="button small subtle" type="button">预览</button><button id="save-draft" class="button small secondary" type="button">保存草稿</button><button id="publish-post" class="button small primary" type="button">发布文章 ↗</button></div></div><p id="editor-message" class="form-message" role="status" aria-live="polite" hidden></p>
+          <div class="editor-paper"><label class="sr-only" for="post-title">文章标题</label><input id="post-title" class="title-input" type="text" maxlength="200" placeholder="给今天的故事起个名字……"><p class="editor-hint">在下面添加文字、照片或视频，把回忆慢慢拼起来。</p><div id="blocks" class="editor-blocks"></div><div class="add-block-bar" aria-label="添加正文内容"><span>添加内容</span><button data-add="paragraph" type="button">＋ 文字</button><button data-add="heading" type="button">标题</button><button data-add="quote" type="button">引用</button><button data-add="list" type="button">列表</button><button id="add-image" type="button">图片</button><button id="add-video" type="button">视频</button></div><input id="image-file" type="file" accept="image/jpeg,image/png,image/gif,image/webp" hidden><input id="video-file" type="file" accept="video/mp4,video/webm" hidden><p class="upload-hint">图片支持 JPG / PNG / GIF / WebP，最大 20 MB；视频支持 MP4 / WebM，最大 200 MB。</p><section id="upload-panel" class="upload-panel" role="status" aria-live="polite" hidden><div><span id="upload-label">准备上传……</span><button id="cancel-upload" class="text-button" type="button">取消上传</button></div><progress id="upload-progress" max="100" value="0" aria-label="文件上传进度"></progress><p>新文章会先保存草稿；插入成功后，请保存文章。</p></section></div>
+          <section class="publish-settings" aria-labelledby="settings-title"><div><h2 id="settings-title">谁可以读这个故事？</h2><p id="protection-status">默认公开，访客无需密码即可阅读。</p></div><fieldset id="password-settings"><legend class="sr-only">文章访问密码</legend><label class="radio-label"><input type="radio" name="protection" value="keep" checked><span id="password-keep-label">公开阅读</span></label><label class="radio-label"><input type="radio" name="protection" value="set"><span id="password-set-label">设置访问密码</span></label><label id="remove-password-label" class="radio-label" hidden><input type="radio" name="protection" value="remove"><span>取消密码，公开阅读</span></label><div id="article-password-field" hidden><label for="article-password">新的文章密码</label><input id="article-password" type="password" autocomplete="new-password" aria-describedby="article-password-hint"><p id="article-password-hint" class="field-hint">1–72 字节；汉字通常占 3 字节。密码只用于这篇文章。</p></div></fieldset></section>
+          <div class="editor-footer"><p id="post-updated" class="muted">草稿不会出现在公开文章列表中。</p><div><a id="view-published" class="text-link" href="/articles/" target="_blank" rel="noopener" hidden>查看文章 ↗</a><button id="unpublish-post" class="text-button" type="button" hidden>撤回为草稿</button><button id="delete-post" class="text-button danger" type="button" hidden>删除文章</button></div></div>
+        </section></div>
+    </section>
+    <noscript><p class="status-panel">请启用 JavaScript，使用文章编辑器。</p></noscript>
+  </main>
+  <dialog id="preview-dialog" class="preview-dialog" aria-labelledby="preview-title"><div class="dialog-toolbar"><span>文章预览 · 尚未发布的修改</span><button id="close-preview" class="button small secondary" type="button">关闭预览 ×</button></div><article class="preview-article"><p class="eyebrow">A LITTLE STORY</p><h1 id="preview-title"></h1><div id="preview-body" class="article-body"></div></article></dialog>
+  <footer class="site-footer shell"><a class="footer-brand" href="/">依娜与恰恰 <span aria-hidden="true">✿</span></a><p>写下来的日子，会一直发光。</p><a href="/">回到首页 ↗</a></footer>
+</body>
+</html>

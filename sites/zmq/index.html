@@ -3,22 +3,32 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
-  <meta name="description" content="依娜与恰恰主题的原创占位页，记录童真、陪伴与小小冒险。">
-  <title>依娜与恰恰 · Dezhonger</title>
-  <link rel="stylesheet" href="/base.css">
-  <style>:root{--paper:#fff8ed;--accent:#bd5740;--accent-soft:#ffe4da}.hero-content{text-shadow:0 1px 18px rgba(255,248,237,.6)}</style>
+  <meta name="description" content="依娜与恰恰的小小世界。用文字、照片和视频，收藏一起长大的日子。">
+  <meta name="theme-color" content="#fbf7ef">
+  <title>依娜与恰恰 · 小小世界，慢慢记录</title>
+  <link rel="stylesheet" href="/assets/blog.css?v=20261015blog2">
+  <script type="module" src="/assets/blog.js?v=20261015blog2"></script>
 </head>
-<body>
-  <header class="shell topbar">
-    <a class="brand" href="/">依娜与恰恰</a>
-    <nav class="nav" aria-label="站点导航"><a aria-current="page" href="https://zmq.dezhonger.com">主题</a><a href="https://rby.dezhonger.com">童趣</a><a href="https://knowledge.dezhonger.com/zh/">知识库</a><a href="https://dezhonger.com/?lang=zh">工具</a></nav>
+<body data-page="home">
+  <a class="skip-link" href="#main">跳到主要内容</a>
+  <header class="site-header shell">
+    <a class="brand" href="/" aria-label="依娜与恰恰，首页"><span class="brand-mark" aria-hidden="true">✿</span><span>依娜与恰恰<small>OUR LITTLE WORLD</small></span></a>
+    <nav class="site-nav" aria-label="站点导航"><a href="/" aria-current="page">首页</a><a class="nav-articles" href="/articles/">文章列表</a><a class="nav-write" href="/admin/"><span aria-hidden="true">＋</span> 写一篇</a></nav>
   </header>
-  <main class="shell">
-    <section class="hero">
-      <img class="hero-image" src="/hero.webp" alt="两个孩子拿着风车走在花园小路上的原创插画">
-      <div class="hero-content"><p class="eyebrow">Little adventures</p><h1>一起出发，<br>小小世界。</h1><p class="lead">这是为依娜与恰恰预留的一块温暖角落。以后可以放故事、照片、成长记录，以及那些值得被记住的小小冒险。</p><div class="actions"><a class="button" href="#chapters">看看主题</a><a class="button secondary" href="https://dezhonger.com/?lang=zh">回到主站</a></div></div>
+  <main id="main">
+    <section class="hero shell" aria-labelledby="hero-title">
+      <img class="hero-image" src="/hero.webp" alt="依娜与恰恰手拿风车，走在鲜花盛开的花园小路上" fetchpriority="high" width="1672" height="941">
+      <div class="hero-copy"><p class="eyebrow"><span aria-hidden="true">✦</span> LITTLE DAYS, LOVELY STORIES</p><h1 id="hero-title">小小世界，<br>慢慢记录。</h1><p>把一起走过的路、看过的风景，<br>还有平凡日子里的小欢喜，写成故事。</p><a class="button primary" href="/articles/">查看文章列表 <span aria-hidden="true">↗</span></a></div>
+      <span class="hero-note">依娜 &amp; 恰恰的成长手记 <span aria-hidden="true">♡</span></span>
     </section>
-    <section class="section" id="chapters"><div class="section-head"><h2>把平常的日子，<br>变成故事。</h2><p class="section-copy">页面当前是一个原创主题占位站，不使用动画官方素材。后续可以直接在同一个仓库中继续增加相册、时间线、短篇故事或家庭专属内容。</p></div><div class="grid"><article class="card"><span class="card-number">01</span><h3>今天的发现</h3><p>收藏散步、游戏和旅行中第一次看见的新鲜事物。</p></article><article class="card"><span class="card-number">02</span><h3>一起完成</h3><p>记录合作搭积木、画画、做手工时那些可爱的瞬间。</p></article><article class="card"><span class="card-number">03</span><h3>晚安故事</h3><p>为未来的原创小故事留一个安静、长期可积累的书架。</p></article></div></section>
+    <section class="stories-section shell" aria-labelledby="latest-title">
+      <div class="section-heading"><div><p class="eyebrow">THE LATEST CHAPTERS</p><h2 id="latest-title">最近的小故事<span class="heading-flower" aria-hidden="true">✳</span></h2></div><a class="text-link" href="/articles/">文章列表 <span aria-hidden="true">→</span></a></div>
+      <div id="posts-status" class="status-panel" role="status" aria-live="polite"><span class="spinner" aria-hidden="true"></span><p>正在翻开故事本……</p></div>
+      <div id="posts-grid" class="posts-grid"></div>
+      <noscript><p class="status-panel">请启用 JavaScript，阅读最新文章。</p></noscript>
+    </section>
+    <aside class="memory-note shell"><span class="note-flower" aria-hidden="true">✿</span><div><p>日子很普通，回忆很珍贵。</p><span>用文字、照片和视频，留住一起长大的每一刻。</span></div><a href="/admin/" class="text-link">记录这一刻 <span aria-hidden="true">↗</span></a></aside>
   </main>
-  <footer class="shell footer"><span>原创插画与页面 · Dezhonger</span><span>持续建设中</span></footer>
-</body></html>
+  <footer class="site-footer shell"><a class="footer-brand" href="/">依娜与恰恰 <span aria-hidden="true">✿</span></a><p>愿每个小小的日子，都值得被记住。</p></footer>
+</body>
+</html>
