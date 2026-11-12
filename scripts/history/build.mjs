@@ -16,6 +16,7 @@ async function historyAssetVersion() {
     'sites/history/assets/atlas.css', 'sites/history/assets/home.css',
     'sites/history/assets/home.js', 'sites/history/assets/explore.css',
     'sites/history/assets/detail.css', 'sites/history/assets/world-land.svg',
+    'sites/history/assets/explore-basemap.svg',
     'sites/history/assets/summer-mountains-met.jpg',
     'sites/history/explore/explore.js', 'scripts/history/query.mjs',
   ]) {
