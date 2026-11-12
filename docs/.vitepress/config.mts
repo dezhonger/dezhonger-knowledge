@@ -70,6 +70,8 @@ const chineseSidebar: DefaultTheme.SidebarItem[] = [
 
 export default defineConfig({
   base: '/',
+  // Repository design notes are not public Knowledge articles.
+  srcExclude: ['design/**'],
   cleanUrls: true,
   lastUpdated: true,
   sitemap: { hostname: 'https://knowledge.dezhonger.com/' },
