@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "song-zhenzong-term-political-entity-id-adopted",
+  "assertionId": "song-zhenzong-term-political-entity-id",
+  "candidateId": "adopted",
+  "sourceId": "sattler-zhenzong",
+  "locator": {
+    "reference": "Introduction, paragraph 1; DOI 10.3390/rel15111401"
+  },
+  "stance": "supports"
+}

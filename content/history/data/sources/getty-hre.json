@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "getty-hre",
+  "title": "Holy Roman Empire, TGN ID 7024415",
+  "creator": "Getty Research Institute",
+  "publicationYear": null,
+  "version": "在线版；2026-11-11 核对",
+  "sourceType": "institutional-web-page",
+  "url": "https://www.getty.edu/vow/TGNFullDisplay?english=Y&find=rosedale&nation=usa&place=&subjectid=7024415",
+  "locatorGuide": "Note; Place Types: 800 and 962 founding conventions, 1806 end",
+  "license": {
+    "name": "原网站保留版权；本站仅作事实转述和链接",
+    "attribution": "Getty Research Institute",
+    "modifyAllowed": false,
+    "redistributeAllowed": false
+  }
+}

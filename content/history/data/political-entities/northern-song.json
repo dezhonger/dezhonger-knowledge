@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "northern-song",
+  "name": "北宋",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "公元960年",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 960
+      },
+      "precision": "year"
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1127年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1128
+      },
+      "precision": "year"
+    }
+  },
+  "regionIds": [
+    "china"
+  ],
+  "articleId": "northern-song"
+}

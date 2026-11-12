@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "song-zhenzong-term-political-entity-id",
+  "target": {
+    "type": "RulerTerm",
+    "id": "song-zhenzong-term",
+    "path": "/politicalEntityId"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "chanyuan-covenant-place-label",
+  "target": {
+    "type": "Event",
+    "id": "chanyuan-covenant",
+    "path": "/placeLabel"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

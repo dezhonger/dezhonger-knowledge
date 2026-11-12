@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-interval",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "liao",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "disputed",
+  "decisionRationale": "采用916年称帝建国作为正式政权起点；907年阿保机成为契丹联盟长，部分编年表从该年追溯辽的起点。",
+  "alternatives": [
+    {
+      "id": "leadership-907",
+      "value": {
+        "start": {
+          "original": {
+            "text": "公元907年",
+            "calendar": "proleptic-gregorian"
+          },
+          "normalized": {
+            "year": 907
+          },
+          "precision": "year"
+        },
+        "endExclusive": {
+          "original": {
+            "text": "公元1125年之后的半开上界",
+            "calendar": "proleptic-gregorian"
+          },
+          "normalized": {
+            "year": 1126
+          },
+          "precision": "year"
+        }
+      },
+      "disposition": "unresolved",
+      "reason": "此口径追溯至阿保机成为契丹联盟长，不等同于916年的称帝建国。"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "northern-song-region-ids",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "northern-song",
+    "path": "/regionIds"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

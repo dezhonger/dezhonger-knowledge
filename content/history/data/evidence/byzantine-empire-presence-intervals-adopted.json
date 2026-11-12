@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "byzantine-empire-presence-intervals-adopted",
+  "assertionId": "byzantine-empire-presence-intervals",
+  "candidateId": "adopted",
+  "sourceId": "met-byzantium",
+  "locator": {
+    "reference": "The Period of the Latin Occupation: 1204 conquest, 1261 restoration"
+  },
+  "stance": "supports"
+}

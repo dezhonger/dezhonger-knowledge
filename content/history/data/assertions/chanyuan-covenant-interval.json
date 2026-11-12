@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "chanyuan-covenant-interval",
+  "target": {
+    "type": "Event",
+    "id": "chanyuan-covenant",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

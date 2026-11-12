@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "basil-ii-term-political-entity-id-adopted",
+  "assertionId": "basil-ii-term-political-entity-id",
+  "candidateId": "adopted",
+  "sourceId": "met-balkans",
+  "locator": {
+    "reference": "Key Events: 1018 Basil II"
+  },
+  "stance": "supports"
+}

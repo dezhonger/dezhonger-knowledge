@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "gniezno-meeting-participants",
+  "target": {
+    "type": "Event",
+    "id": "gniezno-meeting",
+    "path": "/participants"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

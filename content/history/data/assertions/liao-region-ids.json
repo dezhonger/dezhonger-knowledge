@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-region-ids",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "liao",
+    "path": "/regionIds"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

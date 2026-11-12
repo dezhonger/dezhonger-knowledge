@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "basil-ii-name",
+  "target": {
+    "type": "Person",
+    "id": "basil-ii",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

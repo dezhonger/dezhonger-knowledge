@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "otto-iii-term-political-entity-id",
+  "target": {
+    "type": "RulerTerm",
+    "id": "otto-iii-term",
+    "path": "/politicalEntityId"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

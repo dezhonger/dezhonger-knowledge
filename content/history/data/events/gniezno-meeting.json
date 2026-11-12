@@ -1,0 +1,46 @@
+{
+  "schemaVersion": 1,
+  "id": "gniezno-meeting",
+  "name": "格涅兹诺会晤",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "公元1000年",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1000
+      },
+      "precision": "year"
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1000年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1001
+      },
+      "precision": "year"
+    }
+  },
+  "placeLabel": "格涅兹诺",
+  "participants": [
+    {
+      "type": "Person",
+      "id": "otto-iii",
+      "role": "会晤者"
+    },
+    {
+      "type": "Person",
+      "id": "boleslaw-i",
+      "role": "会晤者"
+    },
+    {
+      "type": "PoliticalEntity",
+      "id": "holy-roman-empire",
+      "role": "奥托三世的帝国"
+    }
+  ],
+  "articleId": "gniezno-meeting"
+}

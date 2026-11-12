@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "byzantine-empire-interval-adopted",
+  "assertionId": "byzantine-empire-interval",
+  "candidateId": "adopted",
+  "sourceId": "met-byzantium",
+  "locator": {
+    "reference": "Introduction; The Period of the Latin Occupation; revised October 2009"
+  },
+  "stance": "supports"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "holy-roman-empire-interval-alternative",
+  "assertionId": "holy-roman-empire-interval",
+  "candidateId": "charlemagne-800",
+  "sourceId": "getty-hre",
+  "locator": {
+    "reference": "Note: from Charlemagne’s coronation in 800 to 1806"
+  },
+  "stance": "supports"
+}

@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "otto-iii-term",
+  "personId": "otto-iii",
+  "politicalEntityId": "holy-roman-empire",
+  "title": "皇帝",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "公元996年",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 996
+      },
+      "precision": "year"
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1002年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1003
+      },
+      "precision": "year"
+    }
+  }
+}

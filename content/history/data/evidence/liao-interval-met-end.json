@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-interval-met-end",
+  "assertionId": "liao-interval",
+  "candidateId": "adopted",
+  "sourceId": "met-china",
+  "locator": {
+    "reference": "Timeline: Liao dynasty, 907–1125；用于核对终止年，起始年见异说"
+  },
+  "stance": "supports"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "chanyuan-covenant-interval-adopted",
+  "assertionId": "chanyuan-covenant-interval",
+  "candidateId": "adopted",
+  "sourceId": "smith-chanyuan",
+  "locator": {
+    "reference": "Abstract; opening paragraph: mid-January 1005 and r. 998–1022 / 982–1031"
+  },
+  "stance": "supports"
+}

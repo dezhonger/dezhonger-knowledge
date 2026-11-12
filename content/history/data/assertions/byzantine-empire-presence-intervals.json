@@ -1,0 +1,12 @@
+{
+  "schemaVersion": 1,
+  "id": "byzantine-empire-presence-intervals",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "byzantine-empire",
+    "path": "/presenceIntervals"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed",
+  "decisionRationale": "此字段表示君士坦丁堡政权在本样本中的可展示时段；1205—1260年不以该条目代替尼西亚等继承政权。"
+}

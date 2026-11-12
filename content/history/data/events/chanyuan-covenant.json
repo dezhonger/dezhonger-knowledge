@@ -1,0 +1,58 @@
+{
+  "schemaVersion": 1,
+  "id": "chanyuan-covenant",
+  "name": "澶渊之盟",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "景德元年十二月（宋辽誓书纪年）",
+        "calendar": "chinese-lunisolar"
+      },
+      "normalized": {
+        "year": 1005
+      },
+      "precision": "year",
+      "conversion": {
+        "method": "研究论文将景德元年记为1004—1005；另一学术论文明确将交换誓书定于公历1005年1月中旬。本站只标准化到公历年，不推算具体日。",
+        "sourceIds": [
+          "ihp-chanyuan",
+          "smith-chanyuan"
+        ]
+      }
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1005年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1006
+      },
+      "precision": "year"
+    }
+  },
+  "placeLabel": "澶州",
+  "participants": [
+    {
+      "type": "PoliticalEntity",
+      "id": "northern-song",
+      "role": "缔约方"
+    },
+    {
+      "type": "PoliticalEntity",
+      "id": "liao",
+      "role": "缔约方"
+    },
+    {
+      "type": "Person",
+      "id": "song-zhenzong",
+      "role": "宋朝君主"
+    },
+    {
+      "type": "Person",
+      "id": "liao-shengzong",
+      "role": "辽朝君主"
+    }
+  ],
+  "articleId": "chanyuan-covenant"
+}

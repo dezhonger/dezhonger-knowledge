@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-name",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "liao",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "chanyuan-covenant-interval-chronicle",
+  "assertionId": "chanyuan-covenant-interval",
+  "candidateId": "adopted",
+  "sourceId": "ihp-chanyuan",
+  "locator": {
+    "reference": "pp. 693、749、759：景德元年（1004—1005）及十二月誓书"
+  },
+  "stance": "supports"
+}

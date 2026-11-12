@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "otto-iii-term-title-adopted",
+  "assertionId": "otto-iii-term-title",
+  "candidateId": "adopted",
+  "sourceId": "ndb-otto",
+  "locator": {
+    "reference": "pp. 662–665; biography paragraphs on 996 coronation and Gniezno"
+  },
+  "stance": "supports"
+}

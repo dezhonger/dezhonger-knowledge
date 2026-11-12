@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "basil-ii-term-title",
+  "target": {
+    "type": "RulerTerm",
+    "id": "basil-ii-term",
+    "path": "/title"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

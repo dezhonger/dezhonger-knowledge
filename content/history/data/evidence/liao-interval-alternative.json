@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-interval-alternative",
+  "assertionId": "liao-interval",
+  "candidateId": "leadership-907",
+  "sourceId": "met-china",
+  "locator": {
+    "reference": "Timeline: Liao dynasty, 907–1125"
+  },
+  "stance": "supports"
+}

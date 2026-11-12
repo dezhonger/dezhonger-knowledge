@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "holy-roman-empire-interval-adopted",
+  "assertionId": "holy-roman-empire-interval",
+  "candidateId": "adopted",
+  "sourceId": "getty-hre",
+  "locator": {
+    "reference": "Note; Place Types: 800 and 962 founding conventions, 1806 end"
+  },
+  "stance": "supports"
+}

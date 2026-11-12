@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "met-byzantium",
+  "title": "Byzantium (ca. 330–1453)",
+  "creator": "Sarah Brooks / The Metropolitan Museum of Art",
+  "publicationYear": 2009,
+  "version": "初刊于 2001-10；2009-10 修订；2026-11-11 核对",
+  "sourceType": "institutional-web-page",
+  "url": "https://www.metmuseum.org/toah/hd/byza/hd_byza.htm",
+  "locatorGuide": "Introduction; The Period of the Latin Occupation; revised October 2009",
+  "license": {
+    "name": "原网站保留版权；本站仅作事实转述和链接",
+    "attribution": "Sarah Brooks / The Metropolitan Museum of Art",
+    "modifyAllowed": false,
+    "redistributeAllowed": false
+  }
+}

@@ -28,7 +28,7 @@ COPY sites/biology/ /usr/share/nginx/html/biology/
 COPY sites/geography/ /usr/share/nginx/html/geography/
 COPY sites/physics/ /usr/share/nginx/html/physics/
 COPY sites/chemistry/ /usr/share/nginx/html/chemistry/
-COPY sites/history/ /usr/share/nginx/html/history/
+COPY --from=builder /src/sites/history/ /usr/share/nginx/html/history/
 COPY sites/shared/base.css /usr/share/nginx/html/zmq/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/rby/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/math/base.css

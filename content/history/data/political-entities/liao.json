@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "id": "liao",
+  "name": "辽",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "后梁贞明二年（916年）称帝建国",
+        "calendar": "chinese-lunisolar"
+      },
+      "normalized": {
+        "year": 916
+      },
+      "precision": "year",
+      "conversion": {
+        "method": "故宫词条同时给出对应公元年",
+        "sourceIds": [
+          "dpm-liaoshi"
+        ]
+      }
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1125年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1126
+      },
+      "precision": "year"
+    }
+  },
+  "regionIds": [
+    "china"
+  ],
+  "articleId": "liao"
+}

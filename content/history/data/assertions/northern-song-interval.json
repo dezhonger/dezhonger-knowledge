@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "northern-song-interval",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "northern-song",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

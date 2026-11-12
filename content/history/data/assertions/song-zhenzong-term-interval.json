@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "song-zhenzong-term-interval",
+  "target": {
+    "type": "RulerTerm",
+    "id": "song-zhenzong-term",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "disputed",
+  "decisionRationale": "采用997年即位年口径；998年是部分编年表采用的在位起年写法。页面保留两种说法，不将年级粒度换算为具体月日。",
+  "alternatives": [
+    {
+      "id": "regnal-998",
+      "value": {
+        "start": {
+          "original": {
+            "text": "公元998年",
+            "calendar": "proleptic-gregorian"
+          },
+          "normalized": {
+            "year": 998
+          },
+          "precision": "year"
+        },
+        "endExclusive": {
+          "original": {
+            "text": "公元1022年之后的半开上界",
+            "calendar": "proleptic-gregorian"
+          },
+          "normalized": {
+            "year": 1023
+          },
+          "precision": "year"
+        }
+      },
+      "disposition": "rejected",
+      "reason": "该写法不作为本页的即位起年；997年即位见另一学术来源及至道三年记载。"
+    }
+  ]
+}

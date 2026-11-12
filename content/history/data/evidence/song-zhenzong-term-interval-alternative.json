@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "song-zhenzong-term-interval-alternative",
+  "assertionId": "song-zhenzong-term-interval",
+  "candidateId": "regnal-998",
+  "sourceId": "smith-chanyuan",
+  "locator": {
+    "reference": "Opening paragraph: Zhenzong (r. 998–1022)"
+  },
+  "stance": "supports"
+}

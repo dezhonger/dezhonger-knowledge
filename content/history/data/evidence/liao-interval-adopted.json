@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-interval-adopted",
+  "assertionId": "liao-interval",
+  "candidateId": "adopted",
+  "sourceId": "dpm-liaoshi",
+  "locator": {
+    "reference": "“耶律阿保机”段：916年称帝建国；“天祚帝”段：1125年被俘"
+  },
+  "stance": "supports"
+}

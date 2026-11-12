@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-shengzong-term-person-id",
+  "target": {
+    "type": "RulerTerm",
+    "id": "liao-shengzong-term",
+    "path": "/personId"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

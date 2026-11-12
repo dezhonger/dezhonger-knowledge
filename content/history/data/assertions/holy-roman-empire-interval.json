@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "holy-roman-empire-interval",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "holy-roman-empire",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "disputed",
+  "decisionRationale": "本站以962年奥托一世加冕作为帝国条目的起点；同一权威索引也列出从800年查理曼加冕起算的更宽口径，二者属于起点定义差异。",
+  "alternatives": [
+    {
+      "id": "charlemagne-800",
+      "value": {
+        "start": {
+          "original": {
+            "text": "公元800年",
+            "calendar": "proleptic-gregorian"
+          },
+          "normalized": {
+            "year": 800
+          },
+          "precision": "year"
+        },
+        "endExclusive": {
+          "original": {
+            "text": "公元1806年之后的半开上界",
+            "calendar": "proleptic-gregorian"
+          },
+          "normalized": {
+            "year": 1807
+          },
+          "precision": "year"
+        }
+      },
+      "disposition": "unresolved",
+      "reason": "从查理曼加冕起算的广义帝国传统。"
+    }
+  ]
+}

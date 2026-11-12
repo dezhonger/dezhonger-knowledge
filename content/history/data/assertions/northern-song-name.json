@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "northern-song-name",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "northern-song",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

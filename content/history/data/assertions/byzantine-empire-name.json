@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "byzantine-empire-name",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "byzantine-empire",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

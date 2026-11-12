@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "basil-ii-term-interval",
+  "target": {
+    "type": "RulerTerm",
+    "id": "basil-ii-term",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

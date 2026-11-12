@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "holy-roman-empire",
+  "name": "神圣罗马帝国",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "公元962年",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 962
+      },
+      "precision": "year"
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1806年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1807
+      },
+      "precision": "year"
+    }
+  },
+  "regionIds": [
+    "europe-mediterranean"
+  ],
+  "articleId": "holy-roman-empire"
+}

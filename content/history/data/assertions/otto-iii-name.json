@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "otto-iii-name",
+  "target": {
+    "type": "Person",
+    "id": "otto-iii",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

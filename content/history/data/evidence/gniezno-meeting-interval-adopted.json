@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "gniezno-meeting-interval-adopted",
+  "assertionId": "gniezno-meeting-interval",
+  "candidateId": "adopted",
+  "sourceId": "polish-gniezno",
+  "locator": {
+    "reference": "Opening section: Otto III met Bolesław in Gniezno in 1000"
+  },
+  "stance": "supports"
+}

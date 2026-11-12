@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "song-zhenzong-term-interval-accession",
+  "assertionId": "song-zhenzong-term-interval",
+  "candidateId": "adopted",
+  "sourceId": "people-zhenzong",
+  "locator": {
+    "reference": "正文：至道三年（997）赵恒即位"
+  },
+  "stance": "supports"
+}

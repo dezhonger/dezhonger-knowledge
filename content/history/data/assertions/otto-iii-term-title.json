@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "otto-iii-term-title",
+  "target": {
+    "type": "RulerTerm",
+    "id": "otto-iii-term",
+    "path": "/title"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

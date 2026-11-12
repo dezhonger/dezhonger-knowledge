@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "chanyuan-covenant-participants",
+  "target": {
+    "type": "Event",
+    "id": "chanyuan-covenant",
+    "path": "/participants"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

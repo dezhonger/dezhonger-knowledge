@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "song-zhenzong-term-person-id",
+  "target": {
+    "type": "RulerTerm",
+    "id": "song-zhenzong-term",
+    "path": "/personId"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

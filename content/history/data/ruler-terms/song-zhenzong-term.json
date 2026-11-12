@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "song-zhenzong-term",
+  "personId": "song-zhenzong",
+  "politicalEntityId": "northern-song",
+  "title": "皇帝",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "至道三年（997年）即位",
+        "calendar": "chinese-lunisolar"
+      },
+      "normalized": {
+        "year": 997
+      },
+      "precision": "year",
+      "conversion": {
+        "method": "来源同时给出对应公元年",
+        "sourceIds": [
+          "people-zhenzong"
+        ]
+      }
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1022年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1023
+      },
+      "precision": "year"
+    }
+  }
+}

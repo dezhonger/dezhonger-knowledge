@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "gniezno-meeting-participants-biography",
+  "assertionId": "gniezno-meeting-participants",
+  "candidateId": "adopted",
+  "sourceId": "ndb-otto",
+  "locator": {
+    "reference": "Biographie: pilgrimage to Gnesen, February 1000; meeting with Boleslaw"
+  },
+  "stance": "supports"
+}

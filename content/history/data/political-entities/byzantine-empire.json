@@ -1,0 +1,77 @@
+{
+  "schemaVersion": 1,
+  "id": "byzantine-empire",
+  "name": "拜占庭帝国（君士坦丁堡政权）",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "公元330年",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 330
+      },
+      "precision": "circa"
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1453年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1454
+      },
+      "precision": "year"
+    }
+  },
+  "regionIds": [
+    "europe-mediterranean"
+  ],
+  "articleId": "byzantine-empire",
+  "presenceIntervals": [
+    {
+      "start": {
+        "original": {
+          "text": "公元330年",
+          "calendar": "proleptic-gregorian"
+        },
+        "normalized": {
+          "year": 330
+        },
+        "precision": "circa"
+      },
+      "endExclusive": {
+        "original": {
+          "text": "公元1204年之后的半开上界",
+          "calendar": "proleptic-gregorian"
+        },
+        "normalized": {
+          "year": 1205
+        },
+        "precision": "year"
+      }
+    },
+    {
+      "start": {
+        "original": {
+          "text": "公元1261年",
+          "calendar": "proleptic-gregorian"
+        },
+        "normalized": {
+          "year": 1261
+        },
+        "precision": "year"
+      },
+      "endExclusive": {
+        "original": {
+          "text": "公元1453年之后的半开上界",
+          "calendar": "proleptic-gregorian"
+        },
+        "normalized": {
+          "year": 1454
+        },
+        "precision": "year"
+      }
+    }
+  ]
+}

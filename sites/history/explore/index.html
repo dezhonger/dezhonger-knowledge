@@ -1,0 +1,24 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="在多地区并行时间谱中查看有来源的政权、君主和历史事件。">
+  <title>时间探索 · HISTORY ATLAS</title>
+  <link rel="stylesheet" href="/assets/atlas.css?v=b3a549dc1f5c">
+  <link rel="stylesheet" href="/assets/explore.css?v=b3a549dc1f5c">
+  <script type="module" src="/explore/explore.js?v=b3a549dc1f5c"></script>
+</head>
+<body class="explore-page">
+  <a class="skip-link" href="#main">跳转到正文</a>
+  <header class="atlas-header"><a class="atlas-brand" href="/"><span class="brand-seal">史</span><span>HISTORY <b>ATLAS</b><small>时间 · 空间 · 证据</small></span></a><nav aria-label="历史站导航"><a href="/">首页</a><a aria-current="page" href="/explore/">时间探索</a></nav><span class="header-edition">CHRONOLOGY / 960—1279</span></header>
+  <main id="main">
+    <section class="explore-masthead" aria-labelledby="page-title"><div class="explore-lead"><p class="eyebrow">THE CONCURRENT WORLD</p><h1 id="page-title">横看一刻，<br><em>纵览千年。</em></h1><p>用同一条时间标尺，看见中国与欧洲及地中海地区的政权跨度。点选年份、政权或事件，沿来源继续阅读。</p><a class="masthead-shortcut" href="#time-control">进入时间谱 ↓</a></div><div class="explore-map"><img src="/assets/world-land.svg?v=b3a549dc1f5c" alt="Natural Earth 现代海岸线参考图；不是历史政权疆域"><div class="map-caption"><span>GEOGRAPHIC REFERENCE</span><strong>地图尚无历史疆域</strong><small>现代海岸线仅用于定位；不描绘任何政权边界。</small></div><nav id="explore-map-regions" class="explore-map-regions" aria-label="聚焦样本地区"></nav><span class="map-source">LAND / NATURAL EARTH · PUBLIC DOMAIN</span></div></section>
+    <section class="timeline-section" id="time-control" aria-labelledby="timeline-title"><div class="timeline-heading"><div><p class="section-label">01 / THE CHRONOMETER</p><h2 id="timeline-title">同一条时间，多个世界。</h2><p>横向跨度与事件针来自现有来源数据。年份游标同时更新下方的政权和君主。</p></div><div class="year-console"><span>当前年份 / YEAR</span><strong id="year-value">1000</strong><div><button id="year-back" type="button" aria-label="前十年">− 10</button><button id="year-forward" type="button" aria-label="后十年">+ 10</button></div></div></div><div class="timeline-key"><span><i class="key-bar key-china"></i>中国</span><span><i class="key-bar key-europe"></i>欧洲与地中海</span><span><i class="key-event"></i>已核实事件</span><span><i class="key-cursor"></i>所选年份</span></div><div class="timeline-viewport" id="timeline-viewport"><div class="timeline-plot" id="timeline-plot" aria-label="多地区历史时间谱，可点击背景选择年份"><div class="timeline-axis" id="timeline-axis"></div><div class="timeline-event-strip" id="timeline-events"></div><div class="timeline-lanes" id="timeline-lanes"></div><div class="timeline-cursor" id="timeline-cursor" aria-hidden="true"><span></span></div></div></div><div class="timeline-secondary"><label for="year-slider">精细调整年份</label><input id="year-slider" type="range" min="960" max="1279" value="1000" step="1" aria-label="选择公元年份"><span>960</span><span>1279</span></div><p class="timeline-note">以年为粒度：选中某年表示当年有一段时间存在或在位。条形在研究窗口边缘裁切，旁边仍标出政权的完整年代。未收录的政权与君主不等于当时不存在。</p></section>
+    <section class="current-records" aria-labelledby="current-title"><div class="record-heading"><div><p class="section-label">02 / AT THIS YEAR</p><h2 id="current-title">此刻的政权与人物</h2></div><p id="result-summary" aria-live="polite">正在读取历史记录…</p></div><div id="region-groups" class="region-groups"></div></section>
+    <section class="event-register" aria-labelledby="events-title"><div><p class="section-label">03 / EVENT REGISTER</p><h2 id="events-title">这一年的事件</h2><p>事件针与资料页互相连通；没有记录时明确留白。</p></div><div id="event-list" aria-live="polite"></div></section>
+    <aside class="explore-method"><strong>资料边界</strong><p>当前只展示少量可溯源样本。详情页列出采用的历史断言、其他候选值和具体资料位置。历史疆域图层尚未经过来源与许可核验。</p><a href="/">返回首页 ↗</a></aside>
+  </main>
+  <footer class="atlas-footer"><span>HISTORY ATLAS · 时间、空间与证据</span><span>地理参考：Natural Earth · 非历史边界</span><a href="/">返回首页 ↑</a></footer>
+</body>
+</html>

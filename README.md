@@ -8,7 +8,8 @@ A single repository for Dezhonger's independently addressed content sites:
 - `zmq.dezhonger.com` and `rby.dezhonger.com`: original illustrated theme pages.
 - `math.dezhonger.com` and `algo.dezhonger.com`: mathematics, algorithms, machine learning and LLM learning paths.
 - `english.dezhonger.com`: a content-first English learning site with vocabulary, layered grammar, practical expressions, device speech and local search.
-- `biology.dezhonger.com`, `geography.dezhonger.com`, `physics.dezhonger.com`, `chemistry.dezhonger.com` and `history.dezhonger.com`: junior/senior subject learning sites; science sites include competition paths and Chemistry includes an interactive periodic table.
+- `biology.dezhonger.com`, `geography.dezhonger.com`, `physics.dezhonger.com` and `chemistry.dezhonger.com`: junior/senior subject learning sites; science sites include competition paths and Chemistry includes an interactive periodic table.
+- `history.dezhonger.com`: HISTORY ATLAS, an independent sourced history exploration site with a parallel timeline and polity, person and event pages.
 
 ## Local development
 
@@ -20,6 +21,28 @@ npm run dev
 The Knowledge dev server runs at `/`. Run `npm run dev:guwen` for the classical literature site or `npm run dev:puzzle` for the Puzzle Library.
 
 ## Build
+
+The history atlas has an independent static source under `content/history/` and
+generator under `scripts/history/`. It owns `sites/history/index.html` and
+everything under `/explore/`, including the year explorer, JSON index, and
+sourced detail pages. The shared subject generator does not generate history.
+The history generator removes stale course pages and assets from earlier local
+builds before writing Atlas pages. The content Nginx has a history-only server
+block, so removed paths return real 404 responses after the next deployment.
+
+```bash
+npm run validate:history
+npm run test:history
+npm run generate:history
+```
+
+Open the site through a local static HTTP server (for example,
+`python3 -m http.server 8000 --directory sites/history`) at
+`http://localhost:8000/`; the time explorer is `/explore/`. The full image
+build copies the builder output.
+The year explorer initially shows 1000 CE; the `year` query parameter selects
+another year in the 960–1279 study window. Source records and review decisions
+are maintained separately from Markdown articles and page templates.
 
 ```bash
 npm run build

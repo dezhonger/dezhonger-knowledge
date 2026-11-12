@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-shengzong-term-interval",
+  "target": {
+    "type": "RulerTerm",
+    "id": "liao-shengzong-term",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

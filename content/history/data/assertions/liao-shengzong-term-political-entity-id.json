@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-shengzong-term-political-entity-id",
+  "target": {
+    "type": "RulerTerm",
+    "id": "liao-shengzong-term",
+    "path": "/politicalEntityId"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

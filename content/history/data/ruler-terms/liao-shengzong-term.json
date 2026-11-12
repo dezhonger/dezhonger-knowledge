@@ -1,0 +1,41 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-shengzong-term",
+  "personId": "liao-shengzong",
+  "politicalEntityId": "liao",
+  "title": "皇帝",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "乾亨四年（982年）即位",
+        "calendar": "chinese-lunisolar"
+      },
+      "normalized": {
+        "year": 982
+      },
+      "precision": "year",
+      "conversion": {
+        "method": "来源同时给出对应公元年",
+        "sourceIds": [
+          "dpm-shengzong"
+        ]
+      }
+    },
+    "endExclusive": {
+      "original": {
+        "text": "太平十一年（1031年）之后的半开上界",
+        "calendar": "chinese-lunisolar"
+      },
+      "normalized": {
+        "year": 1032
+      },
+      "precision": "year",
+      "conversion": {
+        "method": "来源同时给出对应公元年；半开上界另加一年",
+        "sourceIds": [
+          "dpm-shengzong"
+        ]
+      }
+    }
+  }
+}

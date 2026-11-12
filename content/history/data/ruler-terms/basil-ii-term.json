@@ -1,0 +1,29 @@
+{
+  "schemaVersion": 1,
+  "id": "basil-ii-term",
+  "personId": "basil-ii",
+  "politicalEntityId": "byzantine-empire",
+  "title": "皇帝",
+  "interval": {
+    "start": {
+      "original": {
+        "text": "公元976年",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 976
+      },
+      "precision": "year"
+    },
+    "endExclusive": {
+      "original": {
+        "text": "公元1025年之后的半开上界",
+        "calendar": "proleptic-gregorian"
+      },
+      "normalized": {
+        "year": 1026
+      },
+      "precision": "year"
+    }
+  }
+}

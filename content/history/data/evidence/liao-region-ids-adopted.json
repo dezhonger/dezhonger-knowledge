@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-region-ids-adopted",
+  "assertionId": "liao-region-ids",
+  "candidateId": "adopted",
+  "sourceId": "met-china",
+  "locator": {
+    "reference": "Timeline: Northern Song dynasty; Liao dynasty"
+  },
+  "stance": "supports"
+}

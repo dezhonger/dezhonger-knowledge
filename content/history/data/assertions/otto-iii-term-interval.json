@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "otto-iii-term-interval",
+  "target": {
+    "type": "RulerTerm",
+    "id": "otto-iii-term",
+    "path": "/interval"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

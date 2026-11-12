@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "boleslaw-i-name",
+  "target": {
+    "type": "Person",
+    "id": "boleslaw-i",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

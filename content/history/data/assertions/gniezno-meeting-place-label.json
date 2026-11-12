@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "gniezno-meeting-place-label",
+  "target": {
+    "type": "Event",
+    "id": "gniezno-meeting",
+    "path": "/placeLabel"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

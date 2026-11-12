@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-shengzong-name",
+  "target": {
+    "type": "Person",
+    "id": "liao-shengzong",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

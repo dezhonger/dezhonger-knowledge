@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "chanyuan-covenant-name-museum",
+  "assertionId": "chanyuan-covenant-name",
+  "candidateId": "adopted",
+  "sourceId": "npm-chanyuan",
+  "locator": {
+    "reference": "展品說明：西元1005年遼宋簽訂澶淵之盟"
+  },
+  "stance": "supports"
+}

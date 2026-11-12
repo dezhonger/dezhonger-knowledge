@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "holy-roman-empire-name",
+  "target": {
+    "type": "PoliticalEntity",
+    "id": "holy-roman-empire",
+    "path": "/name"
+  },
+  "adoptedCandidateId": "adopted",
+  "reviewStatus": "reviewed"
+}

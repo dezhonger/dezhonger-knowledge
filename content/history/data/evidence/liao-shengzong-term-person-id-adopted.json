@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "id": "liao-shengzong-term-person-id-adopted",
+  "assertionId": "liao-shengzong-term-person-id",
+  "candidateId": "adopted",
+  "sourceId": "dpm-shengzong",
+  "locator": {
+    "reference": "词条正文：乾亨四年、太平十一年"
+  },
+  "stance": "supports"
+}
