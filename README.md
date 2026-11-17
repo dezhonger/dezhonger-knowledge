@@ -6,7 +6,7 @@ A single repository for Dezhonger's independently addressed content sites:
 - `puzzle.dezhonger.com` has moved to the separate `puzzle-library` repository (Cloudflare Pages); do not add puzzle content here.
 - `guwen.dezhonger.com`: Chinese classical literature, powered by VitePress.
 - `zmq.dezhonger.com` and `rby.dezhonger.com`: original illustrated theme pages.
-- `math.dezhonger.com` and `algo.dezhonger.com`: mathematics, algorithms, machine learning and LLM learning paths.
+- `math.dezhonger.com` (Math Cabinet) and `algo.dezhonger.com` have moved to the separate `math-cabinet` and `algo-wiki` repositories (Cloudflare Pages); do not add math or algo content here.
 - `english.dezhonger.com`: a content-first English learning site with vocabulary, layered grammar, practical expressions, device speech and local search.
 - `biology.dezhonger.com`, `geography.dezhonger.com`, `physics.dezhonger.com` and `chemistry.dezhonger.com`: junior/senior subject learning sites; science sites include competition paths and Chemistry includes an interactive periodic table.
 - `history.dezhonger.com`: HISTORY ATLAS, an independent sourced history exploration site with a parallel timeline and polity, person and event pages.
@@ -95,8 +95,7 @@ The textbook catalog and original texts are stored in `guwen/data/works.json`.
 
 The static subject sites live under `sites/`. Each hostname keeps its generated `index.html` and independent topic pages. Run `npm run generate:subjects` after editing the curriculum sources.
 
-- Mathematics is defined in `scripts/math-curriculum.mjs`: 7 paths, 31 chapters and 227 detailed topics.
-- The other subjects use `scripts/subject-data.mjs` plus `scripts/subject-expansions.mjs`.
+- The subjects use `scripts/subject-data.mjs` plus `scripts/subject-expansions.mjs`.
 - Each subject has its own visual language. Shared files only provide navigation, accessibility and responsive foundations.
 - Chemistry additionally loads `elements.js`; the checked-in element data was generated from PubChem's public periodic-table JSON with `npm run generate:elements`.
 

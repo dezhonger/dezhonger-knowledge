@@ -1,7 +1,6 @@
 import { copyFile, mkdir, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { subjects } from './subject-data.mjs'
-import { mathCurriculum } from './math-curriculum.mjs'
 import { expandSubjects } from './subject-expansions.mjs'
 import { generateEnglish } from './generate-english.mjs'
 
@@ -64,36 +63,6 @@ async function renderGeneric(slug, subject) {
   if(subject.special==='periodic-table') await copyFile(resolve(root,'sites/shared/elements.js'),resolve(directory,'elements.js'))
 }
 
-async function renderMath() {
-  const slug='math',directory=resolve(root,'sites/math'),topicsDir=resolve(directory,'topics');await mkdir(topicsDir,{recursive:true})
-  let chapterTotal=0,topicTotal=0;const sections=[],toc=[];const flat=[]
-  for(const [sectionIndex,section] of mathCurriculum.entries()){
-    const sectionId=`section-${String(sectionIndex+1).padStart(2,'0')}`;toc.push(`<a href="#${sectionId}">${section.label}</a>`);const chapters=[]
-    for(const [chapterIndex,chapter] of section.chapters.entries()){
-      chapterTotal+=1;const links=[]
-      for(const [topicIndex,topic] of chapter.topics.entries()){
-        topicTotal+=1;const id=`m${String(sectionIndex+1).padStart(2,'0')}-${String(chapterIndex+1).padStart(2,'0')}-${String(topicIndex+1).padStart(2,'0')}`;flat.push({id,topic,section,chapter})
-        links.push(`<a class="topic-link" data-search="${escapeHtml(`${topic.title} ${topic.explanation} ${topic.rule} ${topic.formula}`)}" href="topics/${id}.html"><b>${String(topicIndex+1).padStart(2,'0')}</b><span>${escapeHtml(topic.title)}</span></a>`)
-      }
-      chapters.push(`<article class="math-chapter"><h3>${escapeHtml(chapter.title)}</h3><p class="chapter-summary">${escapeHtml(chapter.summary)}</p><div class="topic-index">${links.join('')}</div></article>`)
-    }
-    sections.push(`<section class="math-section" id="${sectionId}" data-stage="${section.stage}"><div class="math-section-head"><h2>${section.label}</h2><span>${section.chapters.length} 章 · ${section.chapters.reduce((n,c)=>n+c.topics.length,0)} 个知识点</span></div>${chapters.join('')}</section>`)
-  }
-  for(const [index,item] of flat.entries()){
-    const previous=flat[index-1],next=flat[index+1]
-    const sectionsHtml=[['概念解释',item.topic.explanation,''],['核心规律与条件',item.topic.rule,''],['公式与符号',item.topic.formula||'本知识点以概念关系和推理为主，没有需要孤立背诵的单一公式。','formula'],['例题或应用',item.topic.example,''],['常见易错点',item.topic.pitfall,'warning'],['自检问题',`请尝试解释“${item.topic.title}”解决什么问题、成立需要哪些条件，并仿照例子完成一个同类问题。`,'']]
-    const body=sectionsHtml.map(([title,copy,type])=>`<section class="topic-section ${type}"><h2>${title}</h2><p>${escapeHtml(copy)}</p></section>`).join('')
-    const html=`${pageHead(`${item.topic.title}｜数学`,item.topic.explanation,['../learning-base.css','../math.css'])}<body data-subject="math">${header('math','数学')}<main class="math-topic-page"><a class="back-link" href="../index.html">← 返回数学知识树</a><p class="kicker">${escapeHtml(item.section.label)} / ${escapeHtml(item.chapter.title)}</p><h1>${escapeHtml(item.topic.title)}</h1><p class="topic-meta">${escapeHtml(item.chapter.summary)}</p>${body}<nav class="topic-nav">${previous?`<a href="${previous.id}.html">← ${escapeHtml(previous.topic.title)}</a>`:'<span></span>'}${next?`<a href="${next.id}.html">${escapeHtml(next.topic.title)} →</a>`:''}</nav></main><footer>数学 · 概念、条件、公式、例题与易错点</footer></body></html>`
-    await writeFile(resolve(topicsDir,`${item.id}.html`),`${html}\n`)
-  }
-  const html=`${pageHead('数学知识体系','覆盖初中、高中及拓展数学的完整知识树，每个知识点有独立详细页面。',['learning-base.css','math.css'])}<body data-subject="math">${header('math','数学')}<div class="math-layout"><aside class="math-toc"><strong>MATHEMATICS INDEX</strong>${toc.join('')}</aside><main class="math-main"><section class="hero"><div><p class="eyebrow">MATHEMATICS / STRUCTURE & PROOF</p><h1>数学知识体系</h1><p class="lead">覆盖初中、高中课程主线，并包含极坐标、参数方程、微积分和线性代数拓展。每个知识点均有概念、条件、公式、例题和易错点。</p></div><label class="search-box"><span>搜索 227 个知识点</span><input id="math-search" type="search" placeholder="例如：极坐标、韦达定理"></label></section><div class="stats"><div class="stat"><strong>${mathCurriculum.length}</strong><span>条学习路径</span></div><div class="stat"><strong>${chapterTotal}</strong><span>个章节</span></div><div class="stat"><strong id="math-visible">${topicTotal}</strong><span>个知识点</span></div></div><div id="math-content">${sections.join('')}</div><p id="math-empty" class="empty-state" hidden>没有匹配的知识点。</p></main></div><footer>数学 · 完整课程知识树与拓展专题</footer><script src="math.js?v=${assetVersion}"></script></body></html>`
-  await writeFile(resolve(directory,'index.html'),`${html}\n`)
-  await copyFile(resolve(root,'sites/shared/learning-base.css'),resolve(directory,'learning-base.css'))
-  await copyFile(resolve(root,'sites/shared/math.css'),resolve(directory,'math.css'))
-  await copyFile(resolve(root,'sites/shared/math.js'),resolve(directory,'math.js'))
-}
-
-await renderMath()
 for(const [slug,subject] of Object.entries(subjects)) if(slug!=='math' && slug!=='algo') await renderGeneric(slug,subject)
 await generateEnglish()
-console.log(`Generated mathematics, English and ${Object.keys(subjects).length-1} other subject sites`)
+console.log(`Generated English and ${Object.keys(subjects).filter((s)=>s!=="math"&&s!=="algo").length} other subject sites`)
