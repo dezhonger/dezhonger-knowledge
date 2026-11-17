@@ -25,24 +25,6 @@ const sites = {
       },
     },
   },
-  puzzle: {
-    root: 'puzzle',
-    outDir: 'puzzle/.vitepress/dist',
-    baseUrl: 'https://puzzle.dezhonger.com/',
-    contentDirectories: ['notes', 'puzzles'],
-    locales: {
-      en: {
-        language: 'en',
-        title: 'Puzzle Library',
-        description: 'Curious problems, puzzles, and notes about beautiful ideas.',
-      },
-      zh: {
-        language: 'zh-CN',
-        title: '谜题库',
-        description: '值得思考的谜题、问题与思想笔记。',
-      },
-    },
-  },
 }
 
 async function findMarkdownFiles(directory) {

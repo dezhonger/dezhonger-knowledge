@@ -7,7 +7,6 @@ COPY package.json package-lock.json ./
 RUN npm ci
 COPY docs ./docs
 COPY guwen ./guwen
-COPY puzzle ./puzzle
 COPY content ./content
 COPY scripts ./scripts
 COPY sites ./sites
@@ -18,7 +17,6 @@ FROM nginx:1.29-alpine
 COPY deploy/nginx.conf /etc/nginx/conf.d/default.conf
 COPY --from=builder /src/docs/.vitepress/dist/ /usr/share/nginx/html/knowledge/
 COPY --from=builder /src/guwen/.vitepress/dist/ /usr/share/nginx/html/guwen/
-COPY --from=builder /src/puzzle/.vitepress/dist/ /usr/share/nginx/html/puzzle/
 COPY sites/zmq/ /usr/share/nginx/html/zmq/
 COPY sites/rby/ /usr/share/nginx/html/rby/
 COPY sites/math/ /usr/share/nginx/html/math/
