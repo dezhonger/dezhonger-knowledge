@@ -25,5 +25,8 @@ COPY sites/chemistry/ /usr/share/nginx/html/chemistry/
 COPY --from=builder /src/sites/history/ /usr/share/nginx/html/history/
 COPY sites/shared/base.css /usr/share/nginx/html/zmq/base.css
 COPY sites/shared/base.css /usr/share/nginx/html/rby/base.css
+# Normalize permissions so files uploaded with a restrictive umask stay readable by nginx.
+RUN find /usr/share/nginx/html -type d -exec chmod 755 {} + \
+ && find /usr/share/nginx/html -type f -exec chmod 644 {} +
 HEALTHCHECK --interval=30s --timeout=5s --retries=3 \
   CMD wget -q --header='Host: knowledge.dezhonger.com' -O - http://127.0.0.1/ >/dev/null || exit 1
