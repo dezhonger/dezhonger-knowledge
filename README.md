@@ -7,7 +7,7 @@ A single repository for Dezhonger's independently addressed content sites:
 - `guwen.dezhonger.com`: Chinese classical literature, powered by VitePress.
 - `zmq.dezhonger.com` and `rby.dezhonger.com`: original illustrated theme pages.
 - `math.dezhonger.com` (Math Cabinet) and `algo.dezhonger.com` have moved to the separate `math-cabinet` and `algo-wiki` repositories (Cloudflare Pages); do not add math or algo content here.
-- `english.dezhonger.com`: a content-first English learning site with vocabulary, layered grammar, practical expressions, device speech and local search.
+- `english.dezhonger.com` has moved to the separate `english-learning` repository (its own `english` container on the same server); do not add English content here.
 - `biology.dezhonger.com`, `geography.dezhonger.com`, `physics.dezhonger.com` and `chemistry.dezhonger.com`: junior/senior subject learning sites; science sites include competition paths and Chemistry includes an interactive periodic table.
 - `history.dezhonger.com`: HISTORY ATLAS, an independent sourced history exploration site with a parallel timeline and polity, person and event pages.
 
@@ -105,20 +105,7 @@ The static subject sites live under `sites/`. Each hostname keeps its generated 
 
 ## English learning site
 
-English remains a generated HTML / native JavaScript / CSS site. Its single sources of truth are under `content/english/`: alphabetic JSONL word shards and non-duplicated editorial JSON entries, JSON expressions, Markdown grammar topics with depth layers, and a shared taxonomy. See [the Chinese content authoring guide](content/english/README.md).
-
-```bash
-npm run dev:english       # generate and preview at http://127.0.0.1:5176
-npm run build:english     # source/schema checks, generation and output validation
-npm run test:english      # content, search, speech, pagination and local HTTP tests
-npm run preview:english  # preview the existing generated output
-```
-
-`generate:subjects` delegates English to `scripts/generate-english.mjs`; it cannot overwrite the site with the retired review UI. The generator validates a temporary output directory before replacing `sites/english/`. CSS and modules use content-hashed assets. Search and practice JSON use stable schema-versioned URLs under `/data/`, revalidated on load; known old data URLs remain readable for cached clients. The homepage contains only the three main categories. Main content is rendered in HTML; speech and search use browser capabilities.
-
-The site contains 13,827 unique words, including eight complete source wordlists and expanded everyday, people, nature, society, public safety and sports topics, 6 grammar topics with 14 depth layers, and 38 expressions. Sports is a top-level browsing topic with badminton and basketball sections. Random practice draws 1–500 unique words from one level, hides Chinese meanings until requested, and paginates large sessions. It uses independent English Learning branding and has no links to other content domains. Source versions, licenses and coverage are documented under `content/english/`. No account or persistent progress system is included.
-
-English has dedicated Nginx rules for real 404s, a generated XML sitemap and robots.txt. Docker copies English from the builder stage, so source changes reach the actual image. `sites/english/` is generated and excluded from Git and Docker input; the image always builds it from source. Large dictionary assets use gzip. `test:english` tests those Nginx rules when a local nginx executable is available; otherwise that single test is explicitly skipped.
+`english.dezhonger.com` 已迁移到独立仓库 [dezhonger/english-learning](https://github.com/dezhonger/english-learning)，在同一台服务器上以独立的 `english` 容器运行（`~/english`），本仓库不再生成或部署英语站。
 
 ## Deployment
 

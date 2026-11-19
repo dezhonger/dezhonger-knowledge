@@ -10,7 +10,6 @@ COPY guwen ./guwen
 COPY content ./content
 COPY scripts ./scripts
 COPY sites ./sites
-COPY LICENSES ./LICENSES
 RUN npm run build:all
 
 FROM nginx:1.29-alpine
@@ -19,7 +18,6 @@ COPY --from=builder /src/docs/.vitepress/dist/ /usr/share/nginx/html/knowledge/
 COPY --from=builder /src/guwen/.vitepress/dist/ /usr/share/nginx/html/guwen/
 COPY sites/zmq/ /usr/share/nginx/html/zmq/
 COPY sites/rby/ /usr/share/nginx/html/rby/
-COPY --from=builder /src/sites/english/ /usr/share/nginx/html/english/
 COPY sites/biology/ /usr/share/nginx/html/biology/
 COPY sites/geography/ /usr/share/nginx/html/geography/
 COPY sites/physics/ /usr/share/nginx/html/physics/

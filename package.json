@@ -19,18 +19,7 @@
     "build": "vitepress build docs && node scripts/generate-feeds.mjs knowledge",
     "build:guwen": "npm run generate:guwen && vitepress build guwen",
     "build:all": "npm run generate:subjects && npm run generate:history && npm run build && npm run build:guwen",
-    "preview": "vitepress preview docs --host 127.0.0.1",
-    "generate:english": "node scripts/generate-english.mjs",
-    "validate:english": "node scripts/validate-english.mjs",
-    "test:english": "node --test scripts/english/*.test.mjs",
-    "check:english": "node scripts/english/check.mjs",
-    "build:english": "npm run check:english && npm run generate:english",
-    "dev:english": "npm run generate:english && node scripts/english/preview.mjs",
-    "preview:english": "node scripts/english/preview.mjs",
-    "import:english": "node scripts/import-english-vocabulary.mjs",
-    "import:english:sports": "node scripts/import-english-sports-vocabulary.mjs",
-    "import:english:topics": "node scripts/import-english-topic-expansions.mjs",
-    "pretest:english": "node scripts/generate-english.mjs"
+    "preview": "vitepress preview docs --host 127.0.0.1"
   },
   "devDependencies": {
     "@fontsource/ibm-plex-mono": "^5.3.0",

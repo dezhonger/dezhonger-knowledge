@@ -2,7 +2,6 @@ import { copyFile, mkdir, writeFile } from 'node:fs/promises'
 import { resolve } from 'node:path'
 import { subjects } from './subject-data.mjs'
 import { expandSubjects } from './subject-expansions.mjs'
-import { generateEnglish } from './generate-english.mjs'
 
 expandSubjects(subjects)
 
@@ -64,5 +63,4 @@ async function renderGeneric(slug, subject) {
 }
 
 for(const [slug,subject] of Object.entries(subjects)) if(slug!=='math' && slug!=='algo') await renderGeneric(slug,subject)
-await generateEnglish()
-console.log(`Generated English and ${Object.keys(subjects).filter((s)=>s!=="math"&&s!=="algo").length} other subject sites`)
+console.log(`Generated ${Object.keys(subjects).filter((s)=>s!=="math"&&s!=="algo").length} other subject sites`)
